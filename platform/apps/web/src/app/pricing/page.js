@@ -43,10 +43,10 @@ export default function PricingPage() {
             Transparent Pricing
           </Badge>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 max-w-3xl text-[#0a2540]">
-            Unlock the complete intelligence layer
+            The intelligence layer for federal procurement.
           </h1>
           <p className="text-lg text-muted-foreground max-w-xl mb-16">
-            Choose the perfect plan for your procurement team. Scale as you grow.
+            Predictable pricing. Uncompromising power. Scale your capture strategy with data-driven precision.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 w-full max-w-6xl items-start text-left">
@@ -54,7 +54,7 @@ export default function PricingPage() {
             <Card className="flex flex-col h-full shadow-stripe">
               <CardHeader>
                 <CardTitle className="text-xl">Starter</CardTitle>
-                <CardDescription>For individuals tracking basics.</CardDescription>
+                <CardDescription>Essential intelligence for individual capture managers.</CardDescription>
                 <div className="mt-4 mb-2">
                   <span className="text-4xl font-bold">$0</span>
                   <span className="text-muted-foreground">/mo</span>
@@ -62,10 +62,10 @@ export default function PricingPage() {
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3 text-sm">
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Weekly email digest</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Limited search (5/day)</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Top 10 renewals</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Basic department overview</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Weekly market intelligence digest</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> 5 specialized queries per day</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Access top 10 upcoming renewals</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Departmental spending overviews</li>
                 </ul>
               </CardContent>
               <CardFooter>
@@ -76,7 +76,7 @@ export default function PricingPage() {
             </Card>
 
             {/* Professional */}
-            <Card className="flex flex-col h-full border-primary shadow-stripe relative md:-translate-y-4">
+            <Card className="flex flex-col h-full border-primary shadow-stripe relative md:-translate-y-4 overflow-visible">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                 <Badge className="px-3 py-1 uppercase tracking-wider text-xs">
                   Most Popular
@@ -84,7 +84,7 @@ export default function PricingPage() {
               </div>
               <CardHeader>
                 <CardTitle className="text-xl">Professional</CardTitle>
-                <CardDescription>For teams closing federal deals.</CardDescription>
+                <CardDescription>Advanced analytics for modern capture teams.</CardDescription>
                 <div className="mt-4 mb-2">
                   <span className="text-4xl font-bold">$199</span>
                   <span className="text-muted-foreground">/mo</span>
@@ -93,11 +93,11 @@ export default function PricingPage() {
               <CardContent className="flex-1">
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Starter</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Full renewal access (4,050)</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited search</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> All intelligence products</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> AI analyst</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> CSV/PDF export</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unrestricted renewal database access</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited semantic search & filtering</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Full intelligence product suite</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> AI-powered capture analyst</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> One-click CSV & PDF exports</li>
                 </ul>
               </CardContent>
               <CardFooter>
@@ -111,7 +111,7 @@ export default function PricingPage() {
             <Card className="flex flex-col h-full shadow-stripe">
               <CardHeader>
                 <CardTitle className="text-xl">Enterprise</CardTitle>
-                <CardDescription>For large organizations.</CardDescription>
+                <CardDescription>Uncompromising scale for enterprise integrators.</CardDescription>
                 <div className="mt-4 mb-2">
                   <span className="text-4xl font-bold">Custom</span>
                 </div>
@@ -119,10 +119,10 @@ export default function PricingPage() {
               <CardContent className="flex-1">
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Professional</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Multi-seat (5+)</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited API</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom integrations</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Dedicated support</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom team deployment (5+ seats)</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited programmatic API access</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom CRM & pipeline integrations</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Dedicated deployment engineering</li>
                 </ul>
               </CardContent>
               <CardFooter>
