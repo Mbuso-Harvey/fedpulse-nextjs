@@ -54,7 +54,7 @@ export default function PricingPage() {
             <Card className="flex flex-col h-full shadow-stripe">
               <CardHeader>
                 <CardTitle className="text-xl">Starter</CardTitle>
-                <CardDescription>Essential intelligence for individual capture managers.</CardDescription>
+                <CardDescription>Basic search and discovery capabilities.</CardDescription>
                 <div className="mt-4 mb-2">
                   <span className="text-4xl font-bold">$0</span>
                   <span className="text-muted-foreground">/mo</span>
@@ -62,10 +62,8 @@ export default function PricingPage() {
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3 text-sm">
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Weekly market intelligence digest</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> 5 specialized queries per day</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Access top 10 upcoming renewals</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Departmental spending overviews</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Basic Search</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> 3 Saved Searches</li>
                 </ul>
               </CardContent>
               <CardFooter>
@@ -83,21 +81,19 @@ export default function PricingPage() {
                 </Badge>
               </div>
               <CardHeader>
-                <CardTitle className="text-xl">Professional</CardTitle>
-                <CardDescription>Advanced analytics for modern capture teams.</CardDescription>
+                <CardTitle className="text-xl">Intelligence Pro</CardTitle>
+                <CardDescription>Full intelligence suite for capture teams.</CardDescription>
                 <div className="mt-4 mb-2">
-                  <span className="text-4xl font-bold">$199</span>
+                  <span className="text-4xl font-bold">$299</span>
                   <span className="text-muted-foreground">/mo</span>
                 </div>
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Starter</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unrestricted renewal database access</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited semantic search & filtering</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Full intelligence product suite</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> AI-powered capture analyst</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> One-click CSV & PDF exports</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited Saved Searches</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Export Center Access</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Early Access Features</li>
                 </ul>
               </CardContent>
               <CardFooter>
@@ -111,18 +107,18 @@ export default function PricingPage() {
             <Card className="flex flex-col h-full shadow-stripe">
               <CardHeader>
                 <CardTitle className="text-xl">Enterprise</CardTitle>
-                <CardDescription>Uncompromising scale for enterprise integrators.</CardDescription>
+                <CardDescription>Dedicated solutions for large organizations.</CardDescription>
                 <div className="mt-4 mb-2">
-                  <span className="text-4xl font-bold">Custom</span>
+                  <span className="text-4xl font-bold">$999</span>
+                  <span className="text-muted-foreground">/mo</span>
                 </div>
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3 text-sm">
-                  <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Professional</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom team deployment (5+ seats)</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited programmatic API access</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom CRM & pipeline integrations</li>
-                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Dedicated deployment engineering</li>
+                  <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Intelligence Pro</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> API Access</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom Integrations</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Dedicated Success Manager</li>
                 </ul>
               </CardContent>
               <CardFooter>

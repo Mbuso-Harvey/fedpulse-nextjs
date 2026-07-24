@@ -117,7 +117,7 @@ export default function AboutPage() {
             </Card>
             <Card className="shadow-stripe flex flex-col items-start border-[#e6ebf1]">
               <CardHeader>
-                <Badge variant="outline" className="mb-4 bg-amber-50 text-amber-700 border-amber-200">Bronze Tier</Badge>
+                <Badge variant="outline" className="mb-4 bg-orange-50 text-orange-700 border-orange-200">Bronze Tier</Badge>
                 <CardTitle>Forward Analytics</CardTitle>
               </CardHeader>
               <CardContent>
@@ -170,7 +170,7 @@ export default function AboutPage() {
         <div className="container max-w-4xl text-center px-6">
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">Command your pipeline.</h2>
           <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Stop guessing. Outmaneuver the competition with decisive, data-driven intelligence.</p>
-          <Link href="/signup" className={buttonVariants({ variant: "default", size: "lg", className: "bg-white text-[#0a2540] hover:bg-slate-100 font-semibold px-8 h-12 text-base shadow-lg" })}>
+          <Link href="/signup" className={buttonVariants({ variant: "secondary", size: "lg", className: "bg-white text-[#0a2540] hover:bg-slate-100 hover:text-[#0a2540] font-semibold px-8 h-12 text-base shadow-lg" })}>
             Deploy FedPulse
           </Link>
         </div>
