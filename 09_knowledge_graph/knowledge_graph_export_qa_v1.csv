@@ -1,0 +1,10 @@
+qa_metric_id,metric_name,metric_value,target_value,status,notes,created_at
+KGEXPQA-000001,export_files_created,9,9,pass,All required graph distribution exports should exist.,2026-06-29 15:40:03
+KGEXPQA-000002,empty_export_files,0,0,pass,Export files should not be empty.,2026-06-29 15:40:03
+KGEXPQA-000003,node_export_rows,29,29,pass,Node export row count should match KG nodes.,2026-06-29 15:40:03
+KGEXPQA-000004,edge_export_rows,44,44,pass,Edge export row count should match KG edges.,2026-06-29 15:40:03
+KGEXPQA-000005,neo4j_node_rows,29,29,pass,Neo4j node rows should match exported nodes.,2026-06-29 15:40:03
+KGEXPQA-000006,neo4j_relationship_rows,44,44,pass,Neo4j relationship rows should match exported edges.,2026-06-29 15:40:03
+KGEXPQA-000007,search_index_rows,29,29,pass,Search index should include one row per graph node.,2026-06-29 15:40:03
+KGEXPQA-000008,ai_context_nodes,29,29,pass,AI context should include one context object per graph node.,2026-06-29 15:40:03
+KGEXPQA-000009,rdf_triples,160,>= 73,pass,RDF should include node properties and relationship triples.,2026-06-29 15:40:03

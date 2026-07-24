@@ -1,0 +1,2 @@
+assessment_id,complexity_score,bid_readiness_score,supplier_fit_score,capture_score,critical_compliance_gaps,high_compliance_gaps,top_similarity_score,pricing_recommendation_count,delivery_gap_count,commercial_risk_score,pricing_risk_band,pricing_confidence_score,pricing_position,created_at
+PRICEASS-000001,98.0,90.0,78.4,65.11,3.0,2.0,72.5,1,2,86.72,high,71.83,pricing_requires_review,2026-07-04 11:11:53

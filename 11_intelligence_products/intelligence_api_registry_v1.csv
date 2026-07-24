@@ -1,0 +1,9 @@
+api_id,api_name,product_name,base_endpoint,status,created_at
+API-000001,search,Semantic Graph Search,/api/search,planned,2026-06-29 17:04:15
+API-000002,ask,Procurement Question Answering,/api/ask,planned,2026-06-29 17:04:15
+API-000003,opportunity-intelligence,Opportunity Intelligence,/api/opportunities/intelligence,planned,2026-06-29 17:04:15
+API-000004,supplier-match,Supplier Intelligence,/api/suppliers/match,planned,2026-06-29 17:04:15
+API-000005,department-profile,Department Intelligence,/api/departments/profile,planned,2026-06-29 17:04:15
+API-000006,recommendations,Recommendation Engine,/api/recommendations,planned,2026-06-29 17:04:15
+API-000007,graph-analytics,Graph Analytics,/api/analytics/graph,planned,2026-06-29 17:04:15
+API-000008,analyst,AI Procurement Analyst,/api/analyst,planned,2026-06-29 17:04:15

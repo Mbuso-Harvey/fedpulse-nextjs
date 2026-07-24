@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-06-24 16:12:35",
+  "frameworks_processed": 15,
+  "frameworks_updated_by_recovery": 4,
+  "framework_type_counts_v2": {
+    "Unknown": 11,
+    "LPTA": 3,
+    "Best Value": 1
+  },
+  "confidence_bands_v2": {
+    "low": 11,
+    "medium": 3,
+    "high": 1
+  },
+  "outputs": {
+    "frameworks_v2": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_frameworks_v2.csv",
+    "integration_log": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_recovery_integration_log_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_recovery_integration_report_v1.md"
+  },
+  "next_sprint": "SAM-0007V Evaluation Coverage Re-Audit"
+}

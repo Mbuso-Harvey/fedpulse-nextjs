@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-07-05 06:01:03",
+  "wave": "Wave 12",
+  "pack": "Bootstrap - Launch Hardening",
+  "status": "completed",
+  "certification_status": "launch_hardening_bootstrap_certified",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "ready_areas": 3,
+  "not_ready_areas": 0,
+  "checklist_items": 6,
+  "dependencies": 3,
+  "launch_freeze_policy": "wave14_feature_freeze",
+  "post_launch_policy": "new_features_after_first_clients_only",
+  "qa": {
+    "pass": 5,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "readiness_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_readiness_registry_v1.csv",
+    "checklist_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_checklist_registry_v1.csv",
+    "certification_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_certification_registry_v1.csv",
+    "dependency_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_dependency_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave12_launch_hardening_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave12_bootstrap_launch_hardening_report_v1.md"
+  },
+  "next_script": "build_wave12_pack1_production_readiness_gate_v1.py"
+}

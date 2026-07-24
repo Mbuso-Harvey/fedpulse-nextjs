@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-06-17 20:19:44",
+  "review_rows_processed": 3862,
+  "approved_merge_decisions": 0,
+  "rejected_merge_decisions": 0,
+  "still_open_review_items": 3862,
+  "aliases_added_to_dictionary": 0,
+  "outputs": {
+    "updated_review_queue": "C:\\ProcurementIntelligence\\data\\quality\\supplier_resolution_review_queue_v2.csv",
+    "updated_alias_dictionary": "C:\\ProcurementIntelligence\\data\\quality\\supplier_alias_dictionary_v2.csv",
+    "updated_learning_log": "C:\\ProcurementIntelligence\\data\\quality\\supplier_resolution_learning_log_v2.csv"
+  },
+  "instructions": {
+    "how_to_approve": "Edit supplier_resolution_review_queue_v1.csv. Set decision=approve_merge. Optionally fill approved_supplier_master_id and approved_supplier_master_name.",
+    "how_to_reject": "Edit supplier_resolution_review_queue_v1.csv. Set decision=reject_merge.",
+    "important": "This script is safe to run even if no decisions have been entered yet."
+  }
+}

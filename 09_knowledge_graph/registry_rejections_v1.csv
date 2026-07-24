@@ -1,0 +1,9 @@
+rejection_id,pkv_version,source_type,source_id,family_name,subfamily_name,reason,confidence,expression_count,source_count,created_at
+REJ-000001,PKV-1.2,candidate_family,CEF-000013,Performance Work Statement,,requires_review,0.65,4,5,2026-06-27 11:09:39
+REJ-000002,PKV-1.2,candidate_family,CEF-000014,Market Research,,requires_review,0.65,2,2,2026-06-27 11:09:39
+REJ-000003,PKV-1.2,candidate_family,CEF-000015,Supplier Authorization,,low_confidence,0.5,1,1,2026-06-27 11:09:39
+REJ-000004,PKV-1.2,candidate_subfamily,CESF-000011,Past Performance Evidence,Contract Reference Evidence,requires_review,0.66,4,5,2026-06-27 11:09:39
+REJ-000005,PKV-1.2,candidate_subfamily,CESF-000012,Healthcare and Privacy,Healthcare Privacy and PHI,requires_review,0.66,4,4,2026-06-27 11:09:39
+REJ-000006,PKV-1.2,candidate_subfamily,CESF-000013,Market Research Notice,Non-Solicitation Notice Disclaimer,requires_review,0.66,3,3,2026-06-27 11:09:39
+REJ-000007,PKV-1.2,candidate_subfamily,CESF-000014,Supplier Authorization,Manufacturer Authorization and Grey Market,requires_review,0.66,3,3,2026-06-27 11:09:39
+REJ-000008,PKV-1.2,candidate_subfamily,CESF-000015,Product Availability,Vendor Product Capability,requires_review,0.66,2,2,2026-06-27 11:09:39

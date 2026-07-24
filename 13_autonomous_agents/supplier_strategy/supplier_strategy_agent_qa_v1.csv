@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+SUPSTRATQA-000001,session_rows,1,1,pass,2026-07-03 21:56:16
+SUPSTRATQA-000002,assessment_rows,1,1,pass,2026-07-03 21:56:16
+SUPSTRATQA-000003,improvement_rows,8,>= 1,pass,2026-07-03 21:56:16
+SUPSTRATQA-000004,roadmap_rows,5,>= 5,pass,2026-07-03 21:56:16
+SUPSTRATQA-000005,supplier_strategy_score,43.44,> 0,pass,2026-07-03 21:56:16
+SUPSTRATQA-000006,capability_rows_loaded,8,> 0,pass,2026-07-03 21:56:16

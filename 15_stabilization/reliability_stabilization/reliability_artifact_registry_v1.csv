@@ -1,0 +1,11 @@
+artifact_id,artifact_name,artifact_type,artifact_path,artifact_exists,status,created_at
+RELART-000001,Wave 13 Bootstrap,summary,C:\ProcurementIntelligence\exports\wave13_bootstrap_stabilization_v1_summary.json,true,available,2026-07-08 11:45:11
+RELART-000002,Production Readiness Gate,summary,C:\ProcurementIntelligence\exports\wave12_pack1_production_readiness_gate_v1_summary.json,true,available,2026-07-08 11:45:11
+RELART-000003,API Contract Validation,summary,C:\ProcurementIntelligence\exports\wave12_pack2_api_contract_validation_v1_summary.json,true,available,2026-07-08 11:45:11
+RELART-000004,Audit Observability,summary,C:\ProcurementIntelligence\exports\wave12_pack3_audit_observability_v1_summary.json,true,available,2026-07-08 11:45:11
+RELART-000005,Deployment Package,summary,C:\ProcurementIntelligence\exports\wave12_pack4_deployment_package_v1_summary.json,true,available,2026-07-08 11:45:11
+RELART-000006,Client Demo Readiness,summary,C:\ProcurementIntelligence\exports\wave12_pack5_client_demo_readiness_v1_summary.json,true,available,2026-07-08 11:45:11
+RELART-000007,Production Endpoint Registry,registry,C:\ProcurementIntelligence\12_production_api\production_endpoint_registry_v1.csv,true,available,2026-07-08 11:45:11
+RELART-000008,Production Service Registry,registry,C:\ProcurementIntelligence\12_production_api\production_service_registry_v1.csv,true,available,2026-07-08 11:45:11
+RELART-000009,Agent Registry,registry,C:\ProcurementIntelligence\13_autonomous_agents\bootstrap\agent_registry_v1.csv,true,available,2026-07-08 11:45:11
+RELART-000010,Agent Execution Registry,registry,C:\ProcurementIntelligence\13_autonomous_agents\bootstrap\agent_execution_registry_v1.csv,true,available,2026-07-08 11:45:11

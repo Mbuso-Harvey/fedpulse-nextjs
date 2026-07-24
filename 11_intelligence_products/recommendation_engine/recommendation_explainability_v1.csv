@@ -1,0 +1,10 @@
+explainability_id,recommendation_id,recommendation_title,why_generated,priority_score,priority_band,rank,created_at
+RECEXP-000001,REC-000001,Proceed with qualified bid pursuit,Generated from supplier_score_registry_v1 + opportunity_score_registry_v1 with confidence 0.86 and business impact high.,90.2,critical,1,2026-07-01 14:16:58
+RECEXP-000002,REC-000002,Use disciplined pricing review,Generated from opportunity_score_registry_v1 with confidence 0.82 and business impact high.,87.4,critical,4,2026-07-01 14:16:58
+RECEXP-000003,REC-000003,Strengthen compliance evidence,Generated from supplier_gap_registry_v1 with confidence 0.84 and business impact high.,88.8,critical,3,2026-07-01 14:16:58
+RECEXP-000004,REC-000004,Validate delivery and place-of-performance assumptions,Generated from supplier_gap_registry_v1 with confidence 0.8 and business impact medium.,76.0,high,7,2026-07-01 14:16:58
+RECEXP-000005,REC-000005,Map proposal to evaluation factors,Generated from opportunity_intelligence + department_intelligence with confidence 0.85 and business impact high.,89.5,critical,2,2026-07-01 14:16:58
+RECEXP-000006,REC-000006,Build technical compliance matrix,Generated from opportunity_summary_registry_v1 with confidence 0.82 and business impact high.,87.4,critical,5,2026-07-01 14:16:58
+RECEXP-000007,REC-000007,Reuse capture strategy from similar opportunities,Generated from similar_opportunity_match_registry_v1 with confidence 0.8 and business impact medium.,76.0,high,8,2026-07-01 14:16:58
+RECEXP-000008,REC-000008,Tailor pursuit to buyer acquisition style,Generated from department_score_registry_v1 with confidence 0.78 and business impact medium.,74.6,medium,9,2026-07-01 14:16:58
+RECEXP-000009,REC-000009,Address opportunity risk flags early,Generated from opportunity_risk_registry_v1 with confidence 0.82 and business impact high.,87.4,critical,6,2026-07-01 14:16:58

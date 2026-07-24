@@ -1,0 +1,11 @@
+official_subfamily_id,official_registry_id,pkv_version,source_candidate_subfamily_id,family_name,subfamily_name,domain_id,domain_name,intent,expression_count,source_count,confidence,approval_status,knowledge_maturity_level,created_at
+OESF-000001,OPR-000013,PKV-1.2,CESF-000001,Domain Specific Operations,Cemetery Operations and Dignity,PDO-DOMAIN-001,Domain-Specific Operations,Domain Requirement,13,13,0.86,promoted,L3,2026-06-27 11:09:39
+OESF-000002,OPR-000014,PKV-1.2,CESF-000002,Document Fragment,Form Fragment or OCR Table Row,PDO-DOC-001,Document Structure and Administrative Forms,Document Structure Cleanup,12,18,0.86,promoted,L3,2026-06-27 11:09:39
+OESF-000003,OPR-000015,PKV-1.2,CESF-000003,Mandatory Requirement,Contractor Shall Requirement,PDO-PERF-001,Performance and Operations,Mandatory Performance Requirement,11,11,0.86,promoted,L3,2026-06-27 11:09:39
+OESF-000004,OPR-000016,PKV-1.2,CESF-000004,Submission Communication,Email and Correspondence Instruction,PDO-SUB-001,Submission and Proposal Management,Communication Workflow,9,10,0.76,promoted,L3,2026-06-27 11:09:39
+OESF-000005,OPR-000017,PKV-1.2,CESF-000005,Contractor Responsibility,Contractor Accountability and Supervision,PDO-PERF-001,Performance and Operations,Performance Responsibility,9,10,0.76,promoted,L3,2026-06-27 11:09:39
+OESF-000006,OPR-000018,PKV-1.2,CESF-000006,Solicitation Metadata,Solicitation Identification and Method,PDO-ACQ-001,Acquisition Strategy,Acquisition Metadata,7,16,0.76,promoted,L3,2026-06-27 11:09:39
+OESF-000007,OPR-000019,PKV-1.2,CESF-000007,Proposal Clarification,Proposal Volume Clarification,PDO-SUB-001,Submission and Proposal Management,Submission Clarification,6,8,0.76,promoted,L3,2026-06-27 11:09:39
+OESF-000008,OPR-000020,PKV-1.2,CESF-000008,Payment and Invoice,Invoice Submission and Payment,PDO-COM-001,Commercial and Pricing,Payment Administration,6,9,0.76,promoted,L3,2026-06-27 11:09:39
+OESF-000009,OPR-000021,PKV-1.2,CESF-000009,Delivery Location,Destination and Delivery Site,PDO-LOG-001,Delivery and Logistics,Delivery Logistics,5,8,0.76,promoted,L3,2026-06-27 11:09:39
+OESF-000010,OPR-000022,PKV-1.2,CESF-000010,Amendment Handling,Offer Amendment Change Procedure,PDO-SUB-001,Submission and Proposal Management,Submission Compliance,4,14,0.76,promoted,L3,2026-06-27 11:09:39

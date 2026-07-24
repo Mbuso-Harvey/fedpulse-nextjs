@@ -1,0 +1,2 @@
+gate_id,production_validation_gate,release_candidate,target_release,validations_pass,validations_fail,controls_pass,controls_fail,human_release_approval_required,feature_freeze_enforced,created_at
+FINALGATE-000001,final_production_validation_approved,1.0.0-rc1,1.0.0,8,0,6,0,true,true,2026-07-11 23:15:18

@@ -1,0 +1,6 @@
+qa_id,metric,value,target,status,created_at
+SIMQA-000001,opportunity_variants,5,>= 5,pass,2026-07-01 10:11:25
+SIMQA-000002,fingerprints_created,5,5,pass,2026-07-01 10:11:25
+SIMQA-000003,similarity_matches,4,4,pass,2026-07-01 10:11:25
+SIMQA-000004,explainability_rows,4,4,pass,2026-07-01 10:11:25
+SIMQA-000005,top_similarity_score,72.5,> 0,pass,2026-07-01 10:11:25

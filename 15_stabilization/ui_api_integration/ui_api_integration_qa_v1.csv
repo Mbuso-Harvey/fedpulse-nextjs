@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+UIAPIQA-000001,session_rows,1,1,pass,2026-07-08 17:38:01
+UIAPIQA-000002,view_rows,7,7,pass,2026-07-08 17:38:01
+UIAPIQA-000003,contracts_missing,0,0,pass,2026-07-08 17:38:01
+UIAPIQA-000004,field_rows,21,>= 21,pass,2026-07-08 17:38:01
+UIAPIQA-000005,state_rows,4,4,pass,2026-07-08 17:38:01
+UIAPIQA-000006,navigation_rows,7,7,pass,2026-07-08 17:38:01
+UIAPIQA-000007,integration_gate,ui_api_integration_contracts_ready,ui_api_integration_contracts_ready,pass,2026-07-08 17:38:01

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-06-28 00:24:41",
+  "platform": "Federal Procurement Intelligence Network",
+  "current_wave": "Wave 8B",
+  "wave_name": "Semantic Intelligence Foundation",
+  "status": "bootstrap_complete",
+  "release_strategy": "wave_builds",
+  "active_version": {
+    "procurement_knowledge_version": "PKV-1.2",
+    "psop_version": "PSOP-1.0",
+    "semantic_wave": "Wave-8B"
+  },
+  "engine_count": 12,
+  "registry_count": 12,
+  "dependency_count": 12,
+  "checkpoint_count": 6,
+  "outputs": {
+    "engine_registry": "C:\\ProcurementIntelligence\\00_platform_manifest\\engine_registry_v1.csv",
+    "registry_inventory": "C:\\ProcurementIntelligence\\00_platform_manifest\\registry_inventory_v1.csv",
+    "dependency_graph": "C:\\ProcurementIntelligence\\00_platform_manifest\\wave_dependency_graph_v1.csv",
+    "release_train": "C:\\ProcurementIntelligence\\00_platform_manifest\\platform_release_train_v1.md",
+    "recovery_checkpoints": "C:\\ProcurementIntelligence\\00_platform_manifest\\recovery_checkpoint_registry_v1.csv",
+    "wave8b_plan": "C:\\ProcurementIntelligence\\00_platform_manifest\\wave8b_execution_plan_v1.md"
+  },
+  "next_script": "build_wave8b_pack1_expression_intelligence_v1.py"
+}

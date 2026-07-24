@@ -1,0 +1,7 @@
+checklist_id,item_name,observed_value,target_value,status,created_at
+DEMOENVCHK-000001,Demo journey ready,6,6,pass,2026-07-08 21:03:30
+DEMOENVCHK-000002,Demo scenarios ready,3,3,pass,2026-07-08 21:03:30
+DEMOENVCHK-000003,Demo datasets ready,2,2,pass,2026-07-08 21:03:30
+DEMOENVCHK-000004,Demo proof points ready,4,4,pass,2026-07-08 21:03:30
+DEMOENVCHK-000005,Executive story ready,1,1,pass,2026-07-08 21:03:30
+DEMOENVCHK-000006,UI/API contracts ready,1,1,pass,2026-07-08 21:03:30

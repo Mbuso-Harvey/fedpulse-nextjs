@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-07-01 10:11:25",
+  "wave": "Wave 10",
+  "pack": "Pack 6 - Similar Opportunity Engine",
+  "status": "completed",
+  "product_status": "similar_opportunity_engine_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "opportunity_variants": 5,
+  "fingerprints": 5,
+  "similarity_matches": 4,
+  "explainability_rows": 4,
+  "top_match": "Technical Services Similar Opportunity",
+  "top_similarity_score": 72.5,
+  "top_similarity_band": "high",
+  "qa": {
+    "pass": 5,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\similar_opportunity_session_registry_v1.csv",
+    "opportunity_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\similarity_opportunity_registry_v1.csv",
+    "fingerprint_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\opportunity_similarity_fingerprint_registry_v1.csv",
+    "match_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\similar_opportunity_match_registry_v1.csv",
+    "explainability_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\similar_opportunity_explainability_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\similar_opportunity_engine_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_similar_opportunity_engine_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack6_similar_opportunity_engine_report_v1.md"
+  },
+  "next_script": "build_wave10_pack7_recommendation_engine_v1.py"
+}

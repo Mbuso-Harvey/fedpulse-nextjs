@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-06-23 20:45:50",
+  "atoms_processed": 196,
+  "evaluation_signals_extracted": 147,
+  "signal_type_counts": {
+    "evaluation_factor": 89,
+    "factor_ordering": 6,
+    "importance_signal": 4,
+    "evaluation_method": 36,
+    "scoring_rating": 9,
+    "pass_fail_gate": 3
+  },
+  "weight_hint_counts": {
+    "signal": 47,
+    "cost_factor": 58,
+    "method": 36,
+    "very_high": 3,
+    "gate": 3
+  },
+  "evaluation_method_counts": {
+    "Lowest Price Technically Acceptable": 7,
+    "LPTA": 9,
+    "best value": 8,
+    "Technically Acceptable": 7,
+    "tradeoff": 2,
+    "source selection": 3
+  },
+  "outputs": {
+    "evaluation_intelligence": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_intelligence_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_intelligence_report_v1.md"
+  },
+  "next_sprint": "SAM-0007P Requirement Weighting Engine"
+}

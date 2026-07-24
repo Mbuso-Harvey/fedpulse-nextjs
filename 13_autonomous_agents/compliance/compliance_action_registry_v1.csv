@@ -1,0 +1,6 @@
+action_id,gap_id,priority,action_title,action_description,owner,status,created_at
+COMPACT-000001,COMPGAP-000001,critical,Resolve FAR/DOSAR Review,"Prepare, review, and approve evidence for FAR/DOSAR Review.",proposal_team,open,2026-07-04 08:03:50
+COMPACT-000002,COMPGAP-000002,critical,Resolve Technical Compliance Matrix,"Prepare, review, and approve evidence for Technical Compliance Matrix.",proposal_team,open,2026-07-04 08:03:50
+COMPACT-000003,COMPGAP-000003,critical,Resolve Supplier Evidence Package,"Prepare, review, and approve evidence for Supplier Evidence Package.",proposal_team,open,2026-07-04 08:03:50
+COMPACT-000004,COMPGAP-000004,high,Resolve Place-of-Performance Validation,"Prepare, review, and approve evidence for Place-of-Performance Validation.",proposal_team,open,2026-07-04 08:03:50
+COMPACT-000005,COMPGAP-000005,high,Resolve Submission Instruction Review,"Prepare, review, and approve evidence for Submission Instruction Review.",proposal_team,open,2026-07-04 08:03:50

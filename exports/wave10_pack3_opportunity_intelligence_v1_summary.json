@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-06-30 11:19:16",
+  "wave": "Wave 10",
+  "pack": "Pack 3 - Opportunity Intelligence",
+  "status": "completed",
+  "product_status": "opportunity_intelligence_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "opportunity_id": "OPPINT-000001",
+  "opportunity_name": "KG-1.0 Demonstration Opportunity",
+  "nodes_analyzed": 29,
+  "edges_analyzed": 44,
+  "profile_rows": 1,
+  "category_rows": 29,
+  "evidence_rows": 44,
+  "summary_rows": 1,
+  "score_rows": 1,
+  "risk_flags": 5,
+  "recommendations": 8,
+  "complexity_score": 98,
+  "complexity_band": "high",
+  "bid_readiness_score": 90,
+  "bid_readiness_band": "strong",
+  "qa": {
+    "pass": 7,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "profile_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_profile_registry_v1.csv",
+    "summary_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_summary_registry_v1.csv",
+    "category_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_category_registry_v1.csv",
+    "evidence_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_evidence_registry_v1.csv",
+    "session_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_session_registry_v1.csv",
+    "score_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_score_registry_v1.csv",
+    "risk_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_risk_registry_v1.csv",
+    "recommendation_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_recommendation_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence\\opportunity_intelligence_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_opportunity_intelligence_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack3_opportunity_intelligence_report_v1.md"
+  },
+  "next_script": "build_wave10_pack4_supplier_intelligence_v1.py"
+}

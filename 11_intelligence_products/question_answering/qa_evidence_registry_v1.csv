@@ -1,0 +1,69 @@
+evidence_id,answer_id,question_id,node_id,canonical_name,node_type,domain_name,retrieval_rank,retrieval_score,evidence_role,created_at
+QAEV-000001,QAA-000001,QAQ-000001,KGNODE2-000003,Firm Fixed Price,Contract Type,Commercial and Pricing,1,1.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000002,QAA-000001,QAQ-000001,KGNODE2-000004,Contracting Officer,Procurement Role,Acquisition Strategy,2,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000003,QAA-000001,QAQ-000001,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,3,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000004,QAA-000001,QAQ-000001,KGNODE2-000026,Amendment Copy Requirement,Procurement Document Artifact,Document Structure and Administrative Forms,4,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000005,QAA-000001,QAQ-000001,,Unit Price,Pricing Structure,,,0.72,relationship_outgoing_has_pricing_structure,2026-06-29 23:06:47
+QAEV-000006,QAA-000001,QAQ-000001,,Payment and Invoice,Pricing Structure,,,0.72,relationship_outgoing_has_pricing_structure,2026-06-29 23:06:47
+QAEV-000007,QAA-000001,QAQ-000001,,Award Basis,Evaluation Method,,,0.66,relationship_incoming_may_result_in_contract_type,2026-06-29 23:06:47
+QAEV-000008,QAA-000002,QAQ-000002,KGNODE2-000006,Award Basis,Evaluation Method,Evaluation and Source Selection,1,1.35,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000009,QAA-000002,QAQ-000002,KGNODE2-000014,Evaluation Factors,Evaluation Factor,Evaluation and Source Selection,2,0.2,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000010,QAA-000002,QAQ-000002,,Evaluation Factors,Evaluation Factor,,,0.72,relationship_outgoing_uses_evaluation_factor,2026-06-29 23:06:47
+QAEV-000011,QAA-000002,QAQ-000002,,Firm Fixed Price,Contract Type,,,0.66,relationship_outgoing_may_result_in_contract_type,2026-06-29 23:06:47
+QAEV-000012,QAA-000002,QAQ-000002,,Solicitation Number,Acquisition Metadata,,,0.72,relationship_incoming_shapes_source_selection,2026-06-29 23:06:47
+QAEV-000013,QAA-000002,QAQ-000002,,Request for Information,Acquisition Metadata,,,0.72,relationship_incoming_shapes_source_selection,2026-06-29 23:06:47
+QAEV-000014,QAA-000002,QAQ-000002,,Combined Synopsis Solicitation,Acquisition Metadata,,,0.72,relationship_incoming_shapes_source_selection,2026-06-29 23:06:47
+QAEV-000015,QAA-000002,QAQ-000002,,Method of Solicitation,Acquisition Metadata,,,0.72,relationship_incoming_shapes_source_selection,2026-06-29 23:06:47
+QAEV-000016,QAA-000002,QAQ-000002,,Request for Proposal,Acquisition Metadata,,,0.72,relationship_incoming_shapes_source_selection,2026-06-29 23:06:47
+QAEV-000017,QAA-000002,QAQ-000002,,Request for Quotation,Acquisition Metadata,,,0.72,relationship_incoming_shapes_source_selection,2026-06-29 23:06:47
+QAEV-000018,QAA-000003,QAQ-000003,KGNODE2-000005,Performance Work Statement,Technical Requirement,Technical Requirements,1,1.0833,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000019,QAA-000003,QAQ-000003,KGNODE2-000016,Past Performance,Supplier Qualification,Supplier Eligibility and Qualifications,2,0.5,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000020,QAA-000003,QAQ-000003,KGNODE2-000021,Small Business Set-Aside,Supplier Qualification,Supplier Eligibility and Qualifications,3,0.3333,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000021,QAA-000003,QAQ-000003,KGNODE2-000018,Administrative Support and Clerical,Administrative Service Labor Category,Performance and Operations,4,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000022,QAA-000003,QAQ-000003,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,5,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000023,QAA-000003,QAQ-000003,,Past Performance,Supplier Qualification,,,0.72,relationship_outgoing_requires_supplier_capability,2026-06-29 23:06:47
+QAEV-000024,QAA-000003,QAQ-000003,,Small Business Set-Aside,Supplier Qualification,,,0.72,relationship_outgoing_requires_supplier_capability,2026-06-29 23:06:47
+QAEV-000025,QAA-000003,QAQ-000003,,Statement of Work,Technical Requirement,,,0.84,relationship_outgoing_specializes,2026-06-29 23:06:47
+QAEV-000026,QAA-000003,QAQ-000003,,National Cemetery Operations,Domain Specific Requirement,,,0.72,relationship_incoming_specializes_requirement,2026-06-29 23:06:47
+QAEV-000027,QAA-000004,QAQ-000004,KGNODE2-000011,Food and Drug Administration,Federal Agency,Acquisition Strategy,1,1.4167,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000028,QAA-000004,QAQ-000004,KGNODE2-000004,Contracting Officer,Procurement Role,Acquisition Strategy,2,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000029,QAA-000004,QAQ-000004,KGNODE2-000012,Solicitation Number,Acquisition Metadata,Acquisition Strategy,3,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000030,QAA-000004,QAQ-000004,KGNODE2-000017,Request for Information,Acquisition Metadata,Acquisition Strategy,4,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000031,QAA-000004,QAQ-000004,KGNODE2-000020,Combined Synopsis Solicitation,Acquisition Metadata,Acquisition Strategy,5,0.1667,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000032,QAA-000004,QAQ-000004,,Solicitation Number,Acquisition Metadata,,,0.66,relationship_outgoing_uses_acquisition_method,2026-06-29 23:06:47
+QAEV-000033,QAA-000004,QAQ-000004,,Request for Information,Acquisition Metadata,,,0.66,relationship_outgoing_uses_acquisition_method,2026-06-29 23:06:47
+QAEV-000034,QAA-000004,QAQ-000004,,Combined Synopsis Solicitation,Acquisition Metadata,,,0.66,relationship_outgoing_uses_acquisition_method,2026-06-29 23:06:47
+QAEV-000035,QAA-000004,QAQ-000004,,Method of Solicitation,Acquisition Metadata,,,0.66,relationship_outgoing_uses_acquisition_method,2026-06-29 23:06:47
+QAEV-000036,QAA-000004,QAQ-000004,,Request for Proposal,Acquisition Metadata,,,0.66,relationship_outgoing_uses_acquisition_method,2026-06-29 23:06:47
+QAEV-000037,QAA-000004,QAQ-000004,,Request for Quotation,Acquisition Metadata,,,0.66,relationship_outgoing_uses_acquisition_method,2026-06-29 23:06:47
+QAEV-000038,QAA-000004,QAQ-000004,,National Cemetery Operations,Domain Specific Requirement,,,0.66,relationship_outgoing_has_domain_requirement,2026-06-29 23:06:47
+QAEV-000039,QAA-000005,QAQ-000005,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,1,1.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000040,QAA-000005,QAQ-000005,KGNODE2-000003,Firm Fixed Price,Contract Type,Commercial and Pricing,2,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000041,QAA-000005,QAQ-000005,KGNODE2-000005,Performance Work Statement,Technical Requirement,Technical Requirements,3,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000042,QAA-000005,QAQ-000005,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,4,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000043,QAA-000005,QAQ-000005,KGNODE2-000016,Past Performance,Supplier Qualification,Supplier Eligibility and Qualifications,5,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000044,QAA-000005,QAQ-000005,,Unit Price,Pricing Structure,,,0.72,relationship_outgoing_affects_price,2026-06-29 23:06:47
+QAEV-000045,QAA-000005,QAQ-000005,,Payment and Invoice,Pricing Structure,,,0.72,relationship_outgoing_affects_price,2026-06-29 23:06:47
+QAEV-000046,QAA-000005,QAQ-000005,,Unit Price,Pricing Structure,,,0.68,relationship_outgoing_affects_pricing,2026-06-29 23:06:47
+QAEV-000047,QAA-000005,QAQ-000005,,Payment and Invoice,Pricing Structure,,,0.68,relationship_outgoing_affects_pricing,2026-06-29 23:06:47
+QAEV-000048,QAA-000005,QAQ-000005,,Marine Corps Base Camp Lejeune,Military Installation,,,0.62,relationship_incoming_may_define_place_of_performance,2026-06-29 23:06:47
+QAEV-000049,QAA-000006,QAQ-000006,KGNODE2-000001,Solicitation Amendment,Submission Instruction,Submission and Proposal Management,1,1.0,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000050,QAA-000006,QAQ-000006,KGNODE2-000012,Solicitation Number,Acquisition Metadata,Acquisition Strategy,2,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000051,QAA-000006,QAQ-000006,KGNODE2-000020,Combined Synopsis Solicitation,Acquisition Metadata,Acquisition Strategy,3,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000052,QAA-000006,QAQ-000006,KGNODE2-000023,Method of Solicitation,Acquisition Metadata,Acquisition Strategy,4,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000053,QAA-000006,QAQ-000006,,Proposal Volume,Proposal Structure,,,0.72,relationship_incoming_requires_submission_instruction,2026-06-29 23:06:47
+QAEV-000054,QAA-000006,QAQ-000006,,Contracting Officer,Procurement Role,,,0.72,relationship_incoming_issues_or_receives,2026-06-29 23:06:47
+QAEV-000055,QAA-000006,QAQ-000006,,Solicitation Number,Acquisition Metadata,,,0.74,relationship_incoming_defines_submission_context,2026-06-29 23:06:47
+QAEV-000056,QAA-000006,QAQ-000006,,Request for Information,Acquisition Metadata,,,0.74,relationship_incoming_defines_submission_context,2026-06-29 23:06:47
+QAEV-000057,QAA-000006,QAQ-000006,,Combined Synopsis Solicitation,Acquisition Metadata,,,0.74,relationship_incoming_defines_submission_context,2026-06-29 23:06:47
+QAEV-000058,QAA-000006,QAQ-000006,,Method of Solicitation,Acquisition Metadata,,,0.74,relationship_incoming_defines_submission_context,2026-06-29 23:06:47
+QAEV-000059,QAA-000006,QAQ-000006,,Request for Proposal,Acquisition Metadata,,,0.74,relationship_incoming_defines_submission_context,2026-06-29 23:06:47
+QAEV-000060,QAA-000006,QAQ-000006,,Request for Quotation,Acquisition Metadata,,,0.74,relationship_incoming_defines_submission_context,2026-06-29 23:06:47
+QAEV-000061,QAA-000006,QAQ-000006,,Contracting Officer,Procurement Role,,,0.7,relationship_incoming_issues_or_receives_submission_instruction,2026-06-29 23:06:47
+QAEV-000062,QAA-000007,QAQ-000007,KGNODE2-000010,FAR and DOSAR Provisions,Regulation Set,"Legal, Compliance, and Labor",1,0.25,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000063,QAA-000008,QAQ-000008,KGNODE2-000005,Performance Work Statement,Technical Requirement,Technical Requirements,1,0.5,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000064,QAA-000008,QAQ-000008,KGNODE2-000025,Statement of Work,Technical Requirement,Technical Requirements,2,0.5,retrieved_candidate,2026-06-29 23:06:47
+QAEV-000065,QAA-000008,QAQ-000008,,Past Performance,Supplier Qualification,,,0.72,relationship_outgoing_requires_supplier_capability,2026-06-29 23:06:47
+QAEV-000066,QAA-000008,QAQ-000008,,Small Business Set-Aside,Supplier Qualification,,,0.72,relationship_outgoing_requires_supplier_capability,2026-06-29 23:06:47
+QAEV-000067,QAA-000008,QAQ-000008,,Statement of Work,Technical Requirement,,,0.84,relationship_outgoing_specializes,2026-06-29 23:06:47
+QAEV-000068,QAA-000008,QAQ-000008,,National Cemetery Operations,Domain Specific Requirement,,,0.72,relationship_incoming_specializes_requirement,2026-06-29 23:06:47

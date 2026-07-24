@@ -1,0 +1,149 @@
+filtered_pattern_id,semantic_pattern,frequency,dominant_family,original_confidence,quality_score,adjusted_confidence,quality_hits,status,created_at
+SP-000007,national cemetery,17,Unclassified,0.98,13,0.73,cemetery,quality_accepted,2026-06-27 17:34:06
+SP-000011,of solicitation,16,Administrative,0.98,13,0.73,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000013,accounting clerk,15,Unclassified,0.95,10,0.67,,quality_accepted,2026-06-27 17:34:06
+SP-000014,customer service,15,Unclassified,0.95,10,0.67,,quality_accepted,2026-06-27 17:34:06
+SP-000015,service representative,15,Unclassified,0.95,10,0.67,,quality_accepted,2026-06-27 17:34:06
+SP-000016,customer service representative,15,Unclassified,0.95,11,0.69,,quality_accepted,2026-06-27 17:34:06
+SP-000018,amendment of,13,Administrative,0.89,13,0.68,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000019,amendment of solicitation,13,Administrative,0.89,17,0.74,amendment;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000024,administered by,11,Unclassified,0.83,13,0.65,nist,quality_accepted,2026-06-27 17:34:06
+SP-000026,interior design,11,Unclassified,0.83,10,0.61,,quality_accepted,2026-06-27 17:34:06
+SP-000027,data entry,11,Unclassified,0.83,10,0.61,,quality_accepted,2026-06-27 17:34:06
+SP-000037,entry operator,10,Unclassified,0.8,10,0.59,,quality_accepted,2026-06-27 17:34:06
+SP-000038,general clerk,10,Unclassified,0.8,10,0.59,,quality_accepted,2026-06-27 17:34:06
+SP-000039,data entry operator,10,Unclassified,0.8,11,0.6,,quality_accepted,2026-06-27 17:34:06
+SP-000040,section 1,9,Unclassified,0.77,9,0.56,,quality_accepted,2026-06-27 17:34:06
+SP-000041,the offeror,9,Unclassified,0.77,12,0.6,offeror,quality_accepted,2026-06-27 17:34:06
+SP-000045,please provide,9,Unclassified,0.77,9,0.56,,quality_accepted,2026-06-27 17:34:06
+SP-000047,cemetery administration,9,Unclassified,0.77,15,0.65,cemetery;nist,quality_accepted,2026-06-27 17:34:06
+SP-000048,national cemetery administration,9,Unclassified,0.77,16,0.66,cemetery;nist,quality_accepted,2026-06-27 17:34:06
+SP-000049,small business,9,Unclassified,0.77,9,0.56,,quality_accepted,2026-06-27 17:34:06
+SP-000051,solicitation number,8,Administrative,0.74,11,0.57,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000055,fixed price,8,Evaluation,0.74,8,0.53,,quality_accepted,2026-06-27 17:34:06
+SP-000057,additional information,8,Unclassified,0.74,8,0.53,,quality_accepted,2026-06-27 17:34:06
+SP-000059,clerk ii,8,Unclassified,0.74,8,0.53,,quality_accepted,2026-06-27 17:34:06
+SP-000060,clerk iii,8,Unclassified,0.74,8,0.53,,quality_accepted,2026-06-27 17:34:06
+SP-000061,offerors shall,7,Unclassified,0.71,10,0.54,offeror,quality_accepted,2026-06-27 17:34:06
+SP-000062,past performance,7,Proposal,0.71,10,0.54,past performance,quality_accepted,2026-06-27 17:34:06
+SP-000063,of solicitation number,7,Administrative,0.71,11,0.56,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000064,amendment of solicitation number,7,Administrative,0.71,15,0.62,amendment;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000071,firm fixed price,7,Evaluation,0.71,8,0.51,,quality_accepted,2026-06-27 17:34:06
+SP-000073,unit price,7,Commercial,0.71,15,0.62,unit price,quality_accepted,2026-06-27 17:34:06
+SP-000081,evaluation factors,6,Evaluation,0.68,14,0.58,evaluation;evaluation factors,quality_accepted,2026-06-27 17:34:06
+SP-000082,quote for,6,Unclassified,0.68,9,0.51,quote,quality_accepted,2026-06-27 17:34:06
+SP-000083,solicitation modification,6,Administrative,0.68,9,0.51,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000085,of solicitation modification,6,Administrative,0.68,10,0.52,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000086,solicitation modification of,6,Administrative,0.68,10,0.52,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000088,amendment of solicitation modification,6,Administrative,0.68,14,0.58,amendment;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000089,of solicitation modification of,6,Administrative,0.68,11,0.54,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000090,solicitation modification of contract,6,Administrative,0.68,11,0.54,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000092,contracting officer,6,Unclassified,0.68,14,0.58,contracting officer,quality_accepted,2026-06-27 17:34:06
+SP-000096,administered by if,6,Unclassified,0.68,10,0.52,nist,quality_accepted,2026-06-27 17:34:06
+SP-000100,administered by if other,6,Unclassified,0.68,11,0.54,nist,quality_accepted,2026-06-27 17:34:06
+SP-000101,by if other than,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000102,if other than item,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000109,a firm fixed price,6,Evaluation,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000111,synopsis solicitation,6,Unclassified,0.68,9,0.51,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000115,1 qty 1 ton,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000116,qty 1 ton each,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000118,solicitation for,6,Unclassified,0.68,9,0.51,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000122,the same,6,Unclassified,0.68,9,0.51,sam,quality_accepted,2026-06-27 17:34:06
+SP-000123,for proposal,6,Unclassified,0.68,9,0.51,proposal,quality_accepted,2026-06-27 17:34:06
+SP-000127,table of contents,6,Metadata,0.68,10,0.52,table of contents,quality_accepted,2026-06-27 17:34:06
+SP-000151,fringe benefits required follow,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000152,benefits required follow the,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000153,required follow the occupational,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000154,follow the occupational listing,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000155,the occupational listing occupation,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000156,occupational listing occupation code,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000157,listing occupation code title,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000158,occupation code title footnote,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000159,code title footnote rate,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000160,title footnote rate 01000,6,Unclassified,0.68,8,0.49,,quality_accepted,2026-06-27 17:34:06
+SP-000163,for quote,5,Unclassified,0.65,8,0.48,quote,quality_accepted,2026-06-27 17:34:06
+SP-000164,administered by code,5,Unclassified,0.65,9,0.49,nist,quality_accepted,2026-06-27 17:34:06
+SP-000165,solicitation is,5,Administrative,0.65,8,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000176,performance work statement,5,Unclassified,0.65,14,0.57,performance work statement,quality_accepted,2026-06-27 17:34:06
+SP-000181,this solicitation,5,Evaluation,0.65,8,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000183,to award,5,Unclassified,0.65,8,0.48,award,quality_accepted,2026-06-27 17:34:06
+SP-000186,for award,5,Supplier Qualification,0.65,8,0.48,award,quality_accepted,2026-06-27 17:34:06
+SP-000198,combined synopsis solicitation,5,Unclassified,0.65,9,0.49,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000221,marine corps,5,Unclassified,0.65,8,0.48,cor,quality_accepted,2026-06-27 17:34:06
+SP-000222,01000 administrative,5,Unclassified,0.65,8,0.48,nist,quality_accepted,2026-06-27 17:34:06
+SP-000223,administrative support,5,Unclassified,0.65,8,0.48,nist,quality_accepted,2026-06-27 17:34:06
+SP-000231,01020 administrative,5,Unclassified,0.65,8,0.48,nist,quality_accepted,2026-06-27 17:34:06
+SP-000232,administrative assistant,5,Unclassified,0.65,8,0.48,nist,quality_accepted,2026-06-27 17:34:06
+SP-000251,rate 01000 administrative,5,Unclassified,0.65,9,0.49,nist,quality_accepted,2026-06-27 17:34:06
+SP-000252,01000 administrative support,5,Unclassified,0.65,9,0.49,nist,quality_accepted,2026-06-27 17:34:06
+SP-000253,administrative support and,5,Unclassified,0.65,9,0.49,nist,quality_accepted,2026-06-27 17:34:06
+SP-000264,01020 administrative assistant,5,Unclassified,0.65,9,0.49,nist,quality_accepted,2026-06-27 17:34:06
+SP-000280,footnote rate 01000 administrative,5,Unclassified,0.65,10,0.51,nist,quality_accepted,2026-06-27 17:34:06
+SP-000281,rate 01000 administrative support,5,Unclassified,0.65,10,0.51,nist,quality_accepted,2026-06-27 17:34:06
+SP-000282,01000 administrative support and,5,Unclassified,0.65,10,0.51,nist,quality_accepted,2026-06-27 17:34:06
+SP-000283,administrative support and clerical,5,Unclassified,0.65,10,0.51,nist,quality_accepted,2026-06-27 17:34:06
+SP-000303,proposal volume,4,Proposal,0.62,12,0.52,proposal;proposal volume,quality_accepted,2026-06-27 17:34:06
+SP-000306,in the solicitation,4,Proposal,0.62,8,0.46,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000324,applies to amendments,4,Administrative,0.62,8,0.46,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000325,to amendments of,4,Administrative,0.62,8,0.46,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000326,amendments of solicitations,4,Administrative,0.62,11,0.51,amendment;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000328,above numbered solicitation,4,Administrative,0.62,8,0.46,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000329,numbered solicitation is,4,Administrative,0.62,8,0.46,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000330,solicitation is amended,4,Administrative,0.62,8,0.46,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000337,only applies to amendments,4,Administrative,0.62,9,0.48,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000338,applies to amendments of,4,Administrative,0.62,9,0.48,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000339,to amendments of solicitations,4,Administrative,0.62,12,0.52,amendment;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000340,the above numbered solicitation,4,Administrative,0.62,9,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000341,above numbered solicitation is,4,Administrative,0.62,9,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000342,numbered solicitation is amended,4,Administrative,0.62,9,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000343,solicitation is amended as,4,Administrative,0.62,9,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000350,of this amendment,4,Proposal,0.62,8,0.46,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000357,to the solicitation,4,Unclassified,0.62,8,0.46,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000379,to award a,4,Unclassified,0.62,8,0.46,award,quality_accepted,2026-06-27 17:34:06
+SP-000383,award a contract,4,Unclassified,0.62,8,0.46,award,quality_accepted,2026-06-27 17:34:06
+SP-000392,hills national cemetery,4,Unclassified,0.62,8,0.46,cemetery,quality_accepted,2026-06-27 17:34:06
+SP-000393,black hills national cemetery,4,Unclassified,0.62,9,0.48,cemetery,quality_accepted,2026-06-27 17:34:06
+SP-000406,affairs national cemetery,4,Unclassified,0.62,8,0.46,cemetery,quality_accepted,2026-06-27 17:34:06
+SP-000410,veterans affairs national cemetery,4,Unclassified,0.62,9,0.48,cemetery,quality_accepted,2026-06-27 17:34:06
+SP-000411,affairs national cemetery administration,4,Unclassified,0.62,12,0.52,cemetery;nist,quality_accepted,2026-06-27 17:34:06
+SP-000420,synopsis solicitation for,4,Unclassified,0.62,8,0.46,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000428,a combined synopsis solicitation,4,Unclassified,0.62,9,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000429,combined synopsis solicitation for,4,Unclassified,0.62,9,0.48,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000430,accordance with the format,4,Unclassified,0.62,9,0.48,cor,quality_accepted,2026-06-27 17:34:06
+SP-000442,request for information,4,Administrative,0.62,13,0.54,request for information,quality_accepted,2026-06-27 17:34:06
+SP-000499,payment registration,4,Evaluation,0.62,12,0.52,payment;payment registration,quality_accepted,2026-06-27 17:34:06
+SP-000505,far and dosar,4,Evaluation,0.62,8,0.46,far,quality_accepted,2026-06-27 17:34:06
+SP-000513,quote for the,4,Proposal,0.62,8,0.46,quote,quality_accepted,2026-06-27 17:34:06
+SP-000520,marine corps base,4,Unclassified,0.62,8,0.46,cor,quality_accepted,2026-06-27 17:34:06
+SP-000521,corps base camp,4,Unclassified,0.62,8,0.46,cor,quality_accepted,2026-06-27 17:34:06
+SP-000525,marine corps base camp,4,Unclassified,0.62,9,0.48,cor,quality_accepted,2026-06-27 17:34:06
+SP-000526,corps base camp lejeune,4,Unclassified,0.62,9,0.48,cor,quality_accepted,2026-06-27 17:34:06
+SP-000561,method of solicitation,3,Unclassified,0.59,10,0.47,method of solicitation;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000600,copies of the amendment,3,Administrative,0.59,8,0.44,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000610,the contracting officer,3,Unclassified,0.59,12,0.5,contracting officer,quality_accepted,2026-06-27 17:34:06
+SP-000619,page of pages amendment,3,Administrative,0.59,8,0.44,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000620,of pages amendment of,3,Administrative,0.59,8,0.44,amendment,quality_accepted,2026-06-27 17:34:06
+SP-000621,pages amendment of solicitation,3,Administrative,0.59,11,0.49,amendment;solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000630,performance work statement pws,3,Unclassified,0.59,16,0.56,performance work statement;pws,quality_accepted,2026-06-27 17:34:06
+SP-000660,award a firm fixed,3,Evaluation,0.59,8,0.44,award,quality_accepted,2026-06-27 17:34:06
+SP-000662,solicitation to the responsible,3,Evaluation,0.59,8,0.44,solicitation,quality_accepted,2026-06-27 17:34:06
+SP-000663,to the responsible offeror,3,Evaluation,0.59,8,0.44,offeror,quality_accepted,2026-06-27 17:34:06
+SP-000664,the responsible offeror whose,3,Evaluation,0.59,8,0.44,offeror,quality_accepted,2026-06-27 17:34:06
+SP-000680,award will be made,3,Evaluation,0.59,8,0.44,award,quality_accepted,2026-06-27 17:34:06
+SP-000681,source selection,3,Proposal,0.59,11,0.49,source selection,quality_accepted,2026-06-27 17:34:06
+SP-000726,place of performance,3,Unclassified,0.59,12,0.5,place of performance,quality_accepted,2026-06-27 17:34:06
+SP-000733,statement of work,3,Proposal,0.59,12,0.5,statement of work,quality_accepted,2026-06-27 17:34:06
+SP-000740,prepared in accordance with,3,Unclassified,0.59,8,0.44,cor,quality_accepted,2026-06-27 17:34:06
+SP-000749,food and drug administration,3,Unclassified,0.59,8,0.44,nist,quality_accepted,2026-06-27 17:34:06
+SP-000760,request for information rfi,3,Legal and Compliance,0.59,16,0.56,request for information;rfi,quality_accepted,2026-06-27 17:34:06
+SP-000761,quote rfq,3,Unclassified,0.59,9,0.46,quote;rfq,quality_accepted,2026-06-27 17:34:06
+SP-000809,contract administration,3,Metadata,0.59,10,0.47,nist;registry:contract administration,quality_accepted,2026-06-27 17:34:06
+SP-000822,request for proposal,3,Unclassified,0.59,10,0.47,proposal;request for proposal,quality_accepted,2026-06-27 17:34:06
+SP-000838,chess army mil proposal,3,Unclassified,0.59,8,0.44,proposal,quality_accepted,2026-06-27 17:34:06
+SP-000839,army mil proposal default,3,Unclassified,0.59,8,0.44,proposal,quality_accepted,2026-06-27 17:34:06
+SP-000840,mil proposal default index,3,Unclassified,0.59,8,0.44,proposal,quality_accepted,2026-06-27 17:34:06
+SP-000852,quantity unit price,3,Commercial,0.59,12,0.5,unit price,quality_accepted,2026-06-27 17:34:06
+SP-000868,far and dosar provisions,3,Evaluation,0.59,8,0.44,far,quality_accepted,2026-06-27 17:34:06
+SP-000879,the format in far,3,Unclassified,0.59,8,0.44,far,quality_accepted,2026-06-27 17:34:06
+SP-000915,renovation cl marine corps,3,Unclassified,0.59,8,0.44,cor,quality_accepted,2026-06-27 17:34:06
+SP-000916,cl marine corps base,3,Unclassified,0.59,8,0.44,cor,quality_accepted,2026-06-27 17:34:06

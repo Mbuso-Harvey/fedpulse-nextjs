@@ -1,0 +1,7 @@
+task_id,agent_id,agent_name,task_name,task_description,status,created_at
+TASK-000001,AGENT-000001,Capture Manager Agent,Generate capture strategy,Use Wave 10 intelligence outputs to generate bid/no-bid and capture strategy.,planned,2026-07-02 21:58:24
+TASK-000002,AGENT-000002,Supplier Strategy Agent,Generate supplier improvement plan,Use supplier gaps and readiness scoring to produce supplier action plan.,planned,2026-07-02 21:58:24
+TASK-000003,AGENT-000003,Compliance Agent,Generate compliance matrix,"Use compliance concepts, technical requirements, and recommendations to produce compliance checklist.",planned,2026-07-02 21:58:24
+TASK-000004,AGENT-000004,Pricing Strategy Agent,Generate pricing risk strategy,"Use commercial/pricing, delivery, and opportunity complexity outputs to produce pricing strategy.",planned,2026-07-02 21:58:24
+TASK-000005,AGENT-000005,Proposal Strategy Agent,Generate proposal strategy,"Use opportunity, buyer, evaluation, and recommendation outputs to produce proposal strategy.",planned,2026-07-02 21:58:24
+TASK-000006,AGENT-000006,Executive Decision Agent,Generate executive decision,"Synthesize agent outputs into proceed, hold, partner, no-bid, or escalate decision.",planned,2026-07-02 21:58:24

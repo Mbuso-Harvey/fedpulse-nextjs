@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-06-23 22:41:15",
+  "raw_evaluation_signals_processed": 147,
+  "consolidated_evaluation_signals": 33,
+  "signal_type_counts": {
+    "evaluation_factor": 18,
+    "evaluation_method": 7,
+    "factor_ordering": 3,
+    "importance_signal": 2,
+    "pass_fail_gate": 2,
+    "scoring_rating": 1
+  },
+  "unique_notice_counts_by_signal_type": {
+    "evaluation_factor": 15,
+    "evaluation_method": 3,
+    "factor_ordering": 2,
+    "importance_signal": 1,
+    "pass_fail_gate": 1,
+    "scoring_rating": 1
+  },
+  "outputs": {
+    "consolidated": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_intelligence_consolidated_v1.csv",
+    "methods_master": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_methods_master_v1.csv",
+    "factors_master": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_factors_master_v1.csv",
+    "importance_master": "C:\\ProcurementIntelligence\\09_knowledge_graph\\importance_signals_master_v1.csv",
+    "pass_fail_master": "C:\\ProcurementIntelligence\\09_knowledge_graph\\pass_fail_gates_master_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_signal_consolidation_report_v1.md"
+  },
+  "next_sprint": "SAM-0007Q Importance Intelligence Expansion Engine"
+}

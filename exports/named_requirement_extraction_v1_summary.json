@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-06-22 06:56:35",
+  "requirements_processed": 1146,
+  "named_requirements_extracted": 1340,
+  "taxonomy_records": 92,
+  "family_counts": {
+    "evaluation_factor": 513,
+    "proposal_component": 89,
+    "certification": 14,
+    "compliance_clause": 530,
+    "procurement_method": 19,
+    "contract_vehicle": 173,
+    "staffing_role": 2
+  },
+  "discovery_candidates": 7,
+  "outputs": {
+    "named_requirement_library": "C:\\ProcurementIntelligence\\09_knowledge_graph\\named_requirement_library_v1.csv",
+    "discovery_queue": "C:\\ProcurementIntelligence\\09_knowledge_graph\\taxonomy_discovery_queue_v2.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\named_requirement_extraction_report_v1.md"
+  },
+  "next_sprint": "SAM-0008 Requirement Frequency and Importance Engine"
+}

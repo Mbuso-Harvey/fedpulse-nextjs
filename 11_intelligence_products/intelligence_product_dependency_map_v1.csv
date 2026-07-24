@@ -1,0 +1,10 @@
+dependency_id,product_name,depends_on,required_artifact,created_at
+DEP-000001,Semantic Graph Search,KG-1.0 export,C:\ProcurementIntelligence\10_distribution\semantic_search_index_v1.csv,2026-06-29 17:04:15
+DEP-000002,Procurement Question Answering,AI semantic context,C:\ProcurementIntelligence\10_distribution\semantic_ai_context_v1.json,2026-06-29 17:04:15
+DEP-000003,Opportunity Intelligence,KG JSON graph,C:\ProcurementIntelligence\10_distribution\knowledge_graph_json_v1.json,2026-06-29 17:04:15
+DEP-000004,Supplier Intelligence,KG JSON graph,C:\ProcurementIntelligence\10_distribution\knowledge_graph_json_v1.json,2026-06-29 17:04:15
+DEP-000005,Department Intelligence,KG JSON graph,C:\ProcurementIntelligence\10_distribution\knowledge_graph_json_v1.json,2026-06-29 17:04:15
+DEP-000006,Similar Opportunity Engine,Semantic graph search,graph_search outputs,2026-06-29 17:04:15
+DEP-000007,Recommendation Engine,Graph analytics + similarity,analytics and similarity outputs,2026-06-29 17:04:15
+DEP-000008,AI Procurement Analyst,QA context + search + graph,semantic_ai_context_v1.json,2026-06-29 17:04:15
+DEP-000009,Production API,all product outputs,Wave 10 intelligence outputs,2026-06-29 17:04:15

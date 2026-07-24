@@ -1,0 +1,9 @@
+question_id,question_text,question_category,graph_version,product_version,status,created_at
+QAQ-000001,What does firm fixed price mean in this procurement graph?,contract_type,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000002,What evaluation concepts are connected to award basis?,evaluation,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000003,What supplier qualifications are connected to performance work statements?,supplier_qualification,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000004,What acquisition methods are connected to the Food and Drug Administration?,agency,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000005,How does place of performance relate to pricing?,delivery_pricing,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000006,What concepts are connected to solicitation amendments?,submission,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000007,What compliance concepts exist in the graph?,compliance,KG-1.0,0.1.0,executed,2026-06-29 23:06:47
+QAQ-000008,What technical requirements exist in the graph?,technical_requirements,KG-1.0,0.1.0,executed,2026-06-29 23:06:47

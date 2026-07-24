@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-07-05 17:27:42",
+  "wave": "Wave 12",
+  "pack": "Pack 2 - API Contract Validation",
+  "status": "completed",
+  "product_status": "api_contract_validation_certified",
+  "gate_decision": "api_contracts_validated",
+  "api_version": "v1",
+  "endpoint_contracts_pass": 10,
+  "endpoint_contracts_fail": 0,
+  "manifest_checks": 7,
+  "manifest_failures": 0,
+  "critical_mismatches": 0,
+  "qa": {
+    "pass": 6,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\api_contract_validation\\api_contract_validation_session_registry_v1.csv",
+    "contract_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\api_contract_validation\\api_contract_registry_v1.csv",
+    "validation_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\api_contract_validation\\api_contract_validation_registry_v1.csv",
+    "mismatch_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\api_contract_validation\\api_contract_mismatch_registry_v1.csv",
+    "gate_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\api_contract_validation\\api_contract_gate_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\api_contract_validation\\api_contract_validation_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave12_api_contract_validation_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave12_pack2_api_contract_validation_report_v1.md"
+  },
+  "next_script": "build_wave12_pack3_audit_observability_v1.py"
+}

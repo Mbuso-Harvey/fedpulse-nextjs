@@ -1,0 +1,7 @@
+journey_id,step_order,step_title,step_description,status,created_at
+DEMOJOURNEY-000001,1,Problem Framing,"Businesses lose time and money because procurement data is fragmented across search, compliance, pricing, and bid decision workflows.",ready,2026-07-08 21:03:30
+DEMOJOURNEY-000002,2,Search and Ask,Demonstrate semantic search and graph-backed Q&A as the entry point.,ready,2026-07-08 21:03:30
+DEMOJOURNEY-000003,3,Opportunity Intelligence,"Show bid readiness, complexity, risk flags, and opportunity-level recommendations.",ready,2026-07-08 21:03:30
+DEMOJOURNEY-000004,4,Agent Decision Chain,"Walk through capture, supplier, compliance, pricing, proposal, and executive decision logic.",ready,2026-07-08 21:03:30
+DEMOJOURNEY-000005,5,Executive Decision,"Show the partner_or_restructure recommendation as proof that the system is risk-aware, not blindly optimistic.",ready,2026-07-08 21:03:30
+DEMOJOURNEY-000006,6,Business Close,"Position the platform as decision intelligence for procurement teams, suppliers, advisors, and bid leaders.",ready,2026-07-08 21:03:30

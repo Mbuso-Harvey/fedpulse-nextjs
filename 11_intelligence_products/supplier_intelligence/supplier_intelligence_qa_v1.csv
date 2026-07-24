@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+SUPQA-000001,supplier_profiles,1,1,pass,2026-06-30 20:13:57
+SUPQA-000002,capability_rows,8,8,pass,2026-06-30 20:13:57
+SUPQA-000003,match_rows,8,8,pass,2026-06-30 20:13:57
+SUPQA-000004,gap_rows,8,8,pass,2026-06-30 20:13:57
+SUPQA-000005,recommendations,8,>=5,pass,2026-06-30 20:13:57
+SUPQA-000006,overall_fit_score,78.4,>0,pass,2026-06-30 20:13:57
+SUPQA-000007,readiness_band,strong,strong|moderate|weak,pass,2026-06-30 20:13:57

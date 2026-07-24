@@ -1,0 +1,9 @@
+validation_id,validation_area,check_name,observed_value,expected_value,status,created_at
+FINALCHECK-000001,release_certification,Version 1.0 certification approved,version1_certification_approved,version1_certification_approved,pass,2026-07-11 23:15:18
+FINALCHECK-000002,launch_freeze,Wave 14 launch-freeze bootstrap certified,wave14_version1_launch_freeze_bootstrap_certified,wave14_version1_launch_freeze_bootstrap_certified,pass,2026-07-11 23:15:18
+FINALCHECK-000003,reliability,Reliability stabilization remains certified,reliability_stabilized,reliability_stabilized,pass,2026-07-11 23:15:18
+FINALCHECK-000004,integration,UI/API contracts remain ready,ui_api_integration_contracts_ready,ui_api_integration_contracts_ready,pass,2026-07-11 23:15:18
+FINALCHECK-000005,demo,Demo environment remains ready,demo_environment_ready,demo_environment_ready,pass,2026-07-11 23:15:18
+FINALCHECK-000006,freeze_compliance,Feature-freeze preparation remains ready,wave14_freeze_preparation_ready,wave14_freeze_preparation_ready,pass,2026-07-11 23:15:18
+FINALCHECK-000007,release_versioning,Release candidate matches target major version,1.0.0,1.0.0,pass,2026-07-11 23:15:18
+FINALCHECK-000008,graph_versioning,Knowledge graph remains locked,KG-1.0,KG-1.0,pass,2026-07-11 23:15:18

@@ -1,0 +1,2 @@
+manifest_id,release_version,platform_version,graph_version,api_version,api_endpoint_count,agent_count,production_gate,api_contract_gate,observability_gate,created_at
+DEPMAN-000001,1.0.0-rc1,1.0.0,KG-1.0,v1,10,6,production_ready,api_contracts_validated,audit_observability_ready,2026-07-06 23:51:33

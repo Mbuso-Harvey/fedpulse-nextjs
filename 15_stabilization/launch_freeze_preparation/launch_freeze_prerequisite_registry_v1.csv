@@ -1,0 +1,6 @@
+prerequisite_id,prerequisite_name,observed_status,expected_status,status,created_at
+FREEZEPREREQ-000001,Wave 13 bootstrap certified,wave13_stabilization_bootstrap_certified,wave13_stabilization_bootstrap_certified,pass,2026-07-09 22:19:05
+FREEZEPREREQ-000002,Reliability stabilized,reliability_stabilized,reliability_stabilized,pass,2026-07-09 22:19:05
+FREEZEPREREQ-000003,UI/API contracts ready,ui_api_integration_contracts_ready,ui_api_integration_contracts_ready,pass,2026-07-09 22:19:05
+FREEZEPREREQ-000004,Demo environment ready,demo_environment_ready,demo_environment_ready,pass,2026-07-09 22:19:05
+FREEZEPREREQ-000005,Wave 12 launch hardening certified,wave12_launch_hardening_certified,wave12_launch_hardening_certified,pass,2026-07-09 22:19:05

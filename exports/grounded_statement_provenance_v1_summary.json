@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-26 00:11:35",
+  "sprint": "SAM-0007ZD-B",
+  "grounded_statements_processed": 627,
+  "canonical_statements": 405,
+  "provenance_records_created": 627,
+  "canonical_source_records": 627,
+  "outputs": {
+    "provenance": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_statement_provenance_v1.csv",
+    "canonical_sources": "C:\\ProcurementIntelligence\\09_knowledge_graph\\canonical_statement_sources_v1.csv",
+    "lineage_summary": "C:\\ProcurementIntelligence\\09_knowledge_graph\\canonical_statement_lineage_summary_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\grounded_statement_provenance_report_v1.md"
+  },
+  "next_sprint": "SAM-0007ZD-C Duplicate Cluster Engine V1"
+}

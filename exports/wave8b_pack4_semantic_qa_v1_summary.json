@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-06-29 00:54:06",
+  "wave": "Wave 8B",
+  "pack": "Pack 4 - Semantic QA and Release Readiness",
+  "status": "completed",
+  "release_status": "certified_for_wave9_graph_population",
+  "objects_v2_5_input": 36,
+  "objects_v3": 32,
+  "semantic_object_duplicate_clusters": 4,
+  "semantic_entity_duplicate_clusters": 0,
+  "integrity_status_counts": {
+    "pass": 160
+  },
+  "object_type_counts_v3": {
+    "Submission Instruction": 2,
+    "Domain Specific Requirement": 1,
+    "Acquisition Metadata": 7,
+    "Contract Type": 2,
+    "Pricing Structure": 2,
+    "Procurement Role": 1,
+    "Technical Requirement": 2,
+    "Evaluation Factor": 1,
+    "Document Structure Object": 1,
+    "Supplier Qualification": 2,
+    "Administrative Service Labor Category": 1,
+    "Proposal Structure": 1,
+    "Delivery Requirement": 1,
+    "Evaluation Method": 1,
+    "Military Installation": 1,
+    "Military Organization": 2,
+    "Procurement Document Artifact": 1,
+    "Regulation Set": 1,
+    "Federal Agency": 1,
+    "Proposal Document Artifact": 1
+  },
+  "domain_counts_v3": {
+    "Submission and Proposal Management": 3,
+    "Domain-Specific Operations": 4,
+    "Acquisition Strategy": 9,
+    "Commercial and Pricing": 4,
+    "Technical Requirements": 2,
+    "Evaluation and Source Selection": 2,
+    "Document Structure and Administrative Forms": 3,
+    "Supplier Eligibility and Qualifications": 2,
+    "Performance and Operations": 1,
+    "Delivery and Logistics": 1,
+    "Legal, Compliance, and Labor": 1
+  },
+  "confidence_distribution": {
+    "high": 6,
+    "medium": 24,
+    "low": 2
+  },
+  "interpretation_coverage_v3_pct": 100.0,
+  "graph_ready_pct_v3": 37.5,
+  "graph_readiness_counts_v3": {
+    "graph_ready": 12,
+    "graph_candidate": 18,
+    "not_graph_ready": 2
+  },
+  "scorecard": {
+    "pass": 9,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "semantic_objects_v3": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_registry_v3.csv",
+    "object_duplicate_clusters": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_object_duplicate_clusters_v1.csv",
+    "entity_duplicate_clusters": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_entity_duplicate_clusters_v1.csv",
+    "integrity_validation": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_integrity_validation_v1.csv",
+    "graph_readiness_validation": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_graph_readiness_validation_v1.csv",
+    "scorecard": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_release_scorecard_v1.csv",
+    "release_certification": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_release_certification_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave8b_semantic_release_readiness_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave8b_pack4_semantic_qa_report_v1.md"
+  },
+  "next_wave": "Wave 9 Knowledge Graph Population"
+}

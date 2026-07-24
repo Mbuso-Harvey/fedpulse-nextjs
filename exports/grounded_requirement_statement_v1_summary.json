@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-23 00:54:57",
+  "documents_processed": 150,
+  "grounded_statements_extracted": 627,
+  "synthetic_artifacts_rejected": 0,
+  "object_type_counts": {
+    "certification_requirement": 70,
+    "proposal_instruction": 113,
+    "experience_requirement": 10,
+    "evaluation_factor": 62,
+    "procurement_artifact": 113,
+    "general_requirement_statement": 198,
+    "staffing_requirement": 12,
+    "pricing_requirement": 20,
+    "deliverable_requirement": 20,
+    "clearance_requirement": 9
+  },
+  "mandatory_counts": {
+    "unknown": 456,
+    "yes": 154,
+    "optional_or_conditional": 17
+  },
+  "outputs": {
+    "grounded_statements": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_requirement_statements_v1.csv",
+    "synthetic_rejects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\synthetic_artifact_rejects_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\grounded_requirement_statement_report_v1.md"
+  },
+  "next_sprint": "SAM-0007J Grounded Object Quality Review"
+}

@@ -1,0 +1,16 @@
+semantic_object_type_id,semantic_object_type,default_domain_name,definition,status,created_at
+SOT-000001,Contract Type,Commercial and Pricing,Commercial agreement structure such as Firm Fixed Price or IDIQ.,active,2026-06-27 21:23:24
+SOT-000002,Evaluation Method,Evaluation and Source Selection,Method used to evaluate and select an awardee.,active,2026-06-27 21:23:24
+SOT-000003,Evaluation Factor,Evaluation and Source Selection,Factor used in source selection such as technical capability or past performance.,active,2026-06-27 21:23:24
+SOT-000004,Proposal Structure,Submission and Proposal Management,"Submission volume, format, or proposal organization requirement.",active,2026-06-27 21:23:24
+SOT-000005,Submission Instruction,Submission and Proposal Management,"Instruction for submitting offers, quotes, proposals, or amendments.",active,2026-06-27 21:23:24
+SOT-000006,Procurement Role,Acquisition Strategy,Government or supplier-side role such as Contracting Officer or COR.,active,2026-06-27 21:23:24
+SOT-000007,Pricing Structure,Commercial and Pricing,"Price schedule, unit price, CLIN, payment, or invoicing concept.",active,2026-06-27 21:23:24
+SOT-000008,Supplier Qualification,Supplier Eligibility and Qualifications,"Supplier eligibility, registration, certification, authorization, or capability requirement.",active,2026-06-27 21:23:24
+SOT-000009,Technical Requirement,Technical Requirements,"Product, service, specification, material, or technical need.",active,2026-06-27 21:23:24
+SOT-000010,Performance Requirement,Performance and Operations,"Operational, staffing, contractor responsibility, or service delivery requirement.",active,2026-06-27 21:23:24
+SOT-000011,Delivery Requirement,Delivery and Logistics,"Place of performance, FOB, shipment, logistics, or delivery condition.",active,2026-06-27 21:23:24
+SOT-000012,Compliance Requirement,"Legal, Compliance, and Labor","Legal, labor, regulatory, FAR, DFARS, privacy, wage, or safety requirement.",active,2026-06-27 21:23:24
+SOT-000013,Document Structure Object,Document Structure and Administrative Forms,"Form, table, cover sheet, attachment, exhibit, or OCR structural object.",active,2026-06-27 21:23:24
+SOT-000014,Domain Specific Requirement,Domain-Specific Operations,Mission-specific or industry-specific procurement requirement.,active,2026-06-27 21:23:24
+SOT-000015,Acquisition Metadata,Acquisition Strategy,"Solicitation method, notice type, set-aside, market research, or acquisition posture.",active,2026-06-27 21:23:24

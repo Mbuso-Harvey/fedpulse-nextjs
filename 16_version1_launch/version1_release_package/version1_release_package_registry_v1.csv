@@ -1,0 +1,6 @@
+package_component_id,component_name,component_type,observed_status,expected_status,evidence_source,component_status,created_at
+V1COMP-000001,Version 1.0 Certification Gate,release_certification,version1_certification_approved,version1_certification_approved,C:\ProcurementIntelligence\exports\wave14_pack1_version1_certification_gate_v1_summary.json,included,2026-07-12 01:11:04
+V1COMP-000002,Final Production Validation,production_validation,final_production_validation_approved,final_production_validation_approved,C:\ProcurementIntelligence\exports\wave14_pack2_final_production_validation_v1_summary.json,included,2026-07-12 01:11:04
+V1COMP-000003,Version 1.0 Launch Freeze,feature_freeze,wave14_version1_launch_freeze_bootstrap_certified,wave14_version1_launch_freeze_bootstrap_certified,C:\ProcurementIntelligence\exports\wave14_bootstrap_version1_launch_freeze_v1_summary.json,included,2026-07-12 01:11:04
+V1COMP-000004,Platform Version,version_metadata,1.0.0,1.0.0,Wave 14 Release Metadata,included,2026-07-12 01:11:04
+V1COMP-000005,Knowledge Graph Version,graph_metadata,KG-1.0,KG-1.0,Version 1.0 Freeze Scope,included,2026-07-12 01:11:04

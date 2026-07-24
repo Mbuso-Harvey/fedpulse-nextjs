@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+QA-000001,assessment_rows,1,1,pass,2026-07-02 11:39:40
+QA-000002,executive_summary_rows,1,1,pass,2026-07-02 11:39:40
+QA-000003,risk_rows,5,>=1,pass,2026-07-02 11:39:40
+QA-000004,action_rows,8,>=5,pass,2026-07-02 11:39:40
+QA-000005,overall_assessment_score,61.29,>0,pass,2026-07-02 11:39:40
+QA-000006,recommendation_count,9,>0,pass,2026-07-02 11:39:40

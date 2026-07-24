@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-07-08 00:51:56",
+  "wave": "Wave 12",
+  "pack": "Pack 6 - Launch Hardening Closeout",
+  "status": "completed",
+  "product_status": "wave12_closeout_certified",
+  "closeout_status": "wave12_launch_hardening_certified",
+  "release_version": "1.0.0-rc1",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "packs_pass": 6,
+  "packs_fail": 0,
+  "controls_pass": 6,
+  "controls_fail": 0,
+  "milestones": 5,
+  "handoff_items": 4,
+  "wave13_ready": "true",
+  "launch_freeze_wave": "Wave 14",
+  "post_launch_policy": "new_features_after_first_clients_only",
+  "qa": {
+    "pass": 8,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\launch_hardening_closeout_session_registry_v1.csv",
+    "pack_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\wave12_pack_certification_registry_v1.csv",
+    "control_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\wave12_closeout_control_registry_v1.csv",
+    "milestone_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\wave12_milestone_registry_v1.csv",
+    "handoff_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\wave13_handoff_registry_v1.csv",
+    "certification_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\wave12_closeout_certification_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\launch_hardening_closeout\\wave12_closeout_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave12_launch_hardening_closeout_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave12_pack6_launch_hardening_closeout_report_v1.md"
+  },
+  "next_wave": "Wave 13 Stabilization and Launch Integration",
+  "next_script": "build_wave13_bootstrap_stabilization_v1.py"
+}

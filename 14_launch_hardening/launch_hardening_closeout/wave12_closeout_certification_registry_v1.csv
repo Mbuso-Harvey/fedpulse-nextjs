@@ -1,0 +1,2 @@
+certification_id,wave,release_version,platform_version,graph_version,closeout_status,packs_pass,packs_fail,controls_pass,controls_fail,wave13_ready,created_at
+W12CERT-000001,Wave 12,1.0.0-rc1,1.0.0,KG-1.0,wave12_launch_hardening_certified,6,0,6,0,true,2026-07-08 00:51:56

@@ -1,0 +1,4 @@
+dependency_id,dependency_name,dependency_status,required_for_launch,created_at
+LAUNCHDEP-000001,Wave 10 Production API,production_api_certified,true,2026-07-05 06:01:03
+LAUNCHDEP-000002,Wave 11 Agent Framework,wave11_agent_bootstrap_certified,true,2026-07-05 06:01:03
+LAUNCHDEP-000003,Executive Decision Agent,executive_decision_agent_certified,true,2026-07-05 06:01:03

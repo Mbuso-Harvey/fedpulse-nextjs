@@ -1,0 +1,2 @@
+pkv_version,version_name,created_at,registry_objects,official_families,official_subfamilies,held_or_rejected_candidates,merge_candidates,status,notes
+PKV-1.2,Domain Ontology Integrated Procurement Registry,2026-06-27 11:09:39,22,12,10,8,0,active,"Initial official registry promoted from expression discovery, recursive refinement, and procurement domain ontology."

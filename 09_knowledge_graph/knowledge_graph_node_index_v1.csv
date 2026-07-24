@@ -1,0 +1,31 @@
+node_index_id,node_id,node_key,node_type,canonical_name,domain_name,lookup_status,created_at
+KGIDX-000001,KGNODE-000001,submission_instruction_solicitation_amendment_submission_and_proposal_management,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,active,2026-06-29 04:12:22
+KGIDX-000002,KGNODE-000002,domain_specific_requirement_national_cemetery_operations_domain_specific_operations,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,active,2026-06-29 04:12:22
+KGIDX-000003,KGNODE-000003,contract_type_firm_fixed_price_commercial_and_pricing,Contract Type,Firm Fixed Price,Commercial and Pricing,active,2026-06-29 04:12:22
+KGIDX-000004,KGNODE-000004,procurement_role_contracting_officer_acquisition_strategy,Procurement Role,Contracting Officer,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000005,KGNODE-000005,technical_requirement_performance_work_statement_technical_requirements,Technical Requirement,Performance Work Statement,Technical Requirements,active,2026-06-29 04:12:22
+KGIDX-000006,KGNODE-000006,evaluation_method_award_basis_evaluation_and_source_selection,Evaluation Method,Award Basis,Evaluation and Source Selection,active,2026-06-29 04:12:22
+KGIDX-000007,KGNODE-000007,military_installation_marine_corps_base_camp_lejeune_domain_specific_operations,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,active,2026-06-29 04:12:22
+KGIDX-000008,KGNODE-000008,military_organization_united_states_army_domain_specific_operations,Military Organization,United States Army,Domain-Specific Operations,active,2026-06-29 04:12:22
+KGIDX-000009,KGNODE-000009,contract_type_firm_fixed_price_commercial_and_pricing,Contract Type,Firm Fixed Price,Commercial and Pricing,active,2026-06-29 04:12:22
+KGIDX-000010,KGNODE-000010,military_organization_united_states_marine_corps_domain_specific_operations,Military Organization,United States Marine Corps,Domain-Specific Operations,active,2026-06-29 04:12:22
+KGIDX-000011,KGNODE-000011,regulation_set_far_and_dosar_provisions_legal_compliance_and_labor,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",active,2026-06-29 04:12:22
+KGIDX-000012,KGNODE-000012,federal_agency_food_and_drug_administration_acquisition_strategy,Federal Agency,Food and Drug Administration,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000013,KGNODE-000013,acquisition_metadata_solicitation_number_acquisition_strategy,Acquisition Metadata,Solicitation Number,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000014,KGNODE-000014,pricing_structure_unit_price_commercial_and_pricing,Pricing Structure,Unit Price,Commercial and Pricing,active,2026-06-29 04:12:22
+KGIDX-000015,KGNODE-000015,evaluation_factor_evaluation_factors_evaluation_and_source_selection,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,active,2026-06-29 04:12:22
+KGIDX-000016,KGNODE-000016,document_structure_object_table_of_contents_document_structure_and_administrative_forms,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,active,2026-06-29 04:12:22
+KGIDX-000017,KGNODE-000017,supplier_qualification_past_performance_supplier_eligibility_and_qualifications,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,active,2026-06-29 04:12:22
+KGIDX-000018,KGNODE-000018,acquisition_metadata_request_for_information_acquisition_strategy,Acquisition Metadata,Request for Information,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000019,KGNODE-000019,administrative_service_labor_category_administrative_support_and_clerical_performance_and_operations,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,active,2026-06-29 04:12:22
+KGIDX-000020,KGNODE-000020,proposal_structure_proposal_volume_submission_and_proposal_management,Proposal Structure,Proposal Volume,Submission and Proposal Management,active,2026-06-29 04:12:22
+KGIDX-000021,KGNODE-000021,acquisition_metadata_combined_synopsis_solicitation_acquisition_strategy,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000022,KGNODE-000022,supplier_qualification_small_business_set_aside_supplier_eligibility_and_qualifications,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,active,2026-06-29 04:12:22
+KGIDX-000023,KGNODE-000023,delivery_requirement_place_of_performance_delivery_and_logistics,Delivery Requirement,Place of Performance,Delivery and Logistics,active,2026-06-29 04:12:22
+KGIDX-000024,KGNODE-000024,acquisition_metadata_method_of_solicitation_acquisition_strategy,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000025,KGNODE-000025,acquisition_metadata_request_for_proposal_acquisition_strategy,Acquisition Metadata,Request for Proposal,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000026,KGNODE-000026,technical_requirement_statement_of_work_technical_requirements,Technical Requirement,Statement of Work,Technical Requirements,active,2026-06-29 04:12:22
+KGIDX-000027,KGNODE-000027,procurement_document_artifact_amendment_copy_requirement_document_structure_and_administrative_forms,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,active,2026-06-29 04:12:22
+KGIDX-000028,KGNODE-000028,proposal_document_artifact_proposal_default_index_document_structure_and_administrative_forms,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,active,2026-06-29 04:12:22
+KGIDX-000029,KGNODE-000029,acquisition_metadata_request_for_quotation_acquisition_strategy,Acquisition Metadata,Request for Quotation,Acquisition Strategy,active,2026-06-29 04:12:22
+KGIDX-000030,KGNODE-000030,pricing_structure_payment_and_invoice_commercial_and_pricing,Pricing Structure,Payment and Invoice,Commercial and Pricing,active,2026-06-29 04:12:22

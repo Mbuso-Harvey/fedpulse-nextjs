@@ -1,0 +1,25 @@
+reasoning_id,answer_id,question_id,reasoning_step,reasoning_text,created_at
+QAR-000001,QAA-000001,QAQ-000001,retrieve_top_semantic_nodes,Retrieved 4 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000002,QAA-000001,QAQ-000001,select_primary_concept,Selected Firm Fixed Price as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000003,QAA-000001,QAQ-000001,collect_relationship_context,Collected 3 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000004,QAA-000002,QAQ-000002,retrieve_top_semantic_nodes,Retrieved 2 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000005,QAA-000002,QAQ-000002,select_primary_concept,Selected Award Basis as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000006,QAA-000002,QAQ-000002,collect_relationship_context,Collected 8 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000007,QAA-000003,QAQ-000003,retrieve_top_semantic_nodes,Retrieved 5 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000008,QAA-000003,QAQ-000003,select_primary_concept,Selected Performance Work Statement as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000009,QAA-000003,QAQ-000003,collect_relationship_context,Collected 4 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000010,QAA-000004,QAQ-000004,retrieve_top_semantic_nodes,Retrieved 5 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000011,QAA-000004,QAQ-000004,select_primary_concept,Selected Food and Drug Administration as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000012,QAA-000004,QAQ-000004,collect_relationship_context,Collected 7 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000013,QAA-000005,QAQ-000005,retrieve_top_semantic_nodes,Retrieved 5 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000014,QAA-000005,QAQ-000005,select_primary_concept,Selected Place of Performance as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000015,QAA-000005,QAQ-000005,collect_relationship_context,Collected 5 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000016,QAA-000006,QAQ-000006,retrieve_top_semantic_nodes,Retrieved 4 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000017,QAA-000006,QAQ-000006,select_primary_concept,Selected Solicitation Amendment as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000018,QAA-000006,QAQ-000006,collect_relationship_context,Collected 9 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000019,QAA-000007,QAQ-000007,retrieve_top_semantic_nodes,Retrieved 1 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000020,QAA-000007,QAQ-000007,select_primary_concept,Selected FAR and DOSAR Provisions as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000021,QAA-000007,QAQ-000007,collect_relationship_context,Collected 0 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47
+QAR-000022,QAA-000008,QAQ-000008,retrieve_top_semantic_nodes,Retrieved 2 candidate graph nodes from KG-1.0.,2026-06-29 23:06:47
+QAR-000023,QAA-000008,QAQ-000008,select_primary_concept,Selected Performance Work Statement as primary concept using highest retrieval score.,2026-06-29 23:06:47
+QAR-000024,QAA-000008,QAQ-000008,collect_relationship_context,Collected 4 direct relationship evidence items for the primary concept.,2026-06-29 23:06:47

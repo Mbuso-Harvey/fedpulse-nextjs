@@ -1,0 +1,2 @@
+gate_id,gate_decision,controls_pass,controls_fail,available_audit_sources,missing_audit_sources,covered_agents,review_agents,missing_qa_agents,critical_gaps,created_at
+OBGATE-000001,audit_observability_ready,7,0,12,0,6,0,0,0,2026-07-06 16:31:46

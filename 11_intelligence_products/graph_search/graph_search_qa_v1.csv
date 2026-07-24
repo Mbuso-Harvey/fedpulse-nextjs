@@ -1,0 +1,9 @@
+qa_metric_id,metric_name,metric_value,target_value,status,notes,created_at
+GSQA-000001,search_requests_executed,10,10,pass,Expected 10 bootstrap search requests.,2026-06-29 22:06:49
+GSQA-000002,search_sessions_created,10,10,pass,One search session per request.,2026-06-29 22:06:49
+GSQA-000003,search_results_created,77,> 0,pass,Search should return graph-powered results.,2026-06-29 22:06:49
+GSQA-000004,zero_result_sessions,0,0,pass,Every bootstrap query should return at least one result.,2026-06-29 22:06:49
+GSQA-000005,ranking_rows,77,77,pass,Every result should have a ranking row.,2026-06-29 22:06:49
+GSQA-000006,explainability_rows,77,77,pass,Every result should have explainability.,2026-06-29 22:06:49
+GSQA-000007,average_results_per_query,8.0,>= 3,pass,Search should return multiple candidates per query.,2026-06-29 22:06:49
+GSQA-000008,average_top_score,0.8315,>= 0.4,pass,Top results should have meaningful ranking scores.,2026-06-29 22:06:49

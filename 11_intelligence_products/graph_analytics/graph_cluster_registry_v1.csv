@@ -1,0 +1,9 @@
+cluster_id,cluster_size,cluster_band,dominant_domain,dominant_node_type,node_ids,created_at
+GCLUSTER-000001,22,large,Acquisition Strategy,Acquisition Metadata,KGNODE2-000001; KGNODE2-000019; KGNODE2-000028; KGNODE2-000023; KGNODE2-000024; KGNODE2-000012; KGNODE2-000004; KGNODE2-000017; KGNODE2-000020; KGNODE2-000006; KGNODE2-000011; KGNODE2-000003; KGNODE2-000014; KGNODE2-000002; KGNODE2-000013; KGNODE2-000029; KGNODE2-000025; KGNODE2-000005; KGNODE2-000022; KGNODE2-000016; KGNODE2-000021; KGNODE2-000007,2026-07-01 20:51:37
+GCLUSTER-000002,1,small,Domain-Specific Operations,Military Organization,KGNODE2-000008,2026-07-01 20:51:37
+GCLUSTER-000003,1,small,Domain-Specific Operations,Military Organization,KGNODE2-000009,2026-07-01 20:51:37
+GCLUSTER-000004,1,small,"Legal, Compliance, and Labor",Regulation Set,KGNODE2-000010,2026-07-01 20:51:37
+GCLUSTER-000005,1,small,Document Structure and Administrative Forms,Document Structure Object,KGNODE2-000015,2026-07-01 20:51:37
+GCLUSTER-000006,1,small,Performance and Operations,Administrative Service Labor Category,KGNODE2-000018,2026-07-01 20:51:37
+GCLUSTER-000007,1,small,Document Structure and Administrative Forms,Procurement Document Artifact,KGNODE2-000026,2026-07-01 20:51:37
+GCLUSTER-000008,1,small,Document Structure and Administrative Forms,Proposal Document Artifact,KGNODE2-000027,2026-07-01 20:51:37

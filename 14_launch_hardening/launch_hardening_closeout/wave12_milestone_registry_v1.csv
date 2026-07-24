@@ -1,0 +1,6 @@
+milestone_id,milestone_name,milestone_status,business_meaning,created_at
+W12MILE-000001,Production Readiness Certified,production_ready,The platform passed the formal production readiness gate.,2026-07-08 00:51:56
+W12MILE-000002,API Contracts Validated,api_contracts_validated,The launch API surface is stable and contract-checked.,2026-07-08 00:51:56
+W12MILE-000003,Audit Observability Certified,audit_observability_ready,"Launch-critical artifacts, QA, and audit trails are available.",2026-07-08 00:51:56
+W12MILE-000004,Deployment Package Ready,deployment_package_ready,"Release package, rollback plan, and deployment checklist are ready.",2026-07-08 00:51:56
+W12MILE-000005,Client Demo Ready,client_demo_ready,The platform has a certified client-facing demo path.,2026-07-08 00:51:56

@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+FINALVALQA-000001,session_rows,1,1,pass,2026-07-11 23:15:18
+FINALVALQA-000002,validation_rows,8,8,pass,2026-07-11 23:15:18
+FINALVALQA-000003,validations_fail,0,0,pass,2026-07-11 23:15:18
+FINALVALQA-000004,control_rows,6,6,pass,2026-07-11 23:15:18
+FINALVALQA-000005,controls_fail,0,0,pass,2026-07-11 23:15:18
+FINALVALQA-000006,gate_rows,1,1,pass,2026-07-11 23:15:18
+FINALVALQA-000007,production_validation_gate,final_production_validation_approved,final_production_validation_approved,pass,2026-07-11 23:15:18

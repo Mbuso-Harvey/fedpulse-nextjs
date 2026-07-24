@@ -1,0 +1,2 @@
+department_score_id,department_id,department_name,acquisition_score,technical_score,commercial_score,evaluation_score,supplier_score,compliance_score,delivery_score,operations_score,risk_score,recommendation_score,department_intelligence_score,intelligence_band,buying_style,created_at
+DEPTSCORE-000001,DEPT-000001,Food and Drug Administration,96,36,54,40,40,25,20,60,72,80,52.2,moderate,acquisition-method-heavy,2026-07-01 01:07:49

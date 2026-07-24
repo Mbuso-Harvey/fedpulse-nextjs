@@ -1,0 +1,6 @@
+risk_id,risk_category,severity,risk_text,created_at
+PRRISK-000001,complexity,high,Opportunity complexity is high and may create pricing uncertainty.,2026-07-04 11:11:53
+PRRISK-000002,delivery_cost,medium,Delivery or place-of-performance assumptions may affect cost and margin.,2026-07-04 11:11:53
+PRRISK-000003,compliance_cost,high,"Critical compliance gaps may create pricing, staffing, or documentation cost exposure.",2026-07-04 11:11:53
+PRRISK-000004,pricing_review,medium,Recommendation engine flagged pricing strategy review as necessary.,2026-07-04 11:11:53
+PRRISK-000005,supplier_execution,medium,Supplier fit is below 80 and may require contingency or partner support.,2026-07-04 11:11:53

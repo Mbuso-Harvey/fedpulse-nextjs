@@ -1,0 +1,62 @@
+candidate_pattern_id,candidate_family_id,candidate_type_id,suggested_family_name,suggested_expression_type,pattern,pattern_count,created_at
+CSP-000001,CEF-000002,CET-000002,Product and Materials,Material or Product Requirement,items?,10,2026-06-26 11:04:39
+CSP-000002,CEF-000002,CET-000002,Product and Materials,Material or Product Requirement,product,9,2026-06-26 11:04:39
+CSP-000003,CEF-000002,CET-000002,Product and Materials,Material or Product Requirement,materials?,7,2026-06-26 11:04:39
+CSP-000004,CEF-000002,CET-000002,Product and Materials,Material or Product Requirement,equipment,4,2026-06-26 11:04:39
+CSP-000005,CEF-000003,CET-000003,Workforce Management,Staffing and Workforce Requirement,personnel,6,2026-06-26 11:04:39
+CSP-000006,CEF-000003,CET-000003,Workforce Management,Staffing and Workforce Requirement,supervision,4,2026-06-26 11:04:39
+CSP-000007,CEF-000003,CET-000003,Workforce Management,Staffing and Workforce Requirement,contractor.*employees,2,2026-06-26 11:04:39
+CSP-000008,CEF-000003,CET-000003,Workforce Management,Staffing and Workforce Requirement,adequate workforce,1,2026-06-26 11:04:39
+CSP-000009,CEF-000003,CET-000003,Workforce Management,Staffing and Workforce Requirement,workforce,1,2026-06-26 11:04:39
+CSP-000010,CEF-000003,CET-000003,Workforce Management,Staffing and Workforce Requirement,staffing,1,2026-06-26 11:04:39
+CSP-000011,CEF-000004,CET-000004,Submission Logistics,Quote Submission Instruction,submit.*offer,5,2026-06-26 11:04:39
+CSP-000012,CEF-000004,CET-000004,Submission Logistics,Quote Submission Instruction,proposal.*requirement,2,2026-06-26 11:04:39
+CSP-000013,CEF-000004,CET-000004,Submission Logistics,Quote Submission Instruction,submit a quote,2,2026-06-26 11:04:39
+CSP-000014,CEF-000004,CET-000004,Submission Logistics,Quote Submission Instruction,quote/offer,1,2026-06-26 11:04:39
+CSP-000015,CEF-000004,CET-000004,Submission Logistics,Quote Submission Instruction,responses.*notice,1,2026-06-26 11:04:39
+CSP-000016,CEF-000005,CET-000005,Contract Administration,Contracting Officer Communication,contracting officer,5,2026-06-26 11:04:39
+CSP-000017,CEF-000005,CET-000005,Contract Administration,Contracting Officer Communication,\bcor\b,4,2026-06-26 11:04:39
+CSP-000018,CEF-000005,CET-000005,Contract Administration,Contracting Officer Communication,contract specialist,2,2026-06-26 11:04:39
+CSP-000019,CEF-000005,CET-000005,Contract Administration,Contracting Officer Communication,written notification,1,2026-06-26 11:04:39
+CSP-000020,CEF-000005,CET-000005,Contract Administration,Contracting Officer Communication,point of contact,1,2026-06-26 11:04:39
+CSP-000021,CEF-000006,CET-000006,Cemetery Operations,Cemetery Dignity and Grounds Requirement,cemetery,7,2026-06-26 11:04:39
+CSP-000022,CEF-000006,CET-000006,Cemetery Operations,Cemetery Dignity and Grounds Requirement,headstone,2,2026-06-26 11:04:39
+CSP-000023,CEF-000006,CET-000006,Cemetery Operations,Cemetery Dignity and Grounds Requirement,memorial,2,2026-06-26 11:04:39
+CSP-000024,CEF-000006,CET-000006,Cemetery Operations,Cemetery Dignity and Grounds Requirement,grave,1,2026-06-26 11:04:39
+CSP-000025,CEF-000006,CET-000006,Cemetery Operations,Cemetery Dignity and Grounds Requirement,remains,1,2026-06-26 11:04:39
+CSP-000026,CEF-000007,CET-000007,Delivery and Logistics,Delivery Requirement,deliver,5,2026-06-26 11:04:39
+CSP-000027,CEF-000007,CET-000007,Delivery and Logistics,Delivery Requirement,destination,4,2026-06-26 11:04:39
+CSP-000028,CEF-000007,CET-000007,Delivery and Logistics,Delivery Requirement,fob,4,2026-06-26 11:04:39
+CSP-000029,CEF-000007,CET-000007,Delivery and Logistics,Delivery Requirement,shipment,1,2026-06-26 11:04:39
+CSP-000030,CEF-000007,CET-000007,Delivery and Logistics,Delivery Requirement,delivery,1,2026-06-26 11:04:39
+CSP-000031,CEF-000007,CET-000007,Delivery and Logistics,Delivery Requirement,transportation,1,2026-06-26 11:04:39
+CSP-000032,CEF-000008,CET-000008,Past Performance Administration,Past Performance Questionnaire,reference,6,2026-06-26 11:04:39
+CSP-000033,CEF-000008,CET-000008,Past Performance Administration,Past Performance Questionnaire,previous.*contracts,2,2026-06-26 11:04:39
+CSP-000034,CEF-000008,CET-000008,Past Performance Administration,Past Performance Questionnaire,comparable in size,1,2026-06-26 11:04:39
+CSP-000035,CEF-000008,CET-000008,Past Performance Administration,Past Performance Questionnaire,complexity and scope,1,2026-06-26 11:04:39
+CSP-000036,CEF-000008,CET-000008,Past Performance Administration,Past Performance Questionnaire,contractor must identify previous,1,2026-06-26 11:04:39
+CSP-000037,CEF-000009,CET-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,request for proposal,3,2026-06-26 11:04:39
+CSP-000038,CEF-000009,CET-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,method of solicitation,2,2026-06-26 11:04:39
+CSP-000039,CEF-000009,CET-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,invitation for bid,2,2026-06-26 11:04:39
+CSP-000040,CEF-000009,CET-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,combined synopsis,2,2026-06-26 11:04:39
+CSP-000041,CEF-000009,CET-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,not a request for,1,2026-06-26 11:04:39
+CSP-000042,CEF-000009,CET-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,pre-solicitation notice,1,2026-06-26 11:04:39
+CSP-000043,CEF-000010,CET-000010,Proposal Administration,Proposal Clarification,please confirm,4,2026-06-26 11:04:39
+CSP-000044,CEF-000010,CET-000010,Proposal Administration,Proposal Clarification,clarify,2,2026-06-26 11:04:39
+CSP-000045,CEF-000010,CET-000010,Proposal Administration,Proposal Clarification,typographical error,1,2026-06-26 11:04:39
+CSP-000046,CEF-000010,CET-000010,Proposal Administration,Proposal Clarification,treated as,1,2026-06-26 11:04:39
+CSP-000047,CEF-000011,CET-000011,Document Forms and Tables,Form Field or Table Fragment,administered by code,3,2026-06-26 11:04:39
+CSP-000048,CEF-000011,CET-000011,Document Forms and Tables,Form Field or Table Fragment,code 11,2,2026-06-26 11:04:39
+CSP-000049,CEF-000011,CET-000011,Document Forms and Tables,Form Field or Table Fragment,page of pages,2,2026-06-26 11:04:39
+CSP-000050,CEF-000012,CET-000012,Labor and Local Compliance,Labor Availability or Local Law Constraint,labor,6,2026-06-26 11:04:39
+CSP-000051,CEF-000012,CET-000012,Labor and Local Compliance,Labor Availability or Local Law Constraint,local labor laws,1,2026-06-26 11:04:39
+CSP-000052,CEF-000012,CET-000012,Labor and Local Compliance,Labor Availability or Local Law Constraint,local holidays,1,2026-06-26 11:04:39
+CSP-000053,CEF-000012,CET-000012,Labor and Local Compliance,Labor Availability or Local Law Constraint,nationalities.*allowed to work,1,2026-06-26 11:04:39
+CSP-000054,CEF-000012,CET-000012,Labor and Local Compliance,Labor Availability or Local Law Constraint,allowed to work within,1,2026-06-26 11:04:39
+CSP-000055,CEF-000013,CET-000013,Performance Work Statement,Service Performance Obligation,perform.*services,4,2026-06-26 11:04:39
+CSP-000056,CEF-000013,CET-000013,Performance Work Statement,Service Performance Obligation,performance work statement,2,2026-06-26 11:04:39
+CSP-000057,CEF-000014,CET-000014,Market Research,Market Survey or Sources Sought,request for information,1,2026-06-26 11:04:39
+CSP-000058,CEF-000014,CET-000014,Market Research,Market Survey or Sources Sought,\brfi\b,1,2026-06-26 11:04:39
+CSP-000059,CEF-000014,CET-000014,Market Research,Market Survey or Sources Sought,market survey,1,2026-06-26 11:04:39
+CSP-000060,CEF-000015,CET-000015,Supplier Authorization,Authorized Distributor Requirement,authorization letter,1,2026-06-26 11:04:39
+CSP-000061,CEF-000015,CET-000015,Supplier Authorization,Authorized Distributor Requirement,oem,1,2026-06-26 11:04:39

@@ -1,0 +1,7 @@
+engine_id,engine_name,primary_input,primary_output,status,created_at
+W9-ENG-000001,KG Node Builder,semantic_procurement_object_registry_v3.csv,knowledge_graph_nodes_v1.csv,planned,2026-06-29 03:08:43
+W9-ENG-000002,KG Edge Builder,knowledge_graph_nodes_v1.csv,knowledge_graph_edges_v1.csv,planned,2026-06-29 03:08:43
+W9-ENG-000003,KG Relationship Inference Engine,semantic_object_relationship_registry_v1.csv,knowledge_graph_inferred_edges_v1.csv,planned,2026-06-29 03:08:43
+W9-ENG-000004,KG Provenance Linker,semantic_procurement_object_evidence_v2.csv,knowledge_graph_provenance_links_v1.csv,planned,2026-06-29 03:08:43
+W9-ENG-000005,KG Integrity Validator,knowledge_graph_nodes_v1.csv,knowledge_graph_integrity_report_v1.md,planned,2026-06-29 03:08:43
+W9-ENG-000006,KG Export Builder,knowledge_graph_nodes_v1.csv,knowledge_graph_export_package_v1,planned,2026-06-29 03:08:43

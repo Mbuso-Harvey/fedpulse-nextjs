@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-06-24 23:11:06",
+  "sprint": "SAM-0007ZA",
+  "grounded_statements_processed": 627,
+  "unique_statements_processed": 405,
+  "duplicate_statements_rejected": 222,
+  "optimized_classified_statements": 176,
+  "discovery_queue_statements": 229,
+  "coverage_against_raw_pct": 28.07,
+  "context_family_counts": {
+    "Proposal": 20,
+    "Delivery and Administration": 23,
+    "Supplier Qualification": 22,
+    "Evaluation": 12,
+    "Commercial": 23,
+    "Metadata and Structure": 22,
+    "Technical": 25,
+    "Exclusion": 2,
+    "Legal and Compliance": 27
+  },
+  "outputs": {
+    "optimized_classifications": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_language_classifications_optimized_v1.csv",
+    "discovery_queue": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_context_discovery_queue_optimized_v1.csv",
+    "rejects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_language_false_positive_rejects_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\plu_classification_optimizer_report_v1.md"
+  },
+  "next_sprint": "SAM-0008A PLU Semantic Pattern Engine V1"
+}

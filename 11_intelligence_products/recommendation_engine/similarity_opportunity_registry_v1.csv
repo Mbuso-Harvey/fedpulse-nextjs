@@ -1,0 +1,6 @@
+similarity_opportunity_id,opportunity_name,variant_type,source_opportunity_id,graph_version,product_version,created_at
+SIMOPP-000001,Base KG-1.0 Opportunity,base,OPPINT-000001,KG-1.0,0.1.0,2026-07-01 10:11:25
+SIMOPP-000002,Technical Services Similar Opportunity,technical_services,,KG-1.0,0.1.0,2026-07-01 10:11:25
+SIMOPP-000003,Commercial Pricing Similar Opportunity,commercial_pricing,,KG-1.0,0.1.0,2026-07-01 10:11:25
+SIMOPP-000004,Compliance Heavy Opportunity,compliance_heavy,,KG-1.0,0.1.0,2026-07-01 10:11:25
+SIMOPP-000005,Low Similarity Administrative Opportunity,administrative_low_similarity,,KG-1.0,0.1.0,2026-07-01 10:11:25

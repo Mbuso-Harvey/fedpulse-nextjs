@@ -1,0 +1,13 @@
+official_family_id,official_registry_id,pkv_version,source_candidate_family_id,family_name,domain_id,domain_name,intent,expression_count,source_count,confidence,approval_status,knowledge_maturity_level,created_at
+OEF-000001,OPR-000001,PKV-1.2,CEF-000001,Residual Discovery,PDO-SUB-001,Submission and Proposal Management,Manual Review,133,154,0.85,promoted,L3,2026-06-27 11:09:39
+OEF-000002,OPR-000002,PKV-1.2,CEF-000002,Product and Materials,PDO-TECH-001,Technical Requirements,Technical Requirement,27,44,0.85,promoted,L3,2026-06-27 11:09:39
+OEF-000003,OPR-000003,PKV-1.2,CEF-000003,Workforce Management,PDO-PERF-001,Performance and Operations,Performance,11,13,0.85,promoted,L3,2026-06-27 11:09:39
+OEF-000004,OPR-000004,PKV-1.2,CEF-000004,Submission Logistics,PDO-SUB-001,Submission and Proposal Management,Submission,9,10,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000005,OPR-000005,PKV-1.2,CEF-000005,Contract Administration,PDO-LOG-001,Delivery and Logistics,Administration,9,9,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000006,OPR-000006,PKV-1.2,CEF-000006,Cemetery Operations,PDO-PERF-001,Performance and Operations,Domain Requirement,9,9,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000007,OPR-000007,PKV-1.2,CEF-000007,Delivery and Logistics,PDO-LOG-001,Delivery and Logistics,Delivery,8,12,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000008,OPR-000008,PKV-1.2,CEF-000008,Past Performance Administration,PDO-SUB-001,Submission and Proposal Management,Supplier Evidence,8,17,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000009,OPR-000009,PKV-1.2,CEF-000009,Solicitation Metadata,PDO-ACQ-001,Acquisition Strategy,Acquisition Metadata,8,18,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000010,OPR-000010,PKV-1.2,CEF-000010,Proposal Administration,PDO-SUB-001,Submission and Proposal Management,Submission Clarification,7,10,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000011,OPR-000011,PKV-1.2,CEF-000011,Document Forms and Tables,PDO-DOC-001,Document Structure and Administrative Forms,Document Structure,7,10,0.75,promoted,L3,2026-06-27 11:09:39
+OEF-000012,OPR-000012,PKV-1.2,CEF-000012,Labor and Local Compliance,PDO-COMP-001,"Legal, Compliance, and Labor",Compliance,7,8,0.75,promoted,L3,2026-06-27 11:09:39

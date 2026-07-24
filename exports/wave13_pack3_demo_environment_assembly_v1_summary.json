@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-07-08 21:03:30",
+  "wave": "Wave 13",
+  "pack": "Pack 3 - Demo Environment Assembly",
+  "status": "completed",
+  "product_status": "demo_environment_assembly_certified",
+  "demo_environment_gate": "demo_environment_ready",
+  "release_version": "1.0.0-rc1",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "journey_steps": 6,
+  "scenarios": 3,
+  "datasets": 2,
+  "proof_points": 4,
+  "executive_stories": 1,
+  "checklist_pass": 6,
+  "checklist_fail": 0,
+  "qa": {
+    "pass": 8,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_environment_session_registry_v1.csv",
+    "journey_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_journey_registry_v1.csv",
+    "scenario_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_scenario_registry_v1.csv",
+    "dataset_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_dataset_registry_v1.csv",
+    "proof_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_proof_point_registry_v1.csv",
+    "executive_story_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_executive_story_registry_v1.csv",
+    "checklist_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_environment_checklist_registry_v1.csv",
+    "gate_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_environment_gate_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\15_stabilization\\demo_environment\\demo_environment_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave13_demo_environment_assembly_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave13_pack3_demo_environment_assembly_report_v1.md"
+  },
+  "next_script": "build_wave13_pack4_launch_freeze_preparation_v1.py"
+}

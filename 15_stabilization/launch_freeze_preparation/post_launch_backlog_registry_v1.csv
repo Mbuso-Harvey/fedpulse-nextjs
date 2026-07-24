@@ -1,0 +1,7 @@
+backlog_id,backlog_title,backlog_category,rationale,backlog_status,customer_validation_required,created_at
+POSTLAUNCH-000001,Advanced pricing prediction,intelligence_expansion,Evaluate only after first-client pricing workflows and data are observed.,deferred,true,2026-07-09 22:19:05
+POSTLAUNCH-000002,Additional autonomous agents,agent_expansion,Consider only when real customer workflows justify them.,deferred,true,2026-07-09 22:19:05
+POSTLAUNCH-000003,Provincial and municipal procurement,data_expansion,Remain outside Version 1.0 federal-only scope.,deferred,true,2026-07-09 22:19:05
+POSTLAUNCH-000004,International procurement coverage,data_expansion,Remain outside Version 1.0 scope until federal product-market fit is proven.,deferred,true,2026-07-09 22:19:05
+POSTLAUNCH-000005,Advanced competitor intelligence,intelligence_expansion,Build only when paying clients confirm commercial demand.,deferred,true,2026-07-09 22:19:05
+POSTLAUNCH-000006,Customer-requested onboarding improvements,client_driven,Prioritize when required to onboard or retain a paying client.,eligible_after_launch,true,2026-07-09 22:19:05

@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-06-26 01:46:47",
+  "sprint": "SAM-0007ZD-C",
+  "canonical_statements": 405,
+  "duplicate_clusters": 101,
+  "largest_cluster_size": 20,
+  "cluster_member_records": 323,
+  "cluster_size_bands": {
+    "size_2": 69,
+    "size_3_to_5": 23,
+    "size_6_to_10": 5,
+    "size_11_plus": 4
+  },
+  "outputs": {
+    "clusters": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_statement_duplicate_clusters_v1.csv",
+    "cluster_members": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_statement_duplicate_cluster_members_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\grounded_statement_duplicate_cluster_report_v1.md"
+  },
+  "next_sprint": "SAM-0008A PLU Semantic Pattern Engine V1"
+}

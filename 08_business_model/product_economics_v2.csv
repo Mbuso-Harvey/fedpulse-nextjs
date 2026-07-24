@@ -1,0 +1,28 @@
+product_name,target_customer,asset_class,revenue_potential,recurring_revenue,buyer_urgency,mvp_build_speed,proof_of_value_speed,automation_potential,strategic_moat,sales_cycle_score,support_effort_score,legal_safety_score,freshness_fit,subscription_fit,total_economic_score_v2,recommendation
+Renewal Watch,Contractors,Timing Intelligence,9,10,9,9,9,9,8,6,7,8,10,10,125.6,build_first
+Expiry Intelligence,Vendors,Timing Intelligence,9,10,9,9,9,9,8,6,7,8,10,10,125.6,build_first
+Buyer Benchmark Reports,Government Departments,Buyer Intelligence,8,8,8,8,8,7,6,6,7,8,6,7,104.3,evaluate_later
+Department Buyer Intelligence,Government Contractors,Buyer Intelligence,8,8,8,8,8,7,6,6,7,8,6,7,104.3,evaluate_later
+Federal Buyer Scorecards,Sales Teams,Buyer Intelligence,8,8,8,8,8,7,6,6,7,8,6,7,104.3,evaluate_later
+Buyer Contact Intelligence,BD Teams,Relationship Intelligence,9,8,8,8,8,7,6,5,5,5,6,7,99.6,evaluate_later
+Foreign Supplier Tracker,Policy Groups,Geographic Intelligence,8,8,6,6,6,7,8,6,7,8,6,7,98.9,evaluate_later
+Supplier Expansion Tracker,Investors,Contract Amendment Intelligence,8,8,6,6,6,7,8,6,7,8,6,7,98.9,evaluate_later
+Supplier Geography Intelligence,Suppliers,Geographic Intelligence,8,8,6,6,6,7,8,6,7,8,6,7,98.9,evaluate_later
+Competitive Intelligence,Vendors,Supplier Intelligence,8,8,6,6,6,7,8,6,7,8,6,7,98.9,evaluate_later
+Supplier Market Share Intelligence,Investors,Supplier Intelligence,8,8,6,6,6,7,8,6,7,8,6,7,98.9,evaluate_later
+Supplier Scorecards,Suppliers,Supplier Intelligence,8,8,6,6,6,7,8,6,7,8,6,7,98.9,evaluate_later
+Amendment Watch,Auditors,Contract Amendment Intelligence,8,7,7,6,6,7,6,6,7,6,6,7,94.7,evaluate_later
+Regional Spend Monitor,Economic Agencies,Geographic Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+AI Opportunity Matching,Contractors,Semantic Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Capture Management Intelligence,Capture Managers,Relationship Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Category Opportunity Reports,Suppliers,Category Market Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Industry Demand Tracker,Associations,Category Market Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Market Growth Intelligence,Investors,Category Market Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Procurement Calendar,Sales Teams,Timing Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Tender Discovery Engine,Sales Teams,Semantic Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Procurement Method Intelligence,Consultants,Procurement Process Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Competition Intelligence,Vendors,Procurement Process Intelligence,7,7,6,6,6,7,6,6,7,8,6,7,94.0,evaluate_later
+Relationship Mapping Service,Enterprise,Relationship Intelligence,9,7,8,6,6,7,6,5,5,5,6,7,93.4,evaluate_later
+Sector Intelligence Briefings,Researchers,Semantic Intelligence,7,6,6,6,6,7,6,6,7,8,6,7,92.6,evaluate_later
+Contract Risk Monitor,Media,Contract Amendment Intelligence,7,6,7,6,6,7,6,6,7,6,6,7,92.0,evaluate_later
+Sole Source Monitor,Media,Procurement Process Intelligence,7,6,7,6,6,7,6,6,7,6,6,7,92.0,evaluate_later

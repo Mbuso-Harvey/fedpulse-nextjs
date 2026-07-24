@@ -1,0 +1,7 @@
+memory_id,agent_id,agent_name,memory_scope,memory_description,retention_policy,status,created_at
+MEM-000001,AGENT-000001,Capture Manager Agent,wave11_launch_memory,"Stores agent inputs, outputs, reasoning trace, decisions, and launch-safe execution context.",retain_for_audit,active,2026-07-02 21:58:24
+MEM-000002,AGENT-000002,Supplier Strategy Agent,wave11_launch_memory,"Stores agent inputs, outputs, reasoning trace, decisions, and launch-safe execution context.",retain_for_audit,active,2026-07-02 21:58:24
+MEM-000003,AGENT-000003,Compliance Agent,wave11_launch_memory,"Stores agent inputs, outputs, reasoning trace, decisions, and launch-safe execution context.",retain_for_audit,active,2026-07-02 21:58:24
+MEM-000004,AGENT-000004,Pricing Strategy Agent,wave11_launch_memory,"Stores agent inputs, outputs, reasoning trace, decisions, and launch-safe execution context.",retain_for_audit,active,2026-07-02 21:58:24
+MEM-000005,AGENT-000005,Proposal Strategy Agent,wave11_launch_memory,"Stores agent inputs, outputs, reasoning trace, decisions, and launch-safe execution context.",retain_for_audit,active,2026-07-02 21:58:24
+MEM-000006,AGENT-000006,Executive Decision Agent,wave11_launch_memory,"Stores agent inputs, outputs, reasoning trace, decisions, and launch-safe execution context.",retain_for_audit,active,2026-07-02 21:58:24

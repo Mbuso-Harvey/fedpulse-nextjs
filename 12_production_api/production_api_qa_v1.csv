@@ -1,0 +1,6 @@
+qa_id,metric,value,target,status,created_at
+APIQA-000001,api_rows,1,1,pass,2026-07-02 17:38:10
+APIQA-000002,endpoint_rows,10,10,pass,2026-07-02 17:38:10
+APIQA-000003,service_rows,10,10,pass,2026-07-02 17:38:10
+APIQA-000004,active_endpoints,10,>=9,pass,2026-07-02 17:38:10
+APIQA-000005,manifest_created,1,1,pass,2026-07-02 17:38:10

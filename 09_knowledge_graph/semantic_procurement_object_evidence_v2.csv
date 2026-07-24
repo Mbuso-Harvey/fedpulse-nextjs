@@ -1,0 +1,47 @@
+semantic_object_evidence_id,semantic_object_id,canonical_expression_id,canonical_expression,eligibility_status,eligibility_score,semantic_rule_id,matched_patterns,interpretation_confidence,total_frequency,source_count,created_at
+SPO2EV-000001,SPO2-000001,CPX2-000002,Solicitation Amendment,eligible,0.71,SRL-000007,solicitation amendment,0.88,58,8,2026-06-28 17:16:16
+SPO2EV-000002,SPO2-000002,CPX2-000001,National Cemetery Operations,eligible,0.63,SRL-000038,national cemetery operations;national cemetery;cemetery operations,0.92,46,3,2026-06-28 17:16:16
+SPO2EV-000003,SPO2-000002,CPX2-000003,National Cemetery Administration,eligible,0.63,SRL-000038,national cemetery,0.86,44,6,2026-06-28 17:16:16
+SPO2EV-000004,SPO2-000003,CPX2-000010,Solicitation Number,eligible,0.63,SRL-000021,solicitation number,0.9,30,4,2026-06-28 17:16:16
+SPO2EV-000005,SPO2-000004,CPX2-000004,Firm Fixed Price,eligible,0.71,SRL-000001,firm fixed price;fixed price,0.95,25,4,2026-06-28 17:16:16
+SPO2EV-000006,SPO2-000005,CPX2-000006,Unit Price,eligible,0.71,SRL-000011,unit price,0.9,24,5,2026-06-28 17:16:16
+SPO2EV-000007,SPO2-000006,CPX2-000007,Contracting Officer,eligible,0.79,SRL-000009,contracting officer,0.9,22,5,2026-06-28 17:16:16
+SPO2EV-000008,SPO2-000007,CPX2-000009,Performance Work Statement,eligible,0.79,SRL-000014,performance work statement,0.92,22,5,2026-06-28 17:16:16
+SPO2EV-000009,SPO2-000001,CPX2-000005,Solicitation Amendment or Modification,eligible,0.71,SRL-000007,solicitation amendment,0.88,18,3,2026-06-28 17:16:16
+SPO2EV-000010,SPO2-000008,CPX2-000008,Evaluation Factors,eligible,0.63,SRL-000004,evaluation factors,0.9,16,3,2026-06-28 17:16:16
+SPO2EV-000011,SPO2-000009,CPX2-000011,Table of Contents,eligible,0.63,SRL-000036,table of contents,0.82,16,3,2026-06-28 17:16:16
+SPO2EV-000012,SPO2-000010,CPX2-000013,Past Performance,eligible,0.71,SRL-000005,past performance,0.88,14,2,2026-06-28 17:16:16
+SPO2EV-000013,SPO2-000011,CPX2-000025,Request for Information,eligible,0.71,SRL-000023,request for information,0.9,14,4,2026-06-28 17:16:16
+SPO2EV-000014,SPO2-000001,CPX2-000015,Solicitation Amendment Acknowledgement,eligible,0.71,SRL-000007,solicitation amendment;amendment acknowledgement,0.91,11,1,2026-06-28 17:16:16
+SPO2EV-000015,SPO2-000012,CPX2-000016,Administrative Support And Clerical,review,0.45,,,0.25,10,2,2026-06-28 17:16:16
+SPO2EV-000016,SPO2-000013,CPX2-000018,Proposal Volume,eligible,0.63,SRL-000006,proposal volume,0.88,10,3,2026-06-28 17:16:16
+SPO2EV-000017,SPO2-000014,CPX2-000020,Solicitation Metadata,eligible,0.63,,,0.25,10,1,2026-06-28 17:16:16
+SPO2EV-000018,SPO2-000015,CPX2-000041,Combined Synopsis Solicitation,eligible,0.71,SRL-000027,combined synopsis solicitation;synopsis solicitation,0.89,9,2,2026-06-28 17:16:16
+SPO2EV-000019,SPO2-000016,CPX2-000021,Small Business Set-Aside,eligible,0.71,SRL-000040,small business set-aside,0.86,9,1,2026-06-28 17:16:16
+SPO2EV-000020,SPO2-000017,CPX2-000022,Amendments Of Solicitations,eligible,0.71,,,0.25,8,2,2026-06-28 17:16:16
+SPO2EV-000021,SPO2-000018,CPX2-000024,Place of Performance,eligible,0.71,SRL-000018,place of performance,0.9,8,3,2026-06-28 17:16:16
+SPO2EV-000022,SPO2-000019,CPX2-000032,Method of Solicitation,eligible,0.71,SRL-000022,method of solicitation,0.88,6,2,2026-06-28 17:16:16
+SPO2EV-000023,SPO2-000020,CPX2-000036,Request for Proposal,eligible,0.79,SRL-000025,request for proposal,0.9,6,2,2026-06-28 17:16:16
+SPO2EV-000024,SPO2-000021,CPX2-000038,Statement of Work,eligible,0.71,SRL-000015,statement of work,0.9,6,2,2026-06-28 17:16:16
+SPO2EV-000025,SPO2-000015,CPX2-000039,Synopsis Solicitation,eligible,0.63,SRL-000027,synopsis solicitation,0.86,6,1,2026-06-28 17:16:16
+SPO2EV-000026,SPO2-000002,CPX2-000045,Affairs National Cemetery,eligible,0.63,SRL-000038,national cemetery,0.86,4,1,2026-06-28 17:16:16
+SPO2EV-000027,SPO2-000022,CPX2-000046,Award A Contract,eligible,0.71,,,0.25,4,1,2026-06-28 17:16:16
+SPO2EV-000028,SPO2-000002,CPX2-000047,Black Hills National Cemetery,eligible,0.63,SRL-000038,national cemetery,0.86,4,1,2026-06-28 17:16:16
+SPO2EV-000029,SPO2-000023,CPX2-000048,Corps Base Camp Lejeune,review,0.45,,,0.25,4,1,2026-06-28 17:16:16
+SPO2EV-000030,SPO2-000002,CPX2-000049,Hills National Cemetery,eligible,0.63,SRL-000038,national cemetery,0.86,4,1,2026-06-28 17:16:16
+SPO2EV-000031,SPO2-000024,CPX2-000051,Marine Corps Base Camp,review,0.45,,,0.25,4,1,2026-06-28 17:16:16
+SPO2EV-000032,SPO2-000001,CPX2-000053,Numbered Solicitation Is Amended,eligible,0.63,SRL-000007,solicitation is amended,0.88,4,1,2026-06-28 17:16:16
+SPO2EV-000033,SPO2-000001,CPX2-000055,Solicitation Is Amended,eligible,0.63,SRL-000007,solicitation is amended,0.88,4,1,2026-06-28 17:16:16
+SPO2EV-000034,SPO2-000002,CPX2-000058,Veterans Affairs National Cemetery,eligible,0.63,SRL-000038,national cemetery,0.86,4,1,2026-06-28 17:16:16
+SPO2EV-000035,SPO2-000025,CPX2-000059,Army Mil Proposal Default,eligible,0.63,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000036,SPO2-000026,CPX2-000060,Award A Firm Fixed,eligible,0.63,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000037,SPO2-000027,CPX2-000061,Award Will Be Made,eligible,0.63,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000038,SPO2-000028,CPX2-000062,Chess Army Mil Proposal,eligible,0.63,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000039,SPO2-000029,CPX2-000063,Cl Marine Corps Base,review,0.45,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000040,SPO2-000030,CPX2-000064,Copies Of The Amendment,eligible,0.63,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000041,SPO2-000031,CPX2-000065,Far And Dosar Provisions,review,0.45,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000042,SPO2-000032,CPX2-000066,Food And Drug Administration,review,0.45,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000043,SPO2-000033,CPX2-000067,Mil Proposal Default Index,eligible,0.63,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000044,SPO2-000034,CPX2-000070,Renovation Cl Marine Corps,review,0.45,,,0.25,3,1,2026-06-28 17:16:16
+SPO2EV-000045,SPO2-000035,CPX2-000069,Request for Quotation,eligible,0.71,SRL-000024,request for quotation,0.9,3,1,2026-06-28 17:16:16
+SPO2EV-000046,SPO2-000036,CPX2-000074,Payment and Invoice,eligible,0.71,SRL-000013,payment and invoice;payment;invoice,0.88,2,1,2026-06-28 17:16:16

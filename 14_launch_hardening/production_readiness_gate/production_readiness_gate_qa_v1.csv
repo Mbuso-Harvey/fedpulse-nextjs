@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+PRODGATEQA-000001,session_rows,1,1,pass,2026-07-05 09:11:36
+PRODGATEQA-000002,control_rows,7,7,pass,2026-07-05 09:11:36
+PRODGATEQA-000003,evidence_rows,7,7,pass,2026-07-05 09:11:36
+PRODGATEQA-000004,checklist_closure_rows,6,6,pass,2026-07-05 09:11:36
+PRODGATEQA-000005,checklist_closed,6,6,pass,2026-07-05 09:11:36
+PRODGATEQA-000006,critical_blockers,0,0,pass,2026-07-05 09:11:36
+PRODGATEQA-000007,gate_rows,1,1,pass,2026-07-05 09:11:36
+PRODGATEQA-000008,production_gate_decision,production_ready,production_ready,pass,2026-07-05 09:11:36

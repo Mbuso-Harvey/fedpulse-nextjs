@@ -1,0 +1,2 @@
+readiness_id,supplier_id,supplier_name,opportunity_id,overall_readiness_score,readiness_band,high_gaps,medium_gaps,low_gaps,covered_capabilities,total_capabilities,created_at
+SUPREADY-000001,SUP-000001,Demonstration Supplier,OPPINT-000001,80.12,strong,0,2,6,8,8,2026-06-30 20:13:57

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-06-21 22:20:04",
+  "documents_processed": 150,
+  "requirements_extracted": 1146,
+  "category_counts": {
+    "certification": 295,
+    "proposal_instruction": 73,
+    "evaluation": 186,
+    "past_performance": 47,
+    "technical": 103,
+    "pricing": 159,
+    "staffing": 67,
+    "amendment": 117,
+    "q_and_a": 13,
+    "security": 48,
+    "wage": 38
+  },
+  "mandatory_counts": {
+    "unknown": 1109,
+    "yes": 37
+  },
+  "confidence_bands": {
+    "high_0_80_plus": 191,
+    "medium_0_60_to_0_79": 955,
+    "low_below_0_60": 0
+  },
+  "outputs": {
+    "requirement_library": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\requirement_library_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\requirement_library_v1_report.md"
+  },
+  "next_sprint": "SAM-0008 Requirement Frequency and Importance Engine"
+}

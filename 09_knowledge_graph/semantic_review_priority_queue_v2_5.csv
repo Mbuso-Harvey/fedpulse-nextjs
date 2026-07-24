@@ -1,0 +1,37 @@
+review_queue_id,semantic_object_id,semantic_object_type,canonical_name,domain_name,confidence_band,final_confidence_score,priority,review_reason,review_status,created_at
+SRPQ25-000014,SPO2-000014,Uninterpreted Expression,Solicitation Metadata,,low,0.428,high,still_uninterpreted_after_entity_recognition,pending,2026-06-28 20:08:49
+SRPQ25-000017,SPO2-000017,Uninterpreted Expression,Amendments Of Solicitations,,low,0.45,high,still_uninterpreted_after_entity_recognition,pending,2026-06-28 20:08:49
+SRPQ25-000036,SPO2-000036,Pricing Structure,Payment and Invoice,Commercial and Pricing,medium,0.701,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000009,SPO2-000009,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,medium,0.704,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000016,SPO2-000016,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,medium,0.706,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000035,SPO2-000035,Acquisition Metadata,Request for Quotation,Acquisition Strategy,medium,0.712,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000019,SPO2-000019,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,medium,0.718,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000013,SPO2-000013,Proposal Structure,Proposal Volume,Submission and Proposal Management,medium,0.719,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000021,SPO2-000021,Technical Requirement,Statement of Work,Technical Requirements,medium,0.727,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000010,SPO2-000010,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,medium,0.734,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000008,SPO2-000008,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,medium,0.74,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000018,SPO2-000018,Delivery Requirement,Place of Performance,Delivery and Logistics,medium,0.74,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000033,SPO2-000033,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,medium,0.74,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000020,SPO2-000020,Acquisition Metadata,Request for Proposal,Acquisition Strategy,medium,0.743,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000011,SPO2-000011,Acquisition Metadata,Request for Information,Acquisition Strategy,medium,0.761,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000015,SPO2-000015,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,medium,0.769,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000003,SPO2-000003,Acquisition Metadata,Solicitation Number,Acquisition Strategy,medium,0.777,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000012,SPO2-000012,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,medium,0.78,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000005,SPO2-000005,Pricing Structure,Unit Price,Commercial and Pricing,medium,0.79,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000030,SPO2-000030,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,medium,0.8,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000006,SPO2-000006,Procurement Role,Contracting Officer,Acquisition Strategy,medium,0.802,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000004,SPO2-000004,Contract Type,Firm Fixed Price,Commercial and Pricing,medium,0.805,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000007,SPO2-000007,Technical Requirement,Performance Work Statement,Technical Requirements,medium,0.811,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000022,SPO2-000022,Award Phrase,Award Will Be Made,Evaluation and Source Selection,medium,0.84,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000025,SPO2-000025,Military Organization,United States Army,Domain-Specific Operations,medium,0.84,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000027,SPO2-000027,Award Phrase,Award Will Be Made,Evaluation and Source Selection,medium,0.84,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000028,SPO2-000028,Military Organization,United States Army,Domain-Specific Operations,medium,0.84,medium,medium_confidence_review_recommended,pending,2026-06-28 20:08:49
+SRPQ25-000026,SPO2-000026,Contract Type Fragment,Award a Firm Fixed Price Contract,Commercial and Pricing,high,0.86,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000029,SPO2-000029,Military Organization,United States Marine Corps,Domain-Specific Operations,high,0.88,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000031,SPO2-000031,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",high,0.88,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000034,SPO2-000034,Military Organization,United States Marine Corps,Domain-Specific Operations,high,0.88,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000002,SPO2-000002,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,high,0.89,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000001,SPO2-000001,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,high,0.902,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000023,SPO2-000023,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,high,0.94,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000024,SPO2-000024,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,high,0.94,low,high_confidence_spot_check,pending,2026-06-28 20:08:49
+SRPQ25-000032,SPO2-000032,Federal Agency,Food and Drug Administration,Acquisition Strategy,high,0.94,low,high_confidence_spot_check,pending,2026-06-28 20:08:49

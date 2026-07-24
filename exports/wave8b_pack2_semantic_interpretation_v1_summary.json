@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-06-28 17:16:16",
+  "wave": "Wave 8B",
+  "pack": "Pack 2 - Semantic Interpretation",
+  "status": "completed",
+  "engines_completed": [
+    "SAM-0008ABF Semantic Eligibility Filter",
+    "SAM-0008ABG Semantic Rule Library Builder",
+    "SAM-0008ABH Semantic Interpretation Engine V2",
+    "SAM-0008ABI Semantic Procurement Object Builder V2",
+    "SAM-0008ABJ Evidence Aggregation Engine",
+    "SAM-0008ABK Semantic Confidence Engine",
+    "SAM-0008ABL Review Queue Optimizer",
+    "SAM-0008ABM Semantic QA & Metrics",
+    "SAM-0008ABN Documentation + Manifest Update"
+  ],
+  "canonical_expressions_v2": 74,
+  "eligibility_records": 74,
+  "eligible_or_review_expressions": 46,
+  "ineligible_expressions": 28,
+  "semantic_rules_created": 40,
+  "semantic_objects_v2": 36,
+  "interpreted_objects": 20,
+  "uninterpreted_objects": 16,
+  "semantic_object_evidence_v2": 46,
+  "confidence_rows": 36,
+  "review_queue_rows": 36,
+  "interpretation_coverage_pct": 55.56,
+  "review_rate_pct": 100.0,
+  "semantic_object_type_counts": {
+    "Submission Instruction": 1,
+    "Domain Specific Requirement": 1,
+    "Acquisition Metadata": 6,
+    "Contract Type": 1,
+    "Pricing Structure": 2,
+    "Procurement Role": 1,
+    "Technical Requirement": 2,
+    "Evaluation Factor": 1,
+    "Document Structure Object": 1,
+    "Supplier Qualification": 2,
+    "Uninterpreted Expression": 16,
+    "Proposal Structure": 1,
+    "Delivery Requirement": 1
+  },
+  "domain_counts": {
+    "Submission and Proposal Management": 2,
+    "Domain-Specific Operations": 1,
+    "Acquisition Strategy": 7,
+    "Commercial and Pricing": 3,
+    "Technical Requirements": 2,
+    "Evaluation and Source Selection": 1,
+    "Document Structure and Administrative Forms": 1,
+    "Supplier Eligibility and Qualifications": 2,
+    "": 16,
+    "Delivery and Logistics": 1
+  },
+  "confidence_band_counts": {
+    "high": 2,
+    "medium": 18,
+    "low": 16
+  },
+  "outputs": {
+    "eligibility": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_expression_eligibility_v1.csv",
+    "semantic_rule_library": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_rule_library_v1.csv",
+    "semantic_objects_v2": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_registry_v2.csv",
+    "semantic_object_evidence_v2": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_evidence_v2.csv",
+    "semantic_confidence_scores": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_confidence_scores_v1.csv",
+    "review_priority_queue": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_review_priority_queue_v1.csv",
+    "qa": "C:\\ProcurementIntelligence\\09_knowledge_graph\\wave8b_pack2_semantic_interpretation_qa_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave8b_pack2_semantic_interpretation_report_v1.md"
+  },
+  "next_script": "build_wave8b_pack3_semantic_governance_v1.py"
+}

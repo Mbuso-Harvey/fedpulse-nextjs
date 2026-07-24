@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-07-04 22:34:06",
+  "wave": "Wave 11",
+  "pack": "Pack 6 - Executive Decision Agent",
+  "status": "completed",
+  "product_status": "executive_decision_agent_certified",
+  "graph_version": "KG-1.0",
+  "agent_version": "1.0.0",
+  "executive_decision": "partner_or_restructure",
+  "executive_position": "partner_or_restructure",
+  "base_go_score": 65.28,
+  "risk_penalty": 27.0,
+  "adjusted_go_score": 38.28,
+  "critical_conditions": 3,
+  "high_conditions": 3,
+  "executive_actions": 7,
+  "human_approval_required": true,
+  "commercial_binding_authority": false,
+  "score_inputs": {
+    "bid_readiness_score": 90.0,
+    "complexity_score": 98.0,
+    "capture_score": 65.11,
+    "supplier_strategy_score": 43.44,
+    "pricing_confidence_score": 71.83,
+    "commercial_risk_score": 86.72,
+    "proposal_readiness_score": 67.81,
+    "ai_analyst_score": 61.29,
+    "compliance_critical_gaps": 3.0,
+    "compliance_high_gaps": 2.0
+  },
+  "qa": {
+    "pass": 7,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_decision_session_registry_v1.csv",
+    "assessment_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_assessment_registry_v1.csv",
+    "decision_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_decision_registry_v1.csv",
+    "condition_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_condition_registry_v1.csv",
+    "action_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_action_registry_v1.csv",
+    "brief_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_brief_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\executive_decision\\executive_decision_agent_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave11_executive_decision_agent_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave11_pack6_executive_decision_agent_report_v1.md"
+  },
+  "next_wave": "Wave 12 Launch-Grade Platform Hardening",
+  "next_script": "build_wave12_bootstrap_launch_hardening_v1.py"
+}

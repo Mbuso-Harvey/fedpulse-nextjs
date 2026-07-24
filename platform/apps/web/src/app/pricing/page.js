@@ -1,0 +1,149 @@
+import Link from 'next/link';
+import { Check } from 'lucide-react';
+import { buttonVariants } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+
+export const metadata = {
+  title: 'Pricing - FedPulse',
+  description: 'Simple, transparent pricing for federal procurement intelligence.',
+};
+
+export default function PricingPage() {
+  return (
+    <div className="min-h-screen bg-background text-foreground flex flex-col">
+      <header className="border-b border-border/40 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full">
+        <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
+          <div className="flex items-center space-x-2">
+            <Link href="/" className="font-bold tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+              FedPulse
+            </Link>
+          </div>
+          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
+            <Link href="/#products" className="hover:text-foreground transition-colors">Product</Link>
+            <Link href="/pricing" className="text-foreground transition-colors">Pricing</Link>
+            <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
+          </nav>
+          <div className="flex items-center gap-4">
+            <Link href="/login" className={buttonVariants({ variant: "ghost" })}>
+              Sign In
+            </Link>
+            <Link href="/signup" className={buttonVariants({ variant: "default" })}>
+              Start Free Trial
+            </Link>
+          </div>
+        </div>
+      </header>
+
+      <main className="flex-1">
+        <section className="py-24 md:py-32 px-6 flex flex-col items-center text-center">
+          <Badge variant="secondary" className="mb-8 font-medium">
+            <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
+            Transparent Pricing
+          </Badge>
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 max-w-3xl text-[#0a2540]">
+            Unlock the complete intelligence layer
+          </h1>
+          <p className="text-lg text-muted-foreground max-w-xl mb-16">
+            Choose the perfect plan for your procurement team. Scale as you grow.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8 w-full max-w-6xl items-start text-left">
+            {/* Starter */}
+            <Card className="flex flex-col h-full shadow-stripe">
+              <CardHeader>
+                <CardTitle className="text-xl">Starter</CardTitle>
+                <CardDescription>For individuals tracking basics.</CardDescription>
+                <div className="mt-4 mb-2">
+                  <span className="text-4xl font-bold">$0</span>
+                  <span className="text-muted-foreground">/mo</span>
+                </div>
+              </CardHeader>
+              <CardContent className="flex-1">
+                <ul className="space-y-3 text-sm">
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Weekly email digest</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Limited search (5/day)</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Top 10 renewals</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Basic department overview</li>
+                </ul>
+              </CardContent>
+              <CardFooter>
+                <Link href="/signup" className={buttonVariants({ variant: "outline", className: "w-full" })}>
+                  Get Started
+                </Link>
+              </CardFooter>
+            </Card>
+
+            {/* Professional */}
+            <Card className="flex flex-col h-full border-primary shadow-stripe relative md:-translate-y-4">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <Badge className="px-3 py-1 uppercase tracking-wider text-xs">
+                  Most Popular
+                </Badge>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl">Professional</CardTitle>
+                <CardDescription>For teams closing federal deals.</CardDescription>
+                <div className="mt-4 mb-2">
+                  <span className="text-4xl font-bold">$199</span>
+                  <span className="text-muted-foreground">/mo</span>
+                </div>
+              </CardHeader>
+              <CardContent className="flex-1">
+                <ul className="space-y-3 text-sm">
+                  <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Starter</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Full renewal access (4,050)</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited search</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> All intelligence products</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> AI analyst</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> CSV/PDF export</li>
+                </ul>
+              </CardContent>
+              <CardFooter>
+                <Link href="/signup" className={buttonVariants({ className: "w-full" })}>
+                  Start Free Trial
+                </Link>
+              </CardFooter>
+            </Card>
+
+            {/* Enterprise */}
+            <Card className="flex flex-col h-full shadow-stripe">
+              <CardHeader>
+                <CardTitle className="text-xl">Enterprise</CardTitle>
+                <CardDescription>For large organizations.</CardDescription>
+                <div className="mt-4 mb-2">
+                  <span className="text-4xl font-bold">Custom</span>
+                </div>
+              </CardHeader>
+              <CardContent className="flex-1">
+                <ul className="space-y-3 text-sm">
+                  <li className="flex items-center gap-3 font-semibold"><Check className="h-4 w-4 text-primary" /> Everything in Professional</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Multi-seat (5+)</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Unlimited API</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Custom integrations</li>
+                  <li className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" /> Dedicated support</li>
+                </ul>
+              </CardContent>
+              <CardFooter>
+                <Link href="/signup" className={buttonVariants({ variant: "outline", className: "w-full" })}>
+                  Contact Sales
+                </Link>
+              </CardFooter>
+            </Card>
+          </div>
+        </section>
+      </main>
+      
+      <footer className="border-t border-border py-8 mt-auto">
+        <div className="container max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+          <p>© 2026 FedPulse. All rights reserved.</p>
+          <div className="flex space-x-6">
+            <Link href="/terms" className="hover:text-foreground">Terms</Link>
+            <Link href="/privacy" className="hover:text-foreground">Privacy</Link>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}

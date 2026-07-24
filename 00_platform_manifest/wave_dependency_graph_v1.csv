@@ -1,0 +1,13 @@
+dependency_id,engine_or_sprint,depends_on,required_artifact,created_at
+DEP-000001,SAM-0008ABB,semantic_pattern_library_filtered_v1.csv,semantic_alias_candidates_filtered_v1.csv,2026-06-28 00:24:41
+DEP-000002,SAM-0008ABC,SAM-0008ABB,consolidated_procurement_expressions_v1.csv,2026-06-28 00:24:41
+DEP-000003,SAM-0008ABD,SAM-0008ABC,normalized_procurement_expressions_v1.csv,2026-06-28 00:24:41
+DEP-000004,SAM-0008ABE,SAM-0008ABD,canonical_procurement_expressions_v2.csv,2026-06-28 00:24:41
+DEP-000005,SAM-0008ABF,SAM-0008ABE,semantic_rule_library_v1.csv,2026-06-28 00:24:41
+DEP-000006,SAM-0008ABG,semantic_object_type_registry_v1.csv,official_procurement_registry_v2.csv,2026-06-28 00:24:41
+DEP-000007,SAM-0008ABH,SAM-0008ABF,semantic_procurement_object_registry_v2.csv,2026-06-28 00:24:41
+DEP-000008,SAM-0008ABI,SAM-0008ABH,semantic_confidence_scores_v1.csv,2026-06-28 00:24:41
+DEP-000009,SAM-0008AC,SAM-0008ABH,semantic_confidence_scores_v1.csv,2026-06-28 00:24:41
+DEP-000010,SAM-0008AD,SAM-0008AC,semantic_object_scores_v1.csv,2026-06-28 00:24:41
+DEP-000011,SAM-0008AE,SAM-0008AD,semantic_validation_outputs,2026-06-28 00:24:41
+DEP-000012,SAM-0008AF,SAM-0008AE,all_wave8b_outputs,2026-06-28 00:24:41

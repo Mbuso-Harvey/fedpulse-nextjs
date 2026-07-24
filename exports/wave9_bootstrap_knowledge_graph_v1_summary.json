@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-06-29 03:08:43",
+  "wave": "Wave 9",
+  "pack": "Bootstrap",
+  "status": "ready_to_begin",
+  "release_status": "certified_for_wave9_graph_population",
+  "semantic_objects_v3": 32,
+  "graph_ready_objects": 12,
+  "graph_candidate_objects": 18,
+  "not_graph_ready_objects": 2,
+  "staging_nodes_created": 30,
+  "engines_registered": 6,
+  "dependencies_registered": 6,
+  "outputs": {
+    "wave9_manifest": "C:\\ProcurementIntelligence\\00_platform_manifest\\wave9_knowledge_graph_manifest_v1.json",
+    "node_schema": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_node_schema_v1.csv",
+    "edge_schema": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_edge_schema_v1.csv",
+    "engine_registry": "C:\\ProcurementIntelligence\\00_platform_manifest\\wave9_engine_registry_v1.csv",
+    "dependency_graph": "C:\\ProcurementIntelligence\\00_platform_manifest\\wave9_dependency_graph_v1.csv",
+    "graph_staging_nodes": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_staging_nodes_v1.csv",
+    "graph_edge_staging": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_staging_edges_v1.csv",
+    "readiness": "C:\\ProcurementIntelligence\\09_knowledge_graph\\wave9_graph_population_readiness_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave9_knowledge_graph_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave9_bootstrap_knowledge_graph_report_v1.md"
+  },
+  "next_script": "build_wave9_pack1_graph_node_builder_v1.py"
+}

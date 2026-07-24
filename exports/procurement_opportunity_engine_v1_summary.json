@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-06-18 16:12:27",
+  "buyer_opportunity_targets": 235,
+  "buyer_supplier_opportunity_pairs": 5000,
+  "outputs": {
+    "opportunity_targets": "C:\\ProcurementIntelligence\\data\\gold\\opportunity_targets_v1.csv",
+    "buyer_supplier_opportunities": "C:\\ProcurementIntelligence\\data\\gold\\buyer_supplier_opportunities_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\procurement_opportunity_engine_report_v1.md"
+  }
+}

@@ -1,0 +1,6 @@
+risk_id,category,severity,description,created_at
+RISK-000001,Opportunity Complexity,high,Opportunity complexity is very high and requires disciplined capture management.,2026-07-02 11:39:40
+RISK-000002,Supplier Fit,medium,Supplier fit should be strengthened before bid submission.,2026-07-02 11:39:40
+RISK-000003,Supplier Readiness,medium,Supplier readiness evidence should be strengthened.,2026-07-02 11:39:40
+RISK-000004,Buyer Intelligence,medium,Department buying behaviour should be analysed further.,2026-07-02 11:39:40
+RISK-000005,Knowledge Coverage,low,Knowledge graph coverage can be improved as additional procurement concepts are ingested.,2026-07-02 11:39:40

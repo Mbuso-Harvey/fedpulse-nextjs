@@ -1,0 +1,406 @@
+canonical_statement_id,source_count,duplicate_count,opportunity_title,normalized_text_hash,lineage_complete
+CGS-000001,2,1,Selective Service System Website Modernization,d122a7f52b89c9e595d7d205562642df106d0843c7b9fb094855e96d2723b04e,yes
+CGS-000002,1,0,Selective Service System Website Modernization,ea2ae80103dd31bf14d4ddd5cd538ffbaa88ef36eebaea9f4dd53a066524b64f,yes
+CGS-000003,1,0,Selective Service System Website Modernization,dcc63003ca8b1295365c66300b7b1af34269b82ecb7b8bdf9c6fa0a9c8b99ba6,yes
+CGS-000004,1,0,Selective Service System Website Modernization,a4a75732a52dfeb971d014ccc8de12a461acf748269b2c73809370f674140526,yes
+CGS-000005,4,3,Selective Service System Website Modernization,7fb370b10c05e949752fefae3c3ec56d40b86dfef377615d9e2b73a15a94a6be,yes
+CGS-000006,2,1,Selective Service System Website Modernization,7440fbb3c8d0a33664a553131cde8f0b3d814e18bbf89beb5bc2dbac2afe8849,yes
+CGS-000007,2,1,Selective Service System Website Modernization,bb2fca3ccb1e176e35c9f0ea6ce3016c8d84050703f89c84a21ca20e97410bd7,yes
+CGS-000008,2,1,Selective Service System Website Modernization,8a3830a9d4307cb63acc5304553f80afc3bb7516731bb3d34158765f0b363d3c,yes
+CGS-000009,1,0,Selective Service System Website Modernization,5b0c13c920571826dc127c69f5c7a0857719c78024c8a252719165f6ecf5e331,yes
+CGS-000010,1,0,Selective Service System Website Modernization,ebb6f91591503a725482ce569c3cc8763bf27e50d9a4fb56d94a1e4ad6608a9e,yes
+CGS-000011,4,3,Selective Service System Website Modernization,98e28c884895109bc17a6211dc54b563c6a406defd97e97f9dc814276cd69f68,yes
+CGS-000012,1,0,Selective Service System Website Modernization,c44bc12bbf080be458a95135cd2157b4efe65956c263d01d9eadb53363ac0441,yes
+CGS-000013,1,0,Selective Service System Website Modernization,2a4e918b40303580d8ca86099735a9e6008cd5d2017fe87577a7448fc9192c12,yes
+CGS-000014,1,0,Selective Service System Website Modernization,f2410f04fad8cf444328e209de8487e6aba19527ed46c4602165834998e1f56d,yes
+CGS-000015,1,0,Selective Service System Website Modernization,57eff72e8ef6f034e9aa5ffc778ed082d806579e88d88ef1b7293559c676e637,yes
+CGS-000016,11,10,Selective Service System Website Modernization,a8713a6103853fa5dbac510c0dfa371ed129347efae634e0897d4eced0548608,yes
+CGS-000017,5,4,Selective Service System Website Modernization,b68792c1413364ff8c04af814f8a6e4753f401e862c85d14f1bfa8c27d47df6c,yes
+CGS-000018,11,10,Selective Service System Website Modernization,172aa400fbffe2f933403b7cd735b1be45b9612b42af99688647b8785dd070c0,yes
+CGS-000019,10,9,Selective Service System Website Modernization,e47f3ccd8f954bb59ea9cd2f00dbb507d94cc2c41b5ebaa825f3ebb3a6a6bb7b,yes
+CGS-000020,1,0,Selective Service System Website Modernization,97dcf846318452f3b3c7dd403dafafb49250c3f4f6717d3f3a3ce97ec23b0e3b,yes
+CGS-000021,1,0,Selective Service System Website Modernization,04f08b9254fa410d5ce5ac2601eee04fbd47d6539c14c964e5903c11de8e2ad3,yes
+CGS-000022,1,0,Selective Service System Website Modernization,cd4b00e3955a9fc03be7115efb8881ad5f21a7c5dda022d8e36adbb4afad76b6,yes
+CGS-000023,2,1,Selective Service System Website Modernization,29425c3442ca2c2070bec56f0cd88a4cd99089bb68ad6cb8437c6ebd9d102a26,yes
+CGS-000024,3,2,Selective Service System Website Modernization,4539da89162a9adb3a83270b6212fd5a0d175fb0bc7d23ceeade2434aa1ad3be,yes
+CGS-000025,3,2,Selective Service System Website Modernization,8881299e7df810b4174ccab7804e95814dd44d9b8fe8225b78da966eafec3f46,yes
+CGS-000026,3,2,Selective Service System Website Modernization,b32931849cfd0fc52599877578040a75de9b32a857cf261ee8344347565e8724,yes
+CGS-000027,6,5,Selective Service System Website Modernization,3f2627a6effff451c7c1b7ccbd28191befe4ebe815c9ce5fbaa18f83b49c914b,yes
+CGS-000028,1,0,Selective Service System Website Modernization,30e821a88d039d7708a0eb524f69f378068f170071e562a52d8c971be1645414,yes
+CGS-000029,2,1,JSCG-P Cristobal Colon Base Life Support,ba6605d34b9920d08cac6701e02b867b2a14208e90822303abf8017303d3a600,yes
+CGS-000030,1,0,JSCG-P Cristobal Colon Base Life Support,ece31750e5f8d459296895f70d1520b84d77bfa8858a35bc191da19b92e3be03,yes
+CGS-000031,1,0,JSCG-P Cristobal Colon Base Life Support,368dda07508ffc4e6c22994981061d317780d25d89bb01de3d606688e0cc824e,yes
+CGS-000032,1,0,JSCG-P Cristobal Colon Base Life Support,04cb9697a27a54308a9e2cb5202929632f1c4b30bd2c852c3910f6a8c927e630,yes
+CGS-000033,1,0,JSCG-P Cristobal Colon Base Life Support,4fd3db4f4e87d0e7a1044afaa14cc677e51dfaff730ebf726f253143c42e57ed,yes
+CGS-000034,1,0,JSCG-P Cristobal Colon Base Life Support,cf01be16ab23da118e6e1f1d166cbc628b33a77f051fb09db9f2b315db276e24,yes
+CGS-000035,1,0,JSCG-P Cristobal Colon Base Life Support,cc69619fb6aa6a82ffaf549cd7e65d701d9605f1bcb79c656fcd304bed0aabc9,yes
+CGS-000036,1,0,JSCG-P Cristobal Colon Base Life Support,2837356bf2bb441601ca24ab350632f373d4c21ef1bf75556a262604100824c1,yes
+CGS-000037,1,0,JSCG-P Cristobal Colon Base Life Support,8078d084237dc44204fab717bbf7bb2122bbf66862940918aff16e134b2b7aa9,yes
+CGS-000038,1,0,JSCG-P Cristobal Colon Base Life Support,ec6270ddb47e6de394e18971407d09191f188f11cc513c98fe4ce1ba28f073ca,yes
+CGS-000039,1,0,JSCG-P Cristobal Colon Base Life Support,e6d2911fff992c5e9d98146364a8082945710b5125a645375c2537b1058488a0,yes
+CGS-000040,3,2,JSCG-P Cristobal Colon Base Life Support,512be29da22aeb481fb1e5bc8b3ccb3505428f9c1650af83692f778ae085661d,yes
+CGS-000041,2,1,JSCG-P Cristobal Colon Base Life Support,e475c773d70abc9ed4fbebca38c47805186c5b3a53cfb58452d030616f59e9d7,yes
+CGS-000042,2,1,JSCG-P Cristobal Colon Base Life Support,3f9a053ce78ecde13ff824c73fc6807601a4648a141360a50949da5f64fe02ce,yes
+CGS-000043,4,3,JSCG-P Cristobal Colon Base Life Support,ef7c0bc71fe13f744c3f0ffbeff11f8bb24f432cd1eadb24a2a44871b63c742a,yes
+CGS-000044,1,0,JSCG-P Cristobal Colon Base Life Support,8b6ed2585b63355ff017a8d04c8d33700923dd85c1f179bafe948c561675db90,yes
+CGS-000045,1,0,JSCG-P Cristobal Colon Base Life Support,624173261a7d333a3239d429b74359f2b0040c662ec61ea675ccd75873d1c777,yes
+CGS-000046,1,0,JSCG-P Cristobal Colon Base Life Support,f388ceb350d5d96d650b651ad35e04a9edf280ff9b1416cb1d6a10a555278e70,yes
+CGS-000047,2,1,JSCG-P Cristobal Colon Base Life Support,42591422aba6cc1c4fbc2e163c35b20259fea8c5fe68909648e185a24e7aa484,yes
+CGS-000048,2,1,JSCG-P Cristobal Colon Base Life Support,101751124bc65095f088e21f88ab093fa7535cc4c70908fe1c7ab4549ff20f8a,yes
+CGS-000049,2,1,JSCG-P Cristobal Colon Base Life Support,cdddb133bfa402632ebaaf0c7cf8916c948e14e718993e3f2784c167d9667dc1,yes
+CGS-000050,1,0,JSCG-P Cristobal Colon Base Life Support,ab5538f13e14a673f0008c26ddf6d42313f29df97fc723acc16b29c084cf8b11,yes
+CGS-000051,1,0,JSCG-P Cristobal Colon Base Life Support,0884e1d3583d9a5771756c9b6d52f1d455764d999e8b052cab11496682ac219e,yes
+CGS-000052,1,0,JSCG-P Cristobal Colon Base Life Support,1552a32e2002b1e7932173857cb00a2c34be0143772ec66cee18413f40bf93c3,yes
+CGS-000053,1,0,JSCG-P Cristobal Colon Base Life Support,19e09faff4d21bc5128cb900284280591c9f5a01049f403f0276e4f73a995451,yes
+CGS-000054,2,1,JSCG-P Cristobal Colon Base Life Support,f67e56194c0e509c2e5253111617d7a8324c8797a91a4200560afdb0e675459d,yes
+CGS-000055,1,0,Socket Head Cap Screws,4693596c53006eaf80ec9f8b078aae7c71188d9e85a6e88068ee7ddcc7f8ed86,yes
+CGS-000056,2,1,Socket Head Cap Screws,c80aee0312ce661409e52ca01cb19ddc8b481283538b53f24deb90ac5bf14460,yes
+CGS-000057,2,1,Socket Head Cap Screws,cdf9e3369e345765bd7b76b9970578cad59773210b791d5aaffa2cd8be742631,yes
+CGS-000058,2,1,Socket Head Cap Screws,151172e54c65ba66d1c778b9bb9588e97f3a7db3fc18f572a1b500a463baa5b3,yes
+CGS-000059,2,1,Socket Head Cap Screws,f354702be1855ccddc6b9dbed6ad4ee15f3e34ba0bc6a6549ebdceae508f0eff,yes
+CGS-000060,2,1,Socket Head Cap Screws,0777bc218dc32139a1510ad6cd17c07afd82154d10447e100a746fb1d4606147,yes
+CGS-000061,4,3,Socket Head Cap Screws,20a68a56fafda7dba59427d9dd61c3949003da503fa24daf4bd5eaa8dde8b821,yes
+CGS-000062,2,1,Socket Head Cap Screws,e0156a505f732183f79955d745baadb13176e894f0db77c601424a8c2b60c5b2,yes
+CGS-000063,2,1,Socket Head Cap Screws,1fcea66dc6ab9786450c237655fdaa41336cb81a9b5e33899c8eaa255898ac12,yes
+CGS-000064,1,0,Socket Head Cap Screws,4d67834a7614a3a8b3e60b47f1b93c04bca92eb0afc7cd9bf834b30d0e691462,yes
+CGS-000065,2,1,Socket Head Cap Screws,872144986816460227d66fabe48ec47ee79728d8b1767eb57c46c69a7bb21642,yes
+CGS-000066,2,1,Socket Head Cap Screws,576d4e0e98c2ad2a3ae573a0757c042b32a978b1602f7cfdc978fdbbe3242e99,yes
+CGS-000067,2,1,Socket Head Cap Screws,9e163eb36037266cd7cfa1d47eed93be74cc213c84c694b47ded801db043b3d1,yes
+CGS-000068,2,1,Socket Head Cap Screws,cc834f86c83aac4383c29ba2d72cd9b7f3e594b0f24b81dc41ebeaaac0b46260,yes
+CGS-000069,2,1,Socket Head Cap Screws,bda855c074578610000e1e4dc43b7519aff80669936567d60412e7123c756a9e,yes
+CGS-000070,4,3,Socket Head Cap Screws,aac5812a8029e86f31bbbd90ed46ec9cc33ddded4a77e7428119999ee19dea79,yes
+CGS-000071,2,1,Socket Head Cap Screws,d2dcf74e5e68bf43b6a1dc68fb6e38b6e602a6e300f83aa0063d0afdc4fabd79,yes
+CGS-000072,2,1,Socket Head Cap Screws,71cf9a343aca2a9634393a52ef89943af559c7854b2412315f04532359139fc8,yes
+CGS-000073,1,0,Socket Head Cap Screws,20eb44b1deed425ed9852594b6cd398b0d2fbf6387943a62d2f8b4840ababe98,yes
+CGS-000074,1,0,7195--Solar Shades - B3 PACT,948dfe3653c1adadab9e8c4286d4acda55e36c03ffed9b3c5892be77912b67b9,yes
+CGS-000075,1,0,7195--Solar Shades - B3 PACT,43386256746a73281ace86108ac45dab7ed266d52f14b3072daab52e1fed26dd,yes
+CGS-000076,1,0,7195--Solar Shades - B3 PACT,2425c644cf28398e3f7b57860ad74f920efcdd8322efa2ff496d39aca42a2d91,yes
+CGS-000077,1,0,7195--Solar Shades - B3 PACT,b91d2f471f73327e3af1e041e3b09d25b091f87f7de505ac6429180629541c37,yes
+CGS-000078,1,0,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,5c47ab3101ebf1d30dd93e8efa879b950d3c176377edae87d1cf2f2a7e0942dd,yes
+CGS-000079,1,0,6515--Dental Panoramic Machine,9d9859d0f2ef1d837db377206eef588cef9ead287077ebddee920c5576e245a1,yes
+CGS-000080,1,0,6515--Dental Panoramic Machine,5b36e805978ef604f74a689aa1cff63d6218124cfe0bb867590dd80f61dca1cb,yes
+CGS-000081,1,0,6515--Dental Panoramic Machine,6a072532a975a55ba4297d2c61782b81e6debab180aadde1b58ac9b086375008,yes
+CGS-000082,1,0,6515--Dental Panoramic Machine,406d70f81ac00f501a6f79037b789010e4395bde1a3f5914e7f57c2c4db38c16,yes
+CGS-000083,1,0,6515--Dental Panoramic Machine,a3042845965d76e8e15181fbb8edfb0dcc8b3c63d235455ef0da5cc2f1f5c96b,yes
+CGS-000084,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,54353af86362ed8935bc2e6857c2b76cc160251db3cc8ef17f74b3362db1a3f2,yes
+CGS-000085,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,08419bfdcd05152c65d5c45d01d86b3c98500e41908968dac12ed53201829c8c,yes
+CGS-000086,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,489361485dbe98df3b60897d7e43feae6fd0b3700078f0076b20cf02c19c9030,yes
+CGS-000087,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,cf51ef5b06f7b878f100f0848a0bd3892b1661c8a9ba5264295bb48eb3a208da,yes
+CGS-000088,2,1,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,6c1df6a0cafa176e63112d1facc17815adf1725a7ae37faedb4aa34bd53ee7b4,yes
+CGS-000089,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,58212d94c47c42bbcec76c18bceec8e17290166dc07d1bc8a37dc6352052d6ed,yes
+CGS-000090,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,a0cfc6ce1bb64b2db953bfeb37d556bb1c6f994ba5d329f2379ec5bab3ceae55,yes
+CGS-000091,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,e90e32d498c5d0d3db3e52e5a62941707798a1f610529c063e60befa6dbcc313,yes
+CGS-000092,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,9b0cd1dcb878a727adbccaa1171a6dce56ecc6628fe5eb019c25bdd929068c3f,yes
+CGS-000093,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,414be117df2f9dbf81c1dfcd9a2da707033b304264b774c354662a014df22be5,yes
+CGS-000094,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,1484ce1ae7891a032e7927fd651fda0baed560bdf27e1caa1359182d271f933b,yes
+CGS-000095,2,1,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,29e95dd06638c8d81e0d216bc04b31e840ca5d4dd432c0c5f9ea2fbc4bfe0220,yes
+CGS-000096,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,743746657b63063a2cfa71004b977759e72350114eb2d73182eee7f41a39a784,yes
+CGS-000097,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,8f7df41880f1944e32e97ebc873b82d9a7c0d2723f46fb5d2158b27e5d9a6efd,yes
+CGS-000098,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,77c9d4ecc650cb1b42998f59978423479e4d47a1224c231b110f6f22537fe965,yes
+CGS-000099,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,ad771c97398ed1c44e77d02796eba1ae991c46be7b43733f8010e644aca11021,yes
+CGS-000100,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,d4af47536101b4068111bab94b89e0dec27c6d894ce0e57bdcfd3b22db268b03,yes
+CGS-000101,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,efc2f3e37b4ab8a729b4e2a3f9d65004b6fedb6682bb46eaa2133688df5056f6,yes
+CGS-000102,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,f57f34aa89aeb7aa76d83f5aed4a8af49ed6c74d9608de8d8b44cde0ccf56f1d,yes
+CGS-000103,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,10c7f1d3a03d05cc45a73876e84df3c719e0f9fd6736f90bb39601e60555eb21,yes
+CGS-000104,3,2,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,9e0f609856f9aaae1ccec44d5819cc25cfbda0ea25266e7479602b4092de740a,yes
+CGS-000105,2,1,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,9345f89067aedcae60c8dee2bbf147fe67d199186ceb095520c650f2942b2c34,yes
+CGS-000106,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,0ab3589c7ba187f41c09d688c3e51190421aca65035f87e4af0230c3f286a16a,yes
+CGS-000107,1,0,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,a9a9d3eabf946ce9c1bef6e38c2729d3ef4cf5943392db38aab5c2f1ba31f3a2,yes
+CGS-000108,1,0,Notice of Intent to Sole Source- Investigative Services  Houston Police Deparment,b63e63a20e63e6bb1f11fbe9820431a41b1d2ba0b91792abd2a7e8dbbfb57e48,yes
+CGS-000109,1,0,Notice of Intent to Sole Source- Investigative Services  Houston Police Deparment,147d28dc341b8ea4c88e9c55487ce20e52d70ecc79aaaa4a93975681f9726be0,yes
+CGS-000110,1,0,Notice of Intent to Sole Source- Investigative Services  Houston Police Deparment,b0d09f81a645e4b303cb99d362f778ec63c49839596920d0e516e830a603c388,yes
+CGS-000111,1,0,Notice of Intent to Sole Source- Investigative Services  Houston Police Deparment,875acc15da8a0c997dd4b7ff9d016863cebfb5535ef6cf21a35939ead97c36c6,yes
+CGS-000112,1,0,Request for Information: FDA IT Infrastructure Services,11c4944082aac922079caac5280b96475d6899dd2a9f7bb64ea0a0550cd3c15c,yes
+CGS-000113,1,0,Request for Information: FDA IT Infrastructure Services,cbcdb049b8ed2d6a92ecd3973cf06822a202e226068fb3ebe4fbf0abeb870897,yes
+CGS-000114,1,0,Request for Information: FDA IT Infrastructure Services,9929dc665c048d19f7f2c92c92fcbf83e19fcdd0d56e46ac463150554ca9b7f5,yes
+CGS-000115,1,0,Request for Information: FDA IT Infrastructure Services,03b050dd6d4cc083dd443b027de9b8e4471a217ae8fee755abd25b6ce7aded9b,yes
+CGS-000116,1,0,Request for Information: FDA IT Infrastructure Services,4c5c5fa47c4e4e5d21dff975ae5793547c48ae21ddb018c30c037ecd07268e6c,yes
+CGS-000117,1,0,Request for Information: FDA IT Infrastructure Services,654b8175c45c01d8eadd59b6f299945b8254c8076d81fd0ebe9b93a651175db2,yes
+CGS-000118,2,1,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,88870fb5bcbfd0e3976fa2bb0be23a2aa5bb41d52e1f82aea488c3fe00d1fe6a,yes
+CGS-000119,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,d2c0ee37a839fc25511c4eaea0723f94a086101a4d1df6f2a9689686c44d51cc,yes
+CGS-000120,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,99d39238cce053c7346957b1e939fd79cecc534b8dd965772192155aa7aac364,yes
+CGS-000121,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,185f78eb43f1dae282743241768a60bbd32cd03829e278510c0824a4caca985a,yes
+CGS-000122,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,118b56ec7a64f528c2d71874898c9a13738e90eee3274e8e3d9445327c098ea7,yes
+CGS-000123,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,6034d16fda9040e399d2c60b5271adadb44c85ed693da6353845940784ce7843,yes
+CGS-000124,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,0b8addd87754c9abc73f5ba6fdb788e9172bb46afc65e64d03fb9d4498d34fba,yes
+CGS-000125,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,62a8c8c6cd87faa0b761494d55313f06aaa2c3787a117d5933835ad3867530fc,yes
+CGS-000126,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,d55f64d69c63e76355a0cefb35806e1a85b98b0f997f99860ac95ebcfb538b3f,yes
+CGS-000127,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,533c3fea4262d06c4c74814edd4858f8b646475d5e0b9849fdf819ed1b16beed,yes
+CGS-000128,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,8600a69f0d02fc52397e99f84053821179685a2499d29ee1ae5b85bfde819da9,yes
+CGS-000129,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,ed3b21356a592cf7f26d0dc91caa93a2c6cabeb3f196673d11158ec0795451e4,yes
+CGS-000130,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,17b74dea5bc59801ffafa67c1cb7373c27a1282018920620d5d59afcda072b46,yes
+CGS-000131,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,43c0750b71c15aba15e1f9bd10542c2ba2b694662a893dc0b950dde4fee4a524,yes
+CGS-000132,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,ec92d318f0405aaef40aceedcec0ade60848fed95c2cd7e3bccd2c113809f58c,yes
+CGS-000133,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,4e0c0a243f8300bbed17330e9e9a60136cb63bf346573bce8da8e6f4329fced7,yes
+CGS-000134,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,17bf7f96e69f4384ae8562b5d780fa8bf4ec7dfbaa0b2fe21980479d682d703b,yes
+CGS-000135,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,8b42b0368beb34c1415b0571e065e39ce3854a79ec0a3bff7989265031e9c02d,yes
+CGS-000136,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,1f4f7542b82c7d80e4675ddc28139d2827be56e3ee0d81a465a658e299961356,yes
+CGS-000137,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,89778dc955fcef6b04883414f79c0bd1183834a6436c268a325e0a116e6b55ff,yes
+CGS-000138,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,59b6c56e0d5535dba19e696bc85f7be89333d03d4d4ad4d0bc2593ca80a43b75,yes
+CGS-000139,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,4cffb23069864514bffb1ff51441060fb01badd58fd2ac782cfba6fe7d6eabfa,yes
+CGS-000140,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,41885a6868072a9b6c46fcdf51d0f5e506dcf0f4dd392c0b8014af489bc80329,yes
+CGS-000141,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,011ba615e5144e434603619ddd6676ae17551d3c41b5275c7934e6ae382a25d3,yes
+CGS-000142,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,e9016102849eaf31479e86dcb5d662c04137feb0c86827a4455e0f515156611c,yes
+CGS-000143,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,06596284520811d4180b25993d6bb8660c9dcd3929d111e0a26bfaa26af413db,yes
+CGS-000144,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,05d35e2a08074e87960413d0d89839d0de34a48a724d55abc58d52d56bb10120,yes
+CGS-000145,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,74f7172756a899b68a63c34a7607eceb16e6366ef11c24ca3ebdddd92b027c51,yes
+CGS-000146,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,92bba62d901f81307001cd087cc877a1fc04389d89c251ab83cfa12cd871c7b6,yes
+CGS-000147,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,d90805a5c961844f9f64a948544d80c9ac9adabb389624e993feeb9dabfadd20,yes
+CGS-000148,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,568d52fe1d450133609966e599c6d294362387285f191677913b70260153ddfa,yes
+CGS-000149,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,ff46c65b6bfef5b7e5d946dd498d02e6c3f537c5f62757d7863ba28a0619a65f,yes
+CGS-000150,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,edab60743bc6f83c5813c9292554bc02f71e00d6191e90624055b59138fdad35,yes
+CGS-000151,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,67f581c7a56205833d0f524d96e32722c3b7657d7d0b0e7012ec8fbc11c86648,yes
+CGS-000152,5,4,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,fc9eb696e6fcdf3176e5800c48b617aa499e0d80a9f89481e00c3c18980f2bc8,yes
+CGS-000153,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,0008132be447f9b74a1eafb3240d70a347d9d98779d110bd1b1496acb9aef9a2,yes
+CGS-000154,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,a3aeffbf65085d2477f4d15b5616370876d1be19f379c6e907c98307e68a5d15,yes
+CGS-000155,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,f393c40b35a16e5588b052eac3a79c85b15fe8d9403479bb08732c069ca4152e,yes
+CGS-000156,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,c68bc5e6410dcd991b7b9f7081d136229ad1668fe6616e82611a597f21075a3d,yes
+CGS-000157,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,a69366b7d86832a253d39dada9809f8a5968e9793ff3eab592e9f44357545ab8,yes
+CGS-000158,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,50cfb425100520fcf92308e78fa462326d80a6925c11ca9ee1f86aa214c55ca8,yes
+CGS-000159,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,461ad6232b2b780a427cf19b56991ecd52ca36d7af838193d0e24aaa046595cf,yes
+CGS-000160,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,8c6a182934f93aff1f512638c9a4f231fce64d493a9e4514f57fb058dae1f3fb,yes
+CGS-000161,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,77390fc36fdd49b7db7f2d374953108a167e114eb34fe1c3812c728a2d5fa6ed,yes
+CGS-000162,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,494a61e7b68373545148bbf6dd57948654a57d2f692d3c46c7373e687113a4c4,yes
+CGS-000163,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,b841c8da3c11c2a4b016409f0048dc6a5d7f9e0e227fb2b73941dfc1689ed4c5,yes
+CGS-000164,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,f1f8b6ebd9af83cc37af9f2b0fd1a83b8c4b42d04a3c208cdc119180e8a902a7,yes
+CGS-000165,1,0,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,b65260a636b4a2acca1737dec41121b7654201c2a2749458588abbbea121f4a9,yes
+CGS-000166,2,1,"USAG DHR, Fort Bragg ID Card Services",6216a54943329d7dd931b7499669e2e9825c5f533e34bd51ead595c202401c46,yes
+CGS-000167,1,0,"USAG DHR, Fort Bragg ID Card Services",946a9ec028db6a50abb1284c7421ee9e14139a82022e21a69e8924f464c7c060,yes
+CGS-000168,1,0,"USAG DHR, Fort Bragg ID Card Services",a730be66af098a4bef56de52522ac0abed08e023d6cffab3a79e94ae33b6c353,yes
+CGS-000169,1,0,"USAG DHR, Fort Bragg ID Card Services",c004b1be7627990926d09c8657330d7c7d5cb4b95e28061d56580dd93259cbc9,yes
+CGS-000170,2,1,6515--NetApp,c895c1cd00d125bf2e2188c553125de7137f2d99f0d2137682278c840a29b593,yes
+CGS-000171,1,0,6515--NetApp,c36e90283a9ac147317d3c4a52e995025b4b3ba54e4ac8b3698918e6c82abbfe,yes
+CGS-000172,2,1,6515--NetApp,2b1b20d0c38f879e7503addefb32fb6c1afdf918048ce32b9241099d0ea19226,yes
+CGS-000173,1,0,6515--NetApp,0efe7d88fe751b8cdf23c37525cb625895c5d01af3044ace9b65796299eeda7f,yes
+CGS-000174,2,1,6515--NetApp,11eb60542db4f8ba7f52aed94c3b67f09f8e0bfb94335bdaed2bb18768cc0961,yes
+CGS-000175,1,0,6515--NetApp,149c485e2b71d46e69f672a37169a89709738c40067f9e0a1578e4565f9b9731,yes
+CGS-000176,1,0,6515--NetApp,ff5fdecbde96cad671d55b8dcd8e555693aa9c60672e0ee0619424a2a4f24548,yes
+CGS-000177,1,0,6515--NetApp,8acde717e55280317757d9f8af8a2ab694ae301354a706558ea4549ceb51e392,yes
+CGS-000178,1,0,6515--NetApp,787812573907308145e8a9eb68a133889d88ca517d4077de3694fa573077ca6b,yes
+CGS-000179,2,1,6515--NetApp,4410bf49ba5845002233b30e34b6f4b00cb09c1f4188562434e0b7c433df1b7b,yes
+CGS-000180,1,0,6515--NetApp,466b08ae7f79ff7091db4826bf0555c0c1469597b86f35ecebaef0de37ffe9be,yes
+CGS-000181,1,0,6515--NetApp,910b4b90b6aa2ccf3b9ef84c868d415e749a65378b99fa4d23faae9d759d22ea,yes
+CGS-000182,1,0,6515--NetApp,9fe6ad0897fbc5bf5f016bb9c75e40423d3fafc89135c1281ec763479571911a,yes
+CGS-000183,1,0,6515--NetApp,3b7db8451cc6430c24612c9dfcfaa75bb558c7cdfe5b8c100dcd872f8f62de12,yes
+CGS-000184,1,0,6515--NetApp,67ee29ab543e9e1469e9d22fb4b07cca83c2552b98dd8f62ffcbe39ce8ab55aa,yes
+CGS-000185,2,1,31 CES n. 25 military gear lockers.,a5111dcf119d4f7a2918b4092d5b6e31cbdb858b3fb16dea733c83c85b58bb4e,yes
+CGS-000186,2,1,31 CES n. 25 military gear lockers.,a53865310710db06d408bdbac43045316c5d364f4b3ede2a1c9938218de308ec,yes
+CGS-000187,2,1,31 CES n. 25 military gear lockers.,8bc6b84c36a82cf838856c51f2d3bb210bc180deaf86e0e58db0441768e12af3,yes
+CGS-000188,1,0,31 CES n. 25 military gear lockers.,d3417a72de4da85a66d154550565c46a586dd138c63a3d96cab0c15262081cd6,yes
+CGS-000189,1,0,31 CES n. 25 military gear lockers.,0bd5d3daabec2378e41205515977f09dc6148c62224d8ab4810f1f9ee3b50e8f,yes
+CGS-000190,1,0,31 CES n. 25 military gear lockers.,f0ba46615ca99b52d9740f157263bab1a290aa54979af720539f3b51bdce39db,yes
+CGS-000191,1,0,31 CES n. 25 military gear lockers.,7e24391f051f0842885184d4de0f00240806c95435c230d1469b079b81091642,yes
+CGS-000192,1,0,31 CES n. 25 military gear lockers.,a4fa44cb50465cbae47020a1379f9f0df1c653a99ab435c9bec9bc2c215b9dcf,yes
+CGS-000193,1,0,31 CES n. 25 military gear lockers.,4c6066abd483d7fae3f40126571054f2ea96b022d845a2b5583410213ea870c3,yes
+CGS-000194,1,0,31 CES n. 25 military gear lockers.,a5718acf4a90f7f1d271154f1554101ff8d0db277f452eb63b79cebcdc273756,yes
+CGS-000195,1,0,31 CES n. 25 military gear lockers.,a9eba42a600a64f919a6e6746eb6eb6e189bc4f14c5c4bd41cbf7fdcc46b3690,yes
+CGS-000196,1,0,31 CES n. 25 military gear lockers.,2d8549e3cbfe55ab985418ea60950835627fef16c95d8e4839f79cbde337208b,yes
+CGS-000197,1,0,31 CES n. 25 military gear lockers.,635255acc98068ae9efe99aee09f71a6d7ae3e9bcbe58f33abffcbac248ccbaf,yes
+CGS-000198,1,0,31 CES n. 25 military gear lockers.,f5108a652fadb6ca45c606cc7806c6fd442d616b678cdc401c0b048ff11ddc3f,yes
+CGS-000199,1,0,31 CES n. 25 military gear lockers.,b81ed34f4e665a6f24f6997a3f2d5a456fa9bad480552bf029e6254fc4e6595c,yes
+CGS-000200,1,0,31 CES n. 25 military gear lockers.,1121893b74814812ecf06e2a12d4d5c3ed37bca04ab470efc069c136b6a9bc37,yes
+CGS-000201,1,0,Hex Jam Nuts,6884893e7bba2995920f613d1be1ca99049d88890edddb51ffbe000d7e745340,yes
+CGS-000202,1,0,Hex Jam Nuts,8a003cb036a6022df1c564f587de01a6907ab9f3e32da61b1837407d1e5578f3,yes
+CGS-000203,1,0,Hex Jam Nuts,78b4c44fdbdfd08f20f6d5bf710dd84846b04644a0ae1d518441a61dce1f33fc,yes
+CGS-000204,1,0,Hex Jam Nuts,e051a49977c7975103932be9b08b86f0039e17fc9acc9ddce2563858e9e87d65,yes
+CGS-000205,1,0,Hex Jam Nuts,0ae5c45cb537049e11fca2cd081ba90d0507fda13e69663e807d0f9ba99dee44,yes
+CGS-000206,1,0,Hex Jam Nuts,e1381c07f5a36cb2bbc5202e701d051165082693b80ceb3248c7aa3703ea82cf,yes
+CGS-000207,1,0,Hex Jam Nuts,9bfe535506be03fc8254b6f39c98996e545263e5df5bcd5410c8da5260bb087b,yes
+CGS-000208,1,0,Hex Jam Nuts,40b2d8902ffac3b2d9c6bdb5dddc3c57c92e29669a0584c6304c11578cc128ed,yes
+CGS-000209,1,0,Hex Jam Nuts,140b468a5095d6af1b2d1495dc8afa64cc8f2bb9e0b4fad83a5d83f4a4d7e131,yes
+CGS-000210,1,0,Hex Jam Nuts,8a566d066e8df309a1a1cb15a680aaed9935b50b56aa309906a40b0d0b1dbbc2,yes
+CGS-000211,1,0,Patient Ceiling Lift Slings Replacement,e67d9235e346083c2d521883944371f1f34af358d68523314375223ef62e7470,yes
+CGS-000212,1,0,Patient Ceiling Lift Slings Replacement,57bce8ec36edc23cd4e4c9087918a00ae30225893b8dc49e8505993f9d1d2c99,yes
+CGS-000213,1,0,Patient Ceiling Lift Slings Replacement,11627a9bc7d7b6315054c72484b0d31a1f1fa5a12d84323786aeb5eb0481640a,yes
+CGS-000214,1,0,Patient Ceiling Lift Slings Replacement,5d5d0c173f9eac01bd00421a7f16a3c81be05e5af035307b3eef2e91667fdb24,yes
+CGS-000215,10,9,Marketplace for Acquisition of Professional Services (MAPS),fb8beca5164a486de4f2a6cd2b05b99dfc10367c78f29daa78beab30e925559e,yes
+CGS-000216,10,9,Marketplace for Acquisition of Professional Services (MAPS),f61c78cf9f89f29eca6e01dea553c3b15553f82575372805e8abd849030b92cf,yes
+CGS-000217,20,19,Marketplace for Acquisition of Professional Services (MAPS),9bb90d0634e761ac964878b9c9d9f4c60ffb37e8b5a178f5165d1f9eda2c45b6,yes
+CGS-000218,2,1,Marketplace for Acquisition of Professional Services (MAPS),0d7b419994f318fe3f2b802994d153e465608f232b23bfd4094062ff52e934b4,yes
+CGS-000219,1,0,Marketplace for Acquisition of Professional Services (MAPS),7c3b43af0dce9a9b8c815657022721180567547f26b63e52491e30f9a5847c63,yes
+CGS-000220,1,0,Marketplace for Acquisition of Professional Services (MAPS),f075e1d1e7cd5ed4152a37be0c5859789d61c34667e7d270eb9f45d59f296746,yes
+CGS-000221,1,0,Marketplace for Acquisition of Professional Services (MAPS),b9142f6b912043c236aa8f39960f0c3c3a775b96358c334d03f43a5ea7bf558b,yes
+CGS-000222,2,1,Marketplace for Acquisition of Professional Services (MAPS),727435fd58ecf31ed1ad1b89fcc05d1958bacda44355882f2a43131f51291342,yes
+CGS-000223,1,0,Marketplace for Acquisition of Professional Services (MAPS),bda0332116f337800b140fc39bac9e0d541eaaefd35f30f8adf5d02b2879a7fb,yes
+CGS-000224,1,0,Marketplace for Acquisition of Professional Services (MAPS),a0ba175d4751201e5f2f4c8f0da6d1e8f736b2e8d2db90e670d1d2deebf7c28c,yes
+CGS-000225,1,0,Marketplace for Acquisition of Professional Services (MAPS),f12bfe8c7ff9a6e8a71c752a789bd93ed6eddca96324579afeb78773879340e0,yes
+CGS-000226,1,0,Marketplace for Acquisition of Professional Services (MAPS),7e488248a82a2590ec6c57581ad2587cd36a8cde1489957f6b0028c012e34869,yes
+CGS-000227,1,0,Marketplace for Acquisition of Professional Services (MAPS),f7e5a300272a1bab71059b8e4328945816273ee3a00bd1f73acb43c3ae1fd4f0,yes
+CGS-000228,1,0,Marketplace for Acquisition of Professional Services (MAPS),c179fd705b96ed788f1e4152a11ee2136c4c89110c1c16d338529c38212b6adc,yes
+CGS-000229,1,0,Marketplace for Acquisition of Professional Services (MAPS),a6f09efefaa5586737fa376a7d09c6e643e424c72e6e7a7281100d4d1c97b5bb,yes
+CGS-000230,1,0,Marketplace for Acquisition of Professional Services (MAPS),566cc3c061dee7197a07c32da5c426ac839dcd0cf76135b125cec273cc401cd7,yes
+CGS-000231,1,0,Marketplace for Acquisition of Professional Services (MAPS),c153559b96366ad437a4d8fd17eb4704cb223f468493a1746d6d8bc16f5f5f7b,yes
+CGS-000232,1,0,Marketplace for Acquisition of Professional Services (MAPS),f8eb42878b387bc6be4993b74900f84c6594c8cfa1c5b34c96df57eec5ca5c5b,yes
+CGS-000233,1,0,Marketplace for Acquisition of Professional Services (MAPS),2b8f93183beb10bbe24f57c315d2d859d6318af0b7eee75499dd3781743706f0,yes
+CGS-000234,1,0,Marketplace for Acquisition of Professional Services (MAPS),fc373d800705464fb5b10ad4d4271abf98401c27b9638baa1658ad9e0217ff02,yes
+CGS-000235,1,0,NPSC Physician Services at the NNMC,afb961ceee8bbbf887340a709683da881b26daec2496b1d023ddeafb70250851,yes
+CGS-000236,1,0,NPSC Physician Services at the NNMC,2ce1ca118327e1219690275901591ec7eff092ef9d1b9e2ec040278f0af29747,yes
+CGS-000237,1,0,NPSC Physician Services at the NNMC,a472653b5d588db35768582e1c2ffd5483eae12fdf3a812a494aad5d8ac54a54,yes
+CGS-000238,1,0,NPSC Physician Services at the NNMC,91ad04c3ffb701002f5570c43a6b01de96ff35ef771a82a9ee2603d7f053f69c,yes
+CGS-000239,1,0,NPSC Physician Services at the NNMC,054e7eb7bf8b0b651f402f155aef254efa68af7f8913b7a3b937aaee388fddeb,yes
+CGS-000240,1,0,NPSC Physician Services at the NNMC,89b160d12a093f97a6970c872d45923d0e91b1b67ad9f192157dbe1849eb5464,yes
+CGS-000241,1,0,NPSC Physician Services at the NNMC,6fd44a7037215b10bba3582904fee52028fbd8e782b055a5aa6fe693e517244b,yes
+CGS-000242,1,0,NPSC Physician Services at the NNMC,1045c719410b16d93b3df17a7e2d2fb86d57aa15e551f8ab58aab9f31700c40e,yes
+CGS-000243,1,0,NPSC Physician Services at the NNMC,f989dbe92896d8a6581ba16e34356ea72a7291fcc0525e254f982df6fc2a75f1,yes
+CGS-000244,1,0,NPSC Physician Services at the NNMC,ec66381a6a450e1ce5b99c94e5d9b0e64fa6d5fd178a17410ffeb40bcd4bda30,yes
+CGS-000245,1,0,NPSC Physician Services at the NNMC,13200dd16bff67b7b543f93bbfb64c2f95838ffefa3a3199ae73df7a44cad317,yes
+CGS-000246,1,0,NPSC Physician Services at the NNMC,109c7058aa9374c522a2e4dae94a13e565a3514652f5405ceb6e2667b95a45a3,yes
+CGS-000247,1,0,NPSC Physician Services at the NNMC,0ac527b9e8b25cfefc7b992522b6fdcca9ba17592a82375409999b8ae16965de,yes
+CGS-000248,1,0,NPSC Physician Services at the NNMC,91964686f8741c06e6b77a5106db4b44e3f98f2087ba128516b09f23cc0e5cb9,yes
+CGS-000249,1,0,NPSC Physician Services at the NNMC,11dc5a772ae4c5c29423fe3bb4932c8a0cea1b15cd8978c1eb629c70af22f59e,yes
+CGS-000250,2,1,NPSC Physician Services at the NNMC,85cce3c7935723122f6f2c7d305b9d0f47ab683e08f716b5857b7a1c0fd2b45d,yes
+CGS-000251,1,0,NPSC Physician Services at the NNMC,f2287e85f2f6a15ba6c6dcf77350f22b0a9d8b807ea13ac3b338d4261442f847,yes
+CGS-000252,1,0,NPSC Physician Services at the NNMC,e74d3a997079c4712a04fbe81d41a960a00802a2d832d5b6b4abf54cc3e9a4a8,yes
+CGS-000253,1,0,NPSC Physician Services at the NNMC,fc74b57747f83d0f4b137dc989377f79122095deda355e6723f9c349ea0401ab,yes
+CGS-000254,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,f2368d321c6d06c0e42178ad5d3a76555bd654be9bb5012f69c66bd43383a6d8,yes
+CGS-000255,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,5eecfd7ee3495f77bf4af5491c7823ff7bb181594022ac79d9f739cb3aee6bf0,yes
+CGS-000256,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,0e8729a180448a2a553d1447008d051587e30517bb5cf3817600eec982bd188e,yes
+CGS-000257,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,05ea323ea216f8de3f7195b3df316b2e12e7d6bd1f14a3f5a6a923694653035d,yes
+CGS-000258,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,086fcf5a9b257b77620fde62284d233b0f588c3e9cd32a49fe3c60d60ce8184e,yes
+CGS-000259,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,95fe1ed91ec3aebf13000dbf2f04c8e6f1053b20085bd5a43fdb26c35ea7b48c,yes
+CGS-000260,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,24ef4e23a6aa4f9159c2a288c2f213750e73ec0a4f7a2f852c2d61b48eb1a788,yes
+CGS-000261,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,a7399e6ac341c4ecf26988d237e64bfb9f4fd1db2353195d36b32cafc5e99b8c,yes
+CGS-000262,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,3df17ff26b1cac139b943e0d76bbda5e5343da786fe02c46ffc6219aa844a083,yes
+CGS-000263,2,1,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,08609dcf0cacff2a8498bd61765614cc9f28cd734c05bd6eed8105b39258472f,yes
+CGS-000264,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,ebb5fd4c669e5ecf2606c131eda7f301a3e2f94c42a4e2735676f99e848cd538,yes
+CGS-000265,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,cd2511b8b8f72075c13b7994ed6f57f16ed3bef62aaf8025a67c65be1af9b85d,yes
+CGS-000266,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,d7db9f498cec999cdeedbc3cc2ee2aadf56788ac452927e478088f18ce755b38,yes
+CGS-000267,5,4,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,b4c9712591af8bb0499bbe26520de534486e40ba5cf3fe92e11711df0e561045,yes
+CGS-000268,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,5c93db42a413c8b09b20f57325318fc7656496f1af79a6fdd47e518baed9cda9,yes
+CGS-000269,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,562e1db7c69ff605cf25dca335712e72318882f45044ed9daf047fbfaeda327a,yes
+CGS-000270,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,867be16fc37f26a439b36f9de3faae26d849903a84b4f50390174cf1bdd3877f,yes
+CGS-000271,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,8912c79a78c9c36c131a250588f968396a7ac19c498ba377d282f490beef1e2f,yes
+CGS-000272,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,6c180e80bbdae2ed68199e6876fc4e41bb3c7997181061f7d0f7de1caa88991d,yes
+CGS-000273,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,6c5addbfb446b710ad6951fb248cd207562b285bae74166b17e79580a133e310,yes
+CGS-000274,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,56b9e5e56848e0595ef3751b9577a5cba86c7419125d2ad2a044171654f7842e,yes
+CGS-000275,5,4,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,7b263ba0b40790582a1b981486dbbc08047918f8f1b3021cbef0f6a3b1e2d6c3,yes
+CGS-000276,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,c39cf08bbbe411428dbbaa147ef5502195c15b24bf3c054b71e5b2109a1f5f9a,yes
+CGS-000277,3,2,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,a7a587b6b76accb6e76be5f01d0df014d3c9d3d332c0f1b135d4226507dbcb0f,yes
+CGS-000278,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,8d53445b2eb1d1f3c8e3043af3964fcb01ffabbf4a5d3e6951c6f11e92b7432f,yes
+CGS-000279,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,7d02c487851996a6add8f2fe8e2ad5b6027789dbe7041b442f074f7d6b0dae49,yes
+CGS-000280,1,0,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,eaa128f8cc24125b85f934f84b6ed8a7a9565a860ea0a9cc010e0c71b544eea4,yes
+CGS-000281,1,0,Shade Structure Canopy,59650f9a09b157ffc12d236be12c8a5f5da9eb71cdb65de47ca9a5c810171081,yes
+CGS-000282,1,0,Shade Structure Canopy,6cbe09e156148e562af332f53440965ac3095914fe66f7af53ba64d9bf1747c8,yes
+CGS-000283,1,0,Shade Structure Canopy,7c2fa85d5c62bbf56bb45edc23ed1eea19bd83912fcb146f776136eb45030617,yes
+CGS-000284,1,0,Shade Structure Canopy,0c37a90b3a5afa4bbf28b35c6aa80f91f849524e0f3e07658c1ecc77218125f7,yes
+CGS-000285,1,0,Shade Structure Canopy,48adb1edc80c83f248c18256e91045728e11401da50c349c4c5b0d9ec1194e87,yes
+CGS-000286,1,0,Shade Structure Canopy,4c30d9caf8d6b70fb7ad75c122c673cd3e08b5025144995ceab2ada4d4605196,yes
+CGS-000287,1,0,Shade Structure Canopy,2e82aa62fb59d8cc5ecaa946322cc042d79b062b3c82fefab2cecca7db22b0c5,yes
+CGS-000288,1,0,Shade Structure Canopy,8cdbd214e9dd4bf77aa936bf85b868210821c037910773b4a5528f89bcfdf954,yes
+CGS-000289,1,0,Shade Structure Canopy,1c71789e0803168aef0288bfa8e563838827aebe519041e5c4e8cb0eb8571f12,yes
+CGS-000290,1,0,Shade Structure Canopy,75bf771714e0a736f8feb6786da54879fa2328614192eb9addd3ece186f6514d,yes
+CGS-000291,1,0,Shade Structure Canopy,ee8c0860cf23b9841999994b1fe73781c176cc2d97a3a39b5eb0db6a908fa392,yes
+CGS-000292,1,0,Shade Structure Canopy,692462ace2a75e7a09b040109684a3b696f0dacb93e17181f746027c66dc6ca3,yes
+CGS-000293,1,0,Shade Structure Canopy,4fa728815531b9e4b0754f66200680acaf327ea8f2e1560a03d3d24713db4800,yes
+CGS-000294,1,0,Shade Structure Canopy,3ae81e17601eebb3f5498482fec2a75b5ba6becdea3616131e8ee1a94b25ee04,yes
+CGS-000295,1,0,Shade Structure Canopy,9206492df8da59c3e39726b37c2d9aad3c0d323202e7a606f7a245a9fbb17c50,yes
+CGS-000296,1,0,Shade Structure Canopy,2b166bbb090eef10c7e35b464aa5f94a9b7f94a8f4716e13ed0982d330d154ab,yes
+CGS-000297,1,0,Shade Structure Canopy,94ed43d004ebab305a8a84d3f02c8de4fe2c321bf465861602d872b0b7d84398,yes
+CGS-000298,1,0,Shade Structure Canopy,5ba1417a3158db75236196d6555aa78600728812564ada7d1fc8263278568ca2,yes
+CGS-000299,1,0,Shade Structure Canopy,f87c9381e2055095301918f3bf64029369b2af4ed8b328bd68c3799599eaf2fa,yes
+CGS-000300,1,0,Shade Structure Canopy,0a7ee832bce6a1a2374031f18605ac690bc5146d60fcf3f10f24dcdb06795e02,yes
+CGS-000301,1,0,Shade Structure Canopy,ec7539522bac4c7d39d9bf5d62da5d937dca3e4036f9c76cc57fedda80ddab38,yes
+CGS-000302,1,0,Shade Structure Canopy,1b632221a0a6ae56efad82bc9bd07d25decbe1195399f6f281c66037c8784c60,yes
+CGS-000303,1,0,Shade Structure Canopy,4fcbded25028a7b0dbfa39faa42e78d8df9732d38c03117b7d19a268182c9c39,yes
+CGS-000304,1,0,Shade Structure Canopy,bd8cba3a0061af0ab2cdbe41dd79af9273cf57eaabdebc32b1628fa91af712c8,yes
+CGS-000305,1,0,N--George Washington Birthplace National Monument- RE,31d21776de3a2a94594f38915fc7c3ae040358e06c5569078c5684dbf9457803,yes
+CGS-000306,2,1,N--George Washington Birthplace National Monument- RE,ef9032c2f24003872bde28db9440636898983260922caf7d0bb1cf7cf38a727f,yes
+CGS-000307,1,0,N--George Washington Birthplace National Monument- RE,b55f11f8d4747a46731ce3c366230ccaaa1f8d3c969a20ffad44ce4292b8c9f0,yes
+CGS-000308,1,0,N--George Washington Birthplace National Monument- RE,318bf2be23c1924f4e2b61d5253418e80593b0cccb31f20511be9842e795b07a,yes
+CGS-000309,1,0,N--George Washington Birthplace National Monument- RE,5870472ea379544fb7fe5e1b5ce7558ffa03f52f91730c7689df068cb74805ab,yes
+CGS-000310,1,0,N--George Washington Birthplace National Monument- RE,1aa6af441b7069be3b7d1d65e0c1f82b8ecb0f019898a0d496d249ce38bc93bb,yes
+CGS-000311,1,0,N--George Washington Birthplace National Monument- RE,e05c6f89b0b17b99fa961110c09ad26d70c0e958f87ccd37225cda79c0bb6037,yes
+CGS-000312,1,0,N--George Washington Birthplace National Monument- RE,3847467a2dc594f3ae2d27c8e5d6fa55e6be7c623b7d536f2b129bb90dab4e4b,yes
+CGS-000313,3,2,N--George Washington Birthplace National Monument- RE,912be6fa5feeb37fd25a7fc39b532083fd6f3154c7c4f88428c9695c6c17fa5b,yes
+CGS-000314,1,0,N--George Washington Birthplace National Monument- RE,7a9d5bc839ca931ec94d24c4ba56a6baca4f2d15ec0fa79f460f62666a1ca551,yes
+CGS-000315,1,0,N--George Washington Birthplace National Monument- RE,4c2602158a9c1c5bf836bd79181aec0a3f916e419c8f0dc33ab269638093eb36,yes
+CGS-000316,1,0,N--George Washington Birthplace National Monument- RE,a5d910e96518c7439f34c0c6ff6d85c3f7bb6fa966326b83ee94dcdd9a7f51a1,yes
+CGS-000317,1,0,N--George Washington Birthplace National Monument- RE,d56aa1f869327fe264eb1986414dfad7e75f7d1fb2a0d71d30ce0d6422d378dd,yes
+CGS-000318,1,0,N--George Washington Birthplace National Monument- RE,299cc2d0683101d1859b61ef7fe0d3b096d9ea2e6e8f79480bb012e84203d143,yes
+CGS-000319,1,0,N--George Washington Birthplace National Monument- RE,6f726ff5a44e5851745a4b98d9501d02a510cec6b72acbcd74561d6f94de03ed,yes
+CGS-000320,1,0,N--George Washington Birthplace National Monument- RE,92e0bddc8456b9666957b56450855d1370dd4d4c20865424e680182f41ad242d,yes
+CGS-000321,1,0,N--George Washington Birthplace National Monument- RE,4a5bc7755f214c9191a71e6e54c9deb1ac4845d38ca914d2e047c56063e98cf8,yes
+CGS-000322,1,0,N--George Washington Birthplace National Monument- RE,129b8869e31cc2649edc87b21f4a37d2ca70e335152a26da29062be211e93647,yes
+CGS-000323,3,2,EcoStruxure Panel Server Advanced (EnerlinX Series),a6e70fcc7bc4ba4777ca5258b59734d2b700cf03a0a0017253df222118aff7b2,yes
+CGS-000324,4,3,EcoStruxure Panel Server Advanced (EnerlinX Series),26b61a4cf953052b1830c6a89225f6ba8dbb656280d556953e821ca79f1c806a,yes
+CGS-000325,4,3,EcoStruxure Panel Server Advanced (EnerlinX Series),c87dfb7d0d552c98cb01ce3a69a56541dd240e170e2f3aba2248942bac70181d,yes
+CGS-000326,1,0,EcoStruxure Panel Server Advanced (EnerlinX Series),9d68bfde0157326f3a863e4a372b68772613f9e34b6b1c5956f3d25fb10cdd4d,yes
+CGS-000327,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),e4782effed54c67841605121628d78ad9e862dda6aa1ab2883ec0d46e75e612d,yes
+CGS-000328,6,5,EcoStruxure Panel Server Advanced (EnerlinX Series),b2300e83fb9fd333e5eef80a280e2baff526c33bb4d7135a76bc35cc13abc3c9,yes
+CGS-000329,1,0,EcoStruxure Panel Server Advanced (EnerlinX Series),0cbe00bc638d95425bb204428562ad0f07dba1ff678d2215042779a30120f6bb,yes
+CGS-000330,4,3,EcoStruxure Panel Server Advanced (EnerlinX Series),c0fb095baabae049928fb12290b341406dd7f143aa4732049d93772d3a04630e,yes
+CGS-000331,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),b05e6089b08f5c56073d22c5747c80b404286ca7045098e40ff522a592b11751,yes
+CGS-000332,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),3b94632420a045dc5c156ba0ae934e536ab89ffd7883d27bcaa44603104bf754,yes
+CGS-000333,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),986bcb26c2df544e7c4ac6cbb9e79ebb281200d055a3462f14d7710b69a9012d,yes
+CGS-000334,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),ea193cd2ac9278e9e82063508320fdc1b6ee18990ae4b0caf3ff240b5645bc08,yes
+CGS-000335,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),8b99a10ffa0805e84a2bc281746bd070a42c489d1a0356a84e3ed5c6aff32898,yes
+CGS-000336,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),970633c8488bc0e0a1dfefb1d38a5e34fb67b4f4ac83f7387c082aedf8e799a8,yes
+CGS-000337,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),0fe49c055a773b5974c6cff6c912da967230c664394969ec376f8732db78f510,yes
+CGS-000338,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),28017d1cf7cb8841c7c2f8c44eb5c263693ea373bc3efd03c1bb71fbab09305d,yes
+CGS-000339,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),e9bb0c2b5b8635bfcb40fd4cc594cf076c78a178ed14d585794bb7af02ae9178,yes
+CGS-000340,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),0d3745d1de783bb9e7f6c53b93431298bccb43760dd1369d91478722e92809f1,yes
+CGS-000341,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),f4335ea9c3b05e9b49fe71e1c2955f7226469067faaa2f7794c14ed7226a183b,yes
+CGS-000342,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),dc97c4d8463ad3ec1b79e4e0972b36b94b07543aec3cb32e21e1504c1865bd23,yes
+CGS-000343,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),20e6bda80abed7d5f93fe5d8be72aa500c5e593db8453b0d5d24b18ad6770eff,yes
+CGS-000344,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),78074f062cad16c0627eb80179005ec30c3284b521ca644c83c9e0a869f21e3d,yes
+CGS-000345,2,1,EcoStruxure Panel Server Advanced (EnerlinX Series),a74dce9ef27ceebb8eb2715c7e3dc3c2d005f0132a01e471afa77a912a71acb6,yes
+CGS-000346,1,0,Repair BEQ HP135,0c077af90dd2ea84e31b4664eab264e9a54cde6f5e6c6a7196f0e09d68762f13,yes
+CGS-000347,1,0,Repair BEQ HP135,75b3fe6ff0e4682192eb2f02ec8d08e34ec650db419c968581b5be233cfe1af3,yes
+CGS-000348,1,0,Repair BEQ HP135,231adba1b0334380543a8514b87dcba6d9f5cf26f31b5e483bf487f683db5be5,yes
+CGS-000349,1,0,Repair BEQ HP135,e2ed2cbcb57e5f2237ba7319a5a5b13b6a6e5b119cf9b0c0e97e35261b3b80ea,yes
+CGS-000350,1,0,Repair BEQ HP135,e4722325703e23cfd0218b7a0087a9038f2b9e05858039baa75dface4ddd45c8,yes
+CGS-000351,1,0,Repair BEQ HP135,d688f39f6e832b2899a07eab6d0e7e52fe7e1dd3a249f45027da3df733d60e25,yes
+CGS-000352,1,0,Repair BEQ HP135,483ce0e38ec1148ae129e55cf0cae77a812ae8f722ee8ac0323ea07ef67d7912,yes
+CGS-000353,1,0,Repair BEQ HP135,ca9257c3d8b4b967fc889ea7365c1c9c72e56a14880af786c859077f69fdb7fc,yes
+CGS-000354,1,0,Repair BEQ HP135,0bec5c40f6de366d780e7239118451cc02171ca35f978d7a14aec5a82c53b848,yes
+CGS-000355,1,0,Repair BEQ HP135,6b6dd2d99c63b7774f96f0ada857790470b19837380d79652998a7dae59e582f,yes
+CGS-000356,1,0,Repair BEQ HP135,91d2f5c9b1692251fea034413ec927364191693ed8ad8ddbfa01c2099ea29768,yes
+CGS-000357,1,0,Repair BEQ HP135,04b882c28c130578363eaf1adf2137e78507451853ab63172c8e1ff090884505,yes
+CGS-000358,1,0,Repair BEQ HP135,f8e502ffdb8737f4cca164dd05f4d29bf37a21b0782b258fd682c2f3b38a970c,yes
+CGS-000359,1,0,Repair BEQ HP135,2cb1d26c733e02344c79639035720461c4fa8f3853f66930e59a9b61e0630292,yes
+CGS-000360,1,0,Repair BEQ HP135,08dc0d639659edbbb9071816933b1d4dd3214a0ba96e25b2c11a31514b988881,yes
+CGS-000361,1,0,Repair BEQ HP135,4c5999d6b8cc99b6836cc7eba4d44935ca54defb23c28435e5535302824e5bdc,yes
+CGS-000362,1,0,Repair BEQ HP135,d5cf704250776fbfcd86aa4029366b10f66bd72c775872a159dd6f3663336991,yes
+CGS-000363,1,0,Repair BEQ HP135,0a56ec1e98a5d82d2a33e99b4fdfe6e092534ec152635d301a5b7850fbdcd248,yes
+CGS-000364,1,0,Repair BEQ HP135,557ba736bb38355839c3bddd8fab27de58132e945cd30149cfdbabc6ad6cd818,yes
+CGS-000365,2,1,Repair BEQ HP135,0e688782e034d6e78ac3e6bf320702c8aebb08efd723c9b1612fe5682b9e55ec,yes
+CGS-000366,1,0,Repair BEQ HP135,36e63c984a72eea145ea8ae7a0750f7349049b7b70d733d074ef98d05b2d4f80,yes
+CGS-000367,1,0,Repair BEQ HP135,e308a30aaff8eaa32a8a7a6d20a405bad7af16123513c7e02d03e7a0faa797fa,yes
+CGS-000368,1,0,Repair BEQ HP135,54fc07050d339ac602dbf117f5ef22e9a06c170b6227b4b17aa2c7cab3a99a2b,yes
+CGS-000369,1,0,Repair BEQ HP135,0980cf29b17783ea44d36549d04a91999f7346127ee9ccabb7e49bd3e36ced77,yes
+CGS-000370,2,1,Repair BEQ HP135,8fce8e062cf488362efa4bbc288ede9b44721712115b8d55a86ab7a1731be242,yes
+CGS-000371,1,0,Repair BEQ HP135,8535c14dfb5843451dc65a5c8dbdb378ce70a053a849dcd3ff22601eb08b58a5,yes
+CGS-000372,1,0,Repair BEQ HP135,986179609b53a144c8a06af478af6ddc9cb1a26f5a702299ec7a889ca685fd57,yes
+CGS-000373,1,0,Secure Document Destruction - No Cost,0a53f6d57c49e35b366b61ac8669d4293c5372e38b5209f82d9ca5e4e2d9cefa,yes
+CGS-000374,1,0,Secure Document Destruction - No Cost,f6ecf8de226b101c7f5a71eb7655b10670cc288c4e810b6da1ed3cffe4fb0b19,yes
+CGS-000375,2,1,Secure Document Destruction - No Cost,e7756b50c7ac7eb92f3822eb60a9a36e5e192827a96ac7da98cc6983d5b5c01c,yes
+CGS-000376,2,1,Secure Document Destruction - No Cost,5d0d6eb3a854f7e8f85ec1e580f6273b1a2ae969a304850b766feacbc6dc9d8f,yes
+CGS-000377,1,0,Secure Document Destruction - No Cost,7f5d0282dee0771c8daa603986f0d5d483462ae3b04ff4a696e1e2371074e02a,yes
+CGS-000378,14,13,Secure Document Destruction - No Cost,3943caf4f69bb54c0505b0e743be081f71cbf88f88c5cc7249be89208ef0abbf,yes
+CGS-000379,2,1,Secure Document Destruction - No Cost,0606ee82874c780e0a48c49eb45cc72014cb9a9dcdbdcc9ceac179df3155c89c,yes
+CGS-000380,4,3,Secure Document Destruction - No Cost,67ac637a104ec5769be637a564602ae982dc54ae600f4ec5e67df048c567d96d,yes
+CGS-000381,2,1,Secure Document Destruction - No Cost,5d8b835f80f3e2e953050a34c08ff8f63bccdb22142bed1c9b73d8aa0da97613,yes
+CGS-000382,2,1,Secure Document Destruction - No Cost,77d0b4c02fec0fbb7d14d85ba4b86bc197949425e01252e2ba02ed0402b6450f,yes
+CGS-000383,1,0,Secure Document Destruction - No Cost,a83259620da3f7d76f3dfc2f395e940638e4546c3efd00d908643444c2b1c0a2,yes
+CGS-000384,4,3,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),dd515fd23ded13a7229966dd3554acea1a0661f865138730b2d0245b7154a25e,yes
+CGS-000385,3,2,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),94875c7ac6986d0becc1cc61af239ce95521317006a29642847ba85b5503cb5a,yes
+CGS-000386,1,0,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),5918aeac82a33ddbadd6f551c3ed9d0c623df6f0ac9dab18a7dfe36a130a8f0f,yes
+CGS-000387,1,0,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),0e284086ebcc1e3a0447d3d03d023a9400cafc1a5b9fc0d36485083848e36b92,yes
+CGS-000388,2,1,Atlanta Job Corps Center Caretaker and Security Services,8cffb4df45327b7a6644bae2ab68658f1b2f66a1d49ea4288a8749408b1c05fd,yes
+CGS-000389,2,1,Atlanta Job Corps Center Caretaker and Security Services,b76a22d1f6418485ea9e30783e649e65311244e07eb3d8039e333ecdeea77fa9,yes
+CGS-000390,1,0,Atlanta Job Corps Center Caretaker and Security Services,37ad9e99713195100595472e4823779c510124df02476ac5ec9692f9e7bbe0c6,yes
+CGS-000391,1,0,Atlanta Job Corps Center Caretaker and Security Services,e24465be21e52172b37cd017f02e38ce5b575e79d1900beb22d2810d9f0015c8,yes
+CGS-000392,1,0,Atlanta Job Corps Center Caretaker and Security Services,a2009aef574e31754f1a0a5045adb8d6d9057cd9630a66bc74d710ad05dff545,yes
+CGS-000393,1,0,Atlanta Job Corps Center Caretaker and Security Services,ef8cf1065f64cc5213ecfa543421eb6fd0a2ee4f0516209323d26daecb19f6d2,yes
+CGS-000394,1,0,Atlanta Job Corps Center Caretaker and Security Services,82832717097268afd56b5cb644f7616901dcd04986046d2af349884ca2cffd86,yes
+CGS-000395,1,0,Atlanta Job Corps Center Caretaker and Security Services,e8a171d6bc95c8580fec9adf1c41914ee8f5a8de3ec427cc1c07dd3035ab04a7,yes
+CGS-000396,1,0,Atlanta Job Corps Center Caretaker and Security Services,3a7cca6afc6e3e1cb6a3d6a169cdd092bd2731c69a69bc7a79c5cc7d49074dda,yes
+CGS-000397,1,0,Atlanta Job Corps Center Caretaker and Security Services,2fb4976f3e97dc9e96c4d7dfbf2be33320ab2d924e2d23961372b4744189d0de,yes
+CGS-000398,1,0,Atlanta Job Corps Center Caretaker and Security Services,ba89bec9700b245e6ed487d26e62521f6ffb3d63065c6ef860da60f0fca4850d,yes
+CGS-000399,1,0,Atlanta Job Corps Center Caretaker and Security Services,cd9529b3536d5c710224c5f64b7f35d578e152e9b11d2dbc8e8e24035012525e,yes
+CGS-000400,1,0,Atlanta Job Corps Center Caretaker and Security Services,8fe8c6ff9306148b95842433abc47c4044b5274ae2830020453001e1447cbad3,yes
+CGS-000401,1,0,Atlanta Job Corps Center Caretaker and Security Services,e2b7d54a2758f0558a8ecda303cd549da89860dc8357f4a317922063f19ff475,yes
+CGS-000402,1,0,Atlanta Job Corps Center Caretaker and Security Services,b0f373f2600f93b49e73de0d6090de5fd91c5fb5feebfd0bb36571303330ff5c,yes
+CGS-000403,1,0,Atlanta Job Corps Center Caretaker and Security Services,3303326894130507051f3072c42d6f2a0aa47b5bdf54fc984cdfa2057b157705,yes
+CGS-000404,2,1,Atlanta Job Corps Center Caretaker and Security Services,899ed8ebacf08d8fcb09aebb519aa441ebc25dfb54189887400cb6e724f5061c,yes
+CGS-000405,1,0,Atlanta Job Corps Center Caretaker and Security Services,e72564472b5d46ea47d30d071adc924840e6a8b0c77b5bf1ca1d95b452f7de7b,yes

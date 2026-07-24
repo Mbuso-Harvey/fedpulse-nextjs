@@ -1,0 +1,8 @@
+qa_metric_id,metric_name,metric_value,target_value,status,notes,created_at
+OPPQA-000001,profile_rows,1,1,pass,One opportunity profile should be created.,2026-06-30 11:19:16
+OPPQA-000002,category_rows,29,29,pass,Each graph node should be categorized.,2026-06-30 11:19:16
+OPPQA-000003,evidence_rows,44,44,pass,Each graph edge should become opportunity evidence.,2026-06-30 11:19:16
+OPPQA-000004,summary_rows,1,1,pass,One executive summary should be created.,2026-06-30 11:19:16
+OPPQA-000005,score_rows,1,1,pass,One scoring record should be created.,2026-06-30 11:19:16
+OPPQA-000006,recommendations_created,8,>= 3,pass,Opportunity intelligence should produce capture recommendations.,2026-06-30 11:19:16
+OPPQA-000007,risk_flags_created,5,>= 1,pass,Opportunity intelligence should identify risk flags when present.,2026-06-30 11:19:16

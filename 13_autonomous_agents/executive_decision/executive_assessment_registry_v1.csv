@@ -1,0 +1,2 @@
+assessment_id,bid_readiness_score,complexity_score,capture_score,supplier_strategy_score,pricing_confidence_score,commercial_risk_score,proposal_readiness_score,ai_analyst_score,compliance_critical_gaps,compliance_high_gaps,base_go_score,risk_penalty,adjusted_go_score,executive_position,created_at
+EXECASS-000001,90.0,98.0,65.11,43.44,71.83,86.72,67.81,61.29,3.0,2.0,65.28,27.0,38.28,partner_or_restructure,2026-07-04 22:34:06

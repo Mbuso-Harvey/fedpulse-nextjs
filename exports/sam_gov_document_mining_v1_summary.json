@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-06-21 09:38:21",
+  "documents_mined": 20,
+  "type_counts": {
+    "pdf": 16,
+    "xlsx": 2,
+    "docx": 2
+  },
+  "signal_counts": {
+    "certification": 11,
+    "deliverables": 4,
+    "past_performance": 5,
+    "proposal_instructions": 11,
+    "set_aside": 6,
+    "security_clearance": 4,
+    "evaluation_criteria": 7,
+    "technical_requirements": 10,
+    "pricing": 7,
+    "labor_staffing": 5
+  },
+  "outputs": {
+    "text_catalog": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_document_text_catalog_v1.csv",
+    "signal_catalog": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_document_signal_inventory_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\sam_gov_document_mining_report_v1.md"
+  }
+}

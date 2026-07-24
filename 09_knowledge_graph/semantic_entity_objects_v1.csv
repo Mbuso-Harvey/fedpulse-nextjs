@@ -1,0 +1,11 @@
+semantic_entity_id,entity_type,canonical_name,domain_name,confidence,matched_patterns,governance_status,created_at
+SENT-000001,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,0.76,\badministrative support and clerical\b;\badministrative support\b,auto_recognized,2026-06-28 20:08:49
+SENT-000002,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.82,\baward a contract\b,auto_recognized,2026-06-28 20:08:49
+SENT-000003,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.92,\bcorps base camp lejeune\b;\bcamp lejeune\b,auto_recognized,2026-06-28 20:08:49
+SENT-000004,Military Organization,United States Army,Domain-Specific Operations,0.82,\barmy\b;\barmy mil\b,auto_recognized,2026-06-28 20:08:49
+SENT-000005,Contract Type Fragment,Award a Firm Fixed Price Contract,Commercial and Pricing,0.84,\baward a firm fixed\b,auto_recognized,2026-06-28 20:08:49
+SENT-000006,Military Organization,United States Marine Corps,Domain-Specific Operations,0.86,\bmarine corps\b,auto_recognized,2026-06-28 20:08:49
+SENT-000007,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,0.78,\bcopies of the amendment\b,auto_recognized,2026-06-28 20:08:49
+SENT-000008,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",0.86,\bfar and dosar provisions\b;\bdosar\b,auto_recognized,2026-06-28 20:08:49
+SENT-000009,Federal Agency,Food and Drug Administration,Acquisition Strategy,0.92,\bfood and drug administration\b,auto_recognized,2026-06-28 20:08:49
+SENT-000010,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,0.72,\bproposal default index\b;\bmil proposal default index\b,auto_recognized,2026-06-28 20:08:49

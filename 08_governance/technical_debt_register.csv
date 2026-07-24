@@ -1,0 +1,6 @@
+item_id,item_name,priority,status
+DQ-001,Renewal Deduplication Engine,Medium,Open
+DQ-002,Supplier Family Resolution Engine,High,Open
+DQ-003,Display Name Formatter,Low,Open
+DQ-004,Encoding Repair Expansion,Medium,Open
+DQ-005,Advanced Alias Learning,Medium,Open

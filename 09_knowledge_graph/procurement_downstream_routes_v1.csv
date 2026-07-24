@@ -1,0 +1,13 @@
+downstream_route,target_engines
+Evaluation Intelligence,Evaluation Framework Builder;Requirement Weighting Engine;Agency Evaluation Profile Engine
+Pricing Intelligence,Pricing Intelligence Engine;Commercial Benchmarking Engine
+Proposal Intelligence,Proposal Readiness Engine;Submission Compliance Engine
+Supplier Capability Intelligence,Supplier Capability Matching Engine;Winning Company Intelligence Engine
+Eligibility Intelligence,Bid Eligibility Engine;Supplier Qualification Engine
+Technical Intelligence,Technical Requirement Engine;Capability Matching Engine
+Compliance Intelligence,Compliance Risk Engine;FAR Clause Intelligence Engine
+Risk Intelligence,Risk Intelligence Engine;Cybersecurity Intelligence Engine
+Contract Administration,Contract Performance Engine;Renewal Watch Engine
+Document Structure Intelligence,Document Navigation Engine;Evidence Recovery Engine
+Exclusion Layer,Audit Layer;False Positive Control
+Discovery Queue,Taxonomy Expansion;Analyst Review

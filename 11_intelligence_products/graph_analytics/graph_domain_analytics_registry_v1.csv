@@ -1,0 +1,12 @@
+domain_analytics_id,domain_name,node_count,internal_edges,external_edges,average_degree,coverage_band,created_at
+GDOMANA-000004,Acquisition Strategy,8,12,15,4.875,high,2026-07-01 20:51:37
+GDOMANA-000002,Domain-Specific Operations,4,0,4,1.0,medium,2026-07-01 20:51:37
+GDOMANA-000003,Commercial and Pricing,3,2,5,3.0,medium,2026-07-01 20:51:37
+GDOMANA-000008,Document Structure and Administrative Forms,3,0,0,0.0,medium,2026-07-01 20:51:37
+GDOMANA-000001,Submission and Proposal Management,2,1,8,5.0,medium,2026-07-01 20:51:37
+GDOMANA-000005,Technical Requirements,2,1,6,4.0,medium,2026-07-01 20:51:37
+GDOMANA-000006,Evaluation and Source Selection,2,1,7,4.5,medium,2026-07-01 20:51:37
+GDOMANA-000009,Supplier Eligibility and Qualifications,2,0,4,2.0,medium,2026-07-01 20:51:37
+GDOMANA-000007,"Legal, Compliance, and Labor",1,0,0,0.0,low,2026-07-01 20:51:37
+GDOMANA-000010,Performance and Operations,1,0,0,0.0,low,2026-07-01 20:51:37
+GDOMANA-000011,Delivery and Logistics,1,0,5,5.0,low,2026-07-01 20:51:37

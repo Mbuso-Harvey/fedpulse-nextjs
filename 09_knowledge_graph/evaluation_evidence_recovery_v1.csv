@@ -1,0 +1,27 @@
+recovery_id,opportunity_title,coverage_status,recovered_signal_count,recovered_signals
+REC-000001,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,extraction_gap,0,
+REC-000002,EcoStruxure Panel Server Advanced (EnerlinX Series),extraction_gap,1,LPTA
+REC-000003,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),extraction_gap,1,LPTA
+REC-000004,N--George Washington Birthplace National Monument- RE,extraction_gap,0,
+REC-000005,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,extraction_gap,0,
+REC-000006,Selective Service System Website Modernization,extraction_gap,0,
+REC-000007,6515--Dental Panoramic Machine,extraction_gap,0,
+REC-000008,Marketplace for Acquisition of Professional Services (MAPS),extraction_gap,1,Evaluation Section
+REC-000009,Secure Document Destruction - No Cost,extraction_gap,0,
+REC-000010,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,partial_coverage,0,
+REC-000011,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,partial_coverage,0,
+REC-000012,6515--NetApp,source_gap_or_not_sampled,0,
+REC-000013,Hex Jam Nuts,source_gap_or_not_sampled,0,
+REC-000014,NPSC Physician Services at the NNMC,source_gap_or_not_sampled,0,
+REC-000015,Repair BEQ HP135,source_gap_or_not_sampled,0,
+REC-000016,Socket Head Cap Screws,source_gap_or_not_sampled,0,
+REC-000017,31 CES n. 25 military gear lockers.,source_gap_or_not_sampled,0,
+REC-000018,7195--Solar Shades - B3 PACT,source_gap_or_not_sampled,0,
+REC-000019,7195--Solar Shades - B3 PACT,source_gap_or_not_sampled,0,
+REC-000020,Atlanta Job Corps Center Caretaker and Security Services,source_gap_or_not_sampled,0,
+REC-000021,Notice of Intent to Sole Source- Investigative Services  Houston Police Deparment,source_gap_or_not_sampled,0,
+REC-000022,Patient Ceiling Lift Slings Replacement,source_gap_or_not_sampled,0,
+REC-000023,Request for Information: FDA IT Infrastructure Services,source_gap_or_not_sampled,0,
+REC-000024,"USAG DHR, Fort Bragg ID Card Services",source_gap_or_not_sampled,0,
+REC-000025,JSCG-P Cristobal Colon Base Life Support,strong_coverage,1,Award Basis
+REC-000026,Shade Structure Canopy,strong_coverage,1,Best Value

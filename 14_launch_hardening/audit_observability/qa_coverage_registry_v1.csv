@@ -1,0 +1,7 @@
+coverage_id,agent_name,qa_total,qa_pass,qa_review,qa_fail,coverage_status,created_at
+QACOV-000001,Capture Manager Agent,6,6,0,0,covered,2026-07-06 16:31:46
+QACOV-000002,Supplier Strategy Agent,6,6,0,0,covered,2026-07-06 16:31:46
+QACOV-000003,Compliance Agent,6,6,0,0,covered,2026-07-06 16:31:46
+QACOV-000004,Pricing Strategy Agent,7,7,0,0,covered,2026-07-06 16:31:46
+QACOV-000005,Proposal Strategy Agent,8,8,0,0,covered,2026-07-06 16:31:46
+QACOV-000006,Executive Decision Agent,7,7,0,0,covered,2026-07-06 16:31:46

@@ -1,0 +1,6 @@
+obligation_id,obligation_area,obligation_name,source,requirement_text,severity,status,created_at
+COMPOBL-000001,Regulatory Compliance,FAR/DOSAR Review,Opportunity Intelligence / Recommendation Engine,Review FAR/DOSAR provisions and confirm all compliance obligations before bid approval.,high,open,2026-07-04 08:03:50
+COMPOBL-000002,Technical Compliance,Technical Compliance Matrix,Capture Manager Agent,"Map technical requirements, statement of work, and performance work statement items to response evidence.",high,open,2026-07-04 08:03:50
+COMPOBL-000003,Supplier Qualification,Supplier Evidence Package,Supplier Strategy Agent,"Prepare supplier qualification evidence including past performance, eligibility, capability, and readiness evidence.",high,open,2026-07-04 08:03:50
+COMPOBL-000004,Delivery Compliance,Place-of-Performance Validation,Supplier Intelligence / Capture Manager Agent,"Validate delivery, logistics, staffing, location, and place-of-performance assumptions.",medium,open,2026-07-04 08:03:50
+COMPOBL-000005,Submission Compliance,Submission Instruction Review,Capture Manager Agent,"Track solicitation amendments, proposal instructions, submission requirements, and administrative artifacts.",medium,open,2026-07-04 08:03:50

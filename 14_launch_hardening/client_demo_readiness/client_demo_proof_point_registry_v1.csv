@@ -1,0 +1,6 @@
+proof_point_id,proof_title,proof_description,proof_type,status,created_at
+DEMOPROOF-000001,Certified Production API,10 active production endpoints are registered and API contracts are validated.,technical_proof,ready,2026-07-07 11:41:45
+DEMOPROOF-000002,Auditable Agent Layer,6 autonomous procurement agents have QA evidence and audit artifacts.,governance_proof,ready,2026-07-07 11:41:45
+DEMOPROOF-000003,Executive Decision Logic,The platform produces a conservative partner/restructure recommendation when risks are high.,business_proof,ready,2026-07-07 11:41:45
+DEMOPROOF-000004,Launch Controls,"Production readiness, API contracts, audit observability, and deployment package are certified.",launch_proof,ready,2026-07-07 11:41:45
+DEMOPROOF-000005,Human Approval Preserved,The system does not make commercially binding decisions or autonomous bid submissions.,risk_control_proof,ready,2026-07-07 11:41:45

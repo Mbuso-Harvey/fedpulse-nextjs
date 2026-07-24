@@ -1,0 +1,11 @@
+check_id,check_name,observed_value,expected_value,status,created_at
+RELCHECK-000001,Bootstrap certified,wave13_stabilization_bootstrap_certified,wave13_stabilization_bootstrap_certified,pass,2026-07-08 11:45:11
+RELCHECK-000002,Production gate ready,production_ready,production_ready,pass,2026-07-08 11:45:11
+RELCHECK-000003,API contracts valid,api_contracts_validated,api_contracts_validated,pass,2026-07-08 11:45:11
+RELCHECK-000004,Audit observability ready,audit_observability_ready,audit_observability_ready,pass,2026-07-08 11:45:11
+RELCHECK-000005,Deployment package ready,deployment_package_ready,deployment_package_ready,pass,2026-07-08 11:45:11
+RELCHECK-000006,Client demo ready,client_demo_ready,client_demo_ready,pass,2026-07-08 11:45:11
+RELCHECK-000007,API endpoints available,10,10,pass,2026-07-08 11:45:11
+RELCHECK-000008,API services available,10,10,pass,2026-07-08 11:45:11
+RELCHECK-000009,Agents registered,6,6,pass,2026-07-08 11:45:11
+RELCHECK-000010,Agent executions registered,6,6,pass,2026-07-08 11:45:11

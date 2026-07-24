@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-06-28 20:08:49",
+  "wave": "Wave 8B",
+  "pack": "Pack 2.5 - Semantic Entity Recognition",
+  "status": "completed",
+  "objects_v2_input": 36,
+  "entity_objects_created": 10,
+  "entity_links_created": 14,
+  "objects_v2_5_output": 36,
+  "before_uninterpreted_objects": 16,
+  "after_uninterpreted_objects": 2,
+  "interpreted_gain": 14,
+  "type_counts_v2_5": {
+    "Submission Instruction": 1,
+    "Domain Specific Requirement": 1,
+    "Acquisition Metadata": 6,
+    "Contract Type": 1,
+    "Pricing Structure": 2,
+    "Procurement Role": 1,
+    "Technical Requirement": 2,
+    "Evaluation Factor": 1,
+    "Document Structure Object": 1,
+    "Supplier Qualification": 2,
+    "Administrative Service Labor Category": 1,
+    "Proposal Structure": 1,
+    "Uninterpreted Expression": 2,
+    "Delivery Requirement": 1,
+    "Award Phrase": 2,
+    "Military Installation": 2,
+    "Military Organization": 4,
+    "Contract Type Fragment": 1,
+    "Procurement Document Artifact": 1,
+    "Regulation Set": 1,
+    "Federal Agency": 1,
+    "Proposal Document Artifact": 1
+  },
+  "domain_counts_v2_5": {
+    "Submission and Proposal Management": 2,
+    "Domain-Specific Operations": 7,
+    "Acquisition Strategy": 8,
+    "Commercial and Pricing": 4,
+    "Technical Requirements": 2,
+    "Evaluation and Source Selection": 3,
+    "Document Structure and Administrative Forms": 3,
+    "Supplier Eligibility and Qualifications": 2,
+    "Performance and Operations": 1,
+    "": 2,
+    "Delivery and Logistics": 1,
+    "Legal, Compliance, and Labor": 1
+  },
+  "confidence_band_counts_v2_5": {
+    "high": 9,
+    "medium": 25,
+    "low": 2
+  },
+  "review_priority_counts_v2_5": {
+    "high": 2,
+    "medium": 25,
+    "low": 9
+  },
+  "outputs": {
+    "entity_objects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_entity_objects_v1.csv",
+    "entity_links": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_entity_object_links_v1.csv",
+    "objects_v2_5": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_registry_v2_5.csv",
+    "confidence_v2_5": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_confidence_scores_v2_5.csv",
+    "review_queue_v2_5": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_review_priority_queue_v2_5.csv",
+    "qa": "C:\\ProcurementIntelligence\\09_knowledge_graph\\wave8b_pack25_semantic_entity_recognition_qa_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave8b_pack25_semantic_entity_recognition_report_v1.md"
+  },
+  "next_script": "build_wave8b_pack3_semantic_governance_v1.py"
+}

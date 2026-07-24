@@ -1,0 +1,7 @@
+condition_id,condition_category,priority,condition_title,condition_description,source,status,created_at
+EXECCOND-000001,compliance,critical,Close critical compliance gaps,Resolve all critical compliance evidence gaps before final bid authorization.,Compliance Agent,open,2026-07-04 22:34:06
+EXECCOND-000002,compliance,high,Close high compliance gaps,Resolve or formally accept all high-priority compliance gaps.,Compliance Agent,open,2026-07-04 22:34:06
+EXECCOND-000003,supplier_readiness,critical,Strengthen supplier position,Complete supplier qualification evidence and evaluate teaming support for weak capability areas.,Supplier Strategy Agent,open,2026-07-04 22:34:06
+EXECCOND-000004,pricing,critical,Complete executive pricing gate,"Complete margin sensitivity, delivery-cost, compliance-cost, and fixed-price exposure reviews.",Pricing Strategy Agent,open,2026-07-04 22:34:06
+EXECCOND-000005,proposal,high,Complete proposal review,"Complete compliance matrix, technical response, supplier evidence package, and red-team review.",Proposal Strategy Agent,open,2026-07-04 22:34:06
+EXECCOND-000006,capture,high,Strengthen capture position,"Review capture actions, evaluation alignment, buyer messaging, and similar opportunity lessons.",Capture Manager Agent,open,2026-07-04 22:34:06

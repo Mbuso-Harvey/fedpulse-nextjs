@@ -1,0 +1,8 @@
+onboarding_id,onboarding_order,onboarding_item,description,priority,owner,status,created_at
+ONBOARD-000001,1,Define ideal first-client profile,"Identify federal suppliers, bid teams, procurement advisors, and capture leaders with an immediate procurement intelligence problem.",critical,business_development,planned,2026-07-12 19:56:00
+ONBOARD-000002,2,Prepare onboarding discovery,"Document the client's current opportunity discovery, qualification, compliance, pricing, proposal, and approval workflow.",critical,client_success,planned,2026-07-12 19:56:00
+ONBOARD-000003,3,Configure the certified demo,Tailor the existing certified demo journey to the client's business problem without changing frozen intelligence logic.,critical,solution_delivery,planned,2026-07-12 19:56:00
+ONBOARD-000004,4,Validate client data access,"Confirm required user, organization, workflow, and procurement data inputs for onboarding.",high,data_operations,planned,2026-07-12 19:56:00
+ONBOARD-000005,5,Establish success measures,"Agree on measurable outcomes such as time saved, opportunities qualified, risks identified, or bid decisions improved.",critical,client_success,planned,2026-07-12 19:56:00
+ONBOARD-000006,6,Run first-client pilot,"Operate the platform with a controlled client workflow and capture evidence, issues, usage, and value.",critical,solution_delivery,planned,2026-07-12 19:56:00
+ONBOARD-000007,7,Convert pilot to revenue,"Use demonstrated business value to move the client into a paid subscription, advisory engagement, or managed intelligence service.",critical,business_development,planned,2026-07-12 19:56:00

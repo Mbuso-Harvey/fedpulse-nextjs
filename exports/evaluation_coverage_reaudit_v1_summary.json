@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-06-24 16:53:41",
+  "notices_audited": 26,
+  "coverage_status_counts": {
+    "partial_coverage": 4,
+    "remaining_extraction_gap": 7,
+    "source_gap_or_not_sampled": 13,
+    "strong_coverage": 2
+  },
+  "framework_type_counts": {
+    "LPTA": 3,
+    "Unknown": 11,
+    "blank": 11,
+    "Best Value": 1
+  },
+  "recovery_applied_counts": {
+    "yes": 4,
+    "no": 11,
+    "blank": 11
+  },
+  "outputs": {
+    "reaudit_csv": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_coverage_reaudit_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_coverage_reaudit_report_v1.md"
+  },
+  "next_sprint": "SAM-0007W Remaining Evaluation Gap Closure"
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-06-27 22:40:30",
+  "sprint": "SAM-0008ABA",
+  "semantic_objects_created": 119,
+  "evidence_rows_created": 202,
+  "interpretation_log_rows": 202,
+  "review_queue_rows": 137,
+  "semantic_object_type_counts": {
+    "Domain Specific Requirement": 1,
+    "Uninterpreted Pattern": 107,
+    "Submission Instruction": 1,
+    "Acquisition Metadata": 1,
+    "Contract Type": 1,
+    "Evaluation Factor": 1,
+    "Pricing Structure": 2,
+    "Procurement Role": 1,
+    "Document Structure Object": 1,
+    "Technical Requirement": 1,
+    "Proposal Structure": 1,
+    "Delivery Requirement": 1
+  },
+  "domain_counts": {
+    "Domain-Specific Operations": 1,
+    "": 107,
+    "Submission and Proposal Management": 2,
+    "Acquisition Strategy": 2,
+    "Commercial and Pricing": 3,
+    "Evaluation and Source Selection": 1,
+    "Document Structure and Administrative Forms": 1,
+    "Technical Requirements": 1,
+    "Delivery and Logistics": 1
+  },
+  "outputs": {
+    "semantic_objects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_registry_v1.csv",
+    "semantic_object_evidence": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_evidence_v1.csv",
+    "interpretation_log": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_interpretation_log_v1.csv",
+    "review_queue": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_object_review_queue_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\semantic_interpretation_engine_report_v1.md"
+  },
+  "next_sprint": "SAM-0008AC Semantic Pattern Scoring Engine V1"
+}

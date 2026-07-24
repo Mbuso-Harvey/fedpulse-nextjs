@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: procurement-intelligence-api
+    env: docker
+    region: ohio
+    plan: starter
+    dockerCommand: gunicorn main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: CORS_ORIGINS
+        value: "https://your-vercel-app-url.vercel.app"

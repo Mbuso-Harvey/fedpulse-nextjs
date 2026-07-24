@@ -1,0 +1,2 @@
+assessment_id,bid_readiness_score,complexity_score,capture_score,supplier_strategy_score,pricing_confidence_score,compliance_critical_gaps,compliance_high_gaps,win_theme_count,compliance_matrix_rows,proposal_readiness_score,proposal_position,created_at
+PROPASS-000001,90.0,98.0,65.11,43.44,71.83,3.0,2.0,6,5,67.81,proposal_requires_review,2026-07-04 16:30:37

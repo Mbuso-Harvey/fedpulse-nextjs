@@ -1,0 +1,2 @@
+assessment_id,overall_assessment_score,recommended_pursuit,complexity_score,bid_readiness_score,supplier_fit_score,supplier_readiness_score,department_intelligence_score,graph_health_score,top_similarity_score,created_at
+ANALYSIS-000001,61.29,conditional_pursuit,98.0,90.0,78.4,80.12,52.2,67.0,0,2026-07-02 11:39:40

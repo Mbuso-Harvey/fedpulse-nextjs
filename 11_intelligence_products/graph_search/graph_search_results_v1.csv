@@ -1,0 +1,78 @@
+search_result_id,search_session_id,search_request_id,query_text,node_id,canonical_name,node_type,domain_name,graph_status,final_score,rank,connected_edge_count,created_at
+GSRES-000001,GSSN-000001,GSRQ-000001,firm fixed price,KGNODE2-000003,Firm Fixed Price,Contract Type,Commercial and Pricing,graph_ready,0.984,1,3,2026-06-29 22:06:49
+GSRES-000002,GSSN-000001,GSRQ-000001,firm fixed price,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,graph_candidate,0.629,2,3,2026-06-29 22:06:49
+GSRES-000003,GSSN-000001,GSRQ-000001,firm fixed price,KGNODE2-000029,Payment and Invoice,Pricing Structure,Commercial and Pricing,graph_candidate,0.6201,3,3,2026-06-29 22:06:49
+GSRES-000004,GSSN-000001,GSRQ-000001,firm fixed price,KGNODE2-000006,Award Basis,Evaluation Method,Evaluation and Source Selection,graph_ready,0.482,4,8,2026-06-29 22:06:49
+GSRES-000005,GSSN-000001,GSRQ-000001,firm fixed price,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,graph_candidate,0.2073,5,5,2026-06-29 22:06:49
+GSRES-000006,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000014,Evaluation Factors,Evaluation Factor,Evaluation and Source Selection,graph_candidate,0.924,1,1,2026-06-29 22:06:49
+GSRES-000007,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000006,Award Basis,Evaluation Method,Evaluation and Source Selection,graph_ready,0.8945,2,8,2026-06-29 22:06:49
+GSRES-000008,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000003,Firm Fixed Price,Contract Type,Commercial and Pricing,graph_ready,0.3215,3,3,2026-06-29 22:06:49
+GSRES-000009,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000012,Solicitation Number,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3152,4,4,2026-06-29 22:06:49
+GSRES-000010,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000020,Combined Synopsis Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3144,5,4,2026-06-29 22:06:49
+GSRES-000011,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000017,Request for Information,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3136,6,4,2026-06-29 22:06:49
+GSRES-000012,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000024,Request for Proposal,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3118,7,4,2026-06-29 22:06:49
+GSRES-000013,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000023,Method of Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3093,8,4,2026-06-29 22:06:49
+GSRES-000014,GSSN-000002,GSRQ-000002,evaluation factors award basis,KGNODE2-000028,Request for Quotation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3087,9,4,2026-06-29 22:06:49
+GSRES-000015,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000005,Performance Work Statement,Technical Requirement,Technical Requirements,graph_ready,0.8686,1,4,2026-06-29 22:06:49
+GSRES-000016,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000016,Past Performance,Supplier Qualification,Supplier Eligibility and Qualifications,graph_candidate,0.5734,2,2,2026-06-29 22:06:49
+GSRES-000017,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000021,Small Business Set-Aside,Supplier Qualification,Supplier Eligibility and Qualifications,graph_candidate,0.5706,3,2,2026-06-29 22:06:49
+GSRES-000018,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000025,Statement of Work,Technical Requirement,Technical Requirements,graph_candidate,0.5227,4,4,2026-06-29 22:06:49
+GSRES-000019,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000002,National Cemetery Operations,Domain Specific Requirement,Domain-Specific Operations,graph_ready,0.329,5,3,2026-06-29 22:06:49
+GSRES-000020,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000007,Marine Corps Base Camp Lejeune,Military Installation,Domain-Specific Operations,graph_ready,0.172,6,1,2026-06-29 22:06:49
+GSRES-000021,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,graph_candidate,0.159,7,3,2026-06-29 22:06:49
+GSRES-000022,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,graph_candidate,0.154,8,5,2026-06-29 22:06:49
+GSRES-000023,GSSN-000003,GSRQ-000003,performance work statement supplier capability,KGNODE2-000029,Payment and Invoice,Pricing Structure,Commercial and Pricing,graph_candidate,0.1501,9,3,2026-06-29 22:06:49
+GSRES-000024,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000016,Past Performance,Supplier Qualification,Supplier Eligibility and Qualifications,graph_candidate,0.7234,1,2,2026-06-29 22:06:49
+GSRES-000025,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000021,Small Business Set-Aside,Supplier Qualification,Supplier Eligibility and Qualifications,graph_candidate,0.6256,2,2,2026-06-29 22:06:49
+GSRES-000026,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000005,Performance Work Statement,Technical Requirement,Technical Requirements,graph_ready,0.4811,3,4,2026-06-29 22:06:49
+GSRES-000027,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000025,Statement of Work,Technical Requirement,Technical Requirements,graph_candidate,0.4727,4,4,2026-06-29 22:06:49
+GSRES-000028,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000007,Marine Corps Base Camp Lejeune,Military Installation,Domain-Specific Operations,graph_ready,0.192,5,1,2026-06-29 22:06:49
+GSRES-000029,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000002,National Cemetery Operations,Domain Specific Requirement,Domain-Specific Operations,graph_ready,0.189,6,3,2026-06-29 22:06:49
+GSRES-000030,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,graph_candidate,0.179,7,3,2026-06-29 22:06:49
+GSRES-000031,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,graph_candidate,0.174,8,5,2026-06-29 22:06:49
+GSRES-000032,GSSN-000004,GSRQ-000004,past performance small business,KGNODE2-000029,Payment and Invoice,Pricing Structure,Commercial and Pricing,graph_candidate,0.1701,9,3,2026-06-29 22:06:49
+GSRES-000033,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000011,Food and Drug Administration,Federal Agency,Acquisition Strategy,graph_ready,0.837,1,7,2026-06-29 22:06:49
+GSRES-000034,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000012,Solicitation Number,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5977,2,4,2026-06-29 22:06:49
+GSRES-000035,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000020,Combined Synopsis Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5969,3,4,2026-06-29 22:06:49
+GSRES-000036,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000017,Request for Information,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5961,4,4,2026-06-29 22:06:49
+GSRES-000037,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000024,Request for Proposal,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5943,5,4,2026-06-29 22:06:49
+GSRES-000038,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000023,Method of Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5918,6,4,2026-06-29 22:06:49
+GSRES-000039,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000028,Request for Quotation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5912,7,4,2026-06-29 22:06:49
+GSRES-000040,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000002,National Cemetery Operations,Domain Specific Requirement,Domain-Specific Operations,graph_ready,0.389,8,3,2026-06-29 22:06:49
+GSRES-000041,GSSN-000005,GSRQ-000005,food and drug administration acquisition,KGNODE2-000004,Contracting Officer,Procurement Role,Acquisition Strategy,graph_ready,0.3002,9,8,2026-06-29 22:06:49
+GSRES-000042,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,graph_candidate,0.8782,1,5,2026-06-29 22:06:49
+GSRES-000043,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,graph_candidate,0.629,2,3,2026-06-29 22:06:49
+GSRES-000044,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000029,Payment and Invoice,Pricing Structure,Commercial and Pricing,graph_candidate,0.6201,3,3,2026-06-29 22:06:49
+GSRES-000045,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000003,Firm Fixed Price,Contract Type,Commercial and Pricing,graph_ready,0.3673,4,3,2026-06-29 22:06:49
+GSRES-000046,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000007,Marine Corps Base Camp Lejeune,Military Installation,Domain-Specific Operations,graph_ready,0.3587,5,1,2026-06-29 22:06:49
+GSRES-000047,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000002,National Cemetery Operations,Domain Specific Requirement,Domain-Specific Operations,graph_ready,0.2223,6,3,2026-06-29 22:06:49
+GSRES-000048,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000005,Performance Work Statement,Technical Requirement,Technical Requirements,graph_ready,0.2144,7,4,2026-06-29 22:06:49
+GSRES-000049,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000016,Past Performance,Supplier Qualification,Supplier Eligibility and Qualifications,graph_candidate,0.2067,8,2,2026-06-29 22:06:49
+GSRES-000050,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000025,Statement of Work,Technical Requirement,Technical Requirements,graph_candidate,0.206,9,4,2026-06-29 22:06:49
+GSRES-000051,GSSN-000006,GSRQ-000006,place of performance pricing,KGNODE2-000021,Small Business Set-Aside,Supplier Qualification,Supplier Eligibility and Qualifications,graph_candidate,0.2039,10,2,2026-06-29 22:06:49
+GSRES-000052,GSSN-000007,GSRQ-000007,far dosar provisions compliance,KGNODE2-000010,FAR and DOSAR Provisions,Regulation Set,"Legal, Compliance, and Labor",graph_ready,0.666,1,0,2026-06-29 22:06:49
+GSRES-000053,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000001,Solicitation Amendment,Submission Instruction,Submission and Proposal Management,graph_ready,0.9102,1,9,2026-06-29 22:06:49
+GSRES-000054,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000019,Proposal Volume,Proposal Structure,Submission and Proposal Management,graph_candidate,0.8544,2,1,2026-06-29 22:06:49
+GSRES-000055,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000004,Contracting Officer,Procurement Role,Acquisition Strategy,graph_ready,0.5002,3,8,2026-06-29 22:06:49
+GSRES-000056,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000024,Request for Proposal,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.4568,4,4,2026-06-29 22:06:49
+GSRES-000057,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000011,Food and Drug Administration,Federal Agency,Acquisition Strategy,graph_ready,0.412,5,7,2026-06-29 22:06:49
+GSRES-000058,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000012,Solicitation Number,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3977,6,4,2026-06-29 22:06:49
+GSRES-000059,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000020,Combined Synopsis Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3969,7,4,2026-06-29 22:06:49
+GSRES-000060,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000017,Request for Information,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3961,8,4,2026-06-29 22:06:49
+GSRES-000061,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000023,Method of Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3918,9,4,2026-06-29 22:06:49
+GSRES-000062,GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,KGNODE2-000028,Request for Quotation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3912,10,4,2026-06-29 22:06:49
+GSRES-000063,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000024,Request for Proposal,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.7943,1,4,2026-06-29 22:06:49
+GSRES-000064,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000023,Method of Solicitation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.5718,2,4,2026-06-29 22:06:49
+GSRES-000065,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000011,Food and Drug Administration,Federal Agency,Acquisition Strategy,graph_ready,0.612,3,7,2026-06-29 22:06:49
+GSRES-000066,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000001,Solicitation Amendment,Submission Instruction,Submission and Proposal Management,graph_ready,0.6102,4,9,2026-06-29 22:06:49
+GSRES-000067,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000004,Contracting Officer,Procurement Role,Acquisition Strategy,graph_ready,0.6002,5,8,2026-06-29 22:06:49
+GSRES-000068,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000006,Award Basis,Evaluation Method,Evaluation and Source Selection,graph_ready,0.482,6,8,2026-06-29 22:06:49
+GSRES-000069,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000017,Request for Information,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3961,7,4,2026-06-29 22:06:49
+GSRES-000070,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000028,Request for Quotation,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3912,8,4,2026-06-29 22:06:49
+GSRES-000071,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000019,Proposal Volume,Proposal Structure,Submission and Proposal Management,graph_candidate,0.3544,9,1,2026-06-29 22:06:49
+GSRES-000072,GSSN-000009,GSRQ-000009,request for proposal solicitation method,KGNODE2-000012,Solicitation Number,Acquisition Metadata,Acquisition Strategy,graph_candidate,0.3352,10,4,2026-06-29 22:06:49
+GSRES-000073,GSSN-000010,GSRQ-000010,unit price payment invoice,KGNODE2-000013,Unit Price,Pricing Structure,Commercial and Pricing,graph_candidate,0.729,1,3,2026-06-29 22:06:49
+GSRES-000074,GSSN-000010,GSRQ-000010,unit price payment invoice,KGNODE2-000029,Payment and Invoice,Pricing Structure,Commercial and Pricing,graph_candidate,0.6251,2,3,2026-06-29 22:06:49
+GSRES-000075,GSSN-000010,GSRQ-000010,unit price payment invoice,KGNODE2-000003,Firm Fixed Price,Contract Type,Commercial and Pricing,graph_ready,0.634,3,3,2026-06-29 22:06:49
+GSRES-000076,GSSN-000010,GSRQ-000010,unit price payment invoice,KGNODE2-000022,Place of Performance,Delivery Requirement,Delivery and Logistics,graph_candidate,0.474,4,5,2026-06-29 22:06:49
+GSRES-000077,GSSN-000010,GSRQ-000010,unit price payment invoice,KGNODE2-000006,Award Basis,Evaluation Method,Evaluation and Source Selection,graph_ready,0.182,5,8,2026-06-29 22:06:49

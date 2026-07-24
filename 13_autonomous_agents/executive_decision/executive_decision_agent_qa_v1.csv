@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+EXECQA-000001,session_rows,1,1,pass,2026-07-04 22:34:06
+EXECQA-000002,assessment_rows,1,1,pass,2026-07-04 22:34:06
+EXECQA-000003,decision_rows,1,1,pass,2026-07-04 22:34:06
+EXECQA-000004,condition_rows,6,>= 1,pass,2026-07-04 22:34:06
+EXECQA-000005,action_rows,7,>= 5,pass,2026-07-04 22:34:06
+EXECQA-000006,brief_rows,1,1,pass,2026-07-04 22:34:06
+EXECQA-000007,adjusted_go_score,38.28,>= 0,pass,2026-07-04 22:34:06

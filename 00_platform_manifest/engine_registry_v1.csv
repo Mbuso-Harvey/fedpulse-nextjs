@@ -1,0 +1,13 @@
+engine_id,sprint_id,engine_name,wave_pack,status,primary_input,primary_output,created_at
+ENG-000001,SAM-0008ABB,Expression Consolidation Engine,Wave 8B Pack 1,planned,semantic_pattern_library_filtered_v1.csv,consolidated_procurement_expressions_v1.csv,2026-06-28 00:24:41
+ENG-000002,SAM-0008ABC,Expression Normalization Engine,Wave 8B Pack 1,planned,consolidated_procurement_expressions_v1.csv,normalized_procurement_expressions_v1.csv,2026-06-28 00:24:41
+ENG-000003,SAM-0008ABD,Expression Canonicalization Engine,Wave 8B Pack 1,planned,normalized_procurement_expressions_v1.csv,canonical_procurement_expressions_v2.csv,2026-06-28 00:24:41
+ENG-000004,SAM-0008ABE,Expression Family Builder V2,Wave 8B Pack 1,planned,canonical_procurement_expressions_v2.csv,procurement_expression_families_v2.csv,2026-06-28 00:24:41
+ENG-000005,SAM-0008ABF,Semantic Interpretation Engine V2,Wave 8B Pack 2,planned,canonical_procurement_expressions_v2.csv,semantic_procurement_object_registry_v2.csv,2026-06-28 00:24:41
+ENG-000006,SAM-0008ABG,Semantic Rule Library Builder,Wave 8B Pack 2,planned,semantic_object_type_registry_v1.csv,semantic_rule_library_v1.csv,2026-06-28 00:24:41
+ENG-000007,SAM-0008ABH,Semantic Confidence Engine,Wave 8B Pack 3,planned,semantic_procurement_object_registry_v2.csv,semantic_confidence_scores_v1.csv,2026-06-28 00:24:41
+ENG-000008,SAM-0008ABI,Semantic Review Queue Optimizer,Wave 8B Pack 3,planned,semantic_object_review_queue_v2.csv,semantic_review_priority_queue_v1.csv,2026-06-28 00:24:41
+ENG-000009,SAM-0008AC,Semantic Object Scoring Engine,Wave 8B Pack 3,planned,semantic_confidence_scores_v1.csv,semantic_object_scores_v1.csv,2026-06-28 00:24:41
+ENG-000010,SAM-0008AD,Semantic Validation and QA Engine,Wave 8B Pack 4,planned,semantic_procurement_object_registry_v2.csv,semantic_validation_report_v1.md,2026-06-28 00:24:41
+ENG-000011,SAM-0008AE,Semantic Metrics Dashboard Builder,Wave 8B Pack 4,planned,semantic_object_scores_v1.csv,semantic_metrics_dashboard_v1.md,2026-06-28 00:24:41
+ENG-000012,SAM-0008AF,Wave 8B Documentation and Constitution Update,Wave 8B Pack 5,planned,all_wave8b_outputs,wave8b_architecture_update_v1.md,2026-06-28 00:24:41

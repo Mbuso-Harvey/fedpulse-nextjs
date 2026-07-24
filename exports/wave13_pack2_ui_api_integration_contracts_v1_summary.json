@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-07-08 17:38:01",
+  "wave": "Wave 13",
+  "pack": "Pack 2 - UI API Integration Contracts",
+  "status": "completed",
+  "product_status": "ui_api_integration_contracts_certified",
+  "integration_gate": "ui_api_integration_contracts_ready",
+  "release_version": "1.0.0-rc1",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "api_version": "v1",
+  "views": 7,
+  "contracts_ready": 7,
+  "contracts_missing": 0,
+  "field_rows": 21,
+  "state_rows": 4,
+  "navigation_rows": 7,
+  "qa": {
+    "pass": 7,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_api_integration_session_registry_v1.csv",
+    "view_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_view_registry_v1.csv",
+    "contract_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_api_contract_registry_v1.csv",
+    "field_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_api_field_registry_v1.csv",
+    "state_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_state_contract_registry_v1.csv",
+    "navigation_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_navigation_contract_registry_v1.csv",
+    "gate_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_api_integration_gate_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\15_stabilization\\ui_api_integration\\ui_api_integration_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave13_ui_api_integration_contracts_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave13_pack2_ui_api_integration_contracts_report_v1.md"
+  },
+  "next_script": "build_wave13_pack3_demo_environment_assembly_v1.py"
+}

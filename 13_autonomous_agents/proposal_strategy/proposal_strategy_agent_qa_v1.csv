@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+PROPQA-000001,session_rows,1,1,pass,2026-07-04 16:30:37
+PROPQA-000002,assessment_rows,1,1,pass,2026-07-04 16:30:37
+PROPQA-000003,outline_rows,7,>= 5,pass,2026-07-04 16:30:37
+PROPQA-000004,proposal_win_theme_rows,6,>= 5,pass,2026-07-04 16:30:37
+PROPQA-000005,volume_plan_rows,4,>= 3,pass,2026-07-04 16:30:37
+PROPQA-000006,action_rows,7,>= 5,pass,2026-07-04 16:30:37
+PROPQA-000007,decision_rows,1,1,pass,2026-07-04 16:30:37
+PROPQA-000008,proposal_readiness_score,67.81,> 0,pass,2026-07-04 16:30:37

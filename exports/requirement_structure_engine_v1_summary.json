@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-06-23 01:36:02",
+  "grounded_statements_processed": 627,
+  "structured_requirements_created": 363,
+  "artifact_type_counts": {
+    "proposal_volume": 125,
+    "certification_or_standard": 52,
+    "process_artifact": 88,
+    "staffing_or_personnel": 12,
+    "unclassified_artifact": 61,
+    "pricing": 10,
+    "evaluation_or_award": 3,
+    "security_or_clearance": 2,
+    "deliverable_or_plan": 10
+  },
+  "action_counts": {
+    "unknown_action": 228,
+    "submit": 25,
+    "deliver": 3,
+    "acknowledge": 11,
+    "maintain": 4,
+    "complete": 2,
+    "support": 8,
+    "perform": 2,
+    "award": 22,
+    "evaluate": 2,
+    "meet": 3,
+    "provide": 35,
+    "include": 8,
+    "identify": 1,
+    "comply": 5,
+    "register": 3,
+    "demonstrate": 1
+  },
+  "mandatory_counts": {
+    "unknown": 286,
+    "yes": 64,
+    "optional_or_conditional": 13
+  },
+  "outputs": {
+    "structured_requirements": "C:\\ProcurementIntelligence\\09_knowledge_graph\\structured_requirements_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\requirement_structure_engine_report_v1.md"
+  },
+  "next_sprint": "SAM-0007K Requirement Structure Quality Review"
+}

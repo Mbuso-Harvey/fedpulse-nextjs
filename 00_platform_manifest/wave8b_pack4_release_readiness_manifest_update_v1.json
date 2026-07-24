@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-06-29 00:54:06",
+  "wave": "Wave 8B",
+  "pack": "Pack 4 - Semantic QA and Release Readiness",
+  "release_status": "certified_for_wave9_graph_population",
+  "semantic_registry_v3": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_procurement_object_registry_v3.csv",
+  "graph_ready_objects": 12,
+  "graph_candidate_objects": 18,
+  "not_graph_ready_objects": 2,
+  "next_recommended_wave": "Wave 9 Knowledge Graph Population"
+}

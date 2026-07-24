@@ -1,0 +1,4 @@
+contradiction_id,framework_id,notice_id,opportunity_title,contradiction_reason,evaluation_methods,created_at
+FCON-000001,FRAMEWORK-000007,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,LPTA and Best Value both detected; may be valid phrasing but requires review,Best Value;LPTA,2026-06-24 11:02:16
+FCON-000002,FRAMEWORK-000008,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,Document marking detected inside evaluation signal stream,,2026-06-24 11:02:16
+FCON-000003,FRAMEWORK-000008,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,Document marking detected inside evaluation signal stream,,2026-06-24 11:02:16

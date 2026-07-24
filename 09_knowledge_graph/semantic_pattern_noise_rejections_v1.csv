@@ -1,0 +1,1680 @@
+rejection_id,source_type,source_id,pattern_text,rejection_reason,frequency,quality_score,created_at
+SPNR-000001,semantic_pattern,SP-000001,the government,generic_stop_pattern,39,10,2026-06-27 17:34:06
+SPNR-000002,semantic_pattern,SP-000002,the contractor,generic_stop_pattern,31,10,2026-06-27 17:34:06
+SPNR-000003,semantic_pattern,SP-000003,shall be,generic_stop_pattern,28,10,2026-06-27 17:34:06
+SPNR-000004,semantic_pattern,SP-000004,the following,generic_stop_pattern,25,10,2026-06-27 17:34:06
+SPNR-000005,semantic_pattern,SP-000005,with the,generic_stop_pattern,18,10,2026-06-27 17:34:06
+SPNR-000006,semantic_pattern,SP-000006,request for,weak_bigram_without_procurement_signal,17,10,2026-06-27 17:34:06
+SPNR-000007,semantic_pattern,SP-000008,in accordance,generic_stop_pattern,16,13,2026-06-27 17:34:06
+SPNR-000008,semantic_pattern,SP-000009,accordance with,generic_stop_pattern,16,13,2026-06-27 17:34:06
+SPNR-000009,semantic_pattern,SP-000010,in accordance with,generic_stop_pattern,16,14,2026-06-27 17:34:06
+SPNR-000010,semantic_pattern,SP-000012,department of,generic_stop_pattern,16,10,2026-06-27 17:34:06
+SPNR-000011,semantic_pattern,SP-000017,the solicitation,generic_stop_pattern,14,13,2026-06-27 17:34:06
+SPNR-000012,semantic_pattern,SP-000020,set forth,generic_stop_pattern,12,10,2026-06-27 17:34:06
+SPNR-000013,semantic_pattern,SP-000021,forth in,generic_stop_pattern,12,10,2026-06-27 17:34:06
+SPNR-000014,semantic_pattern,SP-000022,set forth in,all_weak_words,12,11,2026-06-27 17:34:06
+SPNR-000015,semantic_pattern,SP-000023,or services,generic_stop_pattern,12,10,2026-06-27 17:34:06
+SPNR-000016,semantic_pattern,SP-000025,provide the,generic_stop_pattern,11,10,2026-06-27 17:34:06
+SPNR-000017,semantic_pattern,SP-000028,to submit,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000018,semantic_pattern,SP-000029,accordance with the,generic_stop_pattern,10,14,2026-06-27 17:34:06
+SPNR-000019,semantic_pattern,SP-000030,in accordance with the,generic_stop_pattern,10,15,2026-06-27 17:34:06
+SPNR-000020,semantic_pattern,SP-000031,of veterans,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000021,semantic_pattern,SP-000032,veterans affairs,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000022,semantic_pattern,SP-000033,department of veterans,generic_stop_pattern,10,11,2026-06-27 17:34:06
+SPNR-000023,semantic_pattern,SP-000034,of veterans affairs,generic_stop_pattern,10,11,2026-06-27 17:34:06
+SPNR-000024,semantic_pattern,SP-000035,department of veterans affairs,generic_stop_pattern,10,12,2026-06-27 17:34:06
+SPNR-000025,semantic_pattern,SP-000036,this notice,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000026,semantic_pattern,SP-000042,as set forth,all_weak_words,9,10,2026-06-27 17:34:06
+SPNR-000027,semantic_pattern,SP-000043,as set forth in,all_weak_words,9,11,2026-06-27 17:34:06
+SPNR-000028,semantic_pattern,SP-000044,contractor shall,all_weak_words,9,17,2026-06-27 17:34:06
+SPNR-000029,semantic_pattern,SP-000046,included in,generic_stop_pattern,9,9,2026-06-27 17:34:06
+SPNR-000030,semantic_pattern,SP-000050,of contract,generic_stop_pattern,8,8,2026-06-27 17:34:06
+SPNR-000031,semantic_pattern,SP-000052,performance of,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000032,semantic_pattern,SP-000053,the contractor shall,all_weak_words,8,17,2026-06-27 17:34:06
+SPNR-000033,semantic_pattern,SP-000054,submit a,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000034,semantic_pattern,SP-000056,a contract,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000035,semantic_pattern,SP-000058,follow the,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000036,semantic_pattern,SP-000065,the above,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000037,semantic_pattern,SP-000066,for this,all_weak_words,7,7,2026-06-27 17:34:06
+SPNR-000038,semantic_pattern,SP-000067,will not,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000039,semantic_pattern,SP-000068,the contract,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000040,semantic_pattern,SP-000069,shall not,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000041,semantic_pattern,SP-000070,firm fixed,low_procurement_signal_score,7,7,2026-06-27 17:34:06
+SPNR-000042,semantic_pattern,SP-000072,to the government,all_weak_words,7,8,2026-06-27 17:34:06
+SPNR-000043,semantic_pattern,SP-000074,does not,low_procurement_signal_score,7,7,2026-06-27 17:34:06
+SPNR-000044,semantic_pattern,SP-000075,government to,all_weak_words,7,7,2026-06-27 17:34:06
+SPNR-000045,semantic_pattern,SP-000076,the government to,all_weak_words,7,8,2026-06-27 17:34:06
+SPNR-000046,semantic_pattern,SP-000077,requirements 01,low_procurement_signal_score,7,7,2026-06-27 17:34:06
+SPNR-000047,semantic_pattern,SP-000078,camp lejeune,low_procurement_signal_score,7,7,2026-06-27 17:34:06
+SPNR-000048,semantic_pattern,SP-000079,volume v,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000049,semantic_pattern,SP-000080,provided in,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000050,semantic_pattern,SP-000084,modification of,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000051,semantic_pattern,SP-000087,modification of contract,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000052,semantic_pattern,SP-000091,letter or,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000053,semantic_pattern,SP-000093,if other,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000054,semantic_pattern,SP-000094,other than,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000055,semantic_pattern,SP-000095,than item,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000056,semantic_pattern,SP-000097,by if other,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000057,semantic_pattern,SP-000098,if other than,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000058,semantic_pattern,SP-000099,other than item,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000059,semantic_pattern,SP-000103,this is a,all_weak_words,6,7,2026-06-27 17:34:06
+SPNR-000060,semantic_pattern,SP-000104,united states,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000061,semantic_pattern,SP-000105,work statement,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000062,semantic_pattern,SP-000106,this requirement,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000063,semantic_pattern,SP-000107,required to,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000064,semantic_pattern,SP-000108,a firm fixed,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000065,semantic_pattern,SP-000110,and other,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000066,semantic_pattern,SP-000112,ton each,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000067,semantic_pattern,SP-000113,qty 1 ton,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000068,semantic_pattern,SP-000114,1 ton each,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000069,semantic_pattern,SP-000117,the work,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000070,semantic_pattern,SP-000119,included in this,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000071,semantic_pattern,SP-000120,by the government,all_weak_words,6,7,2026-06-27 17:34:06
+SPNR-000072,semantic_pattern,SP-000121,north carolina,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000073,semantic_pattern,SP-000124,table of,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000074,semantic_pattern,SP-000125,of contents,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000075,semantic_pattern,SP-000126,representations and,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000076,semantic_pattern,SP-000128,counties of,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000077,semantic_pattern,SP-000129,fringe benefits,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000078,semantic_pattern,SP-000130,benefits required,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000079,semantic_pattern,SP-000131,required follow,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000080,semantic_pattern,SP-000132,the occupational,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000081,semantic_pattern,SP-000133,occupational listing,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000082,semantic_pattern,SP-000134,listing occupation,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000083,semantic_pattern,SP-000135,occupation code,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000084,semantic_pattern,SP-000136,code title,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000085,semantic_pattern,SP-000137,title footnote,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000086,semantic_pattern,SP-000138,footnote rate,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000087,semantic_pattern,SP-000139,rate 01000,low_procurement_signal_score,6,6,2026-06-27 17:34:06
+SPNR-000088,semantic_pattern,SP-000140,fringe benefits required,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000089,semantic_pattern,SP-000141,benefits required follow,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000090,semantic_pattern,SP-000142,required follow the,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000091,semantic_pattern,SP-000143,follow the occupational,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000092,semantic_pattern,SP-000144,the occupational listing,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000093,semantic_pattern,SP-000145,occupational listing occupation,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000094,semantic_pattern,SP-000146,listing occupation code,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000095,semantic_pattern,SP-000147,occupation code title,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000096,semantic_pattern,SP-000148,code title footnote,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000097,semantic_pattern,SP-000149,title footnote rate,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000098,semantic_pattern,SP-000150,footnote rate 01000,low_procurement_signal_score,6,7,2026-06-27 17:34:06
+SPNR-000099,semantic_pattern,SP-000161,please confirm,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000100,semantic_pattern,SP-000162,invitation for,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000101,semantic_pattern,SP-000166,or electronic,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000102,semantic_pattern,SP-000167,letter or electronic,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000103,semantic_pattern,SP-000168,be submitted,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000104,semantic_pattern,SP-000169,of pages,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000105,semantic_pattern,SP-000170,page of pages,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000106,semantic_pattern,SP-000171,than item 6,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000107,semantic_pattern,SP-000172,item 6 code,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000108,semantic_pattern,SP-000173,other than item 6,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000109,semantic_pattern,SP-000174,than item 6 code,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000110,semantic_pattern,SP-000175,performance work,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000111,semantic_pattern,SP-000177,unless otherwise,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000112,semantic_pattern,SP-000178,within the,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000113,semantic_pattern,SP-000179,management and,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000114,semantic_pattern,SP-000180,to submit a,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000115,semantic_pattern,SP-000182,intends to,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000116,semantic_pattern,SP-000184,schedule of,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000117,semantic_pattern,SP-000185,quantity unit,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000118,semantic_pattern,SP-000187,government will,all_weak_words,5,5,2026-06-27 17:34:06
+SPNR-000119,semantic_pattern,SP-000188,the government will,all_weak_words,5,6,2026-06-27 17:34:06
+SPNR-000120,semantic_pattern,SP-000189,be considered,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000121,semantic_pattern,SP-000190,submission of,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000122,semantic_pattern,SP-000191,general information,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000123,semantic_pattern,SP-000192,a request,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000124,semantic_pattern,SP-000193,a request for,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000125,semantic_pattern,SP-000194,a requirement,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000126,semantic_pattern,SP-000195,requirement for,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000127,semantic_pattern,SP-000196,a requirement for,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000128,semantic_pattern,SP-000197,combined synopsis,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000129,semantic_pattern,SP-000199,can provide,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000130,semantic_pattern,SP-000200,shall provide,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000131,semantic_pattern,SP-000201,provide a,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000132,semantic_pattern,SP-000202,in this notice,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000133,semantic_pattern,SP-000203,to provide,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000134,semantic_pattern,SP-000204,services and,all_weak_words,5,5,2026-06-27 17:34:06
+SPNR-000135,semantic_pattern,SP-000205,government requires,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000136,semantic_pattern,SP-000206,the government requires,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000137,semantic_pattern,SP-000207,comply with,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000138,semantic_pattern,SP-000208,listed in,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000139,semantic_pattern,SP-000209,listed in the,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000140,semantic_pattern,SP-000210,the requirement,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000141,semantic_pattern,SP-000211,have the,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000142,semantic_pattern,SP-000212,the performance,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000143,semantic_pattern,SP-000213,set aside,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000144,semantic_pattern,SP-000214,contract clauses,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000145,semantic_pattern,SP-000215,safety requirements,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000146,semantic_pattern,SP-000216,this document,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000147,semantic_pattern,SP-000217,bi folding,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000148,semantic_pattern,SP-000218,folding gates,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000149,semantic_pattern,SP-000219,bi folding gates,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000150,semantic_pattern,SP-000220,procedures 01,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000151,semantic_pattern,SP-000224,support and,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000152,semantic_pattern,SP-000225,and clerical,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000153,semantic_pattern,SP-000226,clerical occupations,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000154,semantic_pattern,SP-000227,occupations 01011,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000155,semantic_pattern,SP-000228,01011 accounting,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000156,semantic_pattern,SP-000229,01012 accounting,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000157,semantic_pattern,SP-000230,01013 accounting,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000158,semantic_pattern,SP-000233,01035 court,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000159,semantic_pattern,SP-000234,court reporter,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000160,semantic_pattern,SP-000235,01041 customer,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000161,semantic_pattern,SP-000236,representative i,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000162,semantic_pattern,SP-000237,01042 customer,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000163,semantic_pattern,SP-000238,representative ii,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000164,semantic_pattern,SP-000239,01043 customer,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000165,semantic_pattern,SP-000240,representative iii,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000166,semantic_pattern,SP-000241,01051 data,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000167,semantic_pattern,SP-000242,operator i,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000168,semantic_pattern,SP-000243,01052 data,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000169,semantic_pattern,SP-000244,operator ii,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000170,semantic_pattern,SP-000245,01060 dispatcher,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000171,semantic_pattern,SP-000246,dispatcher motor,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000172,semantic_pattern,SP-000247,motor vehicle,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000173,semantic_pattern,SP-000248,01070 document,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000174,semantic_pattern,SP-000249,document preparation,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000175,semantic_pattern,SP-000250,preparation clerk,low_procurement_signal_score,5,5,2026-06-27 17:34:06
+SPNR-000176,semantic_pattern,SP-000254,support and clerical,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000177,semantic_pattern,SP-000255,and clerical occupations,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000178,semantic_pattern,SP-000256,clerical occupations 01011,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000179,semantic_pattern,SP-000257,occupations 01011 accounting,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000180,semantic_pattern,SP-000258,01011 accounting clerk,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000181,semantic_pattern,SP-000259,accounting clerk i,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000182,semantic_pattern,SP-000260,01012 accounting clerk,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000183,semantic_pattern,SP-000261,accounting clerk ii,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000184,semantic_pattern,SP-000262,01013 accounting clerk,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000185,semantic_pattern,SP-000263,accounting clerk iii,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000186,semantic_pattern,SP-000265,01035 court reporter,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000187,semantic_pattern,SP-000266,01041 customer service,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000188,semantic_pattern,SP-000267,service representative i,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000189,semantic_pattern,SP-000268,01042 customer service,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000190,semantic_pattern,SP-000269,service representative ii,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000191,semantic_pattern,SP-000270,01043 customer service,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000192,semantic_pattern,SP-000271,service representative iii,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000193,semantic_pattern,SP-000272,01051 data entry,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000194,semantic_pattern,SP-000273,entry operator i,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000195,semantic_pattern,SP-000274,01052 data entry,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000196,semantic_pattern,SP-000275,entry operator ii,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000197,semantic_pattern,SP-000276,01060 dispatcher motor,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000198,semantic_pattern,SP-000277,dispatcher motor vehicle,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000199,semantic_pattern,SP-000278,01070 document preparation,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000200,semantic_pattern,SP-000279,document preparation clerk,low_procurement_signal_score,5,6,2026-06-27 17:34:06
+SPNR-000201,semantic_pattern,SP-000284,support and clerical occupations,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000202,semantic_pattern,SP-000285,and clerical occupations 01011,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000203,semantic_pattern,SP-000286,clerical occupations 01011 accounting,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000204,semantic_pattern,SP-000287,occupations 01011 accounting clerk,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000205,semantic_pattern,SP-000288,01011 accounting clerk i,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000206,semantic_pattern,SP-000289,01012 accounting clerk ii,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000207,semantic_pattern,SP-000290,01013 accounting clerk iii,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000208,semantic_pattern,SP-000291,01041 customer service representative,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000209,semantic_pattern,SP-000292,customer service representative i,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000210,semantic_pattern,SP-000293,01042 customer service representative,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000211,semantic_pattern,SP-000294,customer service representative ii,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000212,semantic_pattern,SP-000295,01043 customer service representative,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000213,semantic_pattern,SP-000296,customer service representative iii,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000214,semantic_pattern,SP-000297,01051 data entry operator,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000215,semantic_pattern,SP-000298,data entry operator i,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000216,semantic_pattern,SP-000299,01052 data entry operator,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000217,semantic_pattern,SP-000300,data entry operator ii,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000218,semantic_pattern,SP-000301,01060 dispatcher motor vehicle,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000219,semantic_pattern,SP-000302,01070 document preparation clerk,low_procurement_signal_score,5,7,2026-06-27 17:34:06
+SPNR-000220,semantic_pattern,SP-000304,reference to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000221,semantic_pattern,SP-000305,shall submit,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000222,semantic_pattern,SP-000307,provided in the,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000223,semantic_pattern,SP-000308,unless block,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000224,semantic_pattern,SP-000309,see schedule,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000225,semantic_pattern,SP-000310,this item,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000226,semantic_pattern,SP-000311,item only,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000227,semantic_pattern,SP-000312,only applies,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000228,semantic_pattern,SP-000313,applies to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000229,semantic_pattern,SP-000314,to amendments,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000230,semantic_pattern,SP-000315,amendments of,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000231,semantic_pattern,SP-000316,of solicitations,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000232,semantic_pattern,SP-000317,above numbered,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000233,semantic_pattern,SP-000318,numbered solicitation,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000234,semantic_pattern,SP-000319,is amended,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000235,semantic_pattern,SP-000320,amended as,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000236,semantic_pattern,SP-000321,this item only,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000237,semantic_pattern,SP-000322,item only applies,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000238,semantic_pattern,SP-000323,only applies to,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000239,semantic_pattern,SP-000327,the above numbered,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000240,semantic_pattern,SP-000331,is amended as,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000241,semantic_pattern,SP-000332,amended as set,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000242,semantic_pattern,SP-000333,forth in item,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000243,semantic_pattern,SP-000334,in item 14,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000244,semantic_pattern,SP-000335,this item only applies,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000245,semantic_pattern,SP-000336,item only applies to,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000246,semantic_pattern,SP-000344,is amended as set,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000247,semantic_pattern,SP-000345,amended as set forth,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000248,semantic_pattern,SP-000346,set forth in item,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000249,semantic_pattern,SP-000347,forth in item 14,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000250,semantic_pattern,SP-000348,receipt of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000251,semantic_pattern,SP-000349,this amendment,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000252,semantic_pattern,SP-000351,of the following,all_weak_words,4,5,2026-06-27 17:34:06
+SPNR-000253,semantic_pattern,SP-000352,copies of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000254,semantic_pattern,SP-000353,the offer,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000255,semantic_pattern,SP-000354,electronic communication,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000256,semantic_pattern,SP-000355,solicitation and,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000257,semantic_pattern,SP-000356,or electronic communication,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000258,semantic_pattern,SP-000358,letter or electronic communication,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000259,semantic_pattern,SP-000359,with your,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000260,semantic_pattern,SP-000360,contract id,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000261,semantic_pattern,SP-000361,code page,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000262,semantic_pattern,SP-000362,contract id code,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000263,semantic_pattern,SP-000363,id code page,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000264,semantic_pattern,SP-000364,contract id code page,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000265,semantic_pattern,SP-000365,non personal,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000266,semantic_pattern,SP-000366,personal services,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000267,semantic_pattern,SP-000367,the service,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000268,semantic_pattern,SP-000368,between the,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000269,semantic_pattern,SP-000369,non personal services,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000270,semantic_pattern,SP-000370,the united,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000271,semantic_pattern,SP-000371,the united states,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000272,semantic_pattern,SP-000372,that are,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-000273,semantic_pattern,SP-000373,requirement is,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000274,semantic_pattern,SP-000374,this requirement is,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000275,semantic_pattern,SP-000375,in response,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000276,semantic_pattern,SP-000376,response to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000277,semantic_pattern,SP-000377,in response to,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000278,semantic_pattern,SP-000378,the lowest,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000279,semantic_pattern,SP-000380,supplies services,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000280,semantic_pattern,SP-000381,commercial services,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000281,semantic_pattern,SP-000382,solicitation will,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000282,semantic_pattern,SP-000384,far part,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000283,semantic_pattern,SP-000385,of the contract,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000284,semantic_pattern,SP-000386,requirements the,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000285,semantic_pattern,SP-000387,provide the following,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000286,semantic_pattern,SP-000388,black hills,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000287,semantic_pattern,SP-000389,hills national,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000288,semantic_pattern,SP-000390,statement of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000289,semantic_pattern,SP-000391,black hills national,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000290,semantic_pattern,SP-000394,be provided,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000291,semantic_pattern,SP-000395,provided by,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000292,semantic_pattern,SP-000396,provided by the,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000293,semantic_pattern,SP-000397,contractor must,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-000294,semantic_pattern,SP-000398,responsible for,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000295,semantic_pattern,SP-000399,affairs national,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000296,semantic_pattern,SP-000400,18434 joplin,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000297,semantic_pattern,SP-000401,joplin road,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000298,semantic_pattern,SP-000402,triangle va,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000299,semantic_pattern,SP-000403,va 22172,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000300,semantic_pattern,SP-000404,of performance,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000301,semantic_pattern,SP-000405,veterans affairs national,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000302,semantic_pattern,SP-000407,18434 joplin road,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000303,semantic_pattern,SP-000408,triangle va 22172,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000304,semantic_pattern,SP-000409,of veterans affairs national,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000305,semantic_pattern,SP-000412,a combined,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000306,semantic_pattern,SP-000413,the format,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000307,semantic_pattern,SP-000414,format in,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000308,semantic_pattern,SP-000415,as supplemented,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000309,semantic_pattern,SP-000416,supplemented with,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000310,semantic_pattern,SP-000417,with additional,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000311,semantic_pattern,SP-000418,information included,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000312,semantic_pattern,SP-000419,a combined synopsis,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000313,semantic_pattern,SP-000421,with the format,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000314,semantic_pattern,SP-000422,the format in,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000315,semantic_pattern,SP-000423,as supplemented with,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000316,semantic_pattern,SP-000424,supplemented with additional,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000317,semantic_pattern,SP-000425,with additional information,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000318,semantic_pattern,SP-000426,additional information included,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000319,semantic_pattern,SP-000427,information included in,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000320,semantic_pattern,SP-000431,with the format in,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000321,semantic_pattern,SP-000432,as supplemented with additional,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000322,semantic_pattern,SP-000433,supplemented with additional information,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000323,semantic_pattern,SP-000434,with additional information included,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000324,semantic_pattern,SP-000435,additional information included in,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000325,semantic_pattern,SP-000436,information included in this,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000326,semantic_pattern,SP-000437,included in this notice,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000327,semantic_pattern,SP-000438,the submission,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000328,semantic_pattern,SP-000439,notice of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000329,semantic_pattern,SP-000440,service or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000330,semantic_pattern,SP-000441,for information,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000331,semantic_pattern,SP-000443,this request,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000332,semantic_pattern,SP-000444,pursuant to,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-000333,semantic_pattern,SP-000445,based on,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000334,semantic_pattern,SP-000446,section b,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000335,semantic_pattern,SP-000447,supplies or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000336,semantic_pattern,SP-000448,number date,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000337,semantic_pattern,SP-000449,and health,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000338,semantic_pattern,SP-000450,the specifications,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000339,semantic_pattern,SP-000451,and shall,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-000340,semantic_pattern,SP-000452,can the government,all_weak_words,4,5,2026-06-27 17:34:06
+SPNR-000341,semantic_pattern,SP-000453,sba certification,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000342,semantic_pattern,SP-000454,certification database,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000343,semantic_pattern,SP-000455,database as,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000344,semantic_pattern,SP-000456,in the sba,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000345,semantic_pattern,SP-000457,the sba certification,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000346,semantic_pattern,SP-000458,sba certification database,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000347,semantic_pattern,SP-000459,certification database as,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000348,semantic_pattern,SP-000460,database as set,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000349,semantic_pattern,SP-000461,forth in 852,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000350,semantic_pattern,SP-000462,in 852 219,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000351,semantic_pattern,SP-000463,by the government to,all_weak_words,4,6,2026-06-27 17:34:06
+SPNR-000352,semantic_pattern,SP-000464,listed in the sba,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000353,semantic_pattern,SP-000465,in the sba certification,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000354,semantic_pattern,SP-000466,the sba certification database,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000355,semantic_pattern,SP-000467,sba certification database as,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000356,semantic_pattern,SP-000468,certification database as set,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000357,semantic_pattern,SP-000469,database as set forth,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000358,semantic_pattern,SP-000470,set forth in 852,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000359,semantic_pattern,SP-000471,forth in 852 219,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000360,semantic_pattern,SP-000472,as defined,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000361,semantic_pattern,SP-000473,services to,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-000362,semantic_pattern,SP-000474,this agreement,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000363,semantic_pattern,SP-000475,covered telecommunications,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000364,semantic_pattern,SP-000476,telecommunications equipment,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000365,semantic_pattern,SP-000477,equipment or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000366,semantic_pattern,SP-000478,covered telecommunications equipment,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000367,semantic_pattern,SP-000479,telecommunications equipment or,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000368,semantic_pattern,SP-000480,equipment or services,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000369,semantic_pattern,SP-000481,covered telecommunications equipment or,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000370,semantic_pattern,SP-000482,telecommunications equipment or services,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000371,semantic_pattern,SP-000483,products or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000372,semantic_pattern,SP-000484,products or services,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000373,semantic_pattern,SP-000485,the performance of,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000374,semantic_pattern,SP-000486,company name,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000375,semantic_pattern,SP-000487,the schedule,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000376,semantic_pattern,SP-000488,army mil,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000377,semantic_pattern,SP-000489,business associate,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000378,semantic_pattern,SP-000490,requirements for,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000379,semantic_pattern,SP-000491,safety plan,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000380,semantic_pattern,SP-000492,in this document,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000381,semantic_pattern,SP-000493,anti climb,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000382,semantic_pattern,SP-000494,climb bi,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000383,semantic_pattern,SP-000495,anti climb bi,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000384,semantic_pattern,SP-000496,climb bi folding,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000385,semantic_pattern,SP-000497,anti climb bi folding,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000386,semantic_pattern,SP-000498,climb bi folding gates,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000387,semantic_pattern,SP-000500,addendum to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000388,semantic_pattern,SP-000501,and dosar,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000389,semantic_pattern,SP-000502,not prescribed,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000390,semantic_pattern,SP-000503,prescribed in,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000391,semantic_pattern,SP-000504,and certifications,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-000392,semantic_pattern,SP-000506,not prescribed in,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000393,semantic_pattern,SP-000507,prescribed in part,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000394,semantic_pattern,SP-000508,in part 12,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000395,semantic_pattern,SP-000509,representations and certifications,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000396,semantic_pattern,SP-000510,not prescribed in part,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000397,semantic_pattern,SP-000511,prescribed in part 12,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000398,semantic_pattern,SP-000512,mexico city,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000399,semantic_pattern,SP-000514,panel server,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000400,semantic_pattern,SP-000515,mbf architects,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000401,semantic_pattern,SP-000516,corps base,low_procurement_signal_score,4,7,2026-06-27 17:34:06
+SPNR-000402,semantic_pattern,SP-000517,base camp,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000403,semantic_pattern,SP-000518,lejeune nc,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000404,semantic_pattern,SP-000519,structural interior,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000405,semantic_pattern,SP-000522,base camp lejeune,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000406,semantic_pattern,SP-000523,camp lejeune nc,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000407,semantic_pattern,SP-000524,structural interior design,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000408,semantic_pattern,SP-000527,01090 duplicating,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000409,semantic_pattern,SP-000528,duplicating machine,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000410,semantic_pattern,SP-000529,machine operator,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000411,semantic_pattern,SP-000530,01111 general,low_procurement_signal_score,4,4,2026-06-27 17:34:06
+SPNR-000412,semantic_pattern,SP-000531,01090 duplicating machine,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000413,semantic_pattern,SP-000532,duplicating machine operator,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000414,semantic_pattern,SP-000533,01111 general clerk,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000415,semantic_pattern,SP-000534,general clerk i,low_procurement_signal_score,4,5,2026-06-27 17:34:06
+SPNR-000416,semantic_pattern,SP-000535,01090 duplicating machine operator,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000417,semantic_pattern,SP-000536,01111 general clerk i,low_procurement_signal_score,4,6,2026-06-27 17:34:06
+SPNR-000418,semantic_pattern,SP-000537,selective service,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000419,semantic_pattern,SP-000538,service system,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000420,semantic_pattern,SP-000539,proposal submission,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000421,semantic_pattern,SP-000540,bound volumes,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000422,semantic_pattern,SP-000541,selective service system,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000423,semantic_pattern,SP-000542,confirm whether,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000424,semantic_pattern,SP-000543,whether the,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000425,semantic_pattern,SP-000544,please confirm whether,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000426,semantic_pattern,SP-000545,offerors shall submit,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000427,semantic_pattern,SP-000546,price proposal,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000428,semantic_pattern,SP-000547,contract documentation,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000429,semantic_pattern,SP-000548,2 evaluation,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000430,semantic_pattern,SP-000549,a separate,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000431,semantic_pattern,SP-000550,fob destination,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000432,semantic_pattern,SP-000551,method of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000433,semantic_pattern,SP-000552,block is,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000434,semantic_pattern,SP-000553,is marked,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000435,semantic_pattern,SP-000554,marked the,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000436,semantic_pattern,SP-000555,the defense,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000437,semantic_pattern,SP-000556,defense priorities,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000438,semantic_pattern,SP-000557,priorities request,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000439,semantic_pattern,SP-000558,and allocations,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000440,semantic_pattern,SP-000559,system dpas,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000441,semantic_pattern,SP-000560,issuing office,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000442,semantic_pattern,SP-000562,unless block is,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000443,semantic_pattern,SP-000563,block is marked,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000444,semantic_pattern,SP-000564,is marked the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000445,semantic_pattern,SP-000565,marked the defense,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000446,semantic_pattern,SP-000566,the defense priorities,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000447,semantic_pattern,SP-000567,defense priorities request,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000448,semantic_pattern,SP-000568,system dpas 15,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000449,semantic_pattern,SP-000569,dpas 15 cfr,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000450,semantic_pattern,SP-000570,15 cfr 700,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000451,semantic_pattern,SP-000571,unless block is marked,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000452,semantic_pattern,SP-000572,block is marked the,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000453,semantic_pattern,SP-000573,is marked the defense,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000454,semantic_pattern,SP-000574,marked the defense priorities,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000455,semantic_pattern,SP-000575,the defense priorities request,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000456,semantic_pattern,SP-000576,system dpas 15 cfr,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000457,semantic_pattern,SP-000577,dpas 15 cfr 700,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000458,semantic_pattern,SP-000578,contract 1,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000459,semantic_pattern,SP-000579,of contract 1,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000460,semantic_pattern,SP-000580,modification of contract 1,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000461,semantic_pattern,SP-000581,by completing,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000462,semantic_pattern,SP-000582,completing items,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000463,semantic_pattern,SP-000583,and returning,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000464,semantic_pattern,SP-000584,the amendment,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000465,semantic_pattern,SP-000585,a by completing,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000466,semantic_pattern,SP-000586,by completing items,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000467,semantic_pattern,SP-000587,completing items 8,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000468,semantic_pattern,SP-000588,items 8 and,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000469,semantic_pattern,SP-000589,8 and 15,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000470,semantic_pattern,SP-000590,and 15 and,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000471,semantic_pattern,SP-000591,15 and returning,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000472,semantic_pattern,SP-000592,copies of the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000473,semantic_pattern,SP-000593,of the amendment,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000474,semantic_pattern,SP-000594,a by completing items,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000475,semantic_pattern,SP-000595,by completing items 8,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000476,semantic_pattern,SP-000596,completing items 8 and,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000477,semantic_pattern,SP-000597,items 8 and 15,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000478,semantic_pattern,SP-000598,8 and 15 and,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000479,semantic_pattern,SP-000599,and 15 and returning,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000480,semantic_pattern,SP-000601,copy of the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000481,semantic_pattern,SP-000602,a reference,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000482,semantic_pattern,SP-000603,reference to the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000483,semantic_pattern,SP-000604,the solicitation and,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000484,semantic_pattern,SP-000605,proposal for,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000485,semantic_pattern,SP-000606,listed below,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000486,semantic_pattern,SP-000607,the contracting,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000487,semantic_pattern,SP-000608,contract specialist,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000488,semantic_pattern,SP-000609,must be submitted,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000489,semantic_pattern,SP-000611,you will,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000490,semantic_pattern,SP-000612,will not be,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000491,semantic_pattern,SP-000613,pages amendment,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000492,semantic_pattern,SP-000614,code page of,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000493,semantic_pattern,SP-000615,of pages amendment,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000494,semantic_pattern,SP-000616,pages amendment of,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000495,semantic_pattern,SP-000617,id code page of,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000496,semantic_pattern,SP-000618,code page of pages,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000497,semantic_pattern,SP-000622,to change,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000498,semantic_pattern,SP-000623,an offer,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000499,semantic_pattern,SP-000624,which the,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000500,semantic_pattern,SP-000625,contractor s,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000501,semantic_pattern,SP-000626,the contractor s,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000502,semantic_pattern,SP-000627,contractor who,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000503,semantic_pattern,SP-000628,statement pws,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000504,semantic_pattern,SP-000629,work statement pws,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000505,semantic_pattern,SP-000631,the services,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000506,semantic_pattern,SP-000632,consideration must,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000507,semantic_pattern,SP-000633,be given,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000508,semantic_pattern,SP-000634,must be given,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000509,semantic_pattern,SP-000635,to perform,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000510,semantic_pattern,SP-000636,government intends,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000511,semantic_pattern,SP-000637,contract resulting,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000512,semantic_pattern,SP-000638,resulting from,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000513,semantic_pattern,SP-000639,from this,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000514,semantic_pattern,SP-000640,solicitation to,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000515,semantic_pattern,SP-000641,the responsible,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000516,semantic_pattern,SP-000642,responsible offeror,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000517,semantic_pattern,SP-000643,offeror whose,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000518,semantic_pattern,SP-000644,most advantageous,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000519,semantic_pattern,SP-000645,advantageous to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000520,semantic_pattern,SP-000646,the government intends,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000521,semantic_pattern,SP-000647,government intends to,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000522,semantic_pattern,SP-000648,award a firm,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000523,semantic_pattern,SP-000649,contract resulting from,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000524,semantic_pattern,SP-000650,resulting from this,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000525,semantic_pattern,SP-000651,solicitation to the,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000526,semantic_pattern,SP-000652,to the responsible,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000527,semantic_pattern,SP-000653,the responsible offeror,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000528,semantic_pattern,SP-000654,responsible offeror whose,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000529,semantic_pattern,SP-000655,will be most,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000530,semantic_pattern,SP-000656,be most advantageous,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000531,semantic_pattern,SP-000657,most advantageous to,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000532,semantic_pattern,SP-000658,advantageous to the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000533,semantic_pattern,SP-000659,the government intends to,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000534,semantic_pattern,SP-000661,contract resulting from this,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000535,semantic_pattern,SP-000665,will be most advantageous,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000536,semantic_pattern,SP-000666,be most advantageous to,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000537,semantic_pattern,SP-000667,most advantageous to the,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000538,semantic_pattern,SP-000668,advantageous to the government,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000539,semantic_pattern,SP-000669,in block,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000540,semantic_pattern,SP-000670,of supplies,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000541,semantic_pattern,SP-000671,schedule of supplies,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000542,semantic_pattern,SP-000672,of supplies services,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000543,semantic_pattern,SP-000673,schedule of supplies services,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000544,semantic_pattern,SP-000674,price and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000545,semantic_pattern,SP-000675,shall be used,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000546,semantic_pattern,SP-000676,technical capability,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000547,semantic_pattern,SP-000677,award will,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000548,semantic_pattern,SP-000678,award will be,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000549,semantic_pattern,SP-000679,will be made,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000550,semantic_pattern,SP-000682,and award,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000551,semantic_pattern,SP-000683,contract with,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000552,semantic_pattern,SP-000684,your quote,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000553,semantic_pattern,SP-000685,to be considered,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000554,semantic_pattern,SP-000686,line item,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000555,semantic_pattern,SP-000687,one time,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000556,semantic_pattern,SP-000688,refer to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000557,semantic_pattern,SP-000689,network contracting,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000558,semantic_pattern,SP-000690,contracting office,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000559,semantic_pattern,SP-000691,network contracting office,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000560,semantic_pattern,SP-000692,information description,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000561,semantic_pattern,SP-000693,additional information description,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000562,semantic_pattern,SP-000694,is not a,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000563,semantic_pattern,SP-000695,the department,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000564,semantic_pattern,SP-000696,the department of,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-000565,semantic_pattern,SP-000697,has a requirement,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000566,semantic_pattern,SP-000698,has a requirement for,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000567,semantic_pattern,SP-000699,request for quote,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000568,semantic_pattern,SP-000700,invitation for bid,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000569,semantic_pattern,SP-000701,can provide the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000570,semantic_pattern,SP-000702,if the contractor,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000571,semantic_pattern,SP-000703,they are,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000572,semantic_pattern,SP-000704,result in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000573,semantic_pattern,SP-000705,for the following,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-000574,semantic_pattern,SP-000706,the vendor,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000575,semantic_pattern,SP-000707,the cemetery,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000576,semantic_pattern,SP-000708,total price,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000577,semantic_pattern,SP-000709,located at,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000578,semantic_pattern,SP-000710,performance questionnaire,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000579,semantic_pattern,SP-000711,telephone number,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000580,semantic_pattern,SP-000712,completed by,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000581,semantic_pattern,SP-000713,description of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000582,semantic_pattern,SP-000714,past performance questionnaire,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000583,semantic_pattern,SP-000715,by the contractor,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-000584,semantic_pattern,SP-000716,headstones and,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000585,semantic_pattern,SP-000717,service and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000586,semantic_pattern,SP-000718,performance of this,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000587,semantic_pattern,SP-000719,the contractor must,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-000588,semantic_pattern,SP-000720,services 18434,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000589,semantic_pattern,SP-000721,road triangle,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000590,semantic_pattern,SP-000722,place of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000591,semantic_pattern,SP-000723,services 18434 joplin,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000592,semantic_pattern,SP-000724,joplin road triangle,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000593,semantic_pattern,SP-000725,road triangle va,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000594,semantic_pattern,SP-000727,services 18434 joplin road,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000595,semantic_pattern,SP-000728,18434 joplin road triangle,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000596,semantic_pattern,SP-000729,joplin road triangle va,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000597,semantic_pattern,SP-000730,road triangle va 22172,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000598,semantic_pattern,SP-000731,for commercial,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000599,semantic_pattern,SP-000732,prepared in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000600,semantic_pattern,SP-000734,is a combined,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000601,semantic_pattern,SP-000735,solicitation for commercial,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000602,semantic_pattern,SP-000736,prepared in accordance,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000603,semantic_pattern,SP-000737,6 as supplemented,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000604,semantic_pattern,SP-000738,this is a combined,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000605,semantic_pattern,SP-000739,is a combined synopsis,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000606,semantic_pattern,SP-000741,12 6 as supplemented,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000607,semantic_pattern,SP-000742,6 as supplemented with,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000608,semantic_pattern,SP-000743,is responsible,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000609,semantic_pattern,SP-000744,food and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000610,semantic_pattern,SP-000745,and drug,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000611,semantic_pattern,SP-000746,drug administration,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000612,semantic_pattern,SP-000747,food and drug,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000613,semantic_pattern,SP-000748,and drug administration,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000614,semantic_pattern,SP-000750,a solicitation,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000615,semantic_pattern,SP-000751,a proposal,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000616,semantic_pattern,SP-000752,submit a proposal,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000617,semantic_pattern,SP-000753,responses to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000618,semantic_pattern,SP-000754,responses to this,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000619,semantic_pattern,SP-000755,is issuing,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000620,semantic_pattern,SP-000756,information rfi,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000621,semantic_pattern,SP-000757,market research,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000622,semantic_pattern,SP-000758,this request for,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000623,semantic_pattern,SP-000759,for information rfi,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000624,semantic_pattern,SP-000762,response to this,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000625,semantic_pattern,SP-000763,in response to this,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000626,semantic_pattern,SP-000764,supplies or services,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000627,semantic_pattern,SP-000765,or services and,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-000628,semantic_pattern,SP-000766,sealed bid,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000629,semantic_pattern,SP-000767,negotiated rfp,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000630,semantic_pattern,SP-000768,sealed bid ifb,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000631,semantic_pattern,SP-000769,contracting services,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000632,semantic_pattern,SP-000770,described in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000633,semantic_pattern,SP-000771,performance of the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000634,semantic_pattern,SP-000772,of the work,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000635,semantic_pattern,SP-000773,performance of the work,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000636,semantic_pattern,SP-000774,that the,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000637,semantic_pattern,SP-000775,wage rate,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000638,semantic_pattern,SP-000776,may submit,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000639,semantic_pattern,SP-000777,the national,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000640,semantic_pattern,SP-000778,safety and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000641,semantic_pattern,SP-000779,osha standards,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000642,semantic_pattern,SP-000780,safe work,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000643,semantic_pattern,SP-000781,safety and health,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000644,semantic_pattern,SP-000782,the requirements,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000645,semantic_pattern,SP-000783,shrine project,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000646,semantic_pattern,SP-000784,be required,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000647,semantic_pattern,SP-000785,government provide,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000648,semantic_pattern,SP-000786,injection system,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000649,semantic_pattern,SP-000787,the government provide,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000650,semantic_pattern,SP-000788,can the government provide,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000651,semantic_pattern,SP-000789,all offerors,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000652,semantic_pattern,SP-000790,you must,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000653,semantic_pattern,SP-000791,as follows,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000654,semantic_pattern,SP-000792,the case,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000655,semantic_pattern,SP-000793,contract for,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000656,semantic_pattern,SP-000794,contractor will,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000657,semantic_pattern,SP-000795,more than,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000658,semantic_pattern,SP-000796,in the case,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000659,semantic_pattern,SP-000797,the case of,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000660,semantic_pattern,SP-000798,the contractor will,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-000661,semantic_pattern,SP-000799,in the case of,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000662,semantic_pattern,SP-000800,the extent,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000663,semantic_pattern,SP-000801,to the extent,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000664,semantic_pattern,SP-000802,services for,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000665,semantic_pattern,SP-000803,defined in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000666,semantic_pattern,SP-000804,as defined in,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000667,semantic_pattern,SP-000805,to include,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000668,semantic_pattern,SP-000806,for the same,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000669,semantic_pattern,SP-000807,schedule and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000670,semantic_pattern,SP-000808,the quote,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000671,semantic_pattern,SP-000810,under this,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-000672,semantic_pattern,SP-000811,agreement shall,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000673,semantic_pattern,SP-000812,could you,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000674,semantic_pattern,SP-000813,you please,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000675,semantic_pattern,SP-000814,could you please,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000676,semantic_pattern,SP-000815,the lockers,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000677,semantic_pattern,SP-000816,federal law,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000678,semantic_pattern,SP-000817,specifications and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000679,semantic_pattern,SP-000818,shall not be,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000680,semantic_pattern,SP-000819,point of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000681,semantic_pattern,SP-000820,of contact,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000682,semantic_pattern,SP-000821,point of contact,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000683,semantic_pattern,SP-000823,summary of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000684,semantic_pattern,SP-000824,in order,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000685,semantic_pattern,SP-000825,https chess,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000686,semantic_pattern,SP-000826,chess army,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000687,semantic_pattern,SP-000827,mil proposal,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000688,semantic_pattern,SP-000828,proposal default,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000689,semantic_pattern,SP-000829,default index,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000690,semantic_pattern,SP-000830,once you,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000691,semantic_pattern,SP-000831,there is,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000692,semantic_pattern,SP-000832,https chess army,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000693,semantic_pattern,SP-000833,chess army mil,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000694,semantic_pattern,SP-000834,army mil proposal,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000695,semantic_pattern,SP-000835,mil proposal default,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000696,semantic_pattern,SP-000836,proposal default index,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000697,semantic_pattern,SP-000837,https chess army mil,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000698,semantic_pattern,SP-000841,the address,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000699,semantic_pattern,SP-000842,your company,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000700,semantic_pattern,SP-000843,submission page,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000701,semantic_pattern,SP-000844,cover letter,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000702,semantic_pattern,SP-000845,proposing as,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000703,semantic_pattern,SP-000846,agreement with,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000704,semantic_pattern,SP-000847,proposing as a,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000705,semantic_pattern,SP-000848,definition of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000706,semantic_pattern,SP-000849,the indian,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000707,semantic_pattern,SP-000850,45 c f r,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000708,semantic_pattern,SP-000851,shall mean,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000709,semantic_pattern,SP-000853,the project,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000710,semantic_pattern,SP-000854,related to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000711,semantic_pattern,SP-000855,of labor,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000712,semantic_pattern,SP-000856,the embassy,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000713,semantic_pattern,SP-000857,attachment c,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000714,semantic_pattern,SP-000858,12 section,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000715,semantic_pattern,SP-000859,solicitation provisions,low_procurement_signal_score,3,6,2026-06-27 17:34:06
+SPNR-000716,semantic_pattern,SP-000860,dosar provisions,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000717,semantic_pattern,SP-000861,provisions not,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000718,semantic_pattern,SP-000862,section 1 the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000719,semantic_pattern,SP-000863,part 12 section,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000720,semantic_pattern,SP-000864,and dosar provisions,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000721,semantic_pattern,SP-000865,dosar provisions not,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000722,semantic_pattern,SP-000866,provisions not prescribed,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000723,semantic_pattern,SP-000867,in part 12 section,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000724,semantic_pattern,SP-000869,and dosar provisions not,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000725,semantic_pattern,SP-000870,dosar provisions not prescribed,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000726,semantic_pattern,SP-000871,provisions not prescribed in,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000727,semantic_pattern,SP-000872,embassy mexico,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000728,semantic_pattern,SP-000873,you to submit,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000729,semantic_pattern,SP-000874,you to submit a,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000730,semantic_pattern,SP-000875,completed and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000731,semantic_pattern,SP-000876,pricing clins,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000732,semantic_pattern,SP-000877,please provide the,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000733,semantic_pattern,SP-000878,format in far,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000734,semantic_pattern,SP-000880,a small business,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000735,semantic_pattern,SP-000881,general requirements,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000736,semantic_pattern,SP-000882,this information,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000737,semantic_pattern,SP-000883,oak ridge,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000738,semantic_pattern,SP-000884,business set,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000739,semantic_pattern,SP-000885,small business set,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000740,semantic_pattern,SP-000886,business set aside,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000741,semantic_pattern,SP-000887,small business set aside,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000742,semantic_pattern,SP-000888,the version,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000743,semantic_pattern,SP-000889,version or,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000744,semantic_pattern,SP-000890,terms and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000745,semantic_pattern,SP-000891,the version or,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000746,semantic_pattern,SP-000892,version or date,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000747,semantic_pattern,SP-000893,or date of,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000748,semantic_pattern,SP-000894,the version or date,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000749,semantic_pattern,SP-000895,version or date of,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000750,semantic_pattern,SP-000896,the parties,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000751,semantic_pattern,SP-000897,basis of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000752,semantic_pattern,SP-000898,of design,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000753,semantic_pattern,SP-000899,basis of design,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000754,semantic_pattern,SP-000900,hp135 beq,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000755,semantic_pattern,SP-000901,beq renovation,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000756,semantic_pattern,SP-000902,renovation cl,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000757,semantic_pattern,SP-000903,cl marine,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000758,semantic_pattern,SP-000904,nc structural,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000759,semantic_pattern,SP-000905,design package,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000760,semantic_pattern,SP-000906,hp135 beq renovation,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000761,semantic_pattern,SP-000907,beq renovation cl,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000762,semantic_pattern,SP-000908,renovation cl marine,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000763,semantic_pattern,SP-000909,cl marine corps,low_procurement_signal_score,3,7,2026-06-27 17:34:06
+SPNR-000764,semantic_pattern,SP-000910,lejeune nc structural,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000765,semantic_pattern,SP-000911,nc structural interior,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000766,semantic_pattern,SP-000912,interior design package,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000767,semantic_pattern,SP-000913,hp135 beq renovation cl,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000768,semantic_pattern,SP-000914,beq renovation cl marine,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000769,semantic_pattern,SP-000917,base camp lejeune nc,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000770,semantic_pattern,SP-000918,camp lejeune nc structural,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000771,semantic_pattern,SP-000919,lejeune nc structural interior,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000772,semantic_pattern,SP-000920,nc structural interior design,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000773,semantic_pattern,SP-000921,structural interior design package,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000774,semantic_pattern,SP-000922,real property,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000775,semantic_pattern,SP-000923,clerk 21,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000776,semantic_pattern,SP-000924,operator 21,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000777,semantic_pattern,SP-000925,01112 general,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000778,semantic_pattern,SP-000926,01113 general,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000779,semantic_pattern,SP-000927,clerk i 22,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000780,semantic_pattern,SP-000928,preparation clerk 21,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000781,semantic_pattern,SP-000929,machine operator 21,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000782,semantic_pattern,SP-000930,01112 general clerk,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000783,semantic_pattern,SP-000931,general clerk ii,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000784,semantic_pattern,SP-000932,01113 general clerk,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000785,semantic_pattern,SP-000933,general clerk iii,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000786,semantic_pattern,SP-000934,document preparation clerk 21,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000787,semantic_pattern,SP-000935,duplicating machine operator 21,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000788,semantic_pattern,SP-000936,01112 general clerk ii,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000789,semantic_pattern,SP-000937,01113 general clerk iii,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000790,semantic_pattern,SP-000938,clerk i 19,low_procurement_signal_score,3,4,2026-06-27 17:34:06
+SPNR-000791,semantic_pattern,SP-000939,accounting clerk i 19,low_procurement_signal_score,3,5,2026-06-27 17:34:06
+SPNR-000792,semantic_pattern,SP-000940,site visit,low_procurement_signal_score,3,3,2026-06-27 17:34:06
+SPNR-000793,semantic_pattern,SP-000941,the site,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-000794,semantic_alias,SA-000001,the government,generic_stop_pattern,39,10,2026-06-27 17:34:06
+SPNR-000795,semantic_alias,SA-000002,the contractor,generic_stop_pattern,31,10,2026-06-27 17:34:06
+SPNR-000796,semantic_alias,SA-000003,shall be,generic_stop_pattern,28,10,2026-06-27 17:34:06
+SPNR-000797,semantic_alias,SA-000004,the following,generic_stop_pattern,25,10,2026-06-27 17:34:06
+SPNR-000798,semantic_alias,SA-000005,with the,generic_stop_pattern,18,10,2026-06-27 17:34:06
+SPNR-000799,semantic_alias,SA-000006,request for,weak_bigram_without_procurement_signal,17,10,2026-06-27 17:34:06
+SPNR-000800,semantic_alias,SA-000008,in accordance,generic_stop_pattern,16,13,2026-06-27 17:34:06
+SPNR-000801,semantic_alias,SA-000009,accordance with,generic_stop_pattern,16,13,2026-06-27 17:34:06
+SPNR-000802,semantic_alias,SA-000010,in accordance with,generic_stop_pattern,16,14,2026-06-27 17:34:06
+SPNR-000803,semantic_alias,SA-000012,department of,generic_stop_pattern,16,10,2026-06-27 17:34:06
+SPNR-000804,semantic_alias,SA-000017,the solicitation,generic_stop_pattern,14,13,2026-06-27 17:34:06
+SPNR-000805,semantic_alias,SA-000020,set forth,generic_stop_pattern,12,10,2026-06-27 17:34:06
+SPNR-000806,semantic_alias,SA-000021,forth in,generic_stop_pattern,12,10,2026-06-27 17:34:06
+SPNR-000807,semantic_alias,SA-000022,set forth in,all_weak_words,12,11,2026-06-27 17:34:06
+SPNR-000808,semantic_alias,SA-000023,or services,generic_stop_pattern,12,10,2026-06-27 17:34:06
+SPNR-000809,semantic_alias,SA-000025,provide the,generic_stop_pattern,11,10,2026-06-27 17:34:06
+SPNR-000810,semantic_alias,SA-000028,to submit,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000811,semantic_alias,SA-000029,accordance with the,generic_stop_pattern,10,14,2026-06-27 17:34:06
+SPNR-000812,semantic_alias,SA-000030,in accordance with the,generic_stop_pattern,10,15,2026-06-27 17:34:06
+SPNR-000813,semantic_alias,SA-000031,of veterans,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000814,semantic_alias,SA-000032,veterans affairs,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000815,semantic_alias,SA-000033,department of veterans,generic_stop_pattern,10,11,2026-06-27 17:34:06
+SPNR-000816,semantic_alias,SA-000034,of veterans affairs,generic_stop_pattern,10,11,2026-06-27 17:34:06
+SPNR-000817,semantic_alias,SA-000035,department of veterans affairs,generic_stop_pattern,10,12,2026-06-27 17:34:06
+SPNR-000818,semantic_alias,SA-000036,this notice,generic_stop_pattern,10,10,2026-06-27 17:34:06
+SPNR-000819,semantic_alias,SA-000040,section 1,low_alias_quality_score,9,9,2026-06-27 17:34:06
+SPNR-000820,semantic_alias,SA-000042,as set forth,all_weak_words,9,10,2026-06-27 17:34:06
+SPNR-000821,semantic_alias,SA-000043,as set forth in,all_weak_words,9,11,2026-06-27 17:34:06
+SPNR-000822,semantic_alias,SA-000044,contractor shall,all_weak_words,9,17,2026-06-27 17:34:06
+SPNR-000823,semantic_alias,SA-000045,please provide,low_alias_quality_score,9,9,2026-06-27 17:34:06
+SPNR-000824,semantic_alias,SA-000046,included in,generic_stop_pattern,9,9,2026-06-27 17:34:06
+SPNR-000825,semantic_alias,SA-000049,small business,low_alias_quality_score,9,9,2026-06-27 17:34:06
+SPNR-000826,semantic_alias,SA-000050,of contract,generic_stop_pattern,8,8,2026-06-27 17:34:06
+SPNR-000827,semantic_alias,SA-000052,performance of,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000828,semantic_alias,SA-000053,the contractor shall,all_weak_words,8,17,2026-06-27 17:34:06
+SPNR-000829,semantic_alias,SA-000054,submit a,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000830,semantic_alias,SA-000055,fixed price,low_alias_quality_score,8,8,2026-06-27 17:34:06
+SPNR-000831,semantic_alias,SA-000056,a contract,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000832,semantic_alias,SA-000057,additional information,low_alias_quality_score,8,8,2026-06-27 17:34:06
+SPNR-000833,semantic_alias,SA-000058,follow the,weak_bigram_without_procurement_signal,8,8,2026-06-27 17:34:06
+SPNR-000834,semantic_alias,SA-000059,clerk ii,low_alias_quality_score,8,8,2026-06-27 17:34:06
+SPNR-000835,semantic_alias,SA-000060,clerk iii,low_alias_quality_score,8,8,2026-06-27 17:34:06
+SPNR-000836,semantic_alias,SA-000065,the above,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000837,semantic_alias,SA-000066,for this,all_weak_words,7,7,2026-06-27 17:34:06
+SPNR-000838,semantic_alias,SA-000067,will not,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000839,semantic_alias,SA-000068,the contract,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000840,semantic_alias,SA-000069,shall not,weak_bigram_without_procurement_signal,7,7,2026-06-27 17:34:06
+SPNR-000841,semantic_alias,SA-000070,firm fixed,low_alias_quality_score,7,7,2026-06-27 17:34:06
+SPNR-000842,semantic_alias,SA-000071,firm fixed price,low_alias_quality_score,7,8,2026-06-27 17:34:06
+SPNR-000843,semantic_alias,SA-000072,to the government,all_weak_words,7,8,2026-06-27 17:34:06
+SPNR-000844,semantic_alias,SA-000074,does not,low_alias_quality_score,7,7,2026-06-27 17:34:06
+SPNR-000845,semantic_alias,SA-000075,government to,all_weak_words,7,7,2026-06-27 17:34:06
+SPNR-000846,semantic_alias,SA-000076,the government to,all_weak_words,7,8,2026-06-27 17:34:06
+SPNR-000847,semantic_alias,SA-000077,requirements 01,low_alias_quality_score,7,7,2026-06-27 17:34:06
+SPNR-000848,semantic_alias,SA-000078,camp lejeune,low_alias_quality_score,7,7,2026-06-27 17:34:06
+SPNR-000849,semantic_alias,SA-000079,volume v,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000850,semantic_alias,SA-000080,provided in,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000851,semantic_alias,SA-000082,quote for,low_alias_quality_score,6,9,2026-06-27 17:34:06
+SPNR-000852,semantic_alias,SA-000083,solicitation modification,low_alias_quality_score,6,9,2026-06-27 17:34:06
+SPNR-000853,semantic_alias,SA-000084,modification of,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000854,semantic_alias,SA-000087,modification of contract,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000855,semantic_alias,SA-000091,letter or,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000856,semantic_alias,SA-000093,if other,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000857,semantic_alias,SA-000094,other than,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000858,semantic_alias,SA-000095,than item,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000859,semantic_alias,SA-000097,by if other,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000860,semantic_alias,SA-000098,if other than,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000861,semantic_alias,SA-000099,other than item,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000862,semantic_alias,SA-000101,by if other than,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000863,semantic_alias,SA-000102,if other than item,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000864,semantic_alias,SA-000103,this is a,all_weak_words,6,7,2026-06-27 17:34:06
+SPNR-000865,semantic_alias,SA-000104,united states,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000866,semantic_alias,SA-000105,work statement,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000867,semantic_alias,SA-000106,this requirement,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000868,semantic_alias,SA-000107,required to,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000869,semantic_alias,SA-000108,a firm fixed,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000870,semantic_alias,SA-000109,a firm fixed price,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000871,semantic_alias,SA-000110,and other,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000872,semantic_alias,SA-000111,synopsis solicitation,low_alias_quality_score,6,9,2026-06-27 17:34:06
+SPNR-000873,semantic_alias,SA-000112,ton each,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000874,semantic_alias,SA-000113,qty 1 ton,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000875,semantic_alias,SA-000114,1 ton each,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000876,semantic_alias,SA-000115,1 qty 1 ton,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000877,semantic_alias,SA-000116,qty 1 ton each,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000878,semantic_alias,SA-000117,the work,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000879,semantic_alias,SA-000118,solicitation for,low_alias_quality_score,6,9,2026-06-27 17:34:06
+SPNR-000880,semantic_alias,SA-000119,included in this,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000881,semantic_alias,SA-000120,by the government,all_weak_words,6,7,2026-06-27 17:34:06
+SPNR-000882,semantic_alias,SA-000121,north carolina,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000883,semantic_alias,SA-000122,the same,low_alias_quality_score,6,9,2026-06-27 17:34:06
+SPNR-000884,semantic_alias,SA-000123,for proposal,low_alias_quality_score,6,9,2026-06-27 17:34:06
+SPNR-000885,semantic_alias,SA-000124,table of,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000886,semantic_alias,SA-000125,of contents,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000887,semantic_alias,SA-000126,representations and,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000888,semantic_alias,SA-000128,counties of,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000889,semantic_alias,SA-000129,fringe benefits,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000890,semantic_alias,SA-000130,benefits required,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000891,semantic_alias,SA-000131,required follow,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000892,semantic_alias,SA-000132,the occupational,weak_bigram_without_procurement_signal,6,6,2026-06-27 17:34:06
+SPNR-000893,semantic_alias,SA-000133,occupational listing,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000894,semantic_alias,SA-000134,listing occupation,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000895,semantic_alias,SA-000135,occupation code,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000896,semantic_alias,SA-000136,code title,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000897,semantic_alias,SA-000137,title footnote,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000898,semantic_alias,SA-000138,footnote rate,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000899,semantic_alias,SA-000139,rate 01000,low_alias_quality_score,6,6,2026-06-27 17:34:06
+SPNR-000900,semantic_alias,SA-000140,fringe benefits required,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000901,semantic_alias,SA-000141,benefits required follow,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000902,semantic_alias,SA-000142,required follow the,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000903,semantic_alias,SA-000143,follow the occupational,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000904,semantic_alias,SA-000144,the occupational listing,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000905,semantic_alias,SA-000145,occupational listing occupation,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000906,semantic_alias,SA-000146,listing occupation code,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000907,semantic_alias,SA-000147,occupation code title,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000908,semantic_alias,SA-000148,code title footnote,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000909,semantic_alias,SA-000149,title footnote rate,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000910,semantic_alias,SA-000150,footnote rate 01000,low_alias_quality_score,6,7,2026-06-27 17:34:06
+SPNR-000911,semantic_alias,SA-000151,fringe benefits required follow,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000912,semantic_alias,SA-000152,benefits required follow the,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000913,semantic_alias,SA-000153,required follow the occupational,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000914,semantic_alias,SA-000154,follow the occupational listing,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000915,semantic_alias,SA-000155,the occupational listing occupation,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000916,semantic_alias,SA-000156,occupational listing occupation code,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000917,semantic_alias,SA-000157,listing occupation code title,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000918,semantic_alias,SA-000158,occupation code title footnote,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000919,semantic_alias,SA-000159,code title footnote rate,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000920,semantic_alias,SA-000160,title footnote rate 01000,low_alias_quality_score,6,8,2026-06-27 17:34:06
+SPNR-000921,semantic_alias,SA-000161,please confirm,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000922,semantic_alias,SA-000162,invitation for,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000923,semantic_alias,SA-000163,for quote,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000924,semantic_alias,SA-000164,administered by code,low_alias_quality_score,5,9,2026-06-27 17:34:06
+SPNR-000925,semantic_alias,SA-000165,solicitation is,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000926,semantic_alias,SA-000166,or electronic,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000927,semantic_alias,SA-000167,letter or electronic,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000928,semantic_alias,SA-000168,be submitted,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000929,semantic_alias,SA-000169,of pages,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000930,semantic_alias,SA-000170,page of pages,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000931,semantic_alias,SA-000171,than item 6,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000932,semantic_alias,SA-000172,item 6 code,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000933,semantic_alias,SA-000173,other than item 6,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-000934,semantic_alias,SA-000174,than item 6 code,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-000935,semantic_alias,SA-000175,performance work,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000936,semantic_alias,SA-000177,unless otherwise,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000937,semantic_alias,SA-000178,within the,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000938,semantic_alias,SA-000179,management and,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000939,semantic_alias,SA-000180,to submit a,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000940,semantic_alias,SA-000181,this solicitation,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000941,semantic_alias,SA-000182,intends to,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000942,semantic_alias,SA-000183,to award,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000943,semantic_alias,SA-000184,schedule of,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000944,semantic_alias,SA-000185,quantity unit,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000945,semantic_alias,SA-000186,for award,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000946,semantic_alias,SA-000187,government will,all_weak_words,5,5,2026-06-27 17:34:06
+SPNR-000947,semantic_alias,SA-000188,the government will,all_weak_words,5,6,2026-06-27 17:34:06
+SPNR-000948,semantic_alias,SA-000189,be considered,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000949,semantic_alias,SA-000190,submission of,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000950,semantic_alias,SA-000191,general information,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000951,semantic_alias,SA-000192,a request,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000952,semantic_alias,SA-000193,a request for,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000953,semantic_alias,SA-000194,a requirement,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000954,semantic_alias,SA-000195,requirement for,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000955,semantic_alias,SA-000196,a requirement for,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000956,semantic_alias,SA-000197,combined synopsis,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000957,semantic_alias,SA-000198,combined synopsis solicitation,low_alias_quality_score,5,9,2026-06-27 17:34:06
+SPNR-000958,semantic_alias,SA-000199,can provide,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000959,semantic_alias,SA-000200,shall provide,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000960,semantic_alias,SA-000201,provide a,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000961,semantic_alias,SA-000202,in this notice,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000962,semantic_alias,SA-000203,to provide,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000963,semantic_alias,SA-000204,services and,all_weak_words,5,5,2026-06-27 17:34:06
+SPNR-000964,semantic_alias,SA-000205,government requires,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000965,semantic_alias,SA-000206,the government requires,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000966,semantic_alias,SA-000207,comply with,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000967,semantic_alias,SA-000208,listed in,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000968,semantic_alias,SA-000209,listed in the,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000969,semantic_alias,SA-000210,the requirement,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000970,semantic_alias,SA-000211,have the,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000971,semantic_alias,SA-000212,the performance,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000972,semantic_alias,SA-000213,set aside,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000973,semantic_alias,SA-000214,contract clauses,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000974,semantic_alias,SA-000215,safety requirements,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000975,semantic_alias,SA-000216,this document,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000976,semantic_alias,SA-000217,bi folding,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000977,semantic_alias,SA-000218,folding gates,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000978,semantic_alias,SA-000219,bi folding gates,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-000979,semantic_alias,SA-000220,procedures 01,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000980,semantic_alias,SA-000221,marine corps,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000981,semantic_alias,SA-000222,01000 administrative,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000982,semantic_alias,SA-000223,administrative support,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000983,semantic_alias,SA-000224,support and,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000984,semantic_alias,SA-000225,and clerical,weak_bigram_without_procurement_signal,5,5,2026-06-27 17:34:06
+SPNR-000985,semantic_alias,SA-000226,clerical occupations,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000986,semantic_alias,SA-000227,occupations 01011,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000987,semantic_alias,SA-000228,01011 accounting,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000988,semantic_alias,SA-000229,01012 accounting,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000989,semantic_alias,SA-000230,01013 accounting,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000990,semantic_alias,SA-000231,01020 administrative,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000991,semantic_alias,SA-000232,administrative assistant,low_alias_quality_score,5,8,2026-06-27 17:34:06
+SPNR-000992,semantic_alias,SA-000233,01035 court,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000993,semantic_alias,SA-000234,court reporter,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000994,semantic_alias,SA-000235,01041 customer,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000995,semantic_alias,SA-000236,representative i,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000996,semantic_alias,SA-000237,01042 customer,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000997,semantic_alias,SA-000238,representative ii,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000998,semantic_alias,SA-000239,01043 customer,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-000999,semantic_alias,SA-000240,representative iii,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001000,semantic_alias,SA-000241,01051 data,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001001,semantic_alias,SA-000242,operator i,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001002,semantic_alias,SA-000243,01052 data,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001003,semantic_alias,SA-000244,operator ii,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001004,semantic_alias,SA-000245,01060 dispatcher,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001005,semantic_alias,SA-000246,dispatcher motor,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001006,semantic_alias,SA-000247,motor vehicle,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001007,semantic_alias,SA-000248,01070 document,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001008,semantic_alias,SA-000249,document preparation,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001009,semantic_alias,SA-000250,preparation clerk,low_alias_quality_score,5,5,2026-06-27 17:34:06
+SPNR-001010,semantic_alias,SA-000251,rate 01000 administrative,low_alias_quality_score,5,9,2026-06-27 17:34:06
+SPNR-001011,semantic_alias,SA-000252,01000 administrative support,low_alias_quality_score,5,9,2026-06-27 17:34:06
+SPNR-001012,semantic_alias,SA-000253,administrative support and,low_alias_quality_score,5,9,2026-06-27 17:34:06
+SPNR-001013,semantic_alias,SA-000254,support and clerical,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001014,semantic_alias,SA-000255,and clerical occupations,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001015,semantic_alias,SA-000256,clerical occupations 01011,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001016,semantic_alias,SA-000257,occupations 01011 accounting,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001017,semantic_alias,SA-000258,01011 accounting clerk,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001018,semantic_alias,SA-000259,accounting clerk i,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001019,semantic_alias,SA-000260,01012 accounting clerk,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001020,semantic_alias,SA-000261,accounting clerk ii,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001021,semantic_alias,SA-000262,01013 accounting clerk,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001022,semantic_alias,SA-000263,accounting clerk iii,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001023,semantic_alias,SA-000264,01020 administrative assistant,low_alias_quality_score,5,9,2026-06-27 17:34:06
+SPNR-001024,semantic_alias,SA-000265,01035 court reporter,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001025,semantic_alias,SA-000266,01041 customer service,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001026,semantic_alias,SA-000267,service representative i,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001027,semantic_alias,SA-000268,01042 customer service,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001028,semantic_alias,SA-000269,service representative ii,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001029,semantic_alias,SA-000270,01043 customer service,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001030,semantic_alias,SA-000271,service representative iii,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001031,semantic_alias,SA-000272,01051 data entry,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001032,semantic_alias,SA-000273,entry operator i,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001033,semantic_alias,SA-000274,01052 data entry,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001034,semantic_alias,SA-000275,entry operator ii,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001035,semantic_alias,SA-000276,01060 dispatcher motor,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001036,semantic_alias,SA-000277,dispatcher motor vehicle,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001037,semantic_alias,SA-000278,01070 document preparation,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001038,semantic_alias,SA-000279,document preparation clerk,low_alias_quality_score,5,6,2026-06-27 17:34:06
+SPNR-001039,semantic_alias,SA-000284,support and clerical occupations,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001040,semantic_alias,SA-000285,and clerical occupations 01011,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001041,semantic_alias,SA-000286,clerical occupations 01011 accounting,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001042,semantic_alias,SA-000287,occupations 01011 accounting clerk,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001043,semantic_alias,SA-000288,01011 accounting clerk i,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001044,semantic_alias,SA-000289,01012 accounting clerk ii,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001045,semantic_alias,SA-000290,01013 accounting clerk iii,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001046,semantic_alias,SA-000291,01041 customer service representative,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001047,semantic_alias,SA-000292,customer service representative i,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001048,semantic_alias,SA-000293,01042 customer service representative,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001049,semantic_alias,SA-000294,customer service representative ii,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001050,semantic_alias,SA-000295,01043 customer service representative,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001051,semantic_alias,SA-000296,customer service representative iii,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001052,semantic_alias,SA-000297,01051 data entry operator,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001053,semantic_alias,SA-000298,data entry operator i,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001054,semantic_alias,SA-000299,01052 data entry operator,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001055,semantic_alias,SA-000300,data entry operator ii,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001056,semantic_alias,SA-000301,01060 dispatcher motor vehicle,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001057,semantic_alias,SA-000302,01070 document preparation clerk,low_alias_quality_score,5,7,2026-06-27 17:34:06
+SPNR-001058,semantic_alias,SA-000304,reference to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001059,semantic_alias,SA-000305,shall submit,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001060,semantic_alias,SA-000306,in the solicitation,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001061,semantic_alias,SA-000307,provided in the,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001062,semantic_alias,SA-000308,unless block,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001063,semantic_alias,SA-000309,see schedule,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001064,semantic_alias,SA-000310,this item,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001065,semantic_alias,SA-000311,item only,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001066,semantic_alias,SA-000312,only applies,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001067,semantic_alias,SA-000313,applies to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001068,semantic_alias,SA-000314,to amendments,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001069,semantic_alias,SA-000315,amendments of,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001070,semantic_alias,SA-000316,of solicitations,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001071,semantic_alias,SA-000317,above numbered,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001072,semantic_alias,SA-000318,numbered solicitation,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001073,semantic_alias,SA-000319,is amended,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001074,semantic_alias,SA-000320,amended as,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001075,semantic_alias,SA-000321,this item only,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001076,semantic_alias,SA-000322,item only applies,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001077,semantic_alias,SA-000323,only applies to,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001078,semantic_alias,SA-000324,applies to amendments,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001079,semantic_alias,SA-000325,to amendments of,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001080,semantic_alias,SA-000327,the above numbered,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001081,semantic_alias,SA-000328,above numbered solicitation,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001082,semantic_alias,SA-000329,numbered solicitation is,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001083,semantic_alias,SA-000330,solicitation is amended,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001084,semantic_alias,SA-000331,is amended as,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001085,semantic_alias,SA-000332,amended as set,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001086,semantic_alias,SA-000333,forth in item,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001087,semantic_alias,SA-000334,in item 14,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001088,semantic_alias,SA-000335,this item only applies,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001089,semantic_alias,SA-000336,item only applies to,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001090,semantic_alias,SA-000337,only applies to amendments,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001091,semantic_alias,SA-000338,applies to amendments of,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001092,semantic_alias,SA-000340,the above numbered solicitation,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001093,semantic_alias,SA-000341,above numbered solicitation is,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001094,semantic_alias,SA-000342,numbered solicitation is amended,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001095,semantic_alias,SA-000343,solicitation is amended as,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001096,semantic_alias,SA-000344,is amended as set,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001097,semantic_alias,SA-000345,amended as set forth,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001098,semantic_alias,SA-000346,set forth in item,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001099,semantic_alias,SA-000347,forth in item 14,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001100,semantic_alias,SA-000348,receipt of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001101,semantic_alias,SA-000349,this amendment,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001102,semantic_alias,SA-000350,of this amendment,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001103,semantic_alias,SA-000351,of the following,all_weak_words,4,5,2026-06-27 17:34:06
+SPNR-001104,semantic_alias,SA-000352,copies of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001105,semantic_alias,SA-000353,the offer,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001106,semantic_alias,SA-000354,electronic communication,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001107,semantic_alias,SA-000355,solicitation and,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001108,semantic_alias,SA-000356,or electronic communication,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001109,semantic_alias,SA-000357,to the solicitation,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001110,semantic_alias,SA-000358,letter or electronic communication,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001111,semantic_alias,SA-000359,with your,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001112,semantic_alias,SA-000360,contract id,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001113,semantic_alias,SA-000361,code page,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001114,semantic_alias,SA-000362,contract id code,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001115,semantic_alias,SA-000363,id code page,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001116,semantic_alias,SA-000364,contract id code page,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001117,semantic_alias,SA-000365,non personal,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001118,semantic_alias,SA-000366,personal services,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001119,semantic_alias,SA-000367,the service,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001120,semantic_alias,SA-000368,between the,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001121,semantic_alias,SA-000369,non personal services,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001122,semantic_alias,SA-000370,the united,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001123,semantic_alias,SA-000371,the united states,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001124,semantic_alias,SA-000372,that are,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-001125,semantic_alias,SA-000373,requirement is,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001126,semantic_alias,SA-000374,this requirement is,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001127,semantic_alias,SA-000375,in response,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001128,semantic_alias,SA-000376,response to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001129,semantic_alias,SA-000377,in response to,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001130,semantic_alias,SA-000378,the lowest,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001131,semantic_alias,SA-000379,to award a,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001132,semantic_alias,SA-000380,supplies services,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001133,semantic_alias,SA-000381,commercial services,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001134,semantic_alias,SA-000382,solicitation will,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001135,semantic_alias,SA-000383,award a contract,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001136,semantic_alias,SA-000384,far part,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001137,semantic_alias,SA-000385,of the contract,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001138,semantic_alias,SA-000386,requirements the,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001139,semantic_alias,SA-000387,provide the following,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001140,semantic_alias,SA-000388,black hills,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001141,semantic_alias,SA-000389,hills national,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001142,semantic_alias,SA-000390,statement of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001143,semantic_alias,SA-000391,black hills national,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001144,semantic_alias,SA-000392,hills national cemetery,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001145,semantic_alias,SA-000393,black hills national cemetery,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001146,semantic_alias,SA-000394,be provided,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001147,semantic_alias,SA-000395,provided by,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001148,semantic_alias,SA-000396,provided by the,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001149,semantic_alias,SA-000397,contractor must,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-001150,semantic_alias,SA-000398,responsible for,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001151,semantic_alias,SA-000399,affairs national,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001152,semantic_alias,SA-000400,18434 joplin,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001153,semantic_alias,SA-000401,joplin road,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001154,semantic_alias,SA-000402,triangle va,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001155,semantic_alias,SA-000403,va 22172,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001156,semantic_alias,SA-000404,of performance,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001157,semantic_alias,SA-000405,veterans affairs national,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001158,semantic_alias,SA-000406,affairs national cemetery,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001159,semantic_alias,SA-000407,18434 joplin road,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001160,semantic_alias,SA-000408,triangle va 22172,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001161,semantic_alias,SA-000409,of veterans affairs national,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001162,semantic_alias,SA-000410,veterans affairs national cemetery,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001163,semantic_alias,SA-000412,a combined,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001164,semantic_alias,SA-000413,the format,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001165,semantic_alias,SA-000414,format in,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001166,semantic_alias,SA-000415,as supplemented,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001167,semantic_alias,SA-000416,supplemented with,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001168,semantic_alias,SA-000417,with additional,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001169,semantic_alias,SA-000418,information included,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001170,semantic_alias,SA-000419,a combined synopsis,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001171,semantic_alias,SA-000420,synopsis solicitation for,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001172,semantic_alias,SA-000421,with the format,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001173,semantic_alias,SA-000422,the format in,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001174,semantic_alias,SA-000423,as supplemented with,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001175,semantic_alias,SA-000424,supplemented with additional,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001176,semantic_alias,SA-000425,with additional information,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001177,semantic_alias,SA-000426,additional information included,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001178,semantic_alias,SA-000427,information included in,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001179,semantic_alias,SA-000428,a combined synopsis solicitation,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001180,semantic_alias,SA-000429,combined synopsis solicitation for,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001181,semantic_alias,SA-000430,accordance with the format,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001182,semantic_alias,SA-000431,with the format in,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001183,semantic_alias,SA-000432,as supplemented with additional,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001184,semantic_alias,SA-000433,supplemented with additional information,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001185,semantic_alias,SA-000434,with additional information included,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001186,semantic_alias,SA-000435,additional information included in,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001187,semantic_alias,SA-000436,information included in this,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001188,semantic_alias,SA-000437,included in this notice,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001189,semantic_alias,SA-000438,the submission,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001190,semantic_alias,SA-000439,notice of,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001191,semantic_alias,SA-000440,service or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001192,semantic_alias,SA-000441,for information,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001193,semantic_alias,SA-000443,this request,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001194,semantic_alias,SA-000444,pursuant to,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-001195,semantic_alias,SA-000445,based on,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001196,semantic_alias,SA-000446,section b,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001197,semantic_alias,SA-000447,supplies or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001198,semantic_alias,SA-000448,number date,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001199,semantic_alias,SA-000449,and health,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001200,semantic_alias,SA-000450,the specifications,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001201,semantic_alias,SA-000451,and shall,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-001202,semantic_alias,SA-000452,can the government,all_weak_words,4,5,2026-06-27 17:34:06
+SPNR-001203,semantic_alias,SA-000453,sba certification,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001204,semantic_alias,SA-000454,certification database,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001205,semantic_alias,SA-000455,database as,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001206,semantic_alias,SA-000456,in the sba,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001207,semantic_alias,SA-000457,the sba certification,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001208,semantic_alias,SA-000458,sba certification database,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001209,semantic_alias,SA-000459,certification database as,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001210,semantic_alias,SA-000460,database as set,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001211,semantic_alias,SA-000461,forth in 852,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001212,semantic_alias,SA-000462,in 852 219,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001213,semantic_alias,SA-000463,by the government to,all_weak_words,4,6,2026-06-27 17:34:06
+SPNR-001214,semantic_alias,SA-000464,listed in the sba,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001215,semantic_alias,SA-000465,in the sba certification,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001216,semantic_alias,SA-000466,the sba certification database,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001217,semantic_alias,SA-000467,sba certification database as,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001218,semantic_alias,SA-000468,certification database as set,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001219,semantic_alias,SA-000469,database as set forth,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001220,semantic_alias,SA-000470,set forth in 852,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001221,semantic_alias,SA-000471,forth in 852 219,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001222,semantic_alias,SA-000472,as defined,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001223,semantic_alias,SA-000473,services to,all_weak_words,4,4,2026-06-27 17:34:06
+SPNR-001224,semantic_alias,SA-000474,this agreement,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001225,semantic_alias,SA-000475,covered telecommunications,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001226,semantic_alias,SA-000476,telecommunications equipment,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001227,semantic_alias,SA-000477,equipment or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001228,semantic_alias,SA-000478,covered telecommunications equipment,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001229,semantic_alias,SA-000479,telecommunications equipment or,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001230,semantic_alias,SA-000480,equipment or services,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001231,semantic_alias,SA-000481,covered telecommunications equipment or,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001232,semantic_alias,SA-000482,telecommunications equipment or services,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001233,semantic_alias,SA-000483,products or,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001234,semantic_alias,SA-000484,products or services,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001235,semantic_alias,SA-000485,the performance of,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001236,semantic_alias,SA-000486,company name,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001237,semantic_alias,SA-000487,the schedule,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001238,semantic_alias,SA-000488,army mil,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001239,semantic_alias,SA-000489,business associate,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001240,semantic_alias,SA-000490,requirements for,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001241,semantic_alias,SA-000491,safety plan,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001242,semantic_alias,SA-000492,in this document,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001243,semantic_alias,SA-000493,anti climb,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001244,semantic_alias,SA-000494,climb bi,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001245,semantic_alias,SA-000495,anti climb bi,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001246,semantic_alias,SA-000496,climb bi folding,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001247,semantic_alias,SA-000497,anti climb bi folding,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001248,semantic_alias,SA-000498,climb bi folding gates,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001249,semantic_alias,SA-000500,addendum to,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001250,semantic_alias,SA-000501,and dosar,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001251,semantic_alias,SA-000502,not prescribed,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001252,semantic_alias,SA-000503,prescribed in,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001253,semantic_alias,SA-000504,and certifications,weak_bigram_without_procurement_signal,4,4,2026-06-27 17:34:06
+SPNR-001254,semantic_alias,SA-000505,far and dosar,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001255,semantic_alias,SA-000506,not prescribed in,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001256,semantic_alias,SA-000507,prescribed in part,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001257,semantic_alias,SA-000508,in part 12,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001258,semantic_alias,SA-000509,representations and certifications,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001259,semantic_alias,SA-000510,not prescribed in part,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001260,semantic_alias,SA-000511,prescribed in part 12,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001261,semantic_alias,SA-000512,mexico city,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001262,semantic_alias,SA-000513,quote for the,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001263,semantic_alias,SA-000514,panel server,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001264,semantic_alias,SA-000515,mbf architects,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001265,semantic_alias,SA-000516,corps base,low_alias_quality_score,4,7,2026-06-27 17:34:06
+SPNR-001266,semantic_alias,SA-000517,base camp,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001267,semantic_alias,SA-000518,lejeune nc,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001268,semantic_alias,SA-000519,structural interior,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001269,semantic_alias,SA-000520,marine corps base,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001270,semantic_alias,SA-000521,corps base camp,low_alias_quality_score,4,8,2026-06-27 17:34:06
+SPNR-001271,semantic_alias,SA-000522,base camp lejeune,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001272,semantic_alias,SA-000523,camp lejeune nc,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001273,semantic_alias,SA-000524,structural interior design,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001274,semantic_alias,SA-000525,marine corps base camp,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001275,semantic_alias,SA-000526,corps base camp lejeune,low_alias_quality_score,4,9,2026-06-27 17:34:06
+SPNR-001276,semantic_alias,SA-000527,01090 duplicating,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001277,semantic_alias,SA-000528,duplicating machine,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001278,semantic_alias,SA-000529,machine operator,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001279,semantic_alias,SA-000530,01111 general,low_alias_quality_score,4,4,2026-06-27 17:34:06
+SPNR-001280,semantic_alias,SA-000531,01090 duplicating machine,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001281,semantic_alias,SA-000532,duplicating machine operator,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001282,semantic_alias,SA-000533,01111 general clerk,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001283,semantic_alias,SA-000534,general clerk i,low_alias_quality_score,4,5,2026-06-27 17:34:06
+SPNR-001284,semantic_alias,SA-000535,01090 duplicating machine operator,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001285,semantic_alias,SA-000536,01111 general clerk i,low_alias_quality_score,4,6,2026-06-27 17:34:06
+SPNR-001286,semantic_alias,SA-000537,selective service,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001287,semantic_alias,SA-000538,service system,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001288,semantic_alias,SA-000539,proposal submission,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001289,semantic_alias,SA-000540,bound volumes,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001290,semantic_alias,SA-000541,selective service system,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001291,semantic_alias,SA-000542,confirm whether,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001292,semantic_alias,SA-000543,whether the,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001293,semantic_alias,SA-000544,please confirm whether,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001294,semantic_alias,SA-000545,offerors shall submit,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001295,semantic_alias,SA-000546,price proposal,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001296,semantic_alias,SA-000547,contract documentation,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001297,semantic_alias,SA-000548,2 evaluation,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001298,semantic_alias,SA-000549,a separate,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001299,semantic_alias,SA-000550,fob destination,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001300,semantic_alias,SA-000551,method of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001301,semantic_alias,SA-000552,block is,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001302,semantic_alias,SA-000553,is marked,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001303,semantic_alias,SA-000554,marked the,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001304,semantic_alias,SA-000555,the defense,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001305,semantic_alias,SA-000556,defense priorities,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001306,semantic_alias,SA-000557,priorities request,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001307,semantic_alias,SA-000558,and allocations,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001308,semantic_alias,SA-000559,system dpas,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001309,semantic_alias,SA-000560,issuing office,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001310,semantic_alias,SA-000562,unless block is,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001311,semantic_alias,SA-000563,block is marked,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001312,semantic_alias,SA-000564,is marked the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001313,semantic_alias,SA-000565,marked the defense,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001314,semantic_alias,SA-000566,the defense priorities,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001315,semantic_alias,SA-000567,defense priorities request,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001316,semantic_alias,SA-000568,system dpas 15,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001317,semantic_alias,SA-000569,dpas 15 cfr,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001318,semantic_alias,SA-000570,15 cfr 700,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001319,semantic_alias,SA-000571,unless block is marked,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001320,semantic_alias,SA-000572,block is marked the,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001321,semantic_alias,SA-000573,is marked the defense,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001322,semantic_alias,SA-000574,marked the defense priorities,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001323,semantic_alias,SA-000575,the defense priorities request,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001324,semantic_alias,SA-000576,system dpas 15 cfr,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001325,semantic_alias,SA-000577,dpas 15 cfr 700,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001326,semantic_alias,SA-000578,contract 1,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001327,semantic_alias,SA-000579,of contract 1,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001328,semantic_alias,SA-000580,modification of contract 1,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001329,semantic_alias,SA-000581,by completing,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001330,semantic_alias,SA-000582,completing items,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001331,semantic_alias,SA-000583,and returning,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001332,semantic_alias,SA-000584,the amendment,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001333,semantic_alias,SA-000585,a by completing,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001334,semantic_alias,SA-000586,by completing items,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001335,semantic_alias,SA-000587,completing items 8,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001336,semantic_alias,SA-000588,items 8 and,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001337,semantic_alias,SA-000589,8 and 15,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001338,semantic_alias,SA-000590,and 15 and,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001339,semantic_alias,SA-000591,15 and returning,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001340,semantic_alias,SA-000592,copies of the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001341,semantic_alias,SA-000593,of the amendment,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001342,semantic_alias,SA-000594,a by completing items,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001343,semantic_alias,SA-000595,by completing items 8,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001344,semantic_alias,SA-000596,completing items 8 and,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001345,semantic_alias,SA-000597,items 8 and 15,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001346,semantic_alias,SA-000598,8 and 15 and,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001347,semantic_alias,SA-000599,and 15 and returning,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001348,semantic_alias,SA-000600,copies of the amendment,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001349,semantic_alias,SA-000601,copy of the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001350,semantic_alias,SA-000602,a reference,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001351,semantic_alias,SA-000603,reference to the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001352,semantic_alias,SA-000604,the solicitation and,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001353,semantic_alias,SA-000605,proposal for,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001354,semantic_alias,SA-000606,listed below,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001355,semantic_alias,SA-000607,the contracting,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001356,semantic_alias,SA-000608,contract specialist,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001357,semantic_alias,SA-000609,must be submitted,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001358,semantic_alias,SA-000611,you will,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001359,semantic_alias,SA-000612,will not be,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001360,semantic_alias,SA-000613,pages amendment,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001361,semantic_alias,SA-000614,code page of,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001362,semantic_alias,SA-000615,of pages amendment,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001363,semantic_alias,SA-000616,pages amendment of,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001364,semantic_alias,SA-000617,id code page of,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001365,semantic_alias,SA-000618,code page of pages,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001366,semantic_alias,SA-000619,page of pages amendment,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001367,semantic_alias,SA-000620,of pages amendment of,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001368,semantic_alias,SA-000622,to change,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001369,semantic_alias,SA-000623,an offer,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001370,semantic_alias,SA-000624,which the,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001371,semantic_alias,SA-000625,contractor s,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001372,semantic_alias,SA-000626,the contractor s,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001373,semantic_alias,SA-000627,contractor who,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001374,semantic_alias,SA-000628,statement pws,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001375,semantic_alias,SA-000629,work statement pws,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001376,semantic_alias,SA-000631,the services,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001377,semantic_alias,SA-000632,consideration must,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001378,semantic_alias,SA-000633,be given,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001379,semantic_alias,SA-000634,must be given,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001380,semantic_alias,SA-000635,to perform,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001381,semantic_alias,SA-000636,government intends,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001382,semantic_alias,SA-000637,contract resulting,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001383,semantic_alias,SA-000638,resulting from,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001384,semantic_alias,SA-000639,from this,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001385,semantic_alias,SA-000640,solicitation to,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001386,semantic_alias,SA-000641,the responsible,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001387,semantic_alias,SA-000642,responsible offeror,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001388,semantic_alias,SA-000643,offeror whose,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001389,semantic_alias,SA-000644,most advantageous,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001390,semantic_alias,SA-000645,advantageous to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001391,semantic_alias,SA-000646,the government intends,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001392,semantic_alias,SA-000647,government intends to,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001393,semantic_alias,SA-000648,award a firm,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001394,semantic_alias,SA-000649,contract resulting from,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001395,semantic_alias,SA-000650,resulting from this,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001396,semantic_alias,SA-000651,solicitation to the,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001397,semantic_alias,SA-000652,to the responsible,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001398,semantic_alias,SA-000653,the responsible offeror,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001399,semantic_alias,SA-000654,responsible offeror whose,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001400,semantic_alias,SA-000655,will be most,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001401,semantic_alias,SA-000656,be most advantageous,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001402,semantic_alias,SA-000657,most advantageous to,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001403,semantic_alias,SA-000658,advantageous to the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001404,semantic_alias,SA-000659,the government intends to,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001405,semantic_alias,SA-000660,award a firm fixed,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001406,semantic_alias,SA-000661,contract resulting from this,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001407,semantic_alias,SA-000662,solicitation to the responsible,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001408,semantic_alias,SA-000663,to the responsible offeror,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001409,semantic_alias,SA-000664,the responsible offeror whose,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001410,semantic_alias,SA-000665,will be most advantageous,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001411,semantic_alias,SA-000666,be most advantageous to,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001412,semantic_alias,SA-000667,most advantageous to the,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001413,semantic_alias,SA-000668,advantageous to the government,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001414,semantic_alias,SA-000669,in block,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001415,semantic_alias,SA-000670,of supplies,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001416,semantic_alias,SA-000671,schedule of supplies,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001417,semantic_alias,SA-000672,of supplies services,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001418,semantic_alias,SA-000673,schedule of supplies services,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001419,semantic_alias,SA-000674,price and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001420,semantic_alias,SA-000675,shall be used,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001421,semantic_alias,SA-000676,technical capability,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001422,semantic_alias,SA-000677,award will,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001423,semantic_alias,SA-000678,award will be,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001424,semantic_alias,SA-000679,will be made,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001425,semantic_alias,SA-000680,award will be made,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001426,semantic_alias,SA-000682,and award,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001427,semantic_alias,SA-000683,contract with,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001428,semantic_alias,SA-000684,your quote,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001429,semantic_alias,SA-000685,to be considered,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001430,semantic_alias,SA-000686,line item,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001431,semantic_alias,SA-000687,one time,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001432,semantic_alias,SA-000688,refer to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001433,semantic_alias,SA-000689,network contracting,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001434,semantic_alias,SA-000690,contracting office,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001435,semantic_alias,SA-000691,network contracting office,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001436,semantic_alias,SA-000692,information description,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001437,semantic_alias,SA-000693,additional information description,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001438,semantic_alias,SA-000694,is not a,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001439,semantic_alias,SA-000695,the department,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001440,semantic_alias,SA-000696,the department of,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-001441,semantic_alias,SA-000697,has a requirement,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001442,semantic_alias,SA-000698,has a requirement for,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001443,semantic_alias,SA-000699,request for quote,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001444,semantic_alias,SA-000700,invitation for bid,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001445,semantic_alias,SA-000701,can provide the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001446,semantic_alias,SA-000702,if the contractor,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001447,semantic_alias,SA-000703,they are,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001448,semantic_alias,SA-000704,result in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001449,semantic_alias,SA-000705,for the following,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-001450,semantic_alias,SA-000706,the vendor,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001451,semantic_alias,SA-000707,the cemetery,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001452,semantic_alias,SA-000708,total price,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001453,semantic_alias,SA-000709,located at,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001454,semantic_alias,SA-000710,performance questionnaire,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001455,semantic_alias,SA-000711,telephone number,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001456,semantic_alias,SA-000712,completed by,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001457,semantic_alias,SA-000713,description of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001458,semantic_alias,SA-000714,past performance questionnaire,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001459,semantic_alias,SA-000715,by the contractor,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-001460,semantic_alias,SA-000716,headstones and,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001461,semantic_alias,SA-000717,service and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001462,semantic_alias,SA-000718,performance of this,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001463,semantic_alias,SA-000719,the contractor must,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-001464,semantic_alias,SA-000720,services 18434,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001465,semantic_alias,SA-000721,road triangle,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001466,semantic_alias,SA-000722,place of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001467,semantic_alias,SA-000723,services 18434 joplin,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001468,semantic_alias,SA-000724,joplin road triangle,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001469,semantic_alias,SA-000725,road triangle va,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001470,semantic_alias,SA-000727,services 18434 joplin road,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001471,semantic_alias,SA-000728,18434 joplin road triangle,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001472,semantic_alias,SA-000729,joplin road triangle va,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001473,semantic_alias,SA-000730,road triangle va 22172,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001474,semantic_alias,SA-000731,for commercial,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001475,semantic_alias,SA-000732,prepared in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001476,semantic_alias,SA-000734,is a combined,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001477,semantic_alias,SA-000735,solicitation for commercial,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001478,semantic_alias,SA-000736,prepared in accordance,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001479,semantic_alias,SA-000737,6 as supplemented,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001480,semantic_alias,SA-000738,this is a combined,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001481,semantic_alias,SA-000739,is a combined synopsis,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001482,semantic_alias,SA-000740,prepared in accordance with,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001483,semantic_alias,SA-000741,12 6 as supplemented,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001484,semantic_alias,SA-000742,6 as supplemented with,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001485,semantic_alias,SA-000743,is responsible,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001486,semantic_alias,SA-000744,food and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001487,semantic_alias,SA-000745,and drug,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001488,semantic_alias,SA-000746,drug administration,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001489,semantic_alias,SA-000747,food and drug,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001490,semantic_alias,SA-000748,and drug administration,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001491,semantic_alias,SA-000749,food and drug administration,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001492,semantic_alias,SA-000750,a solicitation,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001493,semantic_alias,SA-000751,a proposal,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001494,semantic_alias,SA-000752,submit a proposal,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001495,semantic_alias,SA-000753,responses to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001496,semantic_alias,SA-000754,responses to this,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001497,semantic_alias,SA-000755,is issuing,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001498,semantic_alias,SA-000756,information rfi,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001499,semantic_alias,SA-000757,market research,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001500,semantic_alias,SA-000758,this request for,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001501,semantic_alias,SA-000759,for information rfi,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001502,semantic_alias,SA-000761,quote rfq,low_alias_quality_score,3,9,2026-06-27 17:34:06
+SPNR-001503,semantic_alias,SA-000762,response to this,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001504,semantic_alias,SA-000763,in response to this,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001505,semantic_alias,SA-000764,supplies or services,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001506,semantic_alias,SA-000765,or services and,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-001507,semantic_alias,SA-000766,sealed bid,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001508,semantic_alias,SA-000767,negotiated rfp,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001509,semantic_alias,SA-000768,sealed bid ifb,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001510,semantic_alias,SA-000769,contracting services,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001511,semantic_alias,SA-000770,described in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001512,semantic_alias,SA-000771,performance of the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001513,semantic_alias,SA-000772,of the work,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001514,semantic_alias,SA-000773,performance of the work,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001515,semantic_alias,SA-000774,that the,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001516,semantic_alias,SA-000775,wage rate,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001517,semantic_alias,SA-000776,may submit,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001518,semantic_alias,SA-000777,the national,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001519,semantic_alias,SA-000778,safety and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001520,semantic_alias,SA-000779,osha standards,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001521,semantic_alias,SA-000780,safe work,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001522,semantic_alias,SA-000781,safety and health,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001523,semantic_alias,SA-000782,the requirements,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001524,semantic_alias,SA-000783,shrine project,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001525,semantic_alias,SA-000784,be required,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001526,semantic_alias,SA-000785,government provide,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001527,semantic_alias,SA-000786,injection system,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001528,semantic_alias,SA-000787,the government provide,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001529,semantic_alias,SA-000788,can the government provide,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001530,semantic_alias,SA-000789,all offerors,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001531,semantic_alias,SA-000790,you must,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001532,semantic_alias,SA-000791,as follows,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001533,semantic_alias,SA-000792,the case,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001534,semantic_alias,SA-000793,contract for,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001535,semantic_alias,SA-000794,contractor will,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001536,semantic_alias,SA-000795,more than,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001537,semantic_alias,SA-000796,in the case,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001538,semantic_alias,SA-000797,the case of,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001539,semantic_alias,SA-000798,the contractor will,all_weak_words,3,4,2026-06-27 17:34:06
+SPNR-001540,semantic_alias,SA-000799,in the case of,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001541,semantic_alias,SA-000800,the extent,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001542,semantic_alias,SA-000801,to the extent,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001543,semantic_alias,SA-000802,services for,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001544,semantic_alias,SA-000803,defined in,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001545,semantic_alias,SA-000804,as defined in,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001546,semantic_alias,SA-000805,to include,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001547,semantic_alias,SA-000806,for the same,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001548,semantic_alias,SA-000807,schedule and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001549,semantic_alias,SA-000808,the quote,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001550,semantic_alias,SA-000809,under this,all_weak_words,3,3,2026-06-27 17:34:06
+SPNR-001551,semantic_alias,SA-000810,agreement shall,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001552,semantic_alias,SA-000811,could you,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001553,semantic_alias,SA-000812,you please,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001554,semantic_alias,SA-000813,could you please,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001555,semantic_alias,SA-000814,the lockers,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001556,semantic_alias,SA-000815,federal law,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001557,semantic_alias,SA-000816,specifications and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001558,semantic_alias,SA-000817,shall not be,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001559,semantic_alias,SA-000818,point of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001560,semantic_alias,SA-000819,of contact,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001561,semantic_alias,SA-000820,point of contact,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001562,semantic_alias,SA-000822,summary of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001563,semantic_alias,SA-000823,in order,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001564,semantic_alias,SA-000824,https chess,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001565,semantic_alias,SA-000825,chess army,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001566,semantic_alias,SA-000826,mil proposal,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001567,semantic_alias,SA-000827,proposal default,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001568,semantic_alias,SA-000828,default index,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001569,semantic_alias,SA-000829,once you,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001570,semantic_alias,SA-000830,there is,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001571,semantic_alias,SA-000831,https chess army,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001572,semantic_alias,SA-000832,chess army mil,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001573,semantic_alias,SA-000833,army mil proposal,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001574,semantic_alias,SA-000834,mil proposal default,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001575,semantic_alias,SA-000835,proposal default index,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001576,semantic_alias,SA-000836,https chess army mil,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001577,semantic_alias,SA-000837,chess army mil proposal,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001578,semantic_alias,SA-000838,army mil proposal default,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001579,semantic_alias,SA-000839,mil proposal default index,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001580,semantic_alias,SA-000840,the address,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001581,semantic_alias,SA-000841,your company,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001582,semantic_alias,SA-000842,submission page,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001583,semantic_alias,SA-000843,cover letter,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001584,semantic_alias,SA-000844,proposing as,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001585,semantic_alias,SA-000845,agreement with,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001586,semantic_alias,SA-000846,proposing as a,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001587,semantic_alias,SA-000847,definition of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001588,semantic_alias,SA-000848,the indian,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001589,semantic_alias,SA-000849,45 c f r,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001590,semantic_alias,SA-000850,shall mean,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001591,semantic_alias,SA-000852,the project,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001592,semantic_alias,SA-000853,related to,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001593,semantic_alias,SA-000854,of labor,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001594,semantic_alias,SA-000855,the embassy,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001595,semantic_alias,SA-000856,attachment c,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001596,semantic_alias,SA-000857,12 section,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001597,semantic_alias,SA-000858,solicitation provisions,low_alias_quality_score,3,6,2026-06-27 17:34:06
+SPNR-001598,semantic_alias,SA-000859,dosar provisions,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001599,semantic_alias,SA-000860,provisions not,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001600,semantic_alias,SA-000861,section 1 the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001601,semantic_alias,SA-000862,part 12 section,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001602,semantic_alias,SA-000863,and dosar provisions,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001603,semantic_alias,SA-000864,dosar provisions not,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001604,semantic_alias,SA-000865,provisions not prescribed,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001605,semantic_alias,SA-000866,in part 12 section,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001606,semantic_alias,SA-000867,far and dosar provisions,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001607,semantic_alias,SA-000868,and dosar provisions not,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001608,semantic_alias,SA-000869,dosar provisions not prescribed,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001609,semantic_alias,SA-000870,provisions not prescribed in,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001610,semantic_alias,SA-000871,embassy mexico,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001611,semantic_alias,SA-000872,you to submit,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001612,semantic_alias,SA-000873,you to submit a,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001613,semantic_alias,SA-000874,completed and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001614,semantic_alias,SA-000875,pricing clins,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001615,semantic_alias,SA-000876,please provide the,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001616,semantic_alias,SA-000877,format in far,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001617,semantic_alias,SA-000878,the format in far,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001618,semantic_alias,SA-000879,a small business,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001619,semantic_alias,SA-000880,general requirements,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001620,semantic_alias,SA-000881,this information,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001621,semantic_alias,SA-000882,oak ridge,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001622,semantic_alias,SA-000883,business set,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001623,semantic_alias,SA-000884,small business set,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001624,semantic_alias,SA-000885,business set aside,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001625,semantic_alias,SA-000886,small business set aside,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001626,semantic_alias,SA-000887,the version,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001627,semantic_alias,SA-000888,version or,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001628,semantic_alias,SA-000889,terms and,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001629,semantic_alias,SA-000890,the version or,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001630,semantic_alias,SA-000891,version or date,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001631,semantic_alias,SA-000892,or date of,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001632,semantic_alias,SA-000893,the version or date,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001633,semantic_alias,SA-000894,version or date of,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001634,semantic_alias,SA-000895,the parties,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001635,semantic_alias,SA-000896,basis of,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001636,semantic_alias,SA-000897,of design,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06
+SPNR-001637,semantic_alias,SA-000898,basis of design,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001638,semantic_alias,SA-000899,hp135 beq,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001639,semantic_alias,SA-000900,beq renovation,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001640,semantic_alias,SA-000901,renovation cl,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001641,semantic_alias,SA-000902,cl marine,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001642,semantic_alias,SA-000903,nc structural,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001643,semantic_alias,SA-000904,design package,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001644,semantic_alias,SA-000905,hp135 beq renovation,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001645,semantic_alias,SA-000906,beq renovation cl,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001646,semantic_alias,SA-000907,renovation cl marine,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001647,semantic_alias,SA-000908,cl marine corps,low_alias_quality_score,3,7,2026-06-27 17:34:06
+SPNR-001648,semantic_alias,SA-000909,lejeune nc structural,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001649,semantic_alias,SA-000910,nc structural interior,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001650,semantic_alias,SA-000911,interior design package,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001651,semantic_alias,SA-000912,hp135 beq renovation cl,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001652,semantic_alias,SA-000913,beq renovation cl marine,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001653,semantic_alias,SA-000914,renovation cl marine corps,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001654,semantic_alias,SA-000915,cl marine corps base,low_alias_quality_score,3,8,2026-06-27 17:34:06
+SPNR-001655,semantic_alias,SA-000916,base camp lejeune nc,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001656,semantic_alias,SA-000917,camp lejeune nc structural,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001657,semantic_alias,SA-000918,lejeune nc structural interior,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001658,semantic_alias,SA-000919,nc structural interior design,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001659,semantic_alias,SA-000920,structural interior design package,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001660,semantic_alias,SA-000921,real property,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001661,semantic_alias,SA-000922,clerk 21,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001662,semantic_alias,SA-000923,operator 21,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001663,semantic_alias,SA-000924,01112 general,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001664,semantic_alias,SA-000925,01113 general,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001665,semantic_alias,SA-000926,clerk i 22,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001666,semantic_alias,SA-000927,preparation clerk 21,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001667,semantic_alias,SA-000928,machine operator 21,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001668,semantic_alias,SA-000929,01112 general clerk,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001669,semantic_alias,SA-000930,general clerk ii,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001670,semantic_alias,SA-000931,01113 general clerk,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001671,semantic_alias,SA-000932,general clerk iii,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001672,semantic_alias,SA-000933,document preparation clerk 21,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001673,semantic_alias,SA-000934,duplicating machine operator 21,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001674,semantic_alias,SA-000935,01112 general clerk ii,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001675,semantic_alias,SA-000936,01113 general clerk iii,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001676,semantic_alias,SA-000937,clerk i 19,low_alias_quality_score,3,4,2026-06-27 17:34:06
+SPNR-001677,semantic_alias,SA-000938,accounting clerk i 19,low_alias_quality_score,3,5,2026-06-27 17:34:06
+SPNR-001678,semantic_alias,SA-000939,site visit,low_alias_quality_score,3,3,2026-06-27 17:34:06
+SPNR-001679,semantic_alias,SA-000940,the site,weak_bigram_without_procurement_signal,3,3,2026-06-27 17:34:06

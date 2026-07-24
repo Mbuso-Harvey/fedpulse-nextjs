@@ -1,0 +1,2 @@
+closeout_id,wave,release_version,transition_gate,upstream_checks_pass,upstream_checks_fail,transition_items_approved,operating_modes_defined,onboarding_items,revenue_actions,frozen_components,launch_execution_components,feature_development_status,next_operating_phase,created_at
+W14CLOSE-000001,Wave 14,1.0.0,post_launch_transition_approved,5,0,6,5,7,6,5,2,stopped,ui_ux_onboarding_and_first_clients,2026-07-12 19:56:00

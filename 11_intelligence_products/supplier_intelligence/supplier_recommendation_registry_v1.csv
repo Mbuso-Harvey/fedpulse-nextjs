@@ -1,0 +1,9 @@
+recommendation_id,supplier_id,supplier_name,opportunity_id,capability_key,recommendation_text,priority,created_at
+SUPREC-000001,SUP-000001,Demonstration Supplier,OPPINT-000001,technical_capability,Use existing evidence for Technical Delivery in capture materials.,low,2026-06-30 20:13:57
+SUPREC-000002,SUP-000001,Demonstration Supplier,OPPINT-000001,supplier_qualification,Use existing evidence for Supplier Qualification in capture materials.,low,2026-06-30 20:13:57
+SUPREC-000003,SUP-000001,Demonstration Supplier,OPPINT-000001,commercial_fit,Use existing evidence for Commercial Fit in capture materials.,low,2026-06-30 20:13:57
+SUPREC-000004,SUP-000001,Demonstration Supplier,OPPINT-000001,compliance_fit,Strengthen supplier evidence for Compliance Fit before bid submission.,medium,2026-06-30 20:13:57
+SUPREC-000005,SUP-000001,Demonstration Supplier,OPPINT-000001,evaluation_fit,Use existing evidence for Evaluation Fit in capture materials.,low,2026-06-30 20:13:57
+SUPREC-000006,SUP-000001,Demonstration Supplier,OPPINT-000001,delivery_fit,Strengthen supplier evidence for Delivery Fit before bid submission.,medium,2026-06-30 20:13:57
+SUPREC-000007,SUP-000001,Demonstration Supplier,OPPINT-000001,submission_fit,Use existing evidence for Submission Fit in capture materials.,low,2026-06-30 20:13:57
+SUPREC-000008,SUP-000001,Demonstration Supplier,OPPINT-000001,operations_fit,Use existing evidence for Operational Fit in capture materials.,low,2026-06-30 20:13:57

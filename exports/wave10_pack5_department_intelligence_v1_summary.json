@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-07-01 01:07:49",
+  "wave": "Wave 10",
+  "pack": "Pack 5 - Department Intelligence",
+  "status": "completed",
+  "product_status": "department_intelligence_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "department_id": "DEPT-000001",
+  "department_name": "Food and Drug Administration",
+  "department_type": "Federal Agency",
+  "linked_opportunities": 1,
+  "linked_suppliers": 1,
+  "buying_style": "acquisition-method-heavy",
+  "department_intelligence_score": 52.2,
+  "intelligence_band": "moderate",
+  "risk_rows": 4,
+  "recommendation_rows": 8,
+  "acquisition_patterns": 8,
+  "qa": {
+    "pass": 7,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "profile_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_profile_registry_v1.csv",
+    "session_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_session_registry_v1.csv",
+    "buying_profile_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_buying_profile_registry_v1.csv",
+    "domain_profile_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_domain_profile_registry_v1.csv",
+    "acquisition_pattern_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_acquisition_pattern_registry_v1.csv",
+    "risk_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_risk_registry_v1.csv",
+    "recommendation_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_recommendation_registry_v1.csv",
+    "intelligence_summary_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_intelligence_summary_registry_v1.csv",
+    "score_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_score_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence\\department_intelligence_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_department_intelligence_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack5_department_intelligence_report_v1.md"
+  },
+  "next_script": "build_wave10_pack6_similar_opportunity_engine_v1.py"
+}

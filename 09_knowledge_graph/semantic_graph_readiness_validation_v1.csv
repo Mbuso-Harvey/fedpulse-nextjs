@@ -1,0 +1,33 @@
+graph_validation_id,semantic_object_v3_id,semantic_object_id,canonical_name,semantic_object_type,domain_name,confidence,evidence_count,graph_status,required_action,created_at
+SGQA-000001,SPO3-000001,SPO2-000001,Solicitation Amendment,Submission Instruction,Submission and Proposal Management,0.902,5,graph_ready,none,2026-06-29 00:54:06
+SGQA-000002,SPO3-000002,SPO2-000002,National Cemetery Operations,Domain Specific Requirement,Domain-Specific Operations,0.89,6,graph_ready,none,2026-06-29 00:54:06
+SGQA-000003,SPO3-000003,SPO2-000003,Solicitation Number,Acquisition Metadata,Acquisition Strategy,0.777,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000004,SPO3-000004,SPO2-000004,Firm Fixed Price,Contract Type,Commercial and Pricing,0.805,1,graph_ready,none,2026-06-29 00:54:06
+SGQA-000005,SPO3-000005,SPO2-000005,Unit Price,Pricing Structure,Commercial and Pricing,0.79,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000006,SPO3-000006,SPO2-000006,Contracting Officer,Procurement Role,Acquisition Strategy,0.802,1,graph_ready,none,2026-06-29 00:54:06
+SGQA-000007,SPO3-000007,SPO2-000007,Performance Work Statement,Technical Requirement,Technical Requirements,0.811,1,graph_ready,none,2026-06-29 00:54:06
+SGQA-000008,SPO3-000008,SPO2-000008,Evaluation Factors,Evaluation Factor,Evaluation and Source Selection,0.74,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000009,SPO3-000009,SPO2-000009,Table of Contents,Document Structure Object,Document Structure and Administrative Forms,0.704,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000010,SPO3-000010,SPO2-000010,Past Performance,Supplier Qualification,Supplier Eligibility and Qualifications,0.734,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000011,SPO3-000011,SPO2-000011,Request for Information,Acquisition Metadata,Acquisition Strategy,0.761,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000012,SPO3-000012,SPO2-000012,Administrative Support and Clerical,Administrative Service Labor Category,Performance and Operations,0.76,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000013,SPO3-000013,SPO2-000013,Proposal Volume,Proposal Structure,Submission and Proposal Management,0.719,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000014,SPO3-000014,SPO2-000014,Solicitation Metadata,Acquisition Metadata,Acquisition Strategy,0.428,1,not_graph_ready,semantic_review_required,2026-06-29 00:54:06
+SGQA-000015,SPO3-000015,SPO2-000015,Combined Synopsis Solicitation,Acquisition Metadata,Acquisition Strategy,0.769,2,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000016,SPO3-000016,SPO2-000016,Small Business Set-Aside,Supplier Qualification,Supplier Eligibility and Qualifications,0.706,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000017,SPO3-000017,SPO2-000017,Solicitation Amendment,Submission Instruction,Submission and Proposal Management,0.45,1,not_graph_ready,semantic_review_required,2026-06-29 00:54:06
+SGQA-000018,SPO3-000018,SPO2-000018,Place of Performance,Delivery Requirement,Delivery and Logistics,0.74,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000019,SPO3-000019,SPO2-000019,Method of Solicitation,Acquisition Metadata,Acquisition Strategy,0.718,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000020,SPO3-000020,SPO2-000020,Request for Proposal,Acquisition Metadata,Acquisition Strategy,0.743,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000021,SPO3-000021,SPO2-000021,Statement of Work,Technical Requirement,Technical Requirements,0.727,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000022,SPO3-000022,SPO2-000022,Award Basis,Evaluation Method,Evaluation and Source Selection,0.82,2,graph_ready,none,2026-06-29 00:54:06
+SGQA-000023,SPO3-000023,SPO2-000023,Marine Corps Base Camp Lejeune,Military Installation,Domain-Specific Operations,0.92,2,graph_ready,none,2026-06-29 00:54:06
+SGQA-000024,SPO3-000024,SPO2-000025,United States Army,Military Organization,Domain-Specific Operations,0.82,2,graph_ready,none,2026-06-29 00:54:06
+SGQA-000025,SPO3-000025,SPO2-000026,Firm Fixed Price,Contract Type,Commercial and Pricing,0.84,1,graph_ready,none,2026-06-29 00:54:06
+SGQA-000026,SPO3-000026,SPO2-000029,United States Marine Corps,Military Organization,Domain-Specific Operations,0.86,2,graph_ready,none,2026-06-29 00:54:06
+SGQA-000027,SPO3-000027,SPO2-000030,Amendment Copy Requirement,Procurement Document Artifact,Document Structure and Administrative Forms,0.78,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000028,SPO3-000028,SPO2-000031,FAR and DOSAR Provisions,Regulation Set,"Legal, Compliance, and Labor",0.86,1,graph_ready,none,2026-06-29 00:54:06
+SGQA-000029,SPO3-000029,SPO2-000032,Food and Drug Administration,Federal Agency,Acquisition Strategy,0.92,1,graph_ready,none,2026-06-29 00:54:06
+SGQA-000030,SPO3-000030,SPO2-000033,Proposal Default Index,Proposal Document Artifact,Document Structure and Administrative Forms,0.72,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000031,SPO3-000031,SPO2-000035,Request for Quotation,Acquisition Metadata,Acquisition Strategy,0.712,1,graph_candidate,review_before_graph,2026-06-29 00:54:06
+SGQA-000032,SPO3-000032,SPO2-000036,Payment and Invoice,Pricing Structure,Commercial and Pricing,0.701,1,graph_candidate,review_before_graph,2026-06-29 00:54:06

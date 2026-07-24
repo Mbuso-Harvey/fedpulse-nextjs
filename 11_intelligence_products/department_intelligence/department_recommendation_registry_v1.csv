@@ -1,0 +1,9 @@
+recommendation_id,department_id,department_name,recommendation_category,recommendation_text,priority,created_at
+DEPTREC-000001,DEPT-000001,Food and Drug Administration,evaluation_strategy,Build proposal win themes around the department's evaluation method and factors.,high,2026-07-01 01:07:49
+DEPTREC-000002,DEPT-000001,Food and Drug Administration,compliance_strategy,Review compliance obligations before committing bid resources.,high,2026-07-01 01:07:49
+DEPTREC-000003,DEPT-000001,Food and Drug Administration,delivery_strategy,"Validate delivery assumptions, logistics, and location-related cost exposure.",medium,2026-07-01 01:07:49
+DEPTREC-000004,DEPT-000001,Food and Drug Administration,document_review,"Review solicitation documents carefully for amendments, forms, and administrative artifacts.",medium,2026-07-01 01:07:49
+DEPTREC-000005,DEPT-000001,Food and Drug Administration,supplier_positioning,Prepare supplier qualification evidence such as past performance and eligibility documentation.,high,2026-07-01 01:07:49
+DEPTREC-000006,DEPT-000001,Food and Drug Administration,pricing_strategy,Align pricing strategy with observed commercial and pricing concepts.,high,2026-07-01 01:07:49
+DEPTREC-000007,DEPT-000001,Food and Drug Administration,technical_strategy,Prepare a compliance matrix mapping technical requirements to response evidence.,high,2026-07-01 01:07:49
+DEPTREC-000008,DEPT-000001,Food and Drug Administration,operations_strategy,"Account for operational context such as installation, domain operations, or agency-specific requirements.",medium,2026-07-01 01:07:49

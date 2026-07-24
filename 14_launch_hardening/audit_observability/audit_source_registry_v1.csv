@@ -1,0 +1,13 @@
+audit_source_id,source_name,source_type,source_path,required,source_exists,source_status,created_at
+AUDSRC-000001,Production API Summary,api_certification,C:\ProcurementIntelligence\exports\wave10_pack10_production_api_v1_summary.json,true,true,available,2026-07-06 16:31:46
+AUDSRC-000002,Production API Manifest,api_manifest,C:\ProcurementIntelligence\12_production_api\production_api_manifest_v1.json,true,true,available,2026-07-06 16:31:46
+AUDSRC-000003,Production Readiness Gate,launch_gate,C:\ProcurementIntelligence\exports\wave12_pack1_production_readiness_gate_v1_summary.json,true,true,available,2026-07-06 16:31:46
+AUDSRC-000004,API Contract Validation,api_contract_gate,C:\ProcurementIntelligence\exports\wave12_pack2_api_contract_validation_v1_summary.json,true,true,available,2026-07-06 16:31:46
+AUDSRC-000005,Agent Registry,agent_registry,C:\ProcurementIntelligence\13_autonomous_agents\bootstrap\agent_registry_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000006,Agent Execution Registry,agent_execution,C:\ProcurementIntelligence\13_autonomous_agents\bootstrap\agent_execution_registry_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000007,Capture Manager QA,agent_qa,C:\ProcurementIntelligence\13_autonomous_agents\capture_manager\capture_manager_qa_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000008,Supplier Strategy QA,agent_qa,C:\ProcurementIntelligence\13_autonomous_agents\supplier_strategy\supplier_strategy_agent_qa_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000009,Compliance Agent QA,agent_qa,C:\ProcurementIntelligence\13_autonomous_agents\compliance\compliance_agent_qa_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000010,Pricing Strategy QA,agent_qa,C:\ProcurementIntelligence\13_autonomous_agents\pricing\pricing_strategy_agent_qa_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000011,Proposal Strategy QA,agent_qa,C:\ProcurementIntelligence\13_autonomous_agents\proposal_strategy\proposal_strategy_agent_qa_v1.csv,true,true,available,2026-07-06 16:31:46
+AUDSRC-000012,Executive Decision QA,agent_qa,C:\ProcurementIntelligence\13_autonomous_agents\executive_decision\executive_decision_agent_qa_v1.csv,true,true,available,2026-07-06 16:31:46

@@ -1,0 +1,2 @@
+certification_id,release_version,platform_version,release_gate,package_components,rollback_steps,checklist_pass,checklist_fail,human_release_approval_required,created_at
+DEPCERT-000001,1.0.0-rc1,1.0.0,deployment_package_ready,5,4,6,0,true,2026-07-06 23:51:33

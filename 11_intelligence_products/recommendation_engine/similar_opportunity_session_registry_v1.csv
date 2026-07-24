@@ -1,0 +1,2 @@
+similarity_session_id,graph_version,product_version,node_count,edge_count,opportunity_profiles_loaded,status,created_at
+SIMSESS-000001,KG-1.0,0.1.0,29,44,1,executed,2026-07-01 10:11:25

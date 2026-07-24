@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-07-12 19:56:00",
+  "wave": "Wave 14",
+  "pack": "Pack 4 - Post-Launch Transition",
+  "status": "completed",
+  "product_status": "wave14_post_launch_transition_certified",
+  "wave14_closeout_status": "wave14_version1_launch_complete",
+  "transition_gate": "post_launch_transition_approved",
+  "release_version": "1.0.0",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "upstream_checks_pass": 5,
+  "upstream_checks_fail": 0,
+  "transition_items_approved": 6,
+  "operating_modes_defined": 5,
+  "onboarding_items": 7,
+  "revenue_actions": 6,
+  "frozen_components": 5,
+  "launch_execution_components": 2,
+  "feature_development_status": "stopped",
+  "next_operating_phase": "ui_ux_onboarding_and_first_clients",
+  "version1_feature_freeze": true,
+  "new_features_before_first_clients": false,
+  "qa": {
+    "pass": 10,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\post_launch_transition_session_registry_v1.csv",
+    "transition_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\post_launch_transition_registry_v1.csv",
+    "operating_mode_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\post_launch_operating_mode_registry_v1.csv",
+    "onboarding_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\first_client_onboarding_registry_v1.csv",
+    "revenue_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\revenue_execution_registry_v1.csv",
+    "freeze_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\version1_feature_freeze_registry_v1.csv",
+    "closeout_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\wave14_closeout_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\post_launch_transition\\post_launch_transition_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave14_post_launch_transition_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave14_pack4_post_launch_transition_report_v1.md"
+  },
+  "next_phase": "UI/UX Implementation, Client Onboarding, Demos, Sales, and First Clients",
+  "next_script": null
+}

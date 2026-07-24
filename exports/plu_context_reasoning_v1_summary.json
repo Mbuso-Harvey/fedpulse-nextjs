@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-06-25 06:10:29",
+  "sprint": "SAM-0007ZB",
+  "grounded_statements_processed": 627,
+  "unique_statements_processed": 405,
+  "duplicate_statements_rejected": 222,
+  "reasoned_classified_statements": 128,
+  "discovery_queue_statements": 277,
+  "coverage_against_raw_pct": 20.41,
+  "coverage_against_unique_pct": 31.6,
+  "context_family_counts": {
+    "Proposal": 13,
+    "Evaluation": 14,
+    "Delivery and Administration": 10,
+    "Supplier Qualification": 22,
+    "Commercial": 14,
+    "Metadata and Structure": 16,
+    "Technical": 16,
+    "Exclusion": 2,
+    "Legal and Compliance": 21
+  },
+  "match_type_counts": {
+    "single": 64,
+    "bundle": 64
+  },
+  "confidence_bands": {
+    "medium": 67,
+    "high": 61
+  },
+  "outputs": {
+    "reasoned_classifications": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_language_classifications_reasoned_v1.csv",
+    "discovery_queue": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_context_discovery_queue_reasoned_v1.csv",
+    "rejects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_language_reasoning_rejects_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\plu_context_reasoning_report_v1.md"
+  },
+  "next_sprint": "SAM-0008A PLU Semantic Pattern Engine V1"
+}

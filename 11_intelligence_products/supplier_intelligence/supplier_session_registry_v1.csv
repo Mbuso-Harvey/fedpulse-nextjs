@@ -1,0 +1,2 @@
+supplier_session_id,supplier_id,supplier_name,graph_version,product_version,node_count,edge_count,status,created_at
+SUPSESS-000001,SUP-000001,Demonstration Supplier,KG-1.0,0.1.0,29,44,executed,2026-06-30 20:13:57

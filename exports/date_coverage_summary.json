@@ -1,0 +1,236 @@
+{
+  "project": "Federal Procurement Intelligence Network",
+  "created_at": "2026-06-16 21:54:46",
+  "files_analyzed": 6,
+  "total_rows": 736860,
+  "files": [
+    {
+      "dataset_folder": "canadabuys_award_notices",
+      "file_name": "all_canadabuys_award_notices_2022_08_08_onwards.csv",
+      "file_path": "C:\\ProcurementIntelligence\\data\\raw\\canadabuys_award_notices\\all_canadabuys_award_notices_2022_08_08_onwards.csv",
+      "row_count": 25885,
+      "date_fields": {
+        "publicationDate-datePublication": {
+          "non_empty_values": 25885,
+          "valid_dates": 25885,
+          "earliest_date": "2022-08-08",
+          "latest_date": "2026-06-16"
+        },
+        "contractAwardDate-dateAttributionContrat": {
+          "non_empty_values": 25885,
+          "valid_dates": 25885,
+          "earliest_date": "1996-02-15",
+          "latest_date": "2040-12-31"
+        },
+        "amendmentDate-dateModification": {
+          "non_empty_values": 11254,
+          "valid_dates": 11254,
+          "earliest_date": "2019-08-13",
+          "latest_date": "2027-03-17"
+        },
+        "contractStartDate-contratDateDebut": {
+          "non_empty_values": 22744,
+          "valid_dates": 22744,
+          "earliest_date": "2002-05-02",
+          "latest_date": "2029-07-31"
+        },
+        "contractEndDate-dateFinContrat": {
+          "non_empty_values": 22744,
+          "valid_dates": 22744,
+          "earliest_date": "2019-08-31",
+          "latest_date": "2999-01-01"
+        }
+      }
+    },
+    {
+      "dataset_folder": "canadabuys_award_notices",
+      "file_name": "legacy_award_notices_2012_to_2022_08_prior_to_canadabuys.csv",
+      "file_path": "C:\\ProcurementIntelligence\\data\\raw\\canadabuys_award_notices\\legacy_award_notices_2012_to_2022_08_prior_to_canadabuys.csv",
+      "row_count": 106416,
+      "date_fields": {
+        "publicationDate-datePublication": {
+          "non_empty_values": 106416,
+          "valid_dates": 106416,
+          "earliest_date": "2012-02-03",
+          "latest_date": "2022-08-05"
+        },
+        "contractAwardDate-dateAttributionContrat": {
+          "non_empty_values": 106416,
+          "valid_dates": 106416,
+          "earliest_date": "1998-02-06",
+          "latest_date": "2026-02-06"
+        },
+        "amendmentDate-dateModification": {
+          "non_empty_values": 4925,
+          "valid_dates": 4925,
+          "earliest_date": "2013-09-12",
+          "latest_date": "2026-06-30"
+        },
+        "contractStartDate-contratDateDebut": {
+          "non_empty_values": 5616,
+          "valid_dates": 5616,
+          "earliest_date": "2000-07-31",
+          "latest_date": "2026-03-30"
+        },
+        "contractEndDate-dateFinContrat": {
+          "non_empty_values": 5616,
+          "valid_dates": 5616,
+          "earliest_date": "2017-06-30",
+          "latest_date": "3103-01-05"
+        }
+      }
+    },
+    {
+      "dataset_folder": "canadabuys_contract_history",
+      "file_name": "all_canadabuys_contract_history_2023_06_01_onwards.csv",
+      "file_path": "C:\\ProcurementIntelligence\\data\\raw\\canadabuys_contract_history\\all_canadabuys_contract_history_2023_06_01_onwards.csv",
+      "row_count": 20221,
+      "date_fields": {
+        "publicationDate-datePublication": {
+          "non_empty_values": 20215,
+          "valid_dates": 20215,
+          "earliest_date": "2022-12-02",
+          "latest_date": "2026-06-16"
+        },
+        "contractAwardDate-dateAttributionContrat": {
+          "non_empty_values": 19916,
+          "valid_dates": 19916,
+          "earliest_date": "2023-06-01",
+          "latest_date": "2026-06-15"
+        },
+        "amendmentDate-dateModification": {
+          "non_empty_values": 9576,
+          "valid_dates": 9576,
+          "earliest_date": "2022-12-14",
+          "latest_date": "2027-02-03"
+        },
+        "contractStartDate-contratDateDebut": {
+          "non_empty_values": 18456,
+          "valid_dates": 18456,
+          "earliest_date": "2005-10-24",
+          "latest_date": "2029-07-31"
+        },
+        "contractEndDate-dateFinContrat": {
+          "non_empty_values": 20221,
+          "valid_dates": 20221,
+          "earliest_date": "2006-12-31",
+          "latest_date": "3000-12-31"
+        }
+      }
+    },
+    {
+      "dataset_folder": "canadabuys_contract_history",
+      "file_name": "legacy_contract_history_2009_01_to_2023_05_prior_to_canadabuys.csv",
+      "file_path": "C:\\ProcurementIntelligence\\data\\raw\\canadabuys_contract_history\\legacy_contract_history_2009_01_to_2023_05_prior_to_canadabuys.csv",
+      "row_count": 484981,
+      "date_fields": {
+        "publicationDate-datePublication": {
+          "non_empty_values": 40424,
+          "valid_dates": 40424,
+          "earliest_date": "2021-03-23",
+          "latest_date": "2026-05-28"
+        },
+        "contractAwardDate-dateAttributionContrat": {
+          "non_empty_values": 415941,
+          "valid_dates": 415941,
+          "earliest_date": "2009-01-01",
+          "latest_date": "2023-05-31"
+        },
+        "amendmentDate-dateModification": {
+          "non_empty_values": 302030,
+          "valid_dates": 302030,
+          "earliest_date": "2009-01-01",
+          "latest_date": "2027-03-17"
+        },
+        "contractStartDate-contratDateDebut": {
+          "non_empty_values": 17226,
+          "valid_dates": 17226,
+          "earliest_date": "2009-01-06",
+          "latest_date": "2028-07-04"
+        },
+        "contractEndDate-dateFinContrat": {
+          "non_empty_values": 484981,
+          "valid_dates": 484981,
+          "earliest_date": "1959-01-01",
+          "latest_date": "9999-09-09"
+        }
+      }
+    },
+    {
+      "dataset_folder": "canadabuys_tender_notices",
+      "file_name": "all_canadabuys_tender_notices_2022_08_08_onwards.csv",
+      "file_path": "C:\\ProcurementIntelligence\\data\\raw\\canadabuys_tender_notices\\all_canadabuys_tender_notices_2022_08_08_onwards.csv",
+      "row_count": 28048,
+      "date_fields": {
+        "publicationDate-datePublication": {
+          "non_empty_values": 28048,
+          "valid_dates": 28048,
+          "earliest_date": "2022-08-08",
+          "latest_date": "2026-06-16"
+        },
+        "amendmentDate-dateModification": {
+          "non_empty_values": 25912,
+          "valid_dates": 25912,
+          "earliest_date": "2022-08-08",
+          "latest_date": "2026-06-15"
+        },
+        "tenderClosingDate-appelOffresDateCloture": {
+          "non_empty_values": 28048,
+          "valid_dates": 28048,
+          "earliest_date": "2020-12-23",
+          "latest_date": "2100-12-31"
+        },
+        "expectedContractStartDate-dateDebutContratPrevue": {
+          "non_empty_values": 15056,
+          "valid_dates": 15056,
+          "earliest_date": "2013-11-28",
+          "latest_date": "2100-01-01"
+        },
+        "expectedContractEndDate-dateFinContratPrevue": {
+          "non_empty_values": 13847,
+          "valid_dates": 13847,
+          "earliest_date": "2022-05-25",
+          "latest_date": "2126-07-31"
+        }
+      }
+    },
+    {
+      "dataset_folder": "canadabuys_tender_notices",
+      "file_name": "archived_2009_2022_legacy_tender_notices.csv",
+      "file_path": "C:\\ProcurementIntelligence\\data\\raw\\canadabuys_tender_notices\\archived_2009_2022_legacy_tender_notices.csv",
+      "row_count": 71309,
+      "date_fields": {
+        "publicationDate-datePublication": {
+          "non_empty_values": 71309,
+          "valid_dates": 71309,
+          "earliest_date": "2010-03-16",
+          "latest_date": "2022-08-05"
+        },
+        "amendmentDate-dateModification": {
+          "non_empty_values": 45417,
+          "valid_dates": 45417,
+          "earliest_date": "2013-04-22",
+          "latest_date": "2025-11-27"
+        },
+        "tenderClosingDate-appelOffresDateCloture": {
+          "non_empty_values": 71307,
+          "valid_dates": 71307,
+          "earliest_date": "2012-01-10",
+          "latest_date": "2129-12-04"
+        },
+        "expectedContractStartDate-dateDebutContratPrevue": {
+          "non_empty_values": 509,
+          "valid_dates": 509,
+          "earliest_date": "2020-09-01",
+          "latest_date": "2025-09-30"
+        },
+        "expectedContractEndDate-dateFinContratPrevue": {
+          "non_empty_values": 559,
+          "valid_dates": 559,
+          "earliest_date": "2021-08-09",
+          "latest_date": "2045-12-31"
+        }
+      }
+    }
+  ]
+}

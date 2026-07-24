@@ -1,0 +1,6 @@
+qa_metric_id,metric_name,metric_value,status,created_at
+W8B-P3-QA-000001,objects_input,36,pass,2026-06-28 22:06:51
+W8B-P3-QA-000002,governance_scores,36,pass,2026-06-28 22:06:51
+W8B-P3-QA-000003,promotion_candidates,36,pass,2026-06-28 22:06:51
+W8B-P3-QA-000004,graph_ready_objects,8,pass,2026-06-28 22:06:51
+W8B-P3-QA-000005,critical_review_items,2,pass,2026-06-28 22:06:51

@@ -1,0 +1,9 @@
+item_id,item_name,category,priority,status
+INT-001,Department Intelligence V4,Future,Medium,Planned
+INT-002,Supplier Intelligence V3,Future,Medium,Planned
+INT-003,Category Intelligence Engine,Future,High,Planned
+INT-004,Procurement Forecasting Engine,Future,High,Planned
+INT-005,Procurement Anomaly Detection,Future,Medium,Planned
+INT-006,Market Share Trend Engine,Future,High,Planned
+INT-007,Opportunity Alert Engine,Future,High,Planned
+INT-008,Executive Dashboard,Future,Medium,Planned

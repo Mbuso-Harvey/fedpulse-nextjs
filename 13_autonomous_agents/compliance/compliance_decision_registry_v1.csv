@@ -1,0 +1,2 @@
+decision_id,compliance_decision,critical_gaps,high_gaps,human_review_required,decision_basis,created_at
+COMPDEC-000001,compliance_ready_with_controls,3,2,true,compliance obligation severity and evidence readiness,2026-07-04 08:03:50

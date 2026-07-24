@@ -1,0 +1,7 @@
+closure_id,checklist_id,checklist_item,original_status,closure_status,closure_basis,closure_evidence,created_at
+CHKCLS-000001,LAUNCHCHK-000001,API endpoints registered,open,closed,API Endpoint Availability,10 production endpoints registered,2026-07-05 09:11:36
+CHKCLS-000002,LAUNCHCHK-000002,Agent outputs certified,open,closed,Agent Registry Availability + Agent Bootstrap Certification,6 agents registered; bootstrap=wave11_agent_bootstrap_certified,2026-07-05 09:11:36
+CHKCLS-000003,LAUNCHCHK-000003,Human approval gates preserved,open,closed,Executive Decision Governance,human_approval_required=True; commercial_binding_authority=False,2026-07-05 09:11:36
+CHKCLS-000004,LAUNCHCHK-000004,Audit artifacts generated,open,closed,Certification Artifact Presence,4 / 4 required certification artifacts exist,2026-07-05 09:11:36
+CHKCLS-000005,LAUNCHCHK-000005,Client demo pathway available,open,closed,Production Service Registry,5 / 5 required demo services registered,2026-07-05 09:11:36
+CHKCLS-000006,LAUNCHCHK-000006,Post-launch roadmap separation,open,closed,Launch Governance Policy,launch_freeze_policy=wave14_feature_freeze; post_launch_policy=new_features_after_first_clients_only,2026-07-05 09:11:36

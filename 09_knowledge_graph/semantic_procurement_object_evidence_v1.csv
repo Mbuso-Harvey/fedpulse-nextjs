@@ -1,0 +1,203 @@
+semantic_object_evidence_id,semantic_object_id,source_type,source_id,source_text,frequency,quality_score,adjusted_confidence,matched_patterns,created_at
+SPOEV-000001,SPO-000001,filtered_pattern,SP-000007,national cemetery,17,13,0.73,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000002,SPO-000002,filtered_pattern,SP-000011,of solicitation,16,13,0.73,,2026-06-27 22:40:30
+SPOEV-000003,SPO-000003,filtered_pattern,SP-000013,accounting clerk,15,10,0.67,,2026-06-27 22:40:30
+SPOEV-000004,SPO-000004,filtered_pattern,SP-000014,customer service,15,10,0.67,,2026-06-27 22:40:30
+SPOEV-000005,SPO-000005,filtered_pattern,SP-000015,service representative,15,10,0.67,,2026-06-27 22:40:30
+SPOEV-000006,SPO-000006,filtered_pattern,SP-000016,customer service representative,15,11,0.69,,2026-06-27 22:40:30
+SPOEV-000007,SPO-000007,filtered_pattern,SP-000018,amendment of,13,13,0.68,,2026-06-27 22:40:30
+SPOEV-000008,SPO-000008,filtered_pattern,SP-000019,amendment of solicitation,13,17,0.74,amendment of solicitation,2026-06-27 22:40:30
+SPOEV-000009,SPO-000009,filtered_pattern,SP-000024,administered by,11,13,0.65,,2026-06-27 22:40:30
+SPOEV-000010,SPO-000010,filtered_pattern,SP-000026,interior design,11,10,0.61,,2026-06-27 22:40:30
+SPOEV-000011,SPO-000011,filtered_pattern,SP-000027,data entry,11,10,0.61,,2026-06-27 22:40:30
+SPOEV-000012,SPO-000012,filtered_pattern,SP-000037,entry operator,10,10,0.59,,2026-06-27 22:40:30
+SPOEV-000013,SPO-000013,filtered_pattern,SP-000038,general clerk,10,10,0.59,,2026-06-27 22:40:30
+SPOEV-000014,SPO-000014,filtered_pattern,SP-000039,data entry operator,10,11,0.6,,2026-06-27 22:40:30
+SPOEV-000015,SPO-000015,filtered_pattern,SP-000040,section 1,9,9,0.56,,2026-06-27 22:40:30
+SPOEV-000016,SPO-000016,filtered_pattern,SP-000041,the offeror,9,12,0.6,,2026-06-27 22:40:30
+SPOEV-000017,SPO-000017,filtered_pattern,SP-000045,please provide,9,9,0.56,,2026-06-27 22:40:30
+SPOEV-000018,SPO-000001,filtered_pattern,SP-000047,cemetery administration,9,15,0.65,cemetery,2026-06-27 22:40:30
+SPOEV-000019,SPO-000001,filtered_pattern,SP-000048,national cemetery administration,9,16,0.66,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000020,SPO-000018,filtered_pattern,SP-000049,small business,9,9,0.56,,2026-06-27 22:40:30
+SPOEV-000021,SPO-000019,filtered_pattern,SP-000051,solicitation number,8,11,0.57,solicitation number,2026-06-27 22:40:30
+SPOEV-000022,SPO-000020,filtered_pattern,SP-000055,fixed price,8,8,0.53,\bfixed price\b,2026-06-27 22:40:30
+SPOEV-000023,SPO-000021,filtered_pattern,SP-000057,additional information,8,8,0.53,,2026-06-27 22:40:30
+SPOEV-000024,SPO-000022,filtered_pattern,SP-000059,clerk ii,8,8,0.53,,2026-06-27 22:40:30
+SPOEV-000025,SPO-000023,filtered_pattern,SP-000060,clerk iii,8,8,0.53,,2026-06-27 22:40:30
+SPOEV-000026,SPO-000024,filtered_pattern,SP-000061,offerors shall,7,10,0.54,,2026-06-27 22:40:30
+SPOEV-000027,SPO-000025,filtered_pattern,SP-000062,past performance,7,10,0.54,past performance,2026-06-27 22:40:30
+SPOEV-000028,SPO-000019,filtered_pattern,SP-000063,of solicitation number,7,11,0.56,solicitation number,2026-06-27 22:40:30
+SPOEV-000029,SPO-000008,filtered_pattern,SP-000064,amendment of solicitation number,7,15,0.62,amendment of solicitation;amendment of solicitation number,2026-06-27 22:40:30
+SPOEV-000030,SPO-000020,filtered_pattern,SP-000071,firm fixed price,7,8,0.51,\bfirm fixed price\b;\bfirm fixed\b;\bfixed price\b,2026-06-27 22:40:30
+SPOEV-000031,SPO-000026,filtered_pattern,SP-000073,unit price,7,15,0.62,unit price,2026-06-27 22:40:30
+SPOEV-000032,SPO-000025,filtered_pattern,SP-000081,evaluation factors,6,14,0.58,evaluation factors,2026-06-27 22:40:30
+SPOEV-000033,SPO-000027,filtered_pattern,SP-000082,quote for,6,9,0.51,,2026-06-27 22:40:30
+SPOEV-000034,SPO-000028,filtered_pattern,SP-000083,solicitation modification,6,9,0.51,,2026-06-27 22:40:30
+SPOEV-000035,SPO-000029,filtered_pattern,SP-000085,of solicitation modification,6,10,0.52,,2026-06-27 22:40:30
+SPOEV-000036,SPO-000030,filtered_pattern,SP-000086,solicitation modification of,6,10,0.52,,2026-06-27 22:40:30
+SPOEV-000037,SPO-000008,filtered_pattern,SP-000088,amendment of solicitation modification,6,14,0.58,amendment of solicitation,2026-06-27 22:40:30
+SPOEV-000038,SPO-000031,filtered_pattern,SP-000089,of solicitation modification of,6,11,0.54,,2026-06-27 22:40:30
+SPOEV-000039,SPO-000032,filtered_pattern,SP-000090,solicitation modification of contract,6,11,0.54,,2026-06-27 22:40:30
+SPOEV-000040,SPO-000033,filtered_pattern,SP-000092,contracting officer,6,14,0.58,contracting officer,2026-06-27 22:40:30
+SPOEV-000041,SPO-000034,filtered_pattern,SP-000096,administered by if,6,10,0.52,,2026-06-27 22:40:30
+SPOEV-000042,SPO-000035,filtered_pattern,SP-000100,administered by if other,6,11,0.54,,2026-06-27 22:40:30
+SPOEV-000043,SPO-000036,filtered_pattern,SP-000101,by if other than,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000044,SPO-000037,filtered_pattern,SP-000102,if other than item,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000045,SPO-000020,filtered_pattern,SP-000109,a firm fixed price,6,8,0.49,\bfirm fixed price\b;\bfirm fixed\b;\bfixed price\b,2026-06-27 22:40:30
+SPOEV-000046,SPO-000038,filtered_pattern,SP-000111,synopsis solicitation,6,9,0.51,,2026-06-27 22:40:30
+SPOEV-000047,SPO-000039,filtered_pattern,SP-000115,1 qty 1 ton,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000048,SPO-000040,filtered_pattern,SP-000116,qty 1 ton each,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000049,SPO-000041,filtered_pattern,SP-000118,solicitation for,6,9,0.51,,2026-06-27 22:40:30
+SPOEV-000050,SPO-000042,filtered_pattern,SP-000122,the same,6,9,0.51,,2026-06-27 22:40:30
+SPOEV-000051,SPO-000043,filtered_pattern,SP-000123,for proposal,6,9,0.51,,2026-06-27 22:40:30
+SPOEV-000052,SPO-000044,filtered_pattern,SP-000127,table of contents,6,10,0.52,table of contents,2026-06-27 22:40:30
+SPOEV-000053,SPO-000045,filtered_pattern,SP-000151,fringe benefits required follow,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000054,SPO-000046,filtered_pattern,SP-000152,benefits required follow the,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000055,SPO-000047,filtered_pattern,SP-000153,required follow the occupational,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000056,SPO-000048,filtered_pattern,SP-000154,follow the occupational listing,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000057,SPO-000049,filtered_pattern,SP-000155,the occupational listing occupation,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000058,SPO-000050,filtered_pattern,SP-000156,occupational listing occupation code,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000059,SPO-000051,filtered_pattern,SP-000157,listing occupation code title,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000060,SPO-000052,filtered_pattern,SP-000158,occupation code title footnote,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000061,SPO-000053,filtered_pattern,SP-000159,code title footnote rate,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000062,SPO-000054,filtered_pattern,SP-000160,title footnote rate 01000,6,8,0.49,,2026-06-27 22:40:30
+SPOEV-000063,SPO-000055,filtered_pattern,SP-000163,for quote,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000064,SPO-000044,filtered_pattern,SP-000164,administered by code,5,9,0.49,administered by code,2026-06-27 22:40:30
+SPOEV-000065,SPO-000056,filtered_pattern,SP-000165,solicitation is,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000066,SPO-000057,filtered_pattern,SP-000176,performance work statement,5,14,0.57,performance work statement;work statement,2026-06-27 22:40:30
+SPOEV-000067,SPO-000058,filtered_pattern,SP-000181,this solicitation,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000068,SPO-000059,filtered_pattern,SP-000183,to award,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000069,SPO-000060,filtered_pattern,SP-000186,for award,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000070,SPO-000019,filtered_pattern,SP-000198,combined synopsis solicitation,5,9,0.49,combined synopsis solicitation,2026-06-27 22:40:30
+SPOEV-000071,SPO-000061,filtered_pattern,SP-000221,marine corps,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000072,SPO-000062,filtered_pattern,SP-000222,01000 administrative,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000073,SPO-000063,filtered_pattern,SP-000223,administrative support,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000074,SPO-000064,filtered_pattern,SP-000231,01020 administrative,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000075,SPO-000065,filtered_pattern,SP-000232,administrative assistant,5,8,0.48,,2026-06-27 22:40:30
+SPOEV-000076,SPO-000066,filtered_pattern,SP-000251,rate 01000 administrative,5,9,0.49,,2026-06-27 22:40:30
+SPOEV-000077,SPO-000067,filtered_pattern,SP-000252,01000 administrative support,5,9,0.49,,2026-06-27 22:40:30
+SPOEV-000078,SPO-000068,filtered_pattern,SP-000253,administrative support and,5,9,0.49,,2026-06-27 22:40:30
+SPOEV-000079,SPO-000069,filtered_pattern,SP-000264,01020 administrative assistant,5,9,0.49,,2026-06-27 22:40:30
+SPOEV-000080,SPO-000070,filtered_pattern,SP-000280,footnote rate 01000 administrative,5,10,0.51,,2026-06-27 22:40:30
+SPOEV-000081,SPO-000071,filtered_pattern,SP-000281,rate 01000 administrative support,5,10,0.51,,2026-06-27 22:40:30
+SPOEV-000082,SPO-000072,filtered_pattern,SP-000282,01000 administrative support and,5,10,0.51,,2026-06-27 22:40:30
+SPOEV-000083,SPO-000073,filtered_pattern,SP-000283,administrative support and clerical,5,10,0.51,,2026-06-27 22:40:30
+SPOEV-000084,SPO-000074,filtered_pattern,SP-000303,proposal volume,4,12,0.52,proposal volume,2026-06-27 22:40:30
+SPOEV-000085,SPO-000075,filtered_pattern,SP-000306,in the solicitation,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000086,SPO-000076,filtered_pattern,SP-000324,applies to amendments,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000087,SPO-000077,filtered_pattern,SP-000325,to amendments of,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000088,SPO-000078,filtered_pattern,SP-000326,amendments of solicitations,4,11,0.51,,2026-06-27 22:40:30
+SPOEV-000089,SPO-000079,filtered_pattern,SP-000328,above numbered solicitation,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000090,SPO-000080,filtered_pattern,SP-000329,numbered solicitation is,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000091,SPO-000008,filtered_pattern,SP-000330,solicitation is amended,4,8,0.46,solicitation is amended,2026-06-27 22:40:30
+SPOEV-000092,SPO-000081,filtered_pattern,SP-000337,only applies to amendments,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000093,SPO-000082,filtered_pattern,SP-000338,applies to amendments of,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000094,SPO-000083,filtered_pattern,SP-000339,to amendments of solicitations,4,12,0.52,,2026-06-27 22:40:30
+SPOEV-000095,SPO-000084,filtered_pattern,SP-000340,the above numbered solicitation,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000096,SPO-000085,filtered_pattern,SP-000341,above numbered solicitation is,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000097,SPO-000008,filtered_pattern,SP-000342,numbered solicitation is amended,4,9,0.48,solicitation is amended,2026-06-27 22:40:30
+SPOEV-000098,SPO-000008,filtered_pattern,SP-000343,solicitation is amended as,4,9,0.48,solicitation is amended,2026-06-27 22:40:30
+SPOEV-000099,SPO-000086,filtered_pattern,SP-000350,of this amendment,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000100,SPO-000087,filtered_pattern,SP-000357,to the solicitation,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000101,SPO-000088,filtered_pattern,SP-000379,to award a,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000102,SPO-000089,filtered_pattern,SP-000383,award a contract,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000103,SPO-000001,filtered_pattern,SP-000392,hills national cemetery,4,8,0.46,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000104,SPO-000001,filtered_pattern,SP-000393,black hills national cemetery,4,9,0.48,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000105,SPO-000001,filtered_pattern,SP-000406,affairs national cemetery,4,8,0.46,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000106,SPO-000001,filtered_pattern,SP-000410,veterans affairs national cemetery,4,9,0.48,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000107,SPO-000001,filtered_pattern,SP-000411,affairs national cemetery administration,4,12,0.52,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000108,SPO-000090,filtered_pattern,SP-000420,synopsis solicitation for,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000109,SPO-000019,filtered_pattern,SP-000428,a combined synopsis solicitation,4,9,0.48,combined synopsis solicitation,2026-06-27 22:40:30
+SPOEV-000110,SPO-000019,filtered_pattern,SP-000429,combined synopsis solicitation for,4,9,0.48,combined synopsis solicitation,2026-06-27 22:40:30
+SPOEV-000111,SPO-000091,filtered_pattern,SP-000430,accordance with the format,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000112,SPO-000092,filtered_pattern,SP-000442,request for information,4,13,0.54,,2026-06-27 22:40:30
+SPOEV-000113,SPO-000093,filtered_pattern,SP-000499,payment registration,4,12,0.52,payment,2026-06-27 22:40:30
+SPOEV-000114,SPO-000094,filtered_pattern,SP-000505,far and dosar,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000115,SPO-000095,filtered_pattern,SP-000513,quote for the,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000116,SPO-000096,filtered_pattern,SP-000520,marine corps base,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000117,SPO-000097,filtered_pattern,SP-000521,corps base camp,4,8,0.46,,2026-06-27 22:40:30
+SPOEV-000118,SPO-000098,filtered_pattern,SP-000525,marine corps base camp,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000119,SPO-000099,filtered_pattern,SP-000526,corps base camp lejeune,4,9,0.48,,2026-06-27 22:40:30
+SPOEV-000120,SPO-000100,filtered_pattern,SP-000561,method of solicitation,3,10,0.47,,2026-06-27 22:40:30
+SPOEV-000121,SPO-000101,filtered_pattern,SP-000600,copies of the amendment,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000122,SPO-000033,filtered_pattern,SP-000610,the contracting officer,3,12,0.5,contracting officer,2026-06-27 22:40:30
+SPOEV-000123,SPO-000044,filtered_pattern,SP-000619,page of pages amendment,3,8,0.44,page of pages,2026-06-27 22:40:30
+SPOEV-000124,SPO-000102,filtered_pattern,SP-000620,of pages amendment of,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000125,SPO-000008,filtered_pattern,SP-000621,pages amendment of solicitation,3,11,0.49,amendment of solicitation,2026-06-27 22:40:30
+SPOEV-000126,SPO-000057,filtered_pattern,SP-000630,performance work statement pws,3,16,0.56,performance work statement;\bpws\b;work statement,2026-06-27 22:40:30
+SPOEV-000127,SPO-000020,filtered_pattern,SP-000660,award a firm fixed,3,8,0.44,\bfirm fixed\b,2026-06-27 22:40:30
+SPOEV-000128,SPO-000103,filtered_pattern,SP-000662,solicitation to the responsible,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000129,SPO-000104,filtered_pattern,SP-000663,to the responsible offeror,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000130,SPO-000105,filtered_pattern,SP-000664,the responsible offeror whose,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000131,SPO-000106,filtered_pattern,SP-000680,award will be made,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000132,SPO-000107,filtered_pattern,SP-000681,source selection,3,11,0.49,,2026-06-27 22:40:30
+SPOEV-000133,SPO-000108,filtered_pattern,SP-000726,place of performance,3,12,0.5,place of performance,2026-06-27 22:40:30
+SPOEV-000134,SPO-000057,filtered_pattern,SP-000733,statement of work,3,12,0.5,statement of work,2026-06-27 22:40:30
+SPOEV-000135,SPO-000109,filtered_pattern,SP-000740,prepared in accordance with,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000136,SPO-000110,filtered_pattern,SP-000749,food and drug administration,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000137,SPO-000111,filtered_pattern,SP-000760,request for information rfi,3,16,0.56,,2026-06-27 22:40:30
+SPOEV-000138,SPO-000019,filtered_pattern,SP-000761,quote rfq,3,9,0.46,\brfq\b,2026-06-27 22:40:30
+SPOEV-000139,SPO-000112,filtered_pattern,SP-000809,contract administration,3,10,0.47,,2026-06-27 22:40:30
+SPOEV-000140,SPO-000019,filtered_pattern,SP-000822,request for proposal,3,10,0.47,request for proposal,2026-06-27 22:40:30
+SPOEV-000141,SPO-000113,filtered_pattern,SP-000838,chess army mil proposal,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000142,SPO-000114,filtered_pattern,SP-000839,army mil proposal default,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000143,SPO-000115,filtered_pattern,SP-000840,mil proposal default index,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000144,SPO-000026,filtered_pattern,SP-000852,quantity unit price,3,12,0.5,unit price,2026-06-27 22:40:30
+SPOEV-000145,SPO-000116,filtered_pattern,SP-000868,far and dosar provisions,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000146,SPO-000117,filtered_pattern,SP-000879,the format in far,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000147,SPO-000118,filtered_pattern,SP-000915,renovation cl marine corps,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000148,SPO-000119,filtered_pattern,SP-000916,cl marine corps base,3,8,0.44,,2026-06-27 22:40:30
+SPOEV-000149,SPO-000001,filtered_alias,SA-000007,national cemetery,17,13,0.71,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000150,SPO-000002,filtered_alias,SA-000011,of solicitation,16,13,0.71,,2026-06-27 22:40:30
+SPOEV-000151,SPO-000003,filtered_alias,SA-000013,accounting clerk,15,10,0.64,,2026-06-27 22:40:30
+SPOEV-000152,SPO-000004,filtered_alias,SA-000014,customer service,15,10,0.64,,2026-06-27 22:40:30
+SPOEV-000153,SPO-000005,filtered_alias,SA-000015,service representative,15,10,0.64,,2026-06-27 22:40:30
+SPOEV-000154,SPO-000006,filtered_alias,SA-000016,customer service representative,15,11,0.66,,2026-06-27 22:40:30
+SPOEV-000155,SPO-000007,filtered_alias,SA-000018,amendment of,13,13,0.66,,2026-06-27 22:40:30
+SPOEV-000156,SPO-000008,filtered_alias,SA-000019,amendment of solicitation,13,17,0.73,amendment of solicitation,2026-06-27 22:40:30
+SPOEV-000157,SPO-000009,filtered_alias,SA-000024,administered by,11,13,0.63,,2026-06-27 22:40:30
+SPOEV-000158,SPO-000010,filtered_alias,SA-000026,interior design,11,10,0.58,,2026-06-27 22:40:30
+SPOEV-000159,SPO-000011,filtered_alias,SA-000027,data entry,11,10,0.58,,2026-06-27 22:40:30
+SPOEV-000160,SPO-000012,filtered_alias,SA-000037,entry operator,10,10,0.57,,2026-06-27 22:40:30
+SPOEV-000161,SPO-000013,filtered_alias,SA-000038,general clerk,10,10,0.57,,2026-06-27 22:40:30
+SPOEV-000162,SPO-000014,filtered_alias,SA-000039,data entry operator,10,11,0.58,,2026-06-27 22:40:30
+SPOEV-000163,SPO-000016,filtered_alias,SA-000041,the offeror,9,12,0.58,,2026-06-27 22:40:30
+SPOEV-000164,SPO-000001,filtered_alias,SA-000047,cemetery administration,9,15,0.64,cemetery,2026-06-27 22:40:30
+SPOEV-000165,SPO-000001,filtered_alias,SA-000048,national cemetery administration,9,16,0.65,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000166,SPO-000019,filtered_alias,SA-000051,solicitation number,8,11,0.55,solicitation number,2026-06-27 22:40:30
+SPOEV-000167,SPO-000024,filtered_alias,SA-000061,offerors shall,7,10,0.52,,2026-06-27 22:40:30
+SPOEV-000168,SPO-000025,filtered_alias,SA-000062,past performance,7,10,0.52,past performance,2026-06-27 22:40:30
+SPOEV-000169,SPO-000019,filtered_alias,SA-000063,of solicitation number,7,11,0.54,solicitation number,2026-06-27 22:40:30
+SPOEV-000170,SPO-000008,filtered_alias,SA-000064,amendment of solicitation number,7,15,0.6,amendment of solicitation;amendment of solicitation number,2026-06-27 22:40:30
+SPOEV-000171,SPO-000026,filtered_alias,SA-000073,unit price,7,15,0.6,unit price,2026-06-27 22:40:30
+SPOEV-000172,SPO-000025,filtered_alias,SA-000081,evaluation factors,6,14,0.57,evaluation factors,2026-06-27 22:40:30
+SPOEV-000173,SPO-000029,filtered_alias,SA-000085,of solicitation modification,6,10,0.51,,2026-06-27 22:40:30
+SPOEV-000174,SPO-000030,filtered_alias,SA-000086,solicitation modification of,6,10,0.51,,2026-06-27 22:40:30
+SPOEV-000175,SPO-000008,filtered_alias,SA-000088,amendment of solicitation modification,6,14,0.57,amendment of solicitation,2026-06-27 22:40:30
+SPOEV-000176,SPO-000031,filtered_alias,SA-000089,of solicitation modification of,6,11,0.52,,2026-06-27 22:40:30
+SPOEV-000177,SPO-000032,filtered_alias,SA-000090,solicitation modification of contract,6,11,0.52,,2026-06-27 22:40:30
+SPOEV-000178,SPO-000033,filtered_alias,SA-000092,contracting officer,6,14,0.57,contracting officer,2026-06-27 22:40:30
+SPOEV-000179,SPO-000034,filtered_alias,SA-000096,administered by if,6,10,0.51,,2026-06-27 22:40:30
+SPOEV-000180,SPO-000035,filtered_alias,SA-000100,administered by if other,6,11,0.52,,2026-06-27 22:40:30
+SPOEV-000181,SPO-000044,filtered_alias,SA-000127,table of contents,6,10,0.51,table of contents,2026-06-27 22:40:30
+SPOEV-000182,SPO-000057,filtered_alias,SA-000176,performance work statement,5,14,0.56,performance work statement;work statement,2026-06-27 22:40:30
+SPOEV-000183,SPO-000070,filtered_alias,SA-000280,footnote rate 01000 administrative,5,10,0.49,,2026-06-27 22:40:30
+SPOEV-000184,SPO-000071,filtered_alias,SA-000281,rate 01000 administrative support,5,10,0.49,,2026-06-27 22:40:30
+SPOEV-000185,SPO-000072,filtered_alias,SA-000282,01000 administrative support and,5,10,0.49,,2026-06-27 22:40:30
+SPOEV-000186,SPO-000073,filtered_alias,SA-000283,administrative support and clerical,5,10,0.49,,2026-06-27 22:40:30
+SPOEV-000187,SPO-000074,filtered_alias,SA-000303,proposal volume,4,12,0.51,proposal volume,2026-06-27 22:40:30
+SPOEV-000188,SPO-000078,filtered_alias,SA-000326,amendments of solicitations,4,11,0.49,,2026-06-27 22:40:30
+SPOEV-000189,SPO-000083,filtered_alias,SA-000339,to amendments of solicitations,4,12,0.51,,2026-06-27 22:40:30
+SPOEV-000190,SPO-000001,filtered_alias,SA-000411,affairs national cemetery administration,4,12,0.51,national cemetery;cemetery,2026-06-27 22:40:30
+SPOEV-000191,SPO-000092,filtered_alias,SA-000442,request for information,4,13,0.53,,2026-06-27 22:40:30
+SPOEV-000192,SPO-000093,filtered_alias,SA-000499,payment registration,4,12,0.51,payment,2026-06-27 22:40:30
+SPOEV-000193,SPO-000100,filtered_alias,SA-000561,method of solicitation,3,10,0.46,,2026-06-27 22:40:30
+SPOEV-000194,SPO-000033,filtered_alias,SA-000610,the contracting officer,3,12,0.49,contracting officer,2026-06-27 22:40:30
+SPOEV-000195,SPO-000008,filtered_alias,SA-000621,pages amendment of solicitation,3,11,0.48,amendment of solicitation,2026-06-27 22:40:30
+SPOEV-000196,SPO-000057,filtered_alias,SA-000630,performance work statement pws,3,16,0.56,performance work statement;\bpws\b;work statement,2026-06-27 22:40:30
+SPOEV-000197,SPO-000107,filtered_alias,SA-000681,source selection,3,11,0.48,,2026-06-27 22:40:30
+SPOEV-000198,SPO-000108,filtered_alias,SA-000726,place of performance,3,12,0.49,place of performance,2026-06-27 22:40:30
+SPOEV-000199,SPO-000057,filtered_alias,SA-000733,statement of work,3,12,0.49,statement of work,2026-06-27 22:40:30
+SPOEV-000200,SPO-000111,filtered_alias,SA-000760,request for information rfi,3,16,0.56,,2026-06-27 22:40:30
+SPOEV-000201,SPO-000019,filtered_alias,SA-000821,request for proposal,3,10,0.46,request for proposal,2026-06-27 22:40:30
+SPOEV-000202,SPO-000026,filtered_alias,SA-000851,quantity unit price,3,12,0.49,unit price,2026-06-27 22:40:30

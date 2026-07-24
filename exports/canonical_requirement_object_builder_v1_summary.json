@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-06-23 10:20:16",
+  "structured_requirements_processed": 363,
+  "canonical_requirements_created": 201,
+  "rejected_artifacts": 162,
+  "requirement_type_counts": {
+    "proposal_requirement": 6,
+    "review_required": 112,
+    "experience_requirement": 9,
+    "evaluation_requirement": 7,
+    "operational_requirement": 18,
+    "staffing_requirement": 13,
+    "pricing_requirement": 14,
+    "certification_requirement": 5,
+    "deliverable_requirement": 16,
+    "clearance_requirement": 1
+  },
+  "business_value_counts": {
+    "medium": 54,
+    "review": 112,
+    "high": 35
+  },
+  "mandatory_counts": {
+    "unknown": 142,
+    "yes": 50,
+    "optional_or_conditional": 9
+  },
+  "outputs": {
+    "canonical_requirements": "C:\\ProcurementIntelligence\\09_knowledge_graph\\canonical_requirement_objects_v1.csv",
+    "rejects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\canonical_requirement_object_rejects_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\canonical_requirement_object_builder_report_v1.md"
+  },
+  "next_sprint": "SAM-0007L Canonical Requirement Quality Review"
+}

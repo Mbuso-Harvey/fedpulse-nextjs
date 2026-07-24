@@ -1,0 +1,2 @@
+department_profile_id,department_id,department_name,department_type,linked_opportunities,linked_suppliers,graph_version,product_version,status,created_at
+DEPTPROF-000001,DEPT-000001,Food and Drug Administration,Federal Agency,1,1,KG-1.0,0.1.0,profile_created,2026-07-01 01:07:49

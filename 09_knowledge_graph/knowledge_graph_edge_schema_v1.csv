@@ -1,0 +1,8 @@
+field_name,field_type,description,created_at
+edge_id,string,Stable graph edge identifier,2026-06-29 03:08:43
+source_node_id,string,Source node,2026-06-29 03:08:43
+target_node_id,string,Target node,2026-06-29 03:08:43
+relationship_type,string,Relationship label,2026-06-29 03:08:43
+confidence,float,Edge confidence,2026-06-29 03:08:43
+evidence_basis,string,Rule or evidence basis,2026-06-29 03:08:43
+created_at,datetime,Creation timestamp,2026-06-29 03:08:43

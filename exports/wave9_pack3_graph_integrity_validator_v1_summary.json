@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-06-29 11:35:33",
+  "wave": "Wave 9",
+  "pack": "Pack 3 - Graph Integrity Validator",
+  "status": "completed",
+  "publication_status": "certified_for_graph_publication",
+  "node_count": 29,
+  "edge_count": 44,
+  "hard_failures": 0,
+  "review_items": 37,
+  "structural_status_counts": {
+    "pass": 365
+  },
+  "referential_status_counts": {
+    "pass": 132,
+    "review": 29
+  },
+  "orphan_status_counts": {
+    "connected": 19,
+    "weakly_connected": 3,
+    "orphan": 7
+  },
+  "duplicate_edge_clusters": 0,
+  "connected_components": 8,
+  "largest_component_size": 22,
+  "graph_density": 0.0542,
+  "average_degree": 3.034,
+  "weak_edges": 1,
+  "medium_edges": 42,
+  "strong_edges": 1,
+  "relationship_counts": {
+    "has_pricing_structure": 2,
+    "uses_evaluation_factor": 1,
+    "requires_submission_instruction": 1,
+    "requires_supplier_capability": 4,
+    "affects_price": 2,
+    "issues_or_receives": 1,
+    "shapes_source_selection": 6,
+    "specializes_requirement": 2,
+    "defines_submission_context": 6,
+    "affects_pricing": 2,
+    "administers_acquisition": 6,
+    "issues_or_receives_submission_instruction": 1,
+    "uses_acquisition_method": 6,
+    "has_domain_requirement": 1,
+    "may_define_place_of_performance": 1,
+    "may_result_in_contract_type": 1,
+    "specializes": 1
+  },
+  "outputs": {
+    "structural_integrity": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_structural_integrity_v1.csv",
+    "referential_integrity": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_referential_integrity_v1.csv",
+    "orphan_analysis": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_orphan_analysis_v1.csv",
+    "duplicate_edge_analysis": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_duplicate_edge_analysis_v1.csv",
+    "metrics": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_metrics_v1.csv",
+    "publication_readiness": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_publication_readiness_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave9_graph_integrity_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave9_pack3_graph_integrity_validator_report_v1.md"
+  },
+  "next_script": "build_wave9_pack4_graph_export_builder_v1.py"
+}

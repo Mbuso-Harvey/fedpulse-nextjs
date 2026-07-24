@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-06-26 11:04:39",
+  "sprint": "SAM-0007ZF",
+  "discovery_expressions_processed": 250,
+  "candidate_families_created": 15,
+  "candidate_expression_types_created": 15,
+  "candidate_semantic_patterns_created": 61,
+  "taxonomy_review_queue_records": 15,
+  "outputs": {
+    "candidate_families": "C:\\ProcurementIntelligence\\09_knowledge_graph\\candidate_expression_families_v1.csv",
+    "candidate_types": "C:\\ProcurementIntelligence\\09_knowledge_graph\\candidate_expression_types_v1.csv",
+    "candidate_patterns": "C:\\ProcurementIntelligence\\09_knowledge_graph\\candidate_semantic_patterns_v1.csv",
+    "taxonomy_review_queue": "C:\\ProcurementIntelligence\\09_knowledge_graph\\taxonomy_expansion_review_queue_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\expression_discovery_taxonomy_expansion_report_v1.md"
+  },
+  "next_sprint": "SAM-0007ZG Taxonomy Expansion Review Integration V1"
+}

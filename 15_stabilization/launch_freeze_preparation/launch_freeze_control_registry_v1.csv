@@ -1,0 +1,7 @@
+control_id,control_title,observed_value,target_value,status,created_at
+FREEZECTRL-000001,All freeze prerequisites passed,5,5,pass,2026-07-09 22:19:05
+FREEZECTRL-000002,No failed freeze prerequisites,0,0,pass,2026-07-09 22:19:05
+FREEZECTRL-000003,Freeze checklist complete,6,6,pass,2026-07-09 22:19:05
+FREEZECTRL-000004,Frozen scope documented,5,5,pass,2026-07-09 22:19:05
+FREEZECTRL-000005,Launch execution scope documented,2,2,pass,2026-07-09 22:19:05
+FREEZECTRL-000006,Post-launch backlog separated,6,6,pass,2026-07-09 22:19:05

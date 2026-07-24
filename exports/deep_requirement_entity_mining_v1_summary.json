@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-06-22 09:13:09",
+  "requirements_processed": 1146,
+  "entities_extracted": 128,
+  "entity_counts": {
+    "proposal_component": 12,
+    "experience_requirement": 15,
+    "evaluation_method": 37,
+    "certification": 2,
+    "compliance_clause": 21,
+    "staffing_role": 14,
+    "clearance": 27
+  },
+  "discovery_candidates": 784,
+  "outputs": {
+    "entities": "C:\\ProcurementIntelligence\\09_knowledge_graph\\deep_requirement_entities_v1.csv",
+    "discovery": "C:\\ProcurementIntelligence\\09_knowledge_graph\\deep_requirement_discovery_queue_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\deep_requirement_entity_mining_report_v1.md"
+  },
+  "next_sprint": "SAM-0008 Requirement Frequency and Importance Engine"
+}

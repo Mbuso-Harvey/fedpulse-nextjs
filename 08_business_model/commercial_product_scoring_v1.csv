@@ -1,0 +1,28 @@
+asset_class,product_name,target_customer,supporting_assets,customer_pain,data_readiness,recurring_revenue,automation,market_size,total_score
+Relationship Intelligence,Buyer Contact Intelligence,BD Teams,78,7,7,8,8,8,38
+Relationship Intelligence,Relationship Mapping Service,Enterprise,78,7,7,8,8,8,38
+Relationship Intelligence,Capture Management Intelligence,Capture Managers,78,7,7,8,8,8,38
+Buyer Intelligence,Federal Buyer Scorecards,Sales Teams,66,6,6,8,8,8,36
+Buyer Intelligence,Department Buyer Intelligence,Government Contractors,66,6,6,8,8,8,36
+Buyer Intelligence,Buyer Benchmark Reports,Government Departments,66,6,6,8,8,8,36
+Category Market Intelligence,Category Opportunity Reports,Suppliers,36,5,5,8,8,8,34
+Contract Amendment Intelligence,Amendment Watch,Auditors,20,5,5,8,8,8,34
+Category Market Intelligence,Industry Demand Tracker,Associations,36,5,5,8,8,8,34
+Category Market Intelligence,Market Growth Intelligence,Investors,36,5,5,8,8,8,34
+Contract Amendment Intelligence,Contract Risk Monitor,Media,20,5,5,8,8,8,34
+Geographic Intelligence,Supplier Geography Intelligence,Suppliers,14,5,5,8,8,8,34
+Geographic Intelligence,Regional Spend Monitor,Economic Agencies,14,5,5,8,8,8,34
+Contract Amendment Intelligence,Supplier Expansion Tracker,Investors,20,5,5,8,8,8,34
+Geographic Intelligence,Foreign Supplier Tracker,Policy Groups,14,5,5,8,8,8,34
+Procurement Process Intelligence,Sole Source Monitor,Media,20,5,5,8,8,8,34
+Procurement Process Intelligence,Competition Intelligence,Vendors,20,5,5,8,8,8,34
+Procurement Process Intelligence,Procurement Method Intelligence,Consultants,20,5,5,8,8,8,34
+Semantic Intelligence,AI Opportunity Matching,Contractors,24,5,5,8,8,8,34
+Semantic Intelligence,Sector Intelligence Briefings,Researchers,24,5,5,8,8,8,34
+Semantic Intelligence,Tender Discovery Engine,Sales Teams,24,5,5,8,8,8,34
+Supplier Intelligence,Supplier Market Share Intelligence,Investors,56,5,5,8,8,8,34
+Supplier Intelligence,Competitive Intelligence,Vendors,56,5,5,8,8,8,34
+Supplier Intelligence,Supplier Scorecards,Suppliers,56,5,5,8,8,8,34
+Timing Intelligence,Renewal Watch,Contractors,24,5,5,8,8,8,34
+Timing Intelligence,Procurement Calendar,Sales Teams,24,5,5,8,8,8,34
+Timing Intelligence,Expiry Intelligence,Vendors,24,5,5,8,8,8,34

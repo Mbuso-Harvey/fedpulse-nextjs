@@ -1,0 +1,2 @@
+readiness_id,release_status,semantic_objects_v3,graph_ready_objects,graph_candidate_objects,not_graph_ready_objects,staging_nodes_created,wave9_status,created_at
+W9READY-000001,certified_for_wave9_graph_population,32,12,18,2,30,ready_to_begin,2026-06-29 03:08:43

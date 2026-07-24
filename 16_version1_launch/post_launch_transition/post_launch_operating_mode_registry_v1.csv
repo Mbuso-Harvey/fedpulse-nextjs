@@ -1,0 +1,6 @@
+operating_mode_id,operating_area,operating_mode,allowed_activity,prohibited_activity,created_at
+OPMODE-000001,Product Development,feature_frozen,"Critical defects, security fixes, reliability fixes, and paying-client onboarding blockers only.","Speculative features, new intelligence modules, new autonomous agents, and unsupported scope expansion.",2026-07-12 19:56:00
+OPMODE-000002,UI/UX,launch_execution,Build the client-facing interface using certified API and navigation contracts.,Changing certified intelligence logic to accommodate unvalidated interface ideas.,2026-07-12 19:56:00
+OPMODE-000003,Client Onboarding,primary_priority,"Configure client workflows, data access, demos, training, support, and onboarding improvements.",Delaying onboarding in order to continue internal research.,2026-07-12 19:56:00
+OPMODE-000004,Sales and Revenue,primary_priority,"Client outreach, demos, proposals, pilots, pricing, commercial discussions, and conversion activity.",Treating the platform as a non-commercial research project.,2026-07-12 19:56:00
+OPMODE-000005,Post-Launch Roadmap,customer_validated_only,"Prioritize enhancements supported by customer usage, onboarding evidence, retention needs, or revenue.",Promoting backlog ideas into active development without customer evidence.,2026-07-12 19:56:00

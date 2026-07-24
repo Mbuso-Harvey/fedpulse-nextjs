@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+V1CERTQA-000001,session_rows,1,1,pass,2026-07-11 19:57:21
+V1CERTQA-000002,check_rows,8,8,pass,2026-07-11 19:57:21
+V1CERTQA-000003,checks_fail,0,0,pass,2026-07-11 19:57:21
+V1CERTQA-000004,evidence_rows,8,8,pass,2026-07-11 19:57:21
+V1CERTQA-000005,gate_rows,1,1,pass,2026-07-11 19:57:21
+V1CERTQA-000006,certification_gate,version1_certification_approved,version1_certification_approved,pass,2026-07-11 19:57:21

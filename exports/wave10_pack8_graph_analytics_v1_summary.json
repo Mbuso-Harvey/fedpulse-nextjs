@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-07-01 20:51:37",
+  "wave": "Wave 10",
+  "pack": "Pack 8 - Graph Analytics",
+  "status": "completed",
+  "product_status": "graph_analytics_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "node_count": 29,
+  "edge_count": 44,
+  "cluster_count": 8,
+  "largest_cluster_size": 22,
+  "domain_count": 11,
+  "density": 0.0542,
+  "high_influence_nodes": 4,
+  "medium_influence_nodes": 9,
+  "isolated_nodes": 7,
+  "high_bridge_edges": 8,
+  "analytics_health_score": 67,
+  "analytics_health_band": "moderate",
+  "top_influence_node": "Solicitation Amendment",
+  "top_bridge_edge": "Contracting Officer -> Solicitation Amendment",
+  "qa": {
+    "pass": 6,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_analytics_session_registry_v1.csv",
+    "node_analytics": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_node_analytics_registry_v1.csv",
+    "edge_analytics": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_edge_analytics_registry_v1.csv",
+    "cluster_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_cluster_registry_v1.csv",
+    "domain_analytics": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_domain_analytics_registry_v1.csv",
+    "summary_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_analytics_summary_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_analytics\\graph_analytics_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_graph_analytics_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack8_graph_analytics_report_v1.md"
+  },
+  "next_script": "build_wave10_pack9_ai_procurement_analyst_v1.py"
+}

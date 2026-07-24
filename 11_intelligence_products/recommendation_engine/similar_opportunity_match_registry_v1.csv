@@ -1,0 +1,5 @@
+similarity_match_id,source_opportunity_id,source_opportunity_name,matched_opportunity_id,matched_opportunity_name,rank,technical_score,commercial_score,evaluation_score,supplier_score,compliance_score,delivery_score,buyer_score,operations_score,overall_graph_score,weighted_similarity_score,similarity_band,created_at
+SIMMATCH-000001,SIMOPP-000001,Base KG-1.0 Opportunity,SIMOPP-000002,Technical Services Similar Opportunity,1,100.0,66.67,100.0,50.0,0.0,100.0,100.0,0.0,56.25,72.5,high,2026-07-01 10:11:25
+SIMMATCH-000002,SIMOPP-000001,Base KG-1.0 Opportunity,SIMOPP-000003,Commercial Pricing Similar Opportunity,2,50.0,100.0,50.0,50.0,0.0,100.0,100.0,0.0,53.33,60.0,high,2026-07-01 10:11:25
+SIMMATCH-000003,SIMOPP-000001,Base KG-1.0 Opportunity,SIMOPP-000004,Compliance Heavy Opportunity,3,50.0,33.33,50.0,50.0,100.0,0.0,100.0,0.0,40.0,50.0,medium,2026-07-01 10:11:25
+SIMMATCH-000004,SIMOPP-000001,Base KG-1.0 Opportunity,SIMOPP-000005,Low Similarity Administrative Opportunity,4,0.0,33.33,0.0,0.0,0.0,0.0,0.0,0.0,6.25,5.0,very_low,2026-07-01 10:11:25

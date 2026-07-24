@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-06-20 00:51:49",
+  "renewal_candidates": 4050,
+  "top_opportunities_exported": 100,
+  "departments_with_renewals": 98,
+  "suppliers_with_renewals": 2273,
+  "total_renewal_value": 22461750142.55,
+  "outputs": {
+    "sample_edition": "C:\\ProcurementIntelligence\\08_business_model\\renewal_watch_sample_edition_v1.md",
+    "top_opportunities": "C:\\ProcurementIntelligence\\08_business_model\\renewal_watch_top_opportunities_v1.csv",
+    "department_summary": "C:\\ProcurementIntelligence\\08_business_model\\renewal_watch_department_summary_v1.csv",
+    "supplier_exposure": "C:\\ProcurementIntelligence\\08_business_model\\renewal_watch_supplier_exposure_v1.csv"
+  },
+  "paid_launch_gaps": [
+    "renewal_deduplication",
+    "freshness_tracking",
+    "new_since_last_edition",
+    "customer_filtering",
+    "email_alert_version",
+    "pdf_formatting",
+    "source_verification"
+  ]
+}

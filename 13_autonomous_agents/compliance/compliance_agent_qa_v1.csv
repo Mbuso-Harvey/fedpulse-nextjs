@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+COMPQA-000001,session_rows,1,1,pass,2026-07-04 08:03:50
+COMPQA-000002,obligation_rows,5,>= 5,pass,2026-07-04 08:03:50
+COMPQA-000003,matrix_rows,5,5,pass,2026-07-04 08:03:50
+COMPQA-000004,gap_rows,5,5,pass,2026-07-04 08:03:50
+COMPQA-000005,action_rows,5,5,pass,2026-07-04 08:03:50
+COMPQA-000006,decision_rows,1,1,pass,2026-07-04 08:03:50

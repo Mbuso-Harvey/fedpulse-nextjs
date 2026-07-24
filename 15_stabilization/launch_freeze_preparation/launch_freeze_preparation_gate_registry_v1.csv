@@ -1,0 +1,2 @@
+gate_id,freeze_preparation_gate,prerequisites_pass,prerequisites_fail,freeze_checklist_rows,scope_rows,post_launch_backlog_rows,controls_pass,controls_fail,wave14_handoff_rows,created_at
+FREEZEGATE-000001,wave14_freeze_preparation_ready,5,0,6,7,6,6,0,4,2026-07-09 22:19:05

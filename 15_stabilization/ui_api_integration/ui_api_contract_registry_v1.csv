@@ -1,0 +1,8 @@
+contract_id,view_id,view_name,service_name,endpoint,request_format,response_format,auth_required,audit_logging_required,contract_status,created_at
+UICONTRACT-000001,UIVIEW-000001,Dashboard Home,health,/api/v1/health,application/json,application/json,true,true,ready,2026-07-08 17:38:01
+UICONTRACT-000002,UIVIEW-000002,Search,semantic_search,/api/v1/search,application/json,application/json,true,true,ready,2026-07-08 17:38:01
+UICONTRACT-000003,UIVIEW-000003,Ask,question_answering,/api/v1/ask,application/json,application/json,true,true,ready,2026-07-08 17:38:01
+UICONTRACT-000004,UIVIEW-000004,Opportunity Intelligence,opportunity_intelligence,/api/v1/opportunity/intelligence,application/json,application/json,true,true,ready,2026-07-08 17:38:01
+UICONTRACT-000005,UIVIEW-000005,Recommendations,recommendations,/api/v1/recommendations,application/json,application/json,true,true,ready,2026-07-08 17:38:01
+UICONTRACT-000006,UIVIEW-000006,AI Analyst,ai_procurement_analyst,/api/v1/analyst,application/json,application/json,true,true,ready,2026-07-08 17:38:01
+UICONTRACT-000007,UIVIEW-000007,Graph Analytics,graph_analytics,/api/v1/graph/analytics,application/json,application/json,true,true,ready,2026-07-08 17:38:01

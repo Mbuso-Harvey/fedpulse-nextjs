@@ -1,0 +1,7 @@
+control_id,control_title,observed_value,target_value,status,created_at
+W12CTRL-000001,All Wave 12 packs certified,6,6,pass,2026-07-08 00:51:56
+W12CTRL-000002,Production readiness gate is ready,1,1,pass,2026-07-08 00:51:56
+W12CTRL-000003,API contracts validated,1,1,pass,2026-07-08 00:51:56
+W12CTRL-000004,Audit observability ready,1,1,pass,2026-07-08 00:51:56
+W12CTRL-000005,Deployment package ready,1,1,pass,2026-07-08 00:51:56
+W12CTRL-000006,Client demo ready,1,1,pass,2026-07-08 00:51:56

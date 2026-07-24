@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-06-24 17:46:49",
+  "notices_classified": 26,
+  "context_type_counts": {
+    "evaluation_framework": 5,
+    "unknown_context": 15,
+    "non_procurement_evaluation": 2,
+    "evaluation_navigation": 3,
+    "pricing_or_contract_structure": 1
+  },
+  "recommended_action_counts": {
+    "promote_to_framework_recovery": 5,
+    "manual_review": 15,
+    "exclude_from_procurement_evaluation": 2,
+    "use_as_evaluation_section_pointer": 3,
+    "route_to_pricing_structure_intelligence": 1
+  },
+  "outputs": {
+    "context_classification": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_context_classification_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_context_classification_report_v1.md"
+  },
+  "next_sprint": "SAM-0007X Context-Aware Evaluation Framework Recovery"
+}

@@ -1,0 +1,6 @@
+gap_id,matrix_id,obligation_area,obligation_name,gap_type,gap_priority,gap_description,status,created_at
+COMPGAP-000001,COMPMAT-000001,Regulatory Compliance,FAR/DOSAR Review,missing_required_evidence,critical,Compliance evidence must be completed for FAR/DOSAR Review.,open,2026-07-04 08:03:50
+COMPGAP-000002,COMPMAT-000002,Technical Compliance,Technical Compliance Matrix,missing_required_evidence,critical,Compliance evidence must be completed for Technical Compliance Matrix.,open,2026-07-04 08:03:50
+COMPGAP-000003,COMPMAT-000003,Supplier Qualification,Supplier Evidence Package,missing_required_evidence,critical,Compliance evidence must be completed for Supplier Evidence Package.,open,2026-07-04 08:03:50
+COMPGAP-000004,COMPMAT-000004,Delivery Compliance,Place-of-Performance Validation,review_required,high,Compliance evidence must be completed for Place-of-Performance Validation.,open,2026-07-04 08:03:50
+COMPGAP-000005,COMPMAT-000005,Submission Compliance,Submission Instruction Review,review_required,high,Compliance evidence must be completed for Submission Instruction Review.,open,2026-07-04 08:03:50

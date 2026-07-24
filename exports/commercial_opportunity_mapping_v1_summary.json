@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-06-18 22:47:06",
+  "source_assets_inventory_rows": 476,
+  "customer_segments": 9,
+  "commercial_opportunities": 10,
+  "outputs": {
+    "asset_inventory": "C:\\ProcurementIntelligence\\08_business_model\\commercial_asset_inventory_v1.csv",
+    "customer_registry": "C:\\ProcurementIntelligence\\08_business_model\\customer_pain_registry_v1.csv",
+    "opportunity_universe": "C:\\ProcurementIntelligence\\08_business_model\\commercial_opportunity_universe_v1.csv",
+    "scorecard": "C:\\ProcurementIntelligence\\08_business_model\\product_opportunity_scorecard_v1.csv",
+    "roadmap": "C:\\ProcurementIntelligence\\08_business_model\\commercialization_roadmap_v1.md"
+  }
+}

@@ -1,0 +1,7 @@
+checklist_id,item_name,observed_value,target_value,status,created_at
+DEMOCHECK-000001,Demo journey exists,6,6,pass,2026-07-07 11:41:45
+DEMOCHECK-000002,Required demo services available,7,7,pass,2026-07-07 11:41:45
+DEMOCHECK-000003,No missing demo services,0,0,pass,2026-07-07 11:41:45
+DEMOCHECK-000004,Proof points exist,5,5,pass,2026-07-07 11:41:45
+DEMOCHECK-000005,Executive story exists,1,1,pass,2026-07-07 11:41:45
+DEMOCHECK-000006,Deployment package ready,1,1,pass,2026-07-07 11:41:45

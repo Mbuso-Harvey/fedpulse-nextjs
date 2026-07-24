@@ -1,0 +1,12 @@
+engine_id,engine_name,product_name,primary_input,primary_output,status,created_at
+W10-ENG-000001,Semantic Search Index Builder,Semantic Graph Search,semantic_search_index_v1.csv,graph_search_results_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000002,Graph Query Interpreter,Semantic Graph Search,knowledge_graph_json_v1.json,graph_query_results_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000003,Procurement QA Context Builder,Procurement Question Answering,semantic_ai_context_v1.json,qa_context_registry_v1.json,planned,2026-06-29 17:04:15
+W10-ENG-000004,Opportunity Intelligence Builder,Opportunity Intelligence,knowledge_graph_json_v1.json,opportunity_intelligence_cards_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000005,Supplier Capability Matcher,Supplier Intelligence,knowledge_graph_json_v1.json,supplier_capability_matches_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000006,Department Profile Builder,Department Intelligence,knowledge_graph_json_v1.json,department_intelligence_profiles_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000007,Similarity Engine,Similar Opportunity Engine,knowledge_graph_json_v1.json,similarity_results_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000008,Recommendation Engine,Recommendation Engine,knowledge_graph_json_v1.json,recommendations_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000009,Graph Analytics Engine,Graph Analytics,knowledge_graph_json_v1.json,graph_analytics_v1.csv,planned,2026-06-29 17:04:15
+W10-ENG-000010,AI Procurement Analyst Context Engine,AI Procurement Analyst,semantic_ai_context_v1.json,ai_procurement_analyst_context_v1.json,planned,2026-06-29 17:04:15
+W10-ENG-000011,API Contract Builder,Production API,all_intelligence_outputs,api_contract_v1.json,planned,2026-06-29 17:04:15

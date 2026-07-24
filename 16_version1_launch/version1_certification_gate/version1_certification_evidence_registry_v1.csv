@@ -1,0 +1,9 @@
+evidence_id,check_id,check_name,evidence_source,evidence_value,evidence_status,created_at
+V1EVID-000001,V1CHECK-000001,Wave 14 bootstrap certified,Wave 14 Bootstrap,wave14_version1_launch_freeze_bootstrap_certified,pass,2026-07-11 19:57:21
+V1EVID-000002,V1CHECK-000002,Wave 12 launch hardening certified,Wave 12 Closeout,wave12_launch_hardening_certified,pass,2026-07-11 19:57:21
+V1EVID-000003,V1CHECK-000003,Reliability stabilization certified,Wave 13 Reliability,reliability_stabilized,pass,2026-07-11 19:57:21
+V1EVID-000004,V1CHECK-000004,UI/API integration contracts certified,Wave 13 UI/API Integration,ui_api_integration_contracts_ready,pass,2026-07-11 19:57:21
+V1EVID-000005,V1CHECK-000005,Demo environment certified,Wave 13 Demo Environment,demo_environment_ready,pass,2026-07-11 19:57:21
+V1EVID-000006,V1CHECK-000006,Feature freeze preparation certified,Wave 13 Freeze Preparation,wave14_freeze_preparation_ready,pass,2026-07-11 19:57:21
+V1EVID-000007,V1CHECK-000007,Target release version defined,Wave 14 Release Policy,1.0.0,pass,2026-07-11 19:57:21
+V1EVID-000008,V1CHECK-000008,Knowledge graph version locked,Version 1.0 Freeze Scope,KG-1.0,pass,2026-07-11 19:57:21

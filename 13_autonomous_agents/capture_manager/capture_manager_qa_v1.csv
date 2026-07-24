@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+CAPQA-000001,session_rows,1,1,pass,2026-07-03 01:17:42
+CAPQA-000002,strategy_rows,1,1,pass,2026-07-03 01:17:42
+CAPQA-000003,decision_rows,1,1,pass,2026-07-03 01:17:42
+CAPQA-000004,win_theme_rows,6,>= 5,pass,2026-07-03 01:17:42
+CAPQA-000005,action_rows,7,>= 5,pass,2026-07-03 01:17:42
+CAPQA-000006,capture_score,65.11,> 0,pass,2026-07-03 01:17:42

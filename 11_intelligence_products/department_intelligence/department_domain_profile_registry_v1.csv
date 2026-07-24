@@ -1,0 +1,11 @@
+domain_profile_id,department_id,department_name,domain_name,node_count,intensity,key_concepts,created_at
+DEPTDOM-000001,DEPT-000001,Food and Drug Administration,Acquisition Strategy,8,high,Contracting Officer; Food and Drug Administration; Solicitation Number; Request for Information; Combined Synopsis Solicitation; Method of Solicitation; Request for Proposal; Request for Quotation,2026-07-01 01:07:49
+DEPTDOM-000002,DEPT-000001,Food and Drug Administration,Technical Requirements,2,medium,Performance Work Statement; Statement of Work,2026-07-01 01:07:49
+DEPTDOM-000003,DEPT-000001,Food and Drug Administration,Commercial and Pricing,3,medium,Firm Fixed Price; Unit Price; Payment and Invoice,2026-07-01 01:07:49
+DEPTDOM-000004,DEPT-000001,Food and Drug Administration,Evaluation and Source Selection,2,medium,Award Basis; Evaluation Factors,2026-07-01 01:07:49
+DEPTDOM-000005,DEPT-000001,Food and Drug Administration,Supplier Eligibility and Qualifications,2,medium,Past Performance; Small Business Set-Aside,2026-07-01 01:07:49
+DEPTDOM-000006,DEPT-000001,Food and Drug Administration,"Legal, Compliance, and Labor",1,low,FAR and DOSAR Provisions,2026-07-01 01:07:49
+DEPTDOM-000007,DEPT-000001,Food and Drug Administration,Delivery and Logistics,1,low,Place of Performance,2026-07-01 01:07:49
+DEPTDOM-000008,DEPT-000001,Food and Drug Administration,Submission and Proposal Management,2,medium,Solicitation Amendment; Proposal Volume,2026-07-01 01:07:49
+DEPTDOM-000009,DEPT-000001,Food and Drug Administration,Domain-Specific Operations,4,high,National Cemetery Operations; Marine Corps Base Camp Lejeune; United States Army; United States Marine Corps,2026-07-01 01:07:49
+DEPTDOM-000010,DEPT-000001,Food and Drug Administration,Document Structure and Administrative Forms,3,medium,Table of Contents; Amendment Copy Requirement; Proposal Default Index,2026-07-01 01:07:49

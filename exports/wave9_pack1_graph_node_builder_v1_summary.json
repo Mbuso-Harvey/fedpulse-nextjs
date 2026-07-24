@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-06-29 04:12:22",
+  "wave": "Wave 9",
+  "pack": "Pack 1 - Graph Node Builder",
+  "status": "completed",
+  "staging_nodes_input": 30,
+  "kg_nodes_created": 30,
+  "node_index_records": 30,
+  "node_lineage_records": 30,
+  "graph_status_counts": {
+    "graph_ready": 12,
+    "graph_candidate": 18
+  },
+  "node_type_counts": {
+    "Submission Instruction": 1,
+    "Domain Specific Requirement": 1,
+    "Contract Type": 2,
+    "Procurement Role": 1,
+    "Technical Requirement": 2,
+    "Evaluation Method": 1,
+    "Military Installation": 1,
+    "Military Organization": 2,
+    "Regulation Set": 1,
+    "Federal Agency": 1,
+    "Acquisition Metadata": 6,
+    "Pricing Structure": 2,
+    "Evaluation Factor": 1,
+    "Document Structure Object": 1,
+    "Supplier Qualification": 2,
+    "Administrative Service Labor Category": 1,
+    "Proposal Structure": 1,
+    "Delivery Requirement": 1,
+    "Procurement Document Artifact": 1,
+    "Proposal Document Artifact": 1
+  },
+  "domain_counts": {
+    "Submission and Proposal Management": 2,
+    "Domain-Specific Operations": 4,
+    "Commercial and Pricing": 4,
+    "Acquisition Strategy": 8,
+    "Technical Requirements": 2,
+    "Evaluation and Source Selection": 2,
+    "Legal, Compliance, and Labor": 1,
+    "Document Structure and Administrative Forms": 3,
+    "Supplier Eligibility and Qualifications": 2,
+    "Performance and Operations": 1,
+    "Delivery and Logistics": 1
+  },
+  "outputs": {
+    "kg_nodes": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_nodes_v1.csv",
+    "node_index": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_node_index_v1.csv",
+    "node_lineage": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_node_lineage_v1.csv",
+    "qa": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_node_builder_qa_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave9_pack1_graph_node_builder_report_v1.md"
+  },
+  "next_script": "build_wave9_pack2_graph_edge_builder_v1.py"
+}

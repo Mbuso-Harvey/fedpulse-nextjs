@@ -1,0 +1,6 @@
+qa_metric_id,metric_name,metric_value,status,created_at
+W9-P2-QA-000001,nodes_input,30,info,2026-06-29 05:21:45
+W9-P2-QA-000002,deduped_nodes,29,pass,2026-06-29 05:21:45
+W9-P2-QA-000003,node_merge_clusters,1,pass,2026-06-29 05:21:45
+W9-P2-QA-000004,edges_created,44,pass,2026-06-29 05:21:45
+W9-P2-QA-000005,edge_index_records,44,pass,2026-06-29 05:21:45

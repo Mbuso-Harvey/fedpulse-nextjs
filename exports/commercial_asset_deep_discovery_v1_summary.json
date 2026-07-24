@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-06-19 00:31:56",
+  "columns_profiled": 476,
+  "priority_counts": {
+    "high": 222,
+    "medium": 129,
+    "low": 125
+  },
+  "business_asset_class_counts": {
+    "Buyer Intelligence": 66,
+    "Category Market Intelligence": 36,
+    "Relationship Intelligence": 78,
+    "Spend Intelligence": 8,
+    "Supplier Intelligence": 56,
+    "Contract Amendment Intelligence": 20,
+    "Procurement Process Intelligence": 20,
+    "Semantic Intelligence": 24,
+    "Timing Intelligence": 24,
+    "Geographic Intelligence": 14,
+    "Location Intelligence": 16,
+    "Status Intelligence": 12,
+    "Trade Agreement Intelligence": 12,
+    "Limited Tendering Intelligence": 12,
+    "Unclassified Commercial Asset": 74,
+    "Traceability": 4
+  },
+  "outputs": {
+    "commercial_asset_catalog": "C:\\ProcurementIntelligence\\08_business_model\\commercial_asset_catalog_v2.csv",
+    "commercial_asset_report": "C:\\ProcurementIntelligence\\08_business_model\\commercial_asset_catalog_v2.md",
+    "unused_asset_opportunities": "C:\\ProcurementIntelligence\\08_business_model\\unused_asset_opportunities_v1.csv",
+    "hidden_revenue_report": "C:\\ProcurementIntelligence\\08_business_model\\hidden_revenue_opportunities_v1.md"
+  }
+}

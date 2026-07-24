@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-06-24 11:02:16",
+  "precise_evaluation_records_processed": 33,
+  "evaluation_frameworks_created": 15,
+  "framework_evidence_rows": 14,
+  "contradictions_flagged": 3,
+  "framework_type_counts": {
+    "Unknown": 13,
+    "LPTA": 1,
+    "Best Value": 1
+  },
+  "confidence_bands": {
+    "low": 14,
+    "high": 1
+  },
+  "outputs": {
+    "frameworks": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_frameworks_v1.csv",
+    "framework_evidence": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_framework_evidence_v1.csv",
+    "contradictions": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_framework_contradictions_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_framework_builder_report_v1.md"
+  },
+  "next_sprint": "SAM-0007S Importance Relationship Engine"
+}

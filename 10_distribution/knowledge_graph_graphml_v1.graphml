@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="node_type" for="node" attr.name="node_type" attr.type="string"/>
+  <key id="domain_name" for="node" attr.name="domain_name" attr.type="string"/>
+  <key id="confidence" for="node" attr.name="confidence" attr.type="double"/>
+  <key id="relationship_type" for="edge" attr.name="relationship_type" attr.type="string"/>
+  <key id="edge_confidence" for="edge" attr.name="confidence" attr.type="double"/>
+  <graph id="FederalProcurementKnowledgeGraph" edgedefault="directed">
+    <node id="KGNODE2-000001">
+      <data key="node_type">Submission Instruction</data>
+      <data key="domain_name">Submission and Proposal Management</data>
+      <data key="confidence">0.902</data>
+      <data key="label">Solicitation Amendment</data>
+    </node>
+    <node id="KGNODE2-000002">
+      <data key="node_type">Domain Specific Requirement</data>
+      <data key="domain_name">Domain-Specific Operations</data>
+      <data key="confidence">0.89</data>
+      <data key="label">National Cemetery Operations</data>
+    </node>
+    <node id="KGNODE2-000003">
+      <data key="node_type">Contract Type</data>
+      <data key="domain_name">Commercial and Pricing</data>
+      <data key="confidence">0.84</data>
+      <data key="label">Firm Fixed Price</data>
+    </node>
+    <node id="KGNODE2-000004">
+      <data key="node_type">Procurement Role</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.802</data>
+      <data key="label">Contracting Officer</data>
+    </node>
+    <node id="KGNODE2-000005">
+      <data key="node_type">Technical Requirement</data>
+      <data key="domain_name">Technical Requirements</data>
+      <data key="confidence">0.811</data>
+      <data key="label">Performance Work Statement</data>
+    </node>
+    <node id="KGNODE2-000006">
+      <data key="node_type">Evaluation Method</data>
+      <data key="domain_name">Evaluation and Source Selection</data>
+      <data key="confidence">0.82</data>
+      <data key="label">Award Basis</data>
+    </node>
+    <node id="KGNODE2-000007">
+      <data key="node_type">Military Installation</data>
+      <data key="domain_name">Domain-Specific Operations</data>
+      <data key="confidence">0.92</data>
+      <data key="label">Marine Corps Base Camp Lejeune</data>
+    </node>
+    <node id="KGNODE2-000008">
+      <data key="node_type">Military Organization</data>
+      <data key="domain_name">Domain-Specific Operations</data>
+      <data key="confidence">0.82</data>
+      <data key="label">United States Army</data>
+    </node>
+    <node id="KGNODE2-000009">
+      <data key="node_type">Military Organization</data>
+      <data key="domain_name">Domain-Specific Operations</data>
+      <data key="confidence">0.86</data>
+      <data key="label">United States Marine Corps</data>
+    </node>
+    <node id="KGNODE2-000010">
+      <data key="node_type">Regulation Set</data>
+      <data key="domain_name">Legal, Compliance, and Labor</data>
+      <data key="confidence">0.86</data>
+      <data key="label">FAR and DOSAR Provisions</data>
+    </node>
+    <node id="KGNODE2-000011">
+      <data key="node_type">Federal Agency</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.92</data>
+      <data key="label">Food and Drug Administration</data>
+    </node>
+    <node id="KGNODE2-000012">
+      <data key="node_type">Acquisition Metadata</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.777</data>
+      <data key="label">Solicitation Number</data>
+    </node>
+    <node id="KGNODE2-000013">
+      <data key="node_type">Pricing Structure</data>
+      <data key="domain_name">Commercial and Pricing</data>
+      <data key="confidence">0.79</data>
+      <data key="label">Unit Price</data>
+    </node>
+    <node id="KGNODE2-000014">
+      <data key="node_type">Evaluation Factor</data>
+      <data key="domain_name">Evaluation and Source Selection</data>
+      <data key="confidence">0.74</data>
+      <data key="label">Evaluation Factors</data>
+    </node>
+    <node id="KGNODE2-000015">
+      <data key="node_type">Document Structure Object</data>
+      <data key="domain_name">Document Structure and Administrative Forms</data>
+      <data key="confidence">0.704</data>
+      <data key="label">Table of Contents</data>
+    </node>
+    <node id="KGNODE2-000016">
+      <data key="node_type">Supplier Qualification</data>
+      <data key="domain_name">Supplier Eligibility and Qualifications</data>
+      <data key="confidence">0.734</data>
+      <data key="label">Past Performance</data>
+    </node>
+    <node id="KGNODE2-000017">
+      <data key="node_type">Acquisition Metadata</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.761</data>
+      <data key="label">Request for Information</data>
+    </node>
+    <node id="KGNODE2-000018">
+      <data key="node_type">Administrative Service Labor Category</data>
+      <data key="domain_name">Performance and Operations</data>
+      <data key="confidence">0.76</data>
+      <data key="label">Administrative Support and Clerical</data>
+    </node>
+    <node id="KGNODE2-000019">
+      <data key="node_type">Proposal Structure</data>
+      <data key="domain_name">Submission and Proposal Management</data>
+      <data key="confidence">0.719</data>
+      <data key="label">Proposal Volume</data>
+    </node>
+    <node id="KGNODE2-000020">
+      <data key="node_type">Acquisition Metadata</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.769</data>
+      <data key="label">Combined Synopsis Solicitation</data>
+    </node>
+    <node id="KGNODE2-000021">
+      <data key="node_type">Supplier Qualification</data>
+      <data key="domain_name">Supplier Eligibility and Qualifications</data>
+      <data key="confidence">0.706</data>
+      <data key="label">Small Business Set-Aside</data>
+    </node>
+    <node id="KGNODE2-000022">
+      <data key="node_type">Delivery Requirement</data>
+      <data key="domain_name">Delivery and Logistics</data>
+      <data key="confidence">0.74</data>
+      <data key="label">Place of Performance</data>
+    </node>
+    <node id="KGNODE2-000023">
+      <data key="node_type">Acquisition Metadata</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.718</data>
+      <data key="label">Method of Solicitation</data>
+    </node>
+    <node id="KGNODE2-000024">
+      <data key="node_type">Acquisition Metadata</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.743</data>
+      <data key="label">Request for Proposal</data>
+    </node>
+    <node id="KGNODE2-000025">
+      <data key="node_type">Technical Requirement</data>
+      <data key="domain_name">Technical Requirements</data>
+      <data key="confidence">0.727</data>
+      <data key="label">Statement of Work</data>
+    </node>
+    <node id="KGNODE2-000026">
+      <data key="node_type">Procurement Document Artifact</data>
+      <data key="domain_name">Document Structure and Administrative Forms</data>
+      <data key="confidence">0.78</data>
+      <data key="label">Amendment Copy Requirement</data>
+    </node>
+    <node id="KGNODE2-000027">
+      <data key="node_type">Proposal Document Artifact</data>
+      <data key="domain_name">Document Structure and Administrative Forms</data>
+      <data key="confidence">0.72</data>
+      <data key="label">Proposal Default Index</data>
+    </node>
+    <node id="KGNODE2-000028">
+      <data key="node_type">Acquisition Metadata</data>
+      <data key="domain_name">Acquisition Strategy</data>
+      <data key="confidence">0.712</data>
+      <data key="label">Request for Quotation</data>
+    </node>
+    <node id="KGNODE2-000029">
+      <data key="node_type">Pricing Structure</data>
+      <data key="domain_name">Commercial and Pricing</data>
+      <data key="confidence">0.701</data>
+      <data key="label">Payment and Invoice</data>
+    </node>
+    <edge id="KGEDGE-000001" source="KGNODE2-000003" target="KGNODE2-000013">
+      <data key="relationship_type">has_pricing_structure</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000002" source="KGNODE2-000003" target="KGNODE2-000029">
+      <data key="relationship_type">has_pricing_structure</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000003" source="KGNODE2-000006" target="KGNODE2-000014">
+      <data key="relationship_type">uses_evaluation_factor</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000004" source="KGNODE2-000019" target="KGNODE2-000001">
+      <data key="relationship_type">requires_submission_instruction</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000005" source="KGNODE2-000005" target="KGNODE2-000016">
+      <data key="relationship_type">requires_supplier_capability</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000006" source="KGNODE2-000005" target="KGNODE2-000021">
+      <data key="relationship_type">requires_supplier_capability</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000007" source="KGNODE2-000025" target="KGNODE2-000016">
+      <data key="relationship_type">requires_supplier_capability</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000008" source="KGNODE2-000025" target="KGNODE2-000021">
+      <data key="relationship_type">requires_supplier_capability</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000009" source="KGNODE2-000022" target="KGNODE2-000013">
+      <data key="relationship_type">affects_price</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000010" source="KGNODE2-000022" target="KGNODE2-000029">
+      <data key="relationship_type">affects_price</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000011" source="KGNODE2-000004" target="KGNODE2-000001">
+      <data key="relationship_type">issues_or_receives</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000012" source="KGNODE2-000012" target="KGNODE2-000006">
+      <data key="relationship_type">shapes_source_selection</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000013" source="KGNODE2-000017" target="KGNODE2-000006">
+      <data key="relationship_type">shapes_source_selection</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000014" source="KGNODE2-000020" target="KGNODE2-000006">
+      <data key="relationship_type">shapes_source_selection</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000015" source="KGNODE2-000023" target="KGNODE2-000006">
+      <data key="relationship_type">shapes_source_selection</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000016" source="KGNODE2-000024" target="KGNODE2-000006">
+      <data key="relationship_type">shapes_source_selection</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000017" source="KGNODE2-000028" target="KGNODE2-000006">
+      <data key="relationship_type">shapes_source_selection</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000018" source="KGNODE2-000002" target="KGNODE2-000005">
+      <data key="relationship_type">specializes_requirement</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000019" source="KGNODE2-000002" target="KGNODE2-000025">
+      <data key="relationship_type">specializes_requirement</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000020" source="KGNODE2-000012" target="KGNODE2-000001">
+      <data key="relationship_type">defines_submission_context</data>
+      <data key="edge_confidence">0.74</data>
+    </edge>
+    <edge id="KGEDGE-000021" source="KGNODE2-000017" target="KGNODE2-000001">
+      <data key="relationship_type">defines_submission_context</data>
+      <data key="edge_confidence">0.74</data>
+    </edge>
+    <edge id="KGEDGE-000022" source="KGNODE2-000020" target="KGNODE2-000001">
+      <data key="relationship_type">defines_submission_context</data>
+      <data key="edge_confidence">0.74</data>
+    </edge>
+    <edge id="KGEDGE-000023" source="KGNODE2-000023" target="KGNODE2-000001">
+      <data key="relationship_type">defines_submission_context</data>
+      <data key="edge_confidence">0.74</data>
+    </edge>
+    <edge id="KGEDGE-000024" source="KGNODE2-000024" target="KGNODE2-000001">
+      <data key="relationship_type">defines_submission_context</data>
+      <data key="edge_confidence">0.74</data>
+    </edge>
+    <edge id="KGEDGE-000025" source="KGNODE2-000028" target="KGNODE2-000001">
+      <data key="relationship_type">defines_submission_context</data>
+      <data key="edge_confidence">0.74</data>
+    </edge>
+    <edge id="KGEDGE-000026" source="KGNODE2-000022" target="KGNODE2-000013">
+      <data key="relationship_type">affects_pricing</data>
+      <data key="edge_confidence">0.68</data>
+    </edge>
+    <edge id="KGEDGE-000027" source="KGNODE2-000022" target="KGNODE2-000029">
+      <data key="relationship_type">affects_pricing</data>
+      <data key="edge_confidence">0.68</data>
+    </edge>
+    <edge id="KGEDGE-000028" source="KGNODE2-000004" target="KGNODE2-000012">
+      <data key="relationship_type">administers_acquisition</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000029" source="KGNODE2-000004" target="KGNODE2-000017">
+      <data key="relationship_type">administers_acquisition</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000030" source="KGNODE2-000004" target="KGNODE2-000020">
+      <data key="relationship_type">administers_acquisition</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000031" source="KGNODE2-000004" target="KGNODE2-000023">
+      <data key="relationship_type">administers_acquisition</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000032" source="KGNODE2-000004" target="KGNODE2-000024">
+      <data key="relationship_type">administers_acquisition</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000033" source="KGNODE2-000004" target="KGNODE2-000028">
+      <data key="relationship_type">administers_acquisition</data>
+      <data key="edge_confidence">0.72</data>
+    </edge>
+    <edge id="KGEDGE-000034" source="KGNODE2-000004" target="KGNODE2-000001">
+      <data key="relationship_type">issues_or_receives_submission_instruction</data>
+      <data key="edge_confidence">0.7</data>
+    </edge>
+    <edge id="KGEDGE-000035" source="KGNODE2-000011" target="KGNODE2-000012">
+      <data key="relationship_type">uses_acquisition_method</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000036" source="KGNODE2-000011" target="KGNODE2-000017">
+      <data key="relationship_type">uses_acquisition_method</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000037" source="KGNODE2-000011" target="KGNODE2-000020">
+      <data key="relationship_type">uses_acquisition_method</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000038" source="KGNODE2-000011" target="KGNODE2-000023">
+      <data key="relationship_type">uses_acquisition_method</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000039" source="KGNODE2-000011" target="KGNODE2-000024">
+      <data key="relationship_type">uses_acquisition_method</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000040" source="KGNODE2-000011" target="KGNODE2-000028">
+      <data key="relationship_type">uses_acquisition_method</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000041" source="KGNODE2-000011" target="KGNODE2-000002">
+      <data key="relationship_type">has_domain_requirement</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000042" source="KGNODE2-000007" target="KGNODE2-000022">
+      <data key="relationship_type">may_define_place_of_performance</data>
+      <data key="edge_confidence">0.62</data>
+    </edge>
+    <edge id="KGEDGE-000043" source="KGNODE2-000006" target="KGNODE2-000003">
+      <data key="relationship_type">may_result_in_contract_type</data>
+      <data key="edge_confidence">0.66</data>
+    </edge>
+    <edge id="KGEDGE-000044" source="KGNODE2-000005" target="KGNODE2-000025">
+      <data key="relationship_type">specializes</data>
+      <data key="edge_confidence">0.84</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,8 @@
+demo_service_id,service_name,endpoint,required_for_demo,availability_status,created_at
+DEMOSVC-000001,ai_procurement_analyst,/api/v1/analyst,true,available,2026-07-07 11:41:45
+DEMOSVC-000002,graph_analytics,/api/v1/graph/analytics,true,available,2026-07-07 11:41:45
+DEMOSVC-000003,health,/api/v1/health,true,available,2026-07-07 11:41:45
+DEMOSVC-000004,opportunity_intelligence,/api/v1/opportunity/intelligence,true,available,2026-07-07 11:41:45
+DEMOSVC-000005,question_answering,/api/v1/ask,true,available,2026-07-07 11:41:45
+DEMOSVC-000006,recommendations,/api/v1/recommendations,true,available,2026-07-07 11:41:45
+DEMOSVC-000007,semantic_search,/api/v1/search,true,available,2026-07-07 11:41:45

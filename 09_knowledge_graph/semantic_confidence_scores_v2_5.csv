@@ -1,0 +1,37 @@
+confidence_score_id,semantic_object_id,semantic_object_type,canonical_name,domain_name,evidence_count,previous_confidence,final_confidence_score,confidence_band,governance_status,created_at
+SCONF25-000001,SPO2-000001,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,5,0.902,0.902,high,ready_for_scoring,2026-06-28 20:08:49
+SCONF25-000002,SPO2-000002,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,6,0.89,0.89,high,ready_for_scoring,2026-06-28 20:08:49
+SCONF25-000003,SPO2-000003,Acquisition Metadata,Solicitation Number,Acquisition Strategy,1,0.777,0.777,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000004,SPO2-000004,Contract Type,Firm Fixed Price,Commercial and Pricing,1,0.805,0.805,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000005,SPO2-000005,Pricing Structure,Unit Price,Commercial and Pricing,1,0.79,0.79,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000006,SPO2-000006,Procurement Role,Contracting Officer,Acquisition Strategy,1,0.802,0.802,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000007,SPO2-000007,Technical Requirement,Performance Work Statement,Technical Requirements,1,0.811,0.811,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000008,SPO2-000008,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,1,0.74,0.74,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000009,SPO2-000009,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,1,0.704,0.704,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000010,SPO2-000010,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,1,0.734,0.734,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000011,SPO2-000011,Acquisition Metadata,Request for Information,Acquisition Strategy,1,0.761,0.761,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000012,SPO2-000012,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,1,0.76,0.78,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000013,SPO2-000013,Proposal Structure,Proposal Volume,Submission and Proposal Management,1,0.719,0.719,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000014,SPO2-000014,Uninterpreted Expression,Solicitation Metadata,,1,0.428,0.428,low,needs_review,2026-06-28 20:08:49
+SCONF25-000015,SPO2-000015,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,2,0.769,0.769,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000016,SPO2-000016,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,1,0.706,0.706,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000017,SPO2-000017,Uninterpreted Expression,Amendments Of Solicitations,,1,0.45,0.45,low,needs_review,2026-06-28 20:08:49
+SCONF25-000018,SPO2-000018,Delivery Requirement,Place of Performance,Delivery and Logistics,1,0.74,0.74,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000019,SPO2-000019,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,1,0.718,0.718,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000020,SPO2-000020,Acquisition Metadata,Request for Proposal,Acquisition Strategy,1,0.743,0.743,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000021,SPO2-000021,Technical Requirement,Statement of Work,Technical Requirements,1,0.727,0.727,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000022,SPO2-000022,Award Phrase,Award Will Be Made,Evaluation and Source Selection,1,0.82,0.84,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000023,SPO2-000023,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,1,0.92,0.94,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000024,SPO2-000024,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,1,0.92,0.94,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000025,SPO2-000025,Military Organization,United States Army,Domain-Specific Operations,1,0.82,0.84,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000026,SPO2-000026,Contract Type Fragment,Award a Firm Fixed Price Contract,Commercial and Pricing,1,0.84,0.86,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000027,SPO2-000027,Award Phrase,Award Will Be Made,Evaluation and Source Selection,1,0.82,0.84,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000028,SPO2-000028,Military Organization,United States Army,Domain-Specific Operations,1,0.82,0.84,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000029,SPO2-000029,Military Organization,United States Marine Corps,Domain-Specific Operations,1,0.86,0.88,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000030,SPO2-000030,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,1,0.78,0.8,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000031,SPO2-000031,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",1,0.86,0.88,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000032,SPO2-000032,Federal Agency,Food and Drug Administration,Acquisition Strategy,1,0.92,0.94,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000033,SPO2-000033,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,1,0.72,0.74,medium,entity_recognized,2026-06-28 20:08:49
+SCONF25-000034,SPO2-000034,Military Organization,United States Marine Corps,Domain-Specific Operations,1,0.86,0.88,high,entity_recognized,2026-06-28 20:08:49
+SCONF25-000035,SPO2-000035,Acquisition Metadata,Request for Quotation,Acquisition Strategy,1,0.712,0.712,medium,review_recommended,2026-06-28 20:08:49
+SCONF25-000036,SPO2-000036,Pricing Structure,Payment and Invoice,Commercial and Pricing,1,0.701,0.701,medium,review_recommended,2026-06-28 20:08:49

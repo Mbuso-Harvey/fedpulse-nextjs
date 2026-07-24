@@ -1,0 +1,8 @@
+view_id,view_name,view_description,service_name,endpoint,priority,status,created_at
+UIVIEW-000001,Dashboard Home,"Executive launch dashboard showing readiness, demo path, and key decision outputs.",health,/api/v1/health,critical,planned,2026-07-08 17:38:01
+UIVIEW-000002,Search,Semantic procurement search interface.,semantic_search,/api/v1/search,critical,planned,2026-07-08 17:38:01
+UIVIEW-000003,Ask,Question answering interface for graph-backed procurement answers.,question_answering,/api/v1/ask,critical,planned,2026-07-08 17:38:01
+UIVIEW-000004,Opportunity Intelligence,"Opportunity complexity, readiness, risks, and recommendations.",opportunity_intelligence,/api/v1/opportunity/intelligence,critical,planned,2026-07-08 17:38:01
+UIVIEW-000005,Recommendations,Ranked recommendations and evidence-backed next actions.,recommendations,/api/v1/recommendations,high,planned,2026-07-08 17:38:01
+UIVIEW-000006,AI Analyst,AI procurement analyst assessment and executive explanation.,ai_procurement_analyst,/api/v1/analyst,high,planned,2026-07-08 17:38:01
+UIVIEW-000007,Graph Analytics,"Graph analytics summary for influence, clusters, and procurement concept structure.",graph_analytics,/api/v1/graph/analytics,medium,planned,2026-07-08 17:38:01

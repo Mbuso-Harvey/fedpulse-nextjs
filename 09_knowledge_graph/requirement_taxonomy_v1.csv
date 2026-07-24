@@ -1,0 +1,93 @@
+taxonomy_id,family,category,canonical_name,aliases,status,created_at
+TAX-000001,certification,cybersecurity,ISO 27001,ISO27001;ISO-27001;ISO/IEC 27001,approved,2026-06-22 00:03:57
+TAX-000002,certification,quality,ISO 9001,ISO9001;ISO-9001,approved,2026-06-22 00:03:57
+TAX-000003,certification,service_management,ISO 20000,ISO20000;ISO-20000,approved,2026-06-22 00:03:57
+TAX-000004,certification,business_continuity,ISO 22301,ISO22301;ISO-22301,approved,2026-06-22 00:03:57
+TAX-000005,certification,security_assurance,SOC 2,SOC2;SOC-2,approved,2026-06-22 00:03:57
+TAX-000006,certification,federal_cloud,FedRAMP,FedRAMP Moderate;FedRAMP High,approved,2026-06-22 00:03:57
+TAX-000007,certification,cybersecurity,NIST SP 800-171,800-171;NIST 800-171,approved,2026-06-22 00:03:57
+TAX-000008,certification,cybersecurity,NIST Cybersecurity Framework,NIST CSF,approved,2026-06-22 00:03:57
+TAX-000009,certification,cybersecurity,CMMC,Cybersecurity Maturity Model Certification,approved,2026-06-22 00:03:57
+TAX-000010,certification,project_management,PMP,Project Management Professional,approved,2026-06-22 00:03:57
+TAX-000011,certification,service_management,ITIL,,approved,2026-06-22 00:03:57
+TAX-000012,certification,security,CISSP,,approved,2026-06-22 00:03:57
+TAX-000013,certification,security,CompTIA Security+,Security+,approved,2026-06-22 00:03:57
+TAX-000014,clearance,security,Public Trust,,approved,2026-06-22 00:03:57
+TAX-000015,clearance,security,Secret Clearance,,approved,2026-06-22 00:03:57
+TAX-000016,clearance,security,Top Secret Clearance,,approved,2026-06-22 00:03:57
+TAX-000017,clearance,security,TS/SCI,,approved,2026-06-22 00:03:57
+TAX-000018,clearance,security,Facility Clearance,,approved,2026-06-22 00:03:57
+TAX-000019,clearance,security,Personnel Clearance,,approved,2026-06-22 00:03:57
+TAX-000020,clearance,security,Background Investigation,,approved,2026-06-22 00:03:57
+TAX-000021,clearance,security,CUI Access,,approved,2026-06-22 00:03:57
+TAX-000022,staffing_role,labor_category,Program Manager,,approved,2026-06-22 00:03:57
+TAX-000023,staffing_role,labor_category,Project Manager,,approved,2026-06-22 00:03:57
+TAX-000024,staffing_role,labor_category,Contract Manager,,approved,2026-06-22 00:03:57
+TAX-000025,staffing_role,labor_category,Site Manager,,approved,2026-06-22 00:03:57
+TAX-000026,staffing_role,labor_category,Technical Lead,,approved,2026-06-22 00:03:57
+TAX-000027,staffing_role,labor_category,Systems Engineer,,approved,2026-06-22 00:03:57
+TAX-000028,staffing_role,labor_category,Cybersecurity Engineer,,approved,2026-06-22 00:03:57
+TAX-000029,staffing_role,labor_category,Cloud Architect,,approved,2026-06-22 00:03:57
+TAX-000030,staffing_role,labor_category,Business Analyst,,approved,2026-06-22 00:03:57
+TAX-000031,staffing_role,labor_category,Trainer,,approved,2026-06-22 00:03:57
+TAX-000032,staffing_role,labor_category,Quality Manager,,approved,2026-06-22 00:03:57
+TAX-000033,staffing_role,labor_category,Network Engineer,,approved,2026-06-22 00:03:57
+TAX-000034,staffing_role,labor_category,Help Desk Specialist,,approved,2026-06-22 00:03:57
+TAX-000035,staffing_role,labor_category,Database Administrator,,approved,2026-06-22 00:03:57
+TAX-000036,evaluation_factor,source_selection,Technical Capability,,approved,2026-06-22 00:03:57
+TAX-000037,evaluation_factor,source_selection,Past Performance,,approved,2026-06-22 00:03:57
+TAX-000038,evaluation_factor,source_selection,Price,,approved,2026-06-22 00:03:57
+TAX-000039,evaluation_factor,source_selection,Management Approach,,approved,2026-06-22 00:03:57
+TAX-000040,evaluation_factor,source_selection,Staffing Approach,,approved,2026-06-22 00:03:57
+TAX-000041,evaluation_factor,source_selection,Corporate Experience,,approved,2026-06-22 00:03:57
+TAX-000042,evaluation_factor,source_selection,Risk,,approved,2026-06-22 00:03:57
+TAX-000043,evaluation_factor,source_selection,Compliance,,approved,2026-06-22 00:03:57
+TAX-000044,evaluation_factor,source_selection,Best Value,,approved,2026-06-22 00:03:57
+TAX-000045,evaluation_factor,source_selection,Lowest Price Technically Acceptable,,approved,2026-06-22 00:03:57
+TAX-000046,proposal_component,proposal_structure,Administrative Proposal,,approved,2026-06-22 00:03:57
+TAX-000047,proposal_component,proposal_structure,Technical Proposal,,approved,2026-06-22 00:03:57
+TAX-000048,proposal_component,proposal_structure,Past Performance Volume,,approved,2026-06-22 00:03:57
+TAX-000049,proposal_component,proposal_structure,Price Proposal,,approved,2026-06-22 00:03:57
+TAX-000050,proposal_component,proposal_structure,Contract Documentation,,approved,2026-06-22 00:03:57
+TAX-000051,proposal_component,proposal_structure,Executive Summary,,approved,2026-06-22 00:03:57
+TAX-000052,proposal_component,proposal_structure,Transition Plan,,approved,2026-06-22 00:03:57
+TAX-000053,proposal_component,proposal_structure,Management Plan,,approved,2026-06-22 00:03:57
+TAX-000054,proposal_component,proposal_structure,Staffing Plan,,approved,2026-06-22 00:03:57
+TAX-000055,contract_vehicle,procurement_vehicle,IDIQ,,approved,2026-06-22 00:03:57
+TAX-000056,contract_vehicle,procurement_vehicle,BPA,,approved,2026-06-22 00:03:57
+TAX-000057,contract_vehicle,procurement_vehicle,GWAC,,approved,2026-06-22 00:03:57
+TAX-000058,contract_vehicle,procurement_vehicle,MAS,,approved,2026-06-22 00:03:57
+TAX-000059,contract_vehicle,procurement_vehicle,GSA Schedule,,approved,2026-06-22 00:03:57
+TAX-000060,contract_vehicle,procurement_vehicle,SEWP,,approved,2026-06-22 00:03:57
+TAX-000061,contract_vehicle,procurement_vehicle,OASIS,,approved,2026-06-22 00:03:57
+TAX-000062,contract_vehicle,procurement_vehicle,MAPS,,approved,2026-06-22 00:03:57
+TAX-000063,contract_vehicle,procurement_vehicle,MAC,,approved,2026-06-22 00:03:57
+TAX-000064,deliverable,contract_deliverable,Quality Control Plan,,approved,2026-06-22 00:03:57
+TAX-000065,deliverable,contract_deliverable,Risk Register,,approved,2026-06-22 00:03:57
+TAX-000066,deliverable,contract_deliverable,Monthly Status Report,,approved,2026-06-22 00:03:57
+TAX-000067,deliverable,contract_deliverable,Transition Plan,,approved,2026-06-22 00:03:57
+TAX-000068,deliverable,contract_deliverable,Training Plan,,approved,2026-06-22 00:03:57
+TAX-000069,deliverable,contract_deliverable,Cybersecurity Plan,,approved,2026-06-22 00:03:57
+TAX-000070,deliverable,contract_deliverable,Staffing Plan,,approved,2026-06-22 00:03:57
+TAX-000071,deliverable,contract_deliverable,Performance Report,,approved,2026-06-22 00:03:57
+TAX-000072,deliverable,contract_deliverable,Technical Report,,approved,2026-06-22 00:03:57
+TAX-000073,experience_requirement,experience,3 Years Experience,,approved,2026-06-22 00:03:57
+TAX-000074,experience_requirement,experience,5 Years Experience,,approved,2026-06-22 00:03:57
+TAX-000075,experience_requirement,experience,10 Years Experience,,approved,2026-06-22 00:03:57
+TAX-000076,experience_requirement,experience,Relevant Experience,,approved,2026-06-22 00:03:57
+TAX-000077,experience_requirement,experience,Similar Scope,,approved,2026-06-22 00:03:57
+TAX-000078,experience_requirement,experience,Similar Complexity,,approved,2026-06-22 00:03:57
+TAX-000079,experience_requirement,experience,Federal Experience,,approved,2026-06-22 00:03:57
+TAX-000080,experience_requirement,experience,State Experience,,approved,2026-06-22 00:03:57
+TAX-000081,procurement_method,acquisition_strategy,Open Competition,,approved,2026-06-22 00:03:57
+TAX-000082,procurement_method,acquisition_strategy,Sole Source,,approved,2026-06-22 00:03:57
+TAX-000083,procurement_method,acquisition_strategy,Limited Tendering,,approved,2026-06-22 00:03:57
+TAX-000084,procurement_method,acquisition_strategy,Set Aside,,approved,2026-06-22 00:03:57
+TAX-000085,procurement_method,acquisition_strategy,Best Value,,approved,2026-06-22 00:03:57
+TAX-000086,procurement_method,acquisition_strategy,Lowest Price Technically Acceptable,,approved,2026-06-22 00:03:57
+TAX-000087,compliance_clause,regulatory,FAR,,approved,2026-06-22 00:03:57
+TAX-000088,compliance_clause,regulatory,DFARS,,approved,2026-06-22 00:03:57
+TAX-000089,compliance_clause,regulatory,Section 889,,approved,2026-06-22 00:03:57
+TAX-000090,compliance_clause,regulatory,Service Contract Act,,approved,2026-06-22 00:03:57
+TAX-000091,compliance_clause,regulatory,Davis Bacon Act,,approved,2026-06-22 00:03:57
+TAX-000092,compliance_clause,regulatory,OSHA,,approved,2026-06-22 00:03:57

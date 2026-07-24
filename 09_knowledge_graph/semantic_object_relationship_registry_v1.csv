@@ -1,0 +1,11 @@
+semantic_relationship_id,source_object_type,target_object_type,relationship_type,status,created_at
+SOR-000001,Contract Type,Pricing Structure,has_pricing_structure,proposed,2026-06-27 21:23:24
+SOR-000002,Evaluation Method,Evaluation Factor,uses_evaluation_factor,proposed,2026-06-27 21:23:24
+SOR-000003,Proposal Structure,Submission Instruction,requires_submission_instruction,proposed,2026-06-27 21:23:24
+SOR-000004,Technical Requirement,Supplier Qualification,requires_supplier_capability,proposed,2026-06-27 21:23:24
+SOR-000005,Performance Requirement,Supplier Qualification,requires_supplier_capability,proposed,2026-06-27 21:23:24
+SOR-000006,Delivery Requirement,Pricing Structure,affects_price,proposed,2026-06-27 21:23:24
+SOR-000007,Compliance Requirement,Supplier Qualification,affects_supplier_eligibility,proposed,2026-06-27 21:23:24
+SOR-000008,Procurement Role,Submission Instruction,issues_or_receives,proposed,2026-06-27 21:23:24
+SOR-000009,Acquisition Metadata,Evaluation Method,shapes_source_selection,proposed,2026-06-27 21:23:24
+SOR-000010,Domain Specific Requirement,Technical Requirement,specializes_requirement,proposed,2026-06-27 21:23:24

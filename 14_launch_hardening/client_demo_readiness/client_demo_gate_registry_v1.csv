@@ -1,0 +1,2 @@
+gate_id,demo_gate,journey_steps,available_demo_services,missing_demo_services,proof_points,checklist_pass,checklist_fail,created_at
+DEMOGATE-000001,client_demo_ready,6,7,0,5,6,0,2026-07-07 11:41:45

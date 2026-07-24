@@ -1,0 +1,6 @@
+control_id,control_title,observed_value,target_value,status,created_at
+RELCTRL-000001,All required artifacts available,10,10,pass,2026-07-08 11:45:11
+RELCTRL-000002,No missing artifacts,0,0,pass,2026-07-08 11:45:11
+RELCTRL-000003,All reliability checks passed,10,10,pass,2026-07-08 11:45:11
+RELCTRL-000004,No reliability check failures,0,0,pass,2026-07-08 11:45:11
+RELCTRL-000005,No critical failures,0,0,pass,2026-07-08 11:45:11

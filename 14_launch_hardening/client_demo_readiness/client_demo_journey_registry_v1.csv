@@ -1,0 +1,7 @@
+journey_step_id,step_order,step_title,step_description,demo_area,status,created_at
+DEMOJOURNEY-000001,1,Open with business problem,"Show that procurement teams lose time connecting opportunity, supplier, pricing, compliance, and bid decisions.",executive_story,ready,2026-07-07 11:41:45
+DEMOJOURNEY-000002,2,Run semantic search,Demonstrate search across procurement concepts instead of keyword-only lookup.,semantic_search,ready,2026-07-07 11:41:45
+DEMOJOURNEY-000003,3,Ask procurement question,Show graph-backed answers with evidence and explainability.,question_answering,ready,2026-07-07 11:41:45
+DEMOJOURNEY-000004,4,Show opportunity intelligence,"Demonstrate opportunity complexity, bid readiness, risks, and recommendations.",opportunity_intelligence,ready,2026-07-07 11:41:45
+DEMOJOURNEY-000005,5,Show agent decision chain,"Walk through capture, supplier, compliance, pricing, proposal, and executive decision outputs.",agent_layer,ready,2026-07-07 11:41:45
+DEMOJOURNEY-000006,6,Close with executive decision,Show partner/restructure recommendation and explain why the system did not blindly say go.,executive_decision,ready,2026-07-07 11:41:45

@@ -1,0 +1,2 @@
+gate_id,gate_decision,controls_pass,controls_fail,checklist_closed,checklist_blocked,checklist_open,critical_blockers,human_launch_approval_required,created_at
+PRODGATE-000001,production_ready,7,0,6,0,0,0,true,2026-07-05 09:11:36

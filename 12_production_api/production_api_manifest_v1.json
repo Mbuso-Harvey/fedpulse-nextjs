@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-07-02 17:38:10",
+  "api_name": "Procurement Intelligence Production API",
+  "api_version": "v1",
+  "graph_version": "KG-1.0",
+  "product_version": "1.0.0",
+  "status": "production_api_ready",
+  "endpoints": [
+    {
+      "service_name": "semantic_search",
+      "method": "POST",
+      "route": "/api/v1/search",
+      "description": "Semantic graph search endpoint",
+      "record_count": 77,
+      "status": "active"
+    },
+    {
+      "service_name": "question_answering",
+      "method": "POST",
+      "route": "/api/v1/ask",
+      "description": "Graph-backed procurement question answering endpoint",
+      "record_count": 8,
+      "status": "active"
+    },
+    {
+      "service_name": "opportunity_intelligence",
+      "method": "POST",
+      "route": "/api/v1/opportunity/intelligence",
+      "description": "Opportunity intelligence endpoint",
+      "record_count": 1,
+      "status": "active"
+    },
+    {
+      "service_name": "supplier_intelligence",
+      "method": "POST",
+      "route": "/api/v1/supplier/intelligence",
+      "description": "Supplier fit and readiness endpoint",
+      "record_count": 1,
+      "status": "active"
+    },
+    {
+      "service_name": "department_intelligence",
+      "method": "POST",
+      "route": "/api/v1/department/intelligence",
+      "description": "Department buying profile endpoint",
+      "record_count": 1,
+      "status": "active"
+    },
+    {
+      "service_name": "similar_opportunities",
+      "method": "POST",
+      "route": "/api/v1/opportunity/similar",
+      "description": "Similar opportunity matching endpoint",
+      "record_count": 4,
+      "status": "active"
+    },
+    {
+      "service_name": "recommendations",
+      "method": "POST",
+      "route": "/api/v1/recommendations",
+      "description": "Action recommendation endpoint",
+      "record_count": 9,
+      "status": "active"
+    },
+    {
+      "service_name": "graph_analytics",
+      "method": "GET",
+      "route": "/api/v1/graph/analytics",
+      "description": "Graph analytics endpoint",
+      "record_count": 1,
+      "status": "active"
+    },
+    {
+      "service_name": "ai_procurement_analyst",
+      "method": "POST",
+      "route": "/api/v1/analyst",
+      "description": "AI Procurement Analyst endpoint",
+      "record_count": 1,
+      "status": "active"
+    },
+    {
+      "service_name": "health",
+      "method": "GET",
+      "route": "/api/v1/health",
+      "description": "API health check endpoint",
+      "record_count": 1,
+      "status": "active"
+    }
+  ],
+  "contracts": {
+    "request": {
+      "format": "application/json",
+      "required_fields": [
+        "query_or_entity"
+      ],
+      "optional_fields": [
+        "filters",
+        "limit",
+        "include_explainability"
+      ]
+    },
+    "response": {
+      "format": "application/json",
+      "required_fields": [
+        "status",
+        "graph_version",
+        "product_version",
+        "data",
+        "lineage",
+        "explainability"
+      ]
+    }
+  },
+  "security": {
+    "auth_required": true,
+    "rate_limited": true,
+    "audit_logging": true
+  }
+}

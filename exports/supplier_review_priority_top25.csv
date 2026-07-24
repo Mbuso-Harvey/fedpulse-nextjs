@@ -1,0 +1,26 @@
+supplier_master_id,supplier_master_name,match_status,contract_count,total_contract_value,example_raw_supplier_names,recommended_action,priority,review_status,decision,approved_supplier_master_id,approved_supplier_master_name,review_notes,priority_score
+SUP0F5BE6916604,Jht Defense Inc,review_multiple_stripped_name_matches_best_count,2002,41015584.0,Jht Defense,review_possible_alias_merge,high,open,,,,,20061.02
+SUP62FF5F2CAEFD,Cossette Media,review_multiple_stripped_name_matches_best_count,1953,384317721.0,Cossette Communication,review_possible_alias_merge,high,open,,,,,19914.32
+SUP7EB15268CEF2,IBM Canada Ltd,review_multiple_stripped_name_matches_best_count,585,10677522710.19,IBM CANADA,review_possible_alias_merge,high,open,,,,,16527.52
+SUP837A8A84DD0F,General Dynamics Ordnance And Tactical Systems - Canada Inc,review_multiple_stripped_name_matches_best_count,964,6344274624.78,General Dynamics Ordnance And Tactical Systems,review_possible_alias_merge,high,open,,,,,15984.27
+SUP993D5C88D0E4,Unisource Technology Inc,review_multiple_stripped_name_matches_best_count,1499,156382915.36,Unisource Technology,review_possible_alias_merge,high,open,,,,,15146.38
+SUP0BC7DBDE11AF,Shell Canada Products,review_multiple_stripped_name_matches_best_count,584,9278598901.19,Shell Products,review_possible_alias_merge,high,open,,,,,15118.6
+SUPFADF0B0D5D46,Adobe Systems Inc,review_multiple_stripped_name_matches_best_count,1227,174096518.0,Adobe Systems,review_possible_alias_merge,high,open,,,,,12444.1
+SUP808CF8EF6A61,Snc-lavalin Profac Inc,review_multiple_stripped_name_matches_best_count,26,11633735268.0,Snc Lavalin Profac,review_possible_alias_merge,high,open,,,,,11893.74
+SUP75D143E145A7,Esri Canada Ltd,review_multiple_stripped_name_matches_best_count,1122,289949387.24,Esri,review_possible_alias_merge,high,open,,,,,11509.95
+SUP7B9EED35D8F1,Fca Canada Inc,review_multiple_stripped_name_matches_best_count,994,266363492.0,Fca,review_possible_alias_merge,high,open,,,,,10206.36
+SUPDBF9B067E3FF,General Motors OF Canada Ltd,review_multiple_stripped_name_matches_best_count,886,611824281.0,General Motors Of,review_possible_alias_merge,high,open,,,,,9471.82
+SUP65BDB1662195,Babcock Canada Inc,review_multiple_stripped_name_matches_best_count,16,8665786405.0,Babcock,review_possible_alias_merge,medium,open,,,,,8825.79
+SUPF6DC17CD0F31,ADGA Group Consultants Inc,review_multiple_stripped_name_matches_best_count,287,5535646448.91,Adga Group Consultants,review_possible_alias_merge,high,open,,,,,8405.65
+SUP9B12818D62E0,Chantier Davie Canada Inc,review_multiple_stripped_name_matches_best_count,25,7540114424.0,CHANTIER DAVIE CANADA,review_possible_alias_merge,high,open,,,,,7790.11
+SUP723A9699E6A7,Lockheed Martin Canada Inc,review_multiple_stripped_name_matches_best_count,258,4743686805.17,LOCKHEED MARTIN CANADA,review_possible_alias_merge,high,open,,,,,7323.69
+SUPB4E3E6EEEFFE,Chevron Canada Ltd,review_multiple_stripped_name_matches_best_count,334,3539602773.0,Chevron,review_possible_alias_merge,high,open,,,,,6879.6
+SUP9405CBBB6C96,Vancouver Shipyards CO Ltd,review_multiple_stripped_name_matches_best_count,42,6448188784.0,VANCOUVER SHIPYARDS,review_possible_alias_merge,high,open,,,,,6868.19
+SUP71325FB552FC,S I Systems Ltd,review_multiple_stripped_name_matches_best_count,371,2861335028.17,S I Systems,review_possible_alias_merge,high,open,,,,,6571.34
+SUPA5A029E0C827,Woodwards Oil Ltd,review_multiple_stripped_name_matches_best_count,278,3351039505.6,Woodward S Oil,review_possible_alias_merge,high,open,,,,,6131.04
+SUP200459ED609F,United Van Lines (canada) Ltd,review_multiple_stripped_name_matches_best_count,21,5830057767.44,United Van Lines,review_possible_alias_merge,medium,open,,,,,6040.06
+SUP2183C42B396A,Sanofi Pasteur Ltd/sanofi Pasteur Limitee,review_multiple_stripped_name_matches_best_count,85,4929347873.03,Sanofi Pasteur Sanofi Pasteur,review_possible_alias_merge,high,open,,,,,5779.35
+SUPNAME1800D2341480,PWC / PRICEWATERHOUSECOOPERS,low_synthetic_name_only,300,2772955760.95,PWC / PRICEWATERHOUSECOOPERS,review_create_or_link_master_supplier,medium,open,,,,,5772.96
+SUP4166C906C9A8,Valcom Consulting Group Inc,review_multiple_stripped_name_matches_best_count,494,819196841.78,Valcom Consulting Group,review_possible_alias_merge,high,open,,,,,5759.2
+SUP9746C6EA61DB,Hewlett-packard (canada) CO Hewlett-packard (canada) Cie,review_multiple_stripped_name_matches_best_count,436,1388125162.0,Hewlett Packard Hewlett Packard Cie,review_possible_alias_merge,high,open,,,,,5748.13
+SUP99A652AD9354,Orenda Aerospace Corporation,review_multiple_stripped_name_matches_best_count,141,4121633584.22,Magellan Aerospace | Orenda Aerospace,review_possible_alias_merge,high,open,,,,,5531.63

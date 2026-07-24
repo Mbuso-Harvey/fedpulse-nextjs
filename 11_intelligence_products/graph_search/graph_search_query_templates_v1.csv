@@ -1,0 +1,9 @@
+query_template_id,template_name,example_query,description,status,created_at
+GSTPL-000001,contract type search,firm fixed price contracts,Find contract type concepts and connected pricing/evaluation context.,active,2026-06-29 22:06:49
+GSTPL-000002,evaluation search,evaluation factors and award basis,"Find evaluation methods, evaluation factors, and related source-selection nodes.",active,2026-06-29 22:06:49
+GSTPL-000003,technical requirement search,performance work statement requirements,Find technical requirement concepts and related supplier qualifications.,active,2026-06-29 22:06:49
+GSTPL-000004,supplier qualification search,past performance and small business set-aside,Find supplier qualification concepts.,active,2026-06-29 22:06:49
+GSTPL-000005,agency search,food and drug administration acquisition methods,Find agency concepts and related acquisition methods.,active,2026-06-29 22:06:49
+GSTPL-000006,delivery search,place of performance and pricing,Find delivery and logistics concepts connected to pricing.,active,2026-06-29 22:06:49
+GSTPL-000007,compliance search,FAR DOSAR provisions,Find compliance and regulation concepts.,active,2026-06-29 22:06:49
+GSTPL-000008,proposal search,proposal volume solicitation amendment,Find proposal/submission concepts.,active,2026-06-29 22:06:49

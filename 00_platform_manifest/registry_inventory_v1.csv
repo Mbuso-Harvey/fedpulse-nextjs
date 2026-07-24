@@ -1,0 +1,13 @@
+registry_id,registry_name,status,description,created_at
+REG-000001,semantic_pattern_library_filtered_v1.csv,existing,Filtered semantic patterns from SAM-0008AA,2026-06-28 00:24:41
+REG-000002,semantic_alias_candidates_filtered_v1.csv,existing,Filtered semantic aliases from SAM-0008AA,2026-06-28 00:24:41
+REG-000003,semantic_pattern_registry_alignment_v1.csv,existing,Registry alignment outputs from SAM-0008AB,2026-06-28 00:24:41
+REG-000004,semantic_procurement_object_registry_v1.csv,existing,Initial PSOP object registry from SAM-0008ABA,2026-06-28 00:24:41
+REG-000005,semantic_object_type_registry_v1.csv,existing,Semantic object type registry,2026-06-28 00:24:41
+REG-000006,official_procurement_registry_v2.csv,existing,Official PKV-1.2 procurement registry,2026-06-28 00:24:41
+REG-000007,procurement_domain_ontology_v1.csv,existing,Procurement domain ontology,2026-06-28 00:24:41
+REG-000008,consolidated_procurement_expressions_v1.csv,planned,Wave 8B consolidated expression layer,2026-06-28 00:24:41
+REG-000009,canonical_procurement_expressions_v2.csv,planned,Wave 8B canonical expression layer,2026-06-28 00:24:41
+REG-000010,semantic_procurement_object_registry_v2.csv,planned,Wave 8B upgraded semantic object registry,2026-06-28 00:24:41
+REG-000011,semantic_confidence_scores_v1.csv,planned,Evidence-weighted semantic confidence scores,2026-06-28 00:24:41
+REG-000012,semantic_object_scores_v1.csv,planned,Final semantic object scores,2026-06-28 00:24:41

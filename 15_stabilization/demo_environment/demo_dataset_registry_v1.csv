@@ -1,0 +1,3 @@
+dataset_id,dataset_name,dataset_description,dataset_type,status,created_at
+DEMODATA-000001,Certified Procurement Intelligence Demo Data,"Uses certified opportunity, supplier, recommendation, analyst, and executive-decision artifacts generated before Wave 13.",certified_internal_demo,ready,2026-07-08 21:03:30
+DEMODATA-000002,Release Candidate Registry Set,"Uses release candidate registries from the production API, agent layer, launch hardening, and stabilization outputs.",release_candidate_artifacts,ready,2026-07-08 21:03:30

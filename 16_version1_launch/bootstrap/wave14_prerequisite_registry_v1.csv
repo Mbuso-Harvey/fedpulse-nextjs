@@ -1,0 +1,7 @@
+prerequisite_id,prerequisite_name,observed_status,expected_status,status,created_at
+W14PREREQ-000001,Wave 12 launch hardening certified,wave12_launch_hardening_certified,wave12_launch_hardening_certified,pass,2026-07-10 04:56:49
+W14PREREQ-000002,Wave 13 stabilization bootstrap certified,wave13_stabilization_bootstrap_certified,wave13_stabilization_bootstrap_certified,pass,2026-07-10 04:56:49
+W14PREREQ-000003,Reliability stabilization certified,reliability_stabilized,reliability_stabilized,pass,2026-07-10 04:56:49
+W14PREREQ-000004,UI/API integration contracts certified,ui_api_integration_contracts_ready,ui_api_integration_contracts_ready,pass,2026-07-10 04:56:49
+W14PREREQ-000005,Demo environment certified,demo_environment_ready,demo_environment_ready,pass,2026-07-10 04:56:49
+W14PREREQ-000006,Wave 14 freeze preparation ready,wave14_freeze_preparation_ready,wave14_freeze_preparation_ready,pass,2026-07-10 04:56:49

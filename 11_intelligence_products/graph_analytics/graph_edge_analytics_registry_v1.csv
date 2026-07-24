@@ -1,0 +1,45 @@
+edge_analytics_id,edge_id,source_node_id,source_node_name,target_node_id,target_node_name,relationship_type,confidence,source_degree,target_degree,bridge_score,bridge_band,created_at
+GEDGEANA-000001,KGEDGE-000001,KGNODE2-000003,Firm Fixed Price,KGNODE2-000013,Unit Price,has_pricing_structure,0.72,3,3,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000002,KGEDGE-000002,KGNODE2-000003,Firm Fixed Price,KGNODE2-000029,Payment and Invoice,has_pricing_structure,0.72,3,3,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000003,KGEDGE-000003,KGNODE2-000006,Award Basis,KGNODE2-000014,Evaluation Factors,uses_evaluation_factor,0.72,8,1,0.5,medium,2026-07-01 20:51:37
+GEDGEANA-000004,KGEDGE-000004,KGNODE2-000019,Proposal Volume,KGNODE2-000001,Solicitation Amendment,requires_submission_instruction,0.72,1,9,0.5556,medium,2026-07-01 20:51:37
+GEDGEANA-000005,KGEDGE-000005,KGNODE2-000005,Performance Work Statement,KGNODE2-000016,Past Performance,requires_supplier_capability,0.72,4,2,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000006,KGEDGE-000006,KGNODE2-000005,Performance Work Statement,KGNODE2-000021,Small Business Set-Aside,requires_supplier_capability,0.72,4,2,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000007,KGEDGE-000007,KGNODE2-000025,Statement of Work,KGNODE2-000016,Past Performance,requires_supplier_capability,0.72,4,2,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000008,KGEDGE-000008,KGNODE2-000025,Statement of Work,KGNODE2-000021,Small Business Set-Aside,requires_supplier_capability,0.72,4,2,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000009,KGEDGE-000009,KGNODE2-000022,Place of Performance,KGNODE2-000013,Unit Price,affects_price,0.72,5,3,0.4444,medium,2026-07-01 20:51:37
+GEDGEANA-000010,KGEDGE-000010,KGNODE2-000022,Place of Performance,KGNODE2-000029,Payment and Invoice,affects_price,0.72,5,3,0.4444,medium,2026-07-01 20:51:37
+GEDGEANA-000011,KGEDGE-000011,KGNODE2-000004,Contracting Officer,KGNODE2-000001,Solicitation Amendment,issues_or_receives,0.72,8,9,0.9444,high,2026-07-01 20:51:37
+GEDGEANA-000012,KGEDGE-000012,KGNODE2-000012,Solicitation Number,KGNODE2-000006,Award Basis,shapes_source_selection,0.72,4,8,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000013,KGEDGE-000013,KGNODE2-000017,Request for Information,KGNODE2-000006,Award Basis,shapes_source_selection,0.72,4,8,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000014,KGEDGE-000014,KGNODE2-000020,Combined Synopsis Solicitation,KGNODE2-000006,Award Basis,shapes_source_selection,0.72,4,8,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000015,KGEDGE-000015,KGNODE2-000023,Method of Solicitation,KGNODE2-000006,Award Basis,shapes_source_selection,0.72,4,8,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000016,KGEDGE-000016,KGNODE2-000024,Request for Proposal,KGNODE2-000006,Award Basis,shapes_source_selection,0.72,4,8,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000017,KGEDGE-000017,KGNODE2-000028,Request for Quotation,KGNODE2-000006,Award Basis,shapes_source_selection,0.72,4,8,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000018,KGEDGE-000018,KGNODE2-000002,National Cemetery Operations,KGNODE2-000005,Performance Work Statement,specializes_requirement,0.72,3,4,0.3889,low,2026-07-01 20:51:37
+GEDGEANA-000019,KGEDGE-000019,KGNODE2-000002,National Cemetery Operations,KGNODE2-000025,Statement of Work,specializes_requirement,0.72,3,4,0.3889,low,2026-07-01 20:51:37
+GEDGEANA-000020,KGEDGE-000020,KGNODE2-000012,Solicitation Number,KGNODE2-000001,Solicitation Amendment,defines_submission_context,0.74,4,9,0.7222,high,2026-07-01 20:51:37
+GEDGEANA-000021,KGEDGE-000021,KGNODE2-000017,Request for Information,KGNODE2-000001,Solicitation Amendment,defines_submission_context,0.74,4,9,0.7222,high,2026-07-01 20:51:37
+GEDGEANA-000022,KGEDGE-000022,KGNODE2-000020,Combined Synopsis Solicitation,KGNODE2-000001,Solicitation Amendment,defines_submission_context,0.74,4,9,0.7222,high,2026-07-01 20:51:37
+GEDGEANA-000023,KGEDGE-000023,KGNODE2-000023,Method of Solicitation,KGNODE2-000001,Solicitation Amendment,defines_submission_context,0.74,4,9,0.7222,high,2026-07-01 20:51:37
+GEDGEANA-000024,KGEDGE-000024,KGNODE2-000024,Request for Proposal,KGNODE2-000001,Solicitation Amendment,defines_submission_context,0.74,4,9,0.7222,high,2026-07-01 20:51:37
+GEDGEANA-000025,KGEDGE-000025,KGNODE2-000028,Request for Quotation,KGNODE2-000001,Solicitation Amendment,defines_submission_context,0.74,4,9,0.7222,high,2026-07-01 20:51:37
+GEDGEANA-000026,KGEDGE-000026,KGNODE2-000022,Place of Performance,KGNODE2-000013,Unit Price,affects_pricing,0.68,5,3,0.4444,medium,2026-07-01 20:51:37
+GEDGEANA-000027,KGEDGE-000027,KGNODE2-000022,Place of Performance,KGNODE2-000029,Payment and Invoice,affects_pricing,0.68,5,3,0.4444,medium,2026-07-01 20:51:37
+GEDGEANA-000028,KGEDGE-000028,KGNODE2-000004,Contracting Officer,KGNODE2-000012,Solicitation Number,administers_acquisition,0.72,8,4,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000029,KGEDGE-000029,KGNODE2-000004,Contracting Officer,KGNODE2-000017,Request for Information,administers_acquisition,0.72,8,4,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000030,KGEDGE-000030,KGNODE2-000004,Contracting Officer,KGNODE2-000020,Combined Synopsis Solicitation,administers_acquisition,0.72,8,4,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000031,KGEDGE-000031,KGNODE2-000004,Contracting Officer,KGNODE2-000023,Method of Solicitation,administers_acquisition,0.72,8,4,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000032,KGEDGE-000032,KGNODE2-000004,Contracting Officer,KGNODE2-000024,Request for Proposal,administers_acquisition,0.72,8,4,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000033,KGEDGE-000033,KGNODE2-000004,Contracting Officer,KGNODE2-000028,Request for Quotation,administers_acquisition,0.72,8,4,0.6667,medium,2026-07-01 20:51:37
+GEDGEANA-000034,KGEDGE-000034,KGNODE2-000004,Contracting Officer,KGNODE2-000001,Solicitation Amendment,issues_or_receives_submission_instruction,0.7,8,9,0.9444,high,2026-07-01 20:51:37
+GEDGEANA-000035,KGEDGE-000035,KGNODE2-000011,Food and Drug Administration,KGNODE2-000012,Solicitation Number,uses_acquisition_method,0.66,7,4,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000036,KGEDGE-000036,KGNODE2-000011,Food and Drug Administration,KGNODE2-000017,Request for Information,uses_acquisition_method,0.66,7,4,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000037,KGEDGE-000037,KGNODE2-000011,Food and Drug Administration,KGNODE2-000020,Combined Synopsis Solicitation,uses_acquisition_method,0.66,7,4,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000038,KGEDGE-000038,KGNODE2-000011,Food and Drug Administration,KGNODE2-000023,Method of Solicitation,uses_acquisition_method,0.66,7,4,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000039,KGEDGE-000039,KGNODE2-000011,Food and Drug Administration,KGNODE2-000024,Request for Proposal,uses_acquisition_method,0.66,7,4,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000040,KGEDGE-000040,KGNODE2-000011,Food and Drug Administration,KGNODE2-000028,Request for Quotation,uses_acquisition_method,0.66,7,4,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000041,KGEDGE-000041,KGNODE2-000011,Food and Drug Administration,KGNODE2-000002,National Cemetery Operations,has_domain_requirement,0.66,7,3,0.5556,medium,2026-07-01 20:51:37
+GEDGEANA-000042,KGEDGE-000042,KGNODE2-000007,Marine Corps Base Camp Lejeune,KGNODE2-000022,Place of Performance,may_define_place_of_performance,0.62,1,5,0.3333,low,2026-07-01 20:51:37
+GEDGEANA-000043,KGEDGE-000043,KGNODE2-000006,Award Basis,KGNODE2-000003,Firm Fixed Price,may_result_in_contract_type,0.66,8,3,0.6111,medium,2026-07-01 20:51:37
+GEDGEANA-000044,KGEDGE-000044,KGNODE2-000005,Performance Work Statement,KGNODE2-000025,Statement of Work,specializes,0.84,4,4,0.4444,medium,2026-07-01 20:51:37

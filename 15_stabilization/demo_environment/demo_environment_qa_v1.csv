@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+DEMOENVQA-000001,session_rows,1,1,pass,2026-07-08 21:03:30
+DEMOENVQA-000002,journey_rows,6,6,pass,2026-07-08 21:03:30
+DEMOENVQA-000003,scenario_rows,3,3,pass,2026-07-08 21:03:30
+DEMOENVQA-000004,dataset_rows,2,2,pass,2026-07-08 21:03:30
+DEMOENVQA-000005,proof_rows,4,4,pass,2026-07-08 21:03:30
+DEMOENVQA-000006,story_rows,1,1,pass,2026-07-08 21:03:30
+DEMOENVQA-000007,checklist_fail,0,0,pass,2026-07-08 21:03:30
+DEMOENVQA-000008,demo_environment_gate,demo_environment_ready,demo_environment_ready,pass,2026-07-08 21:03:30

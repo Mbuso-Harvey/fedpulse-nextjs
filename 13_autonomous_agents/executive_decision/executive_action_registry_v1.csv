@@ -1,0 +1,8 @@
+action_id,priority,action_title,action_rationale,owner,status,created_at
+EXECACT-000001,critical,Hold executive bid gate,"Review the adjusted go score, open conditions, pricing risk, compliance gaps, and supplier position.",executive_team,open,2026-07-04 22:34:06
+EXECACT-000002,critical,Assign condition owners,Assign accountable owners and target dates to every open executive condition.,capture_manager,open,2026-07-04 22:34:06
+EXECACT-000003,critical,Close compliance evidence gaps,Resolve critical compliance evidence before final bid authorization.,compliance_lead,open,2026-07-04 22:34:06
+EXECACT-000004,critical,Complete pricing control review,Complete margin sensitivity and commercial risk controls before price approval.,pricing_lead,open,2026-07-04 22:34:06
+EXECACT-000005,high,Strengthen supplier evidence,"Package supplier qualification, readiness, past performance, and capability evidence.",supplier_lead,open,2026-07-04 22:34:06
+EXECACT-000006,high,Run proposal red-team review,"Review evaluation alignment, compliance, technical response, pricing, and buyer fit.",proposal_lead,open,2026-07-04 22:34:06
+EXECACT-000007,high,Re-run executive decision,Recalculate the executive decision after critical conditions are closed.,executive_team,open,2026-07-04 22:34:06

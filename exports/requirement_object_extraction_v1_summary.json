@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-06-23 00:18:00",
+  "requirements_processed": 1146,
+  "requirement_objects_extracted": 645,
+  "object_type_counts": {
+    "evaluation_factor": 144,
+    "proposal_volume": 9,
+    "experience_requirement": 35,
+    "pricing_requirement": 133,
+    "staffing_requirement": 65,
+    "certification_requirement": 30,
+    "deliverable_requirement": 38,
+    "procurement_form_or_artifact": 133,
+    "clearance_requirement": 58
+  },
+  "mandatory_counts": {
+    "unknown": 598,
+    "yes": 47
+  },
+  "outputs": {
+    "requirement_objects": "C:\\ProcurementIntelligence\\09_knowledge_graph\\requirement_objects_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\requirement_object_extraction_report_v1.md"
+  },
+  "next_sprint": "SAM-0007I Requirement Object Quality Review"
+}

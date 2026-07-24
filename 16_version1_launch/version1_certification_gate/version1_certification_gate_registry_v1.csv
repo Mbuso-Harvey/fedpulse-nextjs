@@ -1,0 +1,2 @@
+gate_id,certification_gate,release_candidate,target_release,checks_pass,checks_fail,evidence_rows,human_release_approval_required,feature_freeze_required,created_at
+V1GATE-000001,version1_certification_approved,1.0.0-rc1,1.0.0,8,0,8,true,true,2026-07-11 19:57:21

@@ -1,0 +1,8 @@
+evidence_id,control_id,control_title,evidence_type,evidence_value,evidence_status,created_at
+PRODEVID-000001,PRODCTRL-000001,API Endpoint Availability,system_artifact,10 / 10,pass,2026-07-05 09:11:36
+PRODEVID-000002,PRODCTRL-000002,API Service Registration,system_artifact,10 / 10,pass,2026-07-05 09:11:36
+PRODEVID-000003,PRODCTRL-000003,Agent Registry Availability,system_artifact,6 / 6,pass,2026-07-05 09:11:36
+PRODEVID-000004,PRODCTRL-000004,Executive Decision Availability,system_artifact,1 / 1,pass,2026-07-05 09:11:36
+PRODEVID-000005,PRODCTRL-000005,Launch Bootstrap Certification,system_artifact,1 / 1,pass,2026-07-05 09:11:36
+PRODEVID-000006,PRODCTRL-000006,Production API Certification,system_artifact,1 / 1,pass,2026-07-05 09:11:36
+PRODEVID-000007,PRODCTRL-000007,Agent Bootstrap Certification,system_artifact,1 / 1,pass,2026-07-05 09:11:36

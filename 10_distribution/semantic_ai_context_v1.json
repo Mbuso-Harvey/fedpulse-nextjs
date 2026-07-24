@@ -1,0 +1,742 @@
+{
+  "created_at": "2026-06-29 15:40:03",
+  "graph_version": "KG-1.0",
+  "purpose": "AI-readable semantic context for procurement graph reasoning.",
+  "nodes": [
+    {
+      "node_id": "KGNODE2-000001",
+      "name": "Solicitation Amendment",
+      "type": "Submission Instruction",
+      "domain": "Submission and Proposal Management",
+      "confidence": "0.902",
+      "outgoing_relationships": [],
+      "incoming_relationships": [
+        {
+          "relationship": "requires_submission_instruction",
+          "source": "Proposal Volume",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "issues_or_receives",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "source": "Solicitation Number",
+          "confidence": "0.74"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "source": "Request for Information",
+          "confidence": "0.74"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "source": "Combined Synopsis Solicitation",
+          "confidence": "0.74"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "source": "Method of Solicitation",
+          "confidence": "0.74"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "source": "Request for Proposal",
+          "confidence": "0.74"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "source": "Request for Quotation",
+          "confidence": "0.74"
+        },
+        {
+          "relationship": "issues_or_receives_submission_instruction",
+          "source": "Contracting Officer",
+          "confidence": "0.7"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000002",
+      "name": "National Cemetery Operations",
+      "type": "Domain Specific Requirement",
+      "domain": "Domain-Specific Operations",
+      "confidence": "0.89",
+      "outgoing_relationships": [
+        {
+          "relationship": "specializes_requirement",
+          "target": "Performance Work Statement",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "specializes_requirement",
+          "target": "Statement of Work",
+          "confidence": "0.72"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "has_domain_requirement",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000003",
+      "name": "Firm Fixed Price",
+      "type": "Contract Type",
+      "domain": "Commercial and Pricing",
+      "confidence": "0.84",
+      "outgoing_relationships": [
+        {
+          "relationship": "has_pricing_structure",
+          "target": "Unit Price",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "has_pricing_structure",
+          "target": "Payment and Invoice",
+          "confidence": "0.72"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "may_result_in_contract_type",
+          "source": "Award Basis",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000004",
+      "name": "Contracting Officer",
+      "type": "Procurement Role",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.802",
+      "outgoing_relationships": [
+        {
+          "relationship": "issues_or_receives",
+          "target": "Solicitation Amendment",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "administers_acquisition",
+          "target": "Solicitation Number",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "administers_acquisition",
+          "target": "Request for Information",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "administers_acquisition",
+          "target": "Combined Synopsis Solicitation",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "administers_acquisition",
+          "target": "Method of Solicitation",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "administers_acquisition",
+          "target": "Request for Proposal",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "administers_acquisition",
+          "target": "Request for Quotation",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "issues_or_receives_submission_instruction",
+          "target": "Solicitation Amendment",
+          "confidence": "0.7"
+        }
+      ],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000005",
+      "name": "Performance Work Statement",
+      "type": "Technical Requirement",
+      "domain": "Technical Requirements",
+      "confidence": "0.811",
+      "outgoing_relationships": [
+        {
+          "relationship": "requires_supplier_capability",
+          "target": "Past Performance",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "requires_supplier_capability",
+          "target": "Small Business Set-Aside",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "specializes",
+          "target": "Statement of Work",
+          "confidence": "0.84"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "specializes_requirement",
+          "source": "National Cemetery Operations",
+          "confidence": "0.72"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000006",
+      "name": "Award Basis",
+      "type": "Evaluation Method",
+      "domain": "Evaluation and Source Selection",
+      "confidence": "0.82",
+      "outgoing_relationships": [
+        {
+          "relationship": "uses_evaluation_factor",
+          "target": "Evaluation Factors",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "may_result_in_contract_type",
+          "target": "Firm Fixed Price",
+          "confidence": "0.66"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "source": "Solicitation Number",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "shapes_source_selection",
+          "source": "Request for Information",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "shapes_source_selection",
+          "source": "Combined Synopsis Solicitation",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "shapes_source_selection",
+          "source": "Method of Solicitation",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "shapes_source_selection",
+          "source": "Request for Proposal",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "shapes_source_selection",
+          "source": "Request for Quotation",
+          "confidence": "0.72"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000007",
+      "name": "Marine Corps Base Camp Lejeune",
+      "type": "Military Installation",
+      "domain": "Domain-Specific Operations",
+      "confidence": "0.92",
+      "outgoing_relationships": [
+        {
+          "relationship": "may_define_place_of_performance",
+          "target": "Place of Performance",
+          "confidence": "0.62"
+        }
+      ],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000008",
+      "name": "United States Army",
+      "type": "Military Organization",
+      "domain": "Domain-Specific Operations",
+      "confidence": "0.82",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000009",
+      "name": "United States Marine Corps",
+      "type": "Military Organization",
+      "domain": "Domain-Specific Operations",
+      "confidence": "0.86",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000010",
+      "name": "FAR and DOSAR Provisions",
+      "type": "Regulation Set",
+      "domain": "Legal, Compliance, and Labor",
+      "confidence": "0.86",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000011",
+      "name": "Food and Drug Administration",
+      "type": "Federal Agency",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.92",
+      "outgoing_relationships": [
+        {
+          "relationship": "uses_acquisition_method",
+          "target": "Solicitation Number",
+          "confidence": "0.66"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "target": "Request for Information",
+          "confidence": "0.66"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "target": "Combined Synopsis Solicitation",
+          "confidence": "0.66"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "target": "Method of Solicitation",
+          "confidence": "0.66"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "target": "Request for Proposal",
+          "confidence": "0.66"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "target": "Request for Quotation",
+          "confidence": "0.66"
+        },
+        {
+          "relationship": "has_domain_requirement",
+          "target": "National Cemetery Operations",
+          "confidence": "0.66"
+        }
+      ],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000012",
+      "name": "Solicitation Number",
+      "type": "Acquisition Metadata",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.777",
+      "outgoing_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "target": "Award Basis",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "target": "Solicitation Amendment",
+          "confidence": "0.74"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "administers_acquisition",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000013",
+      "name": "Unit Price",
+      "type": "Pricing Structure",
+      "domain": "Commercial and Pricing",
+      "confidence": "0.79",
+      "outgoing_relationships": [],
+      "incoming_relationships": [
+        {
+          "relationship": "has_pricing_structure",
+          "source": "Firm Fixed Price",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "affects_price",
+          "source": "Place of Performance",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "affects_pricing",
+          "source": "Place of Performance",
+          "confidence": "0.68"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000014",
+      "name": "Evaluation Factors",
+      "type": "Evaluation Factor",
+      "domain": "Evaluation and Source Selection",
+      "confidence": "0.74",
+      "outgoing_relationships": [],
+      "incoming_relationships": [
+        {
+          "relationship": "uses_evaluation_factor",
+          "source": "Award Basis",
+          "confidence": "0.72"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000015",
+      "name": "Table of Contents",
+      "type": "Document Structure Object",
+      "domain": "Document Structure and Administrative Forms",
+      "confidence": "0.704",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000016",
+      "name": "Past Performance",
+      "type": "Supplier Qualification",
+      "domain": "Supplier Eligibility and Qualifications",
+      "confidence": "0.734",
+      "outgoing_relationships": [],
+      "incoming_relationships": [
+        {
+          "relationship": "requires_supplier_capability",
+          "source": "Performance Work Statement",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "requires_supplier_capability",
+          "source": "Statement of Work",
+          "confidence": "0.72"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000017",
+      "name": "Request for Information",
+      "type": "Acquisition Metadata",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.761",
+      "outgoing_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "target": "Award Basis",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "target": "Solicitation Amendment",
+          "confidence": "0.74"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "administers_acquisition",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000018",
+      "name": "Administrative Support and Clerical",
+      "type": "Administrative Service Labor Category",
+      "domain": "Performance and Operations",
+      "confidence": "0.76",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000019",
+      "name": "Proposal Volume",
+      "type": "Proposal Structure",
+      "domain": "Submission and Proposal Management",
+      "confidence": "0.719",
+      "outgoing_relationships": [
+        {
+          "relationship": "requires_submission_instruction",
+          "target": "Solicitation Amendment",
+          "confidence": "0.72"
+        }
+      ],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000020",
+      "name": "Combined Synopsis Solicitation",
+      "type": "Acquisition Metadata",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.769",
+      "outgoing_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "target": "Award Basis",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "target": "Solicitation Amendment",
+          "confidence": "0.74"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "administers_acquisition",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000021",
+      "name": "Small Business Set-Aside",
+      "type": "Supplier Qualification",
+      "domain": "Supplier Eligibility and Qualifications",
+      "confidence": "0.706",
+      "outgoing_relationships": [],
+      "incoming_relationships": [
+        {
+          "relationship": "requires_supplier_capability",
+          "source": "Performance Work Statement",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "requires_supplier_capability",
+          "source": "Statement of Work",
+          "confidence": "0.72"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000022",
+      "name": "Place of Performance",
+      "type": "Delivery Requirement",
+      "domain": "Delivery and Logistics",
+      "confidence": "0.74",
+      "outgoing_relationships": [
+        {
+          "relationship": "affects_price",
+          "target": "Unit Price",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "affects_price",
+          "target": "Payment and Invoice",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "affects_pricing",
+          "target": "Unit Price",
+          "confidence": "0.68"
+        },
+        {
+          "relationship": "affects_pricing",
+          "target": "Payment and Invoice",
+          "confidence": "0.68"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "may_define_place_of_performance",
+          "source": "Marine Corps Base Camp Lejeune",
+          "confidence": "0.62"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000023",
+      "name": "Method of Solicitation",
+      "type": "Acquisition Metadata",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.718",
+      "outgoing_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "target": "Award Basis",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "target": "Solicitation Amendment",
+          "confidence": "0.74"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "administers_acquisition",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000024",
+      "name": "Request for Proposal",
+      "type": "Acquisition Metadata",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.743",
+      "outgoing_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "target": "Award Basis",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "target": "Solicitation Amendment",
+          "confidence": "0.74"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "administers_acquisition",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000025",
+      "name": "Statement of Work",
+      "type": "Technical Requirement",
+      "domain": "Technical Requirements",
+      "confidence": "0.727",
+      "outgoing_relationships": [
+        {
+          "relationship": "requires_supplier_capability",
+          "target": "Past Performance",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "requires_supplier_capability",
+          "target": "Small Business Set-Aside",
+          "confidence": "0.72"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "specializes_requirement",
+          "source": "National Cemetery Operations",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "specializes",
+          "source": "Performance Work Statement",
+          "confidence": "0.84"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000026",
+      "name": "Amendment Copy Requirement",
+      "type": "Procurement Document Artifact",
+      "domain": "Document Structure and Administrative Forms",
+      "confidence": "0.78",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000027",
+      "name": "Proposal Default Index",
+      "type": "Proposal Document Artifact",
+      "domain": "Document Structure and Administrative Forms",
+      "confidence": "0.72",
+      "outgoing_relationships": [],
+      "incoming_relationships": []
+    },
+    {
+      "node_id": "KGNODE2-000028",
+      "name": "Request for Quotation",
+      "type": "Acquisition Metadata",
+      "domain": "Acquisition Strategy",
+      "confidence": "0.712",
+      "outgoing_relationships": [
+        {
+          "relationship": "shapes_source_selection",
+          "target": "Award Basis",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "defines_submission_context",
+          "target": "Solicitation Amendment",
+          "confidence": "0.74"
+        }
+      ],
+      "incoming_relationships": [
+        {
+          "relationship": "administers_acquisition",
+          "source": "Contracting Officer",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "uses_acquisition_method",
+          "source": "Food and Drug Administration",
+          "confidence": "0.66"
+        }
+      ]
+    },
+    {
+      "node_id": "KGNODE2-000029",
+      "name": "Payment and Invoice",
+      "type": "Pricing Structure",
+      "domain": "Commercial and Pricing",
+      "confidence": "0.701",
+      "outgoing_relationships": [],
+      "incoming_relationships": [
+        {
+          "relationship": "has_pricing_structure",
+          "source": "Firm Fixed Price",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "affects_price",
+          "source": "Place of Performance",
+          "confidence": "0.72"
+        },
+        {
+          "relationship": "affects_pricing",
+          "source": "Place of Performance",
+          "confidence": "0.68"
+        }
+      ]
+    }
+  ]
+}

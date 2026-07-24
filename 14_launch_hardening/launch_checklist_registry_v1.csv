@@ -1,0 +1,7 @@
+checklist_id,checklist_item,description,requirement_level,status,created_at
+LAUNCHCHK-000001,API endpoints registered,Production API exposes certified intelligence endpoints.,required,open,2026-07-05 06:01:03
+LAUNCHCHK-000002,Agent outputs certified,Wave 11 agents produce launch-safe decision-support outputs.,required,open,2026-07-05 06:01:03
+LAUNCHCHK-000003,Human approval gates preserved,Commercial decisions require human approval.,required,open,2026-07-05 06:01:03
+LAUNCHCHK-000004,Audit artifacts generated,"Reports, summaries, QA files, and governance docs exist.",required,open,2026-07-05 06:01:03
+LAUNCHCHK-000005,Client demo pathway available,"Demo can show search, analyst, recommendations, agents, and executive decision.",required,open,2026-07-05 06:01:03
+LAUNCHCHK-000006,Post-launch roadmap separation,Speculative features are deferred after Wave 14 launch freeze.,required,open,2026-07-05 06:01:03

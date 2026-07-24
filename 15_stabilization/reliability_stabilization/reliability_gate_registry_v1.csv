@@ -1,0 +1,2 @@
+gate_id,reliability_gate,available_artifacts,missing_artifacts,checks_pass,checks_fail,critical_failures,controls_pass,controls_fail,created_at
+RELGATE-000001,reliability_stabilized,10,0,10,0,0,5,0,2026-07-08 11:45:11

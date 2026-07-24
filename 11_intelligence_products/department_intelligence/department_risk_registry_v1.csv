@@ -1,0 +1,5 @@
+risk_id,department_id,department_name,risk_category,risk_text,severity,created_at
+DEPTRISK-000001,DEPT-000001,Food and Drug Administration,evaluation,Department profile includes evaluation concepts; suppliers should map proposals to evaluation criteria.,medium,2026-07-01 01:07:49
+DEPTRISK-000002,DEPT-000001,Food and Drug Administration,compliance,Department profile includes compliance/regulatory concepts that may affect bid eligibility.,medium,2026-07-01 01:07:49
+DEPTRISK-000003,DEPT-000001,Food and Drug Administration,delivery,Department profile includes delivery/place-of-performance concepts that may influence cost and execution.,medium,2026-07-01 01:07:49
+DEPTRISK-000004,DEPT-000001,Food and Drug Administration,documentation,Department profile includes document artifacts; distinguish buyer requirements from form/document noise.,low,2026-07-01 01:07:49

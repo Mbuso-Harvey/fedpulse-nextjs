@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+V1RELQA-000001,session_rows,1,1,pass,2026-07-12 01:11:04
+V1RELQA-000002,package_rows,5,5,pass,2026-07-12 01:11:04
+V1RELQA-000003,package_blocked,0,0,pass,2026-07-12 01:11:04
+V1RELQA-000004,manifest_rows,1,1,pass,2026-07-12 01:11:04
+V1RELQA-000005,certification_rows,1,1,pass,2026-07-12 01:11:04
+V1RELQA-000006,release_package_gate,version1_release_package_ready,version1_release_package_ready,pass,2026-07-12 01:11:04

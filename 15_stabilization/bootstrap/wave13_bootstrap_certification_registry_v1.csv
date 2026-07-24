@@ -1,0 +1,2 @@
+certification_id,wave,platform_version,release_version,bootstrap_status,prerequisites_pass,prerequisites_fail,workstreams,scope_boundaries,planned_packs,created_at
+W13BOOTCERT-000001,Wave 13,1.0.0,1.0.0-rc1,wave13_stabilization_bootstrap_certified,6,0,4,4,4,2026-07-08 03:18:40

@@ -1,0 +1,7 @@
+control_id,control_name,observed_value,target_value,status,created_at
+FINALCTRL-000001,All final validations passed,8,8,pass,2026-07-11 23:15:18
+FINALCTRL-000002,No failed final validations,0,0,pass,2026-07-11 23:15:18
+FINALCTRL-000003,Certification evidence remains complete,8,8,pass,2026-07-11 23:15:18
+FINALCTRL-000004,Reliability artifacts remain complete,10,10,pass,2026-07-11 23:15:18
+FINALCTRL-000005,UI contracts remain complete,7,7,pass,2026-07-11 23:15:18
+FINALCTRL-000006,Demo checklist remains complete,6,6,pass,2026-07-11 23:15:18

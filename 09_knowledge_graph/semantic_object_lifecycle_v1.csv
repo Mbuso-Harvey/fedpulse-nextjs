@@ -1,0 +1,9 @@
+lifecycle_state_id,lifecycle_state,definition,created_at
+SOL-000001,draft,Object generated but not yet validated.,2026-06-27 21:23:24
+SOL-000002,candidate,Object has evidence and is ready for review.,2026-06-27 21:23:24
+SOL-000003,reviewed,Object has passed automated review.,2026-06-27 21:23:24
+SOL-000004,approved,Object is approved for semantic scoring.,2026-06-27 21:23:24
+SOL-000005,embedded,Object has embedding representation.,2026-06-27 21:23:24
+SOL-000006,graph_ready,Object is ready for knowledge graph population.,2026-06-27 21:23:24
+SOL-000007,graph_published,Object exists in the knowledge graph.,2026-06-27 21:23:24
+SOL-000008,intelligence_consumed,Object is used by intelligence products.,2026-06-27 21:23:24

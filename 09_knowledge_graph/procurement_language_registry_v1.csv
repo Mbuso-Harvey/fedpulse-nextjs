@@ -1,0 +1,75 @@
+plu_id,context_family,context_type,definition,downstream_route
+PLU-ACQ-001,Acquisition,Notice Type,Classifies the procurement notice or opportunity type.,Acquisition Metadata
+PLU-ACQ-002,Acquisition,Procurement Method,"Classifies acquisition method such as RFQ, RFP, RFI, sources sought, sole source, or combined synopsis.",Acquisition Metadata
+PLU-ACQ-003,Acquisition,Acquisition Strategy,Classifies buyer procurement strategy and acquisition approach.,Acquisition Intelligence
+PLU-ACQ-004,Acquisition,Set-Aside,Classifies small business and socioeconomic set-aside language.,Eligibility Intelligence
+PLU-ACQ-005,Acquisition,Contract Vehicle,"Classifies IDIQ, BPA, GWAC, schedule, or other contract vehicle language.",Contract Vehicle Intelligence
+PLU-ACQ-006,Acquisition,Market Research,"Classifies market research, RFI, sources sought, and industry outreach language.",Market Intelligence
+PLU-EVAL-001,Evaluation,Evaluation Framework,Classifies complete award decision framework language.,Evaluation Intelligence
+PLU-EVAL-002,Evaluation,Evaluation Navigation,"Classifies section pointers such as Section M, evaluation factors, or evaluation approach headings.",Document Navigation
+PLU-EVAL-003,Evaluation,Evaluation Factor,"Classifies award decision factors such as technical capability, past performance, or price.",Evaluation Intelligence
+PLU-EVAL-004,Evaluation,Evaluation Method,"Classifies award methods such as LPTA, best value, tradeoff, or technically acceptable.",Evaluation Intelligence
+PLU-EVAL-005,Evaluation,Award Basis,Classifies language describing how the award will be made.,Evaluation Intelligence
+PLU-EVAL-006,Evaluation,Evaluation Constraint,"Classifies pass/fail gates, no-tradeoff rules, and no-extra-credit rules.",Evaluation Intelligence
+PLU-EVAL-007,Evaluation,Scoring Rating,"Classifies scoring terms such as acceptable, unacceptable, good, outstanding, or marginal.",Evaluation Intelligence
+PLU-EVAL-008,Evaluation,Factor Importance,"Classifies relative importance language such as paramount, more important, or equal.",Requirement Weighting
+PLU-PROP-001,Proposal,Proposal Structure,Classifies proposal organization and required submission structure.,Proposal Intelligence
+PLU-PROP-002,Proposal,Proposal Volume,"Classifies proposal volume language such as technical proposal, price proposal, or past performance volume.",Proposal Intelligence
+PLU-PROP-003,Proposal,Submission Instruction,"Classifies submit, include, provide, and response instruction language.",Proposal Intelligence
+PLU-PROP-004,Proposal,Quote Instruction,Classifies RFQ quote-specific instruction language.,Proposal Intelligence
+PLU-PROP-005,Proposal,Required Form,Classifies required forms and submission forms.,Proposal Compliance
+PLU-PROP-006,Proposal,Amendment Acknowledgement,Classifies amendment acknowledgement requirements.,Proposal Compliance
+PLU-COM-001,Commercial,Pricing Structure,"Classifies price schedule, unit price, price list, and pricing table language.",Pricing Intelligence
+PLU-COM-002,Commercial,Contract Type,"Classifies firm fixed price, cost reimbursement, time-and-materials, and similar terms.",Commercial Intelligence
+PLU-COM-003,Commercial,Price Schedule,"Classifies formal pricing schedule rows, CLINs, and line item pricing.",Pricing Intelligence
+PLU-COM-004,Commercial,Unit Price,Classifies unit price and extended price language.,Pricing Intelligence
+PLU-COM-005,Commercial,Options,"Classifies option years, option periods, and optional line items.",Opportunity Intelligence
+PLU-COM-006,Commercial,Funding,"Classifies funding, appropriation, and budget availability language.",Commercial Intelligence
+PLU-COM-007,Commercial,Payment Terms,"Classifies invoicing, payment procedures, and payment registration language.",Contract Administration
+PLU-TECH-001,Technical,Technical Specification,Classifies technical specifications and product/service technical details.,Technical Intelligence
+PLU-TECH-002,Technical,Performance Requirement,"Classifies performance standards, service levels, and required outcomes.",Technical Intelligence
+PLU-TECH-003,Technical,Functional Requirement,Classifies functional capability requirements.,Technical Intelligence
+PLU-TECH-004,Technical,Product Requirement,"Classifies required products, parts, materials, or equipment.",Product Intelligence
+PLU-TECH-005,Technical,Service Requirement,Classifies service scope and service performance requirements.,Service Intelligence
+PLU-TECH-006,Technical,Acceptance Criteria,"Classifies inspection, acceptance, testing, or acceptance criteria language.",Quality Intelligence
+PLU-SUP-001,Supplier Qualification,Past Performance,"Classifies past performance requirements, questionnaires, and references.",Supplier Capability Intelligence
+PLU-SUP-002,Supplier Qualification,Corporate Experience,Classifies corporate experience and similar project experience language.,Supplier Capability Intelligence
+PLU-SUP-003,Supplier Qualification,Certification,"Classifies certification requirements such as ISO, FedRAMP, CMMC, or certificates of compliance.",Supplier Capability Intelligence
+PLU-SUP-004,Supplier Qualification,Clearance,Classifies personnel or facility clearance requirements.,Security Intelligence
+PLU-SUP-005,Supplier Qualification,Key Personnel,"Classifies key personnel, program manager, project manager, resumes, or staffing qualifications.",Staffing Intelligence
+PLU-SUP-006,Supplier Qualification,Capability Statement,Classifies capability statement and capabilities statement requirements.,Supplier Positioning Intelligence
+PLU-SUP-007,Supplier Qualification,Authorized Distributor,Classifies OEM authorization and authorized distributor requirements.,Eligibility Intelligence
+PLU-SUP-008,Supplier Qualification,Registration,"Classifies SAM, UEI, CAGE, tax ID, and registration requirements.",Eligibility Intelligence
+PLU-COMP-001,Legal and Compliance,FAR Clause,Classifies FAR clause references and requirements.,Compliance Intelligence
+PLU-COMP-002,Legal and Compliance,DFARS Clause,Classifies DFARS clause references and requirements.,Compliance Intelligence
+PLU-COMP-003,Legal and Compliance,Representation,Classifies representations and certifications language.,Compliance Intelligence
+PLU-COMP-004,Legal and Compliance,Labor Requirement,"Classifies Davis-Bacon, wage determination, certified payroll, and labor clauses.",Labor Intelligence
+PLU-COMP-005,Legal and Compliance,Subcontracting Requirement,"Classifies subcontracting plans, limitations, and subcontractor requirements.",Subcontracting Intelligence
+PLU-COMP-006,Legal and Compliance,Socioeconomic Requirement,"Classifies SDVOSB, VOSB, WOSB, HUBZone, 8(a), and small business status requirements.",Eligibility Intelligence
+PLU-COMP-007,Legal and Compliance,Privacy,Classifies privacy and personally identifiable information requirements.,Risk Intelligence
+PLU-COMP-008,Legal and Compliance,Cybersecurity,"Classifies cybersecurity, CUI, NIST, FedRAMP, CMMC, and cyber requirements.",Risk Intelligence
+PLU-ADM-001,Delivery and Administration,Deliverable,"Classifies required deliverables, reports, plans, or outputs.",Delivery Intelligence
+PLU-ADM-002,Delivery and Administration,Milestone,Classifies milestone and deadline language.,Schedule Intelligence
+PLU-ADM-003,Delivery and Administration,Schedule,"Classifies delivery schedule, period of performance, and timing language.",Schedule Intelligence
+PLU-ADM-004,Delivery and Administration,Reporting,Classifies reporting obligations.,Contract Administration
+PLU-ADM-005,Delivery and Administration,Invoicing,Classifies invoicing and payment submission language.,Contract Administration
+PLU-ADM-006,Delivery and Administration,Contract Administration,"Classifies COR, contracting officer, administration, and performance management language.",Contract Administration
+PLU-ADM-007,Delivery and Administration,Modification,Classifies modification and amendment language.,Contract Administration
+PLU-ADM-008,Delivery and Administration,Inspection,Classifies inspection and acceptance language.,Quality Intelligence
+PLU-RISK-001,Risk,Security,Classifies physical security and security requirement language.,Risk Intelligence
+PLU-RISK-002,Risk,Cyber,Classifies cyber risk and cyber control language.,Risk Intelligence
+PLU-RISK-003,Risk,Privacy,Classifies privacy risk and privacy compliance language.,Risk Intelligence
+PLU-RISK-004,Risk,Export Control,Classifies export control and ITAR/EAR language.,Risk Intelligence
+PLU-RISK-005,Risk,Supply Chain Risk,Classifies supply chain risk and restricted supplier language.,Risk Intelligence
+PLU-RISK-006,Risk,Controlled Unclassified Information,Classifies CUI handling and controlled information requirements.,Risk Intelligence
+PLU-META-001,Metadata and Structure,Attachment,Classifies attachment references.,Document Structure Intelligence
+PLU-META-002,Metadata and Structure,Exhibit,Classifies exhibit references.,Document Structure Intelligence
+PLU-META-003,Metadata and Structure,Section,Classifies document section references.,Document Structure Intelligence
+PLU-META-004,Metadata and Structure,Table of Contents,Classifies table of contents language.,Document Structure Intelligence
+PLU-META-005,Metadata and Structure,Form,Classifies forms such as SF-1449 and related government forms.,Document Structure Intelligence
+PLU-META-006,Metadata and Structure,Document Marking,Classifies document markings such as source selection sensitive.,Document Structure Intelligence
+PLU-EXCL-001,Exclusion,Administrative Noise,Classifies administrative noise not suitable for downstream intelligence.,Exclusion Layer
+PLU-EXCL-002,Exclusion,Non-Procurement Evaluation,Classifies non-source-selection uses of evaluation language.,Exclusion Layer
+PLU-EXCL-003,Exclusion,Duplicated Text,Classifies duplicated extraction text.,Exclusion Layer
+PLU-EXCL-004,Exclusion,Boilerplate,Classifies boilerplate or generic text.,Exclusion Layer
+PLU-EXCL-005,Exclusion,Unsupported Context,Classifies language requiring taxonomy expansion.,Discovery Queue

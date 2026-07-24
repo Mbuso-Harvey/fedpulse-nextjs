@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-06-17 16:13:25",
+  "rows_analyzed": 505202,
+  "fields": {
+    "supplierAddressLine-ligneAdresseFournisseur-eng": {
+      "populated": 504879,
+      "population_percent": 99.94,
+      "samples": [
+        "3714 Kinnear Place",
+        "7613 CARDINAL ROAD",
+        "5070 Benson Drive<br>Unit 102",
+        "Glynitveien 15",
+        "100 rue du Landais",
+        "347 King Street West",
+        "30 Leek Crescent, Suite 301",
+        "117 George Street",
+        "22 rue George-D.-Davie",
+        "25 Rue du Marche-Champlain<br>Suite 403"
+      ]
+    },
+    "supplierAddressCity-fournisseurAdresseVille-eng": {
+      "populated": 505114,
+      "population_percent": 99.98,
+      "samples": [
+        "Saskatoon",
+        "REDSTONE ARSENAL",
+        "Burlington",
+        "Ski",
+        "Blainville",
+        "Ingersoll",
+        "Richmond Hill",
+        "Toronto",
+        "L\u00e9vis",
+        "Quebec"
+      ]
+    },
+    "supplierAddressProvince-fournisseurAdresseProvince-eng": {
+      "populated": 493899,
+      "population_percent": 97.76,
+      "samples": [
+        "Saskatchewan",
+        "Alabama",
+        "Ontario",
+        "Quebec",
+        "Ontario",
+        "Ontario",
+        "Ontario",
+        "Quebec",
+        "Quebec",
+        "British Columbia"
+      ]
+    },
+    "supplierAddressPostalCode-fournisseurAdresseCodePostal": {
+      "populated": 502131,
+      "population_percent": 99.39,
+      "samples": [
+        "S7P0A6",
+        "35898-5000",
+        "L7L5N6",
+        "1400",
+        "J7C5C9",
+        "N5C3K6",
+        "L4B4N4",
+        "M5A2N4",
+        "G6V0K4",
+        "G1K4H2"
+      ]
+    },
+    "supplierAddressCountry-fournisseurAdressePays-eng": {
+      "populated": 505197,
+      "population_percent": 100.0,
+      "samples": [
+        "Canada",
+        "United States",
+        "Canada",
+        "Norway",
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    }
+  }
+}

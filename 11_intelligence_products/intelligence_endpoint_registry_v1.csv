@@ -1,0 +1,9 @@
+endpoint_id,api_id,method,endpoint,description,status,created_at
+END-000001,API-000001,POST,/api/search,Semantic Graph Search endpoint.,planned,2026-06-29 17:04:15
+END-000002,API-000002,POST,/api/ask,Procurement Question Answering endpoint.,planned,2026-06-29 17:04:15
+END-000003,API-000003,POST,/api/opportunities/intelligence,Opportunity Intelligence endpoint.,planned,2026-06-29 17:04:15
+END-000004,API-000004,POST,/api/suppliers/match,Supplier Intelligence endpoint.,planned,2026-06-29 17:04:15
+END-000005,API-000005,POST,/api/departments/profile,Department Intelligence endpoint.,planned,2026-06-29 17:04:15
+END-000006,API-000006,POST,/api/recommendations,Recommendation Engine endpoint.,planned,2026-06-29 17:04:15
+END-000007,API-000007,POST,/api/analytics/graph,Graph Analytics endpoint.,planned,2026-06-29 17:04:15
+END-000008,API-000008,POST,/api/analyst,AI Procurement Analyst endpoint.,planned,2026-06-29 17:04:15

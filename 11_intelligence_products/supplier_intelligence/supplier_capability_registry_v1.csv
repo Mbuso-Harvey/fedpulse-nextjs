@@ -1,0 +1,9 @@
+capability_id,supplier_id,supplier_name,capability_key,capability_name,coverage_status,coverage_score,evidence_node_count,evidence_nodes,description,created_at
+SUPCAP-000001,SUP-000001,Demonstration Supplier,technical_capability,Technical Delivery,covered,79,2,Performance Work Statement; Statement of Work,Can respond to technical scope and statement of work concepts.,2026-06-30 20:13:57
+SUPCAP-000002,SUP-000001,Demonstration Supplier,supplier_qualification,Supplier Qualification,covered,79,2,Past Performance; Small Business Set-Aside,Can provide supplier qualification evidence such as past performance or set-aside fit.,2026-06-30 20:13:57
+SUPCAP-000003,SUP-000001,Demonstration Supplier,commercial_fit,Commercial Fit,covered,91,3,Firm Fixed Price; Unit Price; Payment and Invoice,Can price and contract under the commercial structure.,2026-06-30 20:13:57
+SUPCAP-000004,SUP-000001,Demonstration Supplier,compliance_fit,Compliance Fit,covered,67,1,FAR and DOSAR Provisions,"Can handle legal, regulatory, or compliance obligations.",2026-06-30 20:13:57
+SUPCAP-000005,SUP-000001,Demonstration Supplier,evaluation_fit,Evaluation Fit,covered,79,2,Award Basis; Evaluation Factors,Can respond effectively to evaluation method and factors.,2026-06-30 20:13:57
+SUPCAP-000006,SUP-000001,Demonstration Supplier,delivery_fit,Delivery Fit,covered,67,1,Place of Performance,"Can support delivery, logistics, or place-of-performance requirements.",2026-06-30 20:13:57
+SUPCAP-000007,SUP-000001,Demonstration Supplier,submission_fit,Submission Fit,covered,79,2,Solicitation Amendment; Proposal Volume,"Can follow proposal, submission, amendment, or volume requirements.",2026-06-30 20:13:57
+SUPCAP-000008,SUP-000001,Demonstration Supplier,operations_fit,Operational Fit,covered,100,4,Marine Corps Base Camp Lejeune; United States Army; United States Marine Corps; National Cemetery Operations,"Can operate within agency, installation, or domain-specific context.",2026-06-30 20:13:57

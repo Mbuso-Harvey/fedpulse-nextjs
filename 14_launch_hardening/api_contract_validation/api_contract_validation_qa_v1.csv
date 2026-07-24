@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+APICONTRACTQA-000001,session_rows,1,1,pass,2026-07-05 17:27:42
+APICONTRACTQA-000002,contract_rows,10,10,pass,2026-07-05 17:27:42
+APICONTRACTQA-000003,contract_failures,0,0,pass,2026-07-05 17:27:42
+APICONTRACTQA-000004,manifest_validation_failures,0,0,pass,2026-07-05 17:27:42
+APICONTRACTQA-000005,critical_mismatches,0,0,pass,2026-07-05 17:27:42
+APICONTRACTQA-000006,gate_decision,api_contracts_validated,api_contracts_validated,pass,2026-07-05 17:27:42

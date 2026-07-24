@@ -1,0 +1,2 @@
+buying_profile_id,department_id,department_name,acquisition_strategy_count,technical_requirement_count,commercial_pricing_count,evaluation_count,supplier_eligibility_count,compliance_count,delivery_count,submission_count,operations_count,documentation_count,graph_version,product_version,created_at
+DEPTBUY-000001,DEPT-000001,Food and Drug Administration,8,2,3,2,2,1,1,2,4,3,KG-1.0,0.1.0,2026-07-01 01:07:49

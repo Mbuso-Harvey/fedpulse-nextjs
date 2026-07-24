@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-06-17 00:56:15",
+  "department_intelligence_rows": 412,
+  "supplier_intelligence_rows": 68323,
+  "category_intelligence_rows": 6,
+  "renewal_candidate_rows": 6926,
+  "renewal_window_days": 365
+}

@@ -1,0 +1,5 @@
+boundary_id,boundary_name,rule_text,boundary_type,created_at
+W13BOUND-000001,No new intelligence products,Wave 13 cannot create new procurement intelligence modules.,blocked,2026-07-08 03:18:40
+W13BOUND-000002,No speculative agent expansion,Wave 13 cannot add new autonomous agents beyond the certified Wave 11 set.,blocked,2026-07-08 03:18:40
+W13BOUND-000003,No feature creep,New feature ideas must be documented for post-launch unless they unblock launch.,blocked,2026-07-08 03:18:40
+W13BOUND-000004,Launch stabilization only,"Allowed work is reliability, integration contracts, demo environment, freeze preparation, and bug fixes.",allowed,2026-07-08 03:18:40

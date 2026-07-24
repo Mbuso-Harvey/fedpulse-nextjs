@@ -1,0 +1,6 @@
+control_id,control_title,control_description,priority,status,created_at
+PRCTRL-000001,Margin Sensitivity Review,Run best/base/worst margin scenarios before bid approval.,critical,open,2026-07-04 11:11:53
+PRCTRL-000002,Delivery Assumption Validation,"Validate staffing, logistics, travel, location, and delivery assumptions.",high,open,2026-07-04 11:11:53
+PRCTRL-000003,Compliance Cost Review,"Estimate cost impact of compliance evidence, certifications, documentation, and review effort.",high,open,2026-07-04 11:11:53
+PRCTRL-000004,Fixed Price Exposure Review,Review risk transfer under firm fixed price or unit price assumptions.,high,open,2026-07-04 11:11:53
+PRCTRL-000005,Executive Pricing Gate,Require leadership sign-off before final pricing approval.,critical,open,2026-07-04 11:11:53

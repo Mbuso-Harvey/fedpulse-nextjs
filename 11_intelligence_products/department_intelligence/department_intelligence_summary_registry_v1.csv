@@ -1,0 +1,2 @@
+summary_id,department_id,department_name,summary_text,buying_style,risk_count,recommendation_count,graph_version,product_version,created_at
+DEPTSUM-000001,DEPT-000001,Food and Drug Administration,"Food and Drug Administration is represented in KG-1.0 with 8 acquisition strategy concepts, 2 technical requirement concepts, 3 commercial/pricing concepts, 2 evaluation concepts, 2 supplier eligibility concepts, 1 compliance concepts, and 4 operational/domain concepts.",acquisition-method-heavy,4,8,KG-1.0,0.1.0,2026-07-01 01:07:49

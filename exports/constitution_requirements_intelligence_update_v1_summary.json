@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-06-21 21:11:28",
+  "constitution": "C:\\ProcurementIntelligence\\08_governance\\platform_constitution.md",
+  "action": "amendment_added",
+  "principles_added": [
+    "0017 Procurement Records Are Evidence",
+    "0018 Every Data Asset Is Presumed Valuable",
+    "0019 Revenue Engine Thinking",
+    "0020 Requirements Intelligence Is A Core Asset",
+    "0021 Absence Of Evidence Is Not Evidence Of Absence"
+  ],
+  "next_sprint": "SAM-0007B Requirement Library Builder V1"
+}

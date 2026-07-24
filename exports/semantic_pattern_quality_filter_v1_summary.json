@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-06-27 17:34:06",
+  "sprint": "SAM-0008AA",
+  "input_patterns": 941,
+  "accepted_patterns": 148,
+  "rejected_patterns": 793,
+  "input_aliases": 940,
+  "accepted_aliases": 54,
+  "rejected_aliases": 886,
+  "outputs": {
+    "filtered_patterns": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_pattern_library_filtered_v1.csv",
+    "filtered_aliases": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_alias_candidates_filtered_v1.csv",
+    "noise_rejections": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_pattern_noise_rejections_v1.csv",
+    "quality_metrics": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_pattern_quality_metrics_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\semantic_pattern_quality_filter_report_v1.md"
+  },
+  "next_sprint": "SAM-0008AB Semantic Pattern Registry Alignment V1"
+}

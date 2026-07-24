@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-06-17 14:13:00",
+  "input_file": "C:\\ProcurementIntelligence\\data\\quality\\quality_scored_contracts_v1.csv",
+  "output_file": "C:\\ProcurementIntelligence\\data\\quality\\quality_scored_contracts_v2.csv",
+  "total_rows": 321956,
+  "original_counts": {
+    "gold": 275283,
+    "silver": 109,
+    "review": 46540,
+    "reject": 24
+  },
+  "silver_records_converted_to_review": 109,
+  "final_quality_tiers": {
+    "gold": 275283,
+    "review": 46649,
+    "reject": 24
+  },
+  "official_quality_model": {
+    "gold": "Approved for customer-facing products.",
+    "review": "Recovery/enrichment queue. Not discarded.",
+    "reject": "Excluded from products but retained for audit."
+  }
+}

@@ -1,0 +1,138 @@
+semantic_review_id,semantic_object_id,source_type,source_id,source_text,reason,suggested_action,review_status,created_at
+SORV-000001,SPO-000002,filtered_pattern,SP-000011,of solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000002,SPO-000003,filtered_pattern,SP-000013,accounting clerk,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000003,SPO-000004,filtered_pattern,SP-000014,customer service,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000004,SPO-000005,filtered_pattern,SP-000015,service representative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000005,SPO-000006,filtered_pattern,SP-000016,customer service representative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000006,SPO-000007,filtered_pattern,SP-000018,amendment of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000007,SPO-000009,filtered_pattern,SP-000024,administered by,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000008,SPO-000010,filtered_pattern,SP-000026,interior design,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000009,SPO-000011,filtered_pattern,SP-000027,data entry,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000010,SPO-000012,filtered_pattern,SP-000037,entry operator,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000011,SPO-000013,filtered_pattern,SP-000038,general clerk,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000012,SPO-000014,filtered_pattern,SP-000039,data entry operator,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000013,SPO-000015,filtered_pattern,SP-000040,section 1,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000014,SPO-000016,filtered_pattern,SP-000041,the offeror,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000015,SPO-000017,filtered_pattern,SP-000045,please provide,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000016,SPO-000018,filtered_pattern,SP-000049,small business,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000017,SPO-000021,filtered_pattern,SP-000057,additional information,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000018,SPO-000022,filtered_pattern,SP-000059,clerk ii,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000019,SPO-000023,filtered_pattern,SP-000060,clerk iii,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000020,SPO-000024,filtered_pattern,SP-000061,offerors shall,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000021,SPO-000027,filtered_pattern,SP-000082,quote for,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000022,SPO-000028,filtered_pattern,SP-000083,solicitation modification,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000023,SPO-000029,filtered_pattern,SP-000085,of solicitation modification,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000024,SPO-000030,filtered_pattern,SP-000086,solicitation modification of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000025,SPO-000031,filtered_pattern,SP-000089,of solicitation modification of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000026,SPO-000032,filtered_pattern,SP-000090,solicitation modification of contract,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000027,SPO-000034,filtered_pattern,SP-000096,administered by if,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000028,SPO-000035,filtered_pattern,SP-000100,administered by if other,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000029,SPO-000036,filtered_pattern,SP-000101,by if other than,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000030,SPO-000037,filtered_pattern,SP-000102,if other than item,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000031,SPO-000038,filtered_pattern,SP-000111,synopsis solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000032,SPO-000039,filtered_pattern,SP-000115,1 qty 1 ton,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000033,SPO-000040,filtered_pattern,SP-000116,qty 1 ton each,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000034,SPO-000041,filtered_pattern,SP-000118,solicitation for,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000035,SPO-000042,filtered_pattern,SP-000122,the same,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000036,SPO-000043,filtered_pattern,SP-000123,for proposal,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000037,SPO-000045,filtered_pattern,SP-000151,fringe benefits required follow,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000038,SPO-000046,filtered_pattern,SP-000152,benefits required follow the,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000039,SPO-000047,filtered_pattern,SP-000153,required follow the occupational,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000040,SPO-000048,filtered_pattern,SP-000154,follow the occupational listing,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000041,SPO-000049,filtered_pattern,SP-000155,the occupational listing occupation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000042,SPO-000050,filtered_pattern,SP-000156,occupational listing occupation code,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000043,SPO-000051,filtered_pattern,SP-000157,listing occupation code title,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000044,SPO-000052,filtered_pattern,SP-000158,occupation code title footnote,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000045,SPO-000053,filtered_pattern,SP-000159,code title footnote rate,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000046,SPO-000054,filtered_pattern,SP-000160,title footnote rate 01000,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000047,SPO-000055,filtered_pattern,SP-000163,for quote,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000048,SPO-000056,filtered_pattern,SP-000165,solicitation is,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000049,SPO-000058,filtered_pattern,SP-000181,this solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000050,SPO-000059,filtered_pattern,SP-000183,to award,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000051,SPO-000060,filtered_pattern,SP-000186,for award,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000052,SPO-000061,filtered_pattern,SP-000221,marine corps,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000053,SPO-000062,filtered_pattern,SP-000222,01000 administrative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000054,SPO-000063,filtered_pattern,SP-000223,administrative support,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000055,SPO-000064,filtered_pattern,SP-000231,01020 administrative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000056,SPO-000065,filtered_pattern,SP-000232,administrative assistant,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000057,SPO-000066,filtered_pattern,SP-000251,rate 01000 administrative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000058,SPO-000067,filtered_pattern,SP-000252,01000 administrative support,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000059,SPO-000068,filtered_pattern,SP-000253,administrative support and,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000060,SPO-000069,filtered_pattern,SP-000264,01020 administrative assistant,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000061,SPO-000070,filtered_pattern,SP-000280,footnote rate 01000 administrative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000062,SPO-000071,filtered_pattern,SP-000281,rate 01000 administrative support,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000063,SPO-000072,filtered_pattern,SP-000282,01000 administrative support and,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000064,SPO-000073,filtered_pattern,SP-000283,administrative support and clerical,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000065,SPO-000075,filtered_pattern,SP-000306,in the solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000066,SPO-000076,filtered_pattern,SP-000324,applies to amendments,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000067,SPO-000077,filtered_pattern,SP-000325,to amendments of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000068,SPO-000078,filtered_pattern,SP-000326,amendments of solicitations,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000069,SPO-000079,filtered_pattern,SP-000328,above numbered solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000070,SPO-000080,filtered_pattern,SP-000329,numbered solicitation is,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000071,SPO-000081,filtered_pattern,SP-000337,only applies to amendments,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000072,SPO-000082,filtered_pattern,SP-000338,applies to amendments of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000073,SPO-000083,filtered_pattern,SP-000339,to amendments of solicitations,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000074,SPO-000084,filtered_pattern,SP-000340,the above numbered solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000075,SPO-000085,filtered_pattern,SP-000341,above numbered solicitation is,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000076,SPO-000086,filtered_pattern,SP-000350,of this amendment,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000077,SPO-000087,filtered_pattern,SP-000357,to the solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000078,SPO-000088,filtered_pattern,SP-000379,to award a,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000079,SPO-000089,filtered_pattern,SP-000383,award a contract,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000080,SPO-000090,filtered_pattern,SP-000420,synopsis solicitation for,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000081,SPO-000091,filtered_pattern,SP-000430,accordance with the format,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000082,SPO-000092,filtered_pattern,SP-000442,request for information,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000083,SPO-000094,filtered_pattern,SP-000505,far and dosar,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000084,SPO-000095,filtered_pattern,SP-000513,quote for the,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000085,SPO-000096,filtered_pattern,SP-000520,marine corps base,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000086,SPO-000097,filtered_pattern,SP-000521,corps base camp,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000087,SPO-000098,filtered_pattern,SP-000525,marine corps base camp,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000088,SPO-000099,filtered_pattern,SP-000526,corps base camp lejeune,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000089,SPO-000100,filtered_pattern,SP-000561,method of solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000090,SPO-000101,filtered_pattern,SP-000600,copies of the amendment,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000091,SPO-000102,filtered_pattern,SP-000620,of pages amendment of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000092,SPO-000103,filtered_pattern,SP-000662,solicitation to the responsible,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000093,SPO-000104,filtered_pattern,SP-000663,to the responsible offeror,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000094,SPO-000105,filtered_pattern,SP-000664,the responsible offeror whose,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000095,SPO-000106,filtered_pattern,SP-000680,award will be made,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000096,SPO-000107,filtered_pattern,SP-000681,source selection,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000097,SPO-000109,filtered_pattern,SP-000740,prepared in accordance with,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000098,SPO-000110,filtered_pattern,SP-000749,food and drug administration,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000099,SPO-000111,filtered_pattern,SP-000760,request for information rfi,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000100,SPO-000112,filtered_pattern,SP-000809,contract administration,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000101,SPO-000113,filtered_pattern,SP-000838,chess army mil proposal,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000102,SPO-000114,filtered_pattern,SP-000839,army mil proposal default,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000103,SPO-000115,filtered_pattern,SP-000840,mil proposal default index,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000104,SPO-000116,filtered_pattern,SP-000868,far and dosar provisions,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000105,SPO-000117,filtered_pattern,SP-000879,the format in far,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000106,SPO-000118,filtered_pattern,SP-000915,renovation cl marine corps,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000107,SPO-000119,filtered_pattern,SP-000916,cl marine corps base,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000108,SPO-000002,filtered_alias,SA-000011,of solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000109,SPO-000003,filtered_alias,SA-000013,accounting clerk,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000110,SPO-000004,filtered_alias,SA-000014,customer service,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000111,SPO-000005,filtered_alias,SA-000015,service representative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000112,SPO-000006,filtered_alias,SA-000016,customer service representative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000113,SPO-000007,filtered_alias,SA-000018,amendment of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000114,SPO-000009,filtered_alias,SA-000024,administered by,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000115,SPO-000010,filtered_alias,SA-000026,interior design,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000116,SPO-000011,filtered_alias,SA-000027,data entry,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000117,SPO-000012,filtered_alias,SA-000037,entry operator,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000118,SPO-000013,filtered_alias,SA-000038,general clerk,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000119,SPO-000014,filtered_alias,SA-000039,data entry operator,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000120,SPO-000016,filtered_alias,SA-000041,the offeror,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000121,SPO-000024,filtered_alias,SA-000061,offerors shall,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000122,SPO-000029,filtered_alias,SA-000085,of solicitation modification,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000123,SPO-000030,filtered_alias,SA-000086,solicitation modification of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000124,SPO-000031,filtered_alias,SA-000089,of solicitation modification of,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000125,SPO-000032,filtered_alias,SA-000090,solicitation modification of contract,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000126,SPO-000034,filtered_alias,SA-000096,administered by if,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000127,SPO-000035,filtered_alias,SA-000100,administered by if other,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000128,SPO-000070,filtered_alias,SA-000280,footnote rate 01000 administrative,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000129,SPO-000071,filtered_alias,SA-000281,rate 01000 administrative support,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000130,SPO-000072,filtered_alias,SA-000282,01000 administrative support and,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000131,SPO-000073,filtered_alias,SA-000283,administrative support and clerical,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000132,SPO-000078,filtered_alias,SA-000326,amendments of solicitations,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000133,SPO-000083,filtered_alias,SA-000339,to amendments of solicitations,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000134,SPO-000092,filtered_alias,SA-000442,request for information,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000135,SPO-000100,filtered_alias,SA-000561,method of solicitation,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000136,SPO-000107,filtered_alias,SA-000681,source selection,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30
+SORV-000137,SPO-000111,filtered_alias,SA-000760,request for information rfi,unmatched_or_low_confidence_interpretation,manual_semantic_review,pending,2026-06-27 22:40:30

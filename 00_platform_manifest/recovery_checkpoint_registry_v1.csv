@@ -1,0 +1,7 @@
+checkpoint_id,checkpoint_name,description,status,created_at
+CHK-000001,Before Wave 8B,PSOP v1 complete; semantic interpretation v1 complete,safe_restore_point,2026-06-28 00:24:41
+CHK-000002,After Pack 1,Expression intelligence layer complete,planned,2026-06-28 00:24:41
+CHK-000003,After Pack 2,Semantic interpretation v2 complete,planned,2026-06-28 00:24:41
+CHK-000004,After Pack 3,Scoring and confidence layer complete,planned,2026-06-28 00:24:41
+CHK-000005,After Pack 4,Semantic QA complete,planned,2026-06-28 00:24:41
+CHK-000006,After Pack 5,Wave 8B documentation complete,planned,2026-06-28 00:24:41

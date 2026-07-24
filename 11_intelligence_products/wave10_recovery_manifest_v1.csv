@@ -1,0 +1,3 @@
+recovery_checkpoint_id,checkpoint_name,description,required_artifacts,status,created_at
+W10-REC-000001,Wave 10 Bootstrap Complete,Product architecture and registries created.,C:\ProcurementIntelligence\11_intelligence_products\intelligence_product_registry_v1.csv,created,2026-06-29 17:04:15
+W10-REC-000002,Before Product Engines,KG-1.0 certified and Wave 10 product folders ready.,C:\ProcurementIntelligence\10_distribution\knowledge_graph_release_manifest_v1.json,created,2026-06-29 17:04:15

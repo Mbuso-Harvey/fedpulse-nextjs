@@ -1,0 +1,11 @@
+search_session_id,search_request_id,query_text,result_count,top_score,created_at
+GSSN-000001,GSRQ-000001,firm fixed price,5,0.984,2026-06-29 22:06:49
+GSSN-000002,GSRQ-000002,evaluation factors award basis,9,0.924,2026-06-29 22:06:49
+GSSN-000003,GSRQ-000003,performance work statement supplier capability,9,0.8686,2026-06-29 22:06:49
+GSSN-000004,GSRQ-000004,past performance small business,9,0.7234,2026-06-29 22:06:49
+GSSN-000005,GSRQ-000005,food and drug administration acquisition,9,0.837,2026-06-29 22:06:49
+GSSN-000006,GSRQ-000006,place of performance pricing,11,0.8782,2026-06-29 22:06:49
+GSSN-000007,GSRQ-000007,far dosar provisions compliance,1,0.666,2026-06-29 22:06:49
+GSSN-000008,GSRQ-000008,proposal volume solicitation amendment,11,0.9102,2026-06-29 22:06:49
+GSSN-000009,GSRQ-000009,request for proposal solicitation method,11,0.7943,2026-06-29 22:06:49
+GSSN-000010,GSRQ-000010,unit price payment invoice,5,0.729,2026-06-29 22:06:49

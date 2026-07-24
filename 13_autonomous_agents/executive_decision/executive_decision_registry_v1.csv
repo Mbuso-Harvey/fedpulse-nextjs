@@ -1,0 +1,2 @@
+decision_id,executive_decision,executive_position,base_go_score,risk_penalty,adjusted_go_score,critical_conditions,high_conditions,human_approval_required,commercial_binding_authority,created_at
+EXECDEC-000001,partner_or_restructure,partner_or_restructure,65.28,27.0,38.28,3,3,true,false,2026-07-04 22:34:06

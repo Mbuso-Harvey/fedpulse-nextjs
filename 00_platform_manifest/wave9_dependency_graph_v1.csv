@@ -1,0 +1,7 @@
+dependency_id,engine_name,depends_on,required_artifact,created_at
+W9-DEP-000001,KG Node Builder,Wave 8B certified semantic registry,semantic_procurement_object_registry_v3.csv,2026-06-29 03:08:43
+W9-DEP-000002,KG Edge Builder,KG Node Builder,knowledge_graph_nodes_v1.csv,2026-06-29 03:08:43
+W9-DEP-000003,KG Relationship Inference Engine,PSOP relationship registry,semantic_object_relationship_registry_v1.csv,2026-06-29 03:08:43
+W9-DEP-000004,KG Provenance Linker,semantic object evidence,semantic_procurement_object_evidence_v2.csv,2026-06-29 03:08:43
+W9-DEP-000005,KG Integrity Validator,nodes and edges,knowledge_graph_nodes_v1.csv;knowledge_graph_edges_v1.csv,2026-06-29 03:08:43
+W9-DEP-000006,KG Export Builder,validated graph,knowledge_graph_integrity_report_v1.md,2026-06-29 03:08:43

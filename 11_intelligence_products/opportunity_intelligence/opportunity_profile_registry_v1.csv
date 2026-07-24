@@ -1,0 +1,2 @@
+opportunity_profile_id,opportunity_id,opportunity_name,graph_version,product_version,node_count,edge_count,technical_count,commercial_count,evaluation_count,supplier_count,compliance_count,delivery_count,submission_count,agency_count,operations_count,documentation_count,status,created_at
+OPPPROF-000001,OPPINT-000001,KG-1.0 Demonstration Opportunity,KG-1.0,0.1.0,29,44,2,3,2,2,1,1,1,1,3,3,profile_created,2026-06-30 11:19:16

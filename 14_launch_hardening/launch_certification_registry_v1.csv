@@ -1,0 +1,2 @@
+certification_id,wave,platform_version,graph_version,certification_status,ready_areas,not_ready_areas,launch_freeze_policy,post_launch_policy,created_at
+LAUNCHCERT-000001,Wave 12,1.0.0,KG-1.0,launch_hardening_bootstrap_certified,3,0,wave14_feature_freeze,new_features_after_first_clients_only,2026-07-05 06:01:03

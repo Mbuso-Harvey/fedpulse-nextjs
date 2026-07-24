@@ -1,0 +1,2 @@
+publication_readiness_id,publication_status,node_count,edge_count,hard_failures,review_items,connected_components,largest_component_size,graph_density,weak_edges,duplicate_edge_clusters,created_at
+KGPUB-000001,certified_for_graph_publication,29,44,0,37,8,22,0.0542,1,0,2026-06-29 11:35:33

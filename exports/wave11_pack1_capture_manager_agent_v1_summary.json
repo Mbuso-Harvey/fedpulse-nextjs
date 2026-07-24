@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-07-03 01:17:42",
+  "wave": "Wave 11",
+  "pack": "Pack 1 - Capture Manager Agent",
+  "status": "completed",
+  "product_status": "capture_manager_agent_certified",
+  "graph_version": "KG-1.0",
+  "agent_version": "1.0.0",
+  "capture_score": 65.11,
+  "capture_position": "qualified_capture_position",
+  "bid_decision": "proceed_with_controls",
+  "human_review_required": true,
+  "win_themes": 6,
+  "capture_actions": 7,
+  "qa": {
+    "pass": 6,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\capture_manager\\capture_manager_session_registry_v1.csv",
+    "strategy_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\capture_manager\\capture_strategy_registry_v1.csv",
+    "win_theme_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\capture_manager\\capture_win_theme_registry_v1.csv",
+    "action_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\capture_manager\\capture_action_registry_v1.csv",
+    "decision_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\capture_manager\\capture_decision_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\capture_manager\\capture_manager_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave11_capture_manager_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave11_pack1_capture_manager_agent_report_v1.md"
+  },
+  "next_script": "build_wave11_pack2_supplier_strategy_agent_v1.py"
+}

@@ -1,0 +1,11 @@
+search_request_id,query_text,query_category,graph_version,product_version,status,created_at
+GSRQ-000001,firm fixed price,contract_type,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000002,evaluation factors award basis,evaluation,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000003,performance work statement supplier capability,technical_requirement,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000004,past performance small business,supplier_qualification,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000005,food and drug administration acquisition,agency,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000006,place of performance pricing,delivery,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000007,far dosar provisions compliance,compliance,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000008,proposal volume solicitation amendment,submission,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000009,request for proposal solicitation method,acquisition_metadata,KG-1.0,0.1.0,executed,2026-06-29 22:06:49
+GSRQ-000010,unit price payment invoice,pricing,KG-1.0,0.1.0,executed,2026-06-29 22:06:49

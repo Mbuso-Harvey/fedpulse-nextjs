@@ -1,0 +1,117 @@
+normalization_id,original_grounded_statement_id,canonical_statement_id,normalization_type,before_value,after_value,created_at
+NORM-000001,GSTMT-000001,CGS-000001,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000002,GSTMT-000002,CGS-000001,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000003,GSTMT-000006,CGS-000005,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000004,GSTMT-000007,CGS-000005,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000005,GSTMT-000008,CGS-000005,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000006,GSTMT-000009,CGS-000005,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000007,GSTMT-000010,CGS-000006,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000008,GSTMT-000010,CGS-000006,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000009,GSTMT-000010,CGS-000006,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000010,GSTMT-000011,CGS-000006,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000011,GSTMT-000011,CGS-000006,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000012,GSTMT-000011,CGS-000006,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000013,GSTMT-000014,CGS-000008,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000014,GSTMT-000015,CGS-000008,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000015,GSTMT-000027,CGS-000017,punctuation_normalization,"(a) By completing items 8 and 15, and returning _____ copies of the amendment;","(a) By completing items 8 and 15, and returning ___ copies of the amendment;",2026-06-25 12:55:09
+NORM-000016,GSTMT-000046,CGS-000030,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000017,GSTMT-000070,CGS-000049,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000018,GSTMT-000070,CGS-000049,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000019,GSTMT-000071,CGS-000049,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000020,GSTMT-000071,CGS-000049,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000021,GSTMT-000086,CGS-000056,punctuation_normalization,______________ Your Quote Reference #______________ Email:,___ Your Quote Reference #___ Email:,2026-06-25 12:55:09
+NORM-000022,GSTMT-000087,CGS-000057,punctuation_normalization,stephen.p.smith161.civ@us.navy.mil Quotation Valid For _________Days Also send quotes to:,stephen.p.smith161.civ@us.navy.mil Quotation Valid For ___Days Also send quotes to:,2026-06-25 12:55:09
+NORM-000023,GSTMT-000093,CGS-000062,punctuation_normalization,"_____________ IF NOT USA, DUTY INCLUDED IN PRICE Yes ___ No ___ SHIP TO:","___ IF NOT USA, DUTY INCLUDED IN PRICE Yes ___ No ___ SHIP TO:",2026-06-25 12:55:09
+NORM-000024,GSTMT-000095,CGS-000064,punctuation_normalization,B.EXHIBIT C.CATEGORY 0001 A TDP TM ______ OTHER______ D.SYSTEM/ITEM E.CONTRACT/PR NO.,B.EXHIBIT C.CATEGORY 0001 A TDP TM ___ OTHER___ D.SYSTEM/ITEM E.CONTRACT/PR NO.,2026-06-25 12:55:09
+NORM-000025,GSTMT-000106,CGS-000073,punctuation_normalization,B.EXHIBIT C.CATEGORY 0002 B TDP TM ______ OTHER______ D.SYSTEM/ITEM E.CONTRACT/PR NO.,B.EXHIBIT C.CATEGORY 0002 B TDP TM ___ OTHER___ D.SYSTEM/ITEM E.CONTRACT/PR NO.,2026-06-25 12:55:09
+NORM-000026,GSTMT-000125,CGS-000083,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000027,GSTMT-000125,CGS-000083,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000028,GSTMT-000133,CGS-000090,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000029,GSTMT-000148,CGS-000104,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000030,GSTMT-000149,CGS-000104,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000031,GSTMT-000150,CGS-000104,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000032,GSTMT-000163,CGS-000117,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000033,GSTMT-000164,CGS-000118,punctuation_normalization,36C78626B0017 Section B SECTION B - SUPPLIES OR SERVICES AND PRICE/COSTS B.1 PRICE SCHEDULE ITEM INFORMATION ITEM DESCRI,36C78626B0017 Section B SECTION B - SUPPLIES OR SERVICES AND PRICE/COSTS B.1 PRICE SCHEDULE ITEM INFORMATION ITEM DESCRI,2026-06-25 12:55:09
+NORM-000034,GSTMT-000165,CGS-000118,punctuation_normalization,36C78626B0017 Section B SECTION B - SUPPLIES OR SERVICES AND PRICE/COSTS B.1 PRICE SCHEDULE ITEM INFORMATION ITEM DESCRI,36C78626B0017 Section B SECTION B - SUPPLIES OR SERVICES AND PRICE/COSTS B.1 PRICE SCHEDULE ITEM INFORMATION ITEM DESCRI,2026-06-25 12:55:09
+NORM-000035,GSTMT-000172,CGS-000125,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000036,GSTMT-000172,CGS-000125,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000037,GSTMT-000172,CGS-000125,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000038,GSTMT-000172,CGS-000125,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000039,GSTMT-000181,CGS-000134,punctuation_normalization,"LOWBOY TRUCK.........................$ 11.00 0.00 TRUCK DRIVER, INCLUDES DUMP TRUCK...................$ 11.07 0.00 OPERA","LOWBOY TRUCK...$ 11.00 0.00 TRUCK DRIVER, INCLUDES DUMP TRUCK...$ 11.07 0.00 OPERATOR:",2026-06-25 12:55:09
+NORM-000040,GSTMT-000183,CGS-000136,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000041,GSTMT-000184,CGS-000137,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000042,GSTMT-000186,CGS-000139,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000043,GSTMT-000186,CGS-000139,unicode_or_ocr_replacement,‘,',2026-06-25 12:55:09
+NORM-000044,GSTMT-000188,CGS-000141,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000045,GSTMT-000200,CGS-000152,punctuation_normalization,"(a) By completing Items 8 and 15, and returning _____1_ ____ copies of the amendment;","(a) By completing Items 8 and 15, and returning ___1_ ___ copies of the amendment;",2026-06-25 12:55:09
+NORM-000046,GSTMT-000210,CGS-000161,unicode_or_ocr_replacement,—,-,2026-06-25 12:55:09
+NORM-000047,GSTMT-000211,CGS-000162,unicode_or_ocr_replacement,—,-,2026-06-25 12:55:09
+NORM-000048,GSTMT-000212,CGS-000163,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000049,GSTMT-000214,CGS-000165,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000050,GSTMT-000238,CGS-000174,unicode_or_ocr_replacement,—,-,2026-06-25 12:55:09
+NORM-000051,GSTMT-000239,CGS-000174,unicode_or_ocr_replacement,—,-,2026-06-25 12:55:09
+NORM-000052,GSTMT-000240,CGS-000175,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000053,GSTMT-000243,CGS-000178,unicode_or_ocr_replacement,—,-,2026-06-25 12:55:09
+NORM-000054,GSTMT-000271,CGS-000191,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000055,GSTMT-000286,CGS-000056,punctuation_normalization,__ ____ Your Quote Reference #______________ Email:,__ ___ Your Quote Reference #___ Email:,2026-06-25 12:55:09
+NORM-000056,GSTMT-000287,CGS-000057,punctuation_normalization,stephen.p.smith161.civ@us.navy.mil Quotation Valid For _________Days Also send quotes to:,stephen.p.smith161.civ@us.navy.mil Quotation Valid For ___Days Also send quotes to:,2026-06-25 12:55:09
+NORM-000057,GSTMT-000293,CGS-000062,punctuation_normalization,"_____________ IF NOT USA, DUTY INCLUDED IN PRICE Yes ___ No ___ SHIP TO:","___ IF NOT USA, DUTY INCLUDED IN PRICE Yes ___ No ___ SHIP TO:",2026-06-25 12:55:09
+NORM-000058,GSTMT-000298,CGS-000210,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000059,GSTMT-000298,CGS-000210,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000060,GSTMT-000301,CGS-000213,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000061,GSTMT-000319,CGS-000218,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000062,GSTMT-000320,CGS-000218,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000063,GSTMT-000321,CGS-000219,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000064,GSTMT-000362,CGS-000235,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000065,GSTMT-000362,CGS-000235,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000066,GSTMT-000363,CGS-000236,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000067,GSTMT-000363,CGS-000236,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000068,GSTMT-000365,CGS-000238,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000069,GSTMT-000365,CGS-000238,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000070,GSTMT-000369,CGS-000242,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000071,GSTMT-000369,CGS-000242,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000072,GSTMT-000370,CGS-000243,punctuation_normalization,"§ 160.103, and in reference to the party to this Agreement shall mean ____________","§ 160.103, and in reference to the party to this Agreement shall mean ___",2026-06-25 12:55:09
+NORM-000073,GSTMT-000371,CGS-000244,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000074,GSTMT-000382,CGS-000254,punctuation_normalization,Safety Management Plan ADD YOUR COMPANY NAME AND DATA Project:__ ADD THE NAME OF YOUR PROJECT HERE Location:____ ADD THE,Safety Management Plan ADD YOUR COMPANY NAME AND DATA Project:__ ADD THE NAME OF YOUR PROJECT HERE Location:___ ADD THE ,2026-06-25 12:55:09
+NORM-000075,GSTMT-000396,CGS-000267,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000076,GSTMT-000397,CGS-000267,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000077,GSTMT-000398,CGS-000267,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000078,GSTMT-000399,CGS-000267,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000079,GSTMT-000400,CGS-000267,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000080,GSTMT-000405,CGS-000272,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000081,GSTMT-000408,CGS-000275,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000082,GSTMT-000409,CGS-000275,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000083,GSTMT-000410,CGS-000275,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000084,GSTMT-000411,CGS-000275,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000085,GSTMT-000412,CGS-000275,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000086,GSTMT-000426,CGS-000285,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000087,GSTMT-000426,CGS-000285,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000088,GSTMT-000446,CGS-000304,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000089,GSTMT-000492,CGS-000335,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000090,GSTMT-000494,CGS-000337,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000091,GSTMT-000494,CGS-000337,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000092,GSTMT-000495,CGS-000338,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000093,GSTMT-000495,CGS-000338,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000094,GSTMT-000495,CGS-000338,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000095,GSTMT-000509,CGS-000352,unicode_or_ocr_replacement,–,-,2026-06-25 12:55:09
+NORM-000096,GSTMT-000541,CGS-000379,punctuation_normalization,Washington Counties of King and Snohomish ______________________________________________________________________________,Washington Counties of King and Snohomish ___ **Fringe Benefits Required Follow the Occupational Listing** OCCUPATION CO,2026-06-25 12:55:09
+NORM-000097,GSTMT-000542,CGS-000379,punctuation_normalization,Washington Counties of King and Snohomish ______________________________________________________________________________,Washington Counties of King and Snohomish ___ **Fringe Benefits Required Follow the Occupational Listing** OCCUPATION CO,2026-06-25 12:55:09
+NORM-000098,GSTMT-000545,CGS-000380,punctuation_normalization,California Counties of Riverside and San Bernardino ____________________________________________________________________,California Counties of Riverside and San Bernardino ___ **Fringe Benefits Required Follow the Occupational Listing** OCC,2026-06-25 12:55:09
+NORM-000099,GSTMT-000546,CGS-000380,punctuation_normalization,California Counties of Riverside and San Bernardino ____________________________________________________________________,California Counties of Riverside and San Bernardino ___ **Fringe Benefits Required Follow the Occupational Listing** OCC,2026-06-25 12:55:09
+NORM-000100,GSTMT-000549,CGS-000381,punctuation_normalization,"Illinois Counties of Cook, Du Page and McHenry _________________________________________________________________________","Illinois Counties of Cook, Du Page and McHenry ___ **Fringe Benefits Required Follow the Occupational Listing** OCCUPATI",2026-06-25 12:55:09
+NORM-000101,GSTMT-000550,CGS-000381,punctuation_normalization,"Illinois Counties of Cook, Du Page and McHenry _________________________________________________________________________","Illinois Counties of Cook, Du Page and McHenry ___ **Fringe Benefits Required Follow the Occupational Listing** OCCUPATI",2026-06-25 12:55:09
+NORM-000102,GSTMT-000553,CGS-000382,punctuation_normalization,"Colorado Counties of Adams, Arapahoe, Broomfield, Clear Creek, Denver, Douglas, Elbert, Gilpin, Jefferson and Park _____","Colorado Counties of Adams, Arapahoe, Broomfield, Clear Creek, Denver, Douglas, Elbert, Gilpin, Jefferson and Park ___ *",2026-06-25 12:55:09
+NORM-000103,GSTMT-000554,CGS-000382,punctuation_normalization,"Colorado Counties of Adams, Arapahoe, Broomfield, Clear Creek, Denver, Douglas, Elbert, Gilpin, Jefferson and Park _____","Colorado Counties of Adams, Arapahoe, Broomfield, Clear Creek, Denver, Douglas, Elbert, Gilpin, Jefferson and Park ___ *",2026-06-25 12:55:09
+NORM-000104,GSTMT-000557,CGS-000380,punctuation_normalization,California Counties of Riverside and San Bernardino ____________________________________________________________________,California Counties of Riverside and San Bernardino ___ **Fringe Benefits Required Follow the Occupational Listing** OCC,2026-06-25 12:55:09
+NORM-000105,GSTMT-000558,CGS-000380,punctuation_normalization,California Counties of Riverside and San Bernardino ____________________________________________________________________,California Counties of Riverside and San Bernardino ___ **Fringe Benefits Required Follow the Occupational Listing** OCC,2026-06-25 12:55:09
+NORM-000106,GSTMT-000561,CGS-000383,punctuation_normalization,"Massachusetts Counties of Essex, Middlesex, Norfolk, Plymouth and Suffolk ______________________________________________","Massachusetts Counties of Essex, Middlesex, Norfolk, Plymouth and Suffolk ___ **Fringe Benefits Required Follow the Occu",2026-06-25 12:55:09
+NORM-000107,GSTMT-000590,CGS-000335,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000108,GSTMT-000592,CGS-000337,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000109,GSTMT-000592,CGS-000337,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000110,GSTMT-000593,CGS-000338,unicode_or_ocr_replacement,“,"""",2026-06-25 12:55:09
+NORM-000111,GSTMT-000593,CGS-000338,unicode_or_ocr_replacement,”,"""",2026-06-25 12:55:09
+NORM-000112,GSTMT-000593,CGS-000338,unicode_or_ocr_replacement,’,',2026-06-25 12:55:09
+NORM-000113,GSTMT-000614,CGS-000402,punctuation_normalization,Key Personnel ..........................................................................................................,Key Personnel ...,2026-06-25 12:55:09
+NORM-000114,GSTMT-000615,CGS-000403,punctuation_normalization,Pricing Schedule .......................................................................................................,Pricing Schedule ...,2026-06-25 12:55:09
+NORM-000115,GSTMT-000618,CGS-000404,punctuation_normalization,"Georgia Counties of Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Douglas, Fayette, Forsyth, ","Georgia Counties of Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Douglas, Fayette, Forsyth, ",2026-06-25 12:55:09
+NORM-000116,GSTMT-000619,CGS-000404,punctuation_normalization,"Georgia Counties of Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Douglas, Fayette, Forsyth, ","Georgia Counties of Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Douglas, Fayette, Forsyth, ",2026-06-25 12:55:09

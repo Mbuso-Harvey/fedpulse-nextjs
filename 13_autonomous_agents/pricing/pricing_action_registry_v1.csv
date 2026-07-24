@@ -1,0 +1,6 @@
+action_id,priority,action_title,action_rationale,status,created_at
+PRACT-000001,critical,Create pricing assumptions register,"Document all pricing assumptions, risks, owners, and evidence.",open,2026-07-04 11:11:53
+PRACT-000002,critical,Run margin sensitivity analysis,Model best/base/worst cases using delivery and compliance assumptions.,open,2026-07-04 11:11:53
+PRACT-000003,high,Validate delivery cost exposure,"Confirm staffing, travel, logistics, location, and place-of-performance assumptions.",open,2026-07-04 11:11:53
+PRACT-000004,high,Estimate compliance cost burden,Estimate effort required to satisfy FAR/DOSAR and supporting compliance documentation.,open,2026-07-04 11:11:53
+PRACT-000005,medium,Review similar opportunity pricing lessons,Use similar opportunity intelligence to identify reusable pricing and capture assumptions.,open,2026-07-04 11:11:53

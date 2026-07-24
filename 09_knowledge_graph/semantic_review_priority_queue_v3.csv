@@ -1,0 +1,37 @@
+review_queue_id,semantic_object_id,semantic_object_type,canonical_name,domain_name,governance_score,promotion_status,priority,review_reason,review_status,created_at
+SRPQ3-000014,SPO2-000014,Uninterpreted Expression,Solicitation Metadata,,0.0,discovery_backlog,critical,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000017,SPO2-000017,Uninterpreted Expression,Amendments Of Solicitations,,0.0,discovery_backlog,critical,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000036,SPO2-000036,Pricing Structure,Payment and Invoice,Commercial and Pricing,0.709,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000009,SPO2-000009,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,0.711,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000016,SPO2-000016,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,0.712,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000035,SPO2-000035,Acquisition Metadata,Request for Quotation,Acquisition Strategy,0.714,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000019,SPO2-000019,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,0.717,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000013,SPO2-000013,Proposal Structure,Proposal Volume,Submission and Proposal Management,0.718,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000021,SPO2-000021,Technical Requirement,Statement of Work,Technical Requirements,0.721,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000010,SPO2-000010,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,0.724,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000008,SPO2-000008,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,0.727,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000018,SPO2-000018,Delivery Requirement,Place of Performance,Delivery and Logistics,0.727,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000020,SPO2-000020,Acquisition Metadata,Request for Proposal,Acquisition Strategy,0.728,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000011,SPO2-000011,Acquisition Metadata,Request for Information,Acquisition Strategy,0.736,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000003,SPO2-000003,Acquisition Metadata,Solicitation Number,Acquisition Strategy,0.744,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000005,SPO2-000005,Pricing Structure,Unit Price,Commercial and Pricing,0.75,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000006,SPO2-000006,Procurement Role,Contracting Officer,Acquisition Strategy,0.755,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000004,SPO2-000004,Contract Type,Firm Fixed Price,Commercial and Pricing,0.756,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000007,SPO2-000007,Technical Requirement,Performance Work Statement,Technical Requirements,0.759,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000015,SPO2-000015,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,0.764,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000033,SPO2-000033,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,0.787,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000012,SPO2-000012,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,0.805,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000030,SPO2-000030,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,0.814,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000022,SPO2-000022,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.832,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000025,SPO2-000025,Military Organization,United States Army,Domain-Specific Operations,0.832,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000027,SPO2-000027,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.832,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000028,SPO2-000028,Military Organization,United States Army,Domain-Specific Operations,0.832,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000026,SPO2-000026,Contract Type Fragment,Award a Firm Fixed Price Contract,Commercial and Pricing,0.841,promote_after_review,medium,governance_review,pending,2026-06-28 22:06:51
+SRPQ3-000029,SPO2-000029,Military Organization,United States Marine Corps,Domain-Specific Operations,0.85,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000031,SPO2-000031,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",0.85,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000034,SPO2-000034,Military Organization,United States Marine Corps,Domain-Specific Operations,0.85,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000023,SPO2-000023,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.877,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000024,SPO2-000024,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.877,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000032,SPO2-000032,Federal Agency,Food and Drug Administration,Acquisition Strategy,0.877,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000001,SPO2-000001,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,0.896,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51
+SRPQ3-000002,SPO2-000002,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,0.901,promote_to_semantic_registry,low,governance_review,spot_check,2026-06-28 22:06:51

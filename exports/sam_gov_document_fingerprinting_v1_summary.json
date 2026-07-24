@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-06-21 17:19:25",
+  "documents_fingerprinted": 150,
+  "file_type_counts": {
+    "pdf": 123,
+    "docx": 11,
+    "xlsx": 16
+  },
+  "primary_document_type_counts": {
+    "evaluation_criteria": 5,
+    "pricing_schedule": 26,
+    "amendment": 9,
+    "past_performance": 5,
+    "certifications": 34,
+    "statement_of_work": 8,
+    "proposal_instructions": 2,
+    "spreadsheet_unclassified": 16,
+    "document_unclassified": 18,
+    "security": 13,
+    "staffing": 4,
+    "q_and_a": 2,
+    "drawings": 6,
+    "forms": 2
+  },
+  "signal_family_counts": {
+    "statement_of_work": 49,
+    "evaluation_criteria": 37,
+    "proposal_instructions": 30,
+    "pricing_schedule": 73,
+    "past_performance": 36,
+    "staffing": 32,
+    "certifications": 97,
+    "security": 62,
+    "drawings": 37,
+    "justification": 21,
+    "forms": 61,
+    "q_and_a": 9,
+    "amendment": 11,
+    "wage_determination": 20
+  },
+  "outputs": {
+    "fingerprint_csv": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_document_fingerprints_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\sam_gov_document_fingerprinting_report_v1.md"
+  }
+}

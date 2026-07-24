@@ -1,0 +1,22 @@
+field_id,view_id,view_name,field_name,field_type,field_description,required,created_at
+UIFIELD-000001,UIVIEW-000001,Dashboard Home,platform_status,string,Display current launch/readiness status.,true,2026-07-08 17:38:01
+UIFIELD-000002,UIVIEW-000001,Dashboard Home,release_version,string,Display current release candidate.,true,2026-07-08 17:38:01
+UIFIELD-000003,UIVIEW-000001,Dashboard Home,human_approval_required,boolean,Show that human approval remains required.,true,2026-07-08 17:38:01
+UIFIELD-000004,UIVIEW-000002,Search,query,string,User search query.,true,2026-07-08 17:38:01
+UIFIELD-000005,UIVIEW-000002,Search,results,array,Returned procurement search results.,true,2026-07-08 17:38:01
+UIFIELD-000006,UIVIEW-000002,Search,evidence,array,Evidence records supporting results.,true,2026-07-08 17:38:01
+UIFIELD-000007,UIVIEW-000003,Ask,question,string,User procurement question.,true,2026-07-08 17:38:01
+UIFIELD-000008,UIVIEW-000003,Ask,answer,string,Graph-backed answer.,true,2026-07-08 17:38:01
+UIFIELD-000009,UIVIEW-000003,Ask,citations,array,Evidence or source references.,true,2026-07-08 17:38:01
+UIFIELD-000010,UIVIEW-000004,Opportunity Intelligence,complexity_score,number,Opportunity complexity score.,true,2026-07-08 17:38:01
+UIFIELD-000011,UIVIEW-000004,Opportunity Intelligence,bid_readiness_score,number,Bid readiness score.,true,2026-07-08 17:38:01
+UIFIELD-000012,UIVIEW-000004,Opportunity Intelligence,risk_flags,array,Opportunity risk flags.,true,2026-07-08 17:38:01
+UIFIELD-000013,UIVIEW-000005,Recommendations,recommendations,array,Ranked recommendations.,true,2026-07-08 17:38:01
+UIFIELD-000014,UIVIEW-000005,Recommendations,priority,string,Recommendation priority.,true,2026-07-08 17:38:01
+UIFIELD-000015,UIVIEW-000005,Recommendations,evidence,array,Evidence for each recommendation.,true,2026-07-08 17:38:01
+UIFIELD-000016,UIVIEW-000006,AI Analyst,overall_assessment_score,number,AI analyst overall assessment.,true,2026-07-08 17:38:01
+UIFIELD-000017,UIVIEW-000006,AI Analyst,recommended_pursuit,string,Recommended pursuit position.,true,2026-07-08 17:38:01
+UIFIELD-000018,UIVIEW-000006,AI Analyst,actions,array,Recommended analyst actions.,true,2026-07-08 17:38:01
+UIFIELD-000019,UIVIEW-000007,Graph Analytics,node_count,number,Graph node count.,true,2026-07-08 17:38:01
+UIFIELD-000020,UIVIEW-000007,Graph Analytics,edge_count,number,Graph edge count.,true,2026-07-08 17:38:01
+UIFIELD-000021,UIVIEW-000007,Graph Analytics,analytics_health_score,number,Graph analytics health score.,true,2026-07-08 17:38:01

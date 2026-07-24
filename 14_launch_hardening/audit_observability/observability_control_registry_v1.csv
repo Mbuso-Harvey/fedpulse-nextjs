@@ -1,0 +1,8 @@
+control_id,control_title,description,observed_value,target_value,status,created_at
+OBCTRL-000001,Audit Source Availability,All required audit sources must exist.,12,12,pass,2026-07-06 16:31:46
+OBCTRL-000002,Agent QA Coverage,All launch agents must have QA coverage.,6,6,pass,2026-07-06 16:31:46
+OBCTRL-000003,Production Readiness Gate,Production readiness gate must be production_ready.,1,1,pass,2026-07-06 16:31:46
+OBCTRL-000004,API Contract Gate,API contract validation must be certified.,1,1,pass,2026-07-06 16:31:46
+OBCTRL-000005,API Audit Logging,Production API manifest must require audit logging.,1,1,pass,2026-07-06 16:31:46
+OBCTRL-000006,API Authentication,Production API manifest must require authentication.,1,1,pass,2026-07-06 16:31:46
+OBCTRL-000007,API Rate Limiting,Production API manifest must require rate limiting.,1,1,pass,2026-07-06 16:31:46

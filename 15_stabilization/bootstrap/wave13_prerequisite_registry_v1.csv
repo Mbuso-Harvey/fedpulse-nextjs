@@ -1,0 +1,7 @@
+prerequisite_id,prerequisite_name,observed_status,expected_status,status,created_at
+W13PREREQ-000001,Wave 12 closeout certified,wave12_launch_hardening_certified,wave12_launch_hardening_certified,pass,2026-07-08 03:18:40
+W13PREREQ-000002,Production readiness gate passed,production_ready,production_ready,pass,2026-07-08 03:18:40
+W13PREREQ-000003,API contracts validated,api_contracts_validated,api_contracts_validated,pass,2026-07-08 03:18:40
+W13PREREQ-000004,Audit observability ready,audit_observability_ready,audit_observability_ready,pass,2026-07-08 03:18:40
+W13PREREQ-000005,Deployment package ready,deployment_package_ready,deployment_package_ready,pass,2026-07-08 03:18:40
+W13PREREQ-000006,Client demo ready,client_demo_ready,client_demo_ready,pass,2026-07-08 03:18:40

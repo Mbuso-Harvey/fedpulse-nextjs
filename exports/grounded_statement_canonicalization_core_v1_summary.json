@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-06-25 12:55:09",
+  "sprint": "SAM-0007ZD-A",
+  "original_grounded_statements_processed": 627,
+  "canonical_grounded_statements_created": 405,
+  "duplicates_collapsed": 222,
+  "normalization_log_records": 116,
+  "duplicate_bands": {
+    "unique_source_count_1": 304,
+    "duplicate_source_count_2": 69,
+    "duplicate_source_count_3_plus": 32
+  },
+  "outputs": {
+    "canonical_core": "C:\\ProcurementIntelligence\\09_knowledge_graph\\canonical_grounded_statements_core_v1.csv",
+    "normalization_log": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_statement_normalization_log_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\grounded_statement_canonicalization_core_report_v1.md"
+  },
+  "next_sprint": "SAM-0007ZD-B Grounded Statement Provenance Engine V1"
+}

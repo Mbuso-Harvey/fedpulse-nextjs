@@ -1,0 +1,5 @@
+volume_id,volume_name,included_sections,primary_owner,priority,created_at
+PROPVOL-000001,Volume 1 - Technical and Management,Executive Summary; Technical Approach; Management Approach; Risk Management,proposal_team,critical,2026-07-04 16:30:37
+PROPVOL-000002,Volume 2 - Past Performance and Supplier Qualifications,Past Performance and Supplier Qualifications,supplier_lead,critical,2026-07-04 16:30:37
+PROPVOL-000003,Volume 3 - Compliance and Submission,Compliance Matrix,compliance_lead,critical,2026-07-04 16:30:37
+PROPVOL-000004,Volume 4 - Pricing,Pricing and Commercial Assumptions,pricing_lead,high,2026-07-04 16:30:37

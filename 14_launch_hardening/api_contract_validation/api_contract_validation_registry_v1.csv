@@ -1,0 +1,8 @@
+validation_id,validation_metric,observed_value,target_value,status,created_at
+APIVAL-000001,manifest_services_present,0,0,pass,2026-07-05 17:27:42
+APIVAL-000002,manifest_extra_services,0,0,pass,2026-07-05 17:27:42
+APIVAL-000003,request_format_json,1,1,pass,2026-07-05 17:27:42
+APIVAL-000004,response_format_json,1,1,pass,2026-07-05 17:27:42
+APIVAL-000005,auth_required,1,1,pass,2026-07-05 17:27:42
+APIVAL-000006,rate_limited,1,1,pass,2026-07-05 17:27:42
+APIVAL-000007,audit_logging,1,1,pass,2026-07-05 17:27:42

@@ -1,0 +1,8 @@
+freeze_record_id,component,freeze_status,rule,release_version,created_at
+V1FREEZE-000001,Procurement Intelligence Engine,frozen,"Only critical defects, security issues, reliability issues, or paying-client onboarding blockers may change this component.",1.0.0,2026-07-12 19:56:00
+V1FREEZE-000002,Knowledge Graph KG-1.0,frozen,Graph architecture remains locked until customer evidence justifies a controlled version change.,1.0.0,2026-07-12 19:56:00
+V1FREEZE-000003,Autonomous Agent Framework,frozen,No new agents or major agent capability expansion before first-client validation.,1.0.0,2026-07-12 19:56:00
+V1FREEZE-000004,Production API Contracts,frozen,"Existing contracts remain stable for UI/UX, onboarding, and client integrations.",1.0.0,2026-07-12 19:56:00
+V1FREEZE-000005,Certified Demo Baseline,frozen,The certified demo sequence remains the launch baseline.,1.0.0,2026-07-12 19:56:00
+V1FREEZE-000006,UI/UX Implementation,active_launch_execution,Implementation may proceed using the certified integration contracts.,1.0.0,2026-07-12 19:56:00
+V1FREEZE-000007,Client Onboarding Workflow,active_launch_execution,Onboarding work may proceed and may generate client-driven improvements.,1.0.0,2026-07-12 19:56:00

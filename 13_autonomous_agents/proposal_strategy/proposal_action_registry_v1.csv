@@ -1,0 +1,8 @@
+action_id,priority,action_title,action_rationale,status,created_at
+PROPACT-000001,critical,Draft executive summary,"Use capture strategy, buyer intelligence, supplier fit, and proposal win themes.",open,2026-07-04 16:30:37
+PROPACT-000002,critical,Complete compliance matrix,Resolve critical and high compliance gaps before proposal approval.,open,2026-07-04 16:30:37
+PROPACT-000003,critical,Build technical response,Map SOW/PWS requirements to proposal evidence and response sections.,open,2026-07-04 16:30:37
+PROPACT-000004,critical,Prepare supplier qualification package,"Package past performance, eligibility, readiness, and capability evidence.",open,2026-07-04 16:30:37
+PROPACT-000005,high,Prepare pricing volume,"Use pricing controls, assumptions register, and margin sensitivity outputs.",open,2026-07-04 16:30:37
+PROPACT-000006,high,Run proposal red-team review,"Review compliance, evaluation alignment, pricing risk, and buyer fit.",open,2026-07-04 16:30:37
+PROPACT-000007,medium,Reuse similar opportunity lessons,Incorporate useful lessons from high-similarity opportunity patterns.,open,2026-07-04 16:30:37

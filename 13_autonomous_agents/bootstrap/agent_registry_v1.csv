@@ -1,0 +1,7 @@
+agent_id,agent_name,agent_folder,agent_role,primary_objective,status,created_at
+AGENT-000001,Capture Manager Agent,C:\ProcurementIntelligence\13_autonomous_agents\capture_manager,Capture strategy and bid/no-bid decision support,"Synthesize opportunity, supplier, buyer, similarity, recommendation, and analyst outputs into a capture strategy.",planned,2026-07-02 21:58:24
+AGENT-000002,Supplier Strategy Agent,C:\ProcurementIntelligence\13_autonomous_agents\supplier_strategy,Supplier readiness and capability improvement,Identify supplier gaps and recommend readiness improvements.,planned,2026-07-02 21:58:24
+AGENT-000003,Compliance Agent,C:\ProcurementIntelligence\13_autonomous_agents\compliance,Compliance matrix and evidence review,Detect compliance obligations and build compliance review artifacts.,planned,2026-07-02 21:58:24
+AGENT-000004,Pricing Strategy Agent,C:\ProcurementIntelligence\13_autonomous_agents\pricing,Pricing strategy and commercial risk,"Assess pricing, contract type, delivery, and margin risk.",planned,2026-07-02 21:58:24
+AGENT-000005,Proposal Strategy Agent,C:\ProcurementIntelligence\13_autonomous_agents\proposal_strategy,"Proposal outline, win themes, and volume plan",Convert intelligence outputs into proposal strategy artifacts.,planned,2026-07-02 21:58:24
+AGENT-000006,Executive Decision Agent,C:\ProcurementIntelligence\13_autonomous_agents\executive_decision,Executive decision support,"Synthesize all agent outputs into proceed, hold, partner, no-bid, or escalate decision.",planned,2026-07-02 21:58:24

@@ -1,0 +1,2 @@
+gate_id,demo_environment_gate,journey_steps,scenarios,datasets,proof_points,executive_stories,checklist_pass,checklist_fail,created_at
+DEMOENVGATE-000001,demo_environment_ready,6,3,2,4,1,6,0,2026-07-08 21:03:30

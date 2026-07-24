@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-06-29 17:04:15",
+  "wave": "Wave 10",
+  "pack": "Bootstrap",
+  "status": "completed",
+  "product_directories_created": 12,
+  "products_registered": 10,
+  "engines_registered": 11,
+  "apis_registered": 8,
+  "endpoints_registered": 8,
+  "outputs": {
+    "product_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\intelligence_product_registry_v1.csv",
+    "engine_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\intelligence_engine_registry_v1.csv",
+    "api_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\intelligence_api_registry_v1.csv",
+    "endpoint_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\intelligence_endpoint_registry_v1.csv",
+    "dependency_map": "C:\\ProcurementIntelligence\\11_intelligence_products\\intelligence_product_dependency_map_v1.csv",
+    "execution_manifest": "C:\\ProcurementIntelligence\\11_intelligence_products\\wave10_execution_manifest_v1.json",
+    "version_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\intelligence_product_version_registry_v1.csv",
+    "release_train": "C:\\ProcurementIntelligence\\11_intelligence_products\\wave10_release_train_v1.md",
+    "recovery_manifest": "C:\\ProcurementIntelligence\\11_intelligence_products\\wave10_recovery_manifest_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_intelligence_products_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_bootstrap_intelligence_products_report_v1.md"
+  },
+  "next_script": "build_wave10_pack1_semantic_graph_search_v1.py"
+}

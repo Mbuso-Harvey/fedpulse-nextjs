@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-06-23 12:21:30",
+  "canonical_v2_rows_processed": 201,
+  "requirement_atoms_created": 196,
+  "requirement_type_counts": {
+    "proposal_requirement": 1,
+    "submission_requirement": 17,
+    "evaluation_factor": 38,
+    "evaluation_requirement": 3,
+    "compliance_requirement": 9,
+    "contract_administration_requirement": 16,
+    "staffing_requirement": 15,
+    "operational_requirement": 4,
+    "pricing_requirement": 15,
+    "evaluation_framework": 3,
+    "evaluation_method": 5,
+    "registration_requirement": 15,
+    "certification_requirement": 5,
+    "capability_statement_requirement": 2,
+    "product_or_material_requirement": 2,
+    "authorization_requirement": 5,
+    "experience_requirement": 3,
+    "subcontracting_requirement": 7,
+    "technical_information_requirement": 7,
+    "labor_requirement": 4,
+    "small_business_requirement": 5,
+    "deliverable_requirement": 12,
+    "clearance_requirement": 1,
+    "representation_requirement": 2
+  },
+  "mandatory_counts": {
+    "unknown": 132,
+    "yes": 59,
+    "optional_or_conditional": 5
+  },
+  "outputs": {
+    "requirement_atoms": "C:\\ProcurementIntelligence\\09_knowledge_graph\\requirement_atoms_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\requirement_atomization_report_v1.md"
+  },
+  "next_sprint": "SAM-0007N Requirement Atom Quality Review"
+}

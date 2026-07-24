@@ -1,0 +1,4 @@
+scenario_id,scenario_name,scenario_description,target_user,status,created_at
+DEMOSCEN-000001,Supplier Bid Decision Demo,"A supplier reviews a federal opportunity and uses the platform to decide whether to bid, partner, restructure, or hold.",supplier_executive,ready,2026-07-08 21:03:30
+DEMOSCEN-000002,Capture Manager Demo,"A capture manager reviews opportunity, supplier, pricing, compliance, and proposal readiness before leadership review.",capture_manager,ready,2026-07-08 21:03:30
+DEMOSCEN-000003,Advisor / Consultant Demo,"An advisor uses the system to explain bid risk, compliance gaps, and strategic options to a client.",advisor,ready,2026-07-08 21:03:30

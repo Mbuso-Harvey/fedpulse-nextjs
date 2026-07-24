@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+AGBOOTQA-000001,agent_rows,6,6,pass,2026-07-02 21:58:24
+AGBOOTQA-000002,memory_rows,6,6,pass,2026-07-02 21:58:24
+AGBOOTQA-000003,session_rows,6,6,pass,2026-07-02 21:58:24
+AGBOOTQA-000004,task_rows,6,6,pass,2026-07-02 21:58:24
+AGBOOTQA-000005,execution_rows,6,6,pass,2026-07-02 21:58:24
+AGBOOTQA-000006,dependency_rows,6,6,pass,2026-07-02 21:58:24
+AGBOOTQA-000007,version_rows,6,6,pass,2026-07-02 21:58:24

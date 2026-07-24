@@ -1,0 +1,11 @@
+rule_id,quality_rule,severity
+QUALITY-001,Every PLU classification must preserve source text.,required
+QUALITY-002,Every PLU classification must include a canonical PLU ID.,required
+QUALITY-003,Every PLU classification must include confidence.,required
+QUALITY-004,Unknown or unsupported contexts must not be discarded.,required
+QUALITY-005,Administrative noise must be explicitly excluded.,required
+QUALITY-006,Evaluation navigation must not be treated as evaluation method.,required
+QUALITY-007,Pricing structure must not be treated as price evaluation unless award context exists.,required
+QUALITY-008,Proposal structure must not be treated as evaluation factor unless award context exists.,required
+QUALITY-009,Discovery queue items must include evidence and reason.,required
+QUALITY-010,Downstream engines should consume PLU outputs before raw text where possible.,required

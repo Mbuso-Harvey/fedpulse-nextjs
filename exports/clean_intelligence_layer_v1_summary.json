@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-06-17 02:55:34",
+  "clean_department_rows": 1,
+  "clean_supplier_rows": 39021,
+  "clean_category_rows": 4,
+  "clean_renewal_candidates": 4745,
+  "accepted_value_rows": 361406,
+  "extreme_value_rows_excluded": 0,
+  "zero_value_rows_excluded": 27897
+}

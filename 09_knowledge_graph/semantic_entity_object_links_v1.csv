@@ -1,0 +1,15 @@
+entity_link_id,semantic_entity_id,original_semantic_object_id,original_canonical_name,entity_type,recognized_canonical_name,domain_name,recognition_confidence,created_at
+SENTL-000001,SENT-000001,SPO2-000012,Administrative Support And Clerical,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,0.76,2026-06-28 20:08:49
+SENTL-000002,SENT-000002,SPO2-000022,Award A Contract,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.82,2026-06-28 20:08:49
+SENTL-000003,SENT-000003,SPO2-000023,Corps Base Camp Lejeune,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.92,2026-06-28 20:08:49
+SENTL-000004,SENT-000003,SPO2-000024,Marine Corps Base Camp,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.92,2026-06-28 20:08:49
+SENTL-000005,SENT-000004,SPO2-000025,Army Mil Proposal Default,Military Organization,United States Army,Domain-Specific Operations,0.82,2026-06-28 20:08:49
+SENTL-000006,SENT-000005,SPO2-000026,Award A Firm Fixed,Contract Type Fragment,Award a Firm Fixed Price Contract,Commercial and Pricing,0.84,2026-06-28 20:08:49
+SENTL-000007,SENT-000002,SPO2-000027,Award Will Be Made,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.82,2026-06-28 20:08:49
+SENTL-000008,SENT-000004,SPO2-000028,Chess Army Mil Proposal,Military Organization,United States Army,Domain-Specific Operations,0.82,2026-06-28 20:08:49
+SENTL-000009,SENT-000006,SPO2-000029,Cl Marine Corps Base,Military Organization,United States Marine Corps,Domain-Specific Operations,0.86,2026-06-28 20:08:49
+SENTL-000010,SENT-000007,SPO2-000030,Copies Of The Amendment,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,0.78,2026-06-28 20:08:49
+SENTL-000011,SENT-000008,SPO2-000031,Far And Dosar Provisions,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",0.86,2026-06-28 20:08:49
+SENTL-000012,SENT-000009,SPO2-000032,Food And Drug Administration,Federal Agency,Food and Drug Administration,Acquisition Strategy,0.92,2026-06-28 20:08:49
+SENTL-000013,SENT-000010,SPO2-000033,Mil Proposal Default Index,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,0.72,2026-06-28 20:08:49
+SENTL-000014,SENT-000006,SPO2-000034,Renovation Cl Marine Corps,Military Organization,United States Marine Corps,Domain-Specific Operations,0.86,2026-06-28 20:08:49

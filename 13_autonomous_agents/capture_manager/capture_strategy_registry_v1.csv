@@ -1,0 +1,2 @@
+capture_strategy_id,capture_score,capture_position,bid_decision,strategy_text,supplier_fit_score,department_score,analyst_score,top_similarity_score,recommendation_count,created_at
+CAPSTRAT-000001,65.11,qualified_capture_position,proceed_with_controls,"The Capture Manager Agent recommends 'proceed_with_controls' based on a capture score of 65.11. Supplier fit is 78.4, department intelligence score is 52.2, AI analyst score is 61.29, and top similarity score is 72.5. The capture position is classified as qualified_capture_position.",78.4,52.2,61.29,72.5,9,2026-07-03 01:17:42

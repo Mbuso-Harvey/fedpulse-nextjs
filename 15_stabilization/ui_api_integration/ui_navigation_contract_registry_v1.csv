@@ -1,0 +1,8 @@
+navigation_id,nav_order,view_name,route,service_name,priority,created_at
+UINAV-000001,1,Dashboard Home,/dashboard-home,health,critical,2026-07-08 17:38:01
+UINAV-000002,2,Search,/search,semantic_search,critical,2026-07-08 17:38:01
+UINAV-000003,3,Ask,/ask,question_answering,critical,2026-07-08 17:38:01
+UINAV-000004,4,Opportunity Intelligence,/opportunity-intelligence,opportunity_intelligence,critical,2026-07-08 17:38:01
+UINAV-000005,5,Recommendations,/recommendations,recommendations,high,2026-07-08 17:38:01
+UINAV-000006,6,AI Analyst,/ai-analyst,ai_procurement_analyst,high,2026-07-08 17:38:01
+UINAV-000007,7,Graph Analytics,/graph-analytics,graph_analytics,medium,2026-07-08 17:38:01

@@ -1,0 +1,16 @@
+candidate_type_id,candidate_family_id,suggested_family_name,suggested_expression_type,suggested_intent,expression_count,confidence,created_at
+CET-000001,CEF-000001,Residual Discovery,Unresolved Procurement Expression,Manual Review,133,0.85,2026-06-26 11:04:39
+CET-000002,CEF-000002,Product and Materials,Material or Product Requirement,Technical Requirement,27,0.85,2026-06-26 11:04:39
+CET-000003,CEF-000003,Workforce Management,Staffing and Workforce Requirement,Performance,11,0.85,2026-06-26 11:04:39
+CET-000004,CEF-000004,Submission Logistics,Quote Submission Instruction,Submission,9,0.75,2026-06-26 11:04:39
+CET-000005,CEF-000005,Contract Administration,Contracting Officer Communication,Administration,9,0.75,2026-06-26 11:04:39
+CET-000006,CEF-000006,Cemetery Operations,Cemetery Dignity and Grounds Requirement,Domain Requirement,9,0.75,2026-06-26 11:04:39
+CET-000007,CEF-000007,Delivery and Logistics,Delivery Requirement,Delivery,8,0.75,2026-06-26 11:04:39
+CET-000008,CEF-000008,Past Performance Administration,Past Performance Questionnaire,Supplier Evidence,8,0.75,2026-06-26 11:04:39
+CET-000009,CEF-000009,Solicitation Metadata,Solicitation Method or Notice Metadata,Acquisition Metadata,8,0.75,2026-06-26 11:04:39
+CET-000010,CEF-000010,Proposal Administration,Proposal Clarification,Submission Clarification,7,0.75,2026-06-26 11:04:39
+CET-000011,CEF-000011,Document Forms and Tables,Form Field or Table Fragment,Document Structure,7,0.75,2026-06-26 11:04:39
+CET-000012,CEF-000012,Labor and Local Compliance,Labor Availability or Local Law Constraint,Compliance,7,0.75,2026-06-26 11:04:39
+CET-000013,CEF-000013,Performance Work Statement,Service Performance Obligation,Performance,4,0.65,2026-06-26 11:04:39
+CET-000014,CEF-000014,Market Research,Market Survey or Sources Sought,Market Research,2,0.65,2026-06-26 11:04:39
+CET-000015,CEF-000015,Supplier Authorization,Authorized Distributor Requirement,Supplier Eligibility,1,0.5,2026-06-26 11:04:39

@@ -1,0 +1,2 @@
+opportunity_session_id,opportunity_id,opportunity_name,graph_version,product_version,node_count,edge_count,status,created_at
+OPPSESS-000001,OPPINT-000001,KG-1.0 Demonstration Opportunity,KG-1.0,0.1.0,29,44,executed,2026-06-30 11:19:16

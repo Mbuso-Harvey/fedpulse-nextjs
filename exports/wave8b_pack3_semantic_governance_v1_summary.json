@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-06-28 22:06:51",
+  "wave": "Wave 8B",
+  "pack": "Pack 3 - Semantic Governance",
+  "status": "completed",
+  "objects_input": 36,
+  "governance_scores_created": 36,
+  "promotion_candidates": 36,
+  "promotion_counts": {
+    "promote_to_semantic_registry": 8,
+    "promote_after_review": 26,
+    "discovery_backlog": 2
+  },
+  "maturity_counts": {
+    "L4": 8,
+    "L3": 26,
+    "L1": 2
+  },
+  "graph_readiness_counts": {
+    "graph_ready": 8,
+    "graph_candidate": 26,
+    "not_graph_ready": 2
+  },
+  "review_priority_counts": {
+    "critical": 2,
+    "medium": 26,
+    "low": 8
+  },
+  "outputs": {
+    "governance_scores": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_object_governance_scores_v1.csv",
+    "promotion_candidates": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_object_promotion_candidates_v1.csv",
+    "maturity_registry": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_object_maturity_registry_v1.csv",
+    "graph_readiness": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_object_graph_readiness_v1.csv",
+    "review_queue_v3": "C:\\ProcurementIntelligence\\09_knowledge_graph\\semantic_review_priority_queue_v3.csv",
+    "qa": "C:\\ProcurementIntelligence\\09_knowledge_graph\\wave8b_pack3_semantic_governance_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\semantic_governance_wave8b_pack3_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave8b_pack3_semantic_governance_report_v1.md"
+  },
+  "next_script": "build_wave8b_pack4_semantic_qa_v1.py"
+}

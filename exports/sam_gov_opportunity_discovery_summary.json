@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-06-21 00:59:40",
+  "endpoint": "https://api.sam.gov/opportunities/v2/search",
+  "posted_from": "05/22/2026",
+  "posted_to": "06/21/2026",
+  "records_returned": 25,
+  "total_records_available": 21699,
+  "raw_json": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_opportunities_sample_raw.json",
+  "flat_csv": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_opportunities_sample_flat.csv",
+  "field_report": "C:\\ProcurementIntelligence\\exports\\sam_gov_opportunity_field_report.md",
+  "note": "API key intentionally not written to output files."
+}

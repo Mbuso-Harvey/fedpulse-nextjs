@@ -1,0 +1,9 @@
+recommendation_id,opportunity_id,recommendation_text,recommendation_category,priority,created_at
+OPPREC-000001,OPPINT-000001,Align proposal responses directly to evaluation factors and award basis.,capture_action,medium,2026-06-30 11:19:16
+OPPREC-000002,OPPINT-000001,"Prepare evidence for past performance, eligibility, and socioeconomic requirements.",capture_action,medium,2026-06-30 11:19:16
+OPPREC-000003,OPPINT-000001,Review FAR/DOSAR and compliance obligations before bid decision.,capture_action,medium,2026-06-30 11:19:16
+OPPREC-000004,OPPINT-000001,Validate logistics assumptions and delivery-cost exposure.,capture_action,medium,2026-06-30 11:19:16
+OPPREC-000005,OPPINT-000001,Review pricing structure and contract type before estimating margin.,capture_action,medium,2026-06-30 11:19:16
+OPPREC-000006,OPPINT-000001,Map technical requirements into a response compliance matrix.,capture_action,medium,2026-06-30 11:19:16
+OPPREC-000007,OPPINT-000001,"Track amendments, proposal instructions, and submission requirements.",capture_action,medium,2026-06-30 11:19:16
+OPPREC-000008,OPPINT-000001,"Account for operational context such as installations, domain operations, or agency-specific requirements.",capture_action,medium,2026-06-30 11:19:16

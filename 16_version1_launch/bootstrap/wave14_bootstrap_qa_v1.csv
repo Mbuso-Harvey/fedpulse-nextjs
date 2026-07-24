@@ -1,0 +1,10 @@
+qa_id,metric,value,target,status,created_at
+W14QA-000001,session_rows,1,1,pass,2026-07-10 04:56:49
+W14QA-000002,prerequisite_rows,6,6,pass,2026-07-10 04:56:49
+W14QA-000003,prerequisites_fail,0,0,pass,2026-07-10 04:56:49
+W14QA-000004,freeze_scope_rows,7,7,pass,2026-07-10 04:56:49
+W14QA-000005,launch_policy_rows,4,4,pass,2026-07-10 04:56:49
+W14QA-000006,pack_plan_rows,4,4,pass,2026-07-10 04:56:49
+W14QA-000007,certification_rows,5,5,pass,2026-07-10 04:56:49
+W14QA-000008,wave14_handoff_rows,4,4,pass,2026-07-10 04:56:49
+W14QA-000009,post_launch_backlog_rows,6,6,pass,2026-07-10 04:56:49

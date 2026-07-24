@@ -1,0 +1,2 @@
+decision_id,proposal_decision,proposal_position,proposal_readiness_score,human_review_required,decision_basis,created_at
+PROPDEC-000001,proposal_ready_after_review,proposal_requires_review,67.81,true,"proposal readiness, compliance gaps, supplier strategy, pricing confidence, and capture strategy",2026-07-04 16:30:37

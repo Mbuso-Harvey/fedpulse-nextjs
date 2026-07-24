@@ -1,0 +1,366 @@
+structural_check_id,record_type,record_id,check_name,status,message,created_at
+KGSTR-000001,node,KGNODE2-000001,has_node_id,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000002,node,KGNODE2-000001,has_node_type,pass,Submission Instruction,2026-06-29 11:35:33
+KGSTR-000003,node,KGNODE2-000001,has_canonical_name,pass,Solicitation Amendment,2026-06-29 11:35:33
+KGSTR-000004,node,KGNODE2-000001,has_domain_name,pass,Submission and Proposal Management,2026-06-29 11:35:33
+KGSTR-000005,node,KGNODE2-000001,has_confidence,pass,0.902,2026-06-29 11:35:33
+KGSTR-000006,node,KGNODE2-000002,has_node_id,pass,KGNODE2-000002,2026-06-29 11:35:33
+KGSTR-000007,node,KGNODE2-000002,has_node_type,pass,Domain Specific Requirement,2026-06-29 11:35:33
+KGSTR-000008,node,KGNODE2-000002,has_canonical_name,pass,National Cemetery Operations,2026-06-29 11:35:33
+KGSTR-000009,node,KGNODE2-000002,has_domain_name,pass,Domain-Specific Operations,2026-06-29 11:35:33
+KGSTR-000010,node,KGNODE2-000002,has_confidence,pass,0.89,2026-06-29 11:35:33
+KGSTR-000011,node,KGNODE2-000003,has_node_id,pass,KGNODE2-000003,2026-06-29 11:35:33
+KGSTR-000012,node,KGNODE2-000003,has_node_type,pass,Contract Type,2026-06-29 11:35:33
+KGSTR-000013,node,KGNODE2-000003,has_canonical_name,pass,Firm Fixed Price,2026-06-29 11:35:33
+KGSTR-000014,node,KGNODE2-000003,has_domain_name,pass,Commercial and Pricing,2026-06-29 11:35:33
+KGSTR-000015,node,KGNODE2-000003,has_confidence,pass,0.84,2026-06-29 11:35:33
+KGSTR-000016,node,KGNODE2-000004,has_node_id,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000017,node,KGNODE2-000004,has_node_type,pass,Procurement Role,2026-06-29 11:35:33
+KGSTR-000018,node,KGNODE2-000004,has_canonical_name,pass,Contracting Officer,2026-06-29 11:35:33
+KGSTR-000019,node,KGNODE2-000004,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000020,node,KGNODE2-000004,has_confidence,pass,0.802,2026-06-29 11:35:33
+KGSTR-000021,node,KGNODE2-000005,has_node_id,pass,KGNODE2-000005,2026-06-29 11:35:33
+KGSTR-000022,node,KGNODE2-000005,has_node_type,pass,Technical Requirement,2026-06-29 11:35:33
+KGSTR-000023,node,KGNODE2-000005,has_canonical_name,pass,Performance Work Statement,2026-06-29 11:35:33
+KGSTR-000024,node,KGNODE2-000005,has_domain_name,pass,Technical Requirements,2026-06-29 11:35:33
+KGSTR-000025,node,KGNODE2-000005,has_confidence,pass,0.811,2026-06-29 11:35:33
+KGSTR-000026,node,KGNODE2-000006,has_node_id,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000027,node,KGNODE2-000006,has_node_type,pass,Evaluation Method,2026-06-29 11:35:33
+KGSTR-000028,node,KGNODE2-000006,has_canonical_name,pass,Award Basis,2026-06-29 11:35:33
+KGSTR-000029,node,KGNODE2-000006,has_domain_name,pass,Evaluation and Source Selection,2026-06-29 11:35:33
+KGSTR-000030,node,KGNODE2-000006,has_confidence,pass,0.82,2026-06-29 11:35:33
+KGSTR-000031,node,KGNODE2-000007,has_node_id,pass,KGNODE2-000007,2026-06-29 11:35:33
+KGSTR-000032,node,KGNODE2-000007,has_node_type,pass,Military Installation,2026-06-29 11:35:33
+KGSTR-000033,node,KGNODE2-000007,has_canonical_name,pass,Marine Corps Base Camp Lejeune,2026-06-29 11:35:33
+KGSTR-000034,node,KGNODE2-000007,has_domain_name,pass,Domain-Specific Operations,2026-06-29 11:35:33
+KGSTR-000035,node,KGNODE2-000007,has_confidence,pass,0.92,2026-06-29 11:35:33
+KGSTR-000036,node,KGNODE2-000008,has_node_id,pass,KGNODE2-000008,2026-06-29 11:35:33
+KGSTR-000037,node,KGNODE2-000008,has_node_type,pass,Military Organization,2026-06-29 11:35:33
+KGSTR-000038,node,KGNODE2-000008,has_canonical_name,pass,United States Army,2026-06-29 11:35:33
+KGSTR-000039,node,KGNODE2-000008,has_domain_name,pass,Domain-Specific Operations,2026-06-29 11:35:33
+KGSTR-000040,node,KGNODE2-000008,has_confidence,pass,0.82,2026-06-29 11:35:33
+KGSTR-000041,node,KGNODE2-000009,has_node_id,pass,KGNODE2-000009,2026-06-29 11:35:33
+KGSTR-000042,node,KGNODE2-000009,has_node_type,pass,Military Organization,2026-06-29 11:35:33
+KGSTR-000043,node,KGNODE2-000009,has_canonical_name,pass,United States Marine Corps,2026-06-29 11:35:33
+KGSTR-000044,node,KGNODE2-000009,has_domain_name,pass,Domain-Specific Operations,2026-06-29 11:35:33
+KGSTR-000045,node,KGNODE2-000009,has_confidence,pass,0.86,2026-06-29 11:35:33
+KGSTR-000046,node,KGNODE2-000010,has_node_id,pass,KGNODE2-000010,2026-06-29 11:35:33
+KGSTR-000047,node,KGNODE2-000010,has_node_type,pass,Regulation Set,2026-06-29 11:35:33
+KGSTR-000048,node,KGNODE2-000010,has_canonical_name,pass,FAR and DOSAR Provisions,2026-06-29 11:35:33
+KGSTR-000049,node,KGNODE2-000010,has_domain_name,pass,"Legal, Compliance, and Labor",2026-06-29 11:35:33
+KGSTR-000050,node,KGNODE2-000010,has_confidence,pass,0.86,2026-06-29 11:35:33
+KGSTR-000051,node,KGNODE2-000011,has_node_id,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000052,node,KGNODE2-000011,has_node_type,pass,Federal Agency,2026-06-29 11:35:33
+KGSTR-000053,node,KGNODE2-000011,has_canonical_name,pass,Food and Drug Administration,2026-06-29 11:35:33
+KGSTR-000054,node,KGNODE2-000011,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000055,node,KGNODE2-000011,has_confidence,pass,0.92,2026-06-29 11:35:33
+KGSTR-000056,node,KGNODE2-000012,has_node_id,pass,KGNODE2-000012,2026-06-29 11:35:33
+KGSTR-000057,node,KGNODE2-000012,has_node_type,pass,Acquisition Metadata,2026-06-29 11:35:33
+KGSTR-000058,node,KGNODE2-000012,has_canonical_name,pass,Solicitation Number,2026-06-29 11:35:33
+KGSTR-000059,node,KGNODE2-000012,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000060,node,KGNODE2-000012,has_confidence,pass,0.777,2026-06-29 11:35:33
+KGSTR-000061,node,KGNODE2-000013,has_node_id,pass,KGNODE2-000013,2026-06-29 11:35:33
+KGSTR-000062,node,KGNODE2-000013,has_node_type,pass,Pricing Structure,2026-06-29 11:35:33
+KGSTR-000063,node,KGNODE2-000013,has_canonical_name,pass,Unit Price,2026-06-29 11:35:33
+KGSTR-000064,node,KGNODE2-000013,has_domain_name,pass,Commercial and Pricing,2026-06-29 11:35:33
+KGSTR-000065,node,KGNODE2-000013,has_confidence,pass,0.79,2026-06-29 11:35:33
+KGSTR-000066,node,KGNODE2-000014,has_node_id,pass,KGNODE2-000014,2026-06-29 11:35:33
+KGSTR-000067,node,KGNODE2-000014,has_node_type,pass,Evaluation Factor,2026-06-29 11:35:33
+KGSTR-000068,node,KGNODE2-000014,has_canonical_name,pass,Evaluation Factors,2026-06-29 11:35:33
+KGSTR-000069,node,KGNODE2-000014,has_domain_name,pass,Evaluation and Source Selection,2026-06-29 11:35:33
+KGSTR-000070,node,KGNODE2-000014,has_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000071,node,KGNODE2-000015,has_node_id,pass,KGNODE2-000015,2026-06-29 11:35:33
+KGSTR-000072,node,KGNODE2-000015,has_node_type,pass,Document Structure Object,2026-06-29 11:35:33
+KGSTR-000073,node,KGNODE2-000015,has_canonical_name,pass,Table of Contents,2026-06-29 11:35:33
+KGSTR-000074,node,KGNODE2-000015,has_domain_name,pass,Document Structure and Administrative Forms,2026-06-29 11:35:33
+KGSTR-000075,node,KGNODE2-000015,has_confidence,pass,0.704,2026-06-29 11:35:33
+KGSTR-000076,node,KGNODE2-000016,has_node_id,pass,KGNODE2-000016,2026-06-29 11:35:33
+KGSTR-000077,node,KGNODE2-000016,has_node_type,pass,Supplier Qualification,2026-06-29 11:35:33
+KGSTR-000078,node,KGNODE2-000016,has_canonical_name,pass,Past Performance,2026-06-29 11:35:33
+KGSTR-000079,node,KGNODE2-000016,has_domain_name,pass,Supplier Eligibility and Qualifications,2026-06-29 11:35:33
+KGSTR-000080,node,KGNODE2-000016,has_confidence,pass,0.734,2026-06-29 11:35:33
+KGSTR-000081,node,KGNODE2-000017,has_node_id,pass,KGNODE2-000017,2026-06-29 11:35:33
+KGSTR-000082,node,KGNODE2-000017,has_node_type,pass,Acquisition Metadata,2026-06-29 11:35:33
+KGSTR-000083,node,KGNODE2-000017,has_canonical_name,pass,Request for Information,2026-06-29 11:35:33
+KGSTR-000084,node,KGNODE2-000017,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000085,node,KGNODE2-000017,has_confidence,pass,0.761,2026-06-29 11:35:33
+KGSTR-000086,node,KGNODE2-000018,has_node_id,pass,KGNODE2-000018,2026-06-29 11:35:33
+KGSTR-000087,node,KGNODE2-000018,has_node_type,pass,Administrative Service Labor Category,2026-06-29 11:35:33
+KGSTR-000088,node,KGNODE2-000018,has_canonical_name,pass,Administrative Support and Clerical,2026-06-29 11:35:33
+KGSTR-000089,node,KGNODE2-000018,has_domain_name,pass,Performance and Operations,2026-06-29 11:35:33
+KGSTR-000090,node,KGNODE2-000018,has_confidence,pass,0.76,2026-06-29 11:35:33
+KGSTR-000091,node,KGNODE2-000019,has_node_id,pass,KGNODE2-000019,2026-06-29 11:35:33
+KGSTR-000092,node,KGNODE2-000019,has_node_type,pass,Proposal Structure,2026-06-29 11:35:33
+KGSTR-000093,node,KGNODE2-000019,has_canonical_name,pass,Proposal Volume,2026-06-29 11:35:33
+KGSTR-000094,node,KGNODE2-000019,has_domain_name,pass,Submission and Proposal Management,2026-06-29 11:35:33
+KGSTR-000095,node,KGNODE2-000019,has_confidence,pass,0.719,2026-06-29 11:35:33
+KGSTR-000096,node,KGNODE2-000020,has_node_id,pass,KGNODE2-000020,2026-06-29 11:35:33
+KGSTR-000097,node,KGNODE2-000020,has_node_type,pass,Acquisition Metadata,2026-06-29 11:35:33
+KGSTR-000098,node,KGNODE2-000020,has_canonical_name,pass,Combined Synopsis Solicitation,2026-06-29 11:35:33
+KGSTR-000099,node,KGNODE2-000020,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000100,node,KGNODE2-000020,has_confidence,pass,0.769,2026-06-29 11:35:33
+KGSTR-000101,node,KGNODE2-000021,has_node_id,pass,KGNODE2-000021,2026-06-29 11:35:33
+KGSTR-000102,node,KGNODE2-000021,has_node_type,pass,Supplier Qualification,2026-06-29 11:35:33
+KGSTR-000103,node,KGNODE2-000021,has_canonical_name,pass,Small Business Set-Aside,2026-06-29 11:35:33
+KGSTR-000104,node,KGNODE2-000021,has_domain_name,pass,Supplier Eligibility and Qualifications,2026-06-29 11:35:33
+KGSTR-000105,node,KGNODE2-000021,has_confidence,pass,0.706,2026-06-29 11:35:33
+KGSTR-000106,node,KGNODE2-000022,has_node_id,pass,KGNODE2-000022,2026-06-29 11:35:33
+KGSTR-000107,node,KGNODE2-000022,has_node_type,pass,Delivery Requirement,2026-06-29 11:35:33
+KGSTR-000108,node,KGNODE2-000022,has_canonical_name,pass,Place of Performance,2026-06-29 11:35:33
+KGSTR-000109,node,KGNODE2-000022,has_domain_name,pass,Delivery and Logistics,2026-06-29 11:35:33
+KGSTR-000110,node,KGNODE2-000022,has_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000111,node,KGNODE2-000023,has_node_id,pass,KGNODE2-000023,2026-06-29 11:35:33
+KGSTR-000112,node,KGNODE2-000023,has_node_type,pass,Acquisition Metadata,2026-06-29 11:35:33
+KGSTR-000113,node,KGNODE2-000023,has_canonical_name,pass,Method of Solicitation,2026-06-29 11:35:33
+KGSTR-000114,node,KGNODE2-000023,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000115,node,KGNODE2-000023,has_confidence,pass,0.718,2026-06-29 11:35:33
+KGSTR-000116,node,KGNODE2-000024,has_node_id,pass,KGNODE2-000024,2026-06-29 11:35:33
+KGSTR-000117,node,KGNODE2-000024,has_node_type,pass,Acquisition Metadata,2026-06-29 11:35:33
+KGSTR-000118,node,KGNODE2-000024,has_canonical_name,pass,Request for Proposal,2026-06-29 11:35:33
+KGSTR-000119,node,KGNODE2-000024,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000120,node,KGNODE2-000024,has_confidence,pass,0.743,2026-06-29 11:35:33
+KGSTR-000121,node,KGNODE2-000025,has_node_id,pass,KGNODE2-000025,2026-06-29 11:35:33
+KGSTR-000122,node,KGNODE2-000025,has_node_type,pass,Technical Requirement,2026-06-29 11:35:33
+KGSTR-000123,node,KGNODE2-000025,has_canonical_name,pass,Statement of Work,2026-06-29 11:35:33
+KGSTR-000124,node,KGNODE2-000025,has_domain_name,pass,Technical Requirements,2026-06-29 11:35:33
+KGSTR-000125,node,KGNODE2-000025,has_confidence,pass,0.727,2026-06-29 11:35:33
+KGSTR-000126,node,KGNODE2-000026,has_node_id,pass,KGNODE2-000026,2026-06-29 11:35:33
+KGSTR-000127,node,KGNODE2-000026,has_node_type,pass,Procurement Document Artifact,2026-06-29 11:35:33
+KGSTR-000128,node,KGNODE2-000026,has_canonical_name,pass,Amendment Copy Requirement,2026-06-29 11:35:33
+KGSTR-000129,node,KGNODE2-000026,has_domain_name,pass,Document Structure and Administrative Forms,2026-06-29 11:35:33
+KGSTR-000130,node,KGNODE2-000026,has_confidence,pass,0.78,2026-06-29 11:35:33
+KGSTR-000131,node,KGNODE2-000027,has_node_id,pass,KGNODE2-000027,2026-06-29 11:35:33
+KGSTR-000132,node,KGNODE2-000027,has_node_type,pass,Proposal Document Artifact,2026-06-29 11:35:33
+KGSTR-000133,node,KGNODE2-000027,has_canonical_name,pass,Proposal Default Index,2026-06-29 11:35:33
+KGSTR-000134,node,KGNODE2-000027,has_domain_name,pass,Document Structure and Administrative Forms,2026-06-29 11:35:33
+KGSTR-000135,node,KGNODE2-000027,has_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000136,node,KGNODE2-000028,has_node_id,pass,KGNODE2-000028,2026-06-29 11:35:33
+KGSTR-000137,node,KGNODE2-000028,has_node_type,pass,Acquisition Metadata,2026-06-29 11:35:33
+KGSTR-000138,node,KGNODE2-000028,has_canonical_name,pass,Request for Quotation,2026-06-29 11:35:33
+KGSTR-000139,node,KGNODE2-000028,has_domain_name,pass,Acquisition Strategy,2026-06-29 11:35:33
+KGSTR-000140,node,KGNODE2-000028,has_confidence,pass,0.712,2026-06-29 11:35:33
+KGSTR-000141,node,KGNODE2-000029,has_node_id,pass,KGNODE2-000029,2026-06-29 11:35:33
+KGSTR-000142,node,KGNODE2-000029,has_node_type,pass,Pricing Structure,2026-06-29 11:35:33
+KGSTR-000143,node,KGNODE2-000029,has_canonical_name,pass,Payment and Invoice,2026-06-29 11:35:33
+KGSTR-000144,node,KGNODE2-000029,has_domain_name,pass,Commercial and Pricing,2026-06-29 11:35:33
+KGSTR-000145,node,KGNODE2-000029,has_confidence,pass,0.701,2026-06-29 11:35:33
+KGSTR-000146,edge,KGEDGE-000001,has_edge_id,pass,KGEDGE-000001,2026-06-29 11:35:33
+KGSTR-000147,edge,KGEDGE-000001,has_source_node,pass,KGNODE2-000003,2026-06-29 11:35:33
+KGSTR-000148,edge,KGEDGE-000001,has_target_node,pass,KGNODE2-000013,2026-06-29 11:35:33
+KGSTR-000149,edge,KGEDGE-000001,has_relationship_type,pass,has_pricing_structure,2026-06-29 11:35:33
+KGSTR-000150,edge,KGEDGE-000001,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000151,edge,KGEDGE-000002,has_edge_id,pass,KGEDGE-000002,2026-06-29 11:35:33
+KGSTR-000152,edge,KGEDGE-000002,has_source_node,pass,KGNODE2-000003,2026-06-29 11:35:33
+KGSTR-000153,edge,KGEDGE-000002,has_target_node,pass,KGNODE2-000029,2026-06-29 11:35:33
+KGSTR-000154,edge,KGEDGE-000002,has_relationship_type,pass,has_pricing_structure,2026-06-29 11:35:33
+KGSTR-000155,edge,KGEDGE-000002,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000156,edge,KGEDGE-000003,has_edge_id,pass,KGEDGE-000003,2026-06-29 11:35:33
+KGSTR-000157,edge,KGEDGE-000003,has_source_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000158,edge,KGEDGE-000003,has_target_node,pass,KGNODE2-000014,2026-06-29 11:35:33
+KGSTR-000159,edge,KGEDGE-000003,has_relationship_type,pass,uses_evaluation_factor,2026-06-29 11:35:33
+KGSTR-000160,edge,KGEDGE-000003,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000161,edge,KGEDGE-000004,has_edge_id,pass,KGEDGE-000004,2026-06-29 11:35:33
+KGSTR-000162,edge,KGEDGE-000004,has_source_node,pass,KGNODE2-000019,2026-06-29 11:35:33
+KGSTR-000163,edge,KGEDGE-000004,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000164,edge,KGEDGE-000004,has_relationship_type,pass,requires_submission_instruction,2026-06-29 11:35:33
+KGSTR-000165,edge,KGEDGE-000004,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000166,edge,KGEDGE-000005,has_edge_id,pass,KGEDGE-000005,2026-06-29 11:35:33
+KGSTR-000167,edge,KGEDGE-000005,has_source_node,pass,KGNODE2-000005,2026-06-29 11:35:33
+KGSTR-000168,edge,KGEDGE-000005,has_target_node,pass,KGNODE2-000016,2026-06-29 11:35:33
+KGSTR-000169,edge,KGEDGE-000005,has_relationship_type,pass,requires_supplier_capability,2026-06-29 11:35:33
+KGSTR-000170,edge,KGEDGE-000005,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000171,edge,KGEDGE-000006,has_edge_id,pass,KGEDGE-000006,2026-06-29 11:35:33
+KGSTR-000172,edge,KGEDGE-000006,has_source_node,pass,KGNODE2-000005,2026-06-29 11:35:33
+KGSTR-000173,edge,KGEDGE-000006,has_target_node,pass,KGNODE2-000021,2026-06-29 11:35:33
+KGSTR-000174,edge,KGEDGE-000006,has_relationship_type,pass,requires_supplier_capability,2026-06-29 11:35:33
+KGSTR-000175,edge,KGEDGE-000006,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000176,edge,KGEDGE-000007,has_edge_id,pass,KGEDGE-000007,2026-06-29 11:35:33
+KGSTR-000177,edge,KGEDGE-000007,has_source_node,pass,KGNODE2-000025,2026-06-29 11:35:33
+KGSTR-000178,edge,KGEDGE-000007,has_target_node,pass,KGNODE2-000016,2026-06-29 11:35:33
+KGSTR-000179,edge,KGEDGE-000007,has_relationship_type,pass,requires_supplier_capability,2026-06-29 11:35:33
+KGSTR-000180,edge,KGEDGE-000007,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000181,edge,KGEDGE-000008,has_edge_id,pass,KGEDGE-000008,2026-06-29 11:35:33
+KGSTR-000182,edge,KGEDGE-000008,has_source_node,pass,KGNODE2-000025,2026-06-29 11:35:33
+KGSTR-000183,edge,KGEDGE-000008,has_target_node,pass,KGNODE2-000021,2026-06-29 11:35:33
+KGSTR-000184,edge,KGEDGE-000008,has_relationship_type,pass,requires_supplier_capability,2026-06-29 11:35:33
+KGSTR-000185,edge,KGEDGE-000008,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000186,edge,KGEDGE-000009,has_edge_id,pass,KGEDGE-000009,2026-06-29 11:35:33
+KGSTR-000187,edge,KGEDGE-000009,has_source_node,pass,KGNODE2-000022,2026-06-29 11:35:33
+KGSTR-000188,edge,KGEDGE-000009,has_target_node,pass,KGNODE2-000013,2026-06-29 11:35:33
+KGSTR-000189,edge,KGEDGE-000009,has_relationship_type,pass,affects_price,2026-06-29 11:35:33
+KGSTR-000190,edge,KGEDGE-000009,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000191,edge,KGEDGE-000010,has_edge_id,pass,KGEDGE-000010,2026-06-29 11:35:33
+KGSTR-000192,edge,KGEDGE-000010,has_source_node,pass,KGNODE2-000022,2026-06-29 11:35:33
+KGSTR-000193,edge,KGEDGE-000010,has_target_node,pass,KGNODE2-000029,2026-06-29 11:35:33
+KGSTR-000194,edge,KGEDGE-000010,has_relationship_type,pass,affects_price,2026-06-29 11:35:33
+KGSTR-000195,edge,KGEDGE-000010,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000196,edge,KGEDGE-000011,has_edge_id,pass,KGEDGE-000011,2026-06-29 11:35:33
+KGSTR-000197,edge,KGEDGE-000011,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000198,edge,KGEDGE-000011,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000199,edge,KGEDGE-000011,has_relationship_type,pass,issues_or_receives,2026-06-29 11:35:33
+KGSTR-000200,edge,KGEDGE-000011,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000201,edge,KGEDGE-000012,has_edge_id,pass,KGEDGE-000012,2026-06-29 11:35:33
+KGSTR-000202,edge,KGEDGE-000012,has_source_node,pass,KGNODE2-000012,2026-06-29 11:35:33
+KGSTR-000203,edge,KGEDGE-000012,has_target_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000204,edge,KGEDGE-000012,has_relationship_type,pass,shapes_source_selection,2026-06-29 11:35:33
+KGSTR-000205,edge,KGEDGE-000012,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000206,edge,KGEDGE-000013,has_edge_id,pass,KGEDGE-000013,2026-06-29 11:35:33
+KGSTR-000207,edge,KGEDGE-000013,has_source_node,pass,KGNODE2-000017,2026-06-29 11:35:33
+KGSTR-000208,edge,KGEDGE-000013,has_target_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000209,edge,KGEDGE-000013,has_relationship_type,pass,shapes_source_selection,2026-06-29 11:35:33
+KGSTR-000210,edge,KGEDGE-000013,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000211,edge,KGEDGE-000014,has_edge_id,pass,KGEDGE-000014,2026-06-29 11:35:33
+KGSTR-000212,edge,KGEDGE-000014,has_source_node,pass,KGNODE2-000020,2026-06-29 11:35:33
+KGSTR-000213,edge,KGEDGE-000014,has_target_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000214,edge,KGEDGE-000014,has_relationship_type,pass,shapes_source_selection,2026-06-29 11:35:33
+KGSTR-000215,edge,KGEDGE-000014,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000216,edge,KGEDGE-000015,has_edge_id,pass,KGEDGE-000015,2026-06-29 11:35:33
+KGSTR-000217,edge,KGEDGE-000015,has_source_node,pass,KGNODE2-000023,2026-06-29 11:35:33
+KGSTR-000218,edge,KGEDGE-000015,has_target_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000219,edge,KGEDGE-000015,has_relationship_type,pass,shapes_source_selection,2026-06-29 11:35:33
+KGSTR-000220,edge,KGEDGE-000015,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000221,edge,KGEDGE-000016,has_edge_id,pass,KGEDGE-000016,2026-06-29 11:35:33
+KGSTR-000222,edge,KGEDGE-000016,has_source_node,pass,KGNODE2-000024,2026-06-29 11:35:33
+KGSTR-000223,edge,KGEDGE-000016,has_target_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000224,edge,KGEDGE-000016,has_relationship_type,pass,shapes_source_selection,2026-06-29 11:35:33
+KGSTR-000225,edge,KGEDGE-000016,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000226,edge,KGEDGE-000017,has_edge_id,pass,KGEDGE-000017,2026-06-29 11:35:33
+KGSTR-000227,edge,KGEDGE-000017,has_source_node,pass,KGNODE2-000028,2026-06-29 11:35:33
+KGSTR-000228,edge,KGEDGE-000017,has_target_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000229,edge,KGEDGE-000017,has_relationship_type,pass,shapes_source_selection,2026-06-29 11:35:33
+KGSTR-000230,edge,KGEDGE-000017,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000231,edge,KGEDGE-000018,has_edge_id,pass,KGEDGE-000018,2026-06-29 11:35:33
+KGSTR-000232,edge,KGEDGE-000018,has_source_node,pass,KGNODE2-000002,2026-06-29 11:35:33
+KGSTR-000233,edge,KGEDGE-000018,has_target_node,pass,KGNODE2-000005,2026-06-29 11:35:33
+KGSTR-000234,edge,KGEDGE-000018,has_relationship_type,pass,specializes_requirement,2026-06-29 11:35:33
+KGSTR-000235,edge,KGEDGE-000018,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000236,edge,KGEDGE-000019,has_edge_id,pass,KGEDGE-000019,2026-06-29 11:35:33
+KGSTR-000237,edge,KGEDGE-000019,has_source_node,pass,KGNODE2-000002,2026-06-29 11:35:33
+KGSTR-000238,edge,KGEDGE-000019,has_target_node,pass,KGNODE2-000025,2026-06-29 11:35:33
+KGSTR-000239,edge,KGEDGE-000019,has_relationship_type,pass,specializes_requirement,2026-06-29 11:35:33
+KGSTR-000240,edge,KGEDGE-000019,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000241,edge,KGEDGE-000020,has_edge_id,pass,KGEDGE-000020,2026-06-29 11:35:33
+KGSTR-000242,edge,KGEDGE-000020,has_source_node,pass,KGNODE2-000012,2026-06-29 11:35:33
+KGSTR-000243,edge,KGEDGE-000020,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000244,edge,KGEDGE-000020,has_relationship_type,pass,defines_submission_context,2026-06-29 11:35:33
+KGSTR-000245,edge,KGEDGE-000020,has_edge_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000246,edge,KGEDGE-000021,has_edge_id,pass,KGEDGE-000021,2026-06-29 11:35:33
+KGSTR-000247,edge,KGEDGE-000021,has_source_node,pass,KGNODE2-000017,2026-06-29 11:35:33
+KGSTR-000248,edge,KGEDGE-000021,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000249,edge,KGEDGE-000021,has_relationship_type,pass,defines_submission_context,2026-06-29 11:35:33
+KGSTR-000250,edge,KGEDGE-000021,has_edge_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000251,edge,KGEDGE-000022,has_edge_id,pass,KGEDGE-000022,2026-06-29 11:35:33
+KGSTR-000252,edge,KGEDGE-000022,has_source_node,pass,KGNODE2-000020,2026-06-29 11:35:33
+KGSTR-000253,edge,KGEDGE-000022,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000254,edge,KGEDGE-000022,has_relationship_type,pass,defines_submission_context,2026-06-29 11:35:33
+KGSTR-000255,edge,KGEDGE-000022,has_edge_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000256,edge,KGEDGE-000023,has_edge_id,pass,KGEDGE-000023,2026-06-29 11:35:33
+KGSTR-000257,edge,KGEDGE-000023,has_source_node,pass,KGNODE2-000023,2026-06-29 11:35:33
+KGSTR-000258,edge,KGEDGE-000023,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000259,edge,KGEDGE-000023,has_relationship_type,pass,defines_submission_context,2026-06-29 11:35:33
+KGSTR-000260,edge,KGEDGE-000023,has_edge_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000261,edge,KGEDGE-000024,has_edge_id,pass,KGEDGE-000024,2026-06-29 11:35:33
+KGSTR-000262,edge,KGEDGE-000024,has_source_node,pass,KGNODE2-000024,2026-06-29 11:35:33
+KGSTR-000263,edge,KGEDGE-000024,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000264,edge,KGEDGE-000024,has_relationship_type,pass,defines_submission_context,2026-06-29 11:35:33
+KGSTR-000265,edge,KGEDGE-000024,has_edge_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000266,edge,KGEDGE-000025,has_edge_id,pass,KGEDGE-000025,2026-06-29 11:35:33
+KGSTR-000267,edge,KGEDGE-000025,has_source_node,pass,KGNODE2-000028,2026-06-29 11:35:33
+KGSTR-000268,edge,KGEDGE-000025,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000269,edge,KGEDGE-000025,has_relationship_type,pass,defines_submission_context,2026-06-29 11:35:33
+KGSTR-000270,edge,KGEDGE-000025,has_edge_confidence,pass,0.74,2026-06-29 11:35:33
+KGSTR-000271,edge,KGEDGE-000026,has_edge_id,pass,KGEDGE-000026,2026-06-29 11:35:33
+KGSTR-000272,edge,KGEDGE-000026,has_source_node,pass,KGNODE2-000022,2026-06-29 11:35:33
+KGSTR-000273,edge,KGEDGE-000026,has_target_node,pass,KGNODE2-000013,2026-06-29 11:35:33
+KGSTR-000274,edge,KGEDGE-000026,has_relationship_type,pass,affects_pricing,2026-06-29 11:35:33
+KGSTR-000275,edge,KGEDGE-000026,has_edge_confidence,pass,0.68,2026-06-29 11:35:33
+KGSTR-000276,edge,KGEDGE-000027,has_edge_id,pass,KGEDGE-000027,2026-06-29 11:35:33
+KGSTR-000277,edge,KGEDGE-000027,has_source_node,pass,KGNODE2-000022,2026-06-29 11:35:33
+KGSTR-000278,edge,KGEDGE-000027,has_target_node,pass,KGNODE2-000029,2026-06-29 11:35:33
+KGSTR-000279,edge,KGEDGE-000027,has_relationship_type,pass,affects_pricing,2026-06-29 11:35:33
+KGSTR-000280,edge,KGEDGE-000027,has_edge_confidence,pass,0.68,2026-06-29 11:35:33
+KGSTR-000281,edge,KGEDGE-000028,has_edge_id,pass,KGEDGE-000028,2026-06-29 11:35:33
+KGSTR-000282,edge,KGEDGE-000028,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000283,edge,KGEDGE-000028,has_target_node,pass,KGNODE2-000012,2026-06-29 11:35:33
+KGSTR-000284,edge,KGEDGE-000028,has_relationship_type,pass,administers_acquisition,2026-06-29 11:35:33
+KGSTR-000285,edge,KGEDGE-000028,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000286,edge,KGEDGE-000029,has_edge_id,pass,KGEDGE-000029,2026-06-29 11:35:33
+KGSTR-000287,edge,KGEDGE-000029,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000288,edge,KGEDGE-000029,has_target_node,pass,KGNODE2-000017,2026-06-29 11:35:33
+KGSTR-000289,edge,KGEDGE-000029,has_relationship_type,pass,administers_acquisition,2026-06-29 11:35:33
+KGSTR-000290,edge,KGEDGE-000029,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000291,edge,KGEDGE-000030,has_edge_id,pass,KGEDGE-000030,2026-06-29 11:35:33
+KGSTR-000292,edge,KGEDGE-000030,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000293,edge,KGEDGE-000030,has_target_node,pass,KGNODE2-000020,2026-06-29 11:35:33
+KGSTR-000294,edge,KGEDGE-000030,has_relationship_type,pass,administers_acquisition,2026-06-29 11:35:33
+KGSTR-000295,edge,KGEDGE-000030,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000296,edge,KGEDGE-000031,has_edge_id,pass,KGEDGE-000031,2026-06-29 11:35:33
+KGSTR-000297,edge,KGEDGE-000031,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000298,edge,KGEDGE-000031,has_target_node,pass,KGNODE2-000023,2026-06-29 11:35:33
+KGSTR-000299,edge,KGEDGE-000031,has_relationship_type,pass,administers_acquisition,2026-06-29 11:35:33
+KGSTR-000300,edge,KGEDGE-000031,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000301,edge,KGEDGE-000032,has_edge_id,pass,KGEDGE-000032,2026-06-29 11:35:33
+KGSTR-000302,edge,KGEDGE-000032,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000303,edge,KGEDGE-000032,has_target_node,pass,KGNODE2-000024,2026-06-29 11:35:33
+KGSTR-000304,edge,KGEDGE-000032,has_relationship_type,pass,administers_acquisition,2026-06-29 11:35:33
+KGSTR-000305,edge,KGEDGE-000032,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000306,edge,KGEDGE-000033,has_edge_id,pass,KGEDGE-000033,2026-06-29 11:35:33
+KGSTR-000307,edge,KGEDGE-000033,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000308,edge,KGEDGE-000033,has_target_node,pass,KGNODE2-000028,2026-06-29 11:35:33
+KGSTR-000309,edge,KGEDGE-000033,has_relationship_type,pass,administers_acquisition,2026-06-29 11:35:33
+KGSTR-000310,edge,KGEDGE-000033,has_edge_confidence,pass,0.72,2026-06-29 11:35:33
+KGSTR-000311,edge,KGEDGE-000034,has_edge_id,pass,KGEDGE-000034,2026-06-29 11:35:33
+KGSTR-000312,edge,KGEDGE-000034,has_source_node,pass,KGNODE2-000004,2026-06-29 11:35:33
+KGSTR-000313,edge,KGEDGE-000034,has_target_node,pass,KGNODE2-000001,2026-06-29 11:35:33
+KGSTR-000314,edge,KGEDGE-000034,has_relationship_type,pass,issues_or_receives_submission_instruction,2026-06-29 11:35:33
+KGSTR-000315,edge,KGEDGE-000034,has_edge_confidence,pass,0.7,2026-06-29 11:35:33
+KGSTR-000316,edge,KGEDGE-000035,has_edge_id,pass,KGEDGE-000035,2026-06-29 11:35:33
+KGSTR-000317,edge,KGEDGE-000035,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000318,edge,KGEDGE-000035,has_target_node,pass,KGNODE2-000012,2026-06-29 11:35:33
+KGSTR-000319,edge,KGEDGE-000035,has_relationship_type,pass,uses_acquisition_method,2026-06-29 11:35:33
+KGSTR-000320,edge,KGEDGE-000035,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000321,edge,KGEDGE-000036,has_edge_id,pass,KGEDGE-000036,2026-06-29 11:35:33
+KGSTR-000322,edge,KGEDGE-000036,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000323,edge,KGEDGE-000036,has_target_node,pass,KGNODE2-000017,2026-06-29 11:35:33
+KGSTR-000324,edge,KGEDGE-000036,has_relationship_type,pass,uses_acquisition_method,2026-06-29 11:35:33
+KGSTR-000325,edge,KGEDGE-000036,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000326,edge,KGEDGE-000037,has_edge_id,pass,KGEDGE-000037,2026-06-29 11:35:33
+KGSTR-000327,edge,KGEDGE-000037,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000328,edge,KGEDGE-000037,has_target_node,pass,KGNODE2-000020,2026-06-29 11:35:33
+KGSTR-000329,edge,KGEDGE-000037,has_relationship_type,pass,uses_acquisition_method,2026-06-29 11:35:33
+KGSTR-000330,edge,KGEDGE-000037,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000331,edge,KGEDGE-000038,has_edge_id,pass,KGEDGE-000038,2026-06-29 11:35:33
+KGSTR-000332,edge,KGEDGE-000038,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000333,edge,KGEDGE-000038,has_target_node,pass,KGNODE2-000023,2026-06-29 11:35:33
+KGSTR-000334,edge,KGEDGE-000038,has_relationship_type,pass,uses_acquisition_method,2026-06-29 11:35:33
+KGSTR-000335,edge,KGEDGE-000038,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000336,edge,KGEDGE-000039,has_edge_id,pass,KGEDGE-000039,2026-06-29 11:35:33
+KGSTR-000337,edge,KGEDGE-000039,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000338,edge,KGEDGE-000039,has_target_node,pass,KGNODE2-000024,2026-06-29 11:35:33
+KGSTR-000339,edge,KGEDGE-000039,has_relationship_type,pass,uses_acquisition_method,2026-06-29 11:35:33
+KGSTR-000340,edge,KGEDGE-000039,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000341,edge,KGEDGE-000040,has_edge_id,pass,KGEDGE-000040,2026-06-29 11:35:33
+KGSTR-000342,edge,KGEDGE-000040,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000343,edge,KGEDGE-000040,has_target_node,pass,KGNODE2-000028,2026-06-29 11:35:33
+KGSTR-000344,edge,KGEDGE-000040,has_relationship_type,pass,uses_acquisition_method,2026-06-29 11:35:33
+KGSTR-000345,edge,KGEDGE-000040,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000346,edge,KGEDGE-000041,has_edge_id,pass,KGEDGE-000041,2026-06-29 11:35:33
+KGSTR-000347,edge,KGEDGE-000041,has_source_node,pass,KGNODE2-000011,2026-06-29 11:35:33
+KGSTR-000348,edge,KGEDGE-000041,has_target_node,pass,KGNODE2-000002,2026-06-29 11:35:33
+KGSTR-000349,edge,KGEDGE-000041,has_relationship_type,pass,has_domain_requirement,2026-06-29 11:35:33
+KGSTR-000350,edge,KGEDGE-000041,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000351,edge,KGEDGE-000042,has_edge_id,pass,KGEDGE-000042,2026-06-29 11:35:33
+KGSTR-000352,edge,KGEDGE-000042,has_source_node,pass,KGNODE2-000007,2026-06-29 11:35:33
+KGSTR-000353,edge,KGEDGE-000042,has_target_node,pass,KGNODE2-000022,2026-06-29 11:35:33
+KGSTR-000354,edge,KGEDGE-000042,has_relationship_type,pass,may_define_place_of_performance,2026-06-29 11:35:33
+KGSTR-000355,edge,KGEDGE-000042,has_edge_confidence,pass,0.62,2026-06-29 11:35:33
+KGSTR-000356,edge,KGEDGE-000043,has_edge_id,pass,KGEDGE-000043,2026-06-29 11:35:33
+KGSTR-000357,edge,KGEDGE-000043,has_source_node,pass,KGNODE2-000006,2026-06-29 11:35:33
+KGSTR-000358,edge,KGEDGE-000043,has_target_node,pass,KGNODE2-000003,2026-06-29 11:35:33
+KGSTR-000359,edge,KGEDGE-000043,has_relationship_type,pass,may_result_in_contract_type,2026-06-29 11:35:33
+KGSTR-000360,edge,KGEDGE-000043,has_edge_confidence,pass,0.66,2026-06-29 11:35:33
+KGSTR-000361,edge,KGEDGE-000044,has_edge_id,pass,KGEDGE-000044,2026-06-29 11:35:33
+KGSTR-000362,edge,KGEDGE-000044,has_source_node,pass,KGNODE2-000005,2026-06-29 11:35:33
+KGSTR-000363,edge,KGEDGE-000044,has_target_node,pass,KGNODE2-000025,2026-06-29 11:35:33
+KGSTR-000364,edge,KGEDGE-000044,has_relationship_type,pass,specializes,2026-06-29 11:35:33
+KGSTR-000365,edge,KGEDGE-000044,has_edge_confidence,pass,0.84,2026-06-29 11:35:33

@@ -1,0 +1,2 @@
+gate_id,integration_gate,views,contracts_ready,contracts_missing,field_rows,state_rows,navigation_rows,created_at
+UIAPIGATE-000001,ui_api_integration_contracts_ready,7,7,0,21,4,7,2026-07-08 17:38:01

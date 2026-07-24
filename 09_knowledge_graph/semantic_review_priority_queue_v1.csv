@@ -1,0 +1,37 @@
+review_queue_id,semantic_object_id,semantic_object_type,canonical_name,domain_name,confidence_band,final_confidence_score,evidence_count,priority,review_reason,review_status,created_at
+SRPQ-000029,SPO2-000029,Uninterpreted Expression,Cl Marine Corps Base,,low,0.378,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000031,SPO2-000031,Uninterpreted Expression,Far And Dosar Provisions,,low,0.378,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000032,SPO2-000032,Uninterpreted Expression,Food And Drug Administration,,low,0.378,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000034,SPO2-000034,Uninterpreted Expression,Renovation Cl Marine Corps,,low,0.378,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000023,SPO2-000023,Uninterpreted Expression,Corps Base Camp Lejeune,,low,0.38,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000024,SPO2-000024,Uninterpreted Expression,Marine Corps Base Camp,,low,0.38,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000012,SPO2-000012,Uninterpreted Expression,Administrative Support And Clerical,,low,0.404,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000025,SPO2-000025,Uninterpreted Expression,Army Mil Proposal Default,,low,0.414,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000026,SPO2-000026,Uninterpreted Expression,Award A Firm Fixed,,low,0.414,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000027,SPO2-000027,Uninterpreted Expression,Award Will Be Made,,low,0.414,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000028,SPO2-000028,Uninterpreted Expression,Chess Army Mil Proposal,,low,0.414,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000030,SPO2-000030,Uninterpreted Expression,Copies Of The Amendment,,low,0.414,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000033,SPO2-000033,Uninterpreted Expression,Mil Proposal Default Index,,low,0.414,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000014,SPO2-000014,Uninterpreted Expression,Solicitation Metadata,,low,0.428,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000022,SPO2-000022,Uninterpreted Expression,Award A Contract,,low,0.432,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000017,SPO2-000017,Uninterpreted Expression,Amendments Of Solicitations,,low,0.45,1,high,uninterpreted_expression,pending,2026-06-28 17:16:16
+SRPQ-000036,SPO2-000036,Pricing Structure,Payment and Invoice,Commercial and Pricing,medium,0.701,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000009,SPO2-000009,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,medium,0.704,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000016,SPO2-000016,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,medium,0.706,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000035,SPO2-000035,Acquisition Metadata,Request for Quotation,Acquisition Strategy,medium,0.712,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000019,SPO2-000019,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,medium,0.718,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000013,SPO2-000013,Proposal Structure,Proposal Volume,Submission and Proposal Management,medium,0.719,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000021,SPO2-000021,Technical Requirement,Statement of Work,Technical Requirements,medium,0.727,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000010,SPO2-000010,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,medium,0.734,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000008,SPO2-000008,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,medium,0.74,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000018,SPO2-000018,Delivery Requirement,Place of Performance,Delivery and Logistics,medium,0.74,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000020,SPO2-000020,Acquisition Metadata,Request for Proposal,Acquisition Strategy,medium,0.743,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000011,SPO2-000011,Acquisition Metadata,Request for Information,Acquisition Strategy,medium,0.761,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000015,SPO2-000015,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,medium,0.769,2,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000003,SPO2-000003,Acquisition Metadata,Solicitation Number,Acquisition Strategy,medium,0.777,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000005,SPO2-000005,Pricing Structure,Unit Price,Commercial and Pricing,medium,0.79,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000006,SPO2-000006,Procurement Role,Contracting Officer,Acquisition Strategy,medium,0.802,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000004,SPO2-000004,Contract Type,Firm Fixed Price,Commercial and Pricing,medium,0.805,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000007,SPO2-000007,Technical Requirement,Performance Work Statement,Technical Requirements,medium,0.811,1,medium,medium_confidence_review_recommended,pending,2026-06-28 17:16:16
+SRPQ-000002,SPO2-000002,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,high,0.89,6,low,spot_check,pending,2026-06-28 17:16:16
+SRPQ-000001,SPO2-000001,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,high,0.902,5,low,spot_check,pending,2026-06-28 17:16:16

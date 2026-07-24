@@ -1,0 +1,11 @@
+contract_id,service_name,expected_endpoint,actual_endpoint,status,created_at
+APICONTRACT-000001,semantic_search,/api/v1/search,/api/v1/search,pass,2026-07-05 17:27:42
+APICONTRACT-000002,question_answering,/api/v1/ask,/api/v1/ask,pass,2026-07-05 17:27:42
+APICONTRACT-000003,opportunity_intelligence,/api/v1/opportunity/intelligence,/api/v1/opportunity/intelligence,pass,2026-07-05 17:27:42
+APICONTRACT-000004,supplier_intelligence,/api/v1/supplier/intelligence,/api/v1/supplier/intelligence,pass,2026-07-05 17:27:42
+APICONTRACT-000005,department_intelligence,/api/v1/department/intelligence,/api/v1/department/intelligence,pass,2026-07-05 17:27:42
+APICONTRACT-000006,similar_opportunities,/api/v1/opportunity/similar,/api/v1/opportunity/similar,pass,2026-07-05 17:27:42
+APICONTRACT-000007,recommendations,/api/v1/recommendations,/api/v1/recommendations,pass,2026-07-05 17:27:42
+APICONTRACT-000008,graph_analytics,/api/v1/graph/analytics,/api/v1/graph/analytics,pass,2026-07-05 17:27:42
+APICONTRACT-000009,ai_procurement_analyst,/api/v1/analyst,/api/v1/analyst,pass,2026-07-05 17:27:42
+APICONTRACT-000010,health,/api/v1/health,/api/v1/health,pass,2026-07-05 17:27:42

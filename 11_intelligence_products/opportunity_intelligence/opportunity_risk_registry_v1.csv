@@ -1,0 +1,6 @@
+risk_id,opportunity_id,risk_text,risk_category,severity,created_at
+OPPRISK-000001,OPPINT-000001,Evaluation criteria are present and should be mapped to proposal win themes.,graph_detected,medium,2026-06-30 11:19:16
+OPPRISK-000002,OPPINT-000001,Supplier qualification requirements are present.,graph_detected,medium,2026-06-30 11:19:16
+OPPRISK-000003,OPPINT-000001,Compliance obligations are present.,graph_detected,medium,2026-06-30 11:19:16
+OPPRISK-000004,OPPINT-000001,Delivery or place-of-performance factors may affect pricing.,graph_detected,medium,2026-06-30 11:19:16
+OPPRISK-000005,OPPINT-000001,Documentation artifacts are present; distinguish useful instructions from document noise.,graph_detected,medium,2026-06-30 11:19:16

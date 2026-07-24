@@ -1,0 +1,10 @@
+scorecard_metric_id,metric_name,metric_value,target_value,status,notes,created_at
+SSCR-000001,semantic_objects_v3,32,>= 25,pass,Minimum semantic object count for Wave 8B semantic layer.,2026-06-29 00:54:06
+SSCR-000002,duplicate_clusters_detected,4,<= 5,pass,Duplicate object clusters before consolidation.,2026-06-29 00:54:06
+SSCR-000003,objects_after_deduplication,32,<= input object count,pass,V3 object count should not exceed V2.5 input.,2026-06-29 00:54:06
+SSCR-000004,interpretation_coverage_pct,100.0,>= 90%,pass,Interpreted objects as a percentage of all semantic objects.,2026-06-29 00:54:06
+SSCR-000005,graph_ready_objects,12,>= 8,pass,Objects immediately eligible for graph population.,2026-06-29 00:54:06
+SSCR-000006,graph_ready_pct,37.5,>= 20%,pass,Percentage of objects that are graph-ready.,2026-06-29 00:54:06
+SSCR-000007,not_graph_ready_objects,2,<= 2,pass,Objects blocked from graph population.,2026-06-29 00:54:06
+SSCR-000008,integrity_failures,0,0,pass,Hard integrity failures in semantic object registry.,2026-06-29 00:54:06
+SSCR-000009,low_confidence_objects,2,<= 2,pass,Objects with confidence below semantic readiness threshold.,2026-06-29 00:54:06

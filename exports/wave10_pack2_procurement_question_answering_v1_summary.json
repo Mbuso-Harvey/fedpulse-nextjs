@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-06-29 23:06:47",
+  "wave": "Wave 10",
+  "pack": "Pack 2 - Procurement Question Answering",
+  "status": "completed",
+  "product_status": "procurement_question_answering_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "questions": 8,
+  "answers": 8,
+  "evidence_rows": 68,
+  "reasoning_rows": 24,
+  "explainability_rows": 8,
+  "average_quality_score": 0.944,
+  "quality_counts": {
+    "high": 7,
+    "medium": 1,
+    "low": 0
+  },
+  "outputs": {
+    "questions": "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering\\qa_question_registry_v1.csv",
+    "answers": "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering\\qa_answer_registry_v1.csv",
+    "evidence": "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering\\qa_evidence_registry_v1.csv",
+    "reasoning": "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering\\qa_reasoning_registry_v1.csv",
+    "explainability": "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering\\qa_explainability_registry_v1.csv",
+    "quality": "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering\\qa_quality_registry_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_question_answering_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack2_procurement_question_answering_report_v1.md"
+  },
+  "next_script": "build_wave10_pack3_opportunity_intelligence_v1.py"
+}

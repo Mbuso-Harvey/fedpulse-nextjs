@@ -1,0 +1,11 @@
+service_id,service_name,endpoint_id,route,method,input_contract,output_contract,auth_required,rate_limited,lineage_required,status,created_at
+SERVICE-000001,semantic_search,ENDPOINT-000001,/api/v1/search,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000002,question_answering,ENDPOINT-000002,/api/v1/ask,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000003,opportunity_intelligence,ENDPOINT-000003,/api/v1/opportunity/intelligence,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000004,supplier_intelligence,ENDPOINT-000004,/api/v1/supplier/intelligence,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000005,department_intelligence,ENDPOINT-000005,/api/v1/department/intelligence,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000006,similar_opportunities,ENDPOINT-000006,/api/v1/opportunity/similar,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000007,recommendations,ENDPOINT-000007,/api/v1/recommendations,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000008,graph_analytics,ENDPOINT-000008,/api/v1/graph/analytics,GET,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000009,ai_procurement_analyst,ENDPOINT-000009,/api/v1/analyst,POST,json_request,json_response,true,true,true,active,2026-07-02 17:38:10
+SERVICE-000010,health,ENDPOINT-000010,/api/v1/health,GET,json_request,json_response,true,true,true,active,2026-07-02 17:38:10

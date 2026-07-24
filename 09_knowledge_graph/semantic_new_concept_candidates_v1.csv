@@ -1,0 +1,126 @@
+new_concept_candidate_id,source_type,source_id,candidate_concept,suggested_domain,domain_similarity,registry_similarity,frequency,quality_score,review_status,created_at
+SNCC-000001,filtered_pattern,SP-000013,accounting clerk,,0.0,0.2732,15,10,pending_review,2026-06-27 18:48:00
+SNCC-000002,filtered_pattern,SP-000014,customer service,,0.0,0.24,15,10,pending_review,2026-06-27 18:48:00
+SNCC-000003,filtered_pattern,SP-000015,service representative,,0.0,0.2667,15,10,pending_review,2026-06-27 18:48:00
+SNCC-000004,filtered_pattern,SP-000016,customer service representative,,0.0,0.28,15,11,pending_review,2026-06-27 18:48:00
+SNCC-000005,filtered_pattern,SP-000018,amendment of,,0.0,0.3167,13,13,pending_review,2026-06-27 18:48:00
+SNCC-000006,filtered_pattern,SP-000024,administered by,,0.0,0.3316,11,13,pending_review,2026-06-27 18:48:00
+SNCC-000007,filtered_pattern,SP-000026,interior design,,0.0,0.28,11,10,pending_review,2026-06-27 18:48:00
+SNCC-000008,filtered_pattern,SP-000027,data entry,,0.0,0.3,11,10,pending_review,2026-06-27 18:48:00
+SNCC-000009,filtered_pattern,SP-000038,general clerk,,0.0,0.3161,10,10,pending_review,2026-06-27 18:48:00
+SNCC-000010,filtered_pattern,SP-000040,section 1,,0.0,0.3267,9,9,pending_review,2026-06-27 18:48:00
+SNCC-000011,filtered_pattern,SP-000041,the offeror,,0.0,0.3267,9,12,pending_review,2026-06-27 18:48:00
+SNCC-000012,filtered_pattern,SP-000045,please provide,,0.0,0.2188,9,9,pending_review,2026-06-27 18:48:00
+SNCC-000013,filtered_pattern,SP-000049,small business,,0.0,0.2882,9,9,pending_review,2026-06-27 18:48:00
+SNCC-000014,filtered_pattern,SP-000055,fixed price,,0.0,0.2545,8,8,pending_review,2026-06-27 18:48:00
+SNCC-000015,filtered_pattern,SP-000057,additional information,,0.0,0.3733,8,8,pending_review,2026-06-27 18:48:00
+SNCC-000016,filtered_pattern,SP-000059,clerk ii,,0.0,0.28,8,8,pending_review,2026-06-27 18:48:00
+SNCC-000017,filtered_pattern,SP-000060,clerk iii,,0.0,0.271,8,8,pending_review,2026-06-27 18:48:00
+SNCC-000018,filtered_pattern,SP-000061,offerors shall,,0.0,0.2513,7,10,pending_review,2026-06-27 18:48:00
+SNCC-000019,filtered_pattern,SP-000071,firm fixed price,,0.0,0.2667,7,8,pending_review,2026-06-27 18:48:00
+SNCC-000020,filtered_pattern,SP-000073,unit price,,0.0,0.28,7,15,pending_review,2026-06-27 18:48:00
+SNCC-000021,filtered_pattern,SP-000081,evaluation factors,Evaluation and Source Selection,0.2,0.3231,6,14,pending_review,2026-06-27 18:48:00
+SNCC-000022,filtered_pattern,SP-000082,quote for,,0.0,0.25,6,9,pending_review,2026-06-27 18:48:00
+SNCC-000023,filtered_pattern,SP-000092,contracting officer,,0.0,0.3667,6,14,pending_review,2026-06-27 18:48:00
+SNCC-000024,filtered_pattern,SP-000096,administered by if,,0.0,0.3415,6,10,pending_review,2026-06-27 18:48:00
+SNCC-000025,filtered_pattern,SP-000100,administered by if other,,0.0,0.3277,6,11,pending_review,2026-06-27 18:48:00
+SNCC-000026,filtered_pattern,SP-000101,by if other than,,0.0,0.28,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000027,filtered_pattern,SP-000102,if other than item,,0.0,0.315,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000028,filtered_pattern,SP-000109,a firm fixed price,,0.0,0.2605,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000029,filtered_pattern,SP-000115,1 qty 1 ton,,0.0,0.28,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000030,filtered_pattern,SP-000116,qty 1 ton each,,0.0,0.28,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000031,filtered_pattern,SP-000122,the same,,0.0,0.25,6,9,pending_review,2026-06-27 18:48:00
+SNCC-000032,filtered_pattern,SP-000127,table of contents,,0.0,0.293,6,10,pending_review,2026-06-27 18:48:00
+SNCC-000033,filtered_pattern,SP-000151,fringe benefits required follow,,0.0,0.2247,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000034,filtered_pattern,SP-000152,benefits required follow the,,0.0,0.2872,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000035,filtered_pattern,SP-000153,required follow the occupational,,0.0,0.2471,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000036,filtered_pattern,SP-000154,follow the occupational listing,,0.0,0.308,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000037,filtered_pattern,SP-000155,the occupational listing occupation,,0.0,0.3244,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000038,filtered_pattern,SP-000156,occupational listing occupation code,,0.0,0.3128,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000039,filtered_pattern,SP-000157,listing occupation code title,,0.0,0.3316,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000040,filtered_pattern,SP-000158,occupation code title footnote,,0.0,0.3273,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000041,filtered_pattern,SP-000159,code title footnote rate,,0.0,0.293,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000042,filtered_pattern,SP-000160,title footnote rate 01000,,0.0,0.2227,6,8,pending_review,2026-06-27 18:48:00
+SNCC-000043,filtered_pattern,SP-000163,for quote,,0.0,0.2471,5,8,pending_review,2026-06-27 18:48:00
+SNCC-000044,filtered_pattern,SP-000164,administered by code,,0.0,0.3256,5,9,pending_review,2026-06-27 18:48:00
+SNCC-000045,filtered_pattern,SP-000183,to award,,0.0,0.2414,5,8,pending_review,2026-06-27 18:48:00
+SNCC-000046,filtered_pattern,SP-000186,for award,,0.0,0.2897,5,8,pending_review,2026-06-27 18:48:00
+SNCC-000047,filtered_pattern,SP-000221,marine corps,,0.0,0.2625,5,8,pending_review,2026-06-27 18:48:00
+SNCC-000048,filtered_pattern,SP-000232,administrative assistant,Document Structure and Administrative Forms,0.1667,0.3872,5,8,pending_review,2026-06-27 18:48:00
+SNCC-000049,filtered_pattern,SP-000252,01000 administrative support,Document Structure and Administrative Forms,0.1429,0.3843,5,9,pending_review,2026-06-27 18:48:00
+SNCC-000050,filtered_pattern,SP-000264,01020 administrative assistant,Document Structure and Administrative Forms,0.1429,0.3698,5,9,pending_review,2026-06-27 18:48:00
+SNCC-000051,filtered_pattern,SP-000282,01000 administrative support and,Document Structure and Administrative Forms,0.2857,0.3818,5,10,pending_review,2026-06-27 18:48:00
+SNCC-000052,filtered_pattern,SP-000283,administrative support and clerical,Document Structure and Administrative Forms,0.2857,0.375,5,10,pending_review,2026-06-27 18:48:00
+SNCC-000053,filtered_pattern,SP-000324,applies to amendments,,0.0,0.3,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000054,filtered_pattern,SP-000325,to amendments of,,0.0,0.3111,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000055,filtered_pattern,SP-000326,amendments of solicitations,,0.0,0.35,4,11,pending_review,2026-06-27 18:48:00
+SNCC-000056,filtered_pattern,SP-000337,only applies to amendments,,0.0,0.2909,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000057,filtered_pattern,SP-000338,applies to amendments of,,0.0,0.2987,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000058,filtered_pattern,SP-000339,to amendments of solicitations,,0.0,0.3294,4,12,pending_review,2026-06-27 18:48:00
+SNCC-000059,filtered_pattern,SP-000340,the above numbered solicitation,,0.0,0.3831,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000060,filtered_pattern,SP-000350,of this amendment,,0.0,0.3405,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000061,filtered_pattern,SP-000379,to award a,,0.0,0.28,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000062,filtered_pattern,SP-000383,award a contract,,0.0,0.3622,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000063,filtered_pattern,SP-000392,hills national cemetery,,0.0,0.3417,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000064,filtered_pattern,SP-000393,black hills national cemetery,,0.0,0.336,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000065,filtered_pattern,SP-000406,affairs national cemetery,,0.0,0.3295,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000066,filtered_pattern,SP-000410,veterans affairs national cemetery,,0.0,0.3015,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000067,filtered_pattern,SP-000428,a combined synopsis solicitation,,0.0,0.377,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000068,filtered_pattern,SP-000429,combined synopsis solicitation for,,0.0,0.3909,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000069,filtered_pattern,SP-000430,accordance with the format,,0.0,0.3193,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000070,filtered_pattern,SP-000442,request for information,,0.0,0.337,4,13,pending_review,2026-06-27 18:48:00
+SNCC-000071,filtered_pattern,SP-000505,far and dosar,Commercial and Pricing,0.2,0.38,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000072,filtered_pattern,SP-000513,quote for the,,0.0,0.3316,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000073,filtered_pattern,SP-000520,marine corps base,,0.0,0.3,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000074,filtered_pattern,SP-000521,corps base camp,,0.0,0.245,4,8,pending_review,2026-06-27 18:48:00
+SNCC-000075,filtered_pattern,SP-000525,marine corps base camp,,0.0,0.2681,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000076,filtered_pattern,SP-000526,corps base camp lejeune,,0.0,0.2605,4,9,pending_review,2026-06-27 18:48:00
+SNCC-000077,filtered_pattern,SP-000600,copies of the amendment,,0.0,0.3213,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000078,filtered_pattern,SP-000610,the contracting officer,,0.0,0.3348,3,12,pending_review,2026-06-27 18:48:00
+SNCC-000079,filtered_pattern,SP-000619,page of pages amendment,,0.0,0.3402,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000080,filtered_pattern,SP-000620,of pages amendment of,,0.0,0.3415,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000081,filtered_pattern,SP-000621,pages amendment of solicitation,,0.0,0.3831,3,11,pending_review,2026-06-27 18:48:00
+SNCC-000082,filtered_pattern,SP-000660,award a firm fixed,,0.0,0.2545,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000083,filtered_pattern,SP-000663,to the responsible offeror,,0.0,0.271,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000084,filtered_pattern,SP-000664,the responsible offeror whose,,0.0,0.3062,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000085,filtered_pattern,SP-000680,award will be made,,0.0,0.2579,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000086,filtered_pattern,SP-000681,source selection,Evaluation and Source Selection,0.5,0.3277,3,11,pending_review,2026-06-27 18:48:00
+SNCC-000087,filtered_pattern,SP-000733,statement of work,,0.0,0.2722,3,12,pending_review,2026-06-27 18:48:00
+SNCC-000088,filtered_pattern,SP-000740,prepared in accordance with,,0.0,0.2906,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000089,filtered_pattern,SP-000760,request for information rfi,,0.0,0.3138,3,16,pending_review,2026-06-27 18:48:00
+SNCC-000090,filtered_pattern,SP-000761,quote rfq,,0.0,0.2074,3,9,pending_review,2026-06-27 18:48:00
+SNCC-000091,filtered_pattern,SP-000822,request for proposal,Submission and Proposal Management,0.1667,0.3355,3,10,pending_review,2026-06-27 18:48:00
+SNCC-000092,filtered_pattern,SP-000838,chess army mil proposal,Submission and Proposal Management,0.1429,0.3035,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000093,filtered_pattern,SP-000852,quantity unit price,,0.0,0.2667,3,12,pending_review,2026-06-27 18:48:00
+SNCC-000094,filtered_pattern,SP-000879,the format in far,,0.0,0.35,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000095,filtered_pattern,SP-000915,renovation cl marine corps,,0.0,0.2897,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000096,filtered_pattern,SP-000916,cl marine corps base,,0.0,0.2489,3,8,pending_review,2026-06-27 18:48:00
+SNCC-000097,filtered_alias,SA-000013,accounting clerk,,0.0,0.2732,15,10,pending_review,2026-06-27 18:48:00
+SNCC-000098,filtered_alias,SA-000014,customer service,,0.0,0.24,15,10,pending_review,2026-06-27 18:48:00
+SNCC-000099,filtered_alias,SA-000015,service representative,,0.0,0.2667,15,10,pending_review,2026-06-27 18:48:00
+SNCC-000100,filtered_alias,SA-000016,customer service representative,,0.0,0.28,15,11,pending_review,2026-06-27 18:48:00
+SNCC-000101,filtered_alias,SA-000018,amendment of,,0.0,0.3167,13,13,pending_review,2026-06-27 18:48:00
+SNCC-000102,filtered_alias,SA-000024,administered by,,0.0,0.3316,11,13,pending_review,2026-06-27 18:48:00
+SNCC-000103,filtered_alias,SA-000026,interior design,,0.0,0.28,11,10,pending_review,2026-06-27 18:48:00
+SNCC-000104,filtered_alias,SA-000027,data entry,,0.0,0.3,11,10,pending_review,2026-06-27 18:48:00
+SNCC-000105,filtered_alias,SA-000038,general clerk,,0.0,0.3161,10,10,pending_review,2026-06-27 18:48:00
+SNCC-000106,filtered_alias,SA-000041,the offeror,,0.0,0.3267,9,12,pending_review,2026-06-27 18:48:00
+SNCC-000107,filtered_alias,SA-000061,offerors shall,,0.0,0.2513,7,10,pending_review,2026-06-27 18:48:00
+SNCC-000108,filtered_alias,SA-000073,unit price,,0.0,0.28,7,15,pending_review,2026-06-27 18:48:00
+SNCC-000109,filtered_alias,SA-000081,evaluation factors,Evaluation and Source Selection,0.2,0.3231,6,14,pending_review,2026-06-27 18:48:00
+SNCC-000110,filtered_alias,SA-000092,contracting officer,,0.0,0.3667,6,14,pending_review,2026-06-27 18:48:00
+SNCC-000111,filtered_alias,SA-000096,administered by if,,0.0,0.3415,6,10,pending_review,2026-06-27 18:48:00
+SNCC-000112,filtered_alias,SA-000100,administered by if other,,0.0,0.3277,6,11,pending_review,2026-06-27 18:48:00
+SNCC-000113,filtered_alias,SA-000127,table of contents,,0.0,0.293,6,10,pending_review,2026-06-27 18:48:00
+SNCC-000114,filtered_alias,SA-000282,01000 administrative support and,Document Structure and Administrative Forms,0.2857,0.3818,5,10,pending_review,2026-06-27 18:48:00
+SNCC-000115,filtered_alias,SA-000283,administrative support and clerical,Document Structure and Administrative Forms,0.2857,0.375,5,10,pending_review,2026-06-27 18:48:00
+SNCC-000116,filtered_alias,SA-000326,amendments of solicitations,,0.0,0.35,4,11,pending_review,2026-06-27 18:48:00
+SNCC-000117,filtered_alias,SA-000339,to amendments of solicitations,,0.0,0.3294,4,12,pending_review,2026-06-27 18:48:00
+SNCC-000118,filtered_alias,SA-000442,request for information,,0.0,0.337,4,13,pending_review,2026-06-27 18:48:00
+SNCC-000119,filtered_alias,SA-000610,the contracting officer,,0.0,0.3348,3,12,pending_review,2026-06-27 18:48:00
+SNCC-000120,filtered_alias,SA-000621,pages amendment of solicitation,,0.0,0.3831,3,11,pending_review,2026-06-27 18:48:00
+SNCC-000121,filtered_alias,SA-000681,source selection,Evaluation and Source Selection,0.5,0.3277,3,11,pending_review,2026-06-27 18:48:00
+SNCC-000122,filtered_alias,SA-000733,statement of work,,0.0,0.2722,3,12,pending_review,2026-06-27 18:48:00
+SNCC-000123,filtered_alias,SA-000760,request for information rfi,,0.0,0.3138,3,16,pending_review,2026-06-27 18:48:00
+SNCC-000124,filtered_alias,SA-000821,request for proposal,Submission and Proposal Management,0.1667,0.3355,3,10,pending_review,2026-06-27 18:48:00
+SNCC-000125,filtered_alias,SA-000851,quantity unit price,,0.0,0.2667,3,12,pending_review,2026-06-27 18:48:00

@@ -1,0 +1,2 @@
+assessment_id,overall_fit_score,readiness_score,supplier_strategy_score,strategy_position,readiness_band,capability_strength,gap_severity_high,gap_severity_medium,capture_score,created_at
+SUPASSESS-000001,78.4,0.0,43.44,unacceptable_supplier_position,critical,8,0,0,0.0,2026-07-03 21:56:16

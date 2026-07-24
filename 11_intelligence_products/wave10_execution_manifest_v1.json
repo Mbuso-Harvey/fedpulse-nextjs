@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-06-29 17:04:15",
+  "wave": "Wave 10",
+  "wave_name": "Graph-Powered Intelligence Products",
+  "status": "bootstrap_complete",
+  "depends_on": "Wave 9 KG-1.0 export certified",
+  "input_graph_manifest": "C:\\ProcurementIntelligence\\10_distribution\\knowledge_graph_release_manifest_v1.json",
+  "products_registered": 10,
+  "engines_registered": 11,
+  "apis_registered": 8,
+  "endpoints_registered": 8,
+  "product_directories": [
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\graph_search",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\question_answering",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\supplier_intelligence",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\opportunity_intelligence",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\department_intelligence",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\analytics",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\api",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\reports",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\qa",
+    "C:\\ProcurementIntelligence\\11_intelligence_products\\governance"
+  ],
+  "next_script": "build_wave10_pack1_semantic_graph_search_v1.py"
+}

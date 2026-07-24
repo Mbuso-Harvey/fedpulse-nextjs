@@ -1,0 +1,9 @@
+match_id,supplier_id,supplier_name,opportunity_id,capability_key,capability_name,match_strength,match_score,evidence_node_count,evidence_nodes,created_at
+SUPMATCH-000001,SUP-000001,Demonstration Supplier,OPPINT-000001,technical_capability,Technical Delivery,strong,79,2,Performance Work Statement; Statement of Work,2026-06-30 20:13:57
+SUPMATCH-000002,SUP-000001,Demonstration Supplier,OPPINT-000001,supplier_qualification,Supplier Qualification,strong,79,2,Past Performance; Small Business Set-Aside,2026-06-30 20:13:57
+SUPMATCH-000003,SUP-000001,Demonstration Supplier,OPPINT-000001,commercial_fit,Commercial Fit,strong,91,3,Firm Fixed Price; Unit Price; Payment and Invoice,2026-06-30 20:13:57
+SUPMATCH-000004,SUP-000001,Demonstration Supplier,OPPINT-000001,compliance_fit,Compliance Fit,moderate,67,1,FAR and DOSAR Provisions,2026-06-30 20:13:57
+SUPMATCH-000005,SUP-000001,Demonstration Supplier,OPPINT-000001,evaluation_fit,Evaluation Fit,strong,79,2,Award Basis; Evaluation Factors,2026-06-30 20:13:57
+SUPMATCH-000006,SUP-000001,Demonstration Supplier,OPPINT-000001,delivery_fit,Delivery Fit,moderate,67,1,Place of Performance,2026-06-30 20:13:57
+SUPMATCH-000007,SUP-000001,Demonstration Supplier,OPPINT-000001,submission_fit,Submission Fit,strong,79,2,Solicitation Amendment; Proposal Volume,2026-06-30 20:13:57
+SUPMATCH-000008,SUP-000001,Demonstration Supplier,OPPINT-000001,operations_fit,Operational Fit,strong,100,4,Marine Corps Base Camp Lejeune; United States Army; United States Marine Corps; National Cemetery Operations,2026-06-30 20:13:57

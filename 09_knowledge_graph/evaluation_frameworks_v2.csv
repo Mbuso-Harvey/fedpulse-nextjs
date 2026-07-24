@@ -1,0 +1,16 @@
+framework_id,notice_id,opportunity_title,framework_type,evaluation_methods,evaluation_factors,primary_factor,secondary_factors,threshold,evaluation_constraints,tradeoff_allowed,extra_credit_allowed,award_basis_language,evaluation_process,framework_confidence,accepted_signal_count,created_at,framework_type_v1,framework_confidence_v1,recovery_applied,recovered_signals,framework_version
+FRAMEWORK-000001,09ce44adca35468fb46ab77206c9afb7,6515--NetApp,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000002,38811fa6a48a41e0979b84f46b44b030,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000003,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,Unknown,,Past Performance,,,,,unknown,unknown,,,0.35,1,2026-06-24 11:02:16,Unknown,0.35,no,,v2
+FRAMEWORK-000004,b80dc335dcbb4f6abbff52eb54415e9a,EcoStruxure Panel Server Advanced (EnerlinX Series),LPTA,LPTA,,,,,,unknown,unknown,,,0.8,0,2026-06-24 11:02:16,Unknown,0.25,yes,LPTA,v2
+FRAMEWORK-000005,a3e0948c660849a5815153897d456f7d,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),LPTA,LPTA,,,,,,unknown,unknown,,,0.8,0,2026-06-24 11:02:16,Unknown,0.25,yes,LPTA,v2
+FRAMEWORK-000006,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000007,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,LPTA,Best Value;LPTA,Past Performance;Technical Capability,Technical Capability,Past Performance,Technically Acceptable,No Extra Credit Gate;No Tradeoff Gate,no,no,Price And Other Factors Considered;Recovered Award Basis,Source Selection,0.98,11,2026-06-24 11:02:16,LPTA,0.98,yes,Award Basis,v2
+FRAMEWORK-000008,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000009,d4b0cdaa6b81462db03813b232d2f491,NPSC Physician Services at the NNMC,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000010,6934753cfbdf45f1b93928b67e93355a,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,Unknown,,Price,,,,,unknown,unknown,,,0.35,1,2026-06-24 11:02:16,Unknown,0.35,no,,v2
+FRAMEWORK-000011,cbb1a9af3c004dc68e36a311cbef0ff9,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000012,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000013,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2
+FRAMEWORK-000014,cb68614c729145b3835e8326258f5ea2,Shade Structure Canopy,Best Value,Best Value,,,,,,unknown,unknown,,,0.8,1,2026-06-24 11:02:16,Best Value,0.5,yes,Best Value,v2
+FRAMEWORK-000015,b9d0ecdbad264ff4a301649e05fdf09f,Socket Head Cap Screws,Unknown,,,,,,,unknown,unknown,,,0.25,0,2026-06-24 11:02:16,Unknown,0.25,no,,v2

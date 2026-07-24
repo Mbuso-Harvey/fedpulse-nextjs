@@ -1,0 +1,5 @@
+duplicate_cluster_id,cluster_key,duplicate_count,semantic_object_ids,canonical_name,semantic_object_type,domain_name,resolution_status,created_at
+SODUP-000001,award phrase award will be made evaluation and source selection,2,SPO2-000022;SPO2-000027,Award Will Be Made,Award Phrase,Evaluation and Source Selection,requires_consolidation,2026-06-29 00:54:06
+SODUP-000002,military installation marine corps base camp lejeune domain specific operations,2,SPO2-000023;SPO2-000024,Marine Corps Base Camp Lejeune,Military Installation,Domain-Specific Operations,requires_consolidation,2026-06-29 00:54:06
+SODUP-000003,military organization united states army domain specific operations,2,SPO2-000025;SPO2-000028,United States Army,Military Organization,Domain-Specific Operations,requires_consolidation,2026-06-29 00:54:06
+SODUP-000004,military organization united states marine corps domain specific operations,2,SPO2-000029;SPO2-000034,United States Marine Corps,Military Organization,Domain-Specific Operations,requires_consolidation,2026-06-29 00:54:06

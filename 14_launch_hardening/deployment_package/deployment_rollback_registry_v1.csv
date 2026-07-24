@@ -1,0 +1,5 @@
+rollback_step_id,step_order,step_name,owner,rollback_action,created_at
+ROLLBACK-000001,1,Suspend client traffic,operations,Stop new production requests before rollback.,2026-07-06 23:51:33
+ROLLBACK-000002,2,Restore previous release,deployment,Restore last certified production deployment package.,2026-07-06 23:51:33
+ROLLBACK-000003,3,Restore API contracts,platform,Restore previous API manifest and endpoint contracts.,2026-07-06 23:51:33
+ROLLBACK-000004,4,Validate production health,operations,Execute health checks before reopening traffic.,2026-07-06 23:51:33

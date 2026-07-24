@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-06-23 23:30:40",
+  "consolidated_signals_processed": 33,
+  "precision_records_created": 33,
+  "reclassified_or_review_records": 19,
+  "precise_type_counts": {
+    "review_required": 7,
+    "pricing_structure": 8,
+    "evaluation_factor": 4,
+    "document_marking": 2,
+    "proposal_component": 1,
+    "evaluation_method": 3,
+    "evaluation_process": 1,
+    "evaluation_threshold": 1,
+    "evaluation_constraint": 3,
+    "factor_importance": 1,
+    "award_basis_language": 1,
+    "scoring_rating": 1
+  },
+  "precision_status_counts": {
+    "review": 7,
+    "reclassified": 12,
+    "accepted": 14
+  },
+  "precision_reason_counts": {
+    "insufficient_precision_context": 5,
+    "price_language_is_pricing_structure_not_evaluation_factor": 8,
+    "valid_non_price_evaluation_factor": 3,
+    "source_selection_sensitive_is_document_marking": 2,
+    "price_used_in_evaluation_context": 1,
+    "proposal_volume_language_not_evaluation_factor": 1,
+    "valid_evaluation_method": 3,
+    "source_selection_process_language": 1,
+    "technical_threshold_language": 1,
+    "negative_tradeoff_language": 1,
+    "weak_factor_ordering_extraction": 2,
+    "explicit_importance_language": 1,
+    "award_basis_language": 1,
+    "valid_gate_or_constraint": 2,
+    "valid_rating_term": 1
+  },
+  "outputs": {
+    "precise_evaluation_intelligence": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_intelligence_precise_v1.csv",
+    "false_positive_reclassifications": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_false_positive_reclassifications_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_intelligence_precision_report_v1.md"
+  },
+  "next_sprint": "SAM-0007R Requirement Weighting Engine"
+}

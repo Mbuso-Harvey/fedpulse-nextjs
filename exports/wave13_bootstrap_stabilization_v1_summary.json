@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-07-08 03:18:40",
+  "wave": "Wave 13",
+  "pack": "Bootstrap - Stabilization and Launch Integration",
+  "status": "completed",
+  "product_status": "wave13_bootstrap_certified",
+  "bootstrap_status": "wave13_stabilization_bootstrap_certified",
+  "release_version": "1.0.0-rc1",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "prerequisites_pass": 6,
+  "prerequisites_fail": 0,
+  "workstreams": 4,
+  "scope_boundaries": 4,
+  "planned_packs": 4,
+  "qa": {
+    "pass": 7,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_bootstrap_session_registry_v1.csv",
+    "prerequisite_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_prerequisite_registry_v1.csv",
+    "workstream_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_workstream_registry_v1.csv",
+    "boundary_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_scope_boundary_registry_v1.csv",
+    "pack_plan_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_pack_plan_registry_v1.csv",
+    "certification_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_bootstrap_certification_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\15_stabilization\\bootstrap\\wave13_bootstrap_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave13_stabilization_bootstrap_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave13_bootstrap_stabilization_report_v1.md"
+  },
+  "next_script": "build_wave13_pack1_reliability_stabilization_v1.py"
+}

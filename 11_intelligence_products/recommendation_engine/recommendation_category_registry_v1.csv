@@ -1,0 +1,10 @@
+category_record_id,recommendation_id,recommendation_category,created_at
+RECCAT-000001,REC-000001,bid_strategy,2026-07-01 14:16:58
+RECCAT-000002,REC-000002,pricing_strategy,2026-07-01 14:16:58
+RECCAT-000003,REC-000003,compliance,2026-07-01 14:16:58
+RECCAT-000004,REC-000004,delivery,2026-07-01 14:16:58
+RECCAT-000005,REC-000005,evaluation_strategy,2026-07-01 14:16:58
+RECCAT-000006,REC-000006,technical_strategy,2026-07-01 14:16:58
+RECCAT-000007,REC-000007,similarity_reuse,2026-07-01 14:16:58
+RECCAT-000008,REC-000008,buyer_strategy,2026-07-01 14:16:58
+RECCAT-000009,REC-000009,risk_mitigation,2026-07-01 14:16:58

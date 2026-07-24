@@ -1,0 +1,8 @@
+qa_metric_id,metric_name,metric_value,status,created_at
+W8B-P1-QA-000001,source_expression_records,214,info,2026-06-28 02:37:22
+W8B-P1-QA-000002,consolidated_expressions,84,pass,2026-06-28 02:37:22
+W8B-P1-QA-000003,normalized_expressions,84,pass,2026-06-28 02:37:22
+W8B-P1-QA-000004,canonical_expressions,74,pass,2026-06-28 02:37:22
+W8B-P1-QA-000005,expression_families_v2,13,pass,2026-06-28 02:37:22
+W8B-P1-QA-000006,fragment_reduction_count,130,pass,2026-06-28 02:37:22
+W8B-P1-QA-000007,canonical_reduction_count,10,pass,2026-06-28 02:37:22

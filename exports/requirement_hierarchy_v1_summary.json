@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-06-23 19:03:07",
+  "atoms_processed": 196,
+  "requirement_groups_created": 72,
+  "atom_group_relationships_created": 167,
+  "group_type_counts": {
+    "submission_package": 18,
+    "evaluation_framework": 46,
+    "ungrouped": 29,
+    "compliance_package": 22,
+    "staffing_package": 16,
+    "pricing_package": 15,
+    "registration_package": 16,
+    "technical_information_package": 21,
+    "authorization_package": 5,
+    "experience_package": 3,
+    "socioeconomic_package": 5
+  },
+  "inherited_mandatory_counts": {
+    "yes": 157,
+    "unknown": 17,
+    "context_dependent": 17,
+    "optional_or_conditional": 5
+  },
+  "weight_hint_counts": {
+    "submission": 18,
+    "evaluation": 46,
+    "unknown": 29,
+    "compliance": 22,
+    "capability": 16,
+    "pricing": 15,
+    "eligibility": 26,
+    "technical": 21,
+    "win_factor": 3
+  },
+  "outputs": {
+    "requirement_groups": "C:\\ProcurementIntelligence\\09_knowledge_graph\\requirement_groups_v1.csv",
+    "atom_group_relationships": "C:\\ProcurementIntelligence\\09_knowledge_graph\\atom_group_relationships_v1.csv",
+    "enriched_atoms": "C:\\ProcurementIntelligence\\09_knowledge_graph\\requirement_atoms_enriched_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\requirement_hierarchy_report_v1.md"
+  },
+  "next_sprint": "SAM-0007O Context Inheritance Quality Review"
+}

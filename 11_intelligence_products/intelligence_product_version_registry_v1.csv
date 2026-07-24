@@ -1,0 +1,11 @@
+version_record_id,product_id,product_name,version,release_state,created_at
+IPVER-000001,IP-000001,Semantic Graph Search,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000002,IP-000002,Procurement Question Answering,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000003,IP-000003,Opportunity Intelligence,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000004,IP-000004,Supplier Intelligence,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000005,IP-000005,Department Intelligence,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000006,IP-000006,Similar Opportunity Engine,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000007,IP-000007,Recommendation Engine,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000008,IP-000008,Graph Analytics,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000009,IP-000009,AI Procurement Analyst,0.1.0,bootstrap,2026-06-29 17:04:15
+IPVER-000010,IP-000010,Production API,0.1.0,bootstrap,2026-06-29 17:04:15

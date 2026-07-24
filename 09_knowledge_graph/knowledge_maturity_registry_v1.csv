@@ -1,0 +1,17 @@
+knowledge_unit_id,knowledge_unit_type,family_name,subfamily_name,maturity_level,maturity_label,expression_count,source_count,created_at
+CESF-000001,candidate_subfamily,Domain Specific Operations,Cemetery Operations and Dignity,L1,Candidate discovered,13,13,2026-06-26 16:59:32
+CESF-000002,candidate_subfamily,Document Fragment,Form Fragment or OCR Table Row,L1,Candidate discovered,12,18,2026-06-26 16:59:32
+CESF-000003,candidate_subfamily,Mandatory Requirement,Contractor Shall Requirement,L1,Candidate discovered,11,11,2026-06-26 16:59:32
+CESF-000004,candidate_subfamily,Submission Communication,Email and Correspondence Instruction,L1,Candidate discovered,9,10,2026-06-26 16:59:32
+CESF-000005,candidate_subfamily,Contractor Responsibility,Contractor Accountability and Supervision,L1,Candidate discovered,9,10,2026-06-26 16:59:32
+CESF-000006,candidate_subfamily,Solicitation Metadata,Solicitation Identification and Method,L1,Candidate discovered,7,16,2026-06-26 16:59:32
+CESF-000007,candidate_subfamily,Proposal Clarification,Proposal Volume Clarification,L1,Candidate discovered,6,8,2026-06-26 16:59:32
+CESF-000008,candidate_subfamily,Payment and Invoice,Invoice Submission and Payment,L1,Candidate discovered,6,9,2026-06-26 16:59:32
+CESF-000009,candidate_subfamily,Delivery Location,Destination and Delivery Site,L1,Candidate discovered,5,8,2026-06-26 16:59:32
+CESF-000010,candidate_subfamily,Amendment Handling,Offer Amendment Change Procedure,L1,Candidate discovered,4,14,2026-06-26 16:59:32
+CESF-000011,candidate_subfamily,Past Performance Evidence,Contract Reference Evidence,L1,Candidate discovered,4,5,2026-06-26 16:59:32
+CESF-000012,candidate_subfamily,Healthcare and Privacy,Healthcare Privacy and PHI,L1,Candidate discovered,4,4,2026-06-26 16:59:32
+CESF-000013,candidate_subfamily,Market Research Notice,Non-Solicitation Notice Disclaimer,L1,Candidate discovered,3,3,2026-06-26 16:59:32
+CESF-000014,candidate_subfamily,Supplier Authorization,Manufacturer Authorization and Grey Market,L1,Candidate discovered,3,3,2026-06-26 16:59:32
+CESF-000015,candidate_subfamily,Product Availability,Vendor Product Capability,L1,Candidate discovered,2,2,2026-06-26 16:59:32
+L0-RESIDUAL-UNKNOWN,residual_bucket,Residual Unknown,No Recursive Match,L0,Unknown,152,188,2026-06-26 16:59:32

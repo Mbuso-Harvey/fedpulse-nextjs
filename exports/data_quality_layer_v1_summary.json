@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-17 02:48:14",
+  "clean_contract_rows": 389303,
+  "duplicates_removed": 115899,
+  "departments_mapped": 792,
+  "suppliers_mapped": 68323,
+  "extreme_value_records_flagged": 0,
+  "zero_or_missing_value_records": 27897
+}

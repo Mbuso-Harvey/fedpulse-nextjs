@@ -1,0 +1,2 @@
+supplier_score_id,supplier_id,supplier_name,opportunity_id,technical_score,commercial_score,compliance_score,supplier_score,evaluation_score,delivery_score,overall_fit_score,fit_band,created_at
+SUPSCORE-000001,SUP-000001,Demonstration Supplier,OPPINT-000001,79,91,67,79,79,67,78.4,good,2026-06-30 20:13:57

@@ -1,0 +1,7 @@
+session_id,agent_id,agent_name,session_type,graph_version,platform_version,status,created_at
+AGSESS-000001,AGENT-000001,Capture Manager Agent,bootstrap_readiness,KG-1.0,1.0.0,initialized,2026-07-02 21:58:24
+AGSESS-000002,AGENT-000002,Supplier Strategy Agent,bootstrap_readiness,KG-1.0,1.0.0,initialized,2026-07-02 21:58:24
+AGSESS-000003,AGENT-000003,Compliance Agent,bootstrap_readiness,KG-1.0,1.0.0,initialized,2026-07-02 21:58:24
+AGSESS-000004,AGENT-000004,Pricing Strategy Agent,bootstrap_readiness,KG-1.0,1.0.0,initialized,2026-07-02 21:58:24
+AGSESS-000005,AGENT-000005,Proposal Strategy Agent,bootstrap_readiness,KG-1.0,1.0.0,initialized,2026-07-02 21:58:24
+AGSESS-000006,AGENT-000006,Executive Decision Agent,bootstrap_readiness,KG-1.0,1.0.0,initialized,2026-07-02 21:58:24

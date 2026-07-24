@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-06-17 12:02:11",
+  "rows_checked": 321956,
+  "accepted": 275291,
+  "zero_or_missing_value": 46564,
+  "negative_value": 0,
+  "large_over_1b_valid_but_review": 101,
+  "large_over_10b_review": 0,
+  "extreme_over_50b_review": 0,
+  "extreme_over_100b_review": 0,
+  "encoding_issues": 32,
+  "gold_records": 275283,
+  "silver_records": 109,
+  "review_records": 46540,
+  "reject_records": 24,
+  "scored_contracts_file": "C:\\ProcurementIntelligence\\data\\quality\\quality_scored_contracts_v1.csv",
+  "value_issues_file": "C:\\ProcurementIntelligence\\exports\\value_quality_issues_v2.csv",
+  "encoding_issues_file": "C:\\ProcurementIntelligence\\exports\\encoding_quality_issues_v2.csv",
+  "quality_tier_rules": {
+    "gold": "quality_score >= 95",
+    "silver": "quality_score >= 80",
+    "review": "quality_score >= 40",
+    "reject": "quality_score < 40"
+  }
+}

@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+W13BOOTQA-000001,session_rows,1,1,pass,2026-07-08 03:18:40
+W13BOOTQA-000002,prerequisite_rows,6,6,pass,2026-07-08 03:18:40
+W13BOOTQA-000003,prerequisites_fail,0,0,pass,2026-07-08 03:18:40
+W13BOOTQA-000004,workstream_rows,4,4,pass,2026-07-08 03:18:40
+W13BOOTQA-000005,boundary_rows,4,4,pass,2026-07-08 03:18:40
+W13BOOTQA-000006,pack_plan_rows,4,4,pass,2026-07-08 03:18:40
+W13BOOTQA-000007,bootstrap_status,wave13_stabilization_bootstrap_certified,wave13_stabilization_bootstrap_certified,pass,2026-07-08 03:18:40

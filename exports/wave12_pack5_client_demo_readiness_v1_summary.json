@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-07-07 11:41:45",
+  "wave": "Wave 12",
+  "pack": "Pack 5 - Client Demo Readiness",
+  "status": "completed",
+  "product_status": "client_demo_readiness_certified",
+  "demo_gate": "client_demo_ready",
+  "release_version": "1.0.0-rc1",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "journey_steps": 6,
+  "demo_services_available": 7,
+  "demo_services_missing": 0,
+  "proof_points": 5,
+  "executive_stories": 1,
+  "checklist_pass": 6,
+  "checklist_fail": 0,
+  "qa": {
+    "pass": 8,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_session_registry_v1.csv",
+    "journey_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_journey_registry_v1.csv",
+    "service_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_service_registry_v1.csv",
+    "proof_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_proof_point_registry_v1.csv",
+    "story_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_executive_story_registry_v1.csv",
+    "checklist_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_checklist_registry_v1.csv",
+    "gate_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_gate_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\14_launch_hardening\\client_demo_readiness\\client_demo_readiness_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave12_client_demo_readiness_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave12_pack5_client_demo_readiness_report_v1.md"
+  },
+  "next_script": "build_wave12_pack6_launch_hardening_closeout_v1.py"
+}

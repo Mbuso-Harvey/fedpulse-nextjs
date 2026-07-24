@@ -1,0 +1,119 @@
+================================================================================
+SUPPLIER MASTER MATCH DIAGNOSIS
+================================================================================
+
+Created: 2026-06-17 18:57:30
+Rows audited: 275,283
+
+MATCH STATUS COUNTS
+-------------------
+review_multiple_stripped_name_matches_best_count: 89,785
+medium_unique_stripped_name: 84,041
+high_exact_master_name: 78,063
+medium_unique_normalized_name: 23,046
+low_synthetic_name_only: 348
+
+Suppliers requiring review: 3,858
+
+TOP REVIEW SUPPLIERS
+--------------------
+SUP62FF5F2CAEFD | Contracts=4,563 | Statuses=high_exact_master_name,review_multiple_stripped_name_matches_best_count
+SUP0F5BE6916604 | Contracts=2,002 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP993D5C88D0E4 | Contracts=1,499 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPFADF0B0D5D46 | Contracts=1,227 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP75D143E145A7 | Contracts=1,122 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP7B9EED35D8F1 | Contracts=994 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP837A8A84DD0F | Contracts=964 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPDBF9B067E3FF | Contracts=886 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP7EB15268CEF2 | Contracts=585 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP0BC7DBDE11AF | Contracts=584 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP45A014006638 | Contracts=497 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP4166C906C9A8 | Contracts=494 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP943B4FC0CDEC | Contracts=485 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP40568ACA6E7F | Contracts=477 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPAD18FE29DD45 | Contracts=453 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP9746C6EA61DB | Contracts=436 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP0F8726DFA192 | Contracts=414 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP2F92DBCE4C28 | Contracts=412 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP1B1C09AAB31C | Contracts=387 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP71325FB552FC | Contracts=371 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP6A6962E97A55 | Contracts=359 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPAE24F6BF2F98 | Contracts=336 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPB4E3E6EEEFFE | Contracts=334 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP438ED5A78FA1 | Contracts=327 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPCEF064D8D5AD | Contracts=322 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPE512CB18FFBB | Contracts=320 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPC96FA7D3C758 | Contracts=319 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP503FA949D2AC | Contracts=299 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPFCC7945E9225 | Contracts=297 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP9C6140AACC9C | Contracts=292 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP34C5F8163767 | Contracts=289 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP5285A7357039 | Contracts=288 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPF6DC17CD0F31 | Contracts=287 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP810A16592B9B | Contracts=285 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPE98D01376127 | Contracts=279 | Statuses=medium_unique_stripped_name,review_multiple_stripped_name_matches_best_count
+SUPB0ED307D015A | Contracts=279 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPA5A029E0C827 | Contracts=278 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP102E328E7B59 | Contracts=276 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP80BE468696A2 | Contracts=270 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP7C2EE4F47761 | Contracts=263 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP6272EE07D936 | Contracts=260 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP723A9699E6A7 | Contracts=258 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPA40E4036F558 | Contracts=245 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP1FD8380CEE37 | Contracts=241 | Statuses=medium_unique_stripped_name,review_multiple_stripped_name_matches_best_count
+SUPC5C9D0A89B27 | Contracts=239 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPEEEBDF1F39D6 | Contracts=239 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP77356BB34E70 | Contracts=237 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP5C749422894D | Contracts=236 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPF0BE855C3066 | Contracts=232 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP8C19D67FB884 | Contracts=231 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP89988B142F04 | Contracts=227 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP7CB284642684 | Contracts=223 | Statuses=high_exact_master_name,review_multiple_stripped_name_matches_best_count
+SUPCD4556F0DC1B | Contracts=222 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP3731E756111A | Contracts=217 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP8935891B7342 | Contracts=216 | Statuses=high_exact_master_name,review_multiple_stripped_name_matches_best_count
+SUP08E93FC4DF24 | Contracts=210 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPADAD8E55F7E7 | Contracts=209 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP129811F51238 | Contracts=209 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP6DBFE968A476 | Contracts=208 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP3C6C7A122699 | Contracts=207 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP25B5B83710EA | Contracts=204 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP595B037031E5 | Contracts=199 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP65C8296C8335 | Contracts=198 | Statuses=medium_unique_normalized_name,review_multiple_stripped_name_matches_best_count
+SUPEEB228839154 | Contracts=197 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP76C27AAA8F5E | Contracts=196 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP992C99FD3516 | Contracts=194 | Statuses=high_exact_master_name,review_multiple_stripped_name_matches_best_count
+SUP0FC4D6B86DDD | Contracts=192 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPF0F8F480A282 | Contracts=183 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP29CBD9748B1B | Contracts=181 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP9F2619AA1E0A | Contracts=181 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPF6F0826BEB86 | Contracts=180 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP5EF8E1D90071 | Contracts=177 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPF0046478980D | Contracts=176 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPB71C8F0DB31C | Contracts=175 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP45CDA3262F45 | Contracts=175 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPE2016D3BAED8 | Contracts=174 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP7F545339570E | Contracts=173 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP5D4152DB60ED | Contracts=173 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPA3C1F4655ACD | Contracts=170 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPFD50E4F58D16 | Contracts=170 | Statuses=high_exact_master_name,review_multiple_stripped_name_matches_best_count
+SUP0A4A800506EC | Contracts=169 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP9C05C3628FC8 | Contracts=167 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP3E6CA0660144 | Contracts=167 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPE25EA110C081 | Contracts=167 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP4E27D61CEB56 | Contracts=166 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPB8BC31BFA744 | Contracts=166 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP1BDB9E3D174D | Contracts=165 | Statuses=medium_unique_stripped_name,review_multiple_stripped_name_matches_best_count
+SUPC164CC3E5A56 | Contracts=165 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPB21104251A33 | Contracts=165 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP42A027ECBBB9 | Contracts=165 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPB0F137BB4125 | Contracts=163 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP71B4C2A5DA96 | Contracts=163 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPEBA172451874 | Contracts=163 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPE82E8F5C47D4 | Contracts=162 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP9F80EAAF2D05 | Contracts=162 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP73C3B37035F4 | Contracts=162 | Statuses=review_multiple_stripped_name_matches_best_count
+SUP590CB58F3C81 | Contracts=162 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPADAE5746C251 | Contracts=160 | Statuses=review_multiple_stripped_name_matches_best_count
+SUPD5F412713135 | Contracts=160 | Statuses=medium_unique_stripped_name,review_multiple_stripped_name_matches_best_count
+SUP270B5BB09937 | Contracts=160 | Statuses=review_multiple_stripped_name_matches_best_count

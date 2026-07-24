@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-07-02 11:39:40",
+  "wave": "Wave 10",
+  "pack": "Pack 9 - AI Procurement Analyst",
+  "status": "completed",
+  "product_status": "ai_procurement_analyst_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "overall_assessment_score": 61.29,
+  "recommended_pursuit": "conditional_pursuit",
+  "risk_rows": 5,
+  "action_rows": 8,
+  "qa": {
+    "pass": 6,
+    "review": 0,
+    "fail": 0
+  },
+  "inputs": {
+    "opportunity_scores": 1,
+    "supplier_scores": 1,
+    "supplier_readiness": 1,
+    "department_scores": 1,
+    "similarity_matches": 4,
+    "recommendations": 9,
+    "graph_summary": 1
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst\\analyst_session_registry_v1.csv",
+    "analysis_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst\\analyst_assessment_registry_v1.csv",
+    "executive_summary": "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst\\executive_summary_registry_v1.csv",
+    "risk_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst\\analyst_risk_registry_v1.csv",
+    "action_plan": "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst\\analyst_action_plan_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\ai_procurement_analyst\\analyst_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_ai_procurement_analyst_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack9_ai_procurement_analyst_report_v1.md"
+  },
+  "next_script": "build_wave10_pack10_production_api_v1.py"
+}

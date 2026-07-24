@@ -1,0 +1,7 @@
+transition_id,transition_order,transition_name,description,priority,status,created_at
+TRANSITION-000001,1,Activate Version 1.0 feature freeze,"Lock the certified intelligence engine, agents, API contracts, knowledge graph, and demo baseline.",critical,approved,2026-07-12 19:56:00
+TRANSITION-000002,2,Begin UI/UX implementation,Build the launch interface using the certified Wave 13 UI/API integration contracts.,critical,approved,2026-07-12 19:56:00
+TRANSITION-000003,3,Prepare first-client onboarding,"Create the operating workflow required to configure, demonstrate, and onboard the first client.",critical,approved,2026-07-12 19:56:00
+TRANSITION-000004,4,Begin client acquisition,"Use the certified demo environment and proof points for outreach, demonstrations, and pilot discussions.",critical,approved,2026-07-12 19:56:00
+TRANSITION-000005,5,Capture customer evidence,"Document customer problems, workflow gaps, onboarding blockers, usage patterns, and commercial demand.",high,approved,2026-07-12 19:56:00
+TRANSITION-000006,6,Control future development,Only approve post-launch development supported by real customer evidence or critical operational need.,critical,approved,2026-07-12 19:56:00

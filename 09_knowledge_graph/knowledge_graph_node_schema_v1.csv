@@ -1,0 +1,10 @@
+field_name,field_type,description,created_at
+node_id,string,Stable graph node identifier,2026-06-29 03:08:43
+semantic_object_id,string,Source semantic object ID,2026-06-29 03:08:43
+node_type,string,Semantic object type,2026-06-29 03:08:43
+canonical_name,string,Canonical node label,2026-06-29 03:08:43
+domain_name,string,Procurement domain,2026-06-29 03:08:43
+confidence,float,Semantic confidence score,2026-06-29 03:08:43
+graph_status,string,graph_ready or graph_candidate,2026-06-29 03:08:43
+source_registry,string,Source registry file,2026-06-29 03:08:43
+created_at,datetime,Creation timestamp,2026-06-29 03:08:43

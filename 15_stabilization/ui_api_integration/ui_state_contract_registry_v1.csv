@@ -1,0 +1,5 @@
+state_id,state_name,state_description,required,created_at
+UISTATE-000001,loading,Shown while the UI waits for an API response.,true,2026-07-08 17:38:01
+UISTATE-000002,empty,Shown when no results or records are returned.,true,2026-07-08 17:38:01
+UISTATE-000003,error,Shown when API request fails or returns unavailable data.,true,2026-07-08 17:38:01
+UISTATE-000004,success,Shown when data loads successfully.,true,2026-07-08 17:38:01

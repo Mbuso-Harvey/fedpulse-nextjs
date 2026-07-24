@@ -1,0 +1,11 @@
+qa_id,metric,value,target,status,created_at
+POSTLAUNCHQA-000001,session_rows,1,1,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000002,upstream_checks_fail,0,0,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000003,transition_rows,6,6,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000004,operating_mode_rows,5,5,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000005,onboarding_rows,7,7,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000006,revenue_rows,6,6,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000007,frozen_components,5,5,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000008,launch_execution_components,2,2,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000009,closeout_rows,1,1,pass,2026-07-12 19:56:00
+POSTLAUNCHQA-000010,transition_gate,post_launch_transition_approved,post_launch_transition_approved,pass,2026-07-12 19:56:00

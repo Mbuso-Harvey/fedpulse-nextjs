@@ -1,0 +1,2 @@
+gate_id,gate_decision,endpoint_contracts_pass,endpoint_contracts_fail,manifest_checks,manifest_failures,critical_mismatches,created_at
+APICONTRACTGATE-000001,api_contracts_validated,10,0,7,0,0,2026-07-05 17:27:42

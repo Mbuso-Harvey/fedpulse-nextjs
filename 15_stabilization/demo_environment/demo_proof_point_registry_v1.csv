@@ -1,0 +1,5 @@
+proof_id,proof_title,proof_description,proof_source,status,created_at
+DEMOPROOF-000001,Certified Launch Hardening,Wave 12 launch hardening closed with 6 certified packs and zero failed closeout controls.,Wave 12 Closeout,ready,2026-07-08 21:03:30
+DEMOPROOF-000002,Certified Reliability,"Wave 13 Pack 1 verified 10 required artifacts, 10 reliability checks, and zero critical failures.",Wave 13 Reliability Stabilization,ready,2026-07-08 21:03:30
+DEMOPROOF-000003,Certified UI/API Contracts,"Wave 13 Pack 2 locked 7 UI views, 7 ready API contracts, 21 fields, 4 UI states, and 7 navigation items.",Wave 13 UI/API Integration Contracts,ready,2026-07-08 21:03:30
+DEMOPROOF-000004,Risk-Aware Executive Decision,The executive decision layer recommended partner_or_restructure rather than blindly recommending go.,Executive Decision Agent,ready,2026-07-08 21:03:30

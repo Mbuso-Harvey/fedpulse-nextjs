@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+DEPQA-000001,package_components,5,5,pass,2026-07-06 23:51:33
+DEPQA-000002,package_missing,0,0,pass,2026-07-06 23:51:33
+DEPQA-000003,deployment_checklist,6,6,pass,2026-07-06 23:51:33
+DEPQA-000004,deployment_checklist_fail,0,0,pass,2026-07-06 23:51:33
+DEPQA-000005,rollback_steps,4,4,pass,2026-07-06 23:51:33
+DEPQA-000006,release_gate,deployment_package_ready,deployment_package_ready,pass,2026-07-06 23:51:33

@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+DEMOQA-000001,session_rows,1,1,pass,2026-07-07 11:41:45
+DEMOQA-000002,journey_steps,6,6,pass,2026-07-07 11:41:45
+DEMOQA-000003,demo_service_rows,7,7,pass,2026-07-07 11:41:45
+DEMOQA-000004,missing_demo_services,0,0,pass,2026-07-07 11:41:45
+DEMOQA-000005,proof_points,5,5,pass,2026-07-07 11:41:45
+DEMOQA-000006,executive_story_rows,1,1,pass,2026-07-07 11:41:45
+DEMOQA-000007,checklist_fail,0,0,pass,2026-07-07 11:41:45
+DEMOQA-000008,demo_gate,client_demo_ready,client_demo_ready,pass,2026-07-07 11:41:45

@@ -1,0 +1,75 @@
+family_member_id,expression_family_v2_id,family_name,domain_name,canonical_expression_id,canonical_expression,matched_pattern,assignment_confidence,total_frequency,created_at
+EXFM2-000001,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000002,Solicitation Amendment,solicitation amendment,0.9,58,2026-06-28 02:37:22
+EXFM2-000002,EXF2-000002,Domain-Specific Operations,Domain-Specific Operations,CPX2-000001,National Cemetery Operations,national cemetery,0.9,46,2026-06-28 02:37:22
+EXFM2-000003,EXF2-000002,Domain-Specific Operations,Domain-Specific Operations,CPX2-000003,National Cemetery Administration,national cemetery,0.9,44,2026-06-28 02:37:22
+EXFM2-000004,EXF2-000003,Acquisition Metadata,Acquisition Strategy,CPX2-000010,Solicitation Number,solicitation number,0.9,30,2026-06-28 02:37:22
+EXFM2-000005,EXF2-000004,Contract Type,Commercial and Pricing,CPX2-000004,Firm Fixed Price,firm fixed price,0.9,25,2026-06-28 02:37:22
+EXFM2-000006,EXF2-000005,Pricing and Payment,Commercial and Pricing,CPX2-000006,Unit Price,unit price,0.9,24,2026-06-28 02:37:22
+EXFM2-000007,EXF2-000006,Procurement Roles,Acquisition Strategy,CPX2-000007,Contracting Officer,contracting officer,0.9,22,2026-06-28 02:37:22
+EXFM2-000008,EXF2-000007,Technical and Performance Requirements,Technical Requirements,CPX2-000009,Performance Work Statement,performance work statement,0.9,22,2026-06-28 02:37:22
+EXFM2-000009,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000005,Solicitation Amendment or Modification,solicitation amendment,0.9,18,2026-06-28 02:37:22
+EXFM2-000010,EXF2-000008,Evaluation and Award,Evaluation and Source Selection,CPX2-000008,Evaluation Factors,evaluation factors,0.9,16,2026-06-28 02:37:22
+EXFM2-000011,EXF2-000009,Document Structure,Document Structure and Administrative Forms,CPX2-000011,Table of Contents,table of contents,0.9,16,2026-06-28 02:37:22
+EXFM2-000012,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000012,Offerors Shall,offeror,0.9,14,2026-06-28 02:37:22
+EXFM2-000013,EXF2-000008,Evaluation and Award,Evaluation and Source Selection,CPX2-000013,Past Performance,past performance,0.9,14,2026-06-28 02:37:22
+EXFM2-000014,EXF2-000003,Acquisition Metadata,Acquisition Strategy,CPX2-000025,Request for Information,request for information,0.9,14,2026-06-28 02:37:22
+EXFM2-000015,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000014,Administered By If Other,,0.35,12,2026-06-28 02:37:22
+EXFM2-000016,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000015,Solicitation Amendment Acknowledgement,solicitation amendment,0.9,11,2026-06-28 02:37:22
+EXFM2-000017,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000016,Administrative Support And Clerical,,0.35,10,2026-06-28 02:37:22
+EXFM2-000018,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000017,Footnote Rate 01000 Administrative,,0.35,10,2026-06-28 02:37:22
+EXFM2-000019,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000018,Proposal Volume,proposal volume,0.9,10,2026-06-28 02:37:22
+EXFM2-000020,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000019,Rate 01000 Administrative Support,,0.35,10,2026-06-28 02:37:22
+EXFM2-000021,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000020,Solicitation Metadata,procurement_signal_detected,0.6,10,2026-06-28 02:37:22
+EXFM2-000022,EXF2-000003,Acquisition Metadata,Acquisition Strategy,CPX2-000041,Combined Synopsis Solicitation,combined synopsis solicitation,0.9,9,2026-06-28 02:37:22
+EXFM2-000023,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000021,Small Business Set-Aside,,0.35,9,2026-06-28 02:37:22
+EXFM2-000024,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000022,Amendments Of Solicitations,procurement_signal_detected,0.6,8,2026-06-28 02:37:22
+EXFM2-000025,EXF2-000005,Pricing and Payment,Commercial and Pricing,CPX2-000023,Payment,payment,0.9,8,2026-06-28 02:37:22
+EXFM2-000026,EXF2-000012,Delivery and Logistics,Delivery and Logistics,CPX2-000024,Place of Performance,place of performance,0.9,8,2026-06-28 02:37:22
+EXFM2-000027,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000026,To Amendments Of Solicitations,procurement_signal_detected,0.6,8,2026-06-28 02:37:22
+EXFM2-000028,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000027,1 Qty 1 Ton,,0.35,6,2026-06-28 02:37:22
+EXFM2-000029,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000028,Code Title Footnote Rate,,0.35,6,2026-06-28 02:37:22
+EXFM2-000030,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000029,Follow The Occupational Listing,,0.35,6,2026-06-28 02:37:22
+EXFM2-000031,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000030,Fringe Benefits Required Follow,,0.35,6,2026-06-28 02:37:22
+EXFM2-000032,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000031,Listing Occupation Code Title,,0.35,6,2026-06-28 02:37:22
+EXFM2-000033,EXF2-000003,Acquisition Metadata,Acquisition Strategy,CPX2-000032,Method of Solicitation,method of solicitation,0.9,6,2026-06-28 02:37:22
+EXFM2-000034,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000033,Occupation Code Title Footnote,,0.35,6,2026-06-28 02:37:22
+EXFM2-000035,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000034,Occupational Listing Occupation Code,,0.35,6,2026-06-28 02:37:22
+EXFM2-000036,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000035,Qty 1 Ton Each,,0.35,6,2026-06-28 02:37:22
+EXFM2-000037,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000036,Request for Proposal,request for proposal,0.9,6,2026-06-28 02:37:22
+EXFM2-000038,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000037,Required Follow The Occupational,,0.35,6,2026-06-28 02:37:22
+EXFM2-000039,EXF2-000007,Technical and Performance Requirements,Technical Requirements,CPX2-000038,Statement of Work,statement of work,0.9,6,2026-06-28 02:37:22
+EXFM2-000040,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000039,Synopsis Solicitation,procurement_signal_detected,0.6,6,2026-06-28 02:37:22
+EXFM2-000041,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000040,Title Footnote Rate 01000,,0.35,6,2026-06-28 02:37:22
+EXFM2-000042,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000042,Above Numbered Solicitation,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000043,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000043,Above Numbered Solicitation Is,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000044,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000044,Accordance With The Format,,0.35,4,2026-06-28 02:37:22
+EXFM2-000045,EXF2-000002,Domain-Specific Operations,Domain-Specific Operations,CPX2-000045,Affairs National Cemetery,national cemetery,0.9,4,2026-06-28 02:37:22
+EXFM2-000046,EXF2-000008,Evaluation and Award,Evaluation and Source Selection,CPX2-000046,Award A Contract,award,0.9,4,2026-06-28 02:37:22
+EXFM2-000047,EXF2-000002,Domain-Specific Operations,Domain-Specific Operations,CPX2-000047,Black Hills National Cemetery,national cemetery,0.9,4,2026-06-28 02:37:22
+EXFM2-000048,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000048,Corps Base Camp Lejeune,,0.35,4,2026-06-28 02:37:22
+EXFM2-000049,EXF2-000002,Domain-Specific Operations,Domain-Specific Operations,CPX2-000049,Hills National Cemetery,national cemetery,0.9,4,2026-06-28 02:37:22
+EXFM2-000050,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000050,In The Solicitation,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000051,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000051,Marine Corps Base Camp,,0.35,4,2026-06-28 02:37:22
+EXFM2-000052,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000052,Numbered Solicitation Is,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000053,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000053,Numbered Solicitation Is Amended,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000054,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000054,Only Applies To Amendments,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000055,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000055,Solicitation Is Amended,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000056,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000056,The Above Numbered Solicitation,procurement_signal_detected,0.6,4,2026-06-28 02:37:22
+EXFM2-000057,EXF2-000008,Evaluation and Award,Evaluation and Source Selection,CPX2-000057,To Award A,award,0.9,4,2026-06-28 02:37:22
+EXFM2-000058,EXF2-000002,Domain-Specific Operations,Domain-Specific Operations,CPX2-000058,Veterans Affairs National Cemetery,national cemetery,0.9,4,2026-06-28 02:37:22
+EXFM2-000059,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000059,Army Mil Proposal Default,procurement_signal_detected,0.6,3,2026-06-28 02:37:22
+EXFM2-000060,EXF2-000008,Evaluation and Award,Evaluation and Source Selection,CPX2-000060,Award A Firm Fixed,award,0.9,3,2026-06-28 02:37:22
+EXFM2-000061,EXF2-000008,Evaluation and Award,Evaluation and Source Selection,CPX2-000061,Award Will Be Made,award,0.9,3,2026-06-28 02:37:22
+EXFM2-000062,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000062,Chess Army Mil Proposal,procurement_signal_detected,0.6,3,2026-06-28 02:37:22
+EXFM2-000063,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000063,Cl Marine Corps Base,,0.35,3,2026-06-28 02:37:22
+EXFM2-000064,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000064,Copies Of The Amendment,procurement_signal_detected,0.6,3,2026-06-28 02:37:22
+EXFM2-000065,EXF2-000013,Compliance and Labor,"Legal, Compliance, and Labor",CPX2-000065,Far And Dosar Provisions,far,0.9,3,2026-06-28 02:37:22
+EXFM2-000066,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000066,Food And Drug Administration,,0.35,3,2026-06-28 02:37:22
+EXFM2-000067,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000067,Mil Proposal Default Index,procurement_signal_detected,0.6,3,2026-06-28 02:37:22
+EXFM2-000068,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000068,Page Of Pages Amendment,procurement_signal_detected,0.6,3,2026-06-28 02:37:22
+EXFM2-000069,EXF2-000010,Residual Expression,Residual Unknown,CPX2-000070,Renovation Cl Marine Corps,,0.35,3,2026-06-28 02:37:22
+EXFM2-000070,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000069,Request for Quotation,request for quotation,0.9,3,2026-06-28 02:37:22
+EXFM2-000071,EXF2-000011,General Procurement Expression,Acquisition Strategy,CPX2-000071,Solicitation To The Responsible,procurement_signal_detected,0.6,3,2026-06-28 02:37:22
+EXFM2-000072,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000072,The Responsible Offeror Whose,offeror,0.9,3,2026-06-28 02:37:22
+EXFM2-000073,EXF2-000001,Proposal and Submission,Submission and Proposal Management,CPX2-000073,To The Responsible Offeror,offeror,0.9,3,2026-06-28 02:37:22
+EXFM2-000074,EXF2-000005,Pricing and Payment,Commercial and Pricing,CPX2-000074,Payment and Invoice,payment,0.9,2,2026-06-28 02:37:22

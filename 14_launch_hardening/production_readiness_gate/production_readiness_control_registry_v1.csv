@@ -1,0 +1,8 @@
+control_id,control_title,control_key,description,observed_value,target_value,status,created_at
+PRODCTRL-000001,API Endpoint Availability,api_endpoints,Production API must expose all launch endpoints.,10,10,pass,2026-07-05 09:11:36
+PRODCTRL-000002,API Service Registration,api_services,Each production endpoint must have a service record.,10,10,pass,2026-07-05 09:11:36
+PRODCTRL-000003,Agent Registry Availability,agent_registry,All launch agents must be registered.,6,6,pass,2026-07-05 09:11:36
+PRODCTRL-000004,Executive Decision Availability,executive_decision,Executive decision output must exist.,1,1,pass,2026-07-05 09:11:36
+PRODCTRL-000005,Launch Bootstrap Certification,launch_bootstrap,Launch hardening bootstrap must be certified.,1,1,pass,2026-07-05 09:11:36
+PRODCTRL-000006,Production API Certification,api_summary,Production API must be certified.,1,1,pass,2026-07-05 09:11:36
+PRODCTRL-000007,Agent Bootstrap Certification,agent_bootstrap,Agent framework must be certified.,1,1,pass,2026-07-05 09:11:36

@@ -1,0 +1,2 @@
+manifest_id,product_name,release_version,release_candidate,platform_version,graph_version,release_type,certification_gate,production_validation_gate,feature_freeze_status,package_components,human_release_approval_required,feature_freeze_enforced,created_at
+V1MANIFEST-000001,Federal Procurement Intelligence Network,1.0.0,1.0.0-rc1,1.0.0,KG-1.0,version1_general_release,version1_certification_approved,final_production_validation_approved,wave14_version1_launch_freeze_bootstrap_certified,5,true,true,2026-07-12 01:11:04

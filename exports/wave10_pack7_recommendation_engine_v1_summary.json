@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-07-01 14:16:58",
+  "wave": "Wave 10",
+  "pack": "Pack 7 - Recommendation Engine",
+  "status": "completed",
+  "product_status": "recommendation_engine_certified",
+  "graph_version": "KG-1.0",
+  "product_version": "0.1.0",
+  "recommendations": 9,
+  "priority_rows": 9,
+  "explainability_rows": 9,
+  "evidence_rows": 9,
+  "top_recommendation": "Proceed with qualified bid pursuit",
+  "critical_count": 6,
+  "high_count": 2,
+  "medium_count": 1,
+  "low_count": 0,
+  "upstream_scores": {
+    "complexity_score": 98.0,
+    "bid_readiness_score": 90.0,
+    "supplier_fit_score": 78.4,
+    "supplier_readiness_score": 80.12,
+    "department_intelligence_score": 52.2,
+    "top_similarity_score": 72.5
+  },
+  "qa": {
+    "pass": 6,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_session_registry_v1.csv",
+    "recommendation_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_registry_v1.csv",
+    "category_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_category_registry_v1.csv",
+    "priority_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_priority_registry_v1.csv",
+    "summary_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_summary_registry_v1.csv",
+    "explainability_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_explainability_v1.csv",
+    "evidence_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_evidence_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\11_intelligence_products\\recommendation_engine\\recommendation_engine_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave10_recommendation_engine_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave10_pack7_recommendation_engine_report_v1.md"
+  },
+  "next_script": "build_wave10_pack8_graph_analytics_v1.py"
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-07-11 19:57:21",
+  "wave": "Wave 14",
+  "pack": "Pack 1 - Version 1.0 Certification Gate",
+  "status": "completed",
+  "product_status": "version1_certification_gate_certified",
+  "certification_gate": "version1_certification_approved",
+  "release_candidate": "1.0.0-rc1",
+  "target_release": "1.0.0",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "checks_pass": 8,
+  "checks_fail": 0,
+  "evidence_rows": 8,
+  "human_release_approval_required": true,
+  "feature_freeze_required": true,
+  "qa": {
+    "pass": 6,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\version1_certification_gate\\version1_certification_session_registry_v1.csv",
+    "check_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\version1_certification_gate\\version1_certification_check_registry_v1.csv",
+    "evidence_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\version1_certification_gate\\version1_certification_evidence_registry_v1.csv",
+    "gate_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\version1_certification_gate\\version1_certification_gate_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\version1_certification_gate\\version1_certification_gate_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave14_version1_certification_gate_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave14_pack1_version1_certification_gate_report_v1.md"
+  },
+  "next_script": "build_wave14_pack2_final_production_validation_v1.py"
+}

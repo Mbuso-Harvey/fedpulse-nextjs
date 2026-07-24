@@ -1,0 +1,13 @@
+domain_relationship_id,source_domain_id,target_domain_id,relationship_type,relationship_status,created_at
+PDR-000001,PDO-ACQ-001,PDO-EVAL-001,acquisition_strategy_shapes_evaluation,proposed,2026-06-27 11:09:14
+PDR-000002,PDO-ACQ-001,PDO-SUB-001,acquisition_strategy_shapes_submission,proposed,2026-06-27 11:09:14
+PDR-000003,PDO-SUB-001,PDO-EVAL-001,proposal_structure_supports_evaluation,proposed,2026-06-27 11:09:14
+PDR-000004,PDO-COM-001,PDO-EVAL-001,pricing_influences_evaluation,proposed,2026-06-27 11:09:14
+PDR-000005,PDO-SUP-001,PDO-EVAL-001,supplier_qualification_supports_evaluation,proposed,2026-06-27 11:09:14
+PDR-000006,PDO-PERF-001,PDO-SUP-001,performance_requirements_drive_supplier_fit,proposed,2026-06-27 11:09:14
+PDR-000007,PDO-TECH-001,PDO-SUP-001,technical_requirements_drive_supplier_fit,proposed,2026-06-27 11:09:14
+PDR-000008,PDO-LOG-001,PDO-COM-001,logistics_affects_pricing,proposed,2026-06-27 11:09:14
+PDR-000009,PDO-COMP-001,PDO-SUP-001,compliance_affects_supplier_eligibility,proposed,2026-06-27 11:09:14
+PDR-000010,PDO-DOC-001,PDO-ACQ-001,document_structure_exposes_acquisition_metadata,proposed,2026-06-27 11:09:14
+PDR-000011,PDO-DOMAIN-001,PDO-TECH-001,domain_specific_requirements_refine_technical_need,proposed,2026-06-27 11:09:14
+PDR-000012,PDO-PERF-001,PDO-COM-001,performance_scope_affects_price,proposed,2026-06-27 11:09:14

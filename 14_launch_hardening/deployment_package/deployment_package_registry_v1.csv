@@ -1,0 +1,6 @@
+package_component_id,release_version,component_name,component_type,evidence,status,created_at
+DEPCOMP-000001,1.0.0-rc1,Production API,api_layer,production_ready,included,2026-07-06 23:51:33
+DEPCOMP-000002,1.0.0-rc1,API Contracts,api_contracts,api_contracts_validated,included,2026-07-06 23:51:33
+DEPCOMP-000003,1.0.0-rc1,Audit Observability,observability,audit_observability_ready,included,2026-07-06 23:51:33
+DEPCOMP-000004,1.0.0-rc1,Agent Registry,agent_layer,6 agents,included,2026-07-06 23:51:33
+DEPCOMP-000005,1.0.0-rc1,API Manifest,manifest,available,included,2026-07-06 23:51:33

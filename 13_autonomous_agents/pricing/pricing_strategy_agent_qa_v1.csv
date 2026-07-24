@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+PRICEQA-000001,session_rows,1,1,pass,2026-07-04 11:11:53
+PRICEQA-000002,assessment_rows,1,1,pass,2026-07-04 11:11:53
+PRICEQA-000003,risk_rows,5,>= 1,pass,2026-07-04 11:11:53
+PRICEQA-000004,control_rows,5,>= 5,pass,2026-07-04 11:11:53
+PRICEQA-000005,action_rows,5,>= 5,pass,2026-07-04 11:11:53
+PRICEQA-000006,decision_rows,1,1,pass,2026-07-04 11:11:53
+PRICEQA-000007,pricing_confidence_score,71.83,> 0,pass,2026-07-04 11:11:53

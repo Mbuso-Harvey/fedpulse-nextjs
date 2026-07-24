@@ -1,0 +1,6 @@
+qa_id,metric,value,target,status,created_at
+LAUNCHQA-000001,readiness_rows,3,3,pass,2026-07-05 06:01:03
+LAUNCHQA-000002,ready_areas,3,3,pass,2026-07-05 06:01:03
+LAUNCHQA-000003,checklist_rows,6,>= 6,pass,2026-07-05 06:01:03
+LAUNCHQA-000004,dependency_rows,3,3,pass,2026-07-05 06:01:03
+LAUNCHQA-000005,certification_rows,1,1,pass,2026-07-05 06:01:03

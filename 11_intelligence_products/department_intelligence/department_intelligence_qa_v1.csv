@@ -1,0 +1,8 @@
+qa_id,metric,value,target,status,created_at
+DEPTQA-000001,profile_rows,1,1,pass,2026-07-01 01:07:49
+DEPTQA-000002,buying_profile_rows,1,1,pass,2026-07-01 01:07:49
+DEPTQA-000003,domain_profile_rows,10,10,pass,2026-07-01 01:07:49
+DEPTQA-000004,acquisition_pattern_rows,8,>= 1,pass,2026-07-01 01:07:49
+DEPTQA-000005,risk_rows,4,>= 1,pass,2026-07-01 01:07:49
+DEPTQA-000006,recommendation_rows,8,>= 5,pass,2026-07-01 01:07:49
+DEPTQA-000007,department_intelligence_score,52.2,> 0,pass,2026-07-01 01:07:49

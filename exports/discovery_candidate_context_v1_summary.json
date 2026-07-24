@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-06-22 12:58:04",
+  "candidates_requested": 100,
+  "candidates_found": 100,
+  "context_rows": 500,
+  "outputs": {
+    "context_csv": "C:\\ProcurementIntelligence\\09_knowledge_graph\\discovery_candidate_context_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\discovery_candidate_context_report_v1.md"
+  },
+  "next_sprint": "SAM-0007H Taxonomy Evidence Review"
+}

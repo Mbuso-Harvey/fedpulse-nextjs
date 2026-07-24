@@ -1,0 +1,11 @@
+product_id,product_name,product_folder,description,wave_pack,status,created_at
+IP-000001,Semantic Graph Search,C:\ProcurementIntelligence\11_intelligence_products\graph_search,Search procurement concepts using KG-1.0 context.,Wave10-Pack1,planned,2026-06-29 17:04:15
+IP-000002,Procurement Question Answering,C:\ProcurementIntelligence\11_intelligence_products\question_answering,Answer procurement questions using graph context.,Wave10-Pack2,planned,2026-06-29 17:04:15
+IP-000003,Opportunity Intelligence,C:\ProcurementIntelligence\11_intelligence_products\opportunity_intelligence,Summarize and score opportunities using graph context.,Wave10-Pack3,planned,2026-06-29 17:04:15
+IP-000004,Supplier Intelligence,C:\ProcurementIntelligence\11_intelligence_products\supplier_intelligence,Match suppliers to requirements and capabilities.,Wave10-Pack4,planned,2026-06-29 17:04:15
+IP-000005,Department Intelligence,C:\ProcurementIntelligence\11_intelligence_products\department_intelligence,Build agency/domain buying intelligence.,Wave10-Pack5,planned,2026-06-29 17:04:15
+IP-000006,Similar Opportunity Engine,C:\ProcurementIntelligence\11_intelligence_products\recommendation_engine,Find similar opportunities and reusable capture patterns.,Wave10-Pack6,planned,2026-06-29 17:04:15
+IP-000007,Recommendation Engine,C:\ProcurementIntelligence\11_intelligence_products\recommendation_engine,"Recommend suppliers, actions, risks, and related concepts.",Wave10-Pack7,planned,2026-06-29 17:04:15
+IP-000008,Graph Analytics,C:\ProcurementIntelligence\11_intelligence_products\analytics,"Analyze graph centrality, clusters, and procurement patterns.",Wave10-Pack8,planned,2026-06-29 17:04:15
+IP-000009,AI Procurement Analyst,C:\ProcurementIntelligence\11_intelligence_products\ai_procurement_analyst,AI analyst layer powered by graph context.,Wave10-Pack9,planned,2026-06-29 17:04:15
+IP-000010,Production API,C:\ProcurementIntelligence\11_intelligence_products\api,Expose intelligence products through API endpoints.,Wave10-Pack10,planned,2026-06-29 17:04:15

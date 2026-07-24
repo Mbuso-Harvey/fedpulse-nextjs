@@ -1,0 +1,7 @@
+version_id,agent_id,agent_name,agent_version,launch_status,graph_version,platform_version,created_at
+AGVER-000001,AGENT-000001,Capture Manager Agent,0.1.0,bootstrap,KG-1.0,1.0.0,2026-07-02 21:58:24
+AGVER-000002,AGENT-000002,Supplier Strategy Agent,0.1.0,bootstrap,KG-1.0,1.0.0,2026-07-02 21:58:24
+AGVER-000003,AGENT-000003,Compliance Agent,0.1.0,bootstrap,KG-1.0,1.0.0,2026-07-02 21:58:24
+AGVER-000004,AGENT-000004,Pricing Strategy Agent,0.1.0,bootstrap,KG-1.0,1.0.0,2026-07-02 21:58:24
+AGVER-000005,AGENT-000005,Proposal Strategy Agent,0.1.0,bootstrap,KG-1.0,1.0.0,2026-07-02 21:58:24
+AGVER-000006,AGENT-000006,Executive Decision Agent,0.1.0,bootstrap,KG-1.0,1.0.0,2026-07-02 21:58:24

@@ -1,0 +1,7 @@
+dependency_id,agent_id,agent_name,depends_on,required_wave,status,created_at
+AGDEP-000001,AGENT-000001,Capture Manager Agent,Opportunity Intelligence; Supplier Intelligence; Department Intelligence; Recommendation Engine; AI Procurement Analyst,Wave 10,available,2026-07-02 21:58:24
+AGDEP-000002,AGENT-000002,Supplier Strategy Agent,Supplier Intelligence; Opportunity Intelligence; Recommendation Engine,Wave 10,available,2026-07-02 21:58:24
+AGDEP-000003,AGENT-000003,Compliance Agent,Opportunity Intelligence; Graph Search; Question Answering; Recommendation Engine,Wave 10,available,2026-07-02 21:58:24
+AGDEP-000004,AGENT-000004,Pricing Strategy Agent,Opportunity Intelligence; Supplier Intelligence; Similar Opportunity Engine; Recommendation Engine,Wave 10,available,2026-07-02 21:58:24
+AGDEP-000005,AGENT-000005,Proposal Strategy Agent,Opportunity Intelligence; Department Intelligence; Recommendation Engine; AI Procurement Analyst,Wave 10,available,2026-07-02 21:58:24
+AGDEP-000006,AGENT-000006,Executive Decision Agent,All Wave 11 agent outputs; AI Procurement Analyst; Recommendation Engine,Wave 11,planned,2026-07-02 21:58:24

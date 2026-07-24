@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-17 17:30:14",
+  "raw_contract_rows_read": 505202,
+  "supplier_master_entities_created": 48625,
+  "supplier_alias_rows_created": 102987,
+  "confidence_counts": {
+    "high_name_postal_country": 48062,
+    "medium_name_country": 561,
+    "unknown": 1,
+    "low_name_only": 1
+  },
+  "supplier_master_file": "C:\\ProcurementIntelligence\\data\\quality\\supplier_master_entity_v1.csv",
+  "alias_bridge_file": "C:\\ProcurementIntelligence\\data\\quality\\supplier_alias_bridge_v1.csv",
+  "note": "Supplier IDs are generated internally using normalized supplier name + postal code + country where available."
+}

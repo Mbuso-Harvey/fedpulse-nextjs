@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-06-29 05:21:45",
+  "wave": "Wave 9",
+  "pack": "Pack 2 - Graph Edge Builder",
+  "status": "completed",
+  "nodes_input": 30,
+  "deduped_nodes_v2": 29,
+  "node_merge_clusters": 1,
+  "edges_created": 44,
+  "edge_index_records": 44,
+  "relationship_counts": {
+    "has_pricing_structure": 2,
+    "uses_evaluation_factor": 1,
+    "requires_submission_instruction": 1,
+    "requires_supplier_capability": 4,
+    "affects_price": 2,
+    "issues_or_receives": 1,
+    "shapes_source_selection": 6,
+    "specializes_requirement": 2,
+    "defines_submission_context": 6,
+    "affects_pricing": 2,
+    "administers_acquisition": 6,
+    "issues_or_receives_submission_instruction": 1,
+    "uses_acquisition_method": 6,
+    "has_domain_requirement": 1,
+    "may_define_place_of_performance": 1,
+    "may_result_in_contract_type": 1,
+    "specializes": 1
+  },
+  "evidence_basis_counts": {
+    "semantic_object_relationship_registry_v1": 19,
+    "domain_inference": 6,
+    "delivery_pricing_inference": 2,
+    "role_inference": 7,
+    "agency_inference": 6,
+    "agency_domain_inference": 1,
+    "facility_delivery_inference": 1,
+    "name_based_procurement_inference": 1,
+    "canonical_name_inference": 1
+  },
+  "outputs": {
+    "nodes_v2": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_nodes_v2.csv",
+    "node_merge_log": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_node_merge_log_v1.csv",
+    "edges": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_edges_v1.csv",
+    "edge_index": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_edge_index_v1.csv",
+    "qa": "C:\\ProcurementIntelligence\\09_knowledge_graph\\knowledge_graph_edge_builder_qa_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave9_pack2_graph_edge_builder_report_v1.md"
+  },
+  "next_script": "build_wave9_pack3_graph_integrity_validator_v1.py"
+}

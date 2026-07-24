@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-06-17 13:05:15",
+  "total_scored_rows": 321956,
+  "gold_records_approved": 275283,
+  "silver_records_sent_to_review": 109,
+  "review_records_sent_to_recovery": 46540,
+  "reject_records_audited": 24,
+  "gold_departments": 235,
+  "gold_suppliers": 36286,
+  "gold_categories": 4,
+  "gold_renewal_candidates": 4050,
+  "production_rule": "Only quality_tier = gold is used for production intelligence products.",
+  "review_rule": "Silver and review records are retained in review_recovery_queue for future enrichment and promotion."
+}

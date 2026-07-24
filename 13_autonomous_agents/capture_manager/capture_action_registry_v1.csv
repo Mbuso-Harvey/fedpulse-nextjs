@@ -1,0 +1,8 @@
+capture_action_id,priority,action_title,action_rationale,status,created_at
+CAPACT-000001,critical,Hold bid qualification review,"Review capture score, bid decision, risks, and go/no-go criteria with leadership.",open,2026-07-03 01:17:42
+CAPACT-000002,critical,Build compliance matrix,"Map technical, supplier, compliance, delivery, and submission requirements to evidence.",open,2026-07-03 01:17:42
+CAPACT-000003,critical,Validate pricing strategy,"Review firm fixed price exposure, unit pricing assumptions, delivery assumptions, and margin.",open,2026-07-03 01:17:42
+CAPACT-000004,high,Strengthen compliance evidence,Prepare FAR/DOSAR and other compliance supporting documentation.,open,2026-07-03 01:17:42
+CAPACT-000005,high,Build evaluation response map,Align proposal content to award basis and evaluation factors.,open,2026-07-03 01:17:42
+CAPACT-000006,medium,Review similar opportunity lessons,Use high-similarity opportunity patterns to improve capture strategy.,open,2026-07-03 01:17:42
+CAPACT-000007,medium,Tailor buyer messaging,Adapt executive summary and win themes to the buyer acquisition style.,open,2026-07-03 01:17:42

@@ -1,0 +1,7 @@
+freeze_checklist_id,checklist_item,description,requirement,status,created_at
+FREEZECHK-000001,No new intelligence products after Wave 14,Feature freeze rule documented and enforced.,required,ready,2026-07-09 22:19:05
+FREEZECHK-000002,No speculative agent expansion after Wave 14,Agent expansion deferred until after first-client onboarding feedback.,required,ready,2026-07-09 22:19:05
+FREEZECHK-000003,Client demo path certified,Demo environment and proof points are certified before launch freeze.,required,ready,2026-07-09 22:19:05
+FREEZECHK-000004,UI/API contracts locked,Frontend work must consume certified API contracts without changing intelligence logic.,required,ready,2026-07-09 22:19:05
+FREEZECHK-000005,Reliability gate certified,Critical artifacts and checks are stable before launch freeze.,required,ready,2026-07-09 22:19:05
+FREEZECHK-000006,Post-launch backlog separated,"New ideas are documented for after first clients, not built before launch.",required,ready,2026-07-09 22:19:05

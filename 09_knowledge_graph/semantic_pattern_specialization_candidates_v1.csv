@@ -1,0 +1,5 @@
+specialization_candidate_id,source_type,source_id,candidate_specialization,parent_registry_id,parent_registry_object,suggested_domain,registry_similarity,review_status,created_at
+SPSC-000001,filtered_pattern,SP-000062,past performance,OPR-000008,Past Performance Administration,Performance and Operations,0.774,pending_review,2026-06-27 18:48:00
+SPSC-000002,filtered_pattern,SP-000303,proposal volume,OPR-000019,Proposal Clarification / Proposal Volume Clarification,Submission and Proposal Management,0.774,pending_review,2026-06-27 18:48:00
+SPSC-000003,filtered_alias,SA-000062,past performance,OPR-000008,Past Performance Administration,Performance and Operations,0.774,pending_review,2026-06-27 18:48:00
+SPSC-000004,filtered_alias,SA-000303,proposal volume,OPR-000019,Proposal Clarification / Proposal Volume Clarification,Submission and Proposal Management,0.774,pending_review,2026-06-27 18:48:00

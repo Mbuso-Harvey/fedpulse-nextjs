@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+W12CLOSEQA-000001,session_rows,1,1,pass,2026-07-08 00:51:56
+W12CLOSEQA-000002,pack_rows,6,6,pass,2026-07-08 00:51:56
+W12CLOSEQA-000003,packs_fail,0,0,pass,2026-07-08 00:51:56
+W12CLOSEQA-000004,control_rows,6,6,pass,2026-07-08 00:51:56
+W12CLOSEQA-000005,controls_fail,0,0,pass,2026-07-08 00:51:56
+W12CLOSEQA-000006,milestone_rows,5,5,pass,2026-07-08 00:51:56
+W12CLOSEQA-000007,handoff_rows,4,4,pass,2026-07-08 00:51:56
+W12CLOSEQA-000008,closeout_status,wave12_launch_hardening_certified,wave12_launch_hardening_certified,pass,2026-07-08 00:51:56

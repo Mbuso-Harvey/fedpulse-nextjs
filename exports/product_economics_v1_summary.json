@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-19 07:25:57",
+  "products_scored": 27,
+  "highest_score": 64,
+  "outputs": {
+    "economics": "C:\\ProcurementIntelligence\\08_business_model\\product_economics_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\08_business_model\\product_economics_report_v1.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-06-17 17:57:56",
+  "gold_contracts_read": 275283,
+  "matched_to_supplier_master_using_raw_address_key": 79977,
+  "fallback_name_only_matches": 195306,
+  "supplier_mastered_gold_suppliers": 38210,
+  "supplier_mastered_gold_renewal_candidates": 4050,
+  "outputs": {
+    "gold_contracts_supplier_mastered_v1": "C:\\ProcurementIntelligence\\data\\gold\\gold_contracts_supplier_mastered_v1.csv",
+    "gold_supplier_mastered_intelligence_v1": "C:\\ProcurementIntelligence\\data\\gold\\gold_supplier_mastered_intelligence_v1.csv",
+    "gold_renewal_candidates_supplier_mastered_v1": "C:\\ProcurementIntelligence\\data\\gold\\gold_renewal_candidates_supplier_mastered_v1.csv"
+  }
+}

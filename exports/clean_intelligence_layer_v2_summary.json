@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-06-17 03:18:16",
+  "clean_contract_rows_v2": 321956,
+  "duplicates_removed": 183246,
+  "buyer_departments": 265,
+  "suppliers": 39809,
+  "categories": 4,
+  "renewal_candidates": 4054,
+  "accepted_value_rows": 275392,
+  "zero_or_missing_value_rows": 46564,
+  "extreme_value_rows": 0,
+  "buyer_department_logic": "Use endUserEntitiesName when available, otherwise fallback to contractingEntityName."
+}

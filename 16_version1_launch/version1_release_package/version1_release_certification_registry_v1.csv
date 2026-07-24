@@ -1,0 +1,2 @@
+release_certification_id,release_version,release_candidate,release_package_gate,package_components,package_included,package_blocked,certification_gate,production_validation_gate,human_release_approval_required,feature_freeze_enforced,created_at
+V1RELCERT-000001,1.0.0,1.0.0-rc1,version1_release_package_ready,5,5,0,version1_certification_approved,final_production_validation_approved,true,true,2026-07-12 01:11:04

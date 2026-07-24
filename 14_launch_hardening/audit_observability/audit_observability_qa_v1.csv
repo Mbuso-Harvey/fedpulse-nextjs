@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+AUDOBSQA-000001,session_rows,1,1,pass,2026-07-06 16:31:46
+AUDOBSQA-000002,audit_source_rows,12,12,pass,2026-07-06 16:31:46
+AUDOBSQA-000003,missing_audit_sources,0,0,pass,2026-07-06 16:31:46
+AUDOBSQA-000004,qa_coverage_rows,6,6,pass,2026-07-06 16:31:46
+AUDOBSQA-000005,covered_agents,6,6,pass,2026-07-06 16:31:46
+AUDOBSQA-000006,control_rows,7,7,pass,2026-07-06 16:31:46
+AUDOBSQA-000007,critical_gaps,0,0,pass,2026-07-06 16:31:46
+AUDOBSQA-000008,gate_decision,audit_observability_ready,audit_observability_ready,pass,2026-07-06 16:31:46

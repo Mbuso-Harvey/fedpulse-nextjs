@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+GANAQA-000001,node_analytics_rows,29,29,pass,2026-07-01 20:51:37
+GANAQA-000002,edge_analytics_rows,44,44,pass,2026-07-01 20:51:37
+GANAQA-000003,cluster_rows,8,>= 1,pass,2026-07-01 20:51:37
+GANAQA-000004,domain_rows,11,>= 1,pass,2026-07-01 20:51:37
+GANAQA-000005,summary_rows,1,1,pass,2026-07-01 20:51:37
+GANAQA-000006,analytics_health_score,67,> 0,pass,2026-07-01 20:51:37

@@ -1,0 +1,2 @@
+supplier_profile_id,supplier_id,supplier_name,profile_type,graph_version,product_version,linked_opportunities,status,created_at
+SUPPROF-000001,SUP-000001,Demonstration Supplier,graph_demonstration_supplier,KG-1.0,0.1.0,1,profile_created,2026-06-30 20:13:57

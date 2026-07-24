@@ -1,0 +1,2 @@
+release_certification_id,release_name,pkv_version,semantic_registry_version,release_status,semantic_objects_v3,graph_ready_objects,graph_candidate_objects,not_graph_ready_objects,interpretation_coverage_pct,scorecard_pass,scorecard_review,scorecard_fail,created_at
+SRCERT-000001,Wave 8B Semantic Intelligence Foundation,PKV-1.3,semantic_procurement_object_registry_v3,certified_for_wave9_graph_population,32,12,18,2,100.0,9,0,0,2026-06-29 00:54:06

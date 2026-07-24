@@ -1,0 +1,5 @@
+pack_plan_id,pack_name,script_name,objective,priority,status,created_at
+W13PACK-000001,Pack 1 - Reliability Stabilization,build_wave13_pack1_reliability_stabilization_v1.py,"Validate production-style reliability checks, artifact availability, and failure handling.",critical,planned,2026-07-08 03:18:40
+W13PACK-000002,Pack 2 - UI API Integration Contracts,build_wave13_pack2_ui_api_integration_contracts_v1.py,Create frontend-ready contracts for dashboard views and API consumption.,critical,planned,2026-07-08 03:18:40
+W13PACK-000003,Pack 3 - Demo Environment Assembly,build_wave13_pack3_demo_environment_assembly_v1.py,"Assemble certified demo flow, proof points, and demo data references.",high,planned,2026-07-08 03:18:40
+W13PACK-000004,Pack 4 - Launch Freeze Preparation,build_wave13_pack4_launch_freeze_preparation_v1.py,"Prepare Wave 14 freeze checklist, launch controls, and post-launch backlog separation.",high,planned,2026-07-08 03:18:40

@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-07-04 16:30:37",
+  "wave": "Wave 11",
+  "pack": "Pack 5 - Proposal Strategy Agent",
+  "status": "completed",
+  "product_status": "proposal_strategy_agent_certified",
+  "graph_version": "KG-1.0",
+  "agent_version": "1.0.0",
+  "proposal_decision": "proposal_ready_after_review",
+  "proposal_position": "proposal_requires_review",
+  "proposal_readiness_score": 67.81,
+  "bid_readiness_score": 90.0,
+  "complexity_score": 98.0,
+  "capture_score": 65.11,
+  "supplier_strategy_score": 43.44,
+  "pricing_confidence_score": 71.83,
+  "compliance_critical_gaps": 3.0,
+  "compliance_high_gaps": 2.0,
+  "outline_sections": 7,
+  "proposal_win_themes": 6,
+  "volume_plans": 4,
+  "proposal_actions": 7,
+  "human_review_required": true,
+  "qa": {
+    "pass": 8,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_strategy_session_registry_v1.csv",
+    "assessment_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_strategy_assessment_registry_v1.csv",
+    "outline_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_outline_registry_v1.csv",
+    "win_theme_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_win_theme_registry_v1.csv",
+    "volume_plan_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_volume_plan_registry_v1.csv",
+    "action_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_action_registry_v1.csv",
+    "decision_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_decision_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\proposal_strategy\\proposal_strategy_agent_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave11_proposal_strategy_agent_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave11_pack5_proposal_strategy_agent_report_v1.md"
+  },
+  "next_script": "build_wave11_pack6_executive_decision_agent_v1.py"
+}

@@ -1,0 +1,105 @@
+================================================================================
+C:\ProcurementIntelligence\data\raw\canadabuys_contract_history\all_canadabuys_contract_history_2023_06_01_onwards.csv
+================================================================================
+Rows: 20221
+
+contractingEntityName-nomEntitContractante-eng: 20221 non-empty
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+
+endUserEntitiesName-nomEntitesUtilisateurFinal-eng: 20125 non-empty
+  - Correctional Service of Canada
+  - Department of National Defence
+  - Department of National Defence
+  - Department of National Defence
+  - Transport Canada
+  - Department of National Defence
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada / Public Works and Government Services Canada
+  - Fisheries and Oceans Canada
+  - Fisheries and Oceans Canada
+
+endUserEntitiesOfficeName-bureauNomEntitesUtilisateurFinal-eng: 2272 non-empty
+  - CONTRACTING&MATERIEL SERVS
+  - NDHQ
+  - CANSOFCOM HQ
+  - D&R DEFENCE CANADA VALCARTIER
+  - MOTOR VEHICLE TEST CENTRE
+  - DEFENCE R&D CANADA OTTAWA
+  - GREEN SUSTAINABLE GOVERNMENT
+  - PROJECT MGNT RPS / PROJECT MGNT RPS
+  - VESSEL PROCUREMENT-CCG
+  - D/PROJ.MGR STIMULUS PACKAGE
+
+contactInfoName-informationsContactNom: 18456 non-empty
+  - Lee, Oana (SPAC/PSPC) (elle-la / she-her)
+  - Gostev Leonard, Tanya (SPAC/PSPC) (elle-la / she-her)
+  - Lee, David (SPAC/PSPC) (il-le-lui / he-him-his)
+  - Adatan, Lani (SPAC/PSPC) (elle-la / she-her)
+  - Yu, Daphne (SPAC/PSPC)
+  - Yu, Daphne (SPAC/PSPC)
+  - Constantineau-Gosselin, MÃ©lanie (SPAC/PSPC) (elle-la / she-her)
+  - Constantineau-Gosselin, MÃ©lanie (SPAC/PSPC) (elle-la / she-her)
+  - Constantineau-Gosselin, MÃ©lanie (SPAC/PSPC) (elle-la / she-her)
+  - Marshall, Hannah (SPAC/PSPC) (elle-la / she-her)
+
+================================================================================
+C:\ProcurementIntelligence\data\raw\canadabuys_contract_history\legacy_contract_history_2009_01_to_2023_05_prior_to_canadabuys.csv
+================================================================================
+Rows: 484981
+
+contractingEntityName-nomEntitContractante-eng: 484981 non-empty
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+
+endUserEntitiesName-nomEntitesUtilisateurFinal-eng: 484398 non-empty
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+  - Public Works and Government Services Canada
+
+endUserEntitiesOfficeName-bureauNomEntitesUtilisateurFinal-eng: 458175 non-empty
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+  - PROCUREMENT STRATEGIES DIV.
+
+contactInfoName-informationsContactNom: 17220 non-empty
+  - Lee, Hilda (SPAC/PSPC)
+  - Lee, Hilda (SPAC/PSPC)
+  - Watson, Slater (SPAC/PSPC) (il-le-lui / he-him-his)
+  - Wong, Ben (SPAC/PSPC) (il-lui / he-him)
+  - Warnell, Diane (SPAC/PSPC) (elle-la / she-her)
+  - Perrin, Melanie (SPAC/PSPC)
+  - Peters, Brent (SPAC/PSPC)
+  - Beaumaster, Adam (SPAC/PSPC) (il-lui / he-him)
+  - Barltrop, David (SPAC/PSPC)
+  - Macukic, Michael (SPAC/PSPC) (il-lui / he-him)

@@ -1,0 +1,37 @@
+maturity_record_id,semantic_object_id,canonical_name,semantic_object_type,maturity_level,maturity_label,governance_score,created_at
+SOMAT-000001,SPO2-000001,Solicitation Amendment,Submission Instruction,L4,Governed semantic object,0.896,2026-06-28 22:06:51
+SOMAT-000002,SPO2-000002,National Cemetery Operations,Domain Specific Requirement,L4,Governed semantic object,0.901,2026-06-28 22:06:51
+SOMAT-000003,SPO2-000003,Solicitation Number,Acquisition Metadata,L3,Registry-ready candidate,0.744,2026-06-28 22:06:51
+SOMAT-000004,SPO2-000004,Firm Fixed Price,Contract Type,L3,Registry-ready candidate,0.756,2026-06-28 22:06:51
+SOMAT-000005,SPO2-000005,Unit Price,Pricing Structure,L3,Registry-ready candidate,0.75,2026-06-28 22:06:51
+SOMAT-000006,SPO2-000006,Contracting Officer,Procurement Role,L3,Registry-ready candidate,0.755,2026-06-28 22:06:51
+SOMAT-000007,SPO2-000007,Performance Work Statement,Technical Requirement,L3,Registry-ready candidate,0.759,2026-06-28 22:06:51
+SOMAT-000008,SPO2-000008,Evaluation Factors,Evaluation Factor,L3,Registry-ready candidate,0.727,2026-06-28 22:06:51
+SOMAT-000009,SPO2-000009,Table of Contents,Document Structure Object,L3,Registry-ready candidate,0.711,2026-06-28 22:06:51
+SOMAT-000010,SPO2-000010,Past Performance,Supplier Qualification,L3,Registry-ready candidate,0.724,2026-06-28 22:06:51
+SOMAT-000011,SPO2-000011,Request for Information,Acquisition Metadata,L3,Registry-ready candidate,0.736,2026-06-28 22:06:51
+SOMAT-000012,SPO2-000012,Administrative Support and Clerical,Administrative Service Labor Category,L3,Registry-ready candidate,0.805,2026-06-28 22:06:51
+SOMAT-000013,SPO2-000013,Proposal Volume,Proposal Structure,L3,Registry-ready candidate,0.718,2026-06-28 22:06:51
+SOMAT-000014,SPO2-000014,Solicitation Metadata,Uninterpreted Expression,L1,Discovery object,0.0,2026-06-28 22:06:51
+SOMAT-000015,SPO2-000015,Combined Synopsis Solicitation,Acquisition Metadata,L3,Registry-ready candidate,0.764,2026-06-28 22:06:51
+SOMAT-000016,SPO2-000016,Small Business Set-Aside,Supplier Qualification,L3,Registry-ready candidate,0.712,2026-06-28 22:06:51
+SOMAT-000017,SPO2-000017,Amendments Of Solicitations,Uninterpreted Expression,L1,Discovery object,0.0,2026-06-28 22:06:51
+SOMAT-000018,SPO2-000018,Place of Performance,Delivery Requirement,L3,Registry-ready candidate,0.727,2026-06-28 22:06:51
+SOMAT-000019,SPO2-000019,Method of Solicitation,Acquisition Metadata,L3,Registry-ready candidate,0.717,2026-06-28 22:06:51
+SOMAT-000020,SPO2-000020,Request for Proposal,Acquisition Metadata,L3,Registry-ready candidate,0.728,2026-06-28 22:06:51
+SOMAT-000021,SPO2-000021,Statement of Work,Technical Requirement,L3,Registry-ready candidate,0.721,2026-06-28 22:06:51
+SOMAT-000022,SPO2-000022,Award Will Be Made,Award Phrase,L3,Registry-ready candidate,0.832,2026-06-28 22:06:51
+SOMAT-000023,SPO2-000023,Marine Corps Base Camp Lejeune,Military Installation,L4,Governed semantic object,0.877,2026-06-28 22:06:51
+SOMAT-000024,SPO2-000024,Marine Corps Base Camp Lejeune,Military Installation,L4,Governed semantic object,0.877,2026-06-28 22:06:51
+SOMAT-000025,SPO2-000025,United States Army,Military Organization,L3,Registry-ready candidate,0.832,2026-06-28 22:06:51
+SOMAT-000026,SPO2-000026,Award a Firm Fixed Price Contract,Contract Type Fragment,L3,Registry-ready candidate,0.841,2026-06-28 22:06:51
+SOMAT-000027,SPO2-000027,Award Will Be Made,Award Phrase,L3,Registry-ready candidate,0.832,2026-06-28 22:06:51
+SOMAT-000028,SPO2-000028,United States Army,Military Organization,L3,Registry-ready candidate,0.832,2026-06-28 22:06:51
+SOMAT-000029,SPO2-000029,United States Marine Corps,Military Organization,L4,Governed semantic object,0.85,2026-06-28 22:06:51
+SOMAT-000030,SPO2-000030,Amendment Copy Requirement,Procurement Document Artifact,L3,Registry-ready candidate,0.814,2026-06-28 22:06:51
+SOMAT-000031,SPO2-000031,FAR and DOSAR Provisions,Regulation Set,L4,Governed semantic object,0.85,2026-06-28 22:06:51
+SOMAT-000032,SPO2-000032,Food and Drug Administration,Federal Agency,L4,Governed semantic object,0.877,2026-06-28 22:06:51
+SOMAT-000033,SPO2-000033,Proposal Default Index,Proposal Document Artifact,L3,Registry-ready candidate,0.787,2026-06-28 22:06:51
+SOMAT-000034,SPO2-000034,United States Marine Corps,Military Organization,L4,Governed semantic object,0.85,2026-06-28 22:06:51
+SOMAT-000035,SPO2-000035,Request for Quotation,Acquisition Metadata,L3,Registry-ready candidate,0.714,2026-06-28 22:06:51
+SOMAT-000036,SPO2-000036,Payment and Invoice,Pricing Structure,L3,Registry-ready candidate,0.709,2026-06-28 22:06:51

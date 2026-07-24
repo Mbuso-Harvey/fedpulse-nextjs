@@ -1,0 +1,129 @@
+entity_id,entity_type,entity_value,notice_id,opportunity_title,source_file,requirement_id,confidence
+ENT-000001,proposal_component,Volume V,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000001,0.75
+ENT-000002,experience_requirement,Past Performance,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000003,proposal_component,Volume I,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000004,proposal_component,Volume II,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000005,proposal_component,Volume III,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000006,proposal_component,Volume IV,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000007,proposal_component,Administrative Proposal,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000008,proposal_component,Technical Proposal,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000009,proposal_component,Price Proposal,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000010,evaluation_method,Price,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000004,0.8
+ENT-000011,experience_requirement,recent and relevant,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000017,0.75
+ENT-000012,certification,fedramp,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_1.bin,REQ-000022,0.65
+ENT-000013,evaluation_method,risk,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_2.bin,REQ-000023,0.7
+ENT-000014,compliance_clause,Section 889,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_2.bin,REQ-000023,0.7
+ENT-000015,evaluation_method,best value,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_2.bin,REQ-000028,0.85
+ENT-000016,staffing_role,key personnel,4238a30a23b544cf94743e18c87feccb,Selective Service System Website Modernization,4238a30a23b544cf94743e18c87feccb_2.bin,REQ-000036,0.65
+ENT-000017,evaluation_method,best value,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_1.bin,REQ-000097,0.75
+ENT-000018,evaluation_method,price,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_1.bin,REQ-000099,0.75
+ENT-000019,staffing_role,key personnel,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_1.bin,REQ-000103,0.65
+ENT-000020,experience_requirement,past performance,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_2.bin,REQ-000107,0.7
+ENT-000021,evaluation_method,LPTA,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_5.bin,REQ-000143,0.8
+ENT-000022,evaluation_method,Lowest Price Technically Acceptable,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_5.bin,REQ-000143,0.8
+ENT-000023,evaluation_method,Technical Capability,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_5.bin,REQ-000143,0.8
+ENT-000024,compliance_clause,FAR,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_5.bin,REQ-000143,0.8
+ENT-000025,experience_requirement,recent and relevant,dc7183e7aab342788a9dff786e444f8a,JSCG-P Cristobal Colon Base Life Support,dc7183e7aab342788a9dff786e444f8a_5.bin,REQ-000156,0.75
+ENT-000026,evaluation_method,PRICE,b9d0ecdbad264ff4a301649e05fdf09f,Socket Head Cap Screws,b9d0ecdbad264ff4a301649e05fdf09f_2.bin,REQ-000173,0.8
+ENT-000027,evaluation_method,lpta,b9d0ecdbad264ff4a301649e05fdf09f,Socket Head Cap Screws,b9d0ecdbad264ff4a301649e05fdf09f_2.bin,REQ-000177,0.75
+ENT-000028,clearance,secret,b9d0ecdbad264ff4a301649e05fdf09f,Socket Head Cap Screws,b9d0ecdbad264ff4a301649e05fdf09f_2.bin,REQ-000183,0.65
+ENT-000029,clearance,cui,b9d0ecdbad264ff4a301649e05fdf09f,Socket Head Cap Screws,b9d0ecdbad264ff4a301649e05fdf09f_2.bin,REQ-000183,0.65
+ENT-000030,evaluation_method,Price,71ca1faee86e4a5e9cbbaf154af5bd47,7195--Solar Shades - B3 PACT,71ca1faee86e4a5e9cbbaf154af5bd47_1.bin,REQ-000192,0.7
+ENT-000031,compliance_clause,FAR,71ca1faee86e4a5e9cbbaf154af5bd47,7195--Solar Shades - B3 PACT,71ca1faee86e4a5e9cbbaf154af5bd47_1.bin,REQ-000192,0.7
+ENT-000032,evaluation_method,best value,71ca1faee86e4a5e9cbbaf154af5bd47,7195--Solar Shades - B3 PACT,71ca1faee86e4a5e9cbbaf154af5bd47_1.bin,REQ-000198,0.75
+ENT-000033,clearance,top secret,71ca1faee86e4a5e9cbbaf154af5bd47,7195--Solar Shades - B3 PACT,71ca1faee86e4a5e9cbbaf154af5bd47_1.bin,REQ-000208,0.7
+ENT-000034,clearance,secret,71ca1faee86e4a5e9cbbaf154af5bd47,7195--Solar Shades - B3 PACT,71ca1faee86e4a5e9cbbaf154af5bd47_1.bin,REQ-000208,0.7
+ENT-000035,evaluation_method,price,6934753cfbdf45f1b93928b67e93355a,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,6934753cfbdf45f1b93928b67e93355a_1.bin,REQ-000210,0.8
+ENT-000036,evaluation_method,best value,6934753cfbdf45f1b93928b67e93355a,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,6934753cfbdf45f1b93928b67e93355a_1.bin,REQ-000212,0.85
+ENT-000037,experience_requirement,past performance,6934753cfbdf45f1b93928b67e93355a,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,6934753cfbdf45f1b93928b67e93355a_1.bin,REQ-000217,0.75
+ENT-000038,staffing_role,key personnel,6934753cfbdf45f1b93928b67e93355a,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,6934753cfbdf45f1b93928b67e93355a_1.bin,REQ-000220,0.65
+ENT-000039,clearance,secret,6934753cfbdf45f1b93928b67e93355a,Non-Research Long-Term Care facility needed for the enrichment and socialization of Non-Human Primate colony,6934753cfbdf45f1b93928b67e93355a_1.bin,REQ-000223,0.65
+ENT-000040,evaluation_method,price,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_1.bin,REQ-000226,0.9
+ENT-000041,experience_requirement,PAST PERFORMANCE,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_4.bin,REQ-000233,0.75
+ENT-000042,compliance_clause,section 889,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_6.bin,REQ-000242,0.7
+ENT-000043,compliance_clause,FAR,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_6.bin,REQ-000242,0.7
+ENT-000044,evaluation_method,lpta,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_6.bin,REQ-000250,0.8
+ENT-000045,staffing_role,key personnel,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_6.bin,REQ-000258,0.65
+ENT-000046,clearance,secret,441459c8d2a34c49a903966dc6678ca5,Consolidated Synopsis Aggregate Materials Black Hills National Cemetery,441459c8d2a34c49a903966dc6678ca5_6.bin,REQ-000261,0.65
+ENT-000047,compliance_clause,FAR,3986c6c299c04c119ed7d79cb2b5cef5,Request for Information: FDA IT Infrastructure Services,3986c6c299c04c119ed7d79cb2b5cef5_1.bin,REQ-000266,0.7
+ENT-000048,evaluation_method,PRICE,38811fa6a48a41e0979b84f46b44b030,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,38811fa6a48a41e0979b84f46b44b030_1.bin,REQ-000270,0.85
+ENT-000049,experience_requirement,past performance,38811fa6a48a41e0979b84f46b44b030,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,38811fa6a48a41e0979b84f46b44b030_2.bin,REQ-000289,0.75
+ENT-000050,clearance,secret,38811fa6a48a41e0979b84f46b44b030,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,38811fa6a48a41e0979b84f46b44b030_2.bin,REQ-000293,0.65
+ENT-000051,compliance_clause,OSHA,38811fa6a48a41e0979b84f46b44b030,Cape Canaveral National Cemetery Ornamental Grass Renovation and Irrigation National Shrine Project,38811fa6a48a41e0979b84f46b44b030_6.bin,REQ-000305,0.7
+ENT-000052,compliance_clause,FAR,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000347,0.75
+ENT-000053,evaluation_method,lpta,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000349,0.75
+ENT-000054,evaluation_method,best value,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000349,0.75
+ENT-000055,evaluation_method,price,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000351,0.75
+ENT-000056,staffing_role,key personnel,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000355,0.7
+ENT-000057,clearance,secret,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000358,0.65
+ENT-000058,clearance,cui,3164fcc003e84650b53a7bdb56485b05,"USAG DHR, Fort Bragg ID Card Services",3164fcc003e84650b53a7bdb56485b05_1.bin,REQ-000358,0.65
+ENT-000059,evaluation_method,price,09ce44adca35468fb46ab77206c9afb7,6515--NetApp,09ce44adca35468fb46ab77206c9afb7_1.bin,REQ-000390,0.75
+ENT-000060,experience_requirement,past performance,09ce44adca35468fb46ab77206c9afb7,6515--NetApp,09ce44adca35468fb46ab77206c9afb7_1.bin,REQ-000392,0.75
+ENT-000061,clearance,secret,09ce44adca35468fb46ab77206c9afb7,6515--NetApp,09ce44adca35468fb46ab77206c9afb7_1.bin,REQ-000398,0.65
+ENT-000062,evaluation_method,price,f33e54c1c9644aa8bb2eb283b82a85ad,31 CES n. 25 military gear lockers.,f33e54c1c9644aa8bb2eb283b82a85ad_2.bin,REQ-000460,0.8
+ENT-000063,experience_requirement,past performance,f33e54c1c9644aa8bb2eb283b82a85ad,31 CES n. 25 military gear lockers.,f33e54c1c9644aa8bb2eb283b82a85ad_2.bin,REQ-000462,0.75
+ENT-000064,evaluation_method,PRICE,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,f29a122869e64fa19982e9655482f397_2.bin,REQ-000496,0.8
+ENT-000065,evaluation_method,lpta,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,f29a122869e64fa19982e9655482f397_2.bin,REQ-000500,0.75
+ENT-000066,clearance,secret,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,f29a122869e64fa19982e9655482f397_2.bin,REQ-000506,0.65
+ENT-000067,clearance,cui,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,f29a122869e64fa19982e9655482f397_2.bin,REQ-000506,0.65
+ENT-000068,compliance_clause,Section 889,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,f29a122869e64fa19982e9655482f397_3.bin,REQ-000507,0.85
+ENT-000069,experience_requirement,past performance,f29a122869e64fa19982e9655482f397,Hex Jam Nuts,f29a122869e64fa19982e9655482f397_3.bin,REQ-000512,0.75
+ENT-000070,compliance_clause,DFARS,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_2.bin,REQ-000526,0.7
+ENT-000071,compliance_clause,FAR,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_2.bin,REQ-000526,0.7
+ENT-000072,evaluation_method,PRICE,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_2.bin,REQ-000527,0.85
+ENT-000073,certification,cmmc,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_2.bin,REQ-000538,0.65
+ENT-000074,clearance,top secret,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_2.bin,REQ-000539,0.7
+ENT-000075,clearance,secret,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_2.bin,REQ-000539,0.7
+ENT-000076,clearance,CUI,dd067ed7e23d469dab6e5a622c30460b,Marketplace for Acquisition of Professional Services (MAPS),dd067ed7e23d469dab6e5a622c30460b_18.bin,REQ-000639,0.7
+ENT-000077,experience_requirement,past performance,d4b0cdaa6b81462db03813b232d2f491,NPSC Physician Services at the NNMC,d4b0cdaa6b81462db03813b232d2f491_4.bin,REQ-000706,0.75
+ENT-000078,staffing_role,key personnel,d4b0cdaa6b81462db03813b232d2f491,NPSC Physician Services at the NNMC,d4b0cdaa6b81462db03813b232d2f491_4.bin,REQ-000709,0.65
+ENT-000079,evaluation_method,Price,d4b0cdaa6b81462db03813b232d2f491,NPSC Physician Services at the NNMC,d4b0cdaa6b81462db03813b232d2f491_5.bin,REQ-000713,0.8
+ENT-000080,staffing_role,Project Manager,cbb1a9af3c004dc68e36a311cbef0ff9,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,cbb1a9af3c004dc68e36a311cbef0ff9_1.bin,REQ-000730,0.7
+ENT-000081,evaluation_method,price,cbb1a9af3c004dc68e36a311cbef0ff9,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,cbb1a9af3c004dc68e36a311cbef0ff9_2.bin,REQ-000738,0.8
+ENT-000082,compliance_clause,FAR,cbb1a9af3c004dc68e36a311cbef0ff9,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,cbb1a9af3c004dc68e36a311cbef0ff9_3.bin,REQ-000744,0.85
+ENT-000083,clearance,secret,cbb1a9af3c004dc68e36a311cbef0ff9,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,cbb1a9af3c004dc68e36a311cbef0ff9_3.bin,REQ-000761,0.65
+ENT-000084,clearance,cui,cbb1a9af3c004dc68e36a311cbef0ff9,Preventive Maintenance Services for Anti-Climb Bi-folding Gates,cbb1a9af3c004dc68e36a311cbef0ff9_3.bin,REQ-000761,0.65
+ENT-000085,evaluation_method,Price,cb68614c729145b3835e8326258f5ea2,Shade Structure Canopy,cb68614c729145b3835e8326258f5ea2_3.bin,REQ-000800,0.75
+ENT-000086,compliance_clause,Section 889,cb68614c729145b3835e8326258f5ea2,Shade Structure Canopy,cb68614c729145b3835e8326258f5ea2_3.bin,REQ-000800,0.75
+ENT-000087,evaluation_method,best value,cb68614c729145b3835e8326258f5ea2,Shade Structure Canopy,cb68614c729145b3835e8326258f5ea2_3.bin,REQ-000801,0.8
+ENT-000088,clearance,secret,cb68614c729145b3835e8326258f5ea2,Shade Structure Canopy,cb68614c729145b3835e8326258f5ea2_3.bin,REQ-000810,0.65
+ENT-000089,evaluation_method,price,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_1.bin,REQ-000817,0.8
+ENT-000090,staffing_role,key personnel,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_1.bin,REQ-000821,0.7
+ENT-000091,clearance,cui,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_1.bin,REQ-000824,0.65
+ENT-000092,experience_requirement,Past Performance,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_2.bin,REQ-000825,0.8
+ENT-000093,compliance_clause,FAR,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_4.bin,REQ-000840,0.85
+ENT-000094,compliance_clause,Section 889,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_6.bin,REQ-000841,0.7
+ENT-000095,clearance,secret,c502adb5aeb8463f88d90c9be98eed6e,N--George Washington Birthplace National Monument- RE,c502adb5aeb8463f88d90c9be98eed6e_6.bin,REQ-000852,0.65
+ENT-000096,proposal_component,Price proposal,b80dc335dcbb4f6abbff52eb54415e9a,EcoStruxure Panel Server Advanced (EnerlinX Series),b80dc335dcbb4f6abbff52eb54415e9a_1.bin,REQ-000858,0.8
+ENT-000097,evaluation_method,Price,b80dc335dcbb4f6abbff52eb54415e9a,EcoStruxure Panel Server Advanced (EnerlinX Series),b80dc335dcbb4f6abbff52eb54415e9a_1.bin,REQ-000858,0.8
+ENT-000098,compliance_clause,Section 889,b80dc335dcbb4f6abbff52eb54415e9a,EcoStruxure Panel Server Advanced (EnerlinX Series),b80dc335dcbb4f6abbff52eb54415e9a_3.bin,REQ-000874,0.7
+ENT-000099,clearance,secret,b80dc335dcbb4f6abbff52eb54415e9a,EcoStruxure Panel Server Advanced (EnerlinX Series),b80dc335dcbb4f6abbff52eb54415e9a_4.bin,REQ-000886,0.65
+ENT-000100,staffing_role,key personnel,b80dc335dcbb4f6abbff52eb54415e9a,EcoStruxure Panel Server Advanced (EnerlinX Series),b80dc335dcbb4f6abbff52eb54415e9a_5.bin,REQ-000890,0.65
+ENT-000101,evaluation_method,price,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,b1c5dab7c7e14227b62fa4e78e478d2a_1.bin,REQ-000897,0.75
+ENT-000102,compliance_clause,far,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,b1c5dab7c7e14227b62fa4e78e478d2a_5.bin,REQ-000909,0.7
+ENT-000103,staffing_role,key personnel,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,b1c5dab7c7e14227b62fa4e78e478d2a_8.bin,REQ-000926,0.65
+ENT-000104,clearance,secret,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,b1c5dab7c7e14227b62fa4e78e478d2a_8.bin,REQ-000929,0.65
+ENT-000105,clearance,cui,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,b1c5dab7c7e14227b62fa4e78e478d2a_8.bin,REQ-000929,0.65
+ENT-000106,staffing_role,Project Manager,b1c5dab7c7e14227b62fa4e78e478d2a,Repair BEQ HP135,b1c5dab7c7e14227b62fa4e78e478d2a_9.bin,REQ-000930,0.7
+ENT-000107,evaluation_method,Price,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000937,0.75
+ENT-000108,compliance_clause,Section 889,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000937,0.75
+ENT-000109,evaluation_method,best value,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000945,0.8
+ENT-000110,experience_requirement,past performance,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000950,0.75
+ENT-000111,experience_requirement,recent and relevant,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000950,0.75
+ENT-000112,staffing_role,key personnel,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000953,0.65
+ENT-000113,clearance,secret,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000956,0.65
+ENT-000114,clearance,cui,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_1.bin,REQ-000956,0.65
+ENT-000115,compliance_clause,SERVICE CONTRACT ACT,a466be2cf94e451f8b4b88177dd2f9dc,Secure Document Destruction - No Cost,a466be2cf94e451f8b4b88177dd2f9dc_3.bin,REQ-000959,0.65
+ENT-000116,evaluation_method,Price,a3e0948c660849a5815153897d456f7d,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),a3e0948c660849a5815153897d456f7d_1.bin,REQ-001024,0.8
+ENT-000117,staffing_role,key personnel,a3e0948c660849a5815153897d456f7d,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),a3e0948c660849a5815153897d456f7d_2.bin,REQ-001031,0.65
+ENT-000118,clearance,secret,a3e0948c660849a5815153897d456f7d,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),a3e0948c660849a5815153897d456f7d_2.bin,REQ-001034,0.65
+ENT-000119,proposal_component,Price proposal,a3e0948c660849a5815153897d456f7d,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),a3e0948c660849a5815153897d456f7d_3.bin,REQ-001035,0.8
+ENT-000120,compliance_clause,Section 889,a3e0948c660849a5815153897d456f7d,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),a3e0948c660849a5815153897d456f7d_4.bin,REQ-001047,0.7
+ENT-000121,evaluation_method,price,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_1.bin,REQ-001070,0.75
+ENT-000122,staffing_role,key personnel,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_2.bin,REQ-001083,0.65
+ENT-000123,proposal_component,Volume I,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_3.bin,REQ-001087,0.65
+ENT-000124,proposal_component,Volume II,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_3.bin,REQ-001087,0.65
+ENT-000125,evaluation_method,best value,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_3.bin,REQ-001093,0.8
+ENT-000126,experience_requirement,past performance,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_3.bin,REQ-001098,0.75
+ENT-000127,clearance,secret,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_3.bin,REQ-001104,0.65
+ENT-000128,compliance_clause,SERVICE CONTRACT ACT,9bca2be24fb64fbe833ab48ae2b41b2a,Atlanta Job Corps Center Caretaker and Security Services,9bca2be24fb64fbe833ab48ae2b41b2a_6.bin,REQ-001118,0.65

@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-06-21 11:35:59",
+  "posted_from": "05/22/2026",
+  "posted_to": "06/21/2026",
+  "opportunities_inspected": 100,
+  "total_records_available": 21699,
+  "opportunities_with_resource_links": 66,
+  "resource_links_discovered": 342,
+  "documents_downloaded": 150,
+  "file_type_counts": {
+    "pdf": 123,
+    "docx": 11,
+    "xlsx": 16
+  },
+  "artifact_class_counts": {
+    "document_unknown": 128,
+    "spreadsheet_unknown": 15,
+    "solicitation": 6,
+    "justification": 1
+  },
+  "outputs": {
+    "raw_json": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_artifact_discovery_raw_v1.json",
+    "opportunities_csv": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_artifact_discovery_opportunities_v1.csv",
+    "link_inventory": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_artifact_link_inventory_v1.csv",
+    "document_inventory": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\sam_gov_artifact_document_inventory_v1.csv",
+    "artifact_folder": "C:\\ProcurementIntelligence\\data\\raw\\sam_gov_opportunities\\artifact_discovery_sample",
+    "report": "C:\\ProcurementIntelligence\\exports\\sam_gov_artifact_discovery_report_v1.md"
+  },
+  "note": "API key intentionally not written to output files."
+}

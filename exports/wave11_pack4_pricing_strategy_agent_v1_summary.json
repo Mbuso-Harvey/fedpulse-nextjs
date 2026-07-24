@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-07-04 11:11:53",
+  "wave": "Wave 11",
+  "pack": "Pack 4 - Pricing Strategy Agent",
+  "status": "completed",
+  "product_status": "pricing_strategy_agent_certified",
+  "graph_version": "KG-1.0",
+  "agent_version": "1.0.0",
+  "pricing_decision": "pricing_ready_with_controls",
+  "pricing_position": "pricing_requires_review",
+  "pricing_risk_band": "high",
+  "commercial_risk_score": 86.72,
+  "pricing_confidence_score": 71.83,
+  "complexity_score": 98.0,
+  "bid_readiness_score": 90.0,
+  "supplier_fit_score": 78.4,
+  "capture_score": 65.11,
+  "critical_compliance_gaps": 3.0,
+  "high_compliance_gaps": 2.0,
+  "top_similarity_score": 72.5,
+  "pricing_risks": 5,
+  "pricing_controls": 5,
+  "pricing_actions": 5,
+  "human_review_required": true,
+  "qa": {
+    "pass": 7,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_strategy_session_registry_v1.csv",
+    "assessment_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_assessment_registry_v1.csv",
+    "risk_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_risk_registry_v1.csv",
+    "control_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_control_registry_v1.csv",
+    "action_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_action_registry_v1.csv",
+    "decision_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_decision_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\13_autonomous_agents\\pricing\\pricing_strategy_agent_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave11_pricing_strategy_agent_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave11_pack4_pricing_strategy_agent_report_v1.md"
+  },
+  "next_script": "build_wave11_pack5_proposal_strategy_agent_v1.py"
+}

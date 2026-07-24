@@ -1,0 +1,2 @@
+score_id,opportunity_id,opportunity_name,complexity_score,complexity_band,bid_readiness_score,bid_readiness_band,technical_count,commercial_count,evaluation_count,supplier_count,compliance_count,delivery_count,submission_count,created_at
+OPPSCORE-000001,OPPINT-000001,KG-1.0 Demonstration Opportunity,98,high,90,strong,2,3,2,2,1,1,1,2026-06-30 11:19:16

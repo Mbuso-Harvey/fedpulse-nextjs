@@ -1,0 +1,161 @@
+integrity_check_id,record_type,record_id,check_name,status,message,created_at
+SINT-000001,semantic_object,SPO3-000001,has_object_type,pass,Submission Instruction,2026-06-29 00:54:06
+SINT-000002,semantic_object,SPO3-000001,has_canonical_name,pass,Solicitation Amendment,2026-06-29 00:54:06
+SINT-000003,semantic_object,SPO3-000001,has_domain_or_known_exception,pass,Submission and Proposal Management,2026-06-29 00:54:06
+SINT-000004,semantic_object,SPO3-000001,has_evidence_count,pass,5,2026-06-29 00:54:06
+SINT-000005,semantic_object,SPO3-000001,has_confidence,pass,0.902,2026-06-29 00:54:06
+SINT-000006,semantic_object,SPO3-000002,has_object_type,pass,Domain Specific Requirement,2026-06-29 00:54:06
+SINT-000007,semantic_object,SPO3-000002,has_canonical_name,pass,National Cemetery Operations,2026-06-29 00:54:06
+SINT-000008,semantic_object,SPO3-000002,has_domain_or_known_exception,pass,Domain-Specific Operations,2026-06-29 00:54:06
+SINT-000009,semantic_object,SPO3-000002,has_evidence_count,pass,6,2026-06-29 00:54:06
+SINT-000010,semantic_object,SPO3-000002,has_confidence,pass,0.89,2026-06-29 00:54:06
+SINT-000011,semantic_object,SPO3-000003,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000012,semantic_object,SPO3-000003,has_canonical_name,pass,Solicitation Number,2026-06-29 00:54:06
+SINT-000013,semantic_object,SPO3-000003,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000014,semantic_object,SPO3-000003,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000015,semantic_object,SPO3-000003,has_confidence,pass,0.777,2026-06-29 00:54:06
+SINT-000016,semantic_object,SPO3-000004,has_object_type,pass,Contract Type,2026-06-29 00:54:06
+SINT-000017,semantic_object,SPO3-000004,has_canonical_name,pass,Firm Fixed Price,2026-06-29 00:54:06
+SINT-000018,semantic_object,SPO3-000004,has_domain_or_known_exception,pass,Commercial and Pricing,2026-06-29 00:54:06
+SINT-000019,semantic_object,SPO3-000004,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000020,semantic_object,SPO3-000004,has_confidence,pass,0.805,2026-06-29 00:54:06
+SINT-000021,semantic_object,SPO3-000005,has_object_type,pass,Pricing Structure,2026-06-29 00:54:06
+SINT-000022,semantic_object,SPO3-000005,has_canonical_name,pass,Unit Price,2026-06-29 00:54:06
+SINT-000023,semantic_object,SPO3-000005,has_domain_or_known_exception,pass,Commercial and Pricing,2026-06-29 00:54:06
+SINT-000024,semantic_object,SPO3-000005,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000025,semantic_object,SPO3-000005,has_confidence,pass,0.79,2026-06-29 00:54:06
+SINT-000026,semantic_object,SPO3-000006,has_object_type,pass,Procurement Role,2026-06-29 00:54:06
+SINT-000027,semantic_object,SPO3-000006,has_canonical_name,pass,Contracting Officer,2026-06-29 00:54:06
+SINT-000028,semantic_object,SPO3-000006,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000029,semantic_object,SPO3-000006,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000030,semantic_object,SPO3-000006,has_confidence,pass,0.802,2026-06-29 00:54:06
+SINT-000031,semantic_object,SPO3-000007,has_object_type,pass,Technical Requirement,2026-06-29 00:54:06
+SINT-000032,semantic_object,SPO3-000007,has_canonical_name,pass,Performance Work Statement,2026-06-29 00:54:06
+SINT-000033,semantic_object,SPO3-000007,has_domain_or_known_exception,pass,Technical Requirements,2026-06-29 00:54:06
+SINT-000034,semantic_object,SPO3-000007,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000035,semantic_object,SPO3-000007,has_confidence,pass,0.811,2026-06-29 00:54:06
+SINT-000036,semantic_object,SPO3-000008,has_object_type,pass,Evaluation Factor,2026-06-29 00:54:06
+SINT-000037,semantic_object,SPO3-000008,has_canonical_name,pass,Evaluation Factors,2026-06-29 00:54:06
+SINT-000038,semantic_object,SPO3-000008,has_domain_or_known_exception,pass,Evaluation and Source Selection,2026-06-29 00:54:06
+SINT-000039,semantic_object,SPO3-000008,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000040,semantic_object,SPO3-000008,has_confidence,pass,0.74,2026-06-29 00:54:06
+SINT-000041,semantic_object,SPO3-000009,has_object_type,pass,Document Structure Object,2026-06-29 00:54:06
+SINT-000042,semantic_object,SPO3-000009,has_canonical_name,pass,Table of Contents,2026-06-29 00:54:06
+SINT-000043,semantic_object,SPO3-000009,has_domain_or_known_exception,pass,Document Structure and Administrative Forms,2026-06-29 00:54:06
+SINT-000044,semantic_object,SPO3-000009,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000045,semantic_object,SPO3-000009,has_confidence,pass,0.704,2026-06-29 00:54:06
+SINT-000046,semantic_object,SPO3-000010,has_object_type,pass,Supplier Qualification,2026-06-29 00:54:06
+SINT-000047,semantic_object,SPO3-000010,has_canonical_name,pass,Past Performance,2026-06-29 00:54:06
+SINT-000048,semantic_object,SPO3-000010,has_domain_or_known_exception,pass,Supplier Eligibility and Qualifications,2026-06-29 00:54:06
+SINT-000049,semantic_object,SPO3-000010,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000050,semantic_object,SPO3-000010,has_confidence,pass,0.734,2026-06-29 00:54:06
+SINT-000051,semantic_object,SPO3-000011,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000052,semantic_object,SPO3-000011,has_canonical_name,pass,Request for Information,2026-06-29 00:54:06
+SINT-000053,semantic_object,SPO3-000011,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000054,semantic_object,SPO3-000011,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000055,semantic_object,SPO3-000011,has_confidence,pass,0.761,2026-06-29 00:54:06
+SINT-000056,semantic_object,SPO3-000012,has_object_type,pass,Administrative Service Labor Category,2026-06-29 00:54:06
+SINT-000057,semantic_object,SPO3-000012,has_canonical_name,pass,Administrative Support and Clerical,2026-06-29 00:54:06
+SINT-000058,semantic_object,SPO3-000012,has_domain_or_known_exception,pass,Performance and Operations,2026-06-29 00:54:06
+SINT-000059,semantic_object,SPO3-000012,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000060,semantic_object,SPO3-000012,has_confidence,pass,0.76,2026-06-29 00:54:06
+SINT-000061,semantic_object,SPO3-000013,has_object_type,pass,Proposal Structure,2026-06-29 00:54:06
+SINT-000062,semantic_object,SPO3-000013,has_canonical_name,pass,Proposal Volume,2026-06-29 00:54:06
+SINT-000063,semantic_object,SPO3-000013,has_domain_or_known_exception,pass,Submission and Proposal Management,2026-06-29 00:54:06
+SINT-000064,semantic_object,SPO3-000013,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000065,semantic_object,SPO3-000013,has_confidence,pass,0.719,2026-06-29 00:54:06
+SINT-000066,semantic_object,SPO3-000014,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000067,semantic_object,SPO3-000014,has_canonical_name,pass,Solicitation Metadata,2026-06-29 00:54:06
+SINT-000068,semantic_object,SPO3-000014,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000069,semantic_object,SPO3-000014,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000070,semantic_object,SPO3-000014,has_confidence,pass,0.428,2026-06-29 00:54:06
+SINT-000071,semantic_object,SPO3-000015,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000072,semantic_object,SPO3-000015,has_canonical_name,pass,Combined Synopsis Solicitation,2026-06-29 00:54:06
+SINT-000073,semantic_object,SPO3-000015,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000074,semantic_object,SPO3-000015,has_evidence_count,pass,2,2026-06-29 00:54:06
+SINT-000075,semantic_object,SPO3-000015,has_confidence,pass,0.769,2026-06-29 00:54:06
+SINT-000076,semantic_object,SPO3-000016,has_object_type,pass,Supplier Qualification,2026-06-29 00:54:06
+SINT-000077,semantic_object,SPO3-000016,has_canonical_name,pass,Small Business Set-Aside,2026-06-29 00:54:06
+SINT-000078,semantic_object,SPO3-000016,has_domain_or_known_exception,pass,Supplier Eligibility and Qualifications,2026-06-29 00:54:06
+SINT-000079,semantic_object,SPO3-000016,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000080,semantic_object,SPO3-000016,has_confidence,pass,0.706,2026-06-29 00:54:06
+SINT-000081,semantic_object,SPO3-000017,has_object_type,pass,Submission Instruction,2026-06-29 00:54:06
+SINT-000082,semantic_object,SPO3-000017,has_canonical_name,pass,Solicitation Amendment,2026-06-29 00:54:06
+SINT-000083,semantic_object,SPO3-000017,has_domain_or_known_exception,pass,Submission and Proposal Management,2026-06-29 00:54:06
+SINT-000084,semantic_object,SPO3-000017,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000085,semantic_object,SPO3-000017,has_confidence,pass,0.45,2026-06-29 00:54:06
+SINT-000086,semantic_object,SPO3-000018,has_object_type,pass,Delivery Requirement,2026-06-29 00:54:06
+SINT-000087,semantic_object,SPO3-000018,has_canonical_name,pass,Place of Performance,2026-06-29 00:54:06
+SINT-000088,semantic_object,SPO3-000018,has_domain_or_known_exception,pass,Delivery and Logistics,2026-06-29 00:54:06
+SINT-000089,semantic_object,SPO3-000018,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000090,semantic_object,SPO3-000018,has_confidence,pass,0.74,2026-06-29 00:54:06
+SINT-000091,semantic_object,SPO3-000019,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000092,semantic_object,SPO3-000019,has_canonical_name,pass,Method of Solicitation,2026-06-29 00:54:06
+SINT-000093,semantic_object,SPO3-000019,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000094,semantic_object,SPO3-000019,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000095,semantic_object,SPO3-000019,has_confidence,pass,0.718,2026-06-29 00:54:06
+SINT-000096,semantic_object,SPO3-000020,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000097,semantic_object,SPO3-000020,has_canonical_name,pass,Request for Proposal,2026-06-29 00:54:06
+SINT-000098,semantic_object,SPO3-000020,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000099,semantic_object,SPO3-000020,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000100,semantic_object,SPO3-000020,has_confidence,pass,0.743,2026-06-29 00:54:06
+SINT-000101,semantic_object,SPO3-000021,has_object_type,pass,Technical Requirement,2026-06-29 00:54:06
+SINT-000102,semantic_object,SPO3-000021,has_canonical_name,pass,Statement of Work,2026-06-29 00:54:06
+SINT-000103,semantic_object,SPO3-000021,has_domain_or_known_exception,pass,Technical Requirements,2026-06-29 00:54:06
+SINT-000104,semantic_object,SPO3-000021,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000105,semantic_object,SPO3-000021,has_confidence,pass,0.727,2026-06-29 00:54:06
+SINT-000106,semantic_object,SPO3-000022,has_object_type,pass,Evaluation Method,2026-06-29 00:54:06
+SINT-000107,semantic_object,SPO3-000022,has_canonical_name,pass,Award Basis,2026-06-29 00:54:06
+SINT-000108,semantic_object,SPO3-000022,has_domain_or_known_exception,pass,Evaluation and Source Selection,2026-06-29 00:54:06
+SINT-000109,semantic_object,SPO3-000022,has_evidence_count,pass,2,2026-06-29 00:54:06
+SINT-000110,semantic_object,SPO3-000022,has_confidence,pass,0.82,2026-06-29 00:54:06
+SINT-000111,semantic_object,SPO3-000023,has_object_type,pass,Military Installation,2026-06-29 00:54:06
+SINT-000112,semantic_object,SPO3-000023,has_canonical_name,pass,Marine Corps Base Camp Lejeune,2026-06-29 00:54:06
+SINT-000113,semantic_object,SPO3-000023,has_domain_or_known_exception,pass,Domain-Specific Operations,2026-06-29 00:54:06
+SINT-000114,semantic_object,SPO3-000023,has_evidence_count,pass,2,2026-06-29 00:54:06
+SINT-000115,semantic_object,SPO3-000023,has_confidence,pass,0.92,2026-06-29 00:54:06
+SINT-000116,semantic_object,SPO3-000024,has_object_type,pass,Military Organization,2026-06-29 00:54:06
+SINT-000117,semantic_object,SPO3-000024,has_canonical_name,pass,United States Army,2026-06-29 00:54:06
+SINT-000118,semantic_object,SPO3-000024,has_domain_or_known_exception,pass,Domain-Specific Operations,2026-06-29 00:54:06
+SINT-000119,semantic_object,SPO3-000024,has_evidence_count,pass,2,2026-06-29 00:54:06
+SINT-000120,semantic_object,SPO3-000024,has_confidence,pass,0.82,2026-06-29 00:54:06
+SINT-000121,semantic_object,SPO3-000025,has_object_type,pass,Contract Type,2026-06-29 00:54:06
+SINT-000122,semantic_object,SPO3-000025,has_canonical_name,pass,Firm Fixed Price,2026-06-29 00:54:06
+SINT-000123,semantic_object,SPO3-000025,has_domain_or_known_exception,pass,Commercial and Pricing,2026-06-29 00:54:06
+SINT-000124,semantic_object,SPO3-000025,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000125,semantic_object,SPO3-000025,has_confidence,pass,0.84,2026-06-29 00:54:06
+SINT-000126,semantic_object,SPO3-000026,has_object_type,pass,Military Organization,2026-06-29 00:54:06
+SINT-000127,semantic_object,SPO3-000026,has_canonical_name,pass,United States Marine Corps,2026-06-29 00:54:06
+SINT-000128,semantic_object,SPO3-000026,has_domain_or_known_exception,pass,Domain-Specific Operations,2026-06-29 00:54:06
+SINT-000129,semantic_object,SPO3-000026,has_evidence_count,pass,2,2026-06-29 00:54:06
+SINT-000130,semantic_object,SPO3-000026,has_confidence,pass,0.86,2026-06-29 00:54:06
+SINT-000131,semantic_object,SPO3-000027,has_object_type,pass,Procurement Document Artifact,2026-06-29 00:54:06
+SINT-000132,semantic_object,SPO3-000027,has_canonical_name,pass,Amendment Copy Requirement,2026-06-29 00:54:06
+SINT-000133,semantic_object,SPO3-000027,has_domain_or_known_exception,pass,Document Structure and Administrative Forms,2026-06-29 00:54:06
+SINT-000134,semantic_object,SPO3-000027,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000135,semantic_object,SPO3-000027,has_confidence,pass,0.78,2026-06-29 00:54:06
+SINT-000136,semantic_object,SPO3-000028,has_object_type,pass,Regulation Set,2026-06-29 00:54:06
+SINT-000137,semantic_object,SPO3-000028,has_canonical_name,pass,FAR and DOSAR Provisions,2026-06-29 00:54:06
+SINT-000138,semantic_object,SPO3-000028,has_domain_or_known_exception,pass,"Legal, Compliance, and Labor",2026-06-29 00:54:06
+SINT-000139,semantic_object,SPO3-000028,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000140,semantic_object,SPO3-000028,has_confidence,pass,0.86,2026-06-29 00:54:06
+SINT-000141,semantic_object,SPO3-000029,has_object_type,pass,Federal Agency,2026-06-29 00:54:06
+SINT-000142,semantic_object,SPO3-000029,has_canonical_name,pass,Food and Drug Administration,2026-06-29 00:54:06
+SINT-000143,semantic_object,SPO3-000029,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000144,semantic_object,SPO3-000029,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000145,semantic_object,SPO3-000029,has_confidence,pass,0.92,2026-06-29 00:54:06
+SINT-000146,semantic_object,SPO3-000030,has_object_type,pass,Proposal Document Artifact,2026-06-29 00:54:06
+SINT-000147,semantic_object,SPO3-000030,has_canonical_name,pass,Proposal Default Index,2026-06-29 00:54:06
+SINT-000148,semantic_object,SPO3-000030,has_domain_or_known_exception,pass,Document Structure and Administrative Forms,2026-06-29 00:54:06
+SINT-000149,semantic_object,SPO3-000030,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000150,semantic_object,SPO3-000030,has_confidence,pass,0.72,2026-06-29 00:54:06
+SINT-000151,semantic_object,SPO3-000031,has_object_type,pass,Acquisition Metadata,2026-06-29 00:54:06
+SINT-000152,semantic_object,SPO3-000031,has_canonical_name,pass,Request for Quotation,2026-06-29 00:54:06
+SINT-000153,semantic_object,SPO3-000031,has_domain_or_known_exception,pass,Acquisition Strategy,2026-06-29 00:54:06
+SINT-000154,semantic_object,SPO3-000031,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000155,semantic_object,SPO3-000031,has_confidence,pass,0.712,2026-06-29 00:54:06
+SINT-000156,semantic_object,SPO3-000032,has_object_type,pass,Pricing Structure,2026-06-29 00:54:06
+SINT-000157,semantic_object,SPO3-000032,has_canonical_name,pass,Payment and Invoice,2026-06-29 00:54:06
+SINT-000158,semantic_object,SPO3-000032,has_domain_or_known_exception,pass,Commercial and Pricing,2026-06-29 00:54:06
+SINT-000159,semantic_object,SPO3-000032,has_evidence_count,pass,1,2026-06-29 00:54:06
+SINT-000160,semantic_object,SPO3-000032,has_confidence,pass,0.701,2026-06-29 00:54:06

@@ -1,0 +1,2 @@
+metric_id,total_expressions,known_expressions_first_pass,first_pass_discovery_expressions,refined_discovery_expressions,remaining_residual_expressions,known_coverage_pct,refined_coverage_pct,known_plus_refined_coverage_pct,residual_coverage_pct,created_at
+PKC-000001,405,155,250,98,152,38.27,24.2,62.47,37.53,2026-06-26 16:59:32

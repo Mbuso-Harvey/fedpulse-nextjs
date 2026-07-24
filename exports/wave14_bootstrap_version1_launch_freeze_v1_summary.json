@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-07-10 04:56:49",
+  "wave": "Wave 14",
+  "pack": "Bootstrap - Version 1.0 Launch Freeze",
+  "status": "completed",
+  "bootstrap_status": "wave14_version1_launch_freeze_bootstrap_certified",
+  "release_candidate": "1.0.0-rc1",
+  "target_release": "1.0.0",
+  "platform_version": "1.0.0",
+  "graph_version": "KG-1.0",
+  "prerequisites_pass": 6,
+  "prerequisites_fail": 0,
+  "freeze_scope_records": 7,
+  "launch_policy_records": 4,
+  "pack_plan_records": 4,
+  "certification_records": 5,
+  "wave14_handoff_items": 4,
+  "post_launch_backlog_items": 6,
+  "launch_freeze_policy": "wave14_version1_feature_freeze",
+  "post_launch_policy": "new_features_after_first_clients_only",
+  "qa": {
+    "pass": 9,
+    "review": 0,
+    "fail": 0
+  },
+  "outputs": {
+    "session_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\wave14_bootstrap_session_registry_v1.csv",
+    "prerequisite_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\wave14_prerequisite_registry_v1.csv",
+    "freeze_scope_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\version1_freeze_scope_registry_v1.csv",
+    "launch_policy_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\version1_launch_policy_registry_v1.csv",
+    "pack_plan_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\wave14_pack_plan_registry_v1.csv",
+    "certification_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\wave14_bootstrap_certification_registry_v1.csv",
+    "qa_registry": "C:\\ProcurementIntelligence\\16_version1_launch\\bootstrap\\wave14_bootstrap_qa_v1.csv",
+    "governance_doc": "C:\\ProcurementIntelligence\\08_governance\\wave14_version1_launch_freeze_bootstrap_governance_v1.md",
+    "report": "C:\\ProcurementIntelligence\\exports\\wave14_bootstrap_version1_launch_freeze_report_v1.md"
+  },
+  "next_script": "build_wave14_pack1_version1_certification_gate_v1.py"
+}

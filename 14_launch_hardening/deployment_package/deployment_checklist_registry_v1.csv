@@ -1,0 +1,7 @@
+deployment_checklist_id,item_name,observed_value,target_value,status,created_at
+DEPCHK-000001,Confirm production readiness gate,production_ready,production_ready,pass,2026-07-06 23:51:33
+DEPCHK-000002,Confirm API contract validation,api_contracts_validated,api_contracts_validated,pass,2026-07-06 23:51:33
+DEPCHK-000003,Confirm audit observability,audit_observability_ready,audit_observability_ready,pass,2026-07-06 23:51:33
+DEPCHK-000004,Confirm API manifest available,available,available,pass,2026-07-06 23:51:33
+DEPCHK-000005,Confirm agent registry populated,6,6,pass,2026-07-06 23:51:33
+DEPCHK-000006,Confirm human approval gates,required,required,pass,2026-07-06 23:51:33

@@ -1,0 +1,2 @@
+decision_id,pricing_decision,pricing_position,pricing_risk_band,commercial_risk_score,pricing_confidence_score,human_review_required,created_at
+PRICEDEC-000001,pricing_ready_with_controls,pricing_requires_review,high,86.72,71.83,true,2026-07-04 11:11:53

@@ -1,0 +1,7 @@
+execution_id,task_id,agent_id,agent_name,execution_mode,input_source,output_expected,status,created_at
+AGEXEC-000001,TASK-000001,AGENT-000001,Capture Manager Agent,deterministic_launch_safe,certified_wave10_outputs,Generate capture strategy,registered,2026-07-02 21:58:24
+AGEXEC-000002,TASK-000002,AGENT-000002,Supplier Strategy Agent,deterministic_launch_safe,certified_wave10_outputs,Generate supplier improvement plan,registered,2026-07-02 21:58:24
+AGEXEC-000003,TASK-000003,AGENT-000003,Compliance Agent,deterministic_launch_safe,certified_wave10_outputs,Generate compliance matrix,registered,2026-07-02 21:58:24
+AGEXEC-000004,TASK-000004,AGENT-000004,Pricing Strategy Agent,deterministic_launch_safe,certified_wave10_outputs,Generate pricing risk strategy,registered,2026-07-02 21:58:24
+AGEXEC-000005,TASK-000005,AGENT-000005,Proposal Strategy Agent,deterministic_launch_safe,certified_wave10_outputs,Generate proposal strategy,registered,2026-07-02 21:58:24
+AGEXEC-000006,TASK-000006,AGENT-000006,Executive Decision Agent,deterministic_launch_safe,certified_wave10_outputs,Generate executive decision,registered,2026-07-02 21:58:24

@@ -1,0 +1,9 @@
+gap_id,supplier_id,supplier_name,opportunity_id,capability_key,capability_name,gap_severity,gap_text,coverage_score,created_at
+SUPGAP-000001,SUP-000001,Demonstration Supplier,OPPINT-000001,technical_capability,Technical Delivery,low,Technical Delivery appears covered by graph-backed opportunity context.,79,2026-06-30 20:13:57
+SUPGAP-000002,SUP-000001,Demonstration Supplier,OPPINT-000001,supplier_qualification,Supplier Qualification,low,Supplier Qualification appears covered by graph-backed opportunity context.,79,2026-06-30 20:13:57
+SUPGAP-000003,SUP-000001,Demonstration Supplier,OPPINT-000001,commercial_fit,Commercial Fit,low,Commercial Fit appears covered by graph-backed opportunity context.,91,2026-06-30 20:13:57
+SUPGAP-000004,SUP-000001,Demonstration Supplier,OPPINT-000001,compliance_fit,Compliance Fit,medium,Compliance Fit is present but should be strengthened.,67,2026-06-30 20:13:57
+SUPGAP-000005,SUP-000001,Demonstration Supplier,OPPINT-000001,evaluation_fit,Evaluation Fit,low,Evaluation Fit appears covered by graph-backed opportunity context.,79,2026-06-30 20:13:57
+SUPGAP-000006,SUP-000001,Demonstration Supplier,OPPINT-000001,delivery_fit,Delivery Fit,medium,Delivery Fit is present but should be strengthened.,67,2026-06-30 20:13:57
+SUPGAP-000007,SUP-000001,Demonstration Supplier,OPPINT-000001,submission_fit,Submission Fit,low,Submission Fit appears covered by graph-backed opportunity context.,79,2026-06-30 20:13:57
+SUPGAP-000008,SUP-000001,Demonstration Supplier,OPPINT-000001,operations_fit,Operational Fit,low,Operational Fit appears covered by graph-backed opportunity context.,100,2026-06-30 20:13:57

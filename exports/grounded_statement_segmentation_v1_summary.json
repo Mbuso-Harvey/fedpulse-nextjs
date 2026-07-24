@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-06-25 06:53:05",
+  "sprint": "SAM-0007ZC",
+  "grounded_statements_processed": 627,
+  "segments_created": 725,
+  "statements_split_into_multiple_segments": 34,
+  "average_segments_per_grounded_statement": 1.16,
+  "long_segments_requiring_review": 0,
+  "segment_length_bands": {
+    "short_0_250": 604,
+    "medium_251_650": 107,
+    "long_651_1000": 14,
+    "review_1000_plus": 0
+  },
+  "outputs": {
+    "segments": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_statement_segments_v1.csv",
+    "long_review": "C:\\ProcurementIntelligence\\09_knowledge_graph\\grounded_statement_long_segment_review_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\grounded_statement_segmentation_report_v1.md"
+  },
+  "next_sprint": "SAM-0007ZD PLU Classification On Segments V1"
+}

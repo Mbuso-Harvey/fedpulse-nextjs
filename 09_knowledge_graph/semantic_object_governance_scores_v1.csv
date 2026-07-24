@@ -1,0 +1,37 @@
+governance_score_id,semantic_object_id,semantic_object_type,canonical_name,domain_name,confidence_score,evidence_score,domain_score,type_score,entity_bonus,penalty,governance_score,promotion_status,graph_status,created_at
+SGOV-000001,SPO2-000001,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,0.902,0.95,1.0,1.0,0.0,0.0,0.896,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000002,SPO2-000002,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,0.89,1.0,1.0,1.0,0.0,0.0,0.901,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000003,SPO2-000003,Acquisition Metadata,Solicitation Number,Acquisition Strategy,0.777,0.47,1.0,1.0,0.0,0.0,0.744,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000004,SPO2-000004,Contract Type,Firm Fixed Price,Commercial and Pricing,0.805,0.47,1.0,1.0,0.0,0.0,0.756,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000005,SPO2-000005,Pricing Structure,Unit Price,Commercial and Pricing,0.79,0.47,1.0,1.0,0.0,0.0,0.75,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000006,SPO2-000006,Procurement Role,Contracting Officer,Acquisition Strategy,0.802,0.47,1.0,1.0,0.0,0.0,0.755,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000007,SPO2-000007,Technical Requirement,Performance Work Statement,Technical Requirements,0.811,0.47,1.0,1.0,0.0,0.0,0.759,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000008,SPO2-000008,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,0.74,0.47,1.0,1.0,0.0,0.0,0.727,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000009,SPO2-000009,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,0.704,0.47,1.0,1.0,0.0,0.0,0.711,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000010,SPO2-000010,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,0.734,0.47,1.0,1.0,0.0,0.0,0.724,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000011,SPO2-000011,Acquisition Metadata,Request for Information,Acquisition Strategy,0.761,0.47,1.0,1.0,0.0,0.0,0.736,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000012,SPO2-000012,Administrative Service Labor Category,Administrative Support and Clerical,Performance and Operations,0.78,0.47,1.0,1.0,0.06,0.0,0.805,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000013,SPO2-000013,Proposal Structure,Proposal Volume,Submission and Proposal Management,0.719,0.47,1.0,1.0,0.0,0.0,0.718,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000014,SPO2-000014,Uninterpreted Expression,Solicitation Metadata,,0.428,0.47,0.0,0.0,0.0,0.35,0.0,discovery_backlog,not_graph_ready,2026-06-28 22:06:51
+SGOV-000015,SPO2-000015,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,0.769,0.59,1.0,1.0,0.0,0.0,0.764,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000016,SPO2-000016,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,0.706,0.47,1.0,1.0,0.0,0.0,0.712,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000017,SPO2-000017,Uninterpreted Expression,Amendments Of Solicitations,,0.45,0.47,0.0,0.0,0.0,0.35,0.0,discovery_backlog,not_graph_ready,2026-06-28 22:06:51
+SGOV-000018,SPO2-000018,Delivery Requirement,Place of Performance,Delivery and Logistics,0.74,0.47,1.0,1.0,0.0,0.0,0.727,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000019,SPO2-000019,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,0.718,0.47,1.0,1.0,0.0,0.0,0.717,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000020,SPO2-000020,Acquisition Metadata,Request for Proposal,Acquisition Strategy,0.743,0.47,1.0,1.0,0.0,0.0,0.728,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000021,SPO2-000021,Technical Requirement,Statement of Work,Technical Requirements,0.727,0.47,1.0,1.0,0.0,0.0,0.721,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000022,SPO2-000022,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.84,0.47,1.0,1.0,0.06,0.0,0.832,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000023,SPO2-000023,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.94,0.47,1.0,1.0,0.06,0.0,0.877,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000024,SPO2-000024,Military Installation,Marine Corps Base Camp Lejeune,Domain-Specific Operations,0.94,0.47,1.0,1.0,0.06,0.0,0.877,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000025,SPO2-000025,Military Organization,United States Army,Domain-Specific Operations,0.84,0.47,1.0,1.0,0.06,0.0,0.832,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000026,SPO2-000026,Contract Type Fragment,Award a Firm Fixed Price Contract,Commercial and Pricing,0.86,0.47,1.0,1.0,0.06,0.0,0.841,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000027,SPO2-000027,Award Phrase,Award Will Be Made,Evaluation and Source Selection,0.84,0.47,1.0,1.0,0.06,0.0,0.832,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000028,SPO2-000028,Military Organization,United States Army,Domain-Specific Operations,0.84,0.47,1.0,1.0,0.06,0.0,0.832,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000029,SPO2-000029,Military Organization,United States Marine Corps,Domain-Specific Operations,0.88,0.47,1.0,1.0,0.06,0.0,0.85,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000030,SPO2-000030,Procurement Document Artifact,Amendment Copy Requirement,Document Structure and Administrative Forms,0.8,0.47,1.0,1.0,0.06,0.0,0.814,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000031,SPO2-000031,Regulation Set,FAR and DOSAR Provisions,"Legal, Compliance, and Labor",0.88,0.47,1.0,1.0,0.06,0.0,0.85,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000032,SPO2-000032,Federal Agency,Food and Drug Administration,Acquisition Strategy,0.94,0.47,1.0,1.0,0.06,0.0,0.877,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000033,SPO2-000033,Proposal Document Artifact,Proposal Default Index,Document Structure and Administrative Forms,0.74,0.47,1.0,1.0,0.06,0.0,0.787,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000034,SPO2-000034,Military Organization,United States Marine Corps,Domain-Specific Operations,0.88,0.47,1.0,1.0,0.06,0.0,0.85,promote_to_semantic_registry,graph_ready,2026-06-28 22:06:51
+SGOV-000035,SPO2-000035,Acquisition Metadata,Request for Quotation,Acquisition Strategy,0.712,0.47,1.0,1.0,0.0,0.0,0.714,promote_after_review,graph_candidate,2026-06-28 22:06:51
+SGOV-000036,SPO2-000036,Pricing Structure,Payment and Invoice,Commercial and Pricing,0.701,0.47,1.0,1.0,0.0,0.0,0.709,promote_after_review,graph_candidate,2026-06-28 22:06:51

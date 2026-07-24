@@ -1,0 +1,7 @@
+qa_id,metric,value,target,status,created_at
+RECQA-000001,recommendations_created,9,>= 8,pass,2026-07-01 14:16:58
+RECQA-000002,priority_rows,9,9,pass,2026-07-01 14:16:58
+RECQA-000003,explainability_rows,9,9,pass,2026-07-01 14:16:58
+RECQA-000004,evidence_rows,9,9,pass,2026-07-01 14:16:58
+RECQA-000005,summary_rows,1,1,pass,2026-07-01 14:16:58
+RECQA-000006,top_recommendation_present,1,1,pass,2026-07-01 14:16:58

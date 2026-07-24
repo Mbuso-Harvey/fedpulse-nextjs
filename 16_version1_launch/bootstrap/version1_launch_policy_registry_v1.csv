@@ -1,0 +1,5 @@
+policy_id,policy_name,policy_value,description,created_at
+V1POLICY-000001,Version 1.0 Feature Freeze,enabled,No new major features before first-client feedback.,2026-07-10 04:56:49
+V1POLICY-000002,Customer Driven Development,enabled,Future development must be justified by client evidence.,2026-07-10 04:56:49
+V1POLICY-000003,Human Decision Authority,enabled,"Platform provides intelligence, humans retain commercial authority.",2026-07-10 04:56:49
+V1POLICY-000004,Federal Procurement Scope,locked,Version 1.0 remains federal government procurement only.,2026-07-10 04:56:49

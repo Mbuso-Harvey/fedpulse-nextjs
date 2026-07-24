@@ -1,0 +1,8 @@
+scope_id,scope_name,scope_status,rule_text,created_at
+FREEZESCOPE-000001,Certified Intelligence Engine,frozen,"No changes after Wave 14 except defects, security fixes, or paying-client-critical blockers.",2026-07-09 22:19:05
+FREEZESCOPE-000002,Certified Agent Layer,frozen,No new agents before first-client onboarding feedback.,2026-07-09 22:19:05
+FREEZESCOPE-000003,Production API Contracts,frozen,API contracts remain stable through launch unless a critical defect requires correction.,2026-07-09 22:19:05
+FREEZESCOPE-000004,UI/API Integration Contract,frozen,UI implementation must consume the certified contracts without changing intelligence logic.,2026-07-09 22:19:05
+FREEZESCOPE-000005,Demo Environment,frozen,"Demo journey, proof points, and executive story remain the launch baseline.",2026-07-09 22:19:05
+FREEZESCOPE-000006,UI/UX Implementation,launch_execution,UI/UX implementation is permitted after Wave 14 as part of launch and onboarding execution.,2026-07-09 22:19:05
+FREEZESCOPE-000007,Client Onboarding,launch_execution,First-client onboarding becomes the primary development and business priority after Wave 14.,2026-07-09 22:19:05

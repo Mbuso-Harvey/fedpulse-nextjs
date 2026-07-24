@@ -1,0 +1,7 @@
+revenue_action_id,action_name,category,description,priority,status,created_at
+REVENUE-000001,Build first-client target list,pipeline_creation,Identify and rank organizations that fit the first-client profile.,critical,approved,2026-07-12 19:56:00
+REVENUE-000002,Prepare commercial demo,sales_enablement,"Use the certified demo journey, proof points, and executive story in prospect meetings.",critical,approved,2026-07-12 19:56:00
+REVENUE-000003,Define pilot offer,offer_design,"Create a focused paid or conversion-oriented pilot with clear scope, timeline, outcomes, and pricing.",critical,approved,2026-07-12 19:56:00
+REVENUE-000004,Begin direct outreach,client_acquisition,Contact qualified prospects and book discovery and demonstration meetings.,critical,approved,2026-07-12 19:56:00
+REVENUE-000005,Track opportunities,pipeline_management,"Record lead stage, decision maker, pain point, next action, estimated value, and conversion probability.",high,approved,2026-07-12 19:56:00
+REVENUE-000006,Capture proof of value,commercial_validation,Document measurable client outcomes and convert them into case studies and sales evidence.,high,approved,2026-07-12 19:56:00

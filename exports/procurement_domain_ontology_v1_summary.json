@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-27 11:09:14",
+  "sprint": "SAM-0007ZH",
+  "domains_created": 12,
+  "candidate_records_analysed": 30,
+  "family_subfamily_mappings_created": 30,
+  "domain_relationships_proposed": 12,
+  "domain_mapping_gaps": 0,
+  "domain_counts": {
+    "Submission and Proposal Management": 7,
+    "Technical Requirements": 2,
+    "Performance and Operations": 5,
+    "Delivery and Logistics": 3,
+    "Acquisition Strategy": 4,
+    "Document Structure and Administrative Forms": 2,
+    "Legal, Compliance, and Labor": 2,
+    "Supplier Eligibility and Qualifications": 3,
+    "Domain-Specific Operations": 1,
+    "Commercial and Pricing": 1
+  },
+  "outputs": {
+    "domains": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_domain_ontology_v1.csv",
+    "domain_family_map": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_domain_family_map_v1.csv",
+    "domain_relationships": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_domain_relationships_v1.csv",
+    "domain_gaps": "C:\\ProcurementIntelligence\\09_knowledge_graph\\procurement_domain_gap_analysis_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\procurement_domain_ontology_report_v1.md"
+  },
+  "next_sprint": "Rerun SAM-0007ZI Taxonomy Registry Promotion Engine V1"
+}

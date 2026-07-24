@@ -1,0 +1,41 @@
+semantic_rule_id,semantic_object_type,canonical_name,domain_name,intent,patterns,base_confidence,status,created_at
+SRL-000001,Contract Type,Firm Fixed Price,Commercial and Pricing,Contract Type,firm fixed price;fixed price,0.92,active,2026-06-28 17:16:16
+SRL-000002,Evaluation Method,Lowest Price Technically Acceptable,Evaluation and Source Selection,Award Method,lowest price technically acceptable;lowest priced technically acceptable;technically acceptable;lpta,0.92,active,2026-06-28 17:16:16
+SRL-000003,Evaluation Method,Best Value,Evaluation and Source Selection,Award Method,best value;most advantageous;price and other factors,0.92,active,2026-06-28 17:16:16
+SRL-000004,Evaluation Factor,Evaluation Factors,Evaluation and Source Selection,Evaluation Factor,evaluation factors,0.9,active,2026-06-28 17:16:16
+SRL-000005,Supplier Qualification,Past Performance,Supplier Eligibility and Qualifications,Supplier Evidence,past performance,0.88,active,2026-06-28 17:16:16
+SRL-000006,Proposal Structure,Proposal Volume,Submission and Proposal Management,Proposal Structure,proposal volume,0.88,active,2026-06-28 17:16:16
+SRL-000007,Submission Instruction,Solicitation Amendment,Submission and Proposal Management,Submission Compliance,solicitation amendment;amendment of solicitation;solicitation is amended;amendment acknowledgement,0.88,active,2026-06-28 17:16:16
+SRL-000008,Submission Instruction,Solicitation Amendment or Modification,Submission and Proposal Management,Submission Compliance,solicitation amendment or modification;solicitation modification;modification of contract,0.84,active,2026-06-28 17:16:16
+SRL-000009,Procurement Role,Contracting Officer,Acquisition Strategy,Procurement Role,contracting officer,0.9,active,2026-06-28 17:16:16
+SRL-000010,Procurement Role,Contracting Officer Representative,Acquisition Strategy,Procurement Role,contracting officer representative,0.9,active,2026-06-28 17:16:16
+SRL-000011,Pricing Structure,Unit Price,Commercial and Pricing,Pricing,unit price,0.9,active,2026-06-28 17:16:16
+SRL-000012,Pricing Structure,Price Schedule,Commercial and Pricing,Pricing,price schedule;pricing schedule,0.88,active,2026-06-28 17:16:16
+SRL-000013,Pricing Structure,Payment and Invoice,Commercial and Pricing,Payment Administration,payment and invoice;payment;invoice,0.82,active,2026-06-28 17:16:16
+SRL-000014,Technical Requirement,Performance Work Statement,Technical Requirements,Technical Requirement,performance work statement;pws,0.92,active,2026-06-28 17:16:16
+SRL-000015,Technical Requirement,Statement of Work,Technical Requirements,Technical Requirement,statement of work;sow,0.9,active,2026-06-28 17:16:16
+SRL-000016,Performance Requirement,Contractor Shall Requirement,Performance and Operations,Mandatory Performance Requirement,contractor shall;shall provide;shall submit,0.82,active,2026-06-28 17:16:16
+SRL-000017,Performance Requirement,Offeror Shall Requirement,Performance and Operations,Mandatory Offer Requirement,offeror shall;offerors shall,0.82,active,2026-06-28 17:16:16
+SRL-000018,Delivery Requirement,Place of Performance,Delivery and Logistics,Delivery Logistics,place of performance,0.9,active,2026-06-28 17:16:16
+SRL-000019,Delivery Requirement,FOB Destination,Delivery and Logistics,Delivery Logistics,fob destination,0.9,active,2026-06-28 17:16:16
+SRL-000020,Delivery Requirement,Delivery Location,Delivery and Logistics,Delivery Logistics,delivery location,0.86,active,2026-06-28 17:16:16
+SRL-000021,Acquisition Metadata,Solicitation Number,Acquisition Strategy,Acquisition Metadata,solicitation number,0.9,active,2026-06-28 17:16:16
+SRL-000022,Acquisition Metadata,Method of Solicitation,Acquisition Strategy,Acquisition Metadata,method of solicitation,0.88,active,2026-06-28 17:16:16
+SRL-000023,Acquisition Metadata,Request for Information,Acquisition Strategy,Market Research,request for information,0.9,active,2026-06-28 17:16:16
+SRL-000024,Acquisition Metadata,Request for Quotation,Acquisition Strategy,Solicitation Method,request for quotation,0.9,active,2026-06-28 17:16:16
+SRL-000025,Acquisition Metadata,Request for Proposal,Acquisition Strategy,Solicitation Method,request for proposal,0.9,active,2026-06-28 17:16:16
+SRL-000026,Acquisition Metadata,Invitation for Bid,Acquisition Strategy,Solicitation Method,invitation for bid,0.9,active,2026-06-28 17:16:16
+SRL-000027,Acquisition Metadata,Combined Synopsis Solicitation,Acquisition Strategy,Solicitation Method,combined synopsis solicitation;synopsis solicitation,0.86,active,2026-06-28 17:16:16
+SRL-000028,Supplier Qualification,System for Award Management,Supplier Eligibility and Qualifications,Supplier Registration,system for award management;sam registration,0.9,active,2026-06-28 17:16:16
+SRL-000029,Supplier Qualification,Unique Entity ID,Supplier Eligibility and Qualifications,Supplier Registration,unique entity id;uei,0.9,active,2026-06-28 17:16:16
+SRL-000030,Supplier Qualification,CAGE Code,Supplier Eligibility and Qualifications,Supplier Registration,cage code,0.9,active,2026-06-28 17:16:16
+SRL-000031,Supplier Qualification,Authorized Distributor,Supplier Eligibility and Qualifications,Supplier Authorization,authorized distributor,0.9,active,2026-06-28 17:16:16
+SRL-000032,Supplier Qualification,Manufacturer Authorization,Supplier Eligibility and Qualifications,Supplier Authorization,manufacturer authorization;oem authorization,0.88,active,2026-06-28 17:16:16
+SRL-000033,Compliance Requirement,Davis-Bacon Labor Compliance,"Legal, Compliance, and Labor",Labor Compliance,davis-bacon;davis-bacon labor compliance,0.92,active,2026-06-28 17:16:16
+SRL-000034,Compliance Requirement,Certified Payroll,"Legal, Compliance, and Labor",Labor Compliance,certified payroll,0.9,active,2026-06-28 17:16:16
+SRL-000035,Compliance Requirement,Protected Health Information,"Legal, Compliance, and Labor",Privacy Compliance,protected health information,0.9,active,2026-06-28 17:16:16
+SRL-000036,Document Structure Object,Table of Contents,Document Structure and Administrative Forms,Document Structure,table of contents,0.82,active,2026-06-28 17:16:16
+SRL-000037,Document Structure Object,SF-1449,Document Structure and Administrative Forms,Administrative Form,sf 1449;sf-1449,0.86,active,2026-06-28 17:16:16
+SRL-000038,Domain Specific Requirement,National Cemetery Operations,Domain-Specific Operations,Domain Requirement,national cemetery operations;national cemetery;cemetery operations,0.86,active,2026-06-28 17:16:16
+SRL-000039,Domain Specific Requirement,National Cemetery Administration,Domain-Specific Operations,Domain Metadata,national cemetery administration,0.82,active,2026-06-28 17:16:16
+SRL-000040,Supplier Qualification,Small Business Set-Aside,Supplier Eligibility and Qualifications,Socioeconomic Eligibility,small business set-aside;small business set aside,0.86,active,2026-06-28 17:16:16

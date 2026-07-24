@@ -1,0 +1,160 @@
+<urn:fpkg:node:KGNODE2-000001> <urn:fpkg:property:name> "Solicitation Amendment" .
+<urn:fpkg:node:KGNODE2-000001> <urn:fpkg:property:type> "Submission Instruction" .
+<urn:fpkg:node:KGNODE2-000001> <urn:fpkg:property:domain> "Submission and Proposal Management" .
+<urn:fpkg:node:KGNODE2-000001> <urn:fpkg:property:confidence> "0.902" .
+<urn:fpkg:node:KGNODE2-000002> <urn:fpkg:property:name> "National Cemetery Operations" .
+<urn:fpkg:node:KGNODE2-000002> <urn:fpkg:property:type> "Domain Specific Requirement" .
+<urn:fpkg:node:KGNODE2-000002> <urn:fpkg:property:domain> "Domain-Specific Operations" .
+<urn:fpkg:node:KGNODE2-000002> <urn:fpkg:property:confidence> "0.89" .
+<urn:fpkg:node:KGNODE2-000003> <urn:fpkg:property:name> "Firm Fixed Price" .
+<urn:fpkg:node:KGNODE2-000003> <urn:fpkg:property:type> "Contract Type" .
+<urn:fpkg:node:KGNODE2-000003> <urn:fpkg:property:domain> "Commercial and Pricing" .
+<urn:fpkg:node:KGNODE2-000003> <urn:fpkg:property:confidence> "0.84" .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:property:name> "Contracting Officer" .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:property:type> "Procurement Role" .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:property:confidence> "0.802" .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:property:name> "Performance Work Statement" .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:property:type> "Technical Requirement" .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:property:domain> "Technical Requirements" .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:property:confidence> "0.811" .
+<urn:fpkg:node:KGNODE2-000006> <urn:fpkg:property:name> "Award Basis" .
+<urn:fpkg:node:KGNODE2-000006> <urn:fpkg:property:type> "Evaluation Method" .
+<urn:fpkg:node:KGNODE2-000006> <urn:fpkg:property:domain> "Evaluation and Source Selection" .
+<urn:fpkg:node:KGNODE2-000006> <urn:fpkg:property:confidence> "0.82" .
+<urn:fpkg:node:KGNODE2-000007> <urn:fpkg:property:name> "Marine Corps Base Camp Lejeune" .
+<urn:fpkg:node:KGNODE2-000007> <urn:fpkg:property:type> "Military Installation" .
+<urn:fpkg:node:KGNODE2-000007> <urn:fpkg:property:domain> "Domain-Specific Operations" .
+<urn:fpkg:node:KGNODE2-000007> <urn:fpkg:property:confidence> "0.92" .
+<urn:fpkg:node:KGNODE2-000008> <urn:fpkg:property:name> "United States Army" .
+<urn:fpkg:node:KGNODE2-000008> <urn:fpkg:property:type> "Military Organization" .
+<urn:fpkg:node:KGNODE2-000008> <urn:fpkg:property:domain> "Domain-Specific Operations" .
+<urn:fpkg:node:KGNODE2-000008> <urn:fpkg:property:confidence> "0.82" .
+<urn:fpkg:node:KGNODE2-000009> <urn:fpkg:property:name> "United States Marine Corps" .
+<urn:fpkg:node:KGNODE2-000009> <urn:fpkg:property:type> "Military Organization" .
+<urn:fpkg:node:KGNODE2-000009> <urn:fpkg:property:domain> "Domain-Specific Operations" .
+<urn:fpkg:node:KGNODE2-000009> <urn:fpkg:property:confidence> "0.86" .
+<urn:fpkg:node:KGNODE2-000010> <urn:fpkg:property:name> "FAR and DOSAR Provisions" .
+<urn:fpkg:node:KGNODE2-000010> <urn:fpkg:property:type> "Regulation Set" .
+<urn:fpkg:node:KGNODE2-000010> <urn:fpkg:property:domain> "Legal, Compliance, and Labor" .
+<urn:fpkg:node:KGNODE2-000010> <urn:fpkg:property:confidence> "0.86" .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:property:name> "Food and Drug Administration" .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:property:type> "Federal Agency" .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:property:confidence> "0.92" .
+<urn:fpkg:node:KGNODE2-000012> <urn:fpkg:property:name> "Solicitation Number" .
+<urn:fpkg:node:KGNODE2-000012> <urn:fpkg:property:type> "Acquisition Metadata" .
+<urn:fpkg:node:KGNODE2-000012> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000012> <urn:fpkg:property:confidence> "0.777" .
+<urn:fpkg:node:KGNODE2-000013> <urn:fpkg:property:name> "Unit Price" .
+<urn:fpkg:node:KGNODE2-000013> <urn:fpkg:property:type> "Pricing Structure" .
+<urn:fpkg:node:KGNODE2-000013> <urn:fpkg:property:domain> "Commercial and Pricing" .
+<urn:fpkg:node:KGNODE2-000013> <urn:fpkg:property:confidence> "0.79" .
+<urn:fpkg:node:KGNODE2-000014> <urn:fpkg:property:name> "Evaluation Factors" .
+<urn:fpkg:node:KGNODE2-000014> <urn:fpkg:property:type> "Evaluation Factor" .
+<urn:fpkg:node:KGNODE2-000014> <urn:fpkg:property:domain> "Evaluation and Source Selection" .
+<urn:fpkg:node:KGNODE2-000014> <urn:fpkg:property:confidence> "0.74" .
+<urn:fpkg:node:KGNODE2-000015> <urn:fpkg:property:name> "Table of Contents" .
+<urn:fpkg:node:KGNODE2-000015> <urn:fpkg:property:type> "Document Structure Object" .
+<urn:fpkg:node:KGNODE2-000015> <urn:fpkg:property:domain> "Document Structure and Administrative Forms" .
+<urn:fpkg:node:KGNODE2-000015> <urn:fpkg:property:confidence> "0.704" .
+<urn:fpkg:node:KGNODE2-000016> <urn:fpkg:property:name> "Past Performance" .
+<urn:fpkg:node:KGNODE2-000016> <urn:fpkg:property:type> "Supplier Qualification" .
+<urn:fpkg:node:KGNODE2-000016> <urn:fpkg:property:domain> "Supplier Eligibility and Qualifications" .
+<urn:fpkg:node:KGNODE2-000016> <urn:fpkg:property:confidence> "0.734" .
+<urn:fpkg:node:KGNODE2-000017> <urn:fpkg:property:name> "Request for Information" .
+<urn:fpkg:node:KGNODE2-000017> <urn:fpkg:property:type> "Acquisition Metadata" .
+<urn:fpkg:node:KGNODE2-000017> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000017> <urn:fpkg:property:confidence> "0.761" .
+<urn:fpkg:node:KGNODE2-000018> <urn:fpkg:property:name> "Administrative Support and Clerical" .
+<urn:fpkg:node:KGNODE2-000018> <urn:fpkg:property:type> "Administrative Service Labor Category" .
+<urn:fpkg:node:KGNODE2-000018> <urn:fpkg:property:domain> "Performance and Operations" .
+<urn:fpkg:node:KGNODE2-000018> <urn:fpkg:property:confidence> "0.76" .
+<urn:fpkg:node:KGNODE2-000019> <urn:fpkg:property:name> "Proposal Volume" .
+<urn:fpkg:node:KGNODE2-000019> <urn:fpkg:property:type> "Proposal Structure" .
+<urn:fpkg:node:KGNODE2-000019> <urn:fpkg:property:domain> "Submission and Proposal Management" .
+<urn:fpkg:node:KGNODE2-000019> <urn:fpkg:property:confidence> "0.719" .
+<urn:fpkg:node:KGNODE2-000020> <urn:fpkg:property:name> "Combined Synopsis Solicitation" .
+<urn:fpkg:node:KGNODE2-000020> <urn:fpkg:property:type> "Acquisition Metadata" .
+<urn:fpkg:node:KGNODE2-000020> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000020> <urn:fpkg:property:confidence> "0.769" .
+<urn:fpkg:node:KGNODE2-000021> <urn:fpkg:property:name> "Small Business Set-Aside" .
+<urn:fpkg:node:KGNODE2-000021> <urn:fpkg:property:type> "Supplier Qualification" .
+<urn:fpkg:node:KGNODE2-000021> <urn:fpkg:property:domain> "Supplier Eligibility and Qualifications" .
+<urn:fpkg:node:KGNODE2-000021> <urn:fpkg:property:confidence> "0.706" .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:property:name> "Place of Performance" .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:property:type> "Delivery Requirement" .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:property:domain> "Delivery and Logistics" .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:property:confidence> "0.74" .
+<urn:fpkg:node:KGNODE2-000023> <urn:fpkg:property:name> "Method of Solicitation" .
+<urn:fpkg:node:KGNODE2-000023> <urn:fpkg:property:type> "Acquisition Metadata" .
+<urn:fpkg:node:KGNODE2-000023> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000023> <urn:fpkg:property:confidence> "0.718" .
+<urn:fpkg:node:KGNODE2-000024> <urn:fpkg:property:name> "Request for Proposal" .
+<urn:fpkg:node:KGNODE2-000024> <urn:fpkg:property:type> "Acquisition Metadata" .
+<urn:fpkg:node:KGNODE2-000024> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000024> <urn:fpkg:property:confidence> "0.743" .
+<urn:fpkg:node:KGNODE2-000025> <urn:fpkg:property:name> "Statement of Work" .
+<urn:fpkg:node:KGNODE2-000025> <urn:fpkg:property:type> "Technical Requirement" .
+<urn:fpkg:node:KGNODE2-000025> <urn:fpkg:property:domain> "Technical Requirements" .
+<urn:fpkg:node:KGNODE2-000025> <urn:fpkg:property:confidence> "0.727" .
+<urn:fpkg:node:KGNODE2-000026> <urn:fpkg:property:name> "Amendment Copy Requirement" .
+<urn:fpkg:node:KGNODE2-000026> <urn:fpkg:property:type> "Procurement Document Artifact" .
+<urn:fpkg:node:KGNODE2-000026> <urn:fpkg:property:domain> "Document Structure and Administrative Forms" .
+<urn:fpkg:node:KGNODE2-000026> <urn:fpkg:property:confidence> "0.78" .
+<urn:fpkg:node:KGNODE2-000027> <urn:fpkg:property:name> "Proposal Default Index" .
+<urn:fpkg:node:KGNODE2-000027> <urn:fpkg:property:type> "Proposal Document Artifact" .
+<urn:fpkg:node:KGNODE2-000027> <urn:fpkg:property:domain> "Document Structure and Administrative Forms" .
+<urn:fpkg:node:KGNODE2-000027> <urn:fpkg:property:confidence> "0.72" .
+<urn:fpkg:node:KGNODE2-000028> <urn:fpkg:property:name> "Request for Quotation" .
+<urn:fpkg:node:KGNODE2-000028> <urn:fpkg:property:type> "Acquisition Metadata" .
+<urn:fpkg:node:KGNODE2-000028> <urn:fpkg:property:domain> "Acquisition Strategy" .
+<urn:fpkg:node:KGNODE2-000028> <urn:fpkg:property:confidence> "0.712" .
+<urn:fpkg:node:KGNODE2-000029> <urn:fpkg:property:name> "Payment and Invoice" .
+<urn:fpkg:node:KGNODE2-000029> <urn:fpkg:property:type> "Pricing Structure" .
+<urn:fpkg:node:KGNODE2-000029> <urn:fpkg:property:domain> "Commercial and Pricing" .
+<urn:fpkg:node:KGNODE2-000029> <urn:fpkg:property:confidence> "0.701" .
+<urn:fpkg:node:KGNODE2-000003> <urn:fpkg:relationship:has_pricing_structure> <urn:fpkg:node:KGNODE2-000013> .
+<urn:fpkg:node:KGNODE2-000003> <urn:fpkg:relationship:has_pricing_structure> <urn:fpkg:node:KGNODE2-000029> .
+<urn:fpkg:node:KGNODE2-000006> <urn:fpkg:relationship:uses_evaluation_factor> <urn:fpkg:node:KGNODE2-000014> .
+<urn:fpkg:node:KGNODE2-000019> <urn:fpkg:relationship:requires_submission_instruction> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:relationship:requires_supplier_capability> <urn:fpkg:node:KGNODE2-000016> .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:relationship:requires_supplier_capability> <urn:fpkg:node:KGNODE2-000021> .
+<urn:fpkg:node:KGNODE2-000025> <urn:fpkg:relationship:requires_supplier_capability> <urn:fpkg:node:KGNODE2-000016> .
+<urn:fpkg:node:KGNODE2-000025> <urn:fpkg:relationship:requires_supplier_capability> <urn:fpkg:node:KGNODE2-000021> .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:relationship:affects_price> <urn:fpkg:node:KGNODE2-000013> .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:relationship:affects_price> <urn:fpkg:node:KGNODE2-000029> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:issues_or_receives> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000012> <urn:fpkg:relationship:shapes_source_selection> <urn:fpkg:node:KGNODE2-000006> .
+<urn:fpkg:node:KGNODE2-000017> <urn:fpkg:relationship:shapes_source_selection> <urn:fpkg:node:KGNODE2-000006> .
+<urn:fpkg:node:KGNODE2-000020> <urn:fpkg:relationship:shapes_source_selection> <urn:fpkg:node:KGNODE2-000006> .
+<urn:fpkg:node:KGNODE2-000023> <urn:fpkg:relationship:shapes_source_selection> <urn:fpkg:node:KGNODE2-000006> .
+<urn:fpkg:node:KGNODE2-000024> <urn:fpkg:relationship:shapes_source_selection> <urn:fpkg:node:KGNODE2-000006> .
+<urn:fpkg:node:KGNODE2-000028> <urn:fpkg:relationship:shapes_source_selection> <urn:fpkg:node:KGNODE2-000006> .
+<urn:fpkg:node:KGNODE2-000002> <urn:fpkg:relationship:specializes_requirement> <urn:fpkg:node:KGNODE2-000005> .
+<urn:fpkg:node:KGNODE2-000002> <urn:fpkg:relationship:specializes_requirement> <urn:fpkg:node:KGNODE2-000025> .
+<urn:fpkg:node:KGNODE2-000012> <urn:fpkg:relationship:defines_submission_context> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000017> <urn:fpkg:relationship:defines_submission_context> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000020> <urn:fpkg:relationship:defines_submission_context> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000023> <urn:fpkg:relationship:defines_submission_context> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000024> <urn:fpkg:relationship:defines_submission_context> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000028> <urn:fpkg:relationship:defines_submission_context> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:relationship:affects_pricing> <urn:fpkg:node:KGNODE2-000013> .
+<urn:fpkg:node:KGNODE2-000022> <urn:fpkg:relationship:affects_pricing> <urn:fpkg:node:KGNODE2-000029> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:administers_acquisition> <urn:fpkg:node:KGNODE2-000012> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:administers_acquisition> <urn:fpkg:node:KGNODE2-000017> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:administers_acquisition> <urn:fpkg:node:KGNODE2-000020> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:administers_acquisition> <urn:fpkg:node:KGNODE2-000023> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:administers_acquisition> <urn:fpkg:node:KGNODE2-000024> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:administers_acquisition> <urn:fpkg:node:KGNODE2-000028> .
+<urn:fpkg:node:KGNODE2-000004> <urn:fpkg:relationship:issues_or_receives_submission_instruction> <urn:fpkg:node:KGNODE2-000001> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:uses_acquisition_method> <urn:fpkg:node:KGNODE2-000012> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:uses_acquisition_method> <urn:fpkg:node:KGNODE2-000017> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:uses_acquisition_method> <urn:fpkg:node:KGNODE2-000020> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:uses_acquisition_method> <urn:fpkg:node:KGNODE2-000023> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:uses_acquisition_method> <urn:fpkg:node:KGNODE2-000024> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:uses_acquisition_method> <urn:fpkg:node:KGNODE2-000028> .
+<urn:fpkg:node:KGNODE2-000011> <urn:fpkg:relationship:has_domain_requirement> <urn:fpkg:node:KGNODE2-000002> .
+<urn:fpkg:node:KGNODE2-000007> <urn:fpkg:relationship:may_define_place_of_performance> <urn:fpkg:node:KGNODE2-000022> .
+<urn:fpkg:node:KGNODE2-000006> <urn:fpkg:relationship:may_result_in_contract_type> <urn:fpkg:node:KGNODE2-000003> .
+<urn:fpkg:node:KGNODE2-000005> <urn:fpkg:relationship:specializes> <urn:fpkg:node:KGNODE2-000025> .

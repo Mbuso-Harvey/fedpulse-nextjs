@@ -1,0 +1,13 @@
+metric_id,metric_name,metric_value,created_at
+KGMET-000001,node_count,29,2026-06-29 11:35:33
+KGMET-000002,edge_count,44,2026-06-29 11:35:33
+KGMET-000003,graph_density,0.0542,2026-06-29 11:35:33
+KGMET-000004,connected_components,8,2026-06-29 11:35:33
+KGMET-000005,largest_component_size,22,2026-06-29 11:35:33
+KGMET-000006,average_degree,3.034,2026-06-29 11:35:33
+KGMET-000007,max_degree,9,2026-06-29 11:35:33
+KGMET-000008,min_degree,0,2026-06-29 11:35:33
+KGMET-000009,weak_edges_below_0_65,1,2026-06-29 11:35:33
+KGMET-000010,medium_edges_0_65_to_0_75,42,2026-06-29 11:35:33
+KGMET-000011,strong_edges_0_75_plus,1,2026-06-29 11:35:33
+KGMET-000012,reciprocal_cycle_candidates,0,2026-06-29 11:35:33

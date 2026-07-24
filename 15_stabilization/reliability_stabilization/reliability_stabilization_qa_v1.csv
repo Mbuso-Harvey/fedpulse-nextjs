@@ -1,0 +1,9 @@
+qa_id,metric,value,target,status,created_at
+RELQA-000001,session_rows,1,1,pass,2026-07-08 11:45:11
+RELQA-000002,artifact_rows,10,10,pass,2026-07-08 11:45:11
+RELQA-000003,missing_artifacts,0,0,pass,2026-07-08 11:45:11
+RELQA-000004,check_rows,10,10,pass,2026-07-08 11:45:11
+RELQA-000005,checks_fail,0,0,pass,2026-07-08 11:45:11
+RELQA-000006,critical_failures,0,0,pass,2026-07-08 11:45:11
+RELQA-000007,control_rows,5,5,pass,2026-07-08 11:45:11
+RELQA-000008,reliability_gate,reliability_stabilized,reliability_stabilized,pass,2026-07-08 11:45:11

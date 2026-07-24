@@ -1,0 +1,9 @@
+action_id,priority,title,rationale,created_at
+ACTION-000001,critical,Proceed with structured bid qualification,Overall assessment supports continued pursuit.,2026-07-02 11:39:40
+ACTION-000002,critical,Build proposal compliance matrix,Map every technical requirement to proposal evidence.,2026-07-02 11:39:40
+ACTION-000003,critical,Validate pricing assumptions,"Review commercial structure, delivery assumptions and margin.",2026-07-02 11:39:40
+ACTION-000004,high,Strengthen compliance evidence,Review FAR/DOSAR and supporting compliance documentation.,2026-07-02 11:39:40
+ACTION-000005,high,Review buyer acquisition behaviour,Tailor capture strategy to department buying patterns.,2026-07-02 11:39:40
+ACTION-000006,medium,Reuse similar opportunity knowledge,Leverage historical similarity results where appropriate.,2026-07-02 11:39:40
+ACTION-000007,medium,Review graph intelligence,Use graph analytics to identify influential procurement concepts.,2026-07-02 11:39:40
+ACTION-000008,medium,Prepare executive bid review,Present analyst findings before bid approval.,2026-07-02 11:39:40

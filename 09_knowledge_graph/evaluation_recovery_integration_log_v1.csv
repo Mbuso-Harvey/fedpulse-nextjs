@@ -1,0 +1,5 @@
+integration_id,opportunity_title,old_framework_type,new_framework_type,old_confidence,new_confidence,recovered_signals,evidence
+INTEG-000001,EcoStruxure Panel Server Advanced (EnerlinX Series),Unknown,LPTA,0.25,0.8,LPTA,"An award will be made based on the lowest priced, technically acceptable proposal."
+INTEG-000002,EcoStruxure Panel Server Wired by Design (a universal concentrator Modbus gateway),Unknown,LPTA,0.25,0.8,LPTA,"An award will be made based on the lowest priced, technically acceptable proposal."
+INTEG-000003,JSCG-P Cristobal Colon Base Life Support,LPTA,LPTA,0.98,0.98,Award Basis,52.212-2 - EVALUATION--COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (NOV 2021) Basis for Award.
+INTEG-000004,Shade Structure Canopy,Best Value,Best Value,0.5,0.8,Best Value,“Award will be made to the offeror who represents the best value to the

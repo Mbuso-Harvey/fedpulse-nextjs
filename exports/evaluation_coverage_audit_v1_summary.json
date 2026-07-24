@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-24 13:42:26",
+  "notices_audited": 26,
+  "coverage_status_counts": {
+    "extraction_gap": 9,
+    "partial_coverage": 2,
+    "source_gap_or_not_sampled": 13,
+    "strong_coverage": 2
+  },
+  "outputs": {
+    "audit_csv": "C:\\ProcurementIntelligence\\09_knowledge_graph\\evaluation_coverage_audit_v1.csv",
+    "report": "C:\\ProcurementIntelligence\\exports\\evaluation_coverage_audit_report_v1.md"
+  },
+  "next_sprint": "SAM-0007T Evaluation Evidence Recovery Engine"
+}
