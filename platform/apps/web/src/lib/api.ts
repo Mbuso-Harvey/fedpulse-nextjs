@@ -3,6 +3,51 @@ import { Contract, DepartmentProfile, SupplierProfile, CaptureItem } from './typ
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 
+// Add the missing functions
+export async function fetchRenewals(params: any = {}) {
+  try {
+    const response = await fetch(`${API_URL}/renewals`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(params)
+    });
+    if (!response.ok) return { error: true };
+    return await response.json();
+  } catch (err) {
+    return { error: true };
+  }
+}
+
+export async function fetchRenewalStats() {
+  try {
+    const response = await fetch(`${API_URL}/renewals/stats`);
+    if (!response.ok) return { error: true };
+    return await response.json();
+  } catch (err) {
+    return { error: true };
+  }
+}
+
+export async function fetchRenewalDepartments() {
+  try {
+    const response = await fetch(`${API_URL}/renewals/departments`);
+    if (!response.ok) return { error: true };
+    return await response.json();
+  } catch (err) {
+    return { error: true };
+  }
+}
+
+export async function fetchRenewalSuppliers() {
+  try {
+    const response = await fetch(`${API_URL}/renewals/suppliers`);
+    if (!response.ok) return { error: true };
+    return await response.json();
+  } catch (err) {
+    return { error: true };
+  }
+}
+
 export function useContracts() {
   const [data, setData] = useState<Contract[]>([]);
   const [loading, setLoading] = useState(true);
@@ -60,7 +105,7 @@ export function useDepartments() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    async function fetchDepartments() {
+    async function fetchDepartmentsData() {
       try {
         const response = await fetch(`${API_URL}/renewals/departments`);
         if (!response.ok) throw new Error('Failed to fetch departments');
@@ -87,7 +132,7 @@ export function useDepartments() {
       }
     }
     
-    fetchDepartments();
+    fetchDepartmentsData();
   }, []);
 
   return { data, loading, error };
@@ -99,7 +144,7 @@ export function useSuppliers() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    async function fetchSuppliers() {
+    async function fetchSuppliersData() {
       try {
         const response = await fetch(`${API_URL}/renewals/suppliers`);
         if (!response.ok) throw new Error('Failed to fetch suppliers');
@@ -128,7 +173,7 @@ export function useSuppliers() {
       }
     }
     
-    fetchSuppliers();
+    fetchSuppliersData();
   }, []);
 
   return { data, loading, error };
@@ -159,3 +204,16 @@ export function usePipeline() {
   return { data, loading, error };
 }
 
+export async function createCheckoutSession(tier: string, priceId: string) {
+  try {
+    const response = await fetch(`${API_URL}/checkout`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ tier, priceId })
+    });
+    if (!response.ok) return { error: true };
+    return await response.json();
+  } catch (err) {
+    return { error: true };
+  }
+}
