@@ -4,8 +4,10 @@ import { MOCK_CONTRACTS } from '@/lib/mockData';
 import { Contract } from '@/lib/types';
 import { 
   Sparkles, Bot, CheckCircle2, AlertTriangle, ArrowRight, Loader2, 
-  RefreshCw, Send, ShieldCheck, Target, Copy, Check, FileDown, Bookmark, Share2, CornerDownRight
+  RefreshCw, Send, ShieldCheck, Target, Copy, Check, FileDown, Bookmark, Share2, CornerDownRight, Lock
 } from 'lucide-react';
+import { createClient } from '@/lib/supabase/client';
+import Link from 'next/link';
 
 interface AiAnalystViewProps {
   initialContract?: Contract | null;
@@ -32,6 +34,22 @@ export const AiAnalystView: React.FC<AiAnalystViewProps> = ({ initialContract })
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [saved, setSaved] = useState(false);
+  
+  const [isPremium, setIsPremium] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    async function checkPremium() {
+      const supabase = createClient();
+      const { data: { user } } = await supabase.auth.getUser();
+      if (user) {
+        const tier = user.user_metadata?.subscription_tier;
+        setIsPremium(tier === 'professional' || tier === 'team' || tier === 'pro');
+      } else {
+        setIsPremium(false);
+      }
+    }
+    checkPremium();
+  }, []);
 
   // Sync state if initialContract updates
   useEffect(() => {
@@ -193,6 +211,30 @@ export const AiAnalystView: React.FC<AiAnalystViewProps> = ({ initialContract })
             ))}
           </div>
         </div>
+
+        {/* Access Gate */}
+        {isPremium === false && (
+          <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center rounded-2xl">
+            <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl max-w-md text-center shadow-2xl relative overflow-hidden">
+              <div className="absolute -top-24 -right-24 w-48 h-48 bg-rose-500/20 blur-3xl rounded-full" />
+              <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-blue-500/20 blur-3xl rounded-full" />
+              
+              <div className="relative z-10">
+                <div className="w-16 h-16 bg-slate-800 rounded-2xl flex items-center justify-center mx-auto mb-6 border border-slate-700 shadow-inner">
+                  <Lock className="w-8 h-8 text-rose-400" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Premium Feature</h3>
+                <p className="text-slate-400 mb-8">
+                  The AI Strategy Analyst requires a Procurement Pro subscription. Upgrade your account to unlock predictive intelligence and automated proposal strategies.
+                </p>
+                <Link href="/dashboard/pricing" className="bg-gradient-to-r from-rose-500 to-orange-500 text-white font-medium px-8 py-3 rounded-xl hover:shadow-lg hover:shadow-rose-500/25 transition-all w-full flex justify-center items-center gap-2">
+                  <Sparkles className="w-4 h-4" />
+                  Upgrade to Pro
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Split-Pane Design (Left: 35%, Right: 65%) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">

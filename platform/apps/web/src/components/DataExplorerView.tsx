@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useCallback } from 'react';
 import { Contract } from '@/lib/types';
-import { DEPARTMENT_STATS } from '@/lib/mockData';
+import { useContracts, useDepartments } from '@/lib/api';
 import { 
   Search, Filter, ArrowUpDown, Sparkles, Building2, Radio, 
   ChevronRight, FileSpreadsheet, Loader2, ChevronLeft, ChevronRight as ChevronRightIcon,
@@ -17,6 +17,9 @@ export const DataExplorerView: React.FC<DataExplorerViewProps> = ({
   onSelectContract,
   onRunAiAnalyst,
 }) => {
+  const { data: allContracts, loading: contractsLoading } = useContracts();
+  const { data: DEPARTMENT_STATS, loading: deptsLoading } = useDepartments();
+
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [selectedDept, setSelectedDept] = useState('ALL');
@@ -49,30 +52,57 @@ export const DataExplorerView: React.FC<DataExplorerViewProps> = ({
     setError(null);
 
     try {
-      const queryParams = new URLSearchParams({
-        search: debouncedSearch,
-        dept: selectedDept,
-        risk: selectedRisk,
-        sortBy,
-        order: sortOrder,
-        page: page.toString(),
-        limit: limit.toString(),
-      });
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
+      const requestBody = {
+        page: page,
+        page_size: limit,
+        sort_by: sortBy === 'days' ? 'days_until_end' : sortBy === 'value' ? 'clean_contract_value' : 'win_probability',
+        sort_order: sortOrder,
+        filters: {
+          department: selectedDept === 'ALL' ? undefined : selectedDept,
+          supplier: undefined,
+          category: undefined
+        }
+      };
 
-      const res = await fetch(`/api/contracts?${queryParams.toString()}`);
+      const res = await fetch(`${API_URL}/renewals`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(requestBody)
+      });
+      
       if (!res.ok) {
         throw new Error(`Server returned ${res.status}: Failed to load contracts`);
       }
 
       const data = await res.json();
-      setContracts(data.contracts || []);
-      setTotal(data.total || 0);
-      setTotalPages(data.totalPages || 1);
+      
+      const formatted: Contract[] = (data.data || []).map((item: any) => ({
+        id: item.contract_id || item.contract_number,
+        referenceNumber: item.reference_number || '',
+        title: item.title || 'Untitled Contract',
+        department: item.buyer_department || 'Unknown Department',
+        subAgency: 'N/A',
+        incumbent: item.supplier_master_name || 'Unknown Supplier',
+        value: item.clean_contract_value || 0,
+        expirationDate: item.contract_end_date || '',
+        daysLeft: item.days_until_end || 0,
+        status: 'Active',
+        naicsCode: item.unspsc_code || '',
+        setAside: 'None',
+        description: item.description || '',
+        rfpReference: item.solicitation_number || '',
+        category: item.procurement_category || 'General',
+        expiryDate: item.clean_contract_end_date || item.contract_end_date || '',
+      }));
+
+      setContracts(formatted);
+      setTotal(data.total_count || 0);
+      setTotalPages(Math.ceil((data.total_count || 0) / limit) || 1);
       if (data.stats) {
         setStats(data.stats);
       }
     } catch (err: any) {
-      console.error(err);
       setError(err?.message || 'Error connecting to procurement dataset server');
     } finally {
       setLoading(false);
@@ -282,7 +312,7 @@ export const DataExplorerView: React.FC<DataExplorerViewProps> = ({
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs border-collapse">
                 <thead>
-                  <tr className="bg-slate-50/90 border-b border-[#e6ebf1] text-slate-500 uppercase tracking-wider font-bold">
+                  <tr className="border-b border-[#e6ebf1] font-bold text-[#0a2540] text-sm">
                     <th className="py-4 px-5">Contract Opportunity</th>
                     <th className="py-4 px-5">Department</th>
                     <th className="py-4 px-5">Incumbent Vendor</th>
@@ -360,10 +390,10 @@ export const DataExplorerView: React.FC<DataExplorerViewProps> = ({
                           <td className="py-4 px-5">
                             <div 
                               onClick={() => onSelectContract(c)}
-                              className="font-bold text-[#0a2540] group-hover:text-[#635bff] cursor-pointer flex items-center space-x-1.5"
+                              className="font-semibold text-[#635bff] hover:opacity-80 cursor-pointer flex items-center space-x-1.5"
                             >
                               <span className="text-sm">{c.title}</span>
-                              <ChevronRight className="w-4 h-4 text-slate-300 opacity-0 group-hover:opacity-100 transition-opacity" />
+                              <ChevronRight className="w-4 h-4 text-[#635bff] opacity-0 group-hover:opacity-100 transition-opacity" />
                             </div>
                             <div className="flex items-center space-x-2 mt-1">
                               <span className="text-[11px] font-mono text-slate-400">{c.rfpReference}</span>
@@ -392,17 +422,17 @@ export const DataExplorerView: React.FC<DataExplorerViewProps> = ({
                           <td className="py-4 px-5">
                             <div className="flex items-center space-x-2">
                               <span
-                                className={`inline-flex items-center px-2.5 py-1 rounded-md text-xs font-bold ${
+                                className={`text-sm font-bold ${
                                   isUrgent
-                                    ? 'bg-rose-50 text-rose-600 border border-rose-100'
+                                    ? 'text-rose-600'
                                     : isWarning
-                                    ? 'bg-amber-50 text-amber-600 border border-amber-100'
-                                    : 'bg-slate-100 text-slate-600 border border-slate-200'
+                                    ? 'text-amber-600'
+                                    : 'text-slate-600'
                                 }`}
                               >
-                                {c.daysLeft} days left
+                                {c.daysLeft}
                               </span>
-                              <span className="text-[11px] text-slate-400 font-mono">
+                              <span className="text-[11px] text-slate-400 font-mono hidden lg:inline">
                                 ({c.expiryDate})
                               </span>
                             </div>

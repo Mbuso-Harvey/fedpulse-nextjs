@@ -13,9 +13,9 @@ export default function LandingPage() {
       <header className="fixed top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-xl transition-all shadow-sm">
         <div className="container flex h-16 max-w-7xl mx-auto px-6 items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="text-xl font-bold tracking-tight text-[#0a2540]">
+            <Link href="/" className="text-xl font-bold tracking-tight text-[#0a2540] hover:opacity-80 transition-opacity">
               FedPulse
-            </span>
+            </Link>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="#products" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Products</Link>

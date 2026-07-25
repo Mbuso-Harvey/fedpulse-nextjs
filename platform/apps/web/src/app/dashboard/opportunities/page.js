@@ -28,7 +28,8 @@ export default function OpportunitiesPage() {
       
       setLoading(true);
       try {
-        const res = await fetch(`https://fedpulse-api-production.up.railway.app/api/v1/renewals`, {
+        const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
+        const res = await fetch(`${API_URL}/renewals`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

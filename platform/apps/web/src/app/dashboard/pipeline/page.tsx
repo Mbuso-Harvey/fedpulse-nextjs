@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CAPTURE_PIPELINE_ITEMS } from "@/lib/mockData"
+import { usePipeline } from "@/lib/api"
 import { DollarSign, Clock, Users, Target, Building2, MoreHorizontal } from 'lucide-react';
 
 const formatCurrency = (value: number) => {
@@ -25,7 +25,9 @@ const STAGES = [
 ];
 
 export default function PipelinePage() {
-  const [items, setItems] = useState(CAPTURE_PIPELINE_ITEMS);
+  const { data: items, loading, error } = usePipeline();
+
+  if (loading) return <div className="p-8 text-slate-400">Loading pipeline...</div>;
 
   return (
     <SidebarProvider

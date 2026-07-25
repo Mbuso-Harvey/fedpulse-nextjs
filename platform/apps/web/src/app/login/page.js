@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Mail, Loader2, ArrowRight } from 'lucide-react';
-import { isAuthEnabled } from '@/lib/supabase';
+import { createClient } from '@/lib/supabase/client';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -25,22 +25,22 @@ export default function LoginPage() {
     setLoading(true);
     
     try {
-      if (!isAuthEnabled()) {
-        setTimeout(() => {
-          setLoading(false);
-          setMessage('Check your email for the magic link!');
-        }, 1000);
-        return;
-      }
-      
-      // Simulate magic link sending
-      setTimeout(() => {
-        setLoading(false);
+      const supabase = createClient();
+      const { error } = await supabase.auth.signInWithOtp({
+        email,
+        options: {
+          emailRedirectTo: `${window.location.origin}/api/auth/callback`,
+        },
+      });
+
+      if (error) {
+        setError(error.message);
+      } else {
         setMessage('Check your email for the magic link!');
-      }, 1000);
-      
+      }
     } catch (err) {
       setError('An unexpected error occurred');
+    } finally {
       setLoading(false);
     }
   };

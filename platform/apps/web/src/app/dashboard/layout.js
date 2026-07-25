@@ -53,10 +53,9 @@ export default function DashboardLayout({ children }) {
       {/* Sidebar Desktop */}
       <aside className={`hidden md:flex flex-col border-r border-border bg-white transition-all duration-300 ${isCollapsed ? 'w-16' : 'w-64'}`}>
         <div className="h-14 flex items-center border-b border-border px-4 justify-between">
-          <div className="font-bold text-lg tracking-tight truncate bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+          <div className="font-bold text-lg tracking-tight truncate text-[#0a2540]">
             {isCollapsed ? 'F' : 'FedPulse'}
           </div>
-          {!isCollapsed && <div className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">v2.0</div>}
         </div>
         
         <div className="flex-1 overflow-y-auto py-4 custom-scrollbar">

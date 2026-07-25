@@ -1,14 +1,50 @@
 'use client';
 
-import { useState } from 'react';
 import { GitCompare, Check, TrendingUp, DollarSign, FileText, Star } from 'lucide-react';
+import { useDepartments } from '@/lib/api';
+import { Skeleton } from "@/components/ui/skeleton";
 
 export default function ComparePage() {
   const [tab, setTab] = useState('departments');
+  const { data: depts, loading } = useDepartments();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-slate-950 p-8">
+        <div className="max-w-5xl mx-auto space-y-12">
+          <div className="flex justify-center"><Skeleton className="h-20 w-48 rounded-3xl" /></div>
+          <div className="grid grid-cols-2 gap-8">
+            <Skeleton className="h-64 w-full rounded-2xl" />
+            <Skeleton className="h-64 w-full rounded-2xl" />
+          </div>
+          <div className="space-y-4">
+            <Skeleton className="h-16 w-full rounded-xl" />
+            <Skeleton className="h-16 w-full rounded-xl" />
+            <Skeleton className="h-16 w-full rounded-xl" />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const deptA = depts.length > 0 ? depts[0] : null;
+  const deptB = depts.length > 1 ? depts[1] : null;
 
   const mockData = {
-    entityA: { name: 'Department of Defense', spend: '$412B', contracts: '89,234', avgValue: '$4.6M', topCategory: 'Defense & Aerospace' },
-    entityB: { name: 'Department of Homeland Security', spend: '$92B', contracts: '21,405', avgValue: '$4.2M', topCategory: 'IT Services' }
+    entityA: { 
+      name: deptA?.name || 'Department of Defense', 
+      spend: deptA ? `$${(deptA.totalValue / 1000000000).toFixed(1)}B` : '$412B', 
+      contracts: deptA?.contractCount?.toString() || '89,234', 
+      avgValue: '$4.6M', 
+      topCategory: 'Defense & Aerospace' 
+    },
+    entityB: { 
+      name: deptB?.name || 'Department of Homeland Security', 
+      spend: deptB ? `$${(deptB.totalValue / 1000000000).toFixed(1)}B` : '$92B', 
+      contracts: deptB?.contractCount?.toString() || '21,405', 
+      avgValue: '$4.2M', 
+      topCategory: 'IT Services' 
+    }
   };
 
   const metrics = [

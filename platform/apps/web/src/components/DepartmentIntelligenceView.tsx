@@ -1,10 +1,11 @@
 "use client";
 import React, { useState } from 'react';
-import { DEPARTMENTS as DEPARTMENT_STATS, EXPIRING_CONTRACTS as MOCK_CONTRACTS } from '@/lib/mockData';
-import { Contract, DepartmentStat } from '@/lib/types';
+import { Card, CardContent } from "@/components/ui/card"
+import { Skeleton } from "@/components/ui/skeleton"
+import { Contract, DepartmentProfile } from '@/lib/types';
+import { useContracts, useDepartments } from '@/lib/api';
 import { 
-  Building2, DollarSign, ArrowLeft, ArrowUpRight, TrendingUp, Sparkles, 
-  Calendar, ShieldAlert, ChevronRight, BarChart3, FileText, CheckCircle2
+  Building2, ArrowLeft, ArrowUpRight, BarChart3, Sparkles, Download
 } from 'lucide-react';
 
 interface DepartmentIntelligenceViewProps {
@@ -16,7 +17,34 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
   onSelectContract,
   onRunAiAnalyst,
 }) => {
-  const [selectedDept, setSelectedDept] = useState<DepartmentStat | null>(null);
+  const [selectedDept, setSelectedDept] = useState<DepartmentProfile | null>(null);
+  const { data: MOCK_CONTRACTS, loading: contractsLoading } = useContracts();
+  const { data: DEPARTMENT_STATS, loading: deptsLoading } = useDepartments();
+
+  if (contractsLoading || deptsLoading) {
+    return (
+      <div className="space-y-6 p-8">
+        <div className="flex gap-4">
+          <Skeleton className="h-10 w-48" />
+          <Skeleton className="h-10 w-32" />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[1, 2, 3].map(i => (
+            <Card key={i} className="border-slate-200">
+              <CardContent className="p-6">
+                <Skeleton className="h-6 w-3/4 mb-4" />
+                <Skeleton className="h-8 w-1/2 mb-6" />
+                <div className="space-y-2">
+                  <Skeleton className="h-4 w-full" />
+                  <Skeleton className="h-4 w-4/5" />
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   // Filter mock contracts for selected department
   const deptContracts = selectedDept
@@ -26,17 +54,32 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
       )
     : [];
 
-  // Fallback to all mock contracts if none match specific filter
   const displayContracts = deptContracts.length > 0 ? deptContracts : MOCK_CONTRACTS.slice(0, 4);
 
-  // Mock annual renewal volume data for chart
   const renewalChartData = [
     { year: '2023', val: '$820M', height: '40%' },
     { year: '2024', val: '$1.1B', height: '60%' },
     { year: '2025', val: '$1.4B', height: '75%' },
-    { year: '2026 (Peak)', val: selectedDept ? selectedDept.totalValue : '$1.8B', height: '100%', active: true },
+    { year: '2026 (Peak)', val: selectedDept ? `$${(selectedDept.totalValue / 1000000000).toFixed(1)}B` : '$1.8B', height: '100%', active: true },
     { year: '2027', val: '$650M', height: '35%' },
   ];
+
+  // Max value for progress bars
+  const maxDeptValue = Math.max(...DEPARTMENT_STATS.map(d => d.totalValue));
+
+  const formatCurrency = (val: number) => {
+    if (val >= 1000000000) return `$${(val / 1000000000).toFixed(1)}B`;
+    if (val >= 1000000) return `$${(val / 1000000).toFixed(1)}M`;
+    return `$${val.toLocaleString()}`;
+  };
+
+  const getMonopolyIndex = (dept: DepartmentProfile) => {
+    // Sum the market share of the top 3 suppliers
+    const concentration = dept.topSuppliers.slice(0, 3).reduce((sum, s) => sum + s.share, 0);
+    if (concentration > 50) return { label: 'High (Monopolized)', color: 'text-rose-600 bg-rose-50 border-rose-100', val: concentration };
+    if (concentration > 30) return { label: 'Medium (Concentrated)', color: 'text-amber-600 bg-amber-50 border-amber-100', val: concentration };
+    return { label: 'Low (Fragmented)', color: 'text-emerald-600 bg-emerald-50 border-emerald-100', val: concentration };
+  };
 
   return (
     <div className="py-8 bg-[#f6f9fc] min-h-screen">
@@ -52,7 +95,7 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
                 className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 text-xs font-bold mb-4 transition-colors cursor-pointer"
               >
                 <ArrowLeft className="w-4 h-4 text-slate-500" />
-                <span>Back to All Federal Departments</span>
+                <span>Back to Market Data</span>
               </button>
 
               <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
@@ -61,38 +104,31 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
                     <span className="px-3 py-1 bg-[#635bff] text-white text-xs font-mono font-extrabold rounded-lg shadow-stripe-sm">
                       {selectedDept.code}
                     </span>
-                    <span className="text-xs font-bold text-rose-600 bg-rose-50 border border-rose-100 px-2.5 py-0.5 rounded-full">
-                      {selectedDept.expiringCount30Days} Renewals Expiry Under 30 Days
-                    </span>
                   </div>
 
                   <h1 className="text-2xl sm:text-3xl font-extrabold text-[#0a2540]">
                     {selectedDept.name}
                   </h1>
-                  <p className="text-xs text-slate-500 mt-1 max-w-2xl leading-relaxed">
-                    {selectedDept.description}
-                  </p>
                 </div>
 
-                {/* Key Metrics Pill Grid */}
                 <div className="grid grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200/80">
                   <div>
                     <span className="text-[11px] text-slate-400 font-medium block">Total Value</span>
-                    <span className="text-lg font-black text-[#0a2540]">{selectedDept.totalValue}</span>
+                    <span className="text-lg font-black text-[#0a2540]">{formatCurrency(selectedDept.totalValue)}</span>
                   </div>
                   <div>
                     <span className="text-[11px] text-slate-400 font-medium block">Active Contracts</span>
-                    <span className="text-lg font-black text-[#635bff]">{selectedDept.activeContracts}</span>
+                    <span className="text-lg font-black text-[#635bff]">{selectedDept.contractCount.toLocaleString()}</span>
                   </div>
                   <div>
                     <span className="text-[11px] text-slate-400 font-medium block">Top Vendor</span>
-                    <span className="text-xs font-bold text-[#0a2540] truncate block">{selectedDept.topSupplier}</span>
+                    <span className="text-xs font-bold text-[#0a2540] truncate block">{selectedDept.topSuppliers[0]?.name || 'N/A'}</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Spending / Renewal Volume Chart */}
+            {/* Spending Chart */}
             <div className="bg-white p-6 rounded-2xl border border-[#e6ebf1] shadow-stripe">
               <div className="flex items-center justify-between mb-6">
                 <div>
@@ -104,7 +140,6 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
                     {selectedDept.code} Renewal Volume Forecast (2023 - 2027)
                   </h3>
                 </div>
-                <span className="text-xs text-slate-400 font-mono">Source: PSPC Open Procurement Graph</span>
               </div>
 
               <div className="h-44 flex items-end justify-between gap-4 px-6 pb-2 pt-6 bg-slate-50/70 rounded-xl border border-slate-100">
@@ -136,53 +171,35 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
                   <h3 className="text-base font-extrabold text-[#0a2540]">
                     Expiring Contracts in {selectedDept.name}
                   </h3>
-                  <p className="text-xs text-slate-500">
-                    Direct access to active procurement tenders & AI capture recommendations.
-                  </p>
                 </div>
               </div>
 
               <div className="overflow-x-auto">
                 <table className="w-full text-left text-xs">
                   <thead>
-                    <tr className="bg-slate-50 border-b border-[#e6ebf1] text-slate-500 uppercase tracking-wider font-bold">
-                      <th className="py-3.5 px-5">Contract Title</th>
-                      <th className="py-3.5 px-5">Incumbent Vendor</th>
-                      <th className="py-3.5 px-5">Value</th>
-                      <th className="py-3.5 px-5">Expiry Window</th>
-                      <th className="py-3.5 px-5 text-center">AI Win Score</th>
-                      <th className="py-3.5 px-5 text-right">Actions</th>
+                    <tr className="border-b border-[#e6ebf1] font-bold text-[#0a2540] text-sm">
+                      <th className="py-4 px-5">Contract</th>
+                      <th className="py-4 px-5">Incumbent</th>
+                      <th className="py-4 px-5">Value</th>
+                      <th className="py-4 px-5">Days Left</th>
+                      <th className="py-4 px-5 text-right">Actions</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-[#e6ebf1]">
+                  <tbody className="divide-y divide-[#e6ebf1] text-sm">
                     {displayContracts.map((c) => (
-                      <tr key={c.id} className="hover:bg-indigo-50/20 transition-colors">
+                      <tr key={c.id} className="hover:bg-slate-50 transition-colors">
+                        <td className="py-4 px-5 font-semibold text-[#635bff]">{c.title}</td>
+                        <td className="py-4 px-5 text-slate-600">{c.incumbent}</td>
+                        <td className="py-4 px-5 font-bold text-[#0a2540]">{formatCurrency(c.value)}</td>
                         <td className="py-4 px-5">
-                          <div 
-                            onClick={() => onSelectContract(c)}
-                            className="font-bold text-[#0a2540] hover:text-[#635bff] cursor-pointer text-sm"
-                          >
-                            {c.title}
-                          </div>
-                          <div className="text-[11px] text-slate-400 font-mono mt-0.5">{c.rfpReference}</div>
-                        </td>
-                        <td className="py-4 px-5 font-semibold text-[#0a2540]">{c.supplier}</td>
-                        <td className="py-4 px-5 font-black text-[#0a2540] text-sm">{c.value}</td>
-                        <td className="py-4 px-5">
-                          <span className="px-2 py-1 rounded bg-amber-50 text-amber-600 font-bold text-xs border border-amber-100">
-                            {c.daysLeft} days left
-                          </span>
-                        </td>
-                        <td className="py-4 px-5 text-center">
-                          <span className="px-2.5 py-1 rounded-full bg-indigo-50 text-[#635bff] font-bold text-xs border border-indigo-100 inline-flex items-center space-x-1">
-                            <Sparkles className="w-3 h-3" />
-                            <span>{c.winProbability}%</span>
+                          <span className={`font-bold ${c.daysLeft < 30 ? 'text-rose-600' : c.daysLeft < 90 ? 'text-amber-600' : 'text-emerald-600'}`}>
+                            {c.daysLeft}
                           </span>
                         </td>
                         <td className="py-4 px-5 text-right">
                           <button
-                            onClick={() => onRunAiAnalyst(c)}
-                            className="px-3 py-1.5 rounded-lg bg-[#635bff] hover:bg-[#5469d4] text-white font-bold text-xs shadow-sm inline-flex items-center space-x-1 transition-all cursor-pointer"
+                            onClick={() => onRunAiAnalyst(c as any)}
+                            className="px-3 py-1.5 rounded-lg bg-[#635bff] hover:bg-[#5469d4] text-white font-bold text-xs shadow-sm inline-flex items-center space-x-1 cursor-pointer"
                           >
                             <Sparkles className="w-3 h-3" />
                             <span>AI Strategy</span>
@@ -197,73 +214,97 @@ export const DepartmentIntelligenceView: React.FC<DepartmentIntelligenceViewProp
 
           </div>
         ) : (
-          /* Grid View of All Departments */
+          /* High Density Table View of All Departments */
           <div className="space-y-6">
             <div className="text-left bg-white p-6 rounded-2xl border border-[#e6ebf1] shadow-stripe-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>
                 <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-[#635bff] text-xs font-bold mb-2">
                   <Building2 className="w-4 h-4 text-[#635bff]" />
-                  <span>98 Federal Departments Profiled</span>
+                  <span>Federal Market Sandbox</span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-extrabold text-[#0a2540]">
-                  Department Procurement Intelligence
+                  Department Intelligence
                 </h1>
                 <p className="text-xs text-slate-500 mt-1">
-                  Select a department card to view historical spending trends, active contracts, and buyer profiles.
+                  High-density federal market data. Sorted by total historical spend.
                 </p>
               </div>
+              <button className="px-4 py-2 bg-slate-900 text-white rounded-lg text-sm font-bold shadow-md hover:bg-slate-800 transition-colors inline-flex items-center">
+                <Download className="w-4 h-4 mr-2" />
+                Export Entire Market (CSV)
+              </button>
             </div>
 
-            {/* Department Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {DEPARTMENT_STATS.map((dept) => (
-                <div
-                  key={dept.id}
-                  onClick={() => setSelectedDept(dept)}
-                  className="bg-white rounded-2xl p-6 border border-[#e6ebf1] shadow-stripe-sm hover:shadow-stripe transition-all duration-200 cursor-pointer group flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <span className="px-2.5 py-1 rounded-md bg-indigo-50 text-[#635bff] text-xs font-bold font-mono border border-indigo-100">
-                        {dept.code}
-                      </span>
-                      <span className="text-xs font-semibold text-rose-600 bg-rose-50 border border-rose-100 px-2 py-0.5 rounded">
-                        {dept.expiringCount30Days} expiring soon
-                      </span>
-                    </div>
-
-                    <h3 className="text-lg font-extrabold text-[#0a2540] group-hover:text-[#635bff] transition-colors">
-                      {dept.name}
-                    </h3>
-
-                    <p className="mt-2 text-xs text-slate-500 leading-relaxed min-h-[42px]">
-                      {dept.description}
-                    </p>
-
-                    {/* Key Metrics */}
-                    <div className="mt-5 grid grid-cols-2 gap-3 pt-4 border-t border-slate-100 text-xs">
-                      <div>
-                        <span className="text-slate-400 font-medium block">Total Value</span>
-                        <span className="text-base font-extrabold text-[#0a2540]">{dept.totalValue}</span>
-                      </div>
-                      <div>
-                        <span className="text-slate-400 font-medium block">Active Contracts</span>
-                        <span className="text-base font-extrabold text-[#0a2540]">{dept.activeContracts}</span>
-                      </div>
-                    </div>
-
-                    <div className="mt-3 text-xs bg-slate-50 p-2.5 rounded-lg border border-slate-100 flex items-center justify-between">
-                      <span className="text-slate-400">Primary Vendor:</span>
-                      <span className="font-bold text-[#0a2540]">{dept.topSupplier}</span>
-                    </div>
-                  </div>
-
-                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#635bff]">
-                    <span>View Spending & Active Contracts</span>
-                    <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                  </div>
-                </div>
-              ))}
+            {/* High Density Data Table */}
+            <div className="bg-white rounded-2xl border border-[#e6ebf1] shadow-stripe overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="border-b border-[#e6ebf1] font-bold text-[#0a2540] text-sm">
+                      <th className="py-4 px-6 w-1/3">Department</th>
+                      <th className="py-4 px-6">Market Value</th>
+                      <th className="py-4 px-6">Monopoly Index</th>
+                      <th className="py-4 px-6">Top Category</th>
+                      <th className="py-4 px-6 text-right">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-[#e6ebf1] text-sm">
+                    {DEPARTMENT_STATS.sort((a, b) => b.totalValue - a.totalValue).map((dept) => {
+                      const monopoly = getMonopolyIndex(dept);
+                      const widthPercent = Math.max(5, (dept.totalValue / maxDeptValue) * 100);
+                      
+                      return (
+                        <tr key={dept.id} className="hover:bg-slate-50 transition-colors group cursor-pointer" onClick={() => setSelectedDept(dept)}>
+                          <td className="py-5 px-6">
+                            <div className="flex items-center space-x-3">
+                              <span className="font-semibold text-[#635bff]">{dept.name}</span>
+                            </div>
+                            <div className="mt-1 text-xs text-slate-500 flex items-center space-x-2">
+                              <span>{dept.contractCount.toLocaleString()} Active Contracts</span>
+                              <span>•</span>
+                              <span>{dept.topSuppliers[0]?.name} (Incumbent)</span>
+                            </div>
+                          </td>
+                          <td className="py-5 px-6">
+                            <div className="font-black text-[#0a2540] mb-1.5">{formatCurrency(dept.totalValue)}</div>
+                            <div className="w-full h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                              <div 
+                                className="h-full bg-[#635bff] rounded-full" 
+                                style={{ width: `${widthPercent}%` }}
+                              />
+                            </div>
+                          </td>
+                          <td className="py-5 px-6">
+                            <span className={`px-2.5 py-1 rounded-full text-xs font-bold border ${monopoly.color}`}>
+                              {monopoly.label}
+                            </span>
+                            <div className="text-[10px] text-slate-400 mt-1">Top 3 control {monopoly.val.toFixed(1)}%</div>
+                          </td>
+                          <td className="py-5 px-6">
+                            <span className="text-xs font-medium text-slate-700 bg-slate-100 px-2 py-1 rounded-md">
+                              {dept.topCategories[0]?.category || 'Various'}
+                            </span>
+                          </td>
+                          <td className="py-5 px-6 text-right">
+                            <div className="flex justify-end space-x-2">
+                              <button 
+                                onClick={(e) => { e.stopPropagation(); /* Download logic */ }}
+                                className="p-2 text-slate-400 hover:text-[#635bff] hover:bg-indigo-50 rounded-md transition-colors"
+                                title="Download Market Report (CSV)"
+                              >
+                                <Download className="w-4 h-4" />
+                              </button>
+                              <button className="p-2 text-slate-400 group-hover:text-[#635bff] transition-colors">
+                                <ArrowUpRight className="w-4 h-4" />
+                              </button>
+                            </div>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         )}
