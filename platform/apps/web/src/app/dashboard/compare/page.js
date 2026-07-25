@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { GitCompare, Check, TrendingUp, DollarSign, FileText, Star } from 'lucide-react';
 import { useDepartments } from '@/lib/api';
 import { Skeleton } from "@/components/ui/skeleton";
