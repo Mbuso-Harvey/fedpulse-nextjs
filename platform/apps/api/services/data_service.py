@@ -1,89 +1,171 @@
-import pandas as pd
-import numpy as np
-from typing import Optional, Dict, Any, List
-from pathlib import Path
-from config import settings
 import logging
-from supabase import create_client, Client
-import os
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Literal
+
+import numpy as np
+import pandas as pd
+from supabase import Client, create_client
+
+from config import settings
+
 
 logger = logging.getLogger(__name__)
 
+
+class DataUnavailableError(RuntimeError):
+    """Raised when an authoritative product dataset cannot be loaded."""
+
+
+@dataclass(frozen=True)
+class DataSourceStatus:
+    backend: Literal["supabase", "csv", "unavailable"]
+    configured: bool
+    detail: str
+
+
 class DataService:
-    def __init__(self):
-        self._renewals_df: Optional[pd.DataFrame] = None
-        self._departments_df: Optional[pd.DataFrame] = None
-        self._suppliers_df: Optional[pd.DataFrame] = None
-        self._recommendations_df: Optional[pd.DataFrame] = None
-        
-        self.use_supabase = bool(settings.supabase_url and settings.supabase_key)
-        if self.use_supabase:
-            logger.info("Initializing Supabase client for data service")
-            self.supabase: Client = create_client(settings.supabase_url, settings.supabase_key)
-        
-    def _load_csv(self, path: Path) -> pd.DataFrame:
+    def __init__(self) -> None:
+        self._renewals_df: pd.DataFrame | None = None
+        self._departments_df: pd.DataFrame | None = None
+        self._suppliers_df: pd.DataFrame | None = None
+        self._recommendations_df: pd.DataFrame | None = None
+
+        self.supabase: Client | None = None
+        if settings.supabase_url and settings.server_supabase_key:
+            self.supabase = create_client(
+                settings.supabase_url,
+                settings.server_supabase_key,
+            )
+
+    def _selected_backend(self) -> Literal["supabase", "csv"]:
+        if settings.data_backend == "supabase":
+            if self.supabase is None:
+                raise DataUnavailableError(
+                    "DATA_BACKEND=supabase but Supabase is not configured"
+                )
+            return "supabase"
+
+        if settings.data_backend == "csv":
+            return "csv"
+
+        if self.supabase is not None:
+            return "supabase"
+        return "csv"
+
+    def status(self) -> DataSourceStatus:
         try:
-            if path.exists():
-                logger.info(f"Loading data from {path}")
-                df = pd.read_csv(path)
-                return df.replace({np.nan: None})
-            else:
-                logger.warning(f"File not found: {path}")
-                return pd.DataFrame()
-        except Exception as e:
-            logger.error(f"Error loading {path}: {e}")
-            return pd.DataFrame()
-            
+            backend = self._selected_backend()
+        except DataUnavailableError as exc:
+            return DataSourceStatus(
+                backend="unavailable",
+                configured=False,
+                detail=str(exc),
+            )
+
+        if backend == "supabase":
+            return DataSourceStatus(
+                backend="supabase",
+                configured=True,
+                detail="Supabase product tables",
+            )
+
+        return DataSourceStatus(
+            backend="csv",
+            configured=settings.renewals_data_path.exists(),
+            detail=str(settings.data_dir_base.resolve()),
+        )
+
+    @staticmethod
+    def _normalize_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+        if df.empty:
+            return df
+        return df.replace({np.nan: None})
+
+    def _load_csv(self, path: Path, dataset_name: str) -> pd.DataFrame:
+        if not path.exists():
+            raise DataUnavailableError(
+                f"{dataset_name} dataset is unavailable at {path.resolve()}"
+            )
+
+        try:
+            logger.info("Loading %s data from %s", dataset_name, path)
+            return self._normalize_dataframe(pd.read_csv(path))
+        except Exception as exc:
+            raise DataUnavailableError(
+                f"Failed to load {dataset_name} dataset"
+            ) from exc
+
+    def _load_table(self, table: str) -> pd.DataFrame:
+        if self.supabase is None:
+            raise DataUnavailableError("Supabase data service is not configured")
+
+        try:
+            response = self.supabase.table(table).select("*").execute()
+        except Exception as exc:
+            raise DataUnavailableError(
+                f"Failed to load authoritative Supabase table: {table}"
+            ) from exc
+
+        data = response.data or []
+        if not data:
+            raise DataUnavailableError(
+                f"Authoritative Supabase table is empty: {table}"
+            )
+        return self._normalize_dataframe(pd.DataFrame(data))
+
+    def _load_product(
+        self,
+        *,
+        table: str,
+        csv_path: Path,
+        dataset_name: str,
+    ) -> pd.DataFrame:
+        backend = self._selected_backend()
+        if backend == "supabase":
+            return self._load_table(table)
+        return self._load_csv(csv_path, dataset_name)
+
     def get_renewals(self) -> pd.DataFrame:
         if self._renewals_df is None:
-            if self.use_supabase:
-                try:
-                    res = self.supabase.table('renewals').select('*').execute()
-                    self._renewals_df = pd.DataFrame(res.data)
-                except Exception as e:
-                    logger.error(f"Failed to fetch renewals from Supabase: {e}")
-                    self._renewals_df = pd.DataFrame()
-            else:
-                self._renewals_df = self._load_csv(settings.renewals_data_path)
-        return self._renewals_df
-        
+            self._renewals_df = self._load_product(
+                table="renewals",
+                csv_path=settings.renewals_data_path,
+                dataset_name="renewals",
+            )
+        return self._renewals_df.copy()
+
     def get_departments(self) -> pd.DataFrame:
         if self._departments_df is None:
-            if self.use_supabase:
-                try:
-                    res = self.supabase.table('departments').select('*').execute()
-                    self._departments_df = pd.DataFrame(res.data)
-                except Exception as e:
-                    logger.error(f"Failed to fetch departments from Supabase: {e}")
-                    self._departments_df = pd.DataFrame()
-            else:
-                self._departments_df = self._load_csv(settings.departments_data_path)
-        return self._departments_df
-        
+            self._departments_df = self._load_product(
+                table="departments",
+                csv_path=settings.departments_data_path,
+                dataset_name="departments",
+            )
+        return self._departments_df.copy()
+
     def get_suppliers(self) -> pd.DataFrame:
         if self._suppliers_df is None:
-            if self.use_supabase:
-                try:
-                    res = self.supabase.table('suppliers').select('*').execute()
-                    self._suppliers_df = pd.DataFrame(res.data)
-                except Exception as e:
-                    logger.error(f"Failed to fetch suppliers from Supabase: {e}")
-                    self._suppliers_df = pd.DataFrame()
-            else:
-                self._suppliers_df = self._load_csv(settings.suppliers_data_path)
-        return self._suppliers_df
-        
+            self._suppliers_df = self._load_product(
+                table="suppliers",
+                csv_path=settings.suppliers_data_path,
+                dataset_name="suppliers",
+            )
+        return self._suppliers_df.copy()
+
     def get_recommendations(self) -> pd.DataFrame:
         if self._recommendations_df is None:
-            self._recommendations_df = self._load_csv(settings.recommendations_data_path)
-        return self._recommendations_df
-        
-    def reload(self):
-        """Force a reload of all dataframes"""
+            self._recommendations_df = self._load_csv(
+                settings.recommendations_data_path,
+                "recommendations",
+            )
+        return self._recommendations_df.copy()
+
+    def reload(self) -> None:
         self._renewals_df = None
         self._departments_df = None
         self._suppliers_df = None
         self._recommendations_df = None
 
-# Singleton instance
+
 data_service = DataService()
