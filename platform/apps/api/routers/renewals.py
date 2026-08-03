@@ -1,123 +1,165 @@
-from fastapi import APIRouter, HTTPException, Query, Depends
-from services.auth import get_current_user
-from models.schemas import (
-    RenewalRequest, 
-    RenewalResponse, 
-    DepartmentSummaryResponse, 
-    SupplierExposureResponse,
-    RenewalStatsResponse
-)
-from services.data_service import data_service
+from typing import Any, List
+from uuid import uuid4
+
 import pandas as pd
-from typing import List
+from fastapi import APIRouter, Depends, HTTPException, status
 
-router = APIRouter(prefix="/renewals", tags=["Renewals"])
+from config import settings
+from models.schemas import (
+    DepartmentSummaryResponse,
+    RenewalRequest,
+    RenewalResponse,
+    RenewalStatsResponse,
+    SourceContext,
+    SupplierExposureResponse,
+)
+from services.auth import get_current_user
+from services.data_service import DataUnavailableError, data_service
 
-@router.post("", response_model=RenewalResponse)
-async def get_renewals(request: RenewalRequest, user: dict = Depends(get_current_user)):
-    df = data_service.get_renewals()
-    if df.empty:
-        return RenewalResponse(status="success", total_count=0, page=request.page, page_size=request.page_size, data=[], filters_applied={})
-    
-    # Apply filters
-    filters_applied = {}
-    if request.filters:
-        if request.filters.department:
-            df = df[df['buyer_department'] == request.filters.department]
-            filters_applied['department'] = request.filters.department
-        if request.filters.supplier:
-            df = df[df['supplier_master_name'] == request.filters.supplier]
-            filters_applied['supplier'] = request.filters.supplier
-        if request.filters.min_value is not None:
-            df = df[df['clean_contract_value'] >= request.filters.min_value]
-            filters_applied['min_value'] = request.filters.min_value
-        if request.filters.max_value is not None:
-            df = df[df['clean_contract_value'] <= request.filters.max_value]
-            filters_applied['max_value'] = request.filters.max_value
-        if request.filters.days_until_end_max is not None:
-            df = df[df['days_until_end'] <= request.filters.days_until_end_max]
-            filters_applied['days_until_end_max'] = request.filters.days_until_end_max
-        if request.filters.category:
-            df = df[df['procurement_category'] == request.filters.category]
-            filters_applied['category'] = request.filters.category
 
-    # Sort
-    sort_col = request.sort_by
-    if sort_col in df.columns:
-        ascending = request.sort_order.lower() == 'asc'
-        df = df.sort_values(by=sort_col, ascending=ascending)
-        
-    total_count = len(df)
-    
-    # Paginate
-    # Enforce API limits based on tier
-    tier = user.get("user_metadata", {}).get("subscription_tier", "starter")
-    if tier == "starter" and request.page_size > 10:
-        request.page_size = 10
-        # For starter, limit total accessible data
-        df = df.head(10)
-        total_count = len(df)
-        
-    start_idx = (request.page - 1) * request.page_size
-    end_idx = start_idx + request.page_size
-    
-    data = df.iloc[start_idx:end_idx].to_dict(orient='records')
-    
-    return RenewalResponse(
-        status="success",
-        total_count=total_count,
-        page=request.page,
-        page_size=request.page_size,
-        data=data,
-        filters_applied=filters_applied
+router = APIRouter(tags=["Canada Renewals"])
+
+
+def _source_context() -> SourceContext:
+    return SourceContext(
+        country_code=settings.ca_country_code,
+        source_system=settings.ca_source_system,
+        product_version=settings.ca_product_version,
+        coverage_through=settings.ca_coverage_through,
     )
 
+
+def _load_renewals() -> pd.DataFrame:
+    try:
+        return data_service.get_renewals()
+    except DataUnavailableError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=str(exc),
+        ) from exc
+
+
+@router.post("", response_model=RenewalResponse)
+async def get_renewals(
+    request: RenewalRequest,
+    user: dict[str, Any] = Depends(get_current_user),
+) -> RenewalResponse:
+    df = _load_renewals()
+    filters_applied: dict[str, Any] = {}
+
+    if request.filters.department:
+        df = df[df["buyer_department"] == request.filters.department]
+        filters_applied["department"] = request.filters.department
+
+    if request.filters.supplier:
+        df = df[df["supplier_master_name"] == request.filters.supplier]
+        filters_applied["supplier"] = request.filters.supplier
+
+    if request.filters.min_value is not None:
+        df = df[df["clean_contract_value"] >= request.filters.min_value]
+        filters_applied["min_value"] = request.filters.min_value
+
+    if request.filters.max_value is not None:
+        df = df[df["clean_contract_value"] <= request.filters.max_value]
+        filters_applied["max_value"] = request.filters.max_value
+
+    if request.filters.days_until_end_min is not None:
+        df = df[df["days_until_end"] >= request.filters.days_until_end_min]
+        filters_applied["days_until_end_min"] = request.filters.days_until_end_min
+
+    if request.filters.days_until_end_max is not None:
+        df = df[df["days_until_end"] <= request.filters.days_until_end_max]
+        filters_applied["days_until_end_max"] = request.filters.days_until_end_max
+
+    if request.filters.category:
+        df = df[df["procurement_category"] == request.filters.category]
+        filters_applied["category"] = request.filters.category
+
+    if request.sort_by in df.columns:
+        df = df.sort_values(
+            by=request.sort_by,
+            ascending=request.sort_order == "asc",
+            kind="mergesort",
+        )
+
+    tier = user.get("user_metadata", {}).get("subscription_tier", "starter")
+    effective_page_size = (
+        min(request.page_size, 10) if tier == "starter" else request.page_size
+    )
+
+    total_count = len(df)
+    start_idx = (request.page - 1) * effective_page_size
+    end_idx = start_idx + effective_page_size
+    records = df.iloc[start_idx:end_idx].to_dict(orient="records")
+
+    return RenewalResponse(
+        status="success",
+        request_id=str(uuid4()),
+        total_count=total_count,
+        page=request.page,
+        page_size=effective_page_size,
+        data=records,
+        filters_applied=filters_applied,
+        source=_source_context(),
+        limitations=(
+            ["Starter plan responses are limited to 10 records per page."]
+            if tier == "starter"
+            else []
+        ),
+    )
+
+
 @router.get("/departments", response_model=List[DepartmentSummaryResponse])
-async def get_departments_summary():
-    df = data_service.get_renewals()
-    if df.empty:
-        return []
-    
-    summary = df.groupby('buyer_department').agg(
-        renewal_count=('contract_number', 'count'),
-        renewal_value=('clean_contract_value', 'sum')
-    ).reset_index()
-    
-    summary = summary.rename(columns={'buyer_department': 'department_name'})
-    summary = summary.sort_values('renewal_value', ascending=False)
-    
-    return [DepartmentSummaryResponse(**row) for row in summary.to_dict(orient='records')]
+async def get_departments_summary(
+    _: dict[str, Any] = Depends(get_current_user),
+) -> list[DepartmentSummaryResponse]:
+    df = _load_renewals()
+    summary = (
+        df.groupby("buyer_department")
+        .agg(
+            renewal_count=("contract_number", "count"),
+            renewal_value=("clean_contract_value", "sum"),
+        )
+        .reset_index()
+        .rename(columns={"buyer_department": "department_name"})
+        .sort_values("renewal_value", ascending=False)
+    )
+    return [
+        DepartmentSummaryResponse(**row)
+        for row in summary.to_dict(orient="records")
+    ]
+
 
 @router.get("/suppliers", response_model=List[SupplierExposureResponse])
-async def get_suppliers_summary():
-    df = data_service.get_renewals()
-    if df.empty:
-        return []
-        
-    summary = df.groupby('supplier_master_name').agg(
-        renewal_count=('contract_number', 'count'),
-        renewal_value=('clean_contract_value', 'sum')
-    ).reset_index()
-    
-    summary = summary.rename(columns={'supplier_master_name': 'supplier_name'})
-    summary = summary.sort_values('renewal_value', ascending=False)
-    
-    return [SupplierExposureResponse(**row) for row in summary.to_dict(orient='records')]
+async def get_suppliers_summary(
+    _: dict[str, Any] = Depends(get_current_user),
+) -> list[SupplierExposureResponse]:
+    df = _load_renewals()
+    summary = (
+        df.groupby("supplier_master_name")
+        .agg(
+            renewal_count=("contract_number", "count"),
+            renewal_value=("clean_contract_value", "sum"),
+        )
+        .reset_index()
+        .rename(columns={"supplier_master_name": "supplier_name"})
+        .sort_values("renewal_value", ascending=False)
+    )
+    return [
+        SupplierExposureResponse(**row)
+        for row in summary.to_dict(orient="records")
+    ]
+
 
 @router.get("/stats", response_model=RenewalStatsResponse)
-async def get_renewals_stats():
-    df = data_service.get_renewals()
-    if df.empty:
-        return RenewalStatsResponse(
-            total_candidates=0,
-            total_value=0.0,
-            departments_count=0,
-            suppliers_count=0
-        )
-        
+async def get_renewals_stats(
+    _: dict[str, Any] = Depends(get_current_user),
+) -> RenewalStatsResponse:
+    df = _load_renewals()
     return RenewalStatsResponse(
         total_candidates=len(df),
-        total_value=float(df['clean_contract_value'].sum()),
-        departments_count=df['buyer_department'].nunique(),
-        suppliers_count=df['supplier_master_name'].nunique()
+        total_value=float(df["clean_contract_value"].sum()),
+        departments_count=int(df["buyer_department"].nunique()),
+        suppliers_count=int(df["supplier_master_name"].nunique()),
+        source=_source_context(),
     )
