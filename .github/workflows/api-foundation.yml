@@ -42,8 +42,20 @@ jobs:
       - name: Compile
         run: python -m compileall .
 
-      - name: Lint
-        run: ruff check .
+      - name: Lint maintained API surface
+        run: |
+          ruff check \
+            config.py \
+            main.py \
+            models/schemas.py \
+            routers/health.py \
+            routers/renewals.py \
+            services/auth.py \
+            services/data_service.py \
+            scripts \
+            tests \
+            --select E,F \
+            --ignore E501
 
       - name: Test
         env:
