@@ -1,4 +1,3 @@
-from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field, field_validator
@@ -18,9 +17,9 @@ class SourceContext(BaseModel):
     source_system: str
     product_version: str
     coverage_through: Optional[str] = None
-    generated_at: str = Field(
-        default_factory=lambda: datetime.now(timezone.utc).isoformat()
-    )
+    generated_at: Optional[str] = None
+    dataset_sha256: Optional[str] = None
+    row_count: Optional[int] = None
 
 
 class SearchRequest(BaseModel):
