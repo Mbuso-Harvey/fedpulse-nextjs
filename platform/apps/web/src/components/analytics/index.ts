@@ -1,5 +1,5 @@
-export { AnalyticsChart } from "./AnalyticsChart";
 export {
   AnalyticsWidgetHost,
   type AnalyticsWidgetHostProps,
+  type DashboardFeedbackDetail,
 } from "./AnalyticsWidgetHost";
