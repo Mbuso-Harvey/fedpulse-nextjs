@@ -1,69 +1,75 @@
-# FedPulse Visualization Contract V1
+# FedPulse Governed Facts Contract
 
-The visualization contract is the transport-neutral boundary between governed procurement intelligence and any presentation surface, including dashboard pages, embedded analytics, reports, and Ask FedPulse.
+Contract identifier: `fedpulse.analytics.facts.v1`
 
-Contract identifier: `fedpulse.visualization.v1`
+FedPulse uses the supplied **Embeddable Analytics Widget** as its visualization engine. The platform does not maintain a parallel Recharts renderer.
 
-## Governing rule
+## Governing boundary
 
-The backend owns analytics, rankings, aggregations, recommendations, confidence, evidence selection, and limitations. The frontend must not independently calculate procurement intelligence or query raw procurement data to complete a widget.
+FedPulse APIs and Ask FedPulse own the facts:
 
-The widget host may only:
+- authorized source records;
+- calculations, rankings, filters, and derived metrics;
+- product version and coverage date;
+- evidence identifiers and limitations;
+- customer and country authorization.
 
-- validate the response against the contract;
-- format already-governed scalar values;
-- render approved metric, chart, table, or insight-list layouts;
-- expose source, version, coverage, evidence IDs, and limitations;
-- show explicit partial, empty, and error states.
+The embeddable widget owns presentation:
 
-## Required envelope
+- profiling field types and cardinality;
+- selecting KPIs, time series, correlations, category breakdowns, histograms, heatmaps, and detail tables;
+- desktop Vega-Lite canvas cross-filtering;
+- mobile responsive grid rendering;
+- chart swapping and average-line controls;
+- PNG, SVG, JSON, and CSV export capabilities;
+- theme and layout behaviour;
+- dashboard-layout feedback events.
 
-Every widget contains:
+The default path sends only governed fact rows to the widget. No chart type is required. The widget profiles those rows and recommends the appropriate visual composition.
 
-- `contractVersion` — exact supported contract identifier;
-- `widgetId` — stable machine-readable identity;
-- `kind` — `metric`, `chart`, `table`, or `insight_list`;
-- `title` and optional `description`;
-- `status` — `ready`, `partial`, `empty`, or `error`;
-- `provenance` — source system, product version, coverage date, generation time, evidence IDs, and limitations;
-- a kind-specific payload containing only values that are safe for direct presentation.
+## Optional AI presentation controls
 
-Unknown fields are rejected. Missing chart fields are rejected. Pie and scatter charts accept exactly one series in V1. The host fails closed rather than guessing how to display malformed analytics.
+Ask FedPulse may use the widget's native controls when a specific presentation is justified:
 
-## Cross-stack compatibility
+- `chartConfig` for global Vega-Lite configuration;
+- `chartLayout` for approved panel order and spans;
+- `spec` for a complete Vega-Lite escape hatch;
+- `layoutMode` for `auto`, `canvas`, or `grid`;
+- `theme` for `auto`, `light`, or `dark`;
+- `approvalMode` for layout feedback collection.
 
-The server-side Pydantic models live in:
+These controls never authorize the AI or frontend to invent, aggregate, or alter facts. The fact envelope remains the source of truth.
+
+## Contract envelope
+
+Every response contains:
+
+- `contractVersion` and stable `datasetId`;
+- title, optional description, and explicit status;
+- source, product version, coverage, generation timestamp, evidence, and limitations;
+- optional presentation controls;
+- a rectangular array of scalar fact rows.
+
+Unknown envelope fields are rejected. Ready or partial responses require facts. Empty and error responses cannot carry facts. All rows must expose the same fields so profiling is deterministic.
+
+## Implementation
+
+Server validation:
 
 `platform/apps/api/models/visualizations.py`
 
-The client-side Zod contract and inferred TypeScript types live in:
+Client validation:
 
 `platform/apps/web/src/lib/visualization/contract.ts`
 
-The reusable renderer lives in:
+React/Web Component adapter:
 
 `platform/apps/web/src/components/analytics/AnalyticsWidgetHost.tsx`
 
-Shared JSON fixtures under `examples/` are validated by both stacks in CI. These fixtures are compatibility artifacts, not production procurement data.
+Supplied engine source:
 
-## Supported V1 widgets
+`platform/apps/web/public/vendor/embeddable-analytics/`
 
-### Metric
+Shared compatibility fixtures:
 
-A single governed value with optional context and trend wording supplied by the backend.
-
-### Chart
-
-Bar, line, pie, or scatter presentation. A chart names its x-axis field and one to five governed series. The host does not aggregate or rank rows.
-
-### Table
-
-A typed set of columns and already-prepared rows. Pagination, ranking, and filtering decisions remain API responsibilities.
-
-### Insight list
-
-Backend-authored procurement findings with severity and evidence identifiers. The host does not generate or rewrite the findings.
-
-## Versioning
-
-V1 is additive only within fields already marked optional. A breaking field change, semantic change, or new required behaviour must use a new contract identifier. Existing V1 responses must continue to validate and render unchanged.
+`platform/contracts/visualization/examples/`
