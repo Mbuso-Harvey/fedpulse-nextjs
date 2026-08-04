@@ -6,6 +6,7 @@ import {
   CircleAlert,
   Database,
   LoaderCircle,
+  ShieldCheck,
 } from "lucide-react";
 import {
   createElement,
@@ -26,8 +27,40 @@ import {
 const WIDGET_SCRIPT_ID = "fedpulse-embeddable-analytics-script";
 const WIDGET_SCRIPT_SOURCE = "/vendor/embeddable-analytics/widget.js";
 
+export interface VisualSelectionAudit {
+  registryVersion: string;
+  intent: string;
+  question: string | null;
+  preferredVisualId: string | null;
+  selectedVisualIds: string[];
+  rejectedVisualIds: string[];
+  candidateScores: Array<{
+    visualId: string;
+    family: string;
+    score: number;
+    confidence: number;
+    signature: string;
+    reasons: string[];
+    warnings: string[];
+  }>;
+  policy: Record<string, unknown>;
+  safeguards: string[];
+}
+
+interface EnterpriseWidgetContext {
+  semanticModel: AnalyticsFacts["semanticModel"];
+  decision: AnalyticsFacts["decision"];
+  visualPolicy: AnalyticsFacts["visualPolicy"];
+  presentation: AnalyticsFacts["presentation"];
+  selectionAudit: VisualSelectionAudit | null;
+}
+
+type WidgetFactRows = FactRow[] & {
+  __fedpulseContext?: EnterpriseWidgetContext;
+};
+
 interface ChartWidgetElement extends HTMLElement {
-  data: FactRow[];
+  data: WidgetFactRows;
 }
 
 export interface DashboardFeedbackDetail {
@@ -42,6 +75,7 @@ export interface AnalyticsWidgetHostProps {
   className?: string;
   showProvenance?: boolean;
   onDashboardFeedback?: (feedback: DashboardFeedbackDetail) => void;
+  onVisualSelection?: (audit: VisualSelectionAudit) => void;
 }
 
 let widgetLoadPromise: Promise<void> | null = null;
@@ -102,8 +136,8 @@ function setJsonAttribute(
 function applyPayloadToWidget(
   element: ChartWidgetElement,
   payload: AnalyticsFacts,
-) {
-  const { presentation } = payload;
+): VisualSelectionAudit | null {
+  const { presentation, visualPolicy } = payload;
   element.setAttribute("theme", presentation.theme);
   element.setAttribute("layout-mode", presentation.layoutMode);
   element.setAttribute(
@@ -112,8 +146,35 @@ function applyPayloadToWidget(
   );
   setJsonAttribute(element, "chart-config", presentation.chartConfig);
   setJsonAttribute(element, "chart-layout", presentation.chartLayout);
-  setJsonAttribute(element, "spec", presentation.spec);
-  element.data = payload.facts;
+
+  setJsonAttribute(
+    element,
+    "spec",
+    visualPolicy.allowCustomSpec ? presentation.spec : null,
+  );
+
+  const context: EnterpriseWidgetContext = {
+    semanticModel: payload.semanticModel,
+    decision: {
+      ...payload.decision,
+      preferredVisualId:
+        payload.decision.preferredVisualId ?? presentation.visualId,
+    },
+    visualPolicy,
+    presentation,
+    selectionAudit: null,
+  };
+
+  const widgetFacts = payload.facts.map((row) => ({ ...row })) as WidgetFactRows;
+  Object.defineProperty(widgetFacts, "__fedpulseContext", {
+    value: context,
+    enumerable: false,
+    configurable: false,
+    writable: false,
+  });
+
+  element.data = widgetFacts;
+  return context.selectionAudit;
 }
 
 function LoadingPanel() {
@@ -148,7 +209,7 @@ function EvidenceFooter({ payload }: { payload: AnalyticsFacts }) {
       <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-xs font-semibold text-muted-foreground hover:text-foreground">
         <span className="inline-flex items-center gap-2">
           <Database className="h-3.5 w-3.5" />
-          Evidence and data lineage
+          Evidence, visual policy, and data lineage
         </span>
         <span className="font-normal">{provenance.sourceSystem}</span>
       </summary>
@@ -164,6 +225,16 @@ function EvidenceFooter({ payload }: { payload: AnalyticsFacts }) {
           <p className="mt-1 text-foreground">{provenance.coverageThrough}</p>
         </div>
         <div>
+          <p className="font-bold uppercase tracking-wider">Decision intent</p>
+          <p className="mt-1 text-foreground">{payload.decision.intent}</p>
+        </div>
+        <div>
+          <p className="font-bold uppercase tracking-wider">Registry</p>
+          <p className="mt-1 break-words text-foreground">
+            {payload.semanticModel.registryVersion}
+          </p>
+        </div>
+        <div>
           <p className="font-bold uppercase tracking-wider">Generated</p>
           <p className="mt-1 text-foreground">{provenance.generatedAt}</p>
         </div>
@@ -173,7 +244,32 @@ function EvidenceFooter({ payload }: { payload: AnalyticsFacts }) {
             {provenance.requestId ?? "Not supplied"}
           </p>
         </div>
+        <div>
+          <p className="font-bold uppercase tracking-wider">Chart limit</p>
+          <p className="mt-1 text-foreground">
+            {payload.visualPolicy.maxCharts} total ·{" "}
+            {payload.visualPolicy.maxPerFamily} per family
+          </p>
+        </div>
+        <div>
+          <p className="font-bold uppercase tracking-wider">
+            Minimum confidence
+          </p>
+          <p className="mt-1 text-foreground">
+            {Math.round(payload.visualPolicy.minimumConfidence * 100)}%
+          </p>
+        </div>
       </div>
+      {payload.decision.question ? (
+        <div className="mt-4">
+          <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
+            Governed analytical question
+          </p>
+          <p className="mt-1 text-xs text-foreground">
+            {payload.decision.question}
+          </p>
+        </div>
+      ) : null}
       {provenance.evidenceIds.length ? (
         <div className="mt-4">
           <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
@@ -212,10 +308,12 @@ function WidgetMount({
   payload,
   widgetRef,
   onDashboardFeedback,
+  onVisualSelection,
 }: {
   payload: AnalyticsFacts;
   widgetRef: MutableRefObject<ChartWidgetElement | null>;
   onDashboardFeedback?: (feedback: DashboardFeedbackDetail) => void;
+  onVisualSelection?: (audit: VisualSelectionAudit) => void;
 }) {
   const [loadState, setLoadState] = useState<"loading" | "ready" | "error">(
     "loading",
@@ -237,8 +335,9 @@ function WidgetMount({
 
   useEffect(() => {
     if (loadState !== "ready" || !widgetRef.current) return;
-    applyPayloadToWidget(widgetRef.current, payload);
-  }, [loadState, payload, widgetRef]);
+    const audit = applyPayloadToWidget(widgetRef.current, payload);
+    if (audit && onVisualSelection) onVisualSelection(audit);
+  }, [loadState, onVisualSelection, payload, widgetRef]);
 
   useEffect(() => {
     const element = widgetRef.current;
@@ -281,6 +380,7 @@ export function AnalyticsWidgetHost({
   className,
   showProvenance = true,
   onDashboardFeedback,
+  onVisualSelection,
 }: AnalyticsWidgetHostProps) {
   const parsed = safeParseAnalyticsFacts(input);
   const widgetRef = useRef<ChartWidgetElement | null>(null);
@@ -298,7 +398,8 @@ export function AnalyticsWidgetHost({
           <CircleAlert className="h-6 w-6 text-red-600" />
           <h2 className="font-bold text-foreground">Analytics unavailable</h2>
           <p className="max-w-md text-sm text-muted-foreground">
-            The response did not match the governed FedPulse facts contract.
+            The response did not match the governed FedPulse enterprise facts
+            contract.
           </p>
         </div>
       </section>
@@ -320,10 +421,14 @@ export function AnalyticsWidgetHost({
       aria-labelledby={`${payload.datasetId}-title`}
     >
       <header className="border-b border-border px-5 py-4">
-        <div className="flex items-center gap-2 text-primary">
+        <div className="flex flex-wrap items-center gap-2 text-primary">
           <BarChart3 className="h-4 w-4" />
           <span className="text-[10px] font-bold uppercase tracking-widest">
-            Governed facts · automatic visualization
+            Governed facts · enterprise visual selection
+          </span>
+          <span className="inline-flex items-center gap-1 rounded-full border border-emerald-200 bg-emerald-50 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-emerald-700">
+            <ShieldCheck className="h-3 w-3" />
+            Registry controlled
           </span>
         </div>
         <h2
@@ -347,6 +452,7 @@ export function AnalyticsWidgetHost({
             payload={payload}
             widgetRef={widgetRef}
             onDashboardFeedback={onDashboardFeedback}
+            onVisualSelection={onVisualSelection}
           />
         )}
       </div>
