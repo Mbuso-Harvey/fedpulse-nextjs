@@ -62,4 +62,5 @@ jobs:
           ENVIRONMENT: test
           ALLOW_DEV_AUTH: "false"
           DATA_BACKEND: csv
-        run: pytest -q
+          PYTHONPATH: .
+        run: python -m pytest -q
