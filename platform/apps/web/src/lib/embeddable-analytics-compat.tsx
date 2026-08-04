@@ -28,11 +28,7 @@ function normalizeFacts(data: unknown): FactRow[] {
     );
 }
 
-export function ResponsiveContainer({ children }: GenericProps) {
-  return <>{children}</>;
-}
-
-export function AreaChart({ data }: GenericProps & { data?: unknown }) {
+function AutomaticAnalyticsChart({ data }: GenericProps & { data?: unknown }) {
   const reactId = React.useId().replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
   const facts = React.useMemo(() => normalizeFacts(data), [data]);
   const generatedAt = React.useMemo(() => new Date().toISOString(), []);
@@ -84,16 +80,42 @@ export function AreaChart({ data }: GenericProps & { data?: unknown }) {
   );
 }
 
-export function Area(_props: GenericProps) {
+function ChartPrimitive(_props: GenericProps) {
   return null;
 }
 
-export function CartesianGrid(_props: GenericProps) {
-  return null;
+export function ResponsiveContainer({ children }: GenericProps) {
+  return <>{children}</>;
 }
 
-export function XAxis(_props: GenericProps) {
-  return null;
-}
+export const AreaChart = AutomaticAnalyticsChart;
+export const BarChart = AutomaticAnalyticsChart;
+export const PieChart = AutomaticAnalyticsChart;
+export const LineChart = AutomaticAnalyticsChart;
+export const ScatterChart = AutomaticAnalyticsChart;
+export const ComposedChart = AutomaticAnalyticsChart;
+export const RadarChart = AutomaticAnalyticsChart;
+export const RadialBarChart = AutomaticAnalyticsChart;
+
+export const Area = ChartPrimitive;
+export const Bar = ChartPrimitive;
+export const Pie = ChartPrimitive;
+export const Cell = ChartPrimitive;
+export const Line = ChartPrimitive;
+export const Scatter = ChartPrimitive;
+export const Radar = ChartPrimitive;
+export const RadialBar = ChartPrimitive;
+export const CartesianGrid = ChartPrimitive;
+export const XAxis = ChartPrimitive;
+export const YAxis = ChartPrimitive;
+export const ZAxis = ChartPrimitive;
+export const Tooltip = ChartPrimitive;
+export const Legend = ChartPrimitive;
+export const ReferenceLine = ChartPrimitive;
+export const LabelList = ChartPrimitive;
+export const PolarGrid = ChartPrimitive;
+export const PolarAngleAxis = ChartPrimitive;
+export const PolarRadiusAxis = ChartPrimitive;
+export const Brush = ChartPrimitive;
 
 export type TooltipValueType = string | number | readonly (string | number)[];
