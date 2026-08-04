@@ -24,6 +24,8 @@ create unique index if not exists fedpulse_one_active_version_per_product
     where status = 'active';
 
 create table if not exists public.fedpulse_ca_renewal_candidates (
+    product_id text not null default 'ca-renewal-watch'
+        check (product_id = 'ca-renewal-watch'),
     product_version text not null,
     record_id text not null check (record_id ~ '^[0-9a-f]{64}$'),
     contract_number text not null,
@@ -46,7 +48,7 @@ create table if not exists public.fedpulse_ca_renewal_candidates (
     row_sha256 text not null check (row_sha256 ~ '^[0-9a-f]{64}$'),
     ingested_at timestamptz not null default now(),
     primary key (product_version, record_id),
-    foreign key ('ca-renewal-watch', product_version)
+    foreign key (product_id, product_version)
         references public.fedpulse_product_versions (product_id, product_version)
         on delete cascade
 );
@@ -128,7 +130,7 @@ select
     v.dataset_sha256
 from public.fedpulse_ca_renewal_candidates r
 join public.fedpulse_product_versions v
-  on v.product_id = 'ca-renewal-watch'
+  on v.product_id = r.product_id
  and v.product_version = r.product_version
  and v.status = 'active';
 
