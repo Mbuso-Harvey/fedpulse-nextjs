@@ -1,0 +1,104 @@
+{
+  "type": "function",
+  "function": {
+    "name": "query_ca_renewal_intelligence",
+    "description": "Execute one allowlisted, authorized Canada renewal-intelligence analysis and return governed FedPulse facts, semantic metadata, visual policy, provenance, evidence identifiers, and an execution audit. Never accepts SQL, arbitrary columns, or client-side calculations.",
+    "strict": true,
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "analysisId"],
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 600
+        },
+        "analysisId": {
+          "type": "string",
+          "enum": [
+            "renewal_watchlist",
+            "renewal_value_by_department",
+            "renewal_value_by_supplier",
+            "renewal_expiry_trend",
+            "renewal_value_by_category",
+            "renewal_value_distribution",
+            "renewal_score_relationship",
+            "department_supplier_flow"
+          ]
+        },
+        "filters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "department": {"type": ["string", "null"], "maxLength": 200},
+            "supplier": {"type": ["string", "null"], "maxLength": 240},
+            "category": {"type": ["string", "null"], "maxLength": 160},
+            "minValue": {"type": ["number", "null"], "minimum": 0},
+            "maxValue": {"type": ["number", "null"], "minimum": 0},
+            "daysUntilEndMin": {"type": ["integer", "null"], "minimum": -3650, "maximum": 36500},
+            "daysUntilEndMax": {"type": ["integer", "null"], "minimum": -3650, "maximum": 36500},
+            "expiryFrom": {"type": ["string", "null"], "format": "date"},
+            "expiryTo": {"type": ["string", "null"], "format": "date"}
+          }
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000,
+          "default": 100
+        },
+        "visualContext": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "preferredVisualId": {
+              "type": ["string", "null"],
+              "enum": [
+                "trend.line.v1",
+                "comparison.bar.v1",
+                "comparison.dot.v1",
+                "distribution.histogram.v1",
+                "relationship.scatter.v1",
+                "relationship.heatmap.v1",
+                "composition.treemap.v1",
+                "flow.sankey.v1",
+                "geo.point-map.v1",
+                "table.detail.v1",
+                null
+              ]
+            },
+            "recentVisualIds": {
+              "type": "array",
+              "maxItems": 20,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "trend.line.v1",
+                  "comparison.bar.v1",
+                  "comparison.dot.v1",
+                  "distribution.histogram.v1",
+                  "relationship.scatter.v1",
+                  "relationship.heatmap.v1",
+                  "composition.treemap.v1",
+                  "flow.sankey.v1",
+                  "geo.point-map.v1",
+                  "table.detail.v1"
+                ]
+              }
+            },
+            "accessibilityMode": {
+              "type": "string",
+              "enum": ["standard", "high-contrast"],
+              "default": "standard"
+            },
+            "audienceRole": {
+              "type": ["string", "null"],
+              "maxLength": 100
+            }
+          }
+        }
+      }
+    }
+  }
+}

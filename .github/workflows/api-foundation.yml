@@ -5,6 +5,7 @@ on:
     paths:
       - "platform/apps/api/**"
       - "platform/contracts/visualization/**"
+      - "platform/contracts/ask-fedpulse/**"
       - "platform/supabase/**"
       - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
@@ -14,9 +15,13 @@ on:
     paths:
       - "platform/apps/api/**"
       - "platform/contracts/visualization/**"
+      - "platform/contracts/ask-fedpulse/**"
       - "platform/supabase/**"
       - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
+
+permissions:
+  contents: read
 
 jobs:
   validate-api:
@@ -49,10 +54,13 @@ jobs:
           ruff check \
             config.py \
             main.py \
+            models/ask_fedpulse.py \
             models/schemas.py \
             models/visualizations.py \
+            routers/ask_fedpulse.py \
             routers/health.py \
             routers/renewals.py \
+            services/ask_fedpulse.py \
             services/auth.py \
             services/data_service.py \
             scripts \

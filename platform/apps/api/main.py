@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from config import settings
 from routers import (
+    ask_fedpulse,
     billing,
     departments,
     health,
@@ -38,6 +39,7 @@ api_prefix = "/api/v1"
 
 app.include_router(health.router, prefix=api_prefix)
 app.include_router(search.router, prefix=api_prefix)
+app.include_router(ask_fedpulse.router, prefix=f"{api_prefix}/ask-fedpulse")
 app.include_router(renewals.router, prefix=f"{api_prefix}/ca/renewals")
 app.include_router(departments.router, prefix=api_prefix)
 app.include_router(suppliers.router, prefix=api_prefix)
