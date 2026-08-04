@@ -1,7 +1,7 @@
 import logging
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Literal
+from typing import Any, Literal
 
 import numpy as np
 import pandas as pd
@@ -53,6 +53,34 @@ class DataService:
             return "supabase"
         return "csv"
 
+    def _get_active_manifest(self) -> dict[str, Any]:
+        if self.supabase is None:
+            raise DataUnavailableError("Supabase data service is not configured")
+
+        try:
+            response = (
+                self.supabase.table(settings.ca_product_versions_table)
+                .select(
+                    "product_version,country_code,source_system,coverage_through,"
+                    "generated_at,row_count,dataset_sha256"
+                )
+                .eq("product_id", settings.ca_product_id)
+                .eq("status", "active")
+                .limit(1)
+                .execute()
+            )
+        except Exception as exc:
+            raise DataUnavailableError(
+                "Failed to read the active Canada Renewal Watch manifest"
+            ) from exc
+
+        rows = response.data or []
+        if not rows:
+            raise DataUnavailableError(
+                "No active reconciled Canada Renewal Watch product version exists"
+            )
+        return dict(rows[0])
+
     def status(self) -> DataSourceStatus:
         try:
             backend = self._selected_backend()
@@ -64,10 +92,21 @@ class DataService:
             )
 
         if backend == "supabase":
+            try:
+                manifest = self._get_active_manifest()
+            except DataUnavailableError as exc:
+                return DataSourceStatus(
+                    backend="supabase",
+                    configured=False,
+                    detail=str(exc),
+                )
             return DataSourceStatus(
                 backend="supabase",
                 configured=True,
-                detail="Supabase product tables",
+                detail=(
+                    f"{settings.ca_renewals_table}: "
+                    f"{manifest['product_version']} ({manifest['row_count']} rows)"
+                ),
             )
 
         return DataSourceStatus(
@@ -104,13 +143,14 @@ class DataService:
             response = self.supabase.table(table).select("*").execute()
         except Exception as exc:
             raise DataUnavailableError(
-                f"Failed to load authoritative Supabase table: {table}"
+                f"Failed to load authoritative Supabase table or view: {table}"
             ) from exc
 
         data = response.data or []
         if not data:
             raise DataUnavailableError(
-                f"Authoritative Supabase table is empty: {table}"
+                f"Authoritative Supabase product is empty: {table}. "
+                "Load and activate a reconciled product version before serving it."
             )
         return self._normalize_dataframe(pd.DataFrame(data))
 
@@ -123,17 +163,42 @@ class DataService:
     ) -> pd.DataFrame:
         backend = self._selected_backend()
         if backend == "supabase":
+            self._get_active_manifest()
             return self._load_table(table)
         return self._load_csv(csv_path, dataset_name)
 
     def get_renewals(self) -> pd.DataFrame:
         if self._renewals_df is None:
             self._renewals_df = self._load_product(
-                table="renewals",
+                table=settings.ca_renewals_table,
                 csv_path=settings.renewals_data_path,
                 dataset_name="renewals",
             )
         return self._renewals_df.copy()
+
+    def get_renewals_context(self) -> dict[str, Any]:
+        frame = self.get_renewals()
+        if self._selected_backend() == "supabase":
+            manifest = self._get_active_manifest()
+            return {
+                "country_code": manifest.get("country_code"),
+                "source_system": manifest.get("source_system"),
+                "product_version": manifest.get("product_version"),
+                "coverage_through": manifest.get("coverage_through"),
+                "generated_at": manifest.get("generated_at"),
+                "dataset_sha256": manifest.get("dataset_sha256"),
+                "row_count": int(manifest.get("row_count") or len(frame)),
+            }
+
+        return {
+            "country_code": settings.ca_country_code,
+            "source_system": settings.ca_source_system,
+            "product_version": settings.ca_product_version,
+            "coverage_through": settings.ca_coverage_through,
+            "generated_at": None,
+            "dataset_sha256": None,
+            "row_count": int(len(frame)),
+        }
 
     def get_departments(self) -> pd.DataFrame:
         if self._departments_df is None:

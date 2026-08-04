@@ -1,0 +1,35 @@
+{
+  "product_id": "ca-renewal-watch",
+  "country_code": "CA",
+  "status": "implementation",
+  "source_system": "CanadaBuys",
+  "source_datasets": [
+    {
+      "name": "CanadaBuys Contract History",
+      "open_canada_dataset_id": "4fe645a1-ffcd-40c1-9385-2c771be956a4",
+      "role": "primary_contract_history"
+    }
+  ],
+  "authoritative_database_objects": {
+    "version_manifest": "public.fedpulse_product_versions",
+    "versioned_records": "public.fedpulse_ca_renewal_candidates",
+    "active_view": "public.fedpulse_ca_renewals_current"
+  },
+  "source_artifact": {
+    "expected_filename": "gold_renewal_candidates_supplier_mastered_v2.csv",
+    "location": "unresolved",
+    "required_before_activation": true
+  },
+  "quality_policy": {
+    "accepted_tiers": ["gold"],
+    "reject_duplicate_stable_identity": true,
+    "require_contract_number": true,
+    "require_database_count_reconciliation": true,
+    "require_dataset_sha256": true
+  },
+  "api": {
+    "namespace": "/api/v1/ca/renewals",
+    "source_context_required": true
+  },
+  "loader": "platform/apps/api/scripts/load_ca_renewals.py"
+}

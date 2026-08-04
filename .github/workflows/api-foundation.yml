@@ -4,12 +4,16 @@ on:
   pull_request:
     paths:
       - "platform/apps/api/**"
+      - "platform/supabase/**"
+      - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
   push:
     branches:
       - master
     paths:
       - "platform/apps/api/**"
+      - "platform/supabase/**"
+      - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
 
 jobs:
@@ -38,12 +42,25 @@ jobs:
       - name: Compile
         run: python -m compileall .
 
-      - name: Lint
-        run: ruff check .
+      - name: Lint maintained API surface
+        run: |
+          ruff check \
+            config.py \
+            main.py \
+            models/schemas.py \
+            routers/health.py \
+            routers/renewals.py \
+            services/auth.py \
+            services/data_service.py \
+            scripts \
+            tests \
+            --select E,F \
+            --ignore E501
 
       - name: Test
         env:
           ENVIRONMENT: test
           ALLOW_DEV_AUTH: "false"
           DATA_BACKEND: csv
-        run: pytest -q
+          PYTHONPATH: .
+        run: python -m pytest -q

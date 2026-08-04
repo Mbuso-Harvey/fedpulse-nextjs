@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 from typing import Literal
 
@@ -21,7 +20,7 @@ class Settings(BaseSettings):
     )
 
     api_title: str = "FedPulse Procurement Intelligence API"
-    api_version: str = "1.1.0"
+    api_version: str = "1.2.0"
     graph_version: str = "KG-1.0"
     environment: Literal["development", "test", "staging", "production"] = "development"
 
@@ -44,7 +43,10 @@ class Settings(BaseSettings):
     allow_dev_auth: bool = False
     default_dev_subscription_tier: str = "professional"
 
+    ca_product_id: str = "ca-renewal-watch"
     ca_product_version: str = "ca-renewals-unreconciled"
+    ca_product_versions_table: str = "fedpulse_product_versions"
+    ca_renewals_table: str = "fedpulse_ca_renewals_current"
     ca_source_system: str = "CanadaBuys"
     ca_country_code: str = "CA"
     ca_coverage_through: str | None = None
