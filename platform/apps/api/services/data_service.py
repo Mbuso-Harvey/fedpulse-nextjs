@@ -1,7 +1,7 @@
 import logging
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Literal
+from typing import Any, Literal
 
 import numpy as np
 import pandas as pd
@@ -67,7 +67,7 @@ class DataService:
             return DataSourceStatus(
                 backend="supabase",
                 configured=True,
-                detail="Supabase product tables",
+                detail=f"Supabase view {settings.ca_renewals_table}",
             )
 
         return DataSourceStatus(
@@ -104,13 +104,14 @@ class DataService:
             response = self.supabase.table(table).select("*").execute()
         except Exception as exc:
             raise DataUnavailableError(
-                f"Failed to load authoritative Supabase table: {table}"
+                f"Failed to load authoritative Supabase table or view: {table}"
             ) from exc
 
         data = response.data or []
         if not data:
             raise DataUnavailableError(
-                f"Authoritative Supabase table is empty: {table}"
+                f"Authoritative Supabase product is empty: {table}. "
+                "Load and activate a reconciled product version before serving it."
             )
         return self._normalize_dataframe(pd.DataFrame(data))
 
@@ -129,11 +130,37 @@ class DataService:
     def get_renewals(self) -> pd.DataFrame:
         if self._renewals_df is None:
             self._renewals_df = self._load_product(
-                table="renewals",
+                table=settings.ca_renewals_table,
                 csv_path=settings.renewals_data_path,
                 dataset_name="renewals",
             )
         return self._renewals_df.copy()
+
+    def get_renewals_context(self) -> dict[str, Any]:
+        frame = self.get_renewals()
+        first = frame.iloc[0].to_dict() if not frame.empty else {}
+
+        def text_value(name: str, fallback: Any = None) -> Any:
+            value = first.get(name, fallback)
+            if value is None or pd.isna(value):
+                return fallback
+            if isinstance(value, pd.Timestamp):
+                return value.isoformat()
+            return str(value)
+
+        return {
+            "country_code": text_value("country_code", settings.ca_country_code),
+            "source_system": text_value("source_system", settings.ca_source_system),
+            "product_version": text_value(
+                "product_version", settings.ca_product_version
+            ),
+            "coverage_through": text_value(
+                "coverage_through", settings.ca_coverage_through
+            ),
+            "generated_at": text_value("generated_at"),
+            "dataset_sha256": text_value("dataset_sha256"),
+            "row_count": int(len(frame)),
+        }
 
     def get_departments(self) -> pd.DataFrame:
         if self._departments_df is None:
