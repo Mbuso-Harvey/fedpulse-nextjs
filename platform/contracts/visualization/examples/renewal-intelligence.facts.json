@@ -1,8 +1,8 @@
 {
-  "contractVersion": "fedpulse.analytics.facts.v1",
+  "contractVersion": "fedpulse.analytics.facts.v2",
   "datasetId": "ca-renewal-watch-fixture",
   "title": "Canada renewal intelligence",
-  "description": "Compatibility fixture containing governed facts for automatic visualization selection.",
+  "description": "Enterprise compatibility fixture containing governed semantic facts for approved automatic visual selection.",
   "status": {
     "state": "ready",
     "message": null
@@ -10,10 +10,10 @@
   "provenance": {
     "sourceSystem": "CanadaBuys",
     "sourceUrl": null,
-    "productVersion": "ca-renewal-watch-fixture-v1",
+    "productVersion": "ca-renewal-watch-fixture-v2",
     "coverageThrough": "2026-06-16",
     "generatedAt": "2026-08-04T00:00:00Z",
-    "datasetHash": "sha256:analytics-facts-compatibility-fixture",
+    "datasetHash": "sha256:enterprise-analytics-renewal-fixture",
     "requestId": "fixture-request-001",
     "evidenceIds": [
       "fixture:renewal:001",
@@ -24,62 +24,133 @@
       "Compatibility fixture only; values are not production procurement intelligence."
     ]
   },
+  "decision": {
+    "intent": "overview",
+    "question": "Which renewal exposures require attention?",
+    "audienceRole": "procurement executive",
+    "preferredVisualId": null
+  },
+  "semanticModel": {
+    "registryVersion": "fedpulse.visual-registry.v1",
+    "fields": [
+      {
+        "field": "expiryDate",
+        "label": "Expiry date",
+        "roles": ["time"],
+        "semanticType": "date",
+        "defaultAggregation": "none",
+        "allowedAggregations": ["none"],
+        "currency": null,
+        "unit": null,
+        "priority": 90,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      },
+      {
+        "field": "department",
+        "label": "Department",
+        "roles": ["dimension"],
+        "semanticType": "department",
+        "defaultAggregation": "none",
+        "allowedAggregations": ["none"],
+        "currency": null,
+        "unit": null,
+        "priority": 85,
+        "hierarchy": ["government", "department"],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      },
+      {
+        "field": "supplier",
+        "label": "Supplier",
+        "roles": ["dimension"],
+        "semanticType": "supplier",
+        "defaultAggregation": "none",
+        "allowedAggregations": ["none"],
+        "currency": null,
+        "unit": null,
+        "priority": 65,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 0.98}
+      },
+      {
+        "field": "category",
+        "label": "Category",
+        "roles": ["dimension"],
+        "semanticType": "category",
+        "defaultAggregation": "none",
+        "allowedAggregations": ["none"],
+        "currency": null,
+        "unit": null,
+        "priority": 75,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 0.98}
+      },
+      {
+        "field": "contractValue",
+        "label": "Contract value",
+        "roles": ["measure"],
+        "semanticType": "currency",
+        "defaultAggregation": "sum",
+        "allowedAggregations": ["sum", "median", "mean"],
+        "currency": "CAD",
+        "unit": null,
+        "priority": 100,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      },
+      {
+        "field": "daysUntilExpiry",
+        "label": "Days until expiry",
+        "roles": ["measure"],
+        "semanticType": "duration",
+        "defaultAggregation": "median",
+        "allowedAggregations": ["median", "mean", "min", "max"],
+        "currency": null,
+        "unit": "day",
+        "priority": 55,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      }
+    ]
+  },
+  "visualPolicy": {
+    "maxCharts": 4,
+    "maxPerFamily": 1,
+    "minimumConfidence": 0.62,
+    "recentVisualIds": ["comparison.bar.v1"],
+    "allowedVisualIds": [],
+    "deniedVisualIds": [],
+    "diversityWeight": 1,
+    "requireTableFallback": true,
+    "allowCustomSpec": false,
+    "accessibilityMode": "standard",
+    "maxCategories": 30,
+    "maxHeatmapCardinality": 12,
+    "maxSankeyNodes": 40,
+    "maxSankeyLinks": 150,
+    "maxMapPoints": 2000
+  },
   "presentation": {
     "theme": "auto",
     "layoutMode": "auto",
     "approvalMode": false,
+    "visualId": null,
     "chartConfig": null,
     "chartLayout": null,
     "spec": null
   },
   "facts": [
-    {
-      "expiryDate": "2026-10-31",
-      "department": "Public Services and Procurement Canada",
-      "supplier": "Supplier A",
-      "category": "Information technology",
-      "contractValue": 125000000,
-      "daysUntilExpiry": 88
-    },
-    {
-      "expiryDate": "2026-11-30",
-      "department": "National Defence",
-      "supplier": "Supplier B",
-      "category": "Professional services",
-      "contractValue": 98000000,
-      "daysUntilExpiry": 118
-    },
-    {
-      "expiryDate": "2026-12-15",
-      "department": "Employment and Social Development Canada",
-      "supplier": "Supplier C",
-      "category": "Information technology",
-      "contractValue": 76000000,
-      "daysUntilExpiry": 133
-    },
-    {
-      "expiryDate": "2027-01-31",
-      "department": "Shared Services Canada",
-      "supplier": "Supplier D",
-      "category": "Telecommunications",
-      "contractValue": 64000000,
-      "daysUntilExpiry": 180
-    },
-    {
-      "expiryDate": "2027-02-28",
-      "department": "Canada Revenue Agency",
-      "supplier": "Supplier E",
-      "category": "Information technology",
-      "contractValue": 51000000,
-      "daysUntilExpiry": 208
-    },
-    {
-      "expiryDate": "2027-03-31",
-      "department": "Transport Canada",
-      "supplier": "Supplier F",
-      "category": "Professional services",
-      "contractValue": 43000000,
-      "daysUntilExpiry": 239
-    }
+    {"expiryDate": "2026-10-31", "department": "Public Services and Procurement Canada", "supplier": "Supplier A", "category": "Information technology", "contractValue": 125000000, "daysUntilExpiry": 88},
+    {"expiryDate": "2026-11-30", "department": "National Defence", "supplier": "Supplier B", "category": "Professional services", "contractValue": 98000000, "daysUntilExpiry": 118},
+    {"expiryDate": "2026-12-15", "department": "Employment and Social Development Canada", "supplier": "Supplier C", "category": "Information technology", "contractValue": 76000000, "daysUntilExpiry": 133},
+    {"expiryDate": "2027-01-31", "department": "Shared Services Canada", "supplier": "Supplier D", "category": "Telecommunications", "contractValue": 64000000, "daysUntilExpiry": 180},
+    {"expiryDate": "2027-02-28", "department": "Canada Revenue Agency", "supplier": "Supplier E", "category": "Information technology", "contractValue": 51000000, "daysUntilExpiry": 208},
+    {"expiryDate": "2027-03-31", "department": "Transport Canada", "supplier": "Supplier F", "category": "Professional services", "contractValue": 43000000, "daysUntilExpiry": 239}
   ]
 }
