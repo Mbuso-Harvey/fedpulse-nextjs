@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "platform/apps/api/**"
+      - "platform/contracts/visualization/**"
       - "platform/supabase/**"
       - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
@@ -12,6 +13,7 @@ on:
       - master
     paths:
       - "platform/apps/api/**"
+      - "platform/contracts/visualization/**"
       - "platform/supabase/**"
       - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
@@ -48,6 +50,7 @@ jobs:
             config.py \
             main.py \
             models/schemas.py \
+            models/visualizations.py \
             routers/health.py \
             routers/renewals.py \
             services/auth.py \

@@ -1,0 +1,96 @@
+{
+  "contractVersion": "fedpulse.analytics.facts.v2",
+  "datasetId": "ca-contract-flow-fixture",
+  "title": "Department-to-supplier contract flow",
+  "description": "Governed flow fixture used to validate the approved enterprise Sankey template.",
+  "status": {"state": "ready", "message": null},
+  "provenance": {
+    "sourceSystem": "CanadaBuys",
+    "sourceUrl": null,
+    "productVersion": "ca-flow-fixture-v1",
+    "coverageThrough": "2026-06-16",
+    "generatedAt": "2026-08-04T00:00:00Z",
+    "datasetHash": "sha256:enterprise-analytics-flow-fixture",
+    "requestId": "fixture-request-flow-001",
+    "evidenceIds": ["fixture:flow:001"],
+    "limitations": ["Compatibility fixture only."]
+  },
+  "decision": {
+    "intent": "flow",
+    "question": "How does contract value flow from departments to suppliers?",
+    "audienceRole": "procurement executive",
+    "preferredVisualId": "flow.sankey.v1"
+  },
+  "semanticModel": {
+    "registryVersion": "fedpulse.visual-registry.v1",
+    "fields": [
+      {
+        "field": "department",
+        "label": "Department",
+        "roles": ["source"],
+        "semanticType": "department",
+        "defaultAggregation": "none",
+        "allowedAggregations": ["none"],
+        "currency": null,
+        "unit": null,
+        "priority": 100,
+        "hierarchy": ["government", "department"],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      },
+      {
+        "field": "supplier",
+        "label": "Supplier",
+        "roles": ["target"],
+        "semanticType": "supplier",
+        "defaultAggregation": "none",
+        "allowedAggregations": ["none"],
+        "currency": null,
+        "unit": null,
+        "priority": 100,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      },
+      {
+        "field": "contractValue",
+        "label": "Contract value",
+        "roles": ["weight", "measure"],
+        "semanticType": "currency",
+        "defaultAggregation": "sum",
+        "allowedAggregations": ["sum"],
+        "currency": "CAD",
+        "unit": null,
+        "priority": 100,
+        "hierarchy": [],
+        "sensitivity": "public",
+        "quality": {"coverage": 1, "confidence": 1}
+      }
+    ]
+  },
+  "visualPolicy": {
+    "maxCharts": 2,
+    "maxPerFamily": 1,
+    "minimumConfidence": 0.62,
+    "recentVisualIds": [],
+    "allowedVisualIds": [],
+    "deniedVisualIds": [],
+    "diversityWeight": 1,
+    "requireTableFallback": true,
+    "allowCustomSpec": false,
+    "accessibilityMode": "standard",
+    "maxCategories": 30,
+    "maxHeatmapCardinality": 12,
+    "maxSankeyNodes": 40,
+    "maxSankeyLinks": 150,
+    "maxMapPoints": 2000
+  },
+  "presentation": {"theme": "auto", "layoutMode": "auto", "approvalMode": false, "visualId": null, "chartConfig": null, "chartLayout": null, "spec": null},
+  "facts": [
+    {"department": "National Defence", "supplier": "Supplier A", "contractValue": 42000000},
+    {"department": "National Defence", "supplier": "Supplier B", "contractValue": 18000000},
+    {"department": "Public Services and Procurement Canada", "supplier": "Supplier A", "contractValue": 26000000},
+    {"department": "Shared Services Canada", "supplier": "Supplier C", "contractValue": 21000000},
+    {"department": "Shared Services Canada", "supplier": "Supplier A", "contractValue": 9000000}
+  ]
+}
