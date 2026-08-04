@@ -14,6 +14,9 @@ on:
       - "platform/contracts/visualization/**"
       - ".github/workflows/web-visualization-contract.yml"
 
+permissions:
+  contents: write
+
 jobs:
   validate-web-visualizations:
     runs-on: ubuntu-latest
@@ -22,8 +25,10 @@ jobs:
         working-directory: platform/apps/web
 
     steps:
-      - name: Checkout
+      - name: Checkout branch head
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -34,13 +39,6 @@ jobs:
 
       - name: Synchronize package lock
         run: npm install --package-lock-only --ignore-scripts
-
-      - name: Upload synchronized package lock
-        uses: actions/upload-artifact@v4
-        with:
-          name: synchronized-web-package-lock
-          path: platform/apps/web/package-lock.json
-          if-no-files-found: error
 
       - name: Install dependencies
         run: npm ci
@@ -57,3 +55,16 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: https://example.supabase.co
           NEXT_PUBLIC_SUPABASE_ANON_KEY: test-anon-key
         run: npm run build
+
+      - name: Commit synchronized package lock
+        if: github.event_name == 'pull_request'
+        working-directory: .
+        run: |
+          if git diff --quiet -- platform/apps/web/package-lock.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add platform/apps/web/package-lock.json
+          git commit -m "Synchronize web dependency lock"
+          git push origin HEAD:${{ github.head_ref }}
