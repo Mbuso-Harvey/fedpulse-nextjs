@@ -1,0 +1,58 @@
+{
+  "contractVersion": "fedpulse.analytics.facts.v2",
+  "datasetId": "ca-contract-location-fixture",
+  "title": "Contract activity by location",
+  "description": "Governed geographic fixture used to validate the approved enterprise point-map template.",
+  "status": {"state": "ready", "message": null},
+  "provenance": {
+    "sourceSystem": "CanadaBuys",
+    "sourceUrl": null,
+    "productVersion": "ca-location-fixture-v1",
+    "coverageThrough": "2026-06-16",
+    "generatedAt": "2026-08-04T00:00:00Z",
+    "datasetHash": "sha256:enterprise-analytics-map-fixture",
+    "requestId": "fixture-request-map-001",
+    "evidenceIds": ["fixture:map:001"],
+    "limitations": ["Coordinates are illustrative fixture values."]
+  },
+  "decision": {
+    "intent": "geography",
+    "question": "Where is contract activity concentrated?",
+    "audienceRole": "procurement executive",
+    "preferredVisualId": "geo.point-map.v1"
+  },
+  "semanticModel": {
+    "registryVersion": "fedpulse.visual-registry.v1",
+    "fields": [
+      {"field": "location", "label": "Location", "roles": ["dimension", "geography"], "semanticType": "region", "defaultAggregation": "none", "allowedAggregations": ["none"], "currency": null, "unit": null, "priority": 80, "hierarchy": ["country", "province", "city"], "sensitivity": "public", "quality": {"coverage": 1, "confidence": 1}},
+      {"field": "latitude", "label": "Latitude", "roles": ["latitude"], "semanticType": "latitude", "defaultAggregation": "none", "allowedAggregations": ["none"], "currency": null, "unit": "degrees", "priority": 100, "hierarchy": [], "sensitivity": "public", "quality": {"coverage": 1, "confidence": 1}},
+      {"field": "longitude", "label": "Longitude", "roles": ["longitude"], "semanticType": "longitude", "defaultAggregation": "none", "allowedAggregations": ["none"], "currency": null, "unit": "degrees", "priority": 100, "hierarchy": [], "sensitivity": "public", "quality": {"coverage": 1, "confidence": 1}},
+      {"field": "contractValue", "label": "Contract value", "roles": ["measure"], "semanticType": "currency", "defaultAggregation": "sum", "allowedAggregations": ["sum"], "currency": "CAD", "unit": null, "priority": 90, "hierarchy": [], "sensitivity": "public", "quality": {"coverage": 1, "confidence": 1}},
+      {"field": "department", "label": "Department", "roles": ["dimension"], "semanticType": "department", "defaultAggregation": "none", "allowedAggregations": ["none"], "currency": null, "unit": null, "priority": 60, "hierarchy": ["government", "department"], "sensitivity": "public", "quality": {"coverage": 1, "confidence": 1}}
+    ]
+  },
+  "visualPolicy": {
+    "maxCharts": 2,
+    "maxPerFamily": 1,
+    "minimumConfidence": 0.62,
+    "recentVisualIds": [],
+    "allowedVisualIds": [],
+    "deniedVisualIds": [],
+    "diversityWeight": 1,
+    "requireTableFallback": true,
+    "allowCustomSpec": false,
+    "accessibilityMode": "standard",
+    "maxCategories": 30,
+    "maxHeatmapCardinality": 12,
+    "maxSankeyNodes": 40,
+    "maxSankeyLinks": 150,
+    "maxMapPoints": 2000
+  },
+  "presentation": {"theme": "auto", "layoutMode": "auto", "approvalMode": false, "visualId": null, "chartConfig": null, "chartLayout": null, "spec": null},
+  "facts": [
+    {"location": "Toronto", "latitude": 43.6532, "longitude": -79.3832, "contractValue": 32000000, "department": "Public Services and Procurement Canada"},
+    {"location": "Ottawa", "latitude": 45.4215, "longitude": -75.6972, "contractValue": 58000000, "department": "National Defence"},
+    {"location": "Montreal", "latitude": 45.5019, "longitude": -73.5674, "contractValue": 27000000, "department": "Shared Services Canada"},
+    {"location": "Vancouver", "latitude": 49.2827, "longitude": -123.1207, "contractValue": 19000000, "department": "Transport Canada"}
+  ]
+}
