@@ -1,207 +1,138 @@
 import { z } from "zod";
 
-export const VISUALIZATION_CONTRACT_VERSION = "fedpulse.visualization.v1" as const;
+export const ANALYTICS_FACTS_CONTRACT_VERSION =
+  "fedpulse.analytics.facts.v1" as const;
 
-export const scalarSchema = z.union([
+export const factScalarSchema = z.union([
   z.string(),
   z.number().finite(),
   z.boolean(),
   z.null(),
 ]);
 
-export const valueFormatSchema = z
-  .object({
-    style: z.enum(["text", "number", "currency", "percent", "date"]),
-    notation: z.enum(["standard", "compact"]).default("standard"),
-    decimals: z.number().int().min(0).max(4).default(0),
-    currency: z.string().regex(/^[A-Z]{3}$/).optional(),
-    percentScale: z.enum(["points", "fraction"]).default("points"),
-    prefix: z.string().max(12).optional(),
-    suffix: z.string().max(12).optional(),
-  })
-  .strict()
-  .superRefine((format, context) => {
-    if (format.style === "currency" && !format.currency) {
-      context.addIssue({
-        code: "custom",
-        path: ["currency"],
-        message: "currency is required when style is currency",
-      });
-    }
-  });
+export const factRowSchema = z.record(z.string().min(1).max(100), factScalarSchema);
 
-export const provenanceSchema = z
+export const analyticsProvenanceSchema = z
   .object({
     sourceSystem: z.string().min(1).max(100),
-    sourceUrl: z.string().url().optional(),
+    sourceUrl: z
+      .string()
+      .url()
+      .refine((value) => value.startsWith("http://") || value.startsWith("https://"), {
+        message: "sourceUrl must use HTTP or HTTPS",
+      })
+      .nullish(),
     productVersion: z.string().min(1).max(100),
     coverageThrough: z.string().date(),
     generatedAt: z.string().datetime({ offset: true }),
-    datasetHash: z.string().min(8).max(160).optional(),
-    requestId: z.string().min(1).max(120).optional(),
+    datasetHash: z.string().min(8).max(160).nullish(),
+    requestId: z.string().min(1).max(120).nullish(),
     evidenceIds: z.array(z.string().min(1).max(160)).max(100).default([]),
     limitations: z.array(z.string().min(1).max(500)).max(20).default([]),
   })
   .strict();
 
-export const widgetStatusSchema = z
+export const analyticsStatusSchema = z
   .object({
     state: z.enum(["ready", "partial", "empty", "error"]),
-    message: z.string().min(1).max(300).optional(),
+    message: z.string().min(1).max(300).nullish(),
   })
   .strict();
 
-const baseWidgetShape = {
-  contractVersion: z.literal(VISUALIZATION_CONTRACT_VERSION),
-  widgetId: z.string().regex(/^[a-z0-9][a-z0-9._-]{2,99}$/),
-  title: z.string().min(1).max(120),
-  description: z.string().min(1).max(500).optional(),
-  status: widgetStatusSchema,
-  provenance: provenanceSchema,
-};
-
-export const metricWidgetSchema = z
-  .object({
-    ...baseWidgetShape,
-    kind: z.literal("metric"),
-    metric: z
-      .object({
-        label: z.string().min(1).max(100).optional(),
-        value: scalarSchema,
-        format: valueFormatSchema.optional(),
-        context: z.string().min(1).max(240).optional(),
-        trendLabel: z.string().min(1).max(120).optional(),
-      })
-      .strict(),
-  })
-  .strict();
-
-export const chartSeriesSchema = z
-  .object({
-    dataKey: z.string().min(1).max(80),
-    label: z.string().min(1).max(100),
-    format: valueFormatSchema.optional(),
-  })
-  .strict();
-
-export const chartWidgetSchema = z
-  .object({
-    ...baseWidgetShape,
-    kind: z.literal("chart"),
-    chart: z
-      .object({
-        type: z.enum(["bar", "line", "pie", "scatter"]),
-        xKey: z.string().min(1).max(80),
-        xLabel: z.string().min(1).max(100).optional(),
-        yLabel: z.string().min(1).max(100).optional(),
-        barDirection: z.enum(["columns", "rows"]).default("columns"),
-        showLegend: z.boolean().default(true),
-        stacked: z.boolean().default(false),
-        series: z.array(chartSeriesSchema).min(1).max(5),
-      })
-      .strict(),
-    data: z.array(z.record(z.string(), scalarSchema)).max(500),
-  })
-  .strict();
-
-export const tableColumnSchema = z
-  .object({
-    key: z.string().min(1).max(80),
-    label: z.string().min(1).max(100),
-    align: z.enum(["left", "center", "right"]).default("left"),
-    format: valueFormatSchema.optional(),
-  })
-  .strict();
-
-export const tableWidgetSchema = z
-  .object({
-    ...baseWidgetShape,
-    kind: z.literal("table"),
-    table: z
-      .object({
-        columns: z.array(tableColumnSchema).min(1).max(20),
-        rows: z.array(z.record(z.string(), scalarSchema)).max(1000),
-        rowKey: z.string().min(1).max(80).optional(),
-      })
-      .strict(),
-  })
-  .strict();
-
-export const insightItemSchema = z
+export const chartLayoutItemSchema = z
   .object({
     id: z.string().min(1).max(100),
-    title: z.string().min(1).max(140),
-    summary: z.string().min(1).max(800),
-    severity: z.enum(["info", "opportunity", "watch", "risk"]),
-    evidenceIds: z.array(z.string().min(1).max(160)).max(30).default([]),
+    span: z.number().int().min(1).max(12),
   })
   .strict();
 
-export const insightListWidgetSchema = z
+export const analyticsPresentationSchema = z
   .object({
-    ...baseWidgetShape,
-    kind: z.literal("insight_list"),
-    insights: z.array(insightItemSchema).max(20),
+    theme: z.enum(["auto", "light", "dark"]).default("auto"),
+    layoutMode: z.enum(["auto", "canvas", "grid"]).default("auto"),
+    approvalMode: z.boolean().default(false),
+    chartConfig: z.record(z.string(), z.unknown()).nullish(),
+    chartLayout: z.array(chartLayoutItemSchema).max(30).nullish(),
+    spec: z.record(z.string(), z.unknown()).nullish(),
   })
-  .strict();
+  .strict()
+  .default({
+    theme: "auto",
+    layoutMode: "auto",
+    approvalMode: false,
+    chartConfig: null,
+    chartLayout: null,
+    spec: null,
+  });
 
-const analyticsWidgetUnionSchema = z.discriminatedUnion("kind", [
-  metricWidgetSchema,
-  chartWidgetSchema,
-  tableWidgetSchema,
-  insightListWidgetSchema,
-]);
+export const analyticsFactsSchema = z
+  .object({
+    contractVersion: z.literal(ANALYTICS_FACTS_CONTRACT_VERSION),
+    datasetId: z.string().regex(/^[a-z0-9][a-z0-9._-]{2,119}$/),
+    title: z.string().min(1).max(160),
+    description: z.string().min(1).max(600).nullish(),
+    status: analyticsStatusSchema,
+    provenance: analyticsProvenanceSchema,
+    presentation: analyticsPresentationSchema,
+    facts: z.array(factRowSchema).max(10_000),
+  })
+  .strict()
+  .superRefine((payload, context) => {
+    const hasFacts = payload.facts.length > 0;
 
-export const analyticsWidgetSchema = analyticsWidgetUnionSchema.superRefine(
-  (widget, context) => {
-    if (widget.kind !== "chart") return;
-
-    const { chart, data } = widget;
-    const keys = [chart.xKey, ...chart.series.map((series) => series.dataKey)];
-
-    if (chart.type === "pie" && chart.series.length !== 1) {
+    if (["ready", "partial"].includes(payload.status.state) && !hasFacts) {
       context.addIssue({
         code: "custom",
-        path: ["chart", "series"],
-        message: "pie charts require exactly one series",
+        path: ["facts"],
+        message: `${payload.status.state} analytics require at least one fact row`,
       });
     }
 
-    if (chart.type === "scatter" && chart.series.length !== 1) {
+    if (["empty", "error"].includes(payload.status.state) && hasFacts) {
       context.addIssue({
         code: "custom",
-        path: ["chart", "series"],
-        message: "scatter charts require exactly one series",
+        path: ["facts"],
+        message: `${payload.status.state} analytics must not include fact rows`,
       });
     }
 
-    data.forEach((row, rowIndex) => {
-      keys.forEach((key) => {
-        if (!(key in row)) {
-          context.addIssue({
-            code: "custom",
-            path: ["data", rowIndex, key],
-            message: `missing required chart field: ${key}`,
-          });
-        }
+    if (!hasFacts) return;
+
+    const firstKeys = Object.keys(payload.facts[0]).sort();
+    if (firstKeys.length === 0) {
+      context.addIssue({
+        code: "custom",
+        path: ["facts", 0],
+        message: "fact rows must contain at least one field",
       });
+      return;
+    }
+
+    payload.facts.forEach((row, rowIndex) => {
+      const rowKeys = Object.keys(row).sort();
+      if (
+        rowKeys.length !== firstKeys.length ||
+        rowKeys.some((key, index) => key !== firstKeys[index])
+      ) {
+        context.addIssue({
+          code: "custom",
+          path: ["facts", rowIndex],
+          message: "all fact rows must expose the same fields",
+        });
+      }
     });
-  },
-);
+  });
 
-export type ScalarValue = z.infer<typeof scalarSchema>;
-export type ValueFormat = z.infer<typeof valueFormatSchema>;
-export type WidgetProvenance = z.infer<typeof provenanceSchema>;
-export type MetricWidgetSpec = z.infer<typeof metricWidgetSchema>;
-export type ChartWidgetSpec = z.infer<typeof chartWidgetSchema>;
-export type TableWidgetSpec = z.infer<typeof tableWidgetSchema>;
-export type InsightListWidgetSpec = z.infer<typeof insightListWidgetSchema>;
-export type AnalyticsWidgetSpec = z.infer<typeof analyticsWidgetSchema>;
+export type FactScalar = z.infer<typeof factScalarSchema>;
+export type FactRow = z.infer<typeof factRowSchema>;
+export type AnalyticsProvenance = z.infer<typeof analyticsProvenanceSchema>;
+export type AnalyticsPresentation = z.infer<typeof analyticsPresentationSchema>;
+export type AnalyticsFacts = z.infer<typeof analyticsFactsSchema>;
 
-export function parseAnalyticsWidget(input: unknown): AnalyticsWidgetSpec {
-  return analyticsWidgetSchema.parse(input);
+export function parseAnalyticsFacts(input: unknown): AnalyticsFacts {
+  return analyticsFactsSchema.parse(input);
 }
 
-export function safeParseAnalyticsWidget(input: unknown) {
-  return analyticsWidgetSchema.safeParse(input);
+export function safeParseAnalyticsFacts(input: unknown) {
+  return analyticsFactsSchema.safeParse(input);
 }
