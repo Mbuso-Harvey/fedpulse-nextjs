@@ -44,29 +44,24 @@ jobs:
 
           path = Path("platform/apps/api/services/ask_fedpulse.py")
           text = path.read_text(encoding="utf-8")
-          old = '''            sourceSystem="CanadaBuys",
-            sourceUrl=None,
-            productVersion="ca-renewals-unavailable",
-            coverageThrough=None,'''
-          new = '''            sourceSystem="FedPulse product registry",
-            sourceUrl=None,
-            productVersion="ca-renewals-unavailable",
-            coverageThrough=date.today(),'''
-          if old not in text:
-              raise SystemExit("Expected unavailable provenance block was not found")
-          text = text.replace(old, new, 1)
-          old_limitations = '''            limitations=[
-                detail,
-                "No facts were fabricated or substituted from another product version.",
-            ],'''
-          new_limitations = '''            limitations=[
-                detail,
-                "coverageThrough is the product-availability check date for this error response; no source-data coverage date is asserted.",
-                "No facts were fabricated or substituted from another product version.",
-            ],'''
-          if old_limitations not in text:
-              raise SystemExit("Expected unavailable limitations block was not found")
-          path.write_text(text.replace(old_limitations, new_limitations, 1), encoding="utf-8")
+
+          replacements = [
+              (
+                  'sourceSystem="CanadaBuys",\n            sourceUrl=None,\n            productVersion="ca-renewals-unavailable",\n            coverageThrough=None,',
+                  'sourceSystem="FedPulse product registry",\n            sourceUrl=None,\n            productVersion="ca-renewals-unavailable",\n            coverageThrough=date.today(),',
+              ),
+              (
+                  '"No facts were fabricated or substituted from another product version.",\n            ],',
+                  '"No facts were fabricated or substituted from another product version.",\n                "coverageThrough is the product-availability check date for this error response; no source-data coverage date is asserted.",\n            ],',
+              ),
+          ]
+
+          for old, new in replacements:
+              if old not in text:
+                  raise SystemExit(f"Expected source fragment was not found: {old!r}")
+              text = text.replace(old, new, 1)
+
+          path.write_text(text, encoding="utf-8")
           PY
 
       - name: Commit source correction
