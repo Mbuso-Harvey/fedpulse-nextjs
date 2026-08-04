@@ -1,0 +1,85 @@
+{
+  "contractVersion": "fedpulse.analytics.facts.v1",
+  "datasetId": "ca-renewal-watch-fixture",
+  "title": "Canada renewal intelligence",
+  "description": "Compatibility fixture containing governed facts for automatic visualization selection.",
+  "status": {
+    "state": "ready",
+    "message": null
+  },
+  "provenance": {
+    "sourceSystem": "CanadaBuys",
+    "sourceUrl": null,
+    "productVersion": "ca-renewal-watch-fixture-v1",
+    "coverageThrough": "2026-06-16",
+    "generatedAt": "2026-08-04T00:00:00Z",
+    "datasetHash": "sha256:analytics-facts-compatibility-fixture",
+    "requestId": "fixture-request-001",
+    "evidenceIds": [
+      "fixture:renewal:001",
+      "fixture:renewal:002",
+      "fixture:renewal:003"
+    ],
+    "limitations": [
+      "Compatibility fixture only; values are not production procurement intelligence."
+    ]
+  },
+  "presentation": {
+    "theme": "auto",
+    "layoutMode": "auto",
+    "approvalMode": false,
+    "chartConfig": null,
+    "chartLayout": null,
+    "spec": null
+  },
+  "facts": [
+    {
+      "expiryDate": "2026-10-31",
+      "department": "Public Services and Procurement Canada",
+      "supplier": "Supplier A",
+      "category": "Information technology",
+      "contractValue": 125000000,
+      "daysUntilExpiry": 88
+    },
+    {
+      "expiryDate": "2026-11-30",
+      "department": "National Defence",
+      "supplier": "Supplier B",
+      "category": "Professional services",
+      "contractValue": 98000000,
+      "daysUntilExpiry": 118
+    },
+    {
+      "expiryDate": "2026-12-15",
+      "department": "Employment and Social Development Canada",
+      "supplier": "Supplier C",
+      "category": "Information technology",
+      "contractValue": 76000000,
+      "daysUntilExpiry": 133
+    },
+    {
+      "expiryDate": "2027-01-31",
+      "department": "Shared Services Canada",
+      "supplier": "Supplier D",
+      "category": "Telecommunications",
+      "contractValue": 64000000,
+      "daysUntilExpiry": 180
+    },
+    {
+      "expiryDate": "2027-02-28",
+      "department": "Canada Revenue Agency",
+      "supplier": "Supplier E",
+      "category": "Information technology",
+      "contractValue": 51000000,
+      "daysUntilExpiry": 208
+    },
+    {
+      "expiryDate": "2027-03-31",
+      "department": "Transport Canada",
+      "supplier": "Supplier F",
+      "category": "Professional services",
+      "contractValue": 43000000,
+      "daysUntilExpiry": 239
+    }
+  ]
+}
