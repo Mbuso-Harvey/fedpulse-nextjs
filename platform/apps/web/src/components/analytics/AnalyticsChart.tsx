@@ -29,6 +29,8 @@ const SERIES_COLOURS = [
   "hsl(var(--chart-5))",
 ];
 
+type RechartsTooltipValue = string | number | readonly (string | number)[];
+
 function colourFor(index: number): string {
   return SERIES_COLOURS[index % SERIES_COLOURS.length];
 }
@@ -36,13 +38,21 @@ function colourFor(index: number): string {
 function tooltipFormatter(
   series: ChartWidgetSpec["chart"]["series"],
 ) {
-  return (value: ScalarValue, name: string) => {
+  return (
+    value: RechartsTooltipValue,
+    name: string | number,
+  ): [string, string] => {
+    const nameText = String(name);
+    const normalizedValue: ScalarValue = Array.isArray(value)
+      ? value.join(", ")
+      : (value as string | number);
     const matchedSeries = series.find(
-      (candidate) => candidate.dataKey === name || candidate.label === name,
+      (candidate) =>
+        candidate.dataKey === nameText || candidate.label === nameText,
     );
     return [
-      formatVisualizationValue(value, matchedSeries?.format),
-      matchedSeries?.label ?? name,
+      formatVisualizationValue(normalizedValue, matchedSeries?.format),
+      matchedSeries?.label ?? nameText,
     ];
   };
 }
