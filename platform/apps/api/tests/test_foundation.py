@@ -9,7 +9,11 @@ from services.auth import get_current_user
 
 
 def test_canada_renewals_route_is_registered() -> None:
-    paths = {route.path for route in app.routes}
+    paths = {
+        route.path
+        for route in app.routes
+        if isinstance(getattr(route, "path", None), str)
+    }
     assert "/api/v1/ca/renewals" in paths
     assert "/api/v1/ca/renewals/stats" in paths
 
