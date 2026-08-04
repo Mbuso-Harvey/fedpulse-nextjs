@@ -4,12 +4,16 @@ on:
   pull_request:
     paths:
       - "platform/apps/api/**"
+      - "platform/supabase/**"
+      - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
   push:
     branches:
       - master
     paths:
       - "platform/apps/api/**"
+      - "platform/supabase/**"
+      - "platform/config/products/**"
       - ".github/workflows/api-foundation.yml"
 
 jobs:
