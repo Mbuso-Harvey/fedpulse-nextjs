@@ -12,6 +12,9 @@ const widgetSourcePath = fileURLToPath(
   new URL("../public/vendor/embeddable-analytics/widget.js", import.meta.url),
 );
 const packagePath = fileURLToPath(new URL("../package.json", import.meta.url));
+const packageLockPath = fileURLToPath(
+  new URL("../package-lock.json", import.meta.url),
+);
 
 const fixtureNames = (await readdir(fixturesDirectory)).filter((name) =>
   name.endsWith(".facts.json"),
@@ -62,6 +65,11 @@ if (packageJson.dependencies?.recharts) {
   throw new Error("Recharts must not be present in the FedPulse web package.");
 }
 
+const packageLock = await readFile(packageLockPath, "utf8");
+if (packageLock.includes('"node_modules/recharts"')) {
+  throw new Error("Recharts must not be present in the FedPulse dependency lock.");
+}
+
 const widgetSource = await readFile(widgetSourcePath, "utf8");
 const requiredCapabilities = [
   "vega-embed@6.26.0/+esm",
@@ -71,6 +79,7 @@ const requiredCapabilities = [
   "chart-layout",
   "chart-config",
   "dashboard-feedback",
+  "let profiles = null",
   "Swap to Donut",
   "Toggle Average Line",
   "toPng",
