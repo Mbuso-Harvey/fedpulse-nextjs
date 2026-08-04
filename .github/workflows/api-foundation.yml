@@ -21,7 +21,7 @@ on:
       - ".github/workflows/api-foundation.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   validate-api:
@@ -31,51 +31,8 @@ jobs:
         working-directory: platform/apps/api
 
     steps:
-      - name: Checkout branch head
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
-
-      - name: Apply unavailable provenance correction
-        working-directory: .
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("platform/apps/api/services/ask_fedpulse.py")
-          text = path.read_text(encoding="utf-8")
-
-          replacements = [
-              (
-                  'sourceSystem="CanadaBuys",\n            sourceUrl=None,\n            productVersion="ca-renewals-unavailable",\n            coverageThrough=None,',
-                  'sourceSystem="FedPulse product registry",\n            sourceUrl=None,\n            productVersion="ca-renewals-unavailable",\n            coverageThrough=date.today(),',
-              ),
-              (
-                  '"No facts were fabricated or substituted from another product version.",\n            ],',
-                  '"No facts were fabricated or substituted from another product version.",\n                "coverageThrough is the product-availability check date for this error response; no source-data coverage date is asserted.",\n            ],',
-              ),
-          ]
-
-          for old, new in replacements:
-              if old not in text:
-                  raise SystemExit(f"Expected source fragment was not found: {old!r}")
-              text = text.replace(old, new, 1)
-
-          path.write_text(text, encoding="utf-8")
-          PY
-
-      - name: Commit source correction
-        if: github.event_name == 'pull_request'
-        working-directory: .
-        run: |
-          if git diff --quiet -- platform/apps/api/services/ask_fedpulse.py; then
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add platform/apps/api/services/ask_fedpulse.py
-          git commit -m "Represent unavailable coverage without fabricated data"
-          git push origin HEAD:${{ github.head_ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
