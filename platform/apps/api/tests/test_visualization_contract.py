@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from pydantic import ValidationError
 
-from models.visualizations import validate_analytics_widget
+from models.visualizations import validate_analytics_facts
 
 
 FIXTURE_PATH = (
@@ -12,7 +12,7 @@ FIXTURE_PATH = (
     / "contracts"
     / "visualization"
     / "examples"
-    / "renewal-value-by-department.chart.json"
+    / "renewal-intelligence.facts.json"
 )
 
 
@@ -20,21 +20,30 @@ def load_fixture() -> dict:
     return json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
 
 
-def test_shared_visualization_fixture_is_valid() -> None:
-    widget = validate_analytics_widget(load_fixture())
+def test_shared_fact_fixture_is_valid() -> None:
+    analytics = validate_analytics_facts(load_fixture())
 
-    assert widget.contractVersion == "fedpulse.visualization.v1"
-    assert widget.kind == "chart"
-    assert widget.chart.type == "bar"
-    assert widget.provenance.sourceSystem == "CanadaBuys"
+    assert analytics.contractVersion == "fedpulse.analytics.facts.v1"
+    assert analytics.datasetId == "ca-renewal-watch-fixture"
+    assert analytics.presentation.layoutMode == "auto"
+    assert analytics.provenance.sourceSystem == "CanadaBuys"
+    assert len(analytics.facts) == 6
 
 
-def test_chart_rejects_missing_series_field() -> None:
+def test_ready_analytics_require_facts() -> None:
     payload = load_fixture()
-    del payload["data"][0]["contractValue"]
+    payload["facts"] = []
 
-    with pytest.raises(ValidationError, match="missing required fields"):
-        validate_analytics_widget(payload)
+    with pytest.raises(ValidationError, match="require at least one fact row"):
+        validate_analytics_facts(payload)
+
+
+def test_fact_rows_require_consistent_fields() -> None:
+    payload = load_fixture()
+    del payload["facts"][0]["contractValue"]
+
+    with pytest.raises(ValidationError, match="same fields"):
+        validate_analytics_facts(payload)
 
 
 def test_contract_rejects_unknown_fields() -> None:
@@ -42,4 +51,12 @@ def test_contract_rejects_unknown_fields() -> None:
     payload["frontendCalculatedTotal"] = 999
 
     with pytest.raises(ValidationError, match="Extra inputs are not permitted"):
-        validate_analytics_widget(payload)
+        validate_analytics_facts(payload)
+
+
+def test_provenance_rejects_naive_timestamps() -> None:
+    payload = load_fixture()
+    payload["provenance"]["generatedAt"] = "2026-08-04T00:00:00"
+
+    with pytest.raises(ValidationError, match="timezone"):
+        validate_analytics_facts(payload)
