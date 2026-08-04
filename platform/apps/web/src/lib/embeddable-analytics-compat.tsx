@@ -8,15 +8,10 @@ import type { FactRow, FactScalar } from "@/lib/visualization/contract";
 type GenericProps = Record<string, unknown> & { children?: React.ReactNode };
 
 function toScalar(value: unknown): FactScalar {
-  if (
-    value === null ||
-    typeof value === "string" ||
-    typeof value === "number" ||
-    typeof value === "boolean"
-  ) {
-    return value;
-  }
-  if (value === undefined) return null;
+  if (value === null || value === undefined) return null;
+  if (typeof value === "string") return value;
+  if (typeof value === "number") return value;
+  if (typeof value === "boolean") return value;
   return JSON.stringify(value);
 }
 
