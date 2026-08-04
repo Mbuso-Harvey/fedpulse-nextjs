@@ -53,6 +53,34 @@ class DataService:
             return "supabase"
         return "csv"
 
+    def _get_active_manifest(self) -> dict[str, Any]:
+        if self.supabase is None:
+            raise DataUnavailableError("Supabase data service is not configured")
+
+        try:
+            response = (
+                self.supabase.table(settings.ca_product_versions_table)
+                .select(
+                    "product_version,country_code,source_system,coverage_through,"
+                    "generated_at,row_count,dataset_sha256"
+                )
+                .eq("product_id", settings.ca_product_id)
+                .eq("status", "active")
+                .limit(1)
+                .execute()
+            )
+        except Exception as exc:
+            raise DataUnavailableError(
+                "Failed to read the active Canada Renewal Watch manifest"
+            ) from exc
+
+        rows = response.data or []
+        if not rows:
+            raise DataUnavailableError(
+                "No active reconciled Canada Renewal Watch product version exists"
+            )
+        return dict(rows[0])
+
     def status(self) -> DataSourceStatus:
         try:
             backend = self._selected_backend()
@@ -64,10 +92,21 @@ class DataService:
             )
 
         if backend == "supabase":
+            try:
+                manifest = self._get_active_manifest()
+            except DataUnavailableError as exc:
+                return DataSourceStatus(
+                    backend="supabase",
+                    configured=False,
+                    detail=str(exc),
+                )
             return DataSourceStatus(
                 backend="supabase",
                 configured=True,
-                detail=f"Supabase view {settings.ca_renewals_table}",
+                detail=(
+                    f"{settings.ca_renewals_table}: "
+                    f"{manifest['product_version']} ({manifest['row_count']} rows)"
+                ),
             )
 
         return DataSourceStatus(
@@ -124,6 +163,7 @@ class DataService:
     ) -> pd.DataFrame:
         backend = self._selected_backend()
         if backend == "supabase":
+            self._get_active_manifest()
             return self._load_table(table)
         return self._load_csv(csv_path, dataset_name)
 
@@ -138,27 +178,25 @@ class DataService:
 
     def get_renewals_context(self) -> dict[str, Any]:
         frame = self.get_renewals()
-        first = frame.iloc[0].to_dict() if not frame.empty else {}
-
-        def text_value(name: str, fallback: Any = None) -> Any:
-            value = first.get(name, fallback)
-            if value is None or pd.isna(value):
-                return fallback
-            if isinstance(value, pd.Timestamp):
-                return value.isoformat()
-            return str(value)
+        if self._selected_backend() == "supabase":
+            manifest = self._get_active_manifest()
+            return {
+                "country_code": manifest.get("country_code"),
+                "source_system": manifest.get("source_system"),
+                "product_version": manifest.get("product_version"),
+                "coverage_through": manifest.get("coverage_through"),
+                "generated_at": manifest.get("generated_at"),
+                "dataset_sha256": manifest.get("dataset_sha256"),
+                "row_count": int(manifest.get("row_count") or len(frame)),
+            }
 
         return {
-            "country_code": text_value("country_code", settings.ca_country_code),
-            "source_system": text_value("source_system", settings.ca_source_system),
-            "product_version": text_value(
-                "product_version", settings.ca_product_version
-            ),
-            "coverage_through": text_value(
-                "coverage_through", settings.ca_coverage_through
-            ),
-            "generated_at": text_value("generated_at"),
-            "dataset_sha256": text_value("dataset_sha256"),
+            "country_code": settings.ca_country_code,
+            "source_system": settings.ca_source_system,
+            "product_version": settings.ca_product_version,
+            "coverage_through": settings.ca_coverage_through,
+            "generated_at": None,
+            "dataset_sha256": None,
             "row_count": int(len(frame)),
         }
 
