@@ -23,7 +23,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "recharts": ["./src/lib/embeddable-analytics-compat"]
     }
   },
   "include": [
