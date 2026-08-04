@@ -4,7 +4,6 @@ from uuid import uuid4
 import pandas as pd
 from fastapi import APIRouter, Depends, HTTPException, status
 
-from config import settings
 from models.schemas import (
     DepartmentSummaryResponse,
     RenewalRequest,
@@ -21,12 +20,13 @@ router = APIRouter(tags=["Canada Renewals"])
 
 
 def _source_context() -> SourceContext:
-    return SourceContext(
-        country_code=settings.ca_country_code,
-        source_system=settings.ca_source_system,
-        product_version=settings.ca_product_version,
-        coverage_through=settings.ca_coverage_through,
-    )
+    try:
+        return SourceContext(**data_service.get_renewals_context())
+    except DataUnavailableError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=str(exc),
+        ) from exc
 
 
 def _load_renewals() -> pd.DataFrame:
