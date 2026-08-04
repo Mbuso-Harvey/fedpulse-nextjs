@@ -577,10 +577,10 @@ def _unavailable_response(
         description=definition.description,
         status=AnalyticsStatus(state="error", message=detail),
         provenance=AnalyticsProvenance(
-            sourceSystem="CanadaBuys",
+            sourceSystem="FedPulse product registry",
             sourceUrl=None,
             productVersion="ca-renewals-unavailable",
-            coverageThrough=None,
+            coverageThrough=date.today(),
             generatedAt=datetime.now(timezone.utc),
             datasetHash=None,
             requestId=request_id,
@@ -588,6 +588,7 @@ def _unavailable_response(
             limitations=[
                 detail,
                 "No facts were fabricated or substituted from another product version.",
+                "coverageThrough is the product-availability check date for this error response; no source-data coverage date is asserted.",
             ],
         ),
         decision=AnalyticsDecision(
