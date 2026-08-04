@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "validate:visualizations": "node --experimental-strip-types scripts/validate-visualization-contract.mjs",
     "generate-ui": "node scripts/generate-ui.js"
   },
   "dependencies": {
