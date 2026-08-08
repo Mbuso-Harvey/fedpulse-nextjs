@@ -73,7 +73,7 @@ def _verified_inputs(
     required_source_ids: set[str],
     as_of: date,
     max_capture_age_days: int,
-) -> tuple[list[dict[str, str]], tuple[str, ...]]:
+) -> tuple[list[dict[str, Any]], tuple[str, ...]]:
     if max_capture_age_days < 0:
         raise ProductReleaseError("max_capture_age_days cannot be negative")
     manifests = tuple(Path(path) for path in input_manifest_paths)
@@ -81,7 +81,7 @@ def _verified_inputs(
         raise ProductReleaseError("A product release requires at least one canonical input")
 
     sources_seen: set[str] = set()
-    input_metadata: list[dict[str, str]] = []
+    input_metadata: list[dict[str, Any]] = []
     for manifest_path in manifests:
         try:
             artifact = verify_canonical_artifact_set(manifest_path)
@@ -107,6 +107,8 @@ def _verified_inputs(
                 "capture_acquired_at": capture_acquired_at,
                 "canonical_manifest_sha256": _digest(manifest_path.read_bytes()),
                 "canonical_manifest_path": str(manifest_path),
+                "accepted_record_count": artifact.manifest["artifacts"]["accepted"]["record_count"],
+                "quarantined_record_count": artifact.manifest["artifacts"]["quarantined"]["record_count"],
             }
         )
     missing = required_source_ids - sources_seen
@@ -129,6 +131,7 @@ def materialize_product_release(
     max_capture_age_days: int,
     release_root: Path,
     customer_scope_id: str | None = None,
+    operational_observations: Mapping[str, Any] | None = None,
 ) -> ProductRelease:
     """Write an immutable, customer-readable release after deterministic checks.
 
@@ -194,6 +197,7 @@ def materialize_product_release(
         "records": {"file": records_path.name, "record_count": len(release_records), "sha256": _digest(records_bytes)},
         "inputs": input_metadata,
         "source_ids": list(source_ids),
+        "operational_observations": dict(operational_observations or {}),
         "automated_gate": {
             "status": PRODUCT_RELEASE_GATE_STATUS,
             "checks": [
@@ -263,6 +267,7 @@ def release_canadian_renewal_watch(
     award_manifest_path: Path | None,
     release_root: Path,
     max_capture_age_days: int = 35,
+    operational_observations: Mapping[str, Any] | None = None,
 ) -> ProductRelease:
     """Release a verified Canada Renewal Watch build to the product store."""
     inputs = [contract_manifest_path]
@@ -279,6 +284,7 @@ def release_canadian_renewal_watch(
         coverage_through=build.as_of,
         max_capture_age_days=max_capture_age_days,
         release_root=release_root,
+        operational_observations=operational_observations,
     )
 
 
@@ -290,6 +296,7 @@ def release_us_compliance_assessments(
     as_of: date,
     release_root: Path,
     max_capture_age_days: int = 2,
+    operational_observations: Mapping[str, Any] | None = None,
 ) -> ProductRelease:
     """Release U.S. advisory compliance assessments backed by U1 and U2 evidence."""
     assessment_records = tuple(dict(assessment) for assessment in assessments)
@@ -308,4 +315,5 @@ def release_us_compliance_assessments(
         max_capture_age_days=max_capture_age_days,
         release_root=release_root,
         customer_scope_id=next(iter(profile_ids)),
+        operational_observations=operational_observations,
     )
