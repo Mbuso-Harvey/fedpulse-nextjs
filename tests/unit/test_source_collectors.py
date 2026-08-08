@@ -16,9 +16,11 @@ from services.source_collectors import (  # noqa: E402
     SourceCollectionError,
     collect_canadabuys_resource,
     collect_sam_public_document,
+    collect_sam_public_documents_from_capture,
     collect_usaspending_awards,
     collect_sam_opportunities,
 )
+from services.source_foundation import build_capture_manifest, write_immutable_capture  # noqa: E402
 
 
 def mock_client(handler):
@@ -135,6 +137,43 @@ def test_document_collection_rejects_nonpositive_timeout(tmp_path):
             capture_root=tmp_path,
             timeout_seconds=0,
         )
+
+
+def test_sam_document_discovery_uses_verified_u1_links_and_records_failed_resources(tmp_path):
+    raw_bytes = json.dumps(
+        {
+            "opportunitiesData": [
+                {"noticeId": "notice-1", "resourceLinks": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/one/download"},
+                {"noticeId": "notice-2", "resourceLinks": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/two/download"},
+            ]
+        }
+    ).encode("utf-8")
+    manifest = build_capture_manifest(
+        source_id="U1_SAM_OPPORTUNITIES",
+        resource_url="https://api.sam.gov/opportunities/v2/search",
+        raw_bytes=raw_bytes,
+        request_metadata={},
+        content_type="application/json",
+    )
+    raw_path, _ = write_immutable_capture(tmp_path / "u1", manifest, raw_bytes, ".json")
+
+    def handler(request):
+        status = 200 if request.url.path.endswith("one/download") else 404
+        return httpx.Response(status, content=b"Offerors must submit a proposal.", headers={"content-type": "text/plain"}, request=request)
+
+    client = mock_client(handler)
+    try:
+        result = collect_sam_public_documents_from_capture(
+            opportunity_raw_path=raw_path,
+            capture_root=tmp_path / "u2",
+            client=client,
+        )
+    finally:
+        client.close()
+
+    assert result.discovered_count == 2
+    assert [capture.parent_native_id for capture in result.captures] == ["notice-1"]
+    assert result.failures == ({"parent_native_id": "notice-2", "reason": "public_resource_not_retrieved"},)
 
 
 def test_usaspending_award_capture_requires_bounded_request_and_captures_response(tmp_path):

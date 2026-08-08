@@ -26,6 +26,7 @@ from services.source_foundation import (
     validate_resource_url,
     write_immutable_capture,
 )
+from services.source_parsers import SourceParseError, load_verified_capture
 
 
 SAM_OPPORTUNITIES_URL = "https://api.sam.gov/opportunities/v2/search"
@@ -57,6 +58,16 @@ class SamOpportunityCollection(RawCaptureResult):
 class SamPublicDocumentCapture(RawCaptureResult):
     parent_native_id: str
     resource_kind: str
+
+
+@dataclass(frozen=True)
+class SamPublicDocumentBatch:
+    """Observed public-document retrieval outcome for one U1 capture."""
+
+    opportunity_capture_id: str
+    discovered_count: int
+    captures: tuple[SamPublicDocumentCapture, ...]
+    failures: tuple[dict[str, str], ...]
 
 
 @dataclass(frozen=True)
@@ -314,6 +325,67 @@ def collect_sam_public_document(
     finally:
         if owns_client:
             active_client.close()
+
+
+def collect_sam_public_documents_from_capture(
+    *,
+    opportunity_raw_path: Path,
+    capture_root: Path,
+    timeout_seconds: float = 10.0,
+    client: httpx.Client | None = None,
+) -> SamPublicDocumentBatch:
+    """Retrieve only U1-published public resources with parent-opportunity lineage.
+
+    A failed attachment is represented as a bounded failure observation. It is
+    never converted into an empty document or an absence-of-requirements
+    signal. The U1 raw capture is checksum-verified before its links are read.
+    """
+    try:
+        opportunity_capture = load_verified_capture(opportunity_raw_path, expected_source_id="U1_SAM_OPPORTUNITIES")
+        payload = json.loads(opportunity_capture.raw_bytes.decode("utf-8"))
+    except (SourceParseError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise SourceCollectionError("SAM document discovery requires a verified U1 JSON capture") from exc
+    opportunities = payload.get("opportunitiesData") if isinstance(payload, Mapping) else None
+    if not isinstance(opportunities, list):
+        raise SourceCollectionError("SAM document discovery capture has no opportunitiesData list")
+
+    resources: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for opportunity in opportunities:
+        if not isinstance(opportunity, Mapping):
+            continue
+        parent_native_id = str(opportunity.get("noticeId") or "").strip()
+        raw_links = opportunity.get("resourceLinks")
+        links = [raw_links] if isinstance(raw_links, str) else raw_links if isinstance(raw_links, list) else []
+        for raw_link in links:
+            resource_url = str(raw_link or "").strip()
+            key = (parent_native_id, resource_url)
+            if parent_native_id and resource_url and key not in seen:
+                seen.add(key)
+                resources.append(key)
+
+    captures: list[SamPublicDocumentCapture] = []
+    failures: list[dict[str, str]] = []
+    for parent_native_id, resource_url in resources:
+        try:
+            captures.append(
+                collect_sam_public_document(
+                    parent_native_id=parent_native_id,
+                    resource_url=resource_url,
+                    resource_kind="u1_resource_link",
+                    capture_root=capture_root,
+                    timeout_seconds=timeout_seconds,
+                    client=client,
+                )
+            )
+        except (SourceCollectionError, SourceFoundationError):
+            failures.append({"parent_native_id": parent_native_id, "reason": "public_resource_not_retrieved"})
+    return SamPublicDocumentBatch(
+        opportunity_capture_id=str(opportunity_capture.manifest["capture_id"]),
+        discovered_count=len(resources),
+        captures=tuple(captures),
+        failures=tuple(failures),
+    )
 
 
 def collect_usaspending_awards(
