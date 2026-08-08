@@ -18,6 +18,7 @@ from services.source_parsers import (  # noqa: E402
     parse_canadabuys_award_capture,
     parse_canadabuys_contract_history_capture,
     parse_sam_public_document_capture,
+    parse_usaspending_awards_capture,
     parse_canadabuys_tender_capture,
     parse_capture,
     parse_sam_opportunities_capture,
@@ -217,3 +218,10 @@ def test_sam_public_document_parser_quarantines_unsupported_binary(tmp_path):
 
     assert result.accepted_records == ()
     assert result.quarantined_records[0]["reasons"] == ["no_extractable_text"]
+
+
+def test_usaspending_award_parser_preserves_historical_award_context(tmp_path):
+    raw_path = write_capture(tmp_path, source_id="U3_USASPENDING_AWARDS", resource_url="https://api.usaspending.gov/api/v2/search/spending_by_award/", raw_bytes=json.dumps({"results":[{"Award ID":"AWD-1","Recipient Name":"Example Recipient","Award Amount":1234,"Awarding Agency":"Example Agency","Start Date":"2026-01-01","End Date":"2027-01-01"}]}).encode(), extension=".json")
+    result = parse_usaspending_awards_capture(raw_path)
+    assert result.accepted_records[0]["native_id"] == "AWD-1"
+    assert result.accepted_records[0]["source_fields"]["awarding_agency"] == "Example Agency"

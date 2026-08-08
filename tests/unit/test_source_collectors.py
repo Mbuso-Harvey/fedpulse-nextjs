@@ -16,6 +16,7 @@ from services.source_collectors import (  # noqa: E402
     SourceCollectionError,
     collect_canadabuys_resource,
     collect_sam_public_document,
+    collect_usaspending_awards,
     collect_sam_opportunities,
 )
 
@@ -134,3 +135,15 @@ def test_document_collection_rejects_nonpositive_timeout(tmp_path):
             capture_root=tmp_path,
             timeout_seconds=0,
         )
+
+
+def test_usaspending_award_capture_requires_bounded_request_and_captures_response(tmp_path):
+    payload = {"filters": {"time_period": []}, "fields": ["Award ID"], "page": 1, "limit": 10}
+    def handler(request):
+        assert request.method == "POST"
+        assert request.url.host == "api.usaspending.gov"
+        return httpx.Response(200, json={"results": []}, headers={"content-type": "application/json"})
+    result = collect_usaspending_awards(request_payload=payload, capture_root=tmp_path, client=mock_client(handler))
+    assert result.manifest.source_id == "U3_USASPENDING_AWARDS"
+    with pytest.raises(SourceCollectionError, match="limit"):
+        collect_usaspending_awards(request_payload={**payload, "limit": 101}, capture_root=tmp_path, client=mock_client(handler))

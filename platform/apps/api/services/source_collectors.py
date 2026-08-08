@@ -29,6 +29,7 @@ from services.source_foundation import (
 
 
 SAM_OPPORTUNITIES_URL = "https://api.sam.gov/opportunities/v2/search"
+USASPENDING_AWARDS_URL = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
 # Identify the product to official publishers. Some official download hosts
 # reject generic library user agents; this is not a retry or alternate source.
 COLLECTOR_USER_AGENT = "FedPulse/0.1 (official-source-validation; contact=operations@fedpulse.example)"
@@ -56,6 +57,11 @@ class SamOpportunityCollection(RawCaptureResult):
 class SamPublicDocumentCapture(RawCaptureResult):
     parent_native_id: str
     resource_kind: str
+
+
+@dataclass(frozen=True)
+class USAspendingAwardCapture(RawCaptureResult):
+    pass
 
 
 def _client_or_default(
@@ -305,6 +311,44 @@ def collect_sam_public_document(
         )
     except httpx.HTTPError as exc:
         raise SourceCollectionError(f"SAM.gov public document collection failed for {parent_native_id}: {exc}") from exc
+    finally:
+        if owns_client:
+            active_client.close()
+
+
+def collect_usaspending_awards(
+    *,
+    request_payload: Mapping[str, Any],
+    capture_root: Path,
+    client: httpx.Client | None = None,
+) -> USAspendingAwardCapture:
+    """Capture one bounded official USAspending award-search response."""
+    limit = request_payload.get("limit")
+    if not isinstance(limit, int) or not 1 <= limit <= 100:
+        raise SourceCollectionError("USAspending award search limit must be an integer between 1 and 100")
+    active_client, owns_client = _client_or_default(client)
+    try:
+        response = active_client.post(
+            USASPENDING_AWARDS_URL,
+            json=dict(request_payload),
+            headers={"User-Agent": COLLECTOR_USER_AGENT},
+        )
+        response.raise_for_status()
+        validate_final_response_url("U3_USASPENDING_AWARDS", str(response.url))
+        raw_capture = _capture_response(
+            source_id="U3_USASPENDING_AWARDS",
+            resource_url=USASPENDING_AWARDS_URL,
+            capture_root=capture_root,
+            raw_bytes=response.content,
+            request_metadata={"request_payload": json.dumps(request_payload, sort_keys=True), "final_host": response.url.host or ""},
+            response=response,
+            extension=".json",
+            parser_version="usaspending-award-v1",
+            schema_version="usaspending-spending-by-award-v2",
+        )
+        return USAspendingAwardCapture(**raw_capture.__dict__)
+    except httpx.HTTPError as exc:
+        raise SourceCollectionError(f"USAspending award collection failed: {exc}") from exc
     finally:
         if owns_client:
             active_client.close()

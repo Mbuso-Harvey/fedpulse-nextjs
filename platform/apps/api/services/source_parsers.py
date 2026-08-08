@@ -542,6 +542,33 @@ def parse_sam_public_document_capture(raw_path: Path) -> ParsedCapture:
     )
 
 
+def parse_usaspending_awards_capture(raw_path: Path) -> ParsedCapture:
+    """Parse verified USAspending award-search records as historical context."""
+    capture = load_verified_capture(raw_path, expected_source_id="U3_USASPENDING_AWARDS")
+    try:
+        payload = json.loads(capture.raw_bytes.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise SourceParseError("USAspending capture is not valid UTF-8 JSON") from exc
+    results = payload.get("results") if isinstance(payload, dict) else None
+    if not isinstance(results, list):
+        raise SourceParseError("USAspending capture does not contain a results list")
+    accepted, quarantined = [], []
+    for row_number, award in enumerate(results, start=1):
+        if not isinstance(award, Mapping):
+            quarantined.append(_quarantine(capture=capture, row_number=row_number, native_id=None, reasons=("invalid_source_record",)))
+            continue
+        native_id = award.get("Award ID") or award.get("generated_internal_id")
+        record = _canonical_record(
+            capture=capture, native_id=native_id, title=award.get("Recipient Name"), published_at=award.get("Start Date"),
+            field_status={"native_id": _field_status("Award ID", native_id), "title": _field_status("Recipient Name", award.get("Recipient Name")), "published_at": _field_status("Start Date", award.get("Start Date")), "source_url": _field_status("capture_manifest.resource_url", capture.manifest["resource_url"])},
+            source_fields={"recipient": award.get("Recipient Name"), "award_amount": award.get("Award Amount"), "awarding_agency": award.get("Awarding Agency"), "award_start_at": award.get("Start Date"), "award_end_at": award.get("End Date"), "generated_internal_id": award.get("generated_internal_id")},
+        )
+        validation = validate_record("U3_USASPENDING_AWARDS", record)
+        if validation.status == "accepted": accepted.append(record)
+        else: quarantined.append(_quarantine(capture=capture, row_number=row_number, native_id=native_id, reasons=validation.reasons))
+    return ParsedCapture(source_id="U3_USASPENDING_AWARDS", country="US", capture_id=str(capture.manifest["capture_id"]), capture_content_sha256=str(capture.manifest["content_sha256"]), capture_acquired_at=str(capture.manifest["acquired_at"]), accepted_records=tuple(accepted), quarantined_records=tuple(quarantined))
+
+
 def parse_capture(raw_path: Path) -> ParsedCapture:
     """Dispatch a verified supported capture to its source-specific parser."""
     capture = load_verified_capture(raw_path)
@@ -556,4 +583,6 @@ def parse_capture(raw_path: Path) -> ParsedCapture:
         return parse_canadabuys_contract_history_capture(raw_path)
     if source_id == "U2_SAM_PUBLIC_DOCUMENTS":
         return parse_sam_public_document_capture(raw_path)
+    if source_id == "U3_USASPENDING_AWARDS":
+        return parse_usaspending_awards_capture(raw_path)
     raise SourceParseError(f"No parser has been approved for {source_id}")
