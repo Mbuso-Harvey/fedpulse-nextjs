@@ -13,18 +13,27 @@ supabase_key = os.environ.get("SUPABASE_ANON_KEY")
 supabase: Optional[Client] = create_client(supabase_url, supabase_key) if supabase_url and supabase_key else None
 
 async def get_current_user(credentials: HTTPAuthorizationCredentials = Security(security)):
-    if not supabase or not credentials:
-        # Fallback to dev user if not configured
-        return {"user_metadata": {"subscription_tier": "professional", "is_trial": True}}
-    
+    """Return only a user verified by the configured authentication authority.
+
+    Customer-facing routes must fail closed: request headers, strings that look
+    like plan names, and missing provider configuration are never substitutes
+    for a verified identity.
+    """
+    if not supabase:
+        raise HTTPException(status_code=503, detail="Authentication service is not configured")
+    if not credentials:
+        raise HTTPException(status_code=401, detail="Authentication is required")
     token = credentials.credentials
     try:
         response = supabase.auth.get_user(token)
         if response.user:
             return response.user.model_dump()
         raise HTTPException(status_code=401, detail="Invalid token")
-    except Exception as e:
-        raise HTTPException(status_code=401, detail=f"Invalid authentication: {str(e)}")
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(status_code=401, detail="Invalid authentication")
+
 
 def require_tier(allowed_tiers: list[str]):
     async def tier_checker(user = Depends(get_current_user)):
