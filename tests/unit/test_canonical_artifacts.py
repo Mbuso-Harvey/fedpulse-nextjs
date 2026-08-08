@@ -32,7 +32,7 @@ def parsed_sam_capture(tmp_path, rows):
     return parse_sam_opportunities_capture(raw_path)
 
 
-def test_materialize_persists_verified_capture_linkage_and_review_gate(tmp_path):
+def test_materialize_persists_verified_capture_linkage_and_automated_gate(tmp_path):
     parsed = parsed_sam_capture(
         tmp_path,
         [{"noticeId": "notice-1", "title": "Cybersecurity support", "postedDate": "2026-08-07"}],
@@ -44,10 +44,11 @@ def test_materialize_persists_verified_capture_linkage_and_review_gate(tmp_path)
     assert verified.manifest["source"]["capture_id"] == parsed.capture_id
     assert verified.manifest["source"]["capture_content_sha256"] == parsed.capture_content_sha256
     assert verified.manifest["artifacts"]["accepted"]["record_count"] == 1
-    assert verified.manifest["review_gate"] == {
-        "status": "pending_human_review",
-        "requires_human_approval": True,
+    assert verified.manifest["automated_gate"] == {
+        "status": "passed",
+        "checks": ["capture_lineage", "immutable_artifact_checksum", "canonical_schema_version", "record_count"],
         "product_eligible": False,
+        "next_stage": "normalization_and_product_release",
     }
     stored = json.loads(artifact_set.accepted_path.read_text(encoding="utf-8"))
     assert stored["source_capture"]["capture_id"] == parsed.capture_id

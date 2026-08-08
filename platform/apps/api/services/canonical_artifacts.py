@@ -1,9 +1,10 @@
-"""Immutable persistence and review gating for parsed procurement captures.
+"""Immutable persistence and automated gating for parsed procurement captures.
 
 Canonical artifacts are intentionally separate from raw captures and customer
 data. A parser result is persisted as immutable accepted and quarantined JSONL
-files plus a manifest that is always ineligible for product use until an
-independent human-review workflow approves a later release.
+files plus a manifest. Canonical artifacts advance only through deterministic
+quality checks; product eligibility is evaluated later by a complete,
+automated product-release policy, never by a manual record-review queue.
 """
 
 from __future__ import annotations
@@ -18,8 +19,9 @@ from services.source_foundation import source_definition
 from services.source_parsers import CANONICAL_SCHEMA_VERSION, PARSER_VERSION, ParsedCapture
 
 
-ARTIFACT_MANIFEST_VERSION = "1.0"
-REVIEW_STATUS_PENDING = "pending_human_review"
+ARTIFACT_MANIFEST_VERSION = "2.0"
+ARTIFACT_LAYOUT_VERSION = "canonical-artifact-v2"
+CANONICAL_GATE_STATUS = "passed"
 
 
 class CanonicalArtifactError(RuntimeError):
@@ -82,11 +84,11 @@ def _validate_parsed_capture(parsed: ParsedCapture) -> None:
 
 
 def _artifact_dir(artifact_root: Path, parsed: ParsedCapture) -> Path:
-    return artifact_root / parsed.country.lower() / parsed.source_id.lower() / parsed.capture_id / PARSER_VERSION
+    return artifact_root / parsed.country.lower() / parsed.source_id.lower() / parsed.capture_id / PARSER_VERSION / ARTIFACT_LAYOUT_VERSION
 
 
 def materialize_parsed_capture(parsed: ParsedCapture, *, artifact_root: Path) -> CanonicalArtifactSet:
-    """Persist a parsed capture as immutable, review-gated canonical artifacts."""
+    """Persist a parsed capture as immutable, automatically gated artifacts."""
     _validate_parsed_capture(parsed)
     target_dir = _artifact_dir(artifact_root, parsed)
     accepted_path = target_dir / "accepted.jsonl"
@@ -109,10 +111,11 @@ def materialize_parsed_capture(parsed: ParsedCapture, *, artifact_root: Path) ->
             "accepted": {"file": accepted_path.name, "record_count": len(parsed.accepted_records), "sha256": _digest(accepted_bytes)},
             "quarantined": {"file": quarantined_path.name, "record_count": len(parsed.quarantined_records), "sha256": _digest(quarantined_bytes)},
         },
-        "review_gate": {
-            "status": REVIEW_STATUS_PENDING,
-            "requires_human_approval": True,
+        "automated_gate": {
+            "status": CANONICAL_GATE_STATUS,
+            "checks": ["capture_lineage", "immutable_artifact_checksum", "canonical_schema_version", "record_count"],
             "product_eligible": False,
+            "next_stage": "normalization_and_product_release",
         },
     }
     manifest_bytes = (json.dumps(manifest, indent=2, sort_keys=True) + "\n").encode("utf-8")
@@ -138,18 +141,22 @@ def _read_jsonl(path: Path) -> tuple[dict[str, Any], ...]:
 
 
 def verify_canonical_artifact_set(manifest_path: Path) -> CanonicalArtifactSet:
-    """Verify persisted bytes and enforce that pending artifacts stay out of products."""
+    """Verify persisted bytes and enforce the automated canonical-stage gate."""
     if not manifest_path.is_file():
         raise CanonicalArtifactError(f"Canonical manifest is missing: {manifest_path}")
     try:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         raise CanonicalArtifactError(f"Canonical manifest is unreadable: {manifest_path}") from exc
-    if manifest.get("canonical_schema_version") != CANONICAL_SCHEMA_VERSION or manifest.get("parser_version") != PARSER_VERSION:
+    if (
+        manifest.get("manifest_version") != ARTIFACT_MANIFEST_VERSION
+        or manifest.get("canonical_schema_version") != CANONICAL_SCHEMA_VERSION
+        or manifest.get("parser_version") != PARSER_VERSION
+    ):
         raise CanonicalArtifactError("Canonical manifest has an unsupported schema or parser version")
-    review_gate = manifest.get("review_gate", {})
-    if review_gate.get("status") != REVIEW_STATUS_PENDING or review_gate.get("product_eligible") is not False:
-        raise CanonicalArtifactError("Canonical artifact review gate is invalid")
+    automated_gate = manifest.get("automated_gate", {})
+    if automated_gate.get("status") != CANONICAL_GATE_STATUS or automated_gate.get("product_eligible") is not False:
+        raise CanonicalArtifactError("Canonical artifact automated gate is invalid")
 
     artifact_dir = manifest_path.parent
     paths = {

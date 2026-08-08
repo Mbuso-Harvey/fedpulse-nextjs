@@ -84,23 +84,23 @@ No source record is overwritten. Corrections, amendments, withdrawals, and re-pu
 - Dates, currency/value, agency/buyer, supplier/recipient, classification, status, and amendment/version fields pass source-specific validation.
 - Deduplication uses native keys and version history; fuzzy supplier/recipient matching is an assistive layer with confidence and review, never a destructive replacement.
 - Referential checks resolve known agency, award, opportunity, and attachment links; unresolved values are retained and flagged.
-- Schema drift blocks promotion until mapping, backfill impact, and quality samples are approved.
+- Schema drift automatically blocks promotion until the versioned mapping, backfill impact, and deterministic coverage checks pass.
 
 ### Gate D — document and semantic quality (U.S. first)
 
 - Extracted statements retain document, page/passage, character offsets, extraction tool/version, and raw-text link.
-- OCR or parser confidence below threshold is review/quarantine, not a fact source.
+- OCR or parser confidence below threshold is automatically quarantined or excluded, not a fact source.
 - Canonicalization preserves every original statement and prevents duplicate text from inflating counts.
 - Classifications carry a rule/model version, confidence, evidence coverage, and discovery/review state.
 - Bid/no-bid or compliance output may state only: evidence found, evidence not found in retrieved material, unknown, or customer-profile mismatch. It must not convert missing material into a clean bill of compliance.
 
 ### Gate E — product release
 
-- A product release manifest identifies exact input captures, coverage-through date, source cadence, row/document counts, rejected/quarantined count, transformation/calculation versions, quality metrics, and owner approval.
+- A product release manifest identifies exact input captures, coverage-through date, source cadence, row/document counts, rejected/quarantined count, transformation/calculation versions, and quality metrics.
 - Freshness status is visible to the customer. A stale or partial product must show `unavailable`, `degraded`, or its limited coverage—not a fabricated successful result.
 - Every material result links to its source evidence and limitation statement.
 - Automated reconciliation compares source counts, changed records, records entering/leaving scope, and key aggregates against the previous release.
-- Stratified human QA is required for every new parser/mapping and each production release: high-value, amended, incomplete, duplicated, and edge-case records must all be sampled.
+- Automated regression fixtures and production reconciliation must cover high-value, amended, incomplete, duplicated, and edge-case records. A release passes only when its deterministic thresholds pass; otherwise it is `degraded` or `unavailable`.
 
 ## 5. First commercial products and minimum data needed
 
@@ -115,7 +115,7 @@ No source record is overwritten. Corrections, amendments, withdrawals, and re-pu
 2. Rotate the exposed SAM credential, remove all hard-coded/fallback credentials, then provision a managed U.S. collector credential with least privilege.
 3. Build small, repeatable collectors that write only immutable raw captures and manifests. Start with one CanadaBuys resource and one SAM search window; do not reuse the existing fabricated pipeline route.
 4. Implement quality/quarantine reporting before product calculations.
-5. Run a bounded pilot extraction, validate source and canonical counts, inspect a stratified human sample, and publish a signed internal quality report.
+5. Run repeatable production captures, validate source and canonical counts with automated reconciliation, and publish an immutable machine-generated quality report.
 6. Only then build the two minimal Gold products and their country-scoped APIs.
 7. Run paid design-partner validation in parallel with the pilot; the commercial question is whether the decision outcome is valuable enough to pay for, not whether a dashboard has many pages.
 

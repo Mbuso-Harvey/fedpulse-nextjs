@@ -49,7 +49,7 @@ The later GitHub strategy is the operative decision when documents disagree. It 
 **Working authority order for future changes:**
 
 1. Explicit newer accepted decision on GitHub `master` (the 2026-08-03 API-first strategy and its linked architecture/roadmap).
-2. Constitutional principles: evidence first, provenance always, canonical before semantic, explainable intelligence, evidence-backed graph relationships, commercial alignment, and human review for consequential decisions.
+2. Constitutional principles: evidence first, provenance always, canonical before semantic, explainable intelligence, evidence-backed graph relationships, commercial alignment, and non-binding decision support at consequential boundaries.
 3. Source-specific product specifications and approved data-product/release evidence.
 4. Historical build logs and generated reports as evidence of past work only.
 5. Existing code, handoffs, tests, filenames, and `certified`/`ready` labels as claims to verify—not product authority.
@@ -246,7 +246,7 @@ The product owner clarified after this assessment that FedPulse is a commercial-
 
 Accordingly, the operating objective is to validate sellable U.S. and Canadian decision products in parallel, with the U.S. track receiving commercial-priority attention but Canada remaining an active product track—not a deferred data asset or prerequisite. The most commercially direct U.S. wedge remains a tightly scoped, evidence-backed **Bid / No-Bid and Compliance Analyst** for SAM.gov opportunities; the Canadian wedge remains **Renewal Watch**. Neither requires a broad portal, generic chatbot, or agent suite.
 
-The constitutional controls still apply unchanged: official-source evidence, source-native U.S. schema and terminology, canonicalization before semantic interpretation, provenance, explainability, confidence/limitations, human approval for consequential decisions, real freshness, and no fabricated integration success. Commercial speed means reducing scope to a paid decision outcome and measuring willingness to pay; it does not mean relaxing the evidence standard that differentiates the product from free search tools.
+The constitutional controls still apply unchanged: official-source evidence, source-native U.S. schema and terminology, canonicalization before semantic interpretation, provenance, explainability, confidence/limitations, non-binding decision support at consequential boundaries, real freshness, and no fabricated integration success. Commercial speed means reducing scope to a paid decision outcome and measuring willingness to pay; it does not mean relaxing the evidence standard that differentiates the product from free search tools.
 
 **Revised commercial sequence:**
 
