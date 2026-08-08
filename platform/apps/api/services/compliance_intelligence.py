@@ -86,6 +86,7 @@ def build_us_compliance_assessments(
     opportunity_manifest_path: Path,
     document_manifest_paths: Iterable[Path],
     customer_profile: CustomerCapabilityProfile,
+    historical_award_manifest_paths: Iterable[Path] = (),
 ) -> tuple[dict[str, Any], ...]:
     """Build advisory assessments from verified SAM metadata and public documents."""
     try:
@@ -94,6 +95,9 @@ def build_us_compliance_assessments(
         document_artifacts = [verify_canonical_artifact_set(path) for path in document_manifest_paths]
         for artifact in document_artifacts:
             _assert_source(artifact.manifest, "U2_SAM_PUBLIC_DOCUMENTS")
+        award_artifacts = [verify_canonical_artifact_set(path) for path in historical_award_manifest_paths]
+        for artifact in award_artifacts:
+            _assert_source(artifact.manifest, "U3_USASPENDING_AWARDS")
     except CanonicalArtifactError as exc:
         raise ComplianceIntelligenceError(f"Compliance analysis requires verified evidence: {exc}") from exc
 
@@ -101,10 +105,18 @@ def build_us_compliance_assessments(
     for artifact in document_artifacts:
         for document in _records(artifact.accepted_path):
             documents_by_parent.setdefault(document["parent_native_id"], []).append(document)
+    awards_by_agency: dict[str, list[dict[str, Any]]] = {}
+    for artifact in award_artifacts:
+        for award in _records(artifact.accepted_path):
+            agency = str(award.get("source_fields", {}).get("awarding_agency") or "").casefold().strip()
+            if agency:
+                awards_by_agency.setdefault(agency, []).append(award)
 
     assessments = []
     for opportunity in _records(opportunity_artifacts.accepted_path):
         documents = documents_by_parent.get(opportunity["native_id"], [])
+        agency = str(opportunity.get("source_fields", {}).get("department") or "").casefold().strip()
+        historical_awards = awards_by_agency.get(agency, [])[:5] if agency else []
         findings = [finding for document in documents for finding in _requirement_evidence(document)]
         for finding in findings:
             finding["customer_status"] = _profile_status(finding, customer_profile)
@@ -129,15 +141,18 @@ def build_us_compliance_assessments(
                 "assessment_status": status,
                 "customer_profile_id": customer_profile.profile_id,
                 "public_document_count": len(documents),
+                "historical_award_context": [{"award_canonical_id": award["canonical_id"], "recipient": award.get("source_fields", {}).get("recipient"), "award_amount": award.get("source_fields", {}).get("award_amount"), "award_end_at": award.get("source_fields", {}).get("award_end_at")} for award in historical_awards],
                 "requirements": findings,
                 "evidence": {
                     "opportunity_capture": opportunity["source_capture"],
                     "document_canonical_ids": [document["canonical_id"] for document in documents],
+                    "historical_award_canonical_ids": [award["canonical_id"] for award in historical_awards],
                 },
                 "limitations": [
                     "Assessment covers only publicly retrieved document evidence.",
                     "Evidence not found is not evidence that a requirement does not exist.",
                     "This is advisory decision support and does not submit or authorize a bid.",
+                    "Historical award context is agency-level market context, not evidence of an incumbent for this opportunity.",
                 ],
             }
         )
