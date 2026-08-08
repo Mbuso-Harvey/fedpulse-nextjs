@@ -18,6 +18,7 @@ from services.source_foundation import (  # noqa: E402
     build_capture_manifest,
     registry_for_country,
     validate_record,
+    validate_final_response_url,
     write_immutable_capture,
 )
 
@@ -63,6 +64,15 @@ def test_capture_rejects_unapproved_hosts_and_empty_bytes():
             resource_url="https://example.com/opportunities",
             raw_bytes=b"not-sam",
         )
+
+
+def test_sam_document_redirect_is_allow_listed_but_unknown_redirect_is_rejected():
+    validate_final_response_url(
+        "U2_SAM_PUBLIC_DOCUMENTS",
+        "https://iae-fbo-attachments.s3.amazonaws.com/path/to/document",
+    )
+    with pytest.raises(SourceFoundationError, match="unapproved host"):
+        validate_final_response_url("U2_SAM_PUBLIC_DOCUMENTS", "https://example.com/document")
     with pytest.raises(SourceFoundationError, match="Empty"):
         build_capture_manifest(
             source_id="C1_CANADABUYS_TENDERS",

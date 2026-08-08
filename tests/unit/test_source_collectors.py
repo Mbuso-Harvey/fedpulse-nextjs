@@ -15,6 +15,7 @@ from services.source_collectors import (  # noqa: E402
     COLLECTOR_USER_AGENT,
     SourceCollectionError,
     collect_canadabuys_resource,
+    collect_sam_public_document,
     collect_sam_opportunities,
 )
 
@@ -83,4 +84,53 @@ def test_canadabuys_capture_accepts_only_canadian_sources(tmp_path):
             resource_url="https://api.sam.gov/opportunities/v2/search",
             capture_root=tmp_path,
             client=mock_client(handler),
+        )
+
+
+def test_sam_public_document_capture_preserves_parent_lineage_without_a_key(tmp_path):
+    def handler(request):
+        assert request.url.host == "sam.gov"
+        assert request.headers["user-agent"] == COLLECTOR_USER_AGENT
+        assert "api_key" not in request.url.params
+        return httpx.Response(200, content=b"%PDF-1.7 document", headers={"content-type": "application/pdf"})
+
+    result = collect_sam_public_document(
+        parent_native_id="notice-1",
+        resource_url="https://sam.gov/api/prod/opps/v3/opportunities/resources/files/example/download",
+        resource_kind="attachment",
+        capture_root=tmp_path,
+        client=mock_client(handler),
+    )
+
+    assert result.parent_native_id == "notice-1"
+    assert result.raw_path.suffix == ".pdf"
+    manifest = json.loads(result.manifest_path.read_text(encoding="utf-8"))
+    assert manifest["source_id"] == "U2_SAM_PUBLIC_DOCUMENTS"
+    assert manifest["request_metadata"] == {
+        "final_host": "sam.gov",
+        "parent_native_id": "notice-1",
+        "redirect_count": "0",
+        "resource_kind": "attachment",
+    }
+
+
+def test_default_collector_client_follows_official_publisher_redirects():
+    from services.source_collectors import _client_or_default
+
+    client, owns_client = _client_or_default(None)
+    try:
+        assert owns_client is True
+        assert client.follow_redirects is True
+    finally:
+        client.close()
+
+
+def test_document_collection_rejects_nonpositive_timeout(tmp_path):
+    with pytest.raises(SourceCollectionError, match="timeout"):
+        collect_sam_public_document(
+            parent_native_id="notice-1",
+            resource_url="https://sam.gov/api/prod/opps/v3/opportunities/resources/files/example/download",
+            resource_kind="attachment",
+            capture_root=tmp_path,
+            timeout_seconds=0,
         )

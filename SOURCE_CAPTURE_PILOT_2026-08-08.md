@@ -57,6 +57,12 @@ The current complete CanadaBuys award and contract-history resources were captur
 
 Using the source-capture date of 2026-08-08 and a 365-day horizon, the Renewal Watch engine produced 3,428 evidence-linked contract-end watch candidates. It automatically excluded 6,006 elapsed contracts and 3,582 contracts outside the watch window. This is an urgency watchlist based on published end dates, not a prediction that a contract will renew.
 
+## U.S. public-document and compliance evidence run
+
+All 25 public attachment references in the bounded SAM opportunity window were captured through the official SAM redirect path. The operational store now contains 30 U2 document captures from this window and the preceding retrieval attempts; 24 produced extractable source text and six were automatically quarantined because they had no extractable text.
+
+The U.S. compliance engine assessed all 10 U1 opportunities against the extracted U2 evidence. Six had public-document evidence and four correctly reported `unknown_no_public_document_evidence`. The extracted evidence in this bounded window contained proposal-instruction and evaluation-criterion signals. No customer capability profile was configured, and the engine made no compliance or bid/no-bid claim for any customer.
+
 ## Not yet production-ready
 
 - The Canada parser has been tested on the small "new tender notices" feed, not the full tender corpus or historical backfill.

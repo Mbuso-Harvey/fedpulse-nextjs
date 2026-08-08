@@ -34,6 +34,7 @@ class SourceDefinition:
     cadence: str
     record_type: str
     required_record_fields: tuple[str, ...]
+    approved_redirect_hosts: tuple[str, ...] = ()
 
 
 # This registry is intentionally small. New sources require an explicit
@@ -83,6 +84,7 @@ SOURCE_REGISTRY: dict[str, SourceDefinition] = {
         cadence="with_parent_opportunity",
         record_type="opportunity_document",
         required_record_fields=("native_id", "parent_native_id", "source_url"),
+        approved_redirect_hosts=("iae-fbo-attachments.s3.amazonaws.com",),
     ),
     "U3_USASPENDING_AWARDS": SourceDefinition(
         source_id="U3_USASPENDING_AWARDS",
@@ -164,6 +166,17 @@ def validate_resource_url(source_id: str, resource_url: str) -> None:
     if parsed.scheme != "https" or host not in source.approved_hosts:
         raise SourceFoundationError(
             f"{source_id} capture must use HTTPS from an approved official host; received {resource_url!r}"
+        )
+
+
+def validate_final_response_url(source_id: str, response_url: str) -> None:
+    """Allow only the official source host or its explicitly approved redirect host."""
+    source = source_definition(source_id)
+    parsed = urlparse(response_url)
+    host = (parsed.hostname or "").lower()
+    if parsed.scheme != "https" or host not in (*source.approved_hosts, *source.approved_redirect_hosts):
+        raise SourceFoundationError(
+            f"{source_id} response resolved to an unapproved host: {response_url!r}"
         )
 
 

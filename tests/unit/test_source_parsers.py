@@ -17,13 +17,14 @@ from services.source_parsers import (  # noqa: E402
     load_verified_capture,
     parse_canadabuys_award_capture,
     parse_canadabuys_contract_history_capture,
+    parse_sam_public_document_capture,
     parse_canadabuys_tender_capture,
     parse_capture,
     parse_sam_opportunities_capture,
 )
 
 
-def write_capture(tmp_path, *, source_id, resource_url, raw_bytes, extension):
+def write_capture(tmp_path, *, source_id, resource_url, raw_bytes, extension, request_metadata=None, content_type=None):
     manifest = build_capture_manifest(
         source_id=source_id,
         resource_url=resource_url,
@@ -31,6 +32,8 @@ def write_capture(tmp_path, *, source_id, resource_url, raw_bytes, extension):
         acquired_at=datetime(2026, 8, 8, tzinfo=timezone.utc),
         parser_version="unparsed",
         schema_version="raw-v1",
+        request_metadata=request_metadata,
+        content_type=content_type,
     )
     raw_path, _ = write_immutable_capture(tmp_path, manifest, raw_bytes, extension)
     return raw_path
@@ -176,3 +179,41 @@ def test_canadabuys_award_and_contract_history_parsers_preserve_versioned_keys(t
     assert contract.accepted_records[0]["source_fields"]["contract_end_at"] == "2027-08-07"
     assert parse_capture(award_path) == award
     assert parse_capture(contract_path) == contract
+
+
+def test_sam_public_document_parser_extracts_parent_linked_text_evidence(tmp_path):
+    raw_path = write_capture(
+        tmp_path,
+        source_id="U2_SAM_PUBLIC_DOCUMENTS",
+        resource_url="https://sam.gov/api/prod/opps/v3/opportunities/resources/files/example/download",
+        raw_bytes=b"Security clearance and technical proposal instructions.",
+        extension=".txt",
+        content_type="text/plain",
+        request_metadata={"parent_native_id": "notice-1", "resource_kind": "attachment"},
+    )
+
+    result = parse_sam_public_document_capture(raw_path)
+
+    assert len(result.accepted_records) == 1
+    record = result.accepted_records[0]
+    assert record["parent_native_id"] == "notice-1"
+    assert record["document"]["file_type"] == "text"
+    assert record["document"]["passages"] == [{"page": 1, "text": "Security clearance and technical proposal instructions."}]
+    assert parse_capture(raw_path) == result
+
+
+def test_sam_public_document_parser_quarantines_unsupported_binary(tmp_path):
+    raw_path = write_capture(
+        tmp_path,
+        source_id="U2_SAM_PUBLIC_DOCUMENTS",
+        resource_url="https://sam.gov/api/prod/opps/v3/opportunities/resources/files/example/download",
+        raw_bytes=b"\x89PNG\r\n\x1a\n",
+        extension=".bin",
+        content_type="application/octet-stream",
+        request_metadata={"parent_native_id": "notice-1", "resource_kind": "attachment"},
+    )
+
+    result = parse_sam_public_document_capture(raw_path)
+
+    assert result.accepted_records == ()
+    assert result.quarantined_records[0]["reasons"] == ["no_extractable_text"]

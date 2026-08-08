@@ -11,16 +11,21 @@ from __future__ import annotations
 import csv
 from dataclasses import dataclass
 from hashlib import sha256
+from io import BytesIO
 import io
 import json
 from pathlib import Path
+import re
 from typing import Any, Mapping
+
+from pypdf import PdfReader
 
 from services.source_foundation import SourceFoundationError, source_definition, validate_record, validate_resource_url
 
 
 CANONICAL_SCHEMA_VERSION = "canonical-procurement-v1"
 PARSER_VERSION = "source-native-parser-v1"
+SAM_DOCUMENT_PARSER_VERSION = "sam-public-document-parser-v1"
 
 
 class SourceParseError(RuntimeError):
@@ -415,6 +420,128 @@ def parse_canadabuys_contract_history_capture(raw_path: Path) -> ParsedCapture:
     )
 
 
+def _sam_document_text(capture: VerifiedCapture) -> tuple[str, tuple[dict[str, Any], ...], str] | None:
+    """Extract publicly captured SAM text while preserving page/passages."""
+    content_type = str(capture.manifest.get("content_type") or "").split(";", 1)[0].lower()
+    raw = capture.raw_bytes
+    if content_type == "application/pdf" or raw.startswith(b"%PDF"):
+        try:
+            reader = PdfReader(BytesIO(raw))
+            passages = []
+            for page_number, page in enumerate(reader.pages, start=1):
+                text = _text(page.extract_text())
+                if text:
+                    passages.append({"page": page_number, "text": text})
+        except Exception as exc:  # pypdf has several format-specific error types.
+            raise SourceParseError("SAM PDF capture could not be extracted") from exc
+        full_text = "\n\n".join(passage["text"] for passage in passages)
+        return (full_text, tuple(passages), "pdf") if full_text else None
+    if content_type in {"text/plain", "text/html", "application/xhtml+xml"} or raw.lstrip().startswith(b"<"):
+        try:
+            decoded = raw.decode("utf-8")
+        except UnicodeDecodeError as exc:
+            raise SourceParseError("SAM text capture is not UTF-8") from exc
+        if "html" in content_type or raw.lstrip().startswith(b"<"):
+            decoded = re.sub(r"<[^>]+>", " ", decoded)
+            decoded = re.sub(r"\s+", " ", decoded)
+        text = _text(decoded)
+        return (text, ({"page": 1, "text": text},), "text") if text else None
+    return None
+
+
+def parse_sam_public_document_capture(raw_path: Path) -> ParsedCapture:
+    """Parse a verified U2 public document into source-linked text evidence."""
+    capture = load_verified_capture(raw_path, expected_source_id="U2_SAM_PUBLIC_DOCUMENTS")
+    parent_native_id = _text(capture.manifest.get("request_metadata", {}).get("parent_native_id"))
+    resource_kind = _text(capture.manifest.get("request_metadata", {}).get("resource_kind"))
+    if not parent_native_id or not resource_kind:
+        raise SourceParseError("SAM public document capture is missing parent opportunity lineage")
+    extracted = _sam_document_text(capture)
+    document_native_id = "sam-document-" + sha256(
+        f"{parent_native_id}\x00{capture.manifest['content_sha256']}".encode("utf-8")
+    ).hexdigest()[:24]
+    if not extracted:
+        return ParsedCapture(
+            source_id="U2_SAM_PUBLIC_DOCUMENTS",
+            country="US",
+            capture_id=str(capture.manifest["capture_id"]),
+            capture_content_sha256=str(capture.manifest["content_sha256"]),
+            capture_acquired_at=str(capture.manifest["acquired_at"]),
+            accepted_records=(),
+            quarantined_records=(
+                _quarantine(
+                    capture=capture,
+                    row_number=1,
+                    native_id=document_native_id,
+                    reasons=("no_extractable_text",),
+                ),
+            ),
+        )
+    extracted_text, passages, file_type = extracted
+    record = {
+        "canonical_schema_version": CANONICAL_SCHEMA_VERSION,
+        "canonical_id": f"US:U2_SAM_PUBLIC_DOCUMENTS:{document_native_id}",
+        "record_snapshot_id": sha256(
+            f"{capture.manifest['content_sha256']}\x00{document_native_id}".encode("utf-8")
+        ).hexdigest(),
+        "record_type": "opportunity_document",
+        "source_id": "U2_SAM_PUBLIC_DOCUMENTS",
+        "country": "US",
+        "native_id": document_native_id,
+        "parent_native_id": parent_native_id,
+        "title": None,
+        "published_at": None,
+        "source_url": capture.manifest["resource_url"],
+        "source_capture": {
+            "capture_id": capture.manifest["capture_id"],
+            "content_sha256": capture.manifest["content_sha256"],
+            "acquired_at": capture.manifest["acquired_at"],
+            "source_updated_at": capture.manifest.get("source_updated_at"),
+        },
+        "transformation": {
+            "parser_version": SAM_DOCUMENT_PARSER_VERSION,
+            "field_status": {
+                "native_id": _field_status("derived_from_parent_and_capture_checksum", document_native_id),
+                "parent_native_id": _field_status("capture_manifest.request_metadata.parent_native_id", parent_native_id),
+                "source_url": _field_status("capture_manifest.resource_url", capture.manifest["resource_url"]),
+                "extracted_text": _field_status("captured_document", extracted_text),
+            },
+        },
+        "product_lineage": {"status": "not_linked", "product_record_id": None},
+        "quality_status": "accepted",
+        "document": {
+            "resource_kind": resource_kind,
+            "content_type": capture.manifest.get("content_type"),
+            "file_type": file_type,
+            "page_count": len(passages),
+            "extracted_character_count": len(extracted_text),
+            "passages": list(passages),
+        },
+    }
+    validation = validate_record("U2_SAM_PUBLIC_DOCUMENTS", record)
+    if validation.status != "accepted":
+        return ParsedCapture(
+            source_id="U2_SAM_PUBLIC_DOCUMENTS",
+            country="US",
+            capture_id=str(capture.manifest["capture_id"]),
+            capture_content_sha256=str(capture.manifest["content_sha256"]),
+            capture_acquired_at=str(capture.manifest["acquired_at"]),
+            accepted_records=(),
+            quarantined_records=(
+                _quarantine(capture=capture, row_number=1, native_id=document_native_id, reasons=validation.reasons),
+            ),
+        )
+    return ParsedCapture(
+        source_id="U2_SAM_PUBLIC_DOCUMENTS",
+        country="US",
+        capture_id=str(capture.manifest["capture_id"]),
+        capture_content_sha256=str(capture.manifest["content_sha256"]),
+        capture_acquired_at=str(capture.manifest["acquired_at"]),
+        accepted_records=(record,),
+        quarantined_records=(),
+    )
+
+
 def parse_capture(raw_path: Path) -> ParsedCapture:
     """Dispatch a verified supported capture to its source-specific parser."""
     capture = load_verified_capture(raw_path)
@@ -427,4 +554,6 @@ def parse_capture(raw_path: Path) -> ParsedCapture:
         return parse_canadabuys_award_capture(raw_path)
     if source_id == "C3_CANADABUYS_CONTRACT_HISTORY":
         return parse_canadabuys_contract_history_capture(raw_path)
+    if source_id == "U2_SAM_PUBLIC_DOCUMENTS":
+        return parse_sam_public_document_capture(raw_path)
     raise SourceParseError(f"No parser has been approved for {source_id}")

@@ -21,6 +21,7 @@ from services.source_foundation import (
     SourceFoundationError,
     build_capture_manifest,
     source_definition,
+    validate_final_response_url,
     validate_record,
     validate_resource_url,
     write_immutable_capture,
@@ -51,10 +52,25 @@ class SamOpportunityCollection(RawCaptureResult):
     parse_error: str | None = None
 
 
-def _client_or_default(client: httpx.Client | None) -> tuple[httpx.Client, bool]:
+@dataclass(frozen=True)
+class SamPublicDocumentCapture(RawCaptureResult):
+    parent_native_id: str
+    resource_kind: str
+
+
+def _client_or_default(
+    client: httpx.Client | None,
+    *,
+    timeout_seconds: float = 30.0,
+) -> tuple[httpx.Client, bool]:
     if client is not None:
         return client, False
-    return httpx.Client(timeout=httpx.Timeout(30.0)), True
+    if timeout_seconds <= 0:
+        raise SourceCollectionError("Collector timeout must be positive")
+    # Official download resources may redirect to a publisher-managed file
+    # endpoint. The final URL is still captured through the source allow-list
+    # before persistence; redirects are not a fallback data source.
+    return httpx.Client(timeout=httpx.Timeout(timeout_seconds), follow_redirects=True), True
 
 
 def _capture_response(
@@ -99,12 +115,13 @@ def collect_canadabuys_resource(
     try:
         response = active_client.get(resource_url, headers={"User-Agent": COLLECTOR_USER_AGENT})
         response.raise_for_status()
+        validate_final_response_url(source_id, str(response.url))
         return _capture_response(
             source_id=source_id,
             resource_url=resource_url,
             capture_root=capture_root,
             raw_bytes=response.content,
-            request_metadata={},
+            request_metadata={"final_host": response.url.host or "", "redirect_count": len(response.history)},
             response=response,
             extension=".raw",
             parser_version="unparsed",
@@ -122,6 +139,17 @@ def _sam_api_key() -> str:
     if not key:
         raise SourceCollectionError("SAM_GOV_API_KEY is required; collectors do not read credential files or use fallback keys")
     return key
+
+
+def _document_extension(content_type: str | None, raw_bytes: bytes) -> str:
+    normalized = (content_type or "").split(";", 1)[0].strip().lower()
+    if normalized == "application/pdf" or raw_bytes.startswith(b"%PDF"):
+        return ".pdf"
+    if normalized in {"text/html", "application/xhtml+xml"}:
+        return ".html"
+    if normalized.startswith("text/"):
+        return ".txt"
+    return ".bin"
 
 
 def _sam_record(opportunity: Mapping[str, Any]) -> dict[str, Any]:
@@ -176,12 +204,13 @@ def collect_sam_opportunities(
             headers={"User-Agent": COLLECTOR_USER_AGENT},
         )
         response.raise_for_status()
+        validate_final_response_url("U1_SAM_OPPORTUNITIES", str(response.url))
         raw_capture = _capture_response(
             source_id="U1_SAM_OPPORTUNITIES",
             resource_url=SAM_OPPORTUNITIES_URL,
             capture_root=capture_root,
             raw_bytes=response.content,
-            request_metadata=parameters,
+            request_metadata={**parameters, "final_host": response.url.host or "", "redirect_count": len(response.history)},
             response=response,
             extension=".json",
             parser_version="sam-opportunity-v1",
@@ -223,6 +252,59 @@ def collect_sam_opportunities(
         )
     except httpx.HTTPError as exc:
         raise SourceCollectionError(f"SAM.gov collection failed: {exc}") from exc
+    finally:
+        if owns_client:
+            active_client.close()
+
+
+def collect_sam_public_document(
+    *,
+    parent_native_id: str,
+    resource_url: str,
+    resource_kind: str,
+    capture_root: Path,
+    timeout_seconds: float = 10.0,
+    client: httpx.Client | None = None,
+) -> SamPublicDocumentCapture:
+    """Capture a publicly accessible SAM document or description with lineage.
+
+    The document endpoint is intentionally unauthenticated here. A denied or
+    unavailable resource raises a visible error rather than being represented
+    as an empty document or an absence-of-requirements finding.
+    """
+    if not parent_native_id.strip():
+        raise SourceCollectionError("SAM public document collection requires a parent opportunity native ID")
+    if not resource_kind.strip():
+        raise SourceCollectionError("SAM public document collection requires a resource kind")
+    validate_resource_url("U2_SAM_PUBLIC_DOCUMENTS", resource_url)
+    active_client, owns_client = _client_or_default(client, timeout_seconds=timeout_seconds)
+    try:
+        response = active_client.get(resource_url, headers={"User-Agent": COLLECTOR_USER_AGENT})
+        response.raise_for_status()
+        validate_final_response_url("U2_SAM_PUBLIC_DOCUMENTS", str(response.url))
+        raw_capture = _capture_response(
+            source_id="U2_SAM_PUBLIC_DOCUMENTS",
+            resource_url=resource_url,
+            capture_root=capture_root,
+            raw_bytes=response.content,
+            request_metadata={
+                "parent_native_id": parent_native_id,
+                "resource_kind": resource_kind,
+                "final_host": response.url.host or "",
+                "redirect_count": len(response.history),
+            },
+            response=response,
+            extension=_document_extension(response.headers.get("content-type"), response.content),
+            parser_version="unparsed",
+            schema_version="sam-public-document-v1",
+        )
+        return SamPublicDocumentCapture(
+            **raw_capture.__dict__,
+            parent_native_id=parent_native_id,
+            resource_kind=resource_kind,
+        )
+    except httpx.HTTPError as exc:
+        raise SourceCollectionError(f"SAM.gov public document collection failed for {parent_native_id}: {exc}") from exc
     finally:
         if owns_client:
             active_client.close()
