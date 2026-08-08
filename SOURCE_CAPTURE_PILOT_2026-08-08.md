@@ -40,13 +40,24 @@ The parser stage was subsequently exercised against one newly captured CanadaBuy
 
 Each accepted candidate now retains its native ID, country, source ID and record type, captured-source URL and timestamps, capture ID and checksum, deterministic record snapshot ID, field-level mapping status, parser version, and a `not_linked` product-lineage state. The raw candidate payload is not committed to Git.
 
+## Canonical artifact persistence and review gate
+
+The validated parser outputs were materialized as immutable `accepted.jsonl` and `quarantined.jsonl` artifacts with a capture-linked `canonical.manifest.json`. Re-running the same parsed capture reuses byte-identical artifacts; a differing write or a manifest/checksum mismatch is a hard failure.
+
+| Market | Source | Accepted | Quarantined | Review status | Product eligible |
+| --- | --- | ---: | ---: | --- | --- |
+| Canada | `C1_CANADABUYS_TENDERS` | 41 | 0 | `pending_human_review` | No |
+| United States | `U1_SAM_OPPORTUNITIES` | 10 | 0 | `pending_human_review` | No |
+
+The artifacts remain under the Git-ignored `data/canonical/` operational store. The manifest requires human approval and sets `product_eligible` to `false`; no API route or product calculation can treat either pilot output as released data.
+
 ## Not yet production-ready
 
 - The Canada parser has been tested on the small "new tender notices" feed, not the full tender corpus or historical backfill.
-- Neither market has completed normalization, deduplication, amendment handling, analyst review, or release-manifest approval.
+- Neither market has completed normalization, deduplication, amendment handling, human review, or release approval.
 - The U.S. collector needs an explicit end-to-end deadline/retry policy before scheduled operation. This pilot used the existing fail-closed HTTP behavior and ran once successfully.
 - No customer-facing route or legacy ingestion path was changed by this pilot.
 
 ## Next controlled implementation step
 
-Materialize the accepted and quarantined canonical outputs as immutable, capture-linked artifacts, then add a release manifest and human-review gate before any product endpoint reads them.
+Perform stratified human review on the persisted candidates and record an explicit, immutable release decision. Only then may a separately approved product-read path be considered.

@@ -38,7 +38,10 @@ class VerifiedCapture:
 @dataclass(frozen=True)
 class ParsedCapture:
     source_id: str
+    country: str
     capture_id: str
+    capture_content_sha256: str
+    capture_acquired_at: str
     accepted_records: tuple[dict[str, Any], ...]
     quarantined_records: tuple[dict[str, Any], ...]
 
@@ -222,7 +225,10 @@ def parse_sam_opportunities_capture(raw_path: Path) -> ParsedCapture:
             quarantined.append(reject)
     return ParsedCapture(
         source_id="U1_SAM_OPPORTUNITIES",
+        country="US",
         capture_id=str(capture.manifest["capture_id"]),
+        capture_content_sha256=str(capture.manifest["content_sha256"]),
+        capture_acquired_at=str(capture.manifest["acquired_at"]),
         accepted_records=tuple(accepted),
         quarantined_records=tuple(quarantined),
     )
@@ -289,7 +295,10 @@ def parse_canadabuys_tender_capture(raw_path: Path) -> ParsedCapture:
             quarantined.append(reject)
     return ParsedCapture(
         source_id="C1_CANADABUYS_TENDERS",
+        country="CA",
         capture_id=str(capture.manifest["capture_id"]),
+        capture_content_sha256=str(capture.manifest["content_sha256"]),
+        capture_acquired_at=str(capture.manifest["acquired_at"]),
         accepted_records=tuple(accepted),
         quarantined_records=tuple(quarantined),
     )
