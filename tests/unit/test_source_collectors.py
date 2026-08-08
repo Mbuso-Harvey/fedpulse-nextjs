@@ -12,6 +12,7 @@ if str(API_DIR) not in sys.path:
     sys.path.insert(0, str(API_DIR))
 
 from services.source_collectors import (  # noqa: E402
+    COLLECTOR_USER_AGENT,
     SourceCollectionError,
     collect_canadabuys_resource,
     collect_sam_opportunities,
@@ -44,6 +45,7 @@ def test_sam_collection_captures_real_response_and_quarantines_bad_rows(tmp_path
     def handler(request):
         assert request.url.host == "api.sam.gov"
         assert request.url.params["api_key"] == "test-secret-not-for-output"
+        assert request.headers["user-agent"] == COLLECTOR_USER_AGENT
         return httpx.Response(200, json=payload, headers={"content-type": "application/json"})
 
     result = collect_sam_opportunities(
@@ -63,6 +65,7 @@ def test_sam_collection_captures_real_response_and_quarantines_bad_rows(tmp_path
 
 def test_canadabuys_capture_accepts_only_canadian_sources(tmp_path):
     def handler(request):
+        assert request.headers["user-agent"] == COLLECTOR_USER_AGENT
         return httpx.Response(200, content=b"header\\nvalue\\n", headers={"content-type": "text/csv", "last-modified": "Thu, 07 Aug 2026 00:00:00 GMT"})
 
     result = collect_canadabuys_resource(

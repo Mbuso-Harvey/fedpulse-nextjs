@@ -28,6 +28,9 @@ from services.source_foundation import (
 
 
 SAM_OPPORTUNITIES_URL = "https://api.sam.gov/opportunities/v2/search"
+# Identify the product to official publishers. Some official download hosts
+# reject generic library user agents; this is not a retry or alternate source.
+COLLECTOR_USER_AGENT = "FedPulse/0.1 (official-source-validation; contact=operations@fedpulse.example)"
 
 
 class SourceCollectionError(RuntimeError):
@@ -94,7 +97,7 @@ def collect_canadabuys_resource(
     validate_resource_url(source_id, resource_url)
     active_client, owns_client = _client_or_default(client)
     try:
-        response = active_client.get(resource_url)
+        response = active_client.get(resource_url, headers={"User-Agent": COLLECTOR_USER_AGENT})
         response.raise_for_status()
         return _capture_response(
             source_id=source_id,
@@ -167,7 +170,11 @@ def collect_sam_opportunities(
     }
     active_client, owns_client = _client_or_default(client)
     try:
-        response = active_client.get(SAM_OPPORTUNITIES_URL, params=parameters)
+        response = active_client.get(
+            SAM_OPPORTUNITIES_URL,
+            params=parameters,
+            headers={"User-Agent": COLLECTOR_USER_AGENT},
+        )
         response.raise_for_status()
         raw_capture = _capture_response(
             source_id="U1_SAM_OPPORTUNITIES",

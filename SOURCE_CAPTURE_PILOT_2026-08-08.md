@@ -29,13 +29,24 @@ The U.S. request was intentionally bounded to postings from `08/01/2026` through
 - The SAM response was parsed only after raw capture; all 10 returned records met the pilot's required identifier, title, posted-date, and U.S. country-scope checks. No records were silently substituted.
 - Raw capture content is ignored by Git. This prevents both repository bloat and accidental publishing of source payloads; this report is the committed audit trail.
 
+## Canonical parser validation
+
+The parser stage was subsequently exercised against one newly captured CanadaBuys CSV and the bounded SAM response above. Each parser first rechecks its sidecar manifest, the approved source ID and country, resource host, and raw-content SHA-256. It then emits a source-native canonical candidate or a compact quarantine entry; it does not enrich, deduplicate, merge, or publish the record.
+
+| Market | Source | Input capture | Candidate records | Quarantined records | Result |
+| --- | --- | --- | ---: | ---: | --- |
+| Canada | `C1_CANADABUYS_TENDERS` | `c1_canadabuys_tenders-20260808T003115Z-68c57ea5ec32` (292,829 bytes; SHA-256 `68c57ea5ec32ee6efb78ce9f7d34165d56e402f06975ffaf7614bb7e274656dc`) | 41 | 0 | Pass |
+| United States | `U1_SAM_OPPORTUNITIES` | `u1_sam_opportunities-20260808T002145Z-0abd9aa3efb4` | 10 | 0 | Pass |
+
+Each accepted candidate now retains its native ID, country, source ID and record type, captured-source URL and timestamps, capture ID and checksum, deterministic record snapshot ID, field-level mapping status, parser version, and a `not_linked` product-lineage state. The raw candidate payload is not committed to Git.
+
 ## Not yet production-ready
 
-- Canada tender resources still require resource-level CSV capture and parsing into the canonical schema; the pilot captured official catalogue metadata, not the tender corpus.
-- Neither market has completed normalization, deduplication, amendment handling, historical backfill, analyst review, or release-manifest approval.
+- The Canada parser has been tested on the small "new tender notices" feed, not the full tender corpus or historical backfill.
+- Neither market has completed normalization, deduplication, amendment handling, analyst review, or release-manifest approval.
 - The U.S. collector needs an explicit end-to-end deadline/retry policy before scheduled operation. This pilot used the existing fail-closed HTTP behavior and ran once successfully.
 - No customer-facing route or legacy ingestion path was changed by this pilot.
 
 ## Next controlled implementation step
 
-Add source-specific parsers that turn captured Canada and SAM raw artifacts into quarantined-or-accepted canonical records, then run fixture-based and small live validation before any product endpoint reads them.
+Materialize the accepted and quarantined canonical outputs as immutable, capture-linked artifacts, then add a release manifest and human-review gate before any product endpoint reads them.
