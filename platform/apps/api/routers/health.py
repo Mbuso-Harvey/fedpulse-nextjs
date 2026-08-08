@@ -25,6 +25,8 @@ async def readiness_check():
         "SUPABASE_SERVICE_ROLE_KEY",
         "STRIPE_SECRET_KEY",
         "STRIPE_WEBHOOK_SECRET",
+        "STRIPE_PRICE_TIER_MAP_JSON",
+        "FEDPULSE_BILLING_PLANS_JSON",
         "SAM_GOV_API_KEY",
         "FEDPULSE_DATA_ROOT",
         "CANADABUYS_AWARDS_URL",

@@ -13,7 +13,7 @@ from routers import health  # noqa: E402
 
 
 def test_readiness_fails_closed_when_launch_configuration_is_missing(monkeypatch):
-    for name in ("SUPABASE_URL", "SUPABASE_ANON_KEY", "SUPABASE_SERVICE_ROLE_KEY", "STRIPE_SECRET_KEY", "STRIPE_WEBHOOK_SECRET", "SAM_GOV_API_KEY", "FEDPULSE_DATA_ROOT", "CANADABUYS_AWARDS_URL", "CANADABUYS_CONTRACT_HISTORY_URL"):
+    for name in ("SUPABASE_URL", "SUPABASE_ANON_KEY", "SUPABASE_SERVICE_ROLE_KEY", "STRIPE_SECRET_KEY", "STRIPE_WEBHOOK_SECRET", "STRIPE_PRICE_TIER_MAP_JSON", "FEDPULSE_BILLING_PLANS_JSON", "SAM_GOV_API_KEY", "FEDPULSE_DATA_ROOT", "CANADABUYS_AWARDS_URL", "CANADABUYS_CONTRACT_HISTORY_URL"):
         monkeypatch.delenv(name, raising=False)
     app = FastAPI()
     app.include_router(health.router)

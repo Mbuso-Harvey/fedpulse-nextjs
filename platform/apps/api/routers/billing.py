@@ -1,6 +1,7 @@
 import json
 import os
 import stripe
+from datetime import datetime, timezone
 from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel
 from typing import Any, Optional
@@ -91,7 +92,9 @@ def _upsert_subscription(*, user_id: str, customer_id: str, subscription: Any) -
         raise HTTPException(status_code=422, detail="Stripe subscription price is not approved")
     try:
         supabase.table("billing_customers").upsert({"user_id": user_id, "stripe_customer_id": customer_id}, on_conflict="user_id").execute()
-        supabase.table("billing_subscriptions").upsert({"user_id": user_id, "stripe_customer_id": customer_id, "stripe_subscription_id": str(subscription["id"]), "stripe_price_id": str(price_id), "tier": tier, "status": str(subscription.get("status") or "incomplete"), "current_period_end": subscription.get("current_period_end")}, on_conflict="user_id").execute()
+        period_end = subscription.get("current_period_end")
+        period_end_value = datetime.fromtimestamp(period_end, timezone.utc).isoformat() if period_end else None
+        supabase.table("billing_subscriptions").upsert({"user_id": user_id, "stripe_customer_id": customer_id, "stripe_subscription_id": str(subscription["id"]), "stripe_price_id": str(price_id), "tier": tier, "status": str(subscription.get("status") or "incomplete"), "current_period_end": period_end_value}, on_conflict="user_id").execute()
     except Exception as exc:
         raise HTTPException(status_code=503, detail="Subscription provisioning failed") from exc
 
