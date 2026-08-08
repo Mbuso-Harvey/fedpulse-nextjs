@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 from supabase import create_client, Client
 from config import settings
 from services.auth import get_current_user
+from services.entitlements import EntitlementError, get_subscription_entitlement
 
 router = APIRouter(tags=["billing"])
 
@@ -24,7 +25,6 @@ class CheckoutSessionRequest(BaseModel):
     customer_email: Optional[str] = None
 
 class PortalSessionRequest(BaseModel):
-    customer_id: str
     return_url: str
 
 
@@ -70,6 +70,31 @@ def _configured_plans() -> list[dict[str, Any]]:
         raise HTTPException(status_code=503, detail="Billing plan configuration is incomplete")
     return plans
 
+
+def _price_tiers() -> dict[str, str]:
+    try:
+        mapping = json.loads(os.getenv("STRIPE_PRICE_TIER_MAP_JSON", "{}"))
+    except json.JSONDecodeError as exc:
+        raise HTTPException(status_code=503, detail="Stripe price tier configuration is invalid") from exc
+    if not isinstance(mapping, dict) or not mapping:
+        raise HTTPException(status_code=503, detail="Stripe price tier configuration is missing")
+    return {str(key): str(value).casefold() for key, value in mapping.items()}
+
+
+def _upsert_subscription(*, user_id: str, customer_id: str, subscription: Any) -> None:
+    if not supabase:
+        raise HTTPException(status_code=503, detail="Subscription service is not configured")
+    items = subscription.get("items", {}).get("data", [])
+    price_id = items[0].get("price", {}).get("id") if items else None
+    tier = _price_tiers().get(str(price_id))
+    if not price_id or not tier:
+        raise HTTPException(status_code=422, detail="Stripe subscription price is not approved")
+    try:
+        supabase.table("billing_customers").upsert({"user_id": user_id, "stripe_customer_id": customer_id}, on_conflict="user_id").execute()
+        supabase.table("billing_subscriptions").upsert({"user_id": user_id, "stripe_customer_id": customer_id, "stripe_subscription_id": str(subscription["id"]), "stripe_price_id": str(price_id), "tier": tier, "status": str(subscription.get("status") or "incomplete"), "current_period_end": subscription.get("current_period_end")}, on_conflict="user_id").execute()
+    except Exception as exc:
+        raise HTTPException(status_code=503, detail="Subscription provisioning failed") from exc
+
 @router.post("/billing/create-checkout-session")
 async def create_checkout_session(request: CheckoutSessionRequest, user: dict = Depends(get_current_user)):
     _require_stripe()
@@ -104,8 +129,8 @@ async def create_portal_session(request: PortalSessionRequest, user: dict = Depe
         raise HTTPException(status_code=503, detail="Customer billing identity service is not configured")
     try:
         billing_customer_id = supabase.table("billing_customers").select("stripe_customer_id").eq("user_id", verified_user_id).single().execute().data.get("stripe_customer_id")
-        if not billing_customer_id or billing_customer_id != request.customer_id:
-            raise HTTPException(status_code=403, detail="Billing customer does not belong to the authenticated user")
+        if not billing_customer_id:
+            raise HTTPException(status_code=404, detail="No billing customer found")
         session = stripe.billing_portal.Session.create(
             customer=billing_customer_id,
             return_url=_validate_return_url(request.return_url),
@@ -137,48 +162,38 @@ async def stripe_webhook(request: Request):
 
     if event["type"] == "checkout.session.completed":
         session = event["data"]["object"]
-        email = session.get('customer_email')
-        print(f"Checkout completed for {email}")
-        
-        if supabase and email:
-            try:
-                # Find user by email
-                users_response = supabase.auth.admin.list_users()
-                target_user = next((u for u in users_response.users if u.email == email), None)
-                
-                if target_user:
-                    supabase.auth.admin.update_user_by_id(
-                        target_user.id,
-                        attributes={"user_metadata": {"subscription_tier": "professional"}}
-                    )
-                    return {"status": "accepted"}
-            except Exception:
-                raise HTTPException(status_code=503, detail="Subscription provisioning failed")
+        user_id, customer_id, subscription_id = session.get("client_reference_id"), session.get("customer"), session.get("subscription")
+        if not user_id or not customer_id or not subscription_id:
+            raise HTTPException(status_code=422, detail="Subscription checkout event is incomplete")
+        _upsert_subscription(user_id=str(user_id), customer_id=str(customer_id), subscription=stripe.Subscription.retrieve(subscription_id))
 
     elif event["type"] == "customer.subscription.updated":
         subscription = event["data"]["object"]
-        print(f"Subscription updated for customer {subscription.get('customer')}")
+        if supabase:
+            rows = supabase.table("billing_subscriptions").select("user_id").eq("stripe_subscription_id", subscription.get("id")).execute().data or []
+            if len(rows) == 1:
+                _upsert_subscription(user_id=str(rows[0]["user_id"]), customer_id=str(subscription.get("customer")), subscription=subscription)
     elif event["type"] == "customer.subscription.deleted":
         subscription = event["data"]["object"]
-        print(f"Subscription deleted for customer {subscription.get('customer')}")
+        if supabase:
+            supabase.table("billing_subscriptions").update({"status": "canceled"}).eq("stripe_subscription_id", subscription.get("id")).execute()
     elif event["type"] == "invoice.payment_failed":
         invoice = event["data"]["object"]
-        print(f"Payment failed for invoice {invoice.get('id')}")
+        if supabase and invoice.get("subscription"):
+            supabase.table("billing_subscriptions").update({"status": "past_due"}).eq("stripe_subscription_id", invoice["subscription"]).execute()
 
     return {"status": "success"}
 
 @router.get("/billing/subscription-status")
 async def get_subscription_status(user: dict = Depends(get_current_user)):
-    if not supabase:
-        raise HTTPException(status_code=503, detail="Subscription service is not configured")
     user_id = _user_id(user)
     try:
-        subscription = supabase.table("billing_subscriptions").select("tier,status,current_period_end").eq("user_id", user_id).single().execute().data
-    except Exception:
+        subscription = get_subscription_entitlement(user_id)
+    except EntitlementError:
         raise HTTPException(status_code=503, detail="Subscription status is unavailable")
     if not subscription:
         raise HTTPException(status_code=404, detail="No subscription found")
-    return subscription
+    return {"tier": subscription.tier, "status": subscription.status, "current_period_end": subscription.current_period_end}
 
 @router.get("/billing/plans")
 async def get_plans():
