@@ -1,0 +1,426 @@
+"""Non-fallback collectors for approved official procurement sources.
+
+The collectors intentionally return observable failure states and never create
+sample records. Their only persistent output is an immutable raw capture plus
+the safe manifest created by :mod:`services.source_foundation`.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+import json
+import os
+from pathlib import Path
+from typing import Any, Mapping
+
+import httpx
+
+from services.source_foundation import (
+    CaptureManifest,
+    RecordValidation,
+    SourceFoundationError,
+    build_capture_manifest,
+    source_definition,
+    validate_final_response_url,
+    validate_record,
+    validate_resource_url,
+    write_immutable_capture,
+)
+from services.source_parsers import SourceParseError, load_verified_capture
+
+
+SAM_OPPORTUNITIES_URL = "https://api.sam.gov/opportunities/v2/search"
+USASPENDING_AWARDS_URL = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+# Identify the product to official publishers. Some official download hosts
+# reject generic library user agents; this is not a retry or alternate source.
+COLLECTOR_USER_AGENT = "FedPulse/0.1 (official-source-validation; contact=operations@fedpulse.example)"
+
+
+class SourceCollectionError(RuntimeError):
+    """Raised when an approved source could not be collected."""
+
+
+@dataclass(frozen=True)
+class RawCaptureResult:
+    manifest: CaptureManifest
+    raw_path: Path
+    manifest_path: Path
+
+
+@dataclass(frozen=True)
+class SamOpportunityCollection(RawCaptureResult):
+    admitted_records: tuple[dict[str, Any], ...]
+    quarantined_records: tuple[dict[str, Any], ...]
+    parse_error: str | None = None
+
+
+@dataclass(frozen=True)
+class SamPublicDocumentCapture(RawCaptureResult):
+    parent_native_id: str
+    resource_kind: str
+
+
+@dataclass(frozen=True)
+class SamPublicDocumentBatch:
+    """Observed public-document retrieval outcome for one U1 capture."""
+
+    opportunity_capture_id: str
+    discovered_count: int
+    captures: tuple[SamPublicDocumentCapture, ...]
+    failures: tuple[dict[str, str], ...]
+
+
+@dataclass(frozen=True)
+class USAspendingAwardCapture(RawCaptureResult):
+    pass
+
+
+def _client_or_default(
+    client: httpx.Client | None,
+    *,
+    timeout_seconds: float = 30.0,
+) -> tuple[httpx.Client, bool]:
+    if client is not None:
+        return client, False
+    if timeout_seconds <= 0:
+        raise SourceCollectionError("Collector timeout must be positive")
+    # Official download resources may redirect to a publisher-managed file
+    # endpoint. The final URL is still captured through the source allow-list
+    # before persistence; redirects are not a fallback data source.
+    return httpx.Client(timeout=httpx.Timeout(timeout_seconds), follow_redirects=True), True
+
+
+def _capture_response(
+    *,
+    source_id: str,
+    resource_url: str,
+    capture_root: Path,
+    raw_bytes: bytes,
+    request_metadata: Mapping[str, Any],
+    response: httpx.Response,
+    extension: str,
+    parser_version: str,
+    schema_version: str,
+) -> RawCaptureResult:
+    manifest = build_capture_manifest(
+        source_id=source_id,
+        resource_url=resource_url,
+        raw_bytes=raw_bytes,
+        source_updated_at=response.headers.get("last-modified"),
+        request_metadata=request_metadata,
+        content_type=response.headers.get("content-type"),
+        parser_version=parser_version,
+        schema_version=schema_version,
+    )
+    raw_path, manifest_path = write_immutable_capture(capture_root, manifest, raw_bytes, extension)
+    return RawCaptureResult(manifest=manifest, raw_path=raw_path, manifest_path=manifest_path)
+
+
+def collect_canadabuys_resource(
+    *,
+    source_id: str,
+    resource_url: str,
+    capture_root: Path,
+    client: httpx.Client | None = None,
+) -> RawCaptureResult:
+    """Capture an approved CanadaBuys resource without parsing it into products."""
+    source = source_definition(source_id)
+    if source.country != "CA":
+        raise SourceCollectionError(f"{source_id} is not a Canadian source")
+    validate_resource_url(source_id, resource_url)
+    active_client, owns_client = _client_or_default(client)
+    try:
+        response = active_client.get(resource_url, headers={"User-Agent": COLLECTOR_USER_AGENT})
+        response.raise_for_status()
+        validate_final_response_url(source_id, str(response.url))
+        return _capture_response(
+            source_id=source_id,
+            resource_url=resource_url,
+            capture_root=capture_root,
+            raw_bytes=response.content,
+            request_metadata={"final_host": response.url.host or "", "redirect_count": len(response.history)},
+            response=response,
+            extension=".raw",
+            parser_version="unparsed",
+            schema_version="raw-v1",
+        )
+    except httpx.HTTPError as exc:
+        raise SourceCollectionError(f"CanadaBuys collection failed for {source_id}: {exc}") from exc
+    finally:
+        if owns_client:
+            active_client.close()
+
+
+def _sam_api_key() -> str:
+    key = os.getenv("SAM_GOV_API_KEY", "").strip()
+    if not key:
+        raise SourceCollectionError("SAM_GOV_API_KEY is required; collectors do not read credential files or use fallback keys")
+    return key
+
+
+def _document_extension(content_type: str | None, raw_bytes: bytes) -> str:
+    normalized = (content_type or "").split(";", 1)[0].strip().lower()
+    if normalized == "application/pdf" or raw_bytes.startswith(b"%PDF"):
+        return ".pdf"
+    if normalized in {"text/html", "application/xhtml+xml"}:
+        return ".html"
+    if normalized.startswith("text/"):
+        return ".txt"
+    return ".bin"
+
+
+def _sam_record(opportunity: Mapping[str, Any]) -> dict[str, Any]:
+    return {
+        "native_id": opportunity.get("noticeId"),
+        "title": opportunity.get("title"),
+        "posted_at": opportunity.get("postedDate"),
+        "source_url": SAM_OPPORTUNITIES_URL,
+        "country": "US",
+        "solicitation_number": opportunity.get("solicitationNumber"),
+        "department": opportunity.get("department"),
+        "notice_type": opportunity.get("type"),
+        "response_deadline": opportunity.get("responseDeadLine"),
+    }
+
+
+def _quarantine_entry(record: Mapping[str, Any], validation: RecordValidation) -> dict[str, Any]:
+    return {
+        "native_id": record.get("native_id"),
+        "status": validation.status,
+        "reasons": list(validation.reasons),
+    }
+
+
+def collect_sam_opportunities(
+    *,
+    capture_root: Path,
+    posted_from: str,
+    posted_to: str,
+    limit: int = 100,
+    client: httpx.Client | None = None,
+) -> SamOpportunityCollection:
+    """Collect and validate a bounded SAM.gov opportunity window.
+
+    The API key is read only from ``SAM_GOV_API_KEY``. It is included in the
+    request but redacted by the manifest layer and never returned by this API.
+    """
+    if not 1 <= limit <= 1000:
+        raise SourceCollectionError("SAM opportunity limit must be between 1 and 1000")
+    api_key = _sam_api_key()
+    parameters = {
+        "api_key": api_key,
+        "limit": limit,
+        "postedFrom": posted_from,
+        "postedTo": posted_to,
+    }
+    active_client, owns_client = _client_or_default(client)
+    try:
+        response = active_client.get(
+            SAM_OPPORTUNITIES_URL,
+            params=parameters,
+            headers={"User-Agent": COLLECTOR_USER_AGENT},
+        )
+        response.raise_for_status()
+        validate_final_response_url("U1_SAM_OPPORTUNITIES", str(response.url))
+        raw_capture = _capture_response(
+            source_id="U1_SAM_OPPORTUNITIES",
+            resource_url=SAM_OPPORTUNITIES_URL,
+            capture_root=capture_root,
+            raw_bytes=response.content,
+            request_metadata={**parameters, "final_host": response.url.host or "", "redirect_count": len(response.history)},
+            response=response,
+            extension=".json",
+            parser_version="sam-opportunity-v1",
+            schema_version="sam-opportunities-v2",
+        )
+        try:
+            payload = response.json()
+        except json.JSONDecodeError:
+            return SamOpportunityCollection(
+                **raw_capture.__dict__,
+                admitted_records=(),
+                quarantined_records=(),
+                parse_error="invalid_json_response",
+            )
+        opportunities = payload.get("opportunitiesData")
+        if not isinstance(opportunities, list):
+            return SamOpportunityCollection(
+                **raw_capture.__dict__,
+                admitted_records=(),
+                quarantined_records=(),
+                parse_error="missing_opportunities_data_list",
+            )
+        admitted: list[dict[str, Any]] = []
+        quarantined: list[dict[str, Any]] = []
+        for opportunity in opportunities:
+            if not isinstance(opportunity, Mapping):
+                quarantined.append({"native_id": None, "status": "quarantined", "reasons": ["invalid_source_record"]})
+                continue
+            record = _sam_record(opportunity)
+            validation = validate_record("U1_SAM_OPPORTUNITIES", record)
+            if validation.status == "accepted":
+                admitted.append(record)
+            else:
+                quarantined.append(_quarantine_entry(record, validation))
+        return SamOpportunityCollection(
+            **raw_capture.__dict__,
+            admitted_records=tuple(admitted),
+            quarantined_records=tuple(quarantined),
+        )
+    except httpx.HTTPError as exc:
+        raise SourceCollectionError(f"SAM.gov collection failed: {exc}") from exc
+    finally:
+        if owns_client:
+            active_client.close()
+
+
+def collect_sam_public_document(
+    *,
+    parent_native_id: str,
+    resource_url: str,
+    resource_kind: str,
+    capture_root: Path,
+    timeout_seconds: float = 10.0,
+    client: httpx.Client | None = None,
+) -> SamPublicDocumentCapture:
+    """Capture a publicly accessible SAM document or description with lineage.
+
+    The document endpoint is intentionally unauthenticated here. A denied or
+    unavailable resource raises a visible error rather than being represented
+    as an empty document or an absence-of-requirements finding.
+    """
+    if not parent_native_id.strip():
+        raise SourceCollectionError("SAM public document collection requires a parent opportunity native ID")
+    if not resource_kind.strip():
+        raise SourceCollectionError("SAM public document collection requires a resource kind")
+    validate_resource_url("U2_SAM_PUBLIC_DOCUMENTS", resource_url)
+    active_client, owns_client = _client_or_default(client, timeout_seconds=timeout_seconds)
+    try:
+        response = active_client.get(resource_url, headers={"User-Agent": COLLECTOR_USER_AGENT})
+        response.raise_for_status()
+        validate_final_response_url("U2_SAM_PUBLIC_DOCUMENTS", str(response.url))
+        raw_capture = _capture_response(
+            source_id="U2_SAM_PUBLIC_DOCUMENTS",
+            resource_url=resource_url,
+            capture_root=capture_root,
+            raw_bytes=response.content,
+            request_metadata={
+                "parent_native_id": parent_native_id,
+                "resource_kind": resource_kind,
+                "final_host": response.url.host or "",
+                "redirect_count": len(response.history),
+            },
+            response=response,
+            extension=_document_extension(response.headers.get("content-type"), response.content),
+            parser_version="unparsed",
+            schema_version="sam-public-document-v1",
+        )
+        return SamPublicDocumentCapture(
+            **raw_capture.__dict__,
+            parent_native_id=parent_native_id,
+            resource_kind=resource_kind,
+        )
+    except httpx.HTTPError as exc:
+        raise SourceCollectionError(f"SAM.gov public document collection failed for {parent_native_id}: {exc}") from exc
+    finally:
+        if owns_client:
+            active_client.close()
+
+
+def collect_sam_public_documents_from_capture(
+    *,
+    opportunity_raw_path: Path,
+    capture_root: Path,
+    timeout_seconds: float = 10.0,
+    client: httpx.Client | None = None,
+) -> SamPublicDocumentBatch:
+    """Retrieve only U1-published public resources with parent-opportunity lineage.
+
+    A failed attachment is represented as a bounded failure observation. It is
+    never converted into an empty document or an absence-of-requirements
+    signal. The U1 raw capture is checksum-verified before its links are read.
+    """
+    try:
+        opportunity_capture = load_verified_capture(opportunity_raw_path, expected_source_id="U1_SAM_OPPORTUNITIES")
+        payload = json.loads(opportunity_capture.raw_bytes.decode("utf-8"))
+    except (SourceParseError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise SourceCollectionError("SAM document discovery requires a verified U1 JSON capture") from exc
+    opportunities = payload.get("opportunitiesData") if isinstance(payload, Mapping) else None
+    if not isinstance(opportunities, list):
+        raise SourceCollectionError("SAM document discovery capture has no opportunitiesData list")
+
+    resources: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for opportunity in opportunities:
+        if not isinstance(opportunity, Mapping):
+            continue
+        parent_native_id = str(opportunity.get("noticeId") or "").strip()
+        raw_links = opportunity.get("resourceLinks")
+        links = [raw_links] if isinstance(raw_links, str) else raw_links if isinstance(raw_links, list) else []
+        for raw_link in links:
+            resource_url = str(raw_link or "").strip()
+            key = (parent_native_id, resource_url)
+            if parent_native_id and resource_url and key not in seen:
+                seen.add(key)
+                resources.append(key)
+
+    captures: list[SamPublicDocumentCapture] = []
+    failures: list[dict[str, str]] = []
+    for parent_native_id, resource_url in resources:
+        try:
+            captures.append(
+                collect_sam_public_document(
+                    parent_native_id=parent_native_id,
+                    resource_url=resource_url,
+                    resource_kind="u1_resource_link",
+                    capture_root=capture_root,
+                    timeout_seconds=timeout_seconds,
+                    client=client,
+                )
+            )
+        except (SourceCollectionError, SourceFoundationError):
+            failures.append({"parent_native_id": parent_native_id, "reason": "public_resource_not_retrieved"})
+    return SamPublicDocumentBatch(
+        opportunity_capture_id=str(opportunity_capture.manifest["capture_id"]),
+        discovered_count=len(resources),
+        captures=tuple(captures),
+        failures=tuple(failures),
+    )
+
+
+def collect_usaspending_awards(
+    *,
+    request_payload: Mapping[str, Any],
+    capture_root: Path,
+    client: httpx.Client | None = None,
+) -> USAspendingAwardCapture:
+    """Capture one bounded official USAspending award-search response."""
+    limit = request_payload.get("limit")
+    if not isinstance(limit, int) or not 1 <= limit <= 100:
+        raise SourceCollectionError("USAspending award search limit must be an integer between 1 and 100")
+    active_client, owns_client = _client_or_default(client)
+    try:
+        response = active_client.post(
+            USASPENDING_AWARDS_URL,
+            json=dict(request_payload),
+            headers={"User-Agent": COLLECTOR_USER_AGENT},
+        )
+        response.raise_for_status()
+        validate_final_response_url("U3_USASPENDING_AWARDS", str(response.url))
+        raw_capture = _capture_response(
+            source_id="U3_USASPENDING_AWARDS",
+            resource_url=USASPENDING_AWARDS_URL,
+            capture_root=capture_root,
+            raw_bytes=response.content,
+            request_metadata={"request_payload": json.dumps(request_payload, sort_keys=True), "final_host": response.url.host or ""},
+            response=response,
+            extension=".json",
+            parser_version="usaspending-award-v1",
+            schema_version="usaspending-spending-by-award-v2",
+        )
+        return USAspendingAwardCapture(**raw_capture.__dict__)
+    except httpx.HTTPError as exc:
+        raise SourceCollectionError(f"USAspending award collection failed: {exc}") from exc
+    finally:
+        if owns_client:
+            active_client.close()

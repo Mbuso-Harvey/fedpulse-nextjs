@@ -1,6 +1,7 @@
 node_modules/
 .env
 .env.*
+sam_gov creds.txt
 .next/
 data/
 scripts/
