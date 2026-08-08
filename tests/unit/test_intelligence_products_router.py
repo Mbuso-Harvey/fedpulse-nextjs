@@ -40,9 +40,10 @@ def _release(tmp_path):
 def test_router_serves_only_verified_entitled_release(tmp_path, monkeypatch):
     _release(tmp_path)
     monkeypatch.setenv("PRODUCT_RELEASE_ROOT", str(tmp_path / "products"))
+    monkeypatch.setattr(intelligence_products, "active_subscription_tier", lambda _user_id: "watch")
     app = FastAPI()
     app.include_router(intelligence_products.router)
-    app.dependency_overrides[get_current_user] = lambda: {"user_metadata": {"subscription_tier": "watch"}}
+    app.dependency_overrides[get_current_user] = lambda: {"id": "user-1"}
     client = TestClient(app)
 
     response = client.get("/intelligence/ca/renewal_watch")
@@ -50,5 +51,5 @@ def test_router_serves_only_verified_entitled_release(tmp_path, monkeypatch):
     assert response.json()["release"]["release_status"] == "released"
     assert response.json()["records"][0]["candidate_id"] == "candidate-1"
 
-    app.dependency_overrides[get_current_user] = lambda: {"user_metadata": {"subscription_tier": "starter"}}
+    monkeypatch.setattr(intelligence_products, "active_subscription_tier", lambda _user_id: "starter")
     assert client.get("/intelligence/ca/renewal_watch").status_code == 403

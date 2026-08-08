@@ -11,6 +11,7 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 
 from services.auth import get_current_user
 from services.customer_capability_profiles import CustomerCapabilityProfileError, get_customer_capability_profile
+from services.entitlements import EntitlementError, active_subscription_tier
 from services.product_releases import ProductRelease, ProductReleaseError, verify_product_release
 
 
@@ -35,15 +36,17 @@ def _authorize_product(user: dict[str, Any], *, country: str, product: str) -> s
     allowed_tiers = _PRODUCT_TIERS.get((country, product))
     if not allowed_tiers:
         raise HTTPException(status_code=404, detail="Unknown intelligence product")
-    metadata = _user_metadata(user)
-    tier = str(metadata.get("subscription_tier") or "").casefold()
+    user_id = user.get("id") or user.get("sub")
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Verified user identifier is required")
+    try:
+        tier = active_subscription_tier(str(user_id))
+    except EntitlementError as exc:
+        raise HTTPException(status_code=503, detail="Subscription service is unavailable") from exc
     if tier not in allowed_tiers:
         raise HTTPException(status_code=403, detail="Subscription does not include this intelligence product")
     if country != "US":
         return None
-    user_id = user.get("id") or user.get("sub")
-    if not user_id:
-        raise HTTPException(status_code=401, detail="Verified user identifier is required")
     try:
         profile = get_customer_capability_profile(str(user_id))
     except CustomerCapabilityProfileError as exc:
