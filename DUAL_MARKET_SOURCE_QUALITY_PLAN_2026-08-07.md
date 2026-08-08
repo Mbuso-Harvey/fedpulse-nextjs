@@ -2,7 +2,7 @@
 
 **Decision date:** 2026-08-07
 **Purpose:** Commercialise separate Canadian and U.S. procurement products from official, reproducible evidence.
-**Status:** Active execution plan. The official C1, C2, C3, U1, U2, and U3 source paths have immutable-capture and canonical-parser implementations. Current C2/C3 resources, public U2 attachments from the active U1 window, and a bounded U3 award-context response have been captured and processed. Immutable Gold product-release artifacts are now implemented; scheduled operations and customer-serving APIs remain incomplete.
+**Status:** Active execution plan. The official C1, C2, C3, U1, U2, and U3 source paths have immutable-capture and canonical-parser implementations. Current C2/C3 resources, public U2 attachments from the active U1 window, and a bounded U3 award-context response have been captured and processed. Immutable Gold product releases and their country-scoped, entitlement-gated API are implemented. The Canada Renewal Watch production refresh completed successfully on 2026-08-08; U.S. release automation now awaits persisted customer capability profiles and deployment scheduling.
 
 ## 1. Non-negotiable operating model
 

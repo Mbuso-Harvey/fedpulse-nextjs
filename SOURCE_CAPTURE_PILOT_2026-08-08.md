@@ -71,6 +71,10 @@ The official USAspending `spending_by_award` search endpoint was captured with a
 
 Canonical artifacts are not exposed directly to customers. The new immutable product-release layer verifies every input canonical manifest and checksum, required source coverage, country isolation, capture freshness, record-level evidence and limitations, and product-record checksum before setting a release to `released`. A customer-facing API must verify this release manifest before reading records; a stale, partial, or invalid input cannot be represented as a successful release.
 
+## Canada production Renewal Watch refresh
+
+The repeatable production workflow was executed against the current official C2 award and C3 contract-history resources after the release boundary was implemented. It generated immutable release `ca-renewal_watch-20260808-25a7b0ab12dff8e9` with 3,428 customer-readable, evidence-linked renewal-watch records. Its automated observations recorded 6,006 elapsed contracts and 3,582 contracts outside the 365-day window as excluded; neither category was silently dropped or presented as an active renewal opportunity. The release contains only C2/C3 Canadian evidence and is verified before the product API may read it.
+
 ## Not yet production-ready
 
 - The Canada parser has been tested on the small "new tender notices" feed, not the full tender corpus or historical backfill.

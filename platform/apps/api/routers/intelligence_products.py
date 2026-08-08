@@ -10,6 +10,7 @@ from typing import Any
 from fastapi import APIRouter, Depends, HTTPException, Query
 
 from services.auth import get_current_user
+from services.customer_capability_profiles import CustomerCapabilityProfileError, get_customer_capability_profile
 from services.product_releases import ProductRelease, ProductReleaseError, verify_product_release
 
 
@@ -38,8 +39,18 @@ def _authorize_product(user: dict[str, Any], *, country: str, product: str) -> s
     tier = str(metadata.get("subscription_tier") or "").casefold()
     if tier not in allowed_tiers:
         raise HTTPException(status_code=403, detail="Subscription does not include this intelligence product")
-    profile_id = metadata.get("customer_profile_id")
-    return str(profile_id) if profile_id else None
+    if country != "US":
+        return None
+    user_id = user.get("id") or user.get("sub")
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Verified user identifier is required")
+    try:
+        profile = get_customer_capability_profile(str(user_id))
+    except CustomerCapabilityProfileError as exc:
+        raise HTTPException(status_code=503, detail="Customer capability profile service is unavailable") from exc
+    if not profile:
+        raise HTTPException(status_code=403, detail="A configured customer capability profile is required for this product")
+    return profile.profile_id
 
 
 def _latest_release(*, country: str, product: str, customer_scope_id: str | None) -> ProductRelease:
@@ -111,8 +122,6 @@ async def product_records(
 ) -> dict[str, Any]:
     normalized_country = country.upper()
     customer_scope_id = _authorize_product(user, country=normalized_country, product=product)
-    if normalized_country == "US" and not customer_scope_id:
-        raise HTTPException(status_code=403, detail="A configured customer capability profile is required for this product")
     release = _latest_release(country=normalized_country, product=product, customer_scope_id=customer_scope_id)
     return {
         "release": _public_release_summary(release),
