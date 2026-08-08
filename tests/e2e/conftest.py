@@ -47,3 +47,8 @@ def starter_tier_headers():
 @pytest.fixture
 def unonboarded_headers():
     return {"Authorization": "Bearer professional-test-principal", "X-User-Id": "unonboarded-test-user"}
+
+
+@pytest.fixture
+def unauth_headers():
+    return {"X-User-Id": "unonboarded-test-user"}
