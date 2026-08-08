@@ -63,6 +63,14 @@ All 25 public attachment references in the bounded SAM opportunity window were c
 
 The U.S. compliance engine assessed all 10 U1 opportunities against the extracted U2 evidence. Six had public-document evidence and four correctly reported `unknown_no_public_document_evidence`. The extracted evidence in this bounded window contained proposal-instruction and evaluation-criterion signals. No customer capability profile was configured, and the engine made no compliance or bid/no-bid claim for any customer.
 
+## U.S. award-context evidence run
+
+The official USAspending `spending_by_award` search endpoint was captured with a bounded, versioned request for 100 recent contract awards. Capture `u3_usaspending_awards-20260808T012146Z-4a2e7bdca148` admitted all 100 published award rows with no quarantine entries and passed the canonical automated gate. The parser preserves the publisher's award ID, recipient, amount, awarding agency, and start/end dates as historical award context. It does not represent the bounded response as a complete award universe or infer a current opportunity's incumbent without an explicit source-native join.
+
+## Product release boundary
+
+Canonical artifacts are not exposed directly to customers. The new immutable product-release layer verifies every input canonical manifest and checksum, required source coverage, country isolation, capture freshness, record-level evidence and limitations, and product-record checksum before setting a release to `released`. A customer-facing API must verify this release manifest before reading records; a stale, partial, or invalid input cannot be represented as a successful release.
+
 ## Not yet production-ready
 
 - The Canada parser has been tested on the small "new tender notices" feed, not the full tender corpus or historical backfill.
