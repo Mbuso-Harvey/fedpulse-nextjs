@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers import health, search, renewals, departments, suppliers, recommendations, billing, pipeline
 from config import settings
+from routers import intelligence_products
 
 app = FastAPI(
     title=settings.api_title,
@@ -32,6 +33,7 @@ app.include_router(suppliers.router, prefix=api_prefix)
 app.include_router(recommendations.router, prefix=api_prefix)
 app.include_router(billing.router, prefix=api_prefix)
 app.include_router(pipeline.router, prefix=api_prefix)
+app.include_router(intelligence_products.router, prefix=api_prefix)
 
 @app.get("/")
 async def root():

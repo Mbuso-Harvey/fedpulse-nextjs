@@ -128,6 +128,7 @@ def materialize_product_release(
     coverage_through: date,
     max_capture_age_days: int,
     release_root: Path,
+    customer_scope_id: str | None = None,
 ) -> ProductRelease:
     """Write an immutable, customer-readable release after deterministic checks.
 
@@ -140,6 +141,8 @@ def materialize_product_release(
         raise ProductReleaseError("Product release country must be CA or US")
     if not product.strip() or not engine_version.strip():
         raise ProductReleaseError("Product release requires a product and engine version")
+    if customer_scope_id is not None and not customer_scope_id.strip():
+        raise ProductReleaseError("customer_scope_id cannot be blank")
     if coverage_through > as_of:
         raise ProductReleaseError("coverage_through cannot be after as_of")
 
@@ -167,6 +170,7 @@ def materialize_product_release(
             "engine_version": engine_version,
             "as_of": as_of.isoformat(),
             "coverage_through": coverage_through.isoformat(),
+            "customer_scope_id": customer_scope_id,
             "input_manifests": [item["canonical_manifest_sha256"] for item in input_metadata],
             "records_sha256": _digest(records_bytes),
         },
@@ -186,6 +190,7 @@ def materialize_product_release(
         "as_of": as_of.isoformat(),
         "coverage_through": coverage_through.isoformat(),
         "release_status": "released",
+        "audience": {"scope": "customer" if customer_scope_id else "market", "customer_scope_id": customer_scope_id},
         "records": {"file": records_path.name, "record_count": len(release_records), "sha256": _digest(records_bytes)},
         "inputs": input_metadata,
         "source_ids": list(source_ids),
@@ -225,6 +230,11 @@ def verify_product_release(manifest_path: Path) -> ProductRelease:
     country = manifest.get("country")
     if country not in {"CA", "US"}:
         raise ProductReleaseError("Product release has invalid country")
+    audience = manifest.get("audience", {})
+    if audience.get("scope") not in {"market", "customer"} or (
+        audience.get("scope") == "customer" and not audience.get("customer_scope_id")
+    ):
+        raise ProductReleaseError("Product release has an invalid audience scope")
     records_meta = manifest.get("records", {})
     records_path = manifest_path.parent / str(records_meta.get("file", ""))
     records_bytes = records_path.read_bytes() if records_path.is_file() else None
@@ -282,15 +292,20 @@ def release_us_compliance_assessments(
     max_capture_age_days: int = 2,
 ) -> ProductRelease:
     """Release U.S. advisory compliance assessments backed by U1 and U2 evidence."""
+    assessment_records = tuple(dict(assessment) for assessment in assessments)
+    profile_ids = {str(record.get("customer_profile_id") or "").strip() for record in assessment_records}
+    if len(profile_ids) != 1 or not next(iter(profile_ids)):
+        raise ProductReleaseError("U.S. compliance release requires exactly one customer capability profile")
     return materialize_product_release(
         product="bid_no_bid_compliance_analyst",
         country="US",
         engine_version=COMPLIANCE_ENGINE_VERSION,
-        records=assessments,
+        records=assessment_records,
         input_manifest_paths=[opportunity_manifest_path, *document_manifest_paths],
         required_source_ids={"U1_SAM_OPPORTUNITIES", "U2_SAM_PUBLIC_DOCUMENTS"},
         as_of=as_of,
         coverage_through=as_of,
         max_capture_age_days=max_capture_age_days,
         release_root=release_root,
+        customer_scope_id=next(iter(profile_ids)),
     )
