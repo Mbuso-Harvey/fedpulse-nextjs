@@ -1,6 +1,6 @@
 # FedPulse Automated Quality and Release Policy
 
-**Effective:** 2026-08-08  
+**Effective:** 2026-08-08
 **Authority:** Product-owner direction, which supersedes the proposed manual-review language in the earlier source plan.
 
 FedPulse is a commercial subscription business. Its data and intelligence releases must be repeatable, observable, and fully automated; no human record-review or release-approval queue is an operating dependency.

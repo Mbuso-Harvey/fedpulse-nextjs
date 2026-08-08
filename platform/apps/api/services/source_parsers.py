@@ -304,6 +304,117 @@ def parse_canadabuys_tender_capture(raw_path: Path) -> ParsedCapture:
     )
 
 
+def _canadabuys_versioned_native_id(
+    row: Mapping[str | None, Any],
+    *native_id_fields: str,
+) -> tuple[str | None, str | None]:
+    """Return the publisher's business key plus its amendment where available."""
+    base_id, base_field = _first_value(row, *native_id_fields)
+    amendment, amendment_field = _first_value(row, "amendmentNumber-numeroModification")
+    if not base_id:
+        return None, base_field
+    if amendment:
+        return f"{base_id}~{amendment}", f"{base_field}+{amendment_field}"
+    return base_id, base_field
+
+
+def _parse_canadabuys_commercial_csv_capture(
+    raw_path: Path,
+    *,
+    source_id: str,
+    title_required: bool,
+) -> ParsedCapture:
+    """Parse current CanadaBuys award or contract-history CSV captures."""
+    capture = load_verified_capture(raw_path, expected_source_id=source_id)
+    try:
+        reader = csv.DictReader(io.StringIO(capture.raw_bytes.decode("utf-8-sig")))
+    except UnicodeDecodeError as exc:
+        raise SourceParseError(f"{source_id} capture is not UTF-8 CSV") from exc
+    if not reader.fieldnames:
+        raise SourceParseError(f"{source_id} capture has no CSV header")
+    native_id_fields = (
+        "contractNumber-numeroContrat",
+        "referenceNumber-numeroReference",
+        "solicitationNumber-numeroSollicitation",
+        "procurementNumber-numeroApprovisionnement",
+    )
+    required_header_groups = [native_id_fields, ("publicationDate-datePublication",)]
+    if title_required:
+        required_header_groups.append(("title-titre-eng", "title-titre-fra"))
+    if any(not set(group).intersection(reader.fieldnames) for group in required_header_groups):
+        raise SourceParseError(f"{source_id} capture is missing canonical mapping headers")
+
+    accepted: list[dict[str, Any]] = []
+    quarantined: list[dict[str, Any]] = []
+    for row_number, row in enumerate(reader, start=2):
+        if not isinstance(row, Mapping):
+            quarantined.append(_quarantine(capture=capture, row_number=row_number, native_id=None, reasons=("invalid_source_record",)))
+            continue
+        native_id, native_id_field = _canadabuys_versioned_native_id(row, *native_id_fields)
+        title, title_field = _first_value(row, "title-titre-eng", "title-titre-fra")
+        published_at, published_at_field = _first_value(row, "publicationDate-datePublication")
+        candidate, reject = _admit_or_quarantine(
+            capture=capture,
+            row_number=row_number,
+            native_id=native_id,
+            title=title,
+            published_at=published_at,
+            field_status={
+                "native_id": _field_status(native_id_field, native_id),
+                "title": _field_status(title_field, title),
+                "published_at": _field_status(published_at_field, published_at),
+                "source_url": _field_status("capture_manifest.resource_url", capture.manifest["resource_url"]),
+            },
+            source_fields={
+                "contract_number": row.get("contractNumber-numeroContrat"),
+                "reference_number": row.get("referenceNumber-numeroReference"),
+                "solicitation_number": row.get("solicitationNumber-numeroSollicitation"),
+                "amendment_number": row.get("amendmentNumber-numeroModification"),
+                "award_date": row.get("contractAwardDate-dateAttributionContrat"),
+                "contract_start_at": row.get("contractStartDate-contratDateDebut"),
+                "contract_end_at": row.get("contractEndDate-dateFinContrat"),
+                "contract_amount": row.get("contractAmount-montantContrat"),
+                "total_contract_value": row.get("totalContractValue-valeurTotaleContrat"),
+                "currency": row.get("contractCurrency-contratMonnaie"),
+                "contract_status": row.get("contractStatus-statutContrat-eng") or row.get("awardStatus-attributionStatut-eng"),
+                "supplier": row.get("supplierStandardizedName-nomNormaliseFournisseur-eng") or row.get("supplierLegalName-nomLegalFournisseur-eng"),
+                "contracting_entity": row.get("contractingEntityName-nomEntitContractante-eng"),
+                "unspsc": row.get("unspsc"),
+            },
+        )
+        if candidate:
+            accepted.append(candidate)
+        if reject:
+            quarantined.append(reject)
+    return ParsedCapture(
+        source_id=source_id,
+        country="CA",
+        capture_id=str(capture.manifest["capture_id"]),
+        capture_content_sha256=str(capture.manifest["content_sha256"]),
+        capture_acquired_at=str(capture.manifest["acquired_at"]),
+        accepted_records=tuple(accepted),
+        quarantined_records=tuple(quarantined),
+    )
+
+
+def parse_canadabuys_award_capture(raw_path: Path) -> ParsedCapture:
+    """Parse a verified C2 CanadaBuys award CSV."""
+    return _parse_canadabuys_commercial_csv_capture(
+        raw_path,
+        source_id="C2_CANADABUYS_AWARDS",
+        title_required=True,
+    )
+
+
+def parse_canadabuys_contract_history_capture(raw_path: Path) -> ParsedCapture:
+    """Parse a verified C3 CanadaBuys contract-history CSV for Renewal Watch."""
+    return _parse_canadabuys_commercial_csv_capture(
+        raw_path,
+        source_id="C3_CANADABUYS_CONTRACT_HISTORY",
+        title_required=False,
+    )
+
+
 def parse_capture(raw_path: Path) -> ParsedCapture:
     """Dispatch a verified supported capture to its source-specific parser."""
     capture = load_verified_capture(raw_path)
@@ -312,4 +423,8 @@ def parse_capture(raw_path: Path) -> ParsedCapture:
         return parse_sam_opportunities_capture(raw_path)
     if source_id == "C1_CANADABUYS_TENDERS":
         return parse_canadabuys_tender_capture(raw_path)
+    if source_id == "C2_CANADABUYS_AWARDS":
+        return parse_canadabuys_award_capture(raw_path)
+    if source_id == "C3_CANADABUYS_CONTRACT_HISTORY":
+        return parse_canadabuys_contract_history_capture(raw_path)
     raise SourceParseError(f"No parser has been approved for {source_id}")

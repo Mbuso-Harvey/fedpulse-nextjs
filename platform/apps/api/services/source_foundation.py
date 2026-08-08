@@ -55,7 +55,7 @@ SOURCE_REGISTRY: dict[str, SourceDefinition] = {
         approved_hosts=("open.canada.ca", "donnees-data.tpsgc-pwgsc.gc.ca", "canadabuys.canada.ca"),
         cadence="publisher_metadata_checked",
         record_type="award_notice",
-        required_record_fields=("native_id", "title", "source_url"),
+        required_record_fields=("native_id", "title", "published_at", "source_url"),
     ),
     "C3_CANADABUYS_CONTRACT_HISTORY": SourceDefinition(
         source_id="C3_CANADABUYS_CONTRACT_HISTORY",
@@ -64,7 +64,7 @@ SOURCE_REGISTRY: dict[str, SourceDefinition] = {
         approved_hosts=("open.canada.ca", "donnees-data.tpsgc-pwgsc.gc.ca", "canadabuys.canada.ca"),
         cadence="monthly",
         record_type="contract_history",
-        required_record_fields=("native_id", "source_url"),
+        required_record_fields=("native_id", "published_at", "source_url"),
     ),
     "U1_SAM_OPPORTUNITIES": SourceDefinition(
         source_id="U1_SAM_OPPORTUNITIES",

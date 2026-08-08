@@ -2,7 +2,7 @@
 
 **Decision date:** 2026-08-07
 **Purpose:** Commercialise separate Canadian and U.S. procurement products from official, reproducible evidence.
-**Status:** Proposed execution plan; no source refresh or application change has been run from this document.
+**Status:** Active execution plan. The official C1, C2, C3, and U1 source paths have immutable-capture and canonical-parser implementations; C2/C3 current resources have been captured and processed. U2/U3 and product-serving paths remain incomplete.
 
 ## 1. Non-negotiable operating model
 

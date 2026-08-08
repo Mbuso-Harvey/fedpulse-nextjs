@@ -15,6 +15,8 @@ from services.source_foundation import build_capture_manifest, write_immutable_c
 from services.source_parsers import (  # noqa: E402
     SourceParseError,
     load_verified_capture,
+    parse_canadabuys_award_capture,
+    parse_canadabuys_contract_history_capture,
     parse_canadabuys_tender_capture,
     parse_capture,
     parse_sam_opportunities_capture,
@@ -137,3 +139,40 @@ def test_parser_rejects_a_manifest_sidecar_as_raw_data(tmp_path):
     manifest_path = raw_path.with_name(f"{raw_path.stem}.manifest.json")
     with pytest.raises(SourceParseError, match="sidecar"):
         load_verified_capture(manifest_path)
+
+
+def test_canadabuys_award_and_contract_history_parsers_preserve_versioned_keys(tmp_path):
+    award_path = write_capture(
+        tmp_path,
+        source_id="C2_CANADABUYS_AWARDS",
+        resource_url="https://canadabuys.canada.ca/opendata/pub/awardNoticeComplete-avisAttributionComplet.csv",
+        raw_bytes=(
+            "title-titre-eng,referenceNumber-numeroReference,contractNumber-numeroContrat,amendmentNumber-numeroModification,"
+            "publicationDate-datePublication,contractAwardDate-dateAttributionContrat,contractAmount-montantContrat,"
+            "contractCurrency-contratMonnaie,supplierLegalName-nomLegalFournisseur-eng\n"
+            "Security platform,REF-1,CON-1,002,2026-08-07,2026-08-06,250000,CAD,Example Supplier\n"
+        ).encode(),
+        extension=".csv",
+    )
+    contract_path = write_capture(
+        tmp_path,
+        source_id="C3_CANADABUYS_CONTRACT_HISTORY",
+        resource_url="https://canadabuys.canada.ca/opendata/pub/contractHistoryComplete-historiqueContratsComplet.csv",
+        raw_bytes=(
+            "referenceNumber-numeroReference,contractNumber-numeroContrat,amendmentNumber-numeroModification,"
+            "publicationDate-datePublication,contractEndDate-dateFinContrat,totalContractValue-valeurTotaleContrat,"
+            "contractCurrency-contratMonnaie,supplierStandardizedName-nomNormaliseFournisseur-eng\n"
+            "REF-2,CON-2,003,2026-08-07,2027-08-07,500000,CAD,Example Supplier\n"
+        ).encode(),
+        extension=".csv",
+    )
+
+    award = parse_canadabuys_award_capture(award_path)
+    contract = parse_canadabuys_contract_history_capture(contract_path)
+
+    assert award.accepted_records[0]["native_id"] == "CON-1~002"
+    assert award.accepted_records[0]["source_fields"]["supplier"] == "Example Supplier"
+    assert contract.accepted_records[0]["native_id"] == "CON-2~003"
+    assert contract.accepted_records[0]["source_fields"]["contract_end_at"] == "2027-08-07"
+    assert parse_capture(award_path) == award
+    assert parse_capture(contract_path) == contract

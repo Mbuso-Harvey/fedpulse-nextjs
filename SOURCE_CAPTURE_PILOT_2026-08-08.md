@@ -51,6 +51,12 @@ The validated parser outputs were materialized as immutable `accepted.jsonl` and
 
 The artifacts remain under the Git-ignored `data/canonical/` operational store. The manifest records automated lineage, checksum, schema, and record-count checks. `product_eligible` remains `false` because the canonical stage is not the product-release stage; subsequent automated normalization, freshness, reconciliation, and product-calculation gates determine eligibility.
 
+## Renewal Watch engine run
+
+The current complete CanadaBuys award and contract-history resources were captured and processed through the same automated path. The award capture admitted 26,870 records. The contract-history capture admitted 21,268 records and automatically quarantined six records missing a publication date.
+
+Using the source-capture date of 2026-08-08 and a 365-day horizon, the Renewal Watch engine produced 3,428 evidence-linked contract-end watch candidates. It automatically excluded 6,006 elapsed contracts and 3,582 contracts outside the watch window. This is an urgency watchlist based on published end dates, not a prediction that a contract will renew.
+
 ## Not yet production-ready
 
 - The Canada parser has been tested on the small "new tender notices" feed, not the full tender corpus or historical backfill.

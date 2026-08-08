@@ -89,7 +89,12 @@ def test_record_validation_quarantines_missing_or_cross_country_records():
 
     wrong_country = validate_record(
         "C3_CANADABUYS_CONTRACT_HISTORY",
-        {"native_id": "contract-1", "source_url": "https://open.canada.ca/data/en/dataset/example", "country": "US"},
+        {
+            "native_id": "contract-1",
+            "published_at": "2026-08-08",
+            "source_url": "https://open.canada.ca/data/en/dataset/example",
+            "country": "US",
+        },
     )
     assert wrong_country.status == "quarantined"
     assert wrong_country.reasons == ("country_mismatch",)
