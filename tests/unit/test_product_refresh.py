@@ -11,7 +11,8 @@ if str(API_DIR) not in sys.path:
     sys.path.insert(0, str(API_DIR))
 
 from services.compliance_intelligence import CustomerCapabilityProfile  # noqa: E402
-from services.product_refresh import refresh_canadian_renewal_watch, refresh_us_compliance_analyst  # noqa: E402
+from services.customer_capability_profiles import StoredCustomerCapabilityProfile  # noqa: E402
+from services import product_refresh  # noqa: E402
 from services.product_releases import verify_product_release  # noqa: E402
 
 
@@ -33,7 +34,7 @@ def test_canadian_refresh_runs_official_capture_to_verified_release(tmp_path):
 
     client = httpx.Client(transport=httpx.MockTransport(handler))
     try:
-        result = refresh_canadian_renewal_watch(
+        result = product_refresh.refresh_canadian_renewal_watch(
             award_resource_url="https://canadabuys.canada.ca/opendata/pub/awardNoticeComplete-avisAttributionComplet.csv",
             contract_resource_url="https://canadabuys.canada.ca/opendata/pub/contractHistoryComplete-contratsOctroyesComplet.csv",
             capture_root=tmp_path / "captures",
@@ -75,7 +76,7 @@ def test_us_refresh_runs_official_metadata_documents_and_profile_scoped_release(
 
     client = httpx.Client(transport=httpx.MockTransport(handler))
     try:
-        result = refresh_us_compliance_analyst(
+        result = product_refresh.refresh_us_compliance_analyst(
             capture_root=tmp_path / "captures",
             canonical_root=tmp_path / "canonical",
             release_root=tmp_path / "products",
@@ -95,3 +96,37 @@ def test_us_refresh_runs_official_metadata_documents_and_profile_scoped_release(
         "retrieved_count": 1,
         "failed_count": 0,
     }
+
+
+def test_us_batch_refresh_shares_one_source_capture_across_configured_profiles(tmp_path, monkeypatch):
+    monkeypatch.setenv("SAM_GOV_API_KEY", "test-key-not-for-output")
+    as_of = datetime.now(timezone.utc).date()
+    profiles = (
+        StoredCustomerCapabilityProfile("profile-1", "user-1", (), (), (), 1),
+        StoredCustomerCapabilityProfile("profile-2", "user-2", ("CMMC",), (), (), 1),
+    )
+    monkeypatch.setattr(product_refresh, "list_customer_capability_profiles", lambda: profiles)
+    requests = []
+
+    def handler(request):
+        requests.append(request.url.host)
+        if request.url.host == "api.sam.gov":
+            return httpx.Response(
+                200,
+                json={"opportunitiesData": [{"noticeId": "notice-1", "title": "Support", "postedDate": as_of.isoformat(), "resourceLinks": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/example/download"}]},
+                headers={"content-type": "application/json"}, request=request,
+            )
+        return httpx.Response(200, content=b"Offerors must submit a proposal.", headers={"content-type": "text/plain"}, request=request)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    try:
+        result = product_refresh.refresh_us_compliance_for_configured_customers(
+            capture_root=tmp_path / "captures", canonical_root=tmp_path / "canonical", release_root=tmp_path / "products",
+            posted_from=as_of.strftime("%m/%d/%Y"), posted_to=as_of.strftime("%m/%d/%Y"), as_of=as_of, client=client,
+        )
+    finally:
+        client.close()
+
+    assert len(result.releases) == 2
+    assert requests.count("api.sam.gov") == 1
+    assert {release.manifest["audience"]["customer_scope_id"] for release in result.releases} == {"profile-1", "profile-2"}
