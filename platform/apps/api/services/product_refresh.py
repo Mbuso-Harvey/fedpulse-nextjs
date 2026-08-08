@@ -9,7 +9,7 @@ partial release as successful.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Mapping
 
@@ -27,6 +27,7 @@ from services.source_collectors import (
     collect_canadabuys_resource,
     collect_sam_opportunities,
     collect_sam_public_documents_from_capture,
+    collect_usaspending_awards,
 )
 from services.source_parsers import parse_capture
 
@@ -46,6 +47,7 @@ class USComplianceRefresh:
     opportunity_artifacts: CanonicalArtifactSet
     document_batch: SamPublicDocumentBatch
     document_artifacts: tuple[CanonicalArtifactSet, ...]
+    historical_award_artifact: CanonicalArtifactSet
     release: ProductRelease
 
 
@@ -57,6 +59,7 @@ class USComplianceBatchRefresh:
     opportunity_artifacts: CanonicalArtifactSet | None
     document_batch: SamPublicDocumentBatch | None
     document_artifacts: tuple[CanonicalArtifactSet, ...]
+    historical_award_artifact: CanonicalArtifactSet | None
     releases: tuple[ProductRelease, ...]
 
 
@@ -68,7 +71,8 @@ def _prepare_us_public_evidence(
     posted_to: str,
     limit: int,
     client: httpx.Client | None,
-) -> tuple[SamOpportunityCollection, CanonicalArtifactSet, SamPublicDocumentBatch, tuple[CanonicalArtifactSet, ...]]:
+    as_of: date,
+) -> tuple[SamOpportunityCollection, CanonicalArtifactSet, SamPublicDocumentBatch, tuple[CanonicalArtifactSet, ...], CanonicalArtifactSet]:
     opportunity_capture = collect_sam_opportunities(
         capture_root=capture_root,
         posted_from=posted_from,
@@ -86,7 +90,9 @@ def _prepare_us_public_evidence(
         materialize_parsed_capture(parse_capture(capture.raw_path), artifact_root=canonical_root)
         for capture in document_batch.captures
     )
-    return opportunity_capture, opportunity_artifacts, document_batch, document_artifacts
+    award_capture = collect_usaspending_awards(request_payload={"filters": {"time_period": [{"start_date": (as_of - timedelta(days=730)).isoformat(), "end_date": as_of.isoformat()}], "award_type_codes": ["A", "B", "C", "D"]}, "fields": ["Award ID", "Recipient Name", "Award Amount", "Awarding Agency", "Start Date", "End Date"], "page": 1, "limit": 100, "sort": "Award Amount", "order": "desc"}, capture_root=capture_root, client=client)
+    historical_award_artifact = materialize_parsed_capture(parse_capture(award_capture.raw_path), artifact_root=canonical_root)
+    return opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, historical_award_artifact
 
 
 def _release_us_profile(
@@ -94,6 +100,7 @@ def _release_us_profile(
     opportunity_artifacts: CanonicalArtifactSet,
     document_batch: SamPublicDocumentBatch,
     document_artifacts: tuple[CanonicalArtifactSet, ...],
+    historical_award_artifact: CanonicalArtifactSet,
     customer_profile: CustomerCapabilityProfile,
     as_of: date,
     release_root: Path,
@@ -102,11 +109,13 @@ def _release_us_profile(
         opportunity_manifest_path=opportunity_artifacts.manifest_path,
         document_manifest_paths=[artifact.manifest_path for artifact in document_artifacts],
         customer_profile=customer_profile,
+        historical_award_manifest_paths=[historical_award_artifact.manifest_path],
     )
     return release_us_compliance_assessments(
         assessments=assessments,
         opportunity_manifest_path=opportunity_artifacts.manifest_path,
         document_manifest_paths=[artifact.manifest_path for artifact in document_artifacts],
+        historical_award_manifest_paths=[historical_award_artifact.manifest_path],
         as_of=as_of,
         release_root=release_root,
         operational_observations={
@@ -168,23 +177,25 @@ def refresh_us_compliance_analyst(
     client: httpx.Client | None = None,
 ) -> USComplianceRefresh:
     """Produce a profile-scoped U.S. compliance release from U1 and public U2."""
-    opportunity_capture, opportunity_artifacts, document_batch, document_artifacts = _prepare_us_public_evidence(
+    opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, historical_award_artifact = _prepare_us_public_evidence(
         capture_root=capture_root,
         canonical_root=canonical_root,
         posted_from=posted_from,
         posted_to=posted_to,
         limit=limit,
         client=client,
+        as_of=as_of,
     )
     release = _release_us_profile(
         opportunity_artifacts=opportunity_artifacts,
         document_batch=document_batch,
         document_artifacts=document_artifacts,
+        historical_award_artifact=historical_award_artifact,
         customer_profile=customer_profile,
         as_of=as_of,
         release_root=release_root,
     )
-    return USComplianceRefresh(opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, release)
+    return USComplianceRefresh(opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, historical_award_artifact, release)
 
 
 def refresh_us_compliance_for_configured_customers(
@@ -201,24 +212,26 @@ def refresh_us_compliance_for_configured_customers(
     """Refresh all persisted customer profiles from one shared U1/U2 evidence set."""
     profiles: tuple[StoredCustomerCapabilityProfile, ...] = list_customer_capability_profiles()
     if not profiles:
-        return USComplianceBatchRefresh(None, None, None, (), ())
-    opportunity_capture, opportunity_artifacts, document_batch, document_artifacts = _prepare_us_public_evidence(
+        return USComplianceBatchRefresh(None, None, None, (), None, ())
+    opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, historical_award_artifact = _prepare_us_public_evidence(
         capture_root=capture_root,
         canonical_root=canonical_root,
         posted_from=posted_from,
         posted_to=posted_to,
         limit=limit,
         client=client,
+        as_of=as_of,
     )
     releases = tuple(
         _release_us_profile(
             opportunity_artifacts=opportunity_artifacts,
             document_batch=document_batch,
             document_artifacts=document_artifacts,
+            historical_award_artifact=historical_award_artifact,
             customer_profile=profile.to_engine_profile(),
             as_of=as_of,
             release_root=release_root,
         )
         for profile in profiles
     )
-    return USComplianceBatchRefresh(opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, releases)
+    return USComplianceBatchRefresh(opportunity_capture, opportunity_artifacts, document_batch, document_artifacts, historical_award_artifact, releases)

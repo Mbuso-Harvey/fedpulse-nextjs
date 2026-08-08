@@ -72,6 +72,8 @@ def test_us_refresh_runs_official_metadata_documents_and_profile_scoped_release(
                 headers={"content-type": "application/json"},
                 request=request,
             )
+        if request.url.host == "api.usaspending.gov":
+            return httpx.Response(200, json={"results": []}, headers={"content-type": "application/json"}, request=request)
         return httpx.Response(200, content=b"Offerors must submit a proposal.", headers={"content-type": "text/plain"}, request=request)
 
     client = httpx.Client(transport=httpx.MockTransport(handler))
@@ -116,6 +118,8 @@ def test_us_batch_refresh_shares_one_source_capture_across_configured_profiles(t
                 json={"opportunitiesData": [{"noticeId": "notice-1", "title": "Support", "postedDate": as_of.isoformat(), "resourceLinks": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/example/download"}]},
                 headers={"content-type": "application/json"}, request=request,
             )
+        if request.url.host == "api.usaspending.gov":
+            return httpx.Response(200, json={"results": []}, headers={"content-type": "application/json"}, request=request)
         return httpx.Response(200, content=b"Offerors must submit a proposal.", headers={"content-type": "text/plain"}, request=request)
 
     client = httpx.Client(transport=httpx.MockTransport(handler))
