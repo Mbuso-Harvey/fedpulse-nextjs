@@ -1,0 +1,83 @@
+import json
+from pathlib import Path
+import sys
+
+import httpx
+import pytest
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+API_DIR = PROJECT_ROOT / "platform" / "apps" / "api"
+if str(API_DIR) not in sys.path:
+    sys.path.insert(0, str(API_DIR))
+
+from services.source_collectors import (  # noqa: E402
+    SourceCollectionError,
+    collect_canadabuys_resource,
+    collect_sam_opportunities,
+)
+
+
+def mock_client(handler):
+    return httpx.Client(transport=httpx.MockTransport(handler))
+
+
+def test_sam_collection_requires_managed_environment_key(tmp_path, monkeypatch):
+    monkeypatch.delenv("SAM_GOV_API_KEY", raising=False)
+    with pytest.raises(SourceCollectionError, match="SAM_GOV_API_KEY"):
+        collect_sam_opportunities(
+            capture_root=tmp_path,
+            posted_from="08/01/2026",
+            posted_to="08/07/2026",
+        )
+
+
+def test_sam_collection_captures_real_response_and_quarantines_bad_rows(tmp_path, monkeypatch):
+    monkeypatch.setenv("SAM_GOV_API_KEY", "test-secret-not-for-output")
+    payload = {
+        "opportunitiesData": [
+            {"noticeId": "notice-1", "title": "Cybersecurity support", "postedDate": "2026-08-07"},
+            {"noticeId": "notice-2", "postedDate": "2026-08-07"},
+        ]
+    }
+
+    def handler(request):
+        assert request.url.host == "api.sam.gov"
+        assert request.url.params["api_key"] == "test-secret-not-for-output"
+        return httpx.Response(200, json=payload, headers={"content-type": "application/json"})
+
+    result = collect_sam_opportunities(
+        capture_root=tmp_path,
+        posted_from="08/01/2026",
+        posted_to="08/07/2026",
+        client=mock_client(handler),
+    )
+
+    assert [record["native_id"] for record in result.admitted_records] == ["notice-1"]
+    assert result.quarantined_records == ({"native_id": "notice-2", "status": "quarantined", "reasons": ["missing_title"]},)
+    manifest_text = result.manifest_path.read_text(encoding="utf-8")
+    assert "test-secret-not-for-output" not in manifest_text
+    assert json.loads(manifest_text)["request_metadata"]["api_key"] == "[REDACTED]"
+    assert json.loads(result.raw_path.read_text(encoding="utf-8")) == payload
+
+
+def test_canadabuys_capture_accepts_only_canadian_sources(tmp_path):
+    def handler(request):
+        return httpx.Response(200, content=b"header\\nvalue\\n", headers={"content-type": "text/csv", "last-modified": "Thu, 07 Aug 2026 00:00:00 GMT"})
+
+    result = collect_canadabuys_resource(
+        source_id="C1_CANADABUYS_TENDERS",
+        resource_url="https://open.canada.ca/data/en/dataset/example",
+        capture_root=tmp_path,
+        client=mock_client(handler),
+    )
+    assert result.manifest.country == "CA"
+    assert result.raw_path.read_bytes() == b"header\\nvalue\\n"
+
+    with pytest.raises(SourceCollectionError, match="not a Canadian source"):
+        collect_canadabuys_resource(
+            source_id="U1_SAM_OPPORTUNITIES",
+            resource_url="https://api.sam.gov/opportunities/v2/search",
+            capture_root=tmp_path,
+            client=mock_client(handler),
+        )
